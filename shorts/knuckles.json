@@ -1,0 +1,171 @@
+{
+  "id": "knuckles",
+  "title": "What really happens when you crack your knuckles",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "post": {
+    "youtube_title": "What Actually Happens When You Crack Your Knuckles? #shorts",
+    "caption": "It's not your bones. In 2015, scientists filmed it inside an MRI. And one doctor cracked only ONE hand for 60+ years to test the arthritis myth 🤯",
+    "hashtags": ["science", "humanbody", "didyouknow", "knucklecracking", "learnontiktok", "facts", "shorts"],
+    "pinned_comment": "How many times a day do you crack yours? 👇"
+  },
+  "sources": [
+    "Kawchuk et al. (2015), 'Real-Time Visualization of Joint Cavitation', PLOS ONE",
+    "Unger (1998), 'Does knuckle cracking lead to arthritis of the fingers?', Arthritis & Rheumatism; 2009 Ig Nobel Prize in Medicine",
+    "deWeber et al. (2011), J Am Board Fam Med: no link between knuckle cracking and hand osteoarthritis"
+  ],
+  "beats": [
+    {
+      "text": "That *pop* when you crack your knuckles? It isn't your bones breaking.",
+      "bg": ["#3d7bff", "#0a1450"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 820, "r": 430, "color": "#bcd4ff", "idle": "none", "opacity": 0.55},
+        {"type": "icon", "name": "hand-with-fingers-splayed", "x": 540, "y": 820, "size": 540, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "collision", "x": 790, "y": 560, "size": 270, "enter": "zoom", "on": "pop", "idle": "pulse", "impact": true},
+        {"type": "icon", "name": "bone", "x": 290, "y": 1090, "size": 230, "enter": "pop", "on": "bones", "idle": "wiggle"},
+        {"type": "icon", "name": "cross-mark", "x": 290, "y": 1090, "size": 200, "enter": "zoom", "on": "breaking", "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "And it isn't your joints grinding together, either.",
+      "bg": ["#5b6cff", "#141a5c"],
+      "elements": [
+        {"type": "icon", "name": "bone", "x": 360, "y": 820, "size": 380, "enter": "slideL", "idle": "shake", "rot": 40},
+        {"type": "icon", "name": "bone", "x": 720, "y": 820, "size": 380, "enter": "slideR", "idle": "shake", "rot": -40, "flip": true},
+        {"type": "icon", "name": "cross-mark", "x": 540, "y": 820, "size": 400, "enter": "zoom", "on": "grinding", "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "Every knuckle is a joint wrapped in a tiny *capsule*, filled with a slippery liquid called *synovial* *fluid*.",
+      "bg": ["#22b8cf", "#06323d"],
+      "elements": [
+        {"type": "svg", "x": 540, "y": 790, "w": 440, "h": 660, "enter": "pop", "idle": "bob",
+         "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 900'><defs><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='#e2d3b5'/><stop offset='0.5' stop-color='#fffaf0'/><stop offset='1' stop-color='#cdb88f'/></linearGradient><radialGradient id='f'><stop offset='0' stop-color='#d9f7ff'/><stop offset='1' stop-color='#64c9ff'/></radialGradient><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#000'/><stop offset='0.15' stop-color='#fff'/><stop offset='0.85' stop-color='#fff'/><stop offset='1' stop-color='#000'/></linearGradient><mask id='k'><rect width='600' height='900' fill='url(#m)'/></mask></defs><g mask='url(#k)'><rect x='95' y='250' width='410' height='400' rx='190' fill='url(#f)' fill-opacity='0.92' stroke='#ff7aa2' stroke-width='18'/><path d='M220 0H380V300C380 330 430 340 430 380C430 420 380 430 300 430C220 430 170 420 170 380C170 340 220 330 220 300Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/><path d='M220 900H380V600C380 570 430 560 430 520C430 480 380 470 300 470C220 470 170 480 170 520C170 560 220 570 220 600Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/></g></svg>"},
+        {"type": "text", "text": "CAPSULE", "x": 850, "y": 560, "size": 56, "bg": "#ff4f8b", "enter": "zoom", "on": "capsule", "idle": "none"},
+        {"type": "text", "text": "SYNOVIAL FLUID", "x": 540, "y": 1215, "size": 62, "bg": "#1c8fd6", "enter": "zoom", "on": "synovial", "idle": "none"}
+      ]
+    },
+    {
+      "text": "That fluid has *gas* dissolved in it, a bit like a sealed bottle of soda.",
+      "bg": ["#27c96b", "#063b1f"],
+      "elements": [
+        {"type": "svg", "x": 360, "y": 800, "w": 360, "h": 540, "enter": "pop", "idle": "bob",
+         "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 900'><defs><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='#e2d3b5'/><stop offset='0.5' stop-color='#fffaf0'/><stop offset='1' stop-color='#cdb88f'/></linearGradient><radialGradient id='f'><stop offset='0' stop-color='#d9f7ff'/><stop offset='1' stop-color='#64c9ff'/></radialGradient><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#000'/><stop offset='0.15' stop-color='#fff'/><stop offset='0.85' stop-color='#fff'/><stop offset='1' stop-color='#000'/></linearGradient><mask id='k'><rect width='600' height='900' fill='url(#m)'/></mask></defs><g mask='url(#k)'><rect x='95' y='250' width='410' height='400' rx='190' fill='url(#f)' fill-opacity='0.92' stroke='#ff7aa2' stroke-width='18'/><path d='M220 0H380V300C380 330 430 340 430 380C430 420 380 430 300 430C220 430 170 420 170 380C170 340 220 330 220 300Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/><path d='M220 900H380V600C380 570 430 560 430 520C430 480 380 470 300 470C220 470 170 480 170 520C170 560 220 570 220 600Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/></g></svg>"},
+        {"type": "particles", "name": "bubbles", "x": 360, "y": 800, "count": 8, "area": [190, 560, 340, 480], "speed": 90, "minSize": 40, "maxSize": 80, "on": "gas", "enter": "fade", "idle": "none"},
+        {"type": "icon", "name": "cup-with-straw", "x": 790, "y": 900, "size": 330, "enter": "slideR", "on": "soda", "idle": "float", "impact": true}
+      ]
+    },
+    {
+      "text": "When you stretch or bend your finger, the space inside the joint gets *bigger*, and the pressure drops.",
+      "bg": ["#8b5cf6", "#1e0b4b"],
+      "elements": [
+        {"type": "svg", "x": 470, "y": 800, "w": 440, "h": 660, "enter": "pop", "idle": "bob", "outOn": "bigger",
+         "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 900'><defs><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='#e2d3b5'/><stop offset='0.5' stop-color='#fffaf0'/><stop offset='1' stop-color='#cdb88f'/></linearGradient><radialGradient id='f'><stop offset='0' stop-color='#d9f7ff'/><stop offset='1' stop-color='#64c9ff'/></radialGradient><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#000'/><stop offset='0.15' stop-color='#fff'/><stop offset='0.85' stop-color='#fff'/><stop offset='1' stop-color='#000'/></linearGradient><mask id='k'><rect width='600' height='900' fill='url(#m)'/></mask></defs><g mask='url(#k)'><rect x='95' y='250' width='410' height='400' rx='190' fill='url(#f)' fill-opacity='0.92' stroke='#ff7aa2' stroke-width='18'/><path d='M220 0H380V300C380 330 430 340 430 380C430 420 380 430 300 430C220 430 170 420 170 380C170 340 220 330 220 300Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/><path d='M220 900H380V600C380 570 430 560 430 520C430 480 380 470 300 470C220 470 170 480 170 520C170 560 220 570 220 600Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/></g></svg>"},
+        {"type": "svg", "x": 470, "y": 800, "w": 440, "h": 660, "enter": "fade", "on": "bigger", "idle": "bob",
+         "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 900'><defs><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='#e2d3b5'/><stop offset='0.5' stop-color='#fffaf0'/><stop offset='1' stop-color='#cdb88f'/></linearGradient><radialGradient id='f'><stop offset='0' stop-color='#d9f7ff'/><stop offset='1' stop-color='#64c9ff'/></radialGradient><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#000'/><stop offset='0.15' stop-color='#fff'/><stop offset='0.85' stop-color='#fff'/><stop offset='1' stop-color='#000'/></linearGradient><mask id='k'><rect width='600' height='900' fill='url(#m)'/></mask></defs><g mask='url(#k)'><rect x='95' y='180' width='410' height='540' rx='205' fill='url(#f)' fill-opacity='0.92' stroke='#ff7aa2' stroke-width='18'/><path transform='translate(0,-80)' d='M220 0H380V300C380 330 430 340 430 380C430 420 380 430 300 430C220 430 170 420 170 380C170 340 220 330 220 300Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/><path transform='translate(0,80)' d='M220 900H380V600C380 570 430 560 430 520C430 480 380 470 300 470C220 470 170 480 170 520C170 560 220 570 220 600Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/></g></svg>"},
+        {"type": "text", "text": "PRESSURE", "x": 850, "y": 560, "size": 54, "bg": "#e53935", "enter": "zoom", "on": "pressure", "idle": "none"},
+        {"type": "icon", "name": "down-arrow", "x": 850, "y": 760, "size": 220, "enter": "drop", "on": "drops", "idle": "bob", "impact": true}
+      ]
+    },
+    {
+      "text": "For decades, scientists *argued* about what happens next.",
+      "bg": ["#f59e0b", "#4a1d00"],
+      "elements": [
+        {"type": "icon", "name": "man-scientist", "x": 320, "y": 860, "size": 400, "enter": "slideL", "idle": "sway"},
+        {"type": "icon", "name": "woman-scientist", "x": 760, "y": 860, "size": 400, "enter": "slideR", "idle": "sway", "flip": true},
+        {"type": "icon", "name": "right-anger-bubble", "x": 540, "y": 540, "size": 240, "enter": "zoom", "on": "argued", "idle": "shake", "impact": true}
+      ]
+    },
+    {
+      "text": "So in {2015|twenty fifteen}, researchers in Canada filmed knuckles cracking inside an *MRI* scanner.",
+      "bg": ["#ef4444", "#450a0a"],
+      "elements": [
+        {"type": "text", "text": "2015", "x": 540, "y": 460, "size": 140, "color": "#FFE14D", "enter": "zoom", "idle": "none"},
+        {"type": "icon", "name": "maple-leaf", "x": 290, "y": 780, "size": 280, "enter": "spin", "on": "canada", "idle": "sway"},
+        {"type": "icon", "name": "movie-camera", "x": 790, "y": 780, "size": 280, "enter": "pop", "on": "filmed", "idle": "bob"},
+        {"type": "icon", "name": "magnet", "x": 540, "y": 1070, "size": 300, "enter": "zoom", "on": "mri", "idle": "pulse", "impact": true}
+      ]
+    },
+    {
+      "text": "At the exact moment of the *pop*, they saw a gas *bubble* suddenly form inside the fluid.",
+      "bg": ["#06b6d4", "#083344"],
+      "elements": [
+        {"type": "svg", "x": 540, "y": 800, "w": 440, "h": 660, "enter": "pop", "idle": "bob", "outOn": "bubble",
+         "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 900'><defs><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='#e2d3b5'/><stop offset='0.5' stop-color='#fffaf0'/><stop offset='1' stop-color='#cdb88f'/></linearGradient><radialGradient id='f'><stop offset='0' stop-color='#d9f7ff'/><stop offset='1' stop-color='#64c9ff'/></radialGradient><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#000'/><stop offset='0.15' stop-color='#fff'/><stop offset='0.85' stop-color='#fff'/><stop offset='1' stop-color='#000'/></linearGradient><mask id='k'><rect width='600' height='900' fill='url(#m)'/></mask></defs><g mask='url(#k)'><rect x='95' y='180' width='410' height='540' rx='205' fill='url(#f)' fill-opacity='0.92' stroke='#ff7aa2' stroke-width='18'/><path transform='translate(0,-80)' d='M220 0H380V300C380 330 430 340 430 380C430 420 380 430 300 430C220 430 170 420 170 380C170 340 220 330 220 300Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/><path transform='translate(0,80)' d='M220 900H380V600C380 570 430 560 430 520C430 480 380 470 300 470C220 470 170 480 170 520C170 560 220 570 220 600Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/></g></svg>"},
+        {"type": "svg", "x": 540, "y": 800, "w": 440, "h": 660, "enter": "fade", "on": "bubble", "idle": "bob", "impact": true,
+         "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 900'><defs><linearGradient id='b' x1='0' x2='1'><stop offset='0' stop-color='#e2d3b5'/><stop offset='0.5' stop-color='#fffaf0'/><stop offset='1' stop-color='#cdb88f'/></linearGradient><radialGradient id='f'><stop offset='0' stop-color='#d9f7ff'/><stop offset='1' stop-color='#64c9ff'/></radialGradient><radialGradient id='g' cx='0.38' cy='0.35' r='0.7'><stop offset='0' stop-color='#ffffff'/><stop offset='0.7' stop-color='#eafcff'/><stop offset='1' stop-color='#b8ecff'/></radialGradient><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#000'/><stop offset='0.15' stop-color='#fff'/><stop offset='0.85' stop-color='#fff'/><stop offset='1' stop-color='#000'/></linearGradient><mask id='k'><rect width='600' height='900' fill='url(#m)'/></mask></defs><g mask='url(#k)'><rect x='95' y='180' width='410' height='540' rx='205' fill='url(#f)' fill-opacity='0.92' stroke='#ff7aa2' stroke-width='18'/><path transform='translate(0,-80)' d='M220 0H380V300C380 330 430 340 430 380C430 420 380 430 300 430C220 430 170 420 170 380C170 340 220 330 220 300Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/><path transform='translate(0,80)' d='M220 900H380V600C380 570 430 560 430 520C430 480 380 470 300 470C220 470 170 480 170 520C170 560 220 570 220 600Z' fill='url(#b)' stroke='#a88f63' stroke-width='10'/><circle cx='300' cy='450' r='82' fill='url(#g)' stroke='#ffffff' stroke-width='8'/><circle cx='272' cy='418' r='20' fill='#ffffff'/><circle cx='392' cy='518' r='20' fill='#ffffff' fill-opacity='0.85'/><circle cx='214' cy='508' r='13' fill='#ffffff' fill-opacity='0.85'/></g></svg>"},
+        {"type": "icon", "name": "collision", "x": 840, "y": 540, "size": 230, "enter": "zoom", "on": "pop", "idle": "pulse", "impact": true},
+        {"type": "text", "text": "GAS BUBBLE", "x": 540, "y": 1215, "size": 66, "bg": "#0e7490", "enter": "zoom", "on": "bubble", "idle": "none"}
+      ]
+    },
+    {
+      "text": "That's also why you can't crack the same knuckle twice in a row. It takes about *twenty* minutes for the gas to dissolve back in.",
+      "bg": ["#3b82f6", "#0b1d55"],
+      "elements": [
+        {"type": "icon", "name": "hand-with-fingers-splayed", "x": 540, "y": 800, "size": 440, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "prohibited", "x": 280, "y": 1060, "size": 200, "enter": "zoom", "on": "can't", "idle": "pulse"},
+        {"type": "text", "text": "~20 MIN", "x": 540, "y": 460, "size": 120, "color": "#FFE14D", "enter": "zoom", "on": "twenty"},
+        {"type": "icon", "name": "stopwatch", "x": 800, "y": 1060, "size": 250, "enter": "pop", "on": "twenty", "idle": "wiggle", "impact": true}
+      ]
+    },
+    {
+      "text": "But does cracking them give you *arthritis*?",
+      "bg": ["#a855f7", "#2e1065"],
+      "elements": [
+        {"type": "icon", "name": "old-man", "x": 540, "y": 830, "size": 500, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "red-question-mark", "x": 810, "y": 560, "size": 240, "enter": "zoom", "on": "arthritis", "idle": "wiggle", "impact": true}
+      ]
+    },
+    {
+      "text": "One doctor, Donald Unger, tested it on himself.",
+      "bg": ["#14b8a6", "#042f2e"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 820, "r": 420, "color": "#b9fff1", "idle": "none", "opacity": 0.5},
+        {"type": "icon", "name": "man-health-worker", "x": 540, "y": 820, "size": 520, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "clipboard", "x": 830, "y": 1070, "size": 230, "enter": "spin", "on": "tested", "idle": "bob"}
+      ]
+    },
+    {
+      "text": "For more than *sixty* years, he cracked the knuckles on his left hand, but never on his right.",
+      "bg": ["#f97316", "#431407"],
+      "elements": [
+        {"type": "text", "text": "60+ YEARS", "x": 540, "y": 450, "size": 124, "color": "#FFE14D", "enter": "zoom", "on": "sixty"},
+        {"type": "icon", "name": "raised-hand", "x": 300, "y": 830, "size": 340, "enter": "slideL", "idle": "float", "flip": true, "label": "Left"},
+        {"type": "icon", "name": "raised-hand", "x": 780, "y": 830, "size": 340, "enter": "slideR", "idle": "float", "label": "Right"},
+        {"type": "icon", "name": "collision", "x": 420, "y": 700, "size": 180, "enter": "zoom", "on": "left", "idle": "pulse", "impact": true},
+        {"type": "icon", "name": "zzz", "x": 880, "y": 700, "size": 160, "enter": "pop", "on": "never", "idle": "bob"}
+      ]
+    },
+    {
+      "text": "In the end, *neither* hand had arthritis. And in {2009|two thousand nine}, he won an *Ig* *Nobel* Prize for it.",
+      "bg": ["#eab308", "#422006"],
+      "elements": [
+        {"type": "icon", "name": "raised-hand", "x": 300, "y": 760, "size": 280, "enter": "pop", "idle": "float", "flip": true},
+        {"type": "icon", "name": "raised-hand", "x": 780, "y": 760, "size": 280, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "check-mark-button", "x": 390, "y": 620, "size": 140, "enter": "pop", "on": "neither", "idle": "bob"},
+        {"type": "icon", "name": "check-mark-button", "x": 870, "y": 620, "size": 140, "enter": "pop", "on": "neither", "delay": 0.1, "idle": "bob"},
+        {"type": "text", "text": "IG NOBEL PRIZE", "x": 540, "y": 450, "size": 96, "color": "#FFE14D", "enter": "zoom", "on": "ig"},
+        {"type": "icon", "name": "trophy", "x": 540, "y": 1080, "size": 300, "enter": "drop", "on": "ig", "idle": "float", "impact": true},
+        {"type": "icon", "name": "party-popper", "x": 830, "y": 1100, "size": 170, "enter": "pop", "on": "prize", "idle": "wiggle"}
+      ]
+    },
+    {
+      "text": "Bigger studies agree. There's *no* good evidence it causes arthritis.",
+      "bg": ["#22c55e", "#052e16"],
+      "elements": [
+        {"type": "icon", "name": "bar-chart", "x": 540, "y": 790, "size": 460, "enter": "rise", "idle": "float"},
+        {"type": "text", "text": "NO LINK FOUND", "x": 540, "y": 1170, "size": 96, "color": "#FFE14D", "enter": "zoom", "on": "no", "impact": true}
+      ]
+    },
+    {
+      "text": "So, how many times a day do you crack yours?",
+      "bg": ["#3d7bff", "#0a1450"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 840, "r": 430, "color": "#bcd4ff", "idle": "none", "opacity": 0.55},
+        {"type": "icon", "name": "hand-with-fingers-splayed", "x": 540, "y": 860, "size": 470, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "thinking-face", "x": 290, "y": 580, "size": 210, "enter": "pop", "on": "how", "idle": "wiggle"},
+        {"type": "icon", "name": "collision", "x": 800, "y": 600, "size": 220, "enter": "zoom", "on": "crack", "idle": "pulse", "impact": true}
+      ]
+    }
+  ]
+}

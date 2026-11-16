@@ -23,5 +23,5 @@ python scripts/audio.py out/<project> --voice-sample voice_recording.mp3
 ```
 
 - **Speed / Pacing**: `1.1x` speed modifier for energetic viral short pacing.
-- **Audio Ducking**: Background music (BGM) is ducked down by **-18dB** automatically whenever narration audio plays.
+- **No Music**: The narration is the only audio track. `assemble.py` drops the audio of the motion clips, because image-to-video models can generate their own music.
 - **Audio Equalization**: Speech filter applied via FFmpeg (`highpass=f=80, lowpass=f=8000, volume=1.2`) for studio warmth.

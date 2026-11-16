@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Audio Generator for Zack D Director.
-Synthesizes voice narration in cloned user voice and mixes background music.
+Synthesizes the voice narration. The pipeline is voice-only: it never makes
+or mixes background music, so uploads stay clear of music copyright claims.
 """
 
 import os
@@ -33,24 +34,15 @@ def generate_audio(project_dir, voice_sample=None):
     res = client.clone_voice_and_tts(full_narration, voice_sample_path=voice_sample)
 
     narration_path = os.path.join(audio_dir, "narration.mp3")
-    bgm_path = os.path.join(audio_dir, "bgm.mp3")
-
     audio_url = res.get("audio_url")
-    if audio_url and audio_url.startswith("http"):
-        download_file(audio_url, narration_path)
-    else:
-        with open(narration_path, "w", encoding="utf-8") as f:
-            f.write("MOCK_NARRATION_AUDIO_DATA")
-
-    with open(bgm_path, "w", encoding="utf-8") as f:
-        f.write("MOCK_BGM_AUDIO_DATA")
+    if not (audio_url and download_file(audio_url, narration_path)):
+        sys.exit("[Error] Narration was not generated. Check MUAPI_API_KEY, account credits and network access.")
 
     print(f"  [OK] Narration audio saved: {narration_path}")
-    print(f"  [OK] Background music saved: {bgm_path}")
-    print(f"[Audio] Audio synthesis complete.")
+    print(f"[Audio] Audio synthesis complete (voice only, no music).")
 
 def main():
-    parser = argparse.ArgumentParser(description="Synthesize narration & background music")
+    parser = argparse.ArgumentParser(description="Synthesize the voice narration (no music)")
     parser.add_argument("project_dir", help="Project directory e.g. out/swallow_gum")
     parser.add_argument("--voice-sample", help="Path to 60s voice sample file")
     args = parser.parse_args()

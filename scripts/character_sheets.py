@@ -37,11 +37,9 @@ def generate_character_sheets(project_dir):
         )
         res = client.generate_image(prompt, aspect_ratio="16:9")
         img_url = res.get("url")
-        if img_url and img_url.startswith("http"):
-            download_file(img_url, out_path)
-        else:
-            with open(out_path, "w", encoding="utf-8") as img_file:
-                img_file.write(f"MOCK_IMAGE_DATA_FOR_{sheet_name}")
+        if not (img_url and download_file(img_url, out_path)):
+            sys.exit(f"[Error] Reference sheet {sheet_name} was not generated. "
+                     "Check MUAPI_API_KEY, account credits and network access.")
 
         sheet_paths.append(out_path)
         print(f"  [OK] Created reference sheet: {out_path}")

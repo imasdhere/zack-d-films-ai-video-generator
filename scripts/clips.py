@@ -43,11 +43,9 @@ def generate_clips(project_dir):
                 camera_move=camera_move
             )
             clip_url = res.get("url")
-            if clip_url and clip_url.startswith("http"):
-                download_file(clip_url, out_clip_path)
-            else:
-                with open(out_clip_path, "w", encoding="utf-8") as clip_file:
-                    clip_file.write(f"MOCK_MP4_CLIP_DATA_FOR_{shot_id}")
+            if not (clip_url and download_file(clip_url, out_clip_path)):
+                sys.exit(f"[Error] Clip {shot_id} was not generated. "
+                         "Check MUAPI_API_KEY, account credits and network access.")
 
             clip_count += 1
             print(f"  [OK] Animated video clip [{shot_id}] ({camera_move}): {out_clip_path}")

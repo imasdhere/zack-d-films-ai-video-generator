@@ -4,8 +4,12 @@ FFmpeg video assembly engine for Zack D Director.
 
 The assembler keeps the generated shots in beat order, normalizes them to the
 vertical 9:16 canvas, adds a subtle zoom to marked impact shots, and joins
-adjacent shots with short, readable transitions. Audio is crossfaded along
-with the video whenever the source clips contain audio tracks.
+adjacent shots with short, readable transitions.
+
+The narration (audio/narration.mp3) is the only audio by default. Clip audio
+is dropped, because image-to-video models such as Veo 3.1 can generate their
+own soundtrack, music included. Use --keep-clip-audio to crossfade the clip
+audio instead.
 """
 
 import argparse
@@ -80,8 +84,8 @@ def _escape_filter_number(value):
     return f"{value:.6f}".rstrip("0").rstrip(".")
 
 
-def _build_filter_graph(clip_info, transition_duration):
-    """Build the video/audio filter graph and return it with output labels."""
+def _build_filter_graph(clip_info, transition_duration, clip_audio=False):
+    """Build the video (and, with clip_audio, the audio) filter graph."""
     filters = []
     video_labels = []
     audio_labels = []
@@ -109,6 +113,8 @@ def _build_filter_graph(clip_info, transition_duration):
         filters.append(f"{video}[{video_label}]")
         video_labels.append(video_label)
 
+        if not clip_audio:
+            continue
         audio_index = info["audio_index"]
         audio_label = f"a{len(audio_labels)}"
         audio = (
@@ -147,6 +153,8 @@ def _build_filter_graph(clip_info, transition_duration):
             timeline_duration += clip_info[index]["duration"] - duration
         filters.append(f"[{previous}]null[vout]")
 
+    if not clip_audio:
+        return ";".join(filters)
     if len(audio_labels) == 1:
         filters.append(f"[{audio_labels[0]}]anull[aout]")
     elif transition_duration <= 0:
@@ -171,11 +179,12 @@ def _build_filter_graph(clip_info, transition_duration):
     return ";".join(filters)
 
 
-def _build_ffmpeg_command(ffmpeg, clip_info, filter_graph, output_path):
+def _build_ffmpeg_command(ffmpeg, clip_info, filter_graph, output_path, narration=None, clip_audio=False,
+                          video_length=None):
     command = [ffmpeg, "-y", "-hide_banner", "-loglevel", "error"]
     for info in clip_info:
         command.extend(["-i", info["path"]])
-        if not info["has_audio"]:
+        if clip_audio and not info["has_audio"]:
             # Keep a missing audio track from breaking the complete montage.
             command.extend([
                 "-f",
@@ -185,13 +194,26 @@ def _build_ffmpeg_command(ffmpeg, clip_info, filter_graph, output_path):
                 "-i",
                 "anullsrc=channel_layout=stereo:sample_rate=48000",
             ])
+    if clip_audio:
+        audio_map = "[aout]"
+    else:
+        # The narration is the soundtrack; without one, a silent track keeps players happy
+        length = _escape_filter_number(video_length or sum(i["duration"] for i in clip_info))
+        if narration:
+            command.extend(["-i", narration])
+        else:
+            command.extend(["-f", "lavfi", "-t", length, "-i", "anullsrc=channel_layout=stereo:sample_rate=48000"])
+        # Pad to the video length so a short narration never cuts the video.
+        # The padding is finite: an endless stream overflows the -shortest queue.
+        filter_graph += f";[{len(clip_info)}:a]aresample=48000,apad=whole_dur={length}[aout]"
+        audio_map = "[aout]"
     command.extend([
         "-filter_complex",
         filter_graph,
         "-map",
         "[vout]",
         "-map",
-        "[aout]",
+        audio_map,
         "-shortest",
         "-c:v",
         "libx264",
@@ -212,7 +234,16 @@ def _build_ffmpeg_command(ffmpeg, clip_info, filter_graph, output_path):
     return command
 
 
-def assemble_video(project_dir, test_mode=False, transition_duration=DEFAULT_TRANSITION_DURATION):
+def _find_narration(project_dir):
+    for name in ("narration.mp3", "narration.wav", "narration.m4a"):
+        path = os.path.join(project_dir, "audio", name)
+        if os.path.exists(path):
+            return path
+    return None
+
+
+def assemble_video(project_dir, test_mode=False, transition_duration=DEFAULT_TRANSITION_DURATION,
+                   clip_audio=False):
     beats_file = os.path.join(project_dir, "beats.json")
     if not os.path.exists(beats_file):
         print(f"[Error] beats.json not found in {project_dir}.", file=sys.stderr)
@@ -262,19 +293,37 @@ def assemble_video(project_dir, test_mode=False, transition_duration=DEFAULT_TRA
             "video_index": next_input_index,
         }
         next_input_index += 1
-        if has_audio:
-            info["audio_index"] = info["video_index"]
-        else:
-            info["audio_index"] = next_input_index
-            next_input_index += 1
+        if clip_audio:
+            if has_audio:
+                info["audio_index"] = info["video_index"]
+            else:
+                info["audio_index"] = next_input_index
+                next_input_index += 1
         clip_info.append(info)
         impact = " + impact zoom" if shot["zoom_impact"] else ""
-        audio_note = "audio" if has_audio else "silent fallback"
+        if clip_audio:
+            audio_note = "audio" if has_audio else "silent fallback"
+        else:
+            audio_note = "clip audio dropped" if has_audio else "no clip audio"
         print(f"  - {shot['id']} ({shot['camera_move']}{impact}; {audio_note}; {duration:.2f}s)")
 
-    filter_graph = _build_filter_graph(clip_info, transition_duration)
+    narration = None
+    video_length = sum(i["duration"] for i in clip_info) - transition_duration * (len(clip_info) - 1)
+    if not clip_audio:
+        narration = _find_narration(project_dir)
+        if narration:
+            narration_length = _duration(ffprobe, narration)
+            print(f"  Narration: {narration} ({narration_length:.2f}s, video {video_length:.2f}s)")
+            if narration_length > video_length + 0.5:
+                print("  [Warning] The narration is longer than the clips and will be cut off. "
+                      "Add shots or lengthen them.")
+        else:
+            print("  [Warning] No audio/narration.mp3 found. The video will be silent.")
+
+    filter_graph = _build_filter_graph(clip_info, transition_duration, clip_audio=clip_audio)
     temp_output = f"{output_mp4}.tmp.mp4"
-    command = _build_ffmpeg_command(ffmpeg, clip_info, filter_graph, temp_output)
+    command = _build_ffmpeg_command(ffmpeg, clip_info, filter_graph, temp_output,
+                                    narration=narration, clip_audio=clip_audio, video_length=video_length)
 
     if test_mode:
         print("\n[Assembly test] Filter graph built successfully; ffmpeg execution skipped.")
@@ -309,6 +358,12 @@ def main():
         action="store_true",
         help="Build and validate the FFmpeg graph without rendering a file",
     )
+    parser.add_argument(
+        "--keep-clip-audio",
+        action="store_true",
+        help="Crossfade the clips' own audio instead of using the narration. "
+             "Model-generated clip audio can contain music.",
+    )
     args = parser.parse_args()
 
     try:
@@ -316,6 +371,7 @@ def main():
             args.project_dir,
             test_mode=args.test_mode,
             transition_duration=args.transition_duration,
+            clip_audio=args.keep_clip_audio,
         )
     except (FileNotFoundError, RuntimeError, ValueError) as exc:
         print(f"[Error] {exc}", file=sys.stderr)

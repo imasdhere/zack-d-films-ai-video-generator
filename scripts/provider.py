@@ -111,11 +111,10 @@ class MuAPIClient:
 
         # Try image endpoint or text-to-video as keyframe generator
         out_url = self._submit_and_poll("nano-banana-2", payload) or self._submit_and_poll("flux-dev", payload)
-        if not out_url:
-            out_url = f"https://api.muapi.ai/v1/outputs/keyframe_{int(time.time())}.png"
 
+        # Report a failure as a failure: a made-up URL only fails later, far from the cause
         return {
-            "status": "success",
+            "status": "success" if out_url else "error",
             "url": out_url,
             "prompt": prompt
         }
@@ -136,11 +135,9 @@ class MuAPIClient:
         }
 
         out_url = self._submit_and_poll("veo3.1-fast-image-to-video", payload) or self._submit_and_poll("veo3.1-image-to-video", payload)
-        if not out_url:
-            out_url = f"https://api.muapi.ai/v1/outputs/veo31_clip_{int(time.time())}.mp4"
 
         return {
-            "status": "success",
+            "status": "success" if out_url else "error",
             "url": out_url,
             "camera_move": camera_move
         }
@@ -157,11 +154,9 @@ class MuAPIClient:
         }
 
         out_url = self._submit_and_poll("minimax-speech-2.6-turbo", payload)
-        if not out_url:
-            out_url = f"https://api.muapi.ai/v1/outputs/narration_{int(time.time())}.mp3"
 
         return {
-            "status": "success",
+            "status": "success" if out_url else "error",
             "audio_url": out_url
         }
 

@@ -1,0 +1,154 @@
+{
+  "id": "honey",
+  "title": "Why honey never goes bad",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "post": {
+    "youtube_title": "Why Honey Never Goes Bad 🍯 #shorts",
+    "caption": "Archaeologists found honey in ancient Egyptian tombs, and it was still preserved. Here's the science behind honey's 3 defenses 🍯🐝",
+    "hashtags": ["honey", "science", "didyouknow", "foodscience", "learnontiktok", "facts", "shorts"],
+    "pinned_comment": "Would you eat honey from an ancient tomb? 🍯 Yes or no 👇"
+  },
+  "sources": [
+    "Smithsonian Magazine, 'The Science Behind Honey's Eternal Shelf Life' (2013)",
+    "BBC Science Focus, 'Why doesn't honey go off?'",
+    "CDC, infant botulism guidance: no honey for children under 12 months"
+  ],
+  "beats": [
+    {
+      "text": "Archaeologists have found pots of honey in ancient Egyptian tombs, *thousands* of years old, and still preserved.",
+      "bg": ["#ffb22e", "#6b2600"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 800, "r": 450, "color": "#fff2a8", "idle": "none", "opacity": 0.8},
+        {"type": "icon", "name": "amphora", "x": 540, "y": 800, "size": 520, "enter": "drop", "idle": "float"},
+        {"type": "icon", "name": "scroll", "x": 250, "y": 1010, "size": 220, "enter": "pop", "on": "egyptian", "idle": "bob", "rot": -10},
+        {"type": "icon", "name": "honey-pot", "x": 820, "y": 990, "size": 250, "enter": "pop", "on": "honey", "idle": "bob", "impact": true},
+        {"type": "text", "text": "1000s OF YEARS", "x": 540, "y": 440, "size": 104, "color": "#FFE14D", "enter": "zoom", "on": "thousands"},
+        {"type": "icon", "name": "sparkles", "x": 800, "y": 600, "size": 170, "enter": "pop", "on": "preserved", "idle": "pulse"}
+      ]
+    },
+    {
+      "text": "Meanwhile, your bread grows *mold* in a week. So what makes honey so different?",
+      "bg": ["#4cbf7a", "#0b3420"],
+      "elements": [
+        {"type": "icon", "name": "bread", "x": 330, "y": 820, "size": 400, "enter": "slideL", "idle": "float"},
+        {"type": "particles", "name": "microbe", "x": 330, "y": 820, "count": 7, "area": [130, 600, 400, 460], "speed": 60, "minSize": 60, "maxSize": 110, "on": "mold", "enter": "fade", "idle": "none"},
+        {"type": "icon", "name": "honey-pot", "x": 770, "y": 840, "size": 360, "enter": "slideR", "on": "honey", "idle": "float"},
+        {"type": "icon", "name": "red-question-mark", "x": 770, "y": 520, "size": 230, "enter": "pop", "on": "different", "idle": "wiggle", "impact": true}
+      ]
+    },
+    {
+      "text": "Honey is basically a germ trap, with *three* layers of defense.",
+      "bg": ["#ff9d1c", "#5a1d00"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 820, "r": 420, "color": "#ffe9a0", "idle": "none", "opacity": 0.6},
+        {"type": "icon", "name": "honey-pot", "x": 540, "y": 860, "size": 520, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "shield", "x": 250, "y": 640, "size": 210, "enter": "pop", "on": "defense", "idle": "bob"},
+        {"type": "icon", "name": "shield", "x": 830, "y": 640, "size": 210, "enter": "pop", "on": "defense", "delay": 0.12, "idle": "bob"},
+        {"type": "icon", "name": "shield", "x": 540, "y": 520, "size": 210, "enter": "pop", "on": "defense", "delay": 0.24, "idle": "bob", "impact": true},
+        {"type": "text", "text": "3 DEFENSES", "x": 540, "y": 1180, "size": 96, "color": "#FFE14D", "enter": "zoom", "on": "three"}
+      ]
+    },
+    {
+      "text": "Defense one: it's incredibly dry. Honey is about {*80%*|eighty percent} sugar, and only about {*17%*|seventeen percent} water.",
+      "bg": ["#f7a531", "#5c2400"],
+      "elements": [
+        {"type": "text", "text": "DEFENSE #1", "x": 540, "y": 430, "size": 70, "bg": "#e53935", "enter": "zoom", "idle": "none"},
+        {"type": "icon", "name": "honey-pot", "x": 540, "y": 690, "size": 320, "enter": "pop", "idle": "float"},
+        {"type": "meter", "label": "Sugar", "value": 80, "color": "#FFC23A", "x": 540, "y": 980, "w": 780, "enter": "slideL", "on": "80%", "idle": "none"},
+        {"type": "meter", "label": "Water", "value": 17, "color": "#53C3FF", "x": 540, "y": 1160, "w": 780, "enter": "slideR", "on": "17%", "idle": "none"}
+      ]
+    },
+    {
+      "text": "When bacteria land in it, the sugar pulls the water right out of their cells, and they dry up before they can grow.",
+      "bg": ["#2fb7a8", "#022e33"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 820, "r": 400, "color": "#b6fff3", "idle": "none", "opacity": 0.45},
+        {"type": "icon", "name": "microbe", "x": 540, "y": 820, "size": 470, "enter": "pop", "idle": "wiggle", "outOn": "dry"},
+        {"type": "icon", "name": "droplet", "x": 300, "y": 760, "size": 150, "enter": "slideL", "on": "pulls", "idle": "bob"},
+        {"type": "icon", "name": "droplet", "x": 790, "y": 900, "size": 130, "enter": "slideR", "on": "pulls", "delay": 0.1, "idle": "bob"},
+        {"type": "icon", "name": "droplet", "x": 760, "y": 640, "size": 110, "enter": "slideR", "on": "water", "idle": "bob"},
+        {"type": "icon", "name": "cross-mark", "x": 540, "y": 820, "size": 420, "enter": "zoom", "on": "dry", "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "Defense two: it's acidic. Most honey has a {pH|pee aitch} around *four*, about as acidic as orange juice.",
+      "bg": ["#ffcf3a", "#6a3b00"],
+      "elements": [
+        {"type": "text", "text": "DEFENSE #2", "x": 540, "y": 430, "size": 70, "bg": "#e53935", "enter": "zoom", "idle": "none"},
+        {"type": "icon", "name": "test-tube", "x": 360, "y": 820, "size": 420, "enter": "pop", "idle": "wiggle", "rot": -12},
+        {"type": "text", "text": "pH ≈ 4", "x": 760, "y": 730, "size": 120, "color": "#7CFFB2", "enter": "zoom", "on": "four"},
+        {"type": "icon", "name": "tangerine", "x": 760, "y": 980, "size": 270, "enter": "pop", "on": "orange", "idle": "float", "impact": true}
+      ]
+    },
+    {
+      "text": "Defense three is the sneakiest. Bees add an enzyme called *glucose* *oxidase*.",
+      "bg": ["#ffb703", "#5b2a00"],
+      "elements": [
+        {"type": "text", "text": "DEFENSE #3", "x": 540, "y": 430, "size": 70, "bg": "#e53935", "enter": "zoom", "idle": "none"},
+        {"type": "icon", "name": "honeybee", "x": 540, "y": 800, "size": 480, "enter": "slideR", "on": "bees", "idle": "swim"},
+        {"type": "icon", "name": "sparkles", "x": 820, "y": 600, "size": 170, "enter": "pop", "on": "enzyme", "idle": "pulse"},
+        {"type": "text", "text": "GLUCOSE\nOXIDASE", "x": 540, "y": 1150, "size": 92, "color": "#FFE14D", "enter": "zoom", "on": "glucose"}
+      ]
+    },
+    {
+      "text": "When honey gets a little water, it starts making *hydrogen* *peroxide*. The same stuff in your first aid kit.",
+      "bg": ["#4f8cff", "#0b1d55"],
+      "elements": [
+        {"type": "icon", "name": "honey-pot", "x": 540, "y": 840, "size": 420, "enter": "pop", "idle": "float", "outOn": "hydrogen"},
+        {"type": "icon", "name": "droplet", "x": 540, "y": 520, "size": 200, "enter": "drop", "on": "water", "idle": "bob"},
+        {"type": "text", "text": "H₂O₂", "x": 540, "y": 860, "size": 230, "color": "#ffffff", "enter": "zoom", "on": "hydrogen", "impact": true},
+        {"type": "icon", "name": "adhesive-bandage", "x": 540, "y": 1130, "size": 230, "enter": "spin", "on": "first", "idle": "float"}
+      ]
+    },
+    {
+      "text": "But there's a catch. Leave the lid off, and honey pulls *moisture* out of the air.",
+      "bg": ["#9a5cff", "#1f0747"],
+      "elements": [
+        {"type": "icon", "name": "jar", "x": 540, "y": 900, "size": 460, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "warning", "x": 540, "y": 520, "size": 230, "enter": "zoom", "on": "catch", "idle": "pulse", "impact": true},
+        {"type": "particles", "name": "droplet", "x": 540, "y": 900, "count": 9, "dir": "down", "area": [300, 560, 480, 420], "speed": 150, "minSize": 50, "maxSize": 90, "on": "moisture", "enter": "fade", "idle": "none"}
+      ]
+    },
+    {
+      "text": "Add enough water, and yeast can finally *ferment* it. That's basically how *mead* is made.",
+      "bg": ["#c2410c", "#3a0d00"],
+      "elements": [
+        {"type": "icon", "name": "honey-pot", "x": 540, "y": 800, "size": 430, "enter": "pop", "idle": "shake", "outOn": "mead"},
+        {"type": "particles", "name": "bubbles", "x": 540, "y": 800, "count": 8, "area": [260, 520, 560, 560], "speed": 110, "minSize": 60, "maxSize": 120, "on": "ferment", "enter": "fade", "idle": "none"},
+        {"type": "icon", "name": "microbe", "x": 260, "y": 1060, "size": 170, "enter": "pop", "on": "yeast", "idle": "wiggle"},
+        {"type": "icon", "name": "beer-mug", "x": 540, "y": 820, "size": 470, "enter": "zoom", "on": "mead", "idle": "float", "impact": true}
+      ]
+    },
+    {
+      "text": "Hard, cloudy honey hasn't spoiled either. It just *crystallized*. Warm the jar gently and it melts right back.",
+      "bg": ["#38bdf8", "#082f49"],
+      "elements": [
+        {"type": "icon", "name": "honey-pot", "x": 540, "y": 820, "size": 440, "enter": "pop", "idle": "float"},
+        {"type": "icon", "name": "check-mark-button", "x": 820, "y": 560, "size": 190, "enter": "pop", "on": "spoiled", "idle": "bob", "impact": true},
+        {"type": "icon", "name": "gem-stone", "x": 260, "y": 600, "size": 200, "enter": "spin", "on": "crystallized", "idle": "float"},
+        {"type": "icon", "name": "hot-springs", "x": 540, "y": 1150, "size": 220, "enter": "rise", "on": "warm", "idle": "bob"}
+      ]
+    },
+    {
+      "text": "One rule, though: never give honey to a *baby* under one year old. It can carry bacteria spores their gut can't handle yet.",
+      "bg": ["#ff4d5e", "#4a0610"],
+      "elements": [
+        {"type": "icon", "name": "baby", "x": 540, "y": 820, "size": 460, "enter": "pop", "idle": "bob"},
+        {"type": "icon", "name": "prohibited", "x": 790, "y": 580, "size": 240, "enter": "zoom", "on": "never", "idle": "pulse", "impact": true},
+        {"type": "text", "text": "UNDER 1 YEAR", "x": 540, "y": 1180, "size": 88, "color": "#FFE14D", "enter": "zoom", "on": "under"},
+        {"type": "icon", "name": "microbe", "x": 270, "y": 600, "size": 170, "enter": "pop", "on": "spores", "idle": "wiggle"}
+      ]
+    },
+    {
+      "text": "So, would you eat honey from an ancient tomb?",
+      "bg": ["#ffb22e", "#6b2600"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 820, "r": 430, "color": "#fff2a8", "idle": "none", "opacity": 0.7},
+        {"type": "icon", "name": "amphora", "x": 360, "y": 840, "size": 380, "enter": "slideL", "idle": "float"},
+        {"type": "icon", "name": "honey-pot", "x": 740, "y": 880, "size": 330, "enter": "slideR", "idle": "float"},
+        {"type": "icon", "name": "thinking-face", "x": 540, "y": 540, "size": 240, "enter": "pop", "on": "eat", "idle": "wiggle", "impact": true}
+      ]
+    }
+  ]
+}

@@ -54,7 +54,7 @@ topic / trend
   ├─ 4. 3D keyframes             Render keyframe images anchored to character sheets
   ├─ 5. motion clips             Animate keyframes via the configured image-to-video model
   ├─ 6. voice narration          Synthesize full script in user's cloned voice
-  ├─ 7. assembly                 FFmpeg: transitions, impact zooms, captions, BGM
+  ├─ 7. assembly                 FFmpeg: transitions, impact zooms, narration (no music)
   └─ final.mp4
 ```
 
@@ -111,8 +111,27 @@ python scripts/assemble.py out/<project>
 ```
 - Adds **zoom-ins** on key beats.
 - Applies short **fade, wipe, slide, and circle-open transitions** between scenes.
-- Duck background music under narration and burn styled captions.
+- Uses the narration as the only audio. Clip audio is dropped, because the motion model can generate music.
 - Outputs `out/<project>/final.mp4`.
+
+---
+
+## 🆓 Local Mode (no API key, no music)
+
+When no `MUAPI_API_KEY` is available, or the user wants a short at no cost, use
+the local renderer instead of Steps 3 to 7. Write `shorts/<id>.json` (format in
+[`local/README.md`](local/README.md)): the narration split into 12 to 15 beats,
+and each beat's Fluent Emoji or SVG visuals pinned to the word that triggers
+them. Then run:
+
+```bash
+.venv-local/bin/python local/make_short.py shorts/<id>.json --stills   # check one PNG per beat
+.venv-local/bin/python local/make_short.py shorts/<id>.json            # out/shorts/<id>/<id>.mp4
+```
+
+- Verify every fact in the script against a source and list the sources in the spec.
+- Keep the render over 60 seconds if it is for TikTok Creator Rewards.
+- The audio is narration plus synthesized whooshes and pops. Never add music.
 
 ---
 

@@ -11,7 +11,7 @@ All generation stages communicate with MuAPI through its HTTP API:
 - **Text-to-Image / Reference Image Gen**: MuAPI image generation (`nano-banana-2` with `flux-dev` fallback).
 - **Image-to-Video Animation**: MuAPI Veo 3.1 motion generation (`veo3.1-fast-image-to-video` with fallback).
 - **Voice Cloning / TTS**: MuAPI speech generation (`minimax-speech-2.6-turbo`).
-- **Music Generation**: Local or provider-generated BGM mixed during assembly.
+- **Music**: None, by design. The narration is the only audio, which keeps uploads clear of music copyright claims.
 
 ### API Key Setup:
 ```bash
@@ -52,9 +52,10 @@ To simulate dramatic screen vibration during cutaways or impacts:
 ffmpeg -i input.mp4 -vf "crop=in_w-20:in_h-20:10+10*sin(n*1.5):10+10*cos(n*1.5),scale=1080:1920" -c:v libx264 output_shake.mp4
 ```
 
-### D. Automatic Music Ducking under Narration
+### D. Narration as the Only Soundtrack
+`assemble.py` drops the clips' own audio (Veo 3.1 can generate music) and pads the narration with silence to the video length. The padding must be finite: an endless `apad` overflows the `-shortest` queue in ffmpeg 6, which reports it as "No space left on device".
 ```bash
-ffmpeg -i narration.wav -i bgm.mp3 -filter_complex "[1:a]volume=0.15[bgm];[0:a][bgm]amix=inputs=2:duration=first[aout]" -map 0:v? -map "[aout]" final_mix.mp4
+ffmpeg -i montage.mp4 -i narration.mp3 -filter_complex "[1:a]aresample=48000,apad=whole_dur=38.6[aout]" -map 0:v -map "[aout]" -shortest final.mp4
 ```
 
 ---

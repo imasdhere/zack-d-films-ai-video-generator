@@ -1,0 +1,144 @@
+{
+  "id": "octopus",
+  "title": "The octopus is the closest thing to an alien",
+  "voice": "af_heart",
+  "speed": 1.08,
+  "post": {
+    "youtube_title": "Octopuses Are the Closest Thing to Aliens on Earth 🐙 #shorts",
+    "caption": "3 hearts, blue blood, and arms that taste what they touch 🐙 Scientists say meeting one is the closest we'll get to meeting an alien.",
+    "hashtags": ["octopus", "animals", "oceanlife", "science", "didyouknow", "learnontiktok", "shorts"],
+    "pinned_comment": "Which octopus fact surprised you most? 👇"
+  },
+  "sources": [
+    "Peter Godfrey-Smith, 'Other Minds' (2016): meeting an octopus is 'probably the closest we will come to meeting an intelligent alien'",
+    "Wells et al. (1987), J Exp Biol: the systemic heart stops during jet swimming",
+    "van Giesen et al. (2020), Cell: octopus suckers carry taste-by-touch receptors",
+    "Live Science, 'How many hearts does an octopus have?'"
+  ],
+  "beats": [
+    {
+      "text": "An octopus has *three* hearts, *blue* blood, and arms that can make their own decisions.",
+      "bg": ["#1e88e5", "#04173a"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 820, "r": 430, "color": "#9fd4ff", "idle": "none", "opacity": 0.5},
+        {"type": "icon", "name": "octopus", "x": 540, "y": 830, "size": 530, "enter": "pop", "idle": "swim"},
+        {"type": "icon", "name": "anatomical-heart", "x": 230, "y": 560, "size": 150, "enter": "pop", "on": "three", "idle": "heartbeat"},
+        {"type": "icon", "name": "anatomical-heart", "x": 540, "y": 450, "size": 150, "enter": "pop", "on": "three", "delay": 0.1, "idle": "heartbeat"},
+        {"type": "icon", "name": "anatomical-heart", "x": 850, "y": 560, "size": 150, "enter": "pop", "on": "three", "delay": 0.2, "idle": "heartbeat", "impact": true},
+        {"type": "icon", "name": "droplet", "x": 230, "y": 1090, "size": 170, "enter": "drop", "on": "blue", "idle": "bob"},
+        {"type": "icon", "name": "brain", "x": 850, "y": 1090, "size": 180, "enter": "pop", "on": "decisions", "idle": "pulse"}
+      ]
+    },
+    {
+      "text": "One philosopher said meeting an octopus is probably the closest we'll ever come to meeting an intelligent *alien*.",
+      "bg": ["#7c3aed", "#1e0646"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 340, "y": 880, "size": 400, "enter": "slideL", "idle": "swim"},
+        {"type": "icon", "name": "flying-saucer", "x": 780, "y": 520, "size": 250, "enter": "slideR", "idle": "swim"},
+        {"type": "icon", "name": "alien", "x": 780, "y": 880, "size": 380, "enter": "zoom", "on": "alien", "idle": "float", "impact": true}
+      ]
+    },
+    {
+      "text": "Let's start with the hearts. Two of them pump blood through the gills. The third pumps it to the rest of the body.",
+      "bg": ["#ef4444", "#3f0a0a"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 540, "y": 1140, "size": 260, "enter": "rise", "idle": "swim"},
+        {"type": "icon", "name": "anatomical-heart", "x": 230, "y": 700, "size": 230, "enter": "pop", "on": "two", "idle": "heartbeat", "label": "Gills"},
+        {"type": "icon", "name": "anatomical-heart", "x": 850, "y": 700, "size": 230, "enter": "pop", "on": "two", "delay": 0.12, "idle": "heartbeat", "label": "Gills"},
+        {"type": "icon", "name": "anatomical-heart", "x": 540, "y": 620, "size": 330, "enter": "zoom", "on": "third", "idle": "heartbeat", "label": "Body", "impact": true}
+      ]
+    },
+    {
+      "text": "But when an octopus swims, that main heart *pauses*. Swimming wears it out, which may be why octopuses prefer to crawl.",
+      "bg": ["#0ea5e9", "#082f49"],
+      "elements": [
+        {"type": "icon", "name": "anatomical-heart", "x": 540, "y": 640, "size": 320, "enter": "pop", "idle": "heartbeat", "outOn": "pauses"},
+        {"type": "icon", "name": "anatomical-heart", "x": 540, "y": 640, "size": 320, "enter": "none", "on": "pauses", "idle": "none"},
+        {"type": "icon", "name": "pause-button", "x": 790, "y": 480, "size": 170, "enter": "zoom", "on": "pauses", "idle": "pulse", "impact": true},
+        {"type": "icon", "name": "octopus", "x": 600, "y": 1080, "size": 300, "enter": "slideR", "on": "swims", "idle": "swim"},
+        {"type": "icon", "name": "dashing-away", "x": 330, "y": 1080, "size": 180, "enter": "pop", "on": "swims", "delay": 0.15, "idle": "bob", "flip": true}
+      ]
+    },
+    {
+      "text": "And their blood is *blue*. Instead of iron, it uses *copper* to carry oxygen.",
+      "bg": ["#2563eb", "#0b1b4d"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 760, "r": 400, "color": "#93c5fd", "idle": "none", "opacity": 0.55},
+        {"type": "icon", "name": "droplet", "x": 540, "y": 760, "size": 430, "enter": "drop", "idle": "bob"},
+        {"type": "text", "text": "IRON", "x": 300, "y": 1110, "size": 80, "bg": "#9f1239", "enter": "zoom", "on": "iron", "idle": "none"},
+        {"type": "icon", "name": "cross-mark", "x": 300, "y": 1110, "size": 170, "enter": "zoom", "on": "iron", "delay": 0.35, "idle": "none"},
+        {"type": "text", "text": "COPPER", "x": 780, "y": 1110, "size": 80, "bg": "#b45309", "enter": "zoom", "on": "copper", "idle": "bob", "impact": true}
+      ]
+    },
+    {
+      "text": "Now, the arms. An octopus has about {500|five hundred} million neurons, and around {2/3|two thirds} of them are in its arms.",
+      "bg": ["#db2777", "#4a0526"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 540, "y": 760, "size": 430, "enter": "pop", "idle": "swim"},
+        {"type": "counter", "from": 0, "to": 500000000, "format": "compact", "suffix": " NEURONS", "x": 540, "y": 1130, "size": 100, "color": "#FFE14D", "enter": "zoom", "on": "500", "dur": 1.4, "idle": "none"},
+        {"type": "icon", "name": "brain", "x": 870, "y": 650, "size": 170, "enter": "pop", "on": "neurons", "idle": "pulse"},
+        {"type": "text", "text": "2/3 IN THE ARMS", "x": 540, "y": 450, "size": 92, "color": "#7CFFB2", "enter": "zoom", "on": "2/3", "impact": true}
+      ]
+    },
+    {
+      "text": "Each arm can *taste* what it touches, and react on its own, without waiting for the brain.",
+      "bg": ["#16a34a", "#052e16"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 540, "y": 820, "size": 480, "enter": "pop", "idle": "wiggle"},
+        {"type": "icon", "name": "tongue", "x": 260, "y": 560, "size": 200, "enter": "pop", "on": "taste", "idle": "bob"},
+        {"type": "icon", "name": "high-voltage", "x": 830, "y": 560, "size": 200, "enter": "zoom", "on": "react", "idle": "pulse", "impact": true}
+      ]
+    },
+    {
+      "text": "They can also change *color* in a split second, even though most octopuses are thought to be *colorblind*.",
+      "bg": ["#f43f5e", "#4c0519"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 540, "y": 840, "size": 500, "enter": "pop", "idle": "swim", "hueOn": "color", "hueSpeed": 220},
+        {"type": "icon", "name": "artist-palette", "x": 260, "y": 520, "size": 200, "enter": "spin", "on": "color", "idle": "wiggle"},
+        {"type": "icon", "name": "eye", "x": 820, "y": 520, "size": 190, "enter": "pop", "on": "colorblind", "idle": "bob"},
+        {"type": "icon", "name": "cross-mark", "x": 820, "y": 520, "size": 150, "enter": "zoom", "on": "colorblind", "delay": 0.3, "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "With no bones at all, an octopus can squeeze through any gap bigger than its *beak*, which looks a lot like a parrot's.",
+      "bg": ["#f59e0b", "#451a03"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 540, "y": 800, "size": 440, "enter": "pop", "idle": "wiggle"},
+        {"type": "icon", "name": "bone", "x": 250, "y": 540, "size": 190, "enter": "pop", "on": "bones", "idle": "bob"},
+        {"type": "icon", "name": "cross-mark", "x": 250, "y": 540, "size": 160, "enter": "zoom", "on": "bones", "delay": 0.25, "idle": "none", "impact": true},
+        {"type": "text", "text": "BEAK", "x": 830, "y": 540, "size": 66, "bg": "#e53935", "enter": "zoom", "on": "beak", "idle": "none"},
+        {"type": "icon", "name": "parrot", "x": 830, "y": 1070, "size": 260, "enter": "slideR", "on": "parrot", "idle": "sway"}
+      ]
+    },
+    {
+      "text": "But here's the sad part. Many octopuses live only a year or two.",
+      "bg": ["#6366f1", "#1e1b4b"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 540, "y": 820, "size": 440, "enter": "fade", "idle": "float"},
+        {"type": "icon", "name": "hourglass-not-done", "x": 830, "y": 560, "size": 220, "enter": "spin", "on": "live", "idle": "wiggle"},
+        {"type": "text", "text": "1–2 YEARS", "x": 540, "y": 1180, "size": 104, "color": "#FFE14D", "enter": "zoom", "on": "year", "impact": true}
+      ]
+    },
+    {
+      "text": "A mother stops eating to guard her *eggs*, and she usually dies soon after they hatch.",
+      "bg": ["#475569", "#0f172a"],
+      "elements": [
+        {"type": "icon", "name": "octopus", "x": 540, "y": 760, "size": 420, "enter": "fade", "idle": "bob"},
+        {"type": "icon", "name": "egg", "x": 360, "y": 1090, "size": 150, "enter": "pop", "on": "eggs", "idle": "bob"},
+        {"type": "icon", "name": "egg", "x": 540, "y": 1120, "size": 165, "enter": "pop", "on": "eggs", "delay": 0.1, "idle": "bob"},
+        {"type": "icon", "name": "egg", "x": 720, "y": 1090, "size": 150, "enter": "pop", "on": "eggs", "delay": 0.2, "idle": "bob"},
+        {"type": "icon", "name": "wilted-flower", "x": 840, "y": 520, "size": 200, "enter": "fade", "on": "dies", "idle": "sway"}
+      ]
+    },
+    {
+      "text": "So, which octopus fact surprised you the most?",
+      "bg": ["#1e88e5", "#04173a"],
+      "elements": [
+        {"type": "glow", "x": 540, "y": 840, "r": 430, "color": "#9fd4ff", "idle": "none", "opacity": 0.5},
+        {"type": "icon", "name": "octopus", "x": 540, "y": 860, "size": 480, "enter": "pop", "idle": "swim"},
+        {"type": "icon", "name": "speech-balloon", "x": 800, "y": 560, "size": 200, "enter": "pop", "on": "which", "idle": "bob"},
+        {"type": "icon", "name": "exploding-head", "x": 280, "y": 560, "size": 210, "enter": "zoom", "on": "surprised", "idle": "wiggle", "impact": true}
+      ]
+    }
+  ]
+}

@@ -44,11 +44,9 @@ def generate_keyframes(project_dir):
 
             res = client.generate_image(prompt, aspect_ratio=aspect, reference_images=char_refs)
             img_url = res.get("url")
-            if img_url and img_url.startswith("http"):
-                download_file(img_url, out_path)
-            else:
-                with open(out_path, "w", encoding="utf-8") as img_file:
-                    img_file.write(f"MOCK_KEYFRAME_DATA_FOR_{shot_id}")
+            if not (img_url and download_file(img_url, out_path)):
+                sys.exit(f"[Error] Keyframe {shot_id} was not generated. "
+                         "Check MUAPI_API_KEY, account credits and network access.")
 
             shot_count += 1
             print(f"  [OK] Rendered keyframe [{shot_id}]: {out_path}")

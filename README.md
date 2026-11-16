@@ -91,7 +91,8 @@ The pipeline turns a fragmented production process into one agent-guided workflo
 - **Curiosity-first scripts** — hooks, open loops, fast pacing, and a clear payoff.
 - **Consistent 3D worlds** — character turnarounds and anatomy references anchor every shot.
 - **Signature visual language** — plasticine-like materials, subsurface scattering, dramatic studio light, macro depth of field, and internal cross-sections.
-- **High-retention editing** — push-ins on impact beats, short fade/wipe/slide transitions, voice-led pacing, music, and captions.
+- **High-retention editing** — push-ins on impact beats, short fade/wipe/slide transitions, voice-led pacing, and captions.
+- **No music** — the narration is the only audio, so uploads stay clear of music copyright claims.
 - **Human approval at the right moments** — review the beat map and visual direction before the expensive generation stages.
 - **Agent-native by design** — the workflow, prompts, and conventions live in `SKILL.md` and `references/`.
 
@@ -113,8 +114,8 @@ topic / question
   ├─ 3. Character sheets      Build multi-angle 3D references
   ├─ 4. Keyframes             Render stylized 3D scene posters  ◀── GATE 2: choose look
   ├─ 5. Motion clips           Animate each keyframe with Veo 3.1
-  ├─ 6. Voice narration        Synthesize the narration and BGM
-  ├─ 7. Assembly               Add impact zooms, transitions, mix audio, captions
+  ├─ 6. Voice narration        Synthesize the narration (voice only)
+  ├─ 7. Assembly               Add impact zooms, transitions, narration, captions
   └─ final.mp4                Vertical 9:16 short
 ```
 
@@ -178,6 +179,19 @@ python3 scripts/assemble.py out/mosquitoes
 
 The finished project is written to `out/mosquitoes/`, with the final render at `out/mosquitoes/final.mp4`.
 
+`assemble.py` uses the narration as the only audio. It drops the clips' own audio, because Veo 3.1 can generate music with a clip. Pass `--keep-clip-audio` to keep the clip audio instead.
+
+### 5. Local mode: no API key, no cost
+
+[`local/`](local/README.md) renders a finished short on your own machine. It uses Kokoro TTS (Apache-2.0) for narration with word-level timing, Microsoft's Fluent Emoji (MIT) as 3D-style illustrations, headless Chromium for the animation, and ffmpeg for the encode. The audio is narration plus short synthesized whooshes. It has no music.
+
+```bash
+bash local/setup.sh                                        # one time
+.venv-local/bin/python local/make_short.py shorts/honey.json
+```
+
+Each short is one JSON file in [`shorts/`](shorts/): the narration split into beats, and each visual pinned to the word that triggers it. See [`local/README.md`](local/README.md) for the format.
+
 ## 📁 Repository structure
 
 ```
@@ -196,8 +210,10 @@ scripts/              Pipeline automation
   character_sheets.py 3D turnaround references
   keyframes.py        Scene keyframes
   clips.py            Veo 3.1 motion clips
-  audio.py            Narration and BGM
+  audio.py            Narration (voice only)
   assemble.py         FFmpeg assembly and effects
+local/                No-API renderer: Kokoro TTS + Fluent Emoji + Chromium + ffmpeg
+shorts/               Ready-to-render specs for local mode
 examples/             Ready-to-run beat maps
 out/test_run/          Included clips, final demo, and keyframe showcase assets
 ```
@@ -215,7 +231,7 @@ For the creative rules behind the pipeline, see [`references/prompt-guide.md`](r
 
 ## ⚠️ Notes
 
-- Generation stages require a working `MUAPI_API_KEY` and can incur provider costs.
+- Generation stages require a working `MUAPI_API_KEY` and can incur provider costs. Local mode does not.
 - Keep API keys in environment variables; never commit them to the repository.
 - The output is designed for vertical short-form video (`9:16`).
 - If a provider endpoint changes, update the centralized client in [`scripts/provider.py`](scripts/provider.py).
