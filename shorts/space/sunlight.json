@@ -218,7 +218,7 @@
           "w": 60,
           "h": 60,
           "enter": "pop",
-          "on": "earths",
+          "on": "huge",
           "idle": "none",
           "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><circle cx='30' cy='30' r='4.2' fill='#5fb4ff'/><circle cx='30' cy='30' r='17' fill='none' stroke='#FFE14D' stroke-width='2.5'/></svg>"
         },
@@ -230,7 +230,7 @@
           "size": 40,
           "style": "glass",
           "enter": "slideR",
-          "on": "earths",
+          "on": "huge",
           "idle": "none"
         },
         {
@@ -245,7 +245,8 @@
           "idle": "none",
           "impact": true
         }
-      ]
+      ],
+      "hold": 0.9
     },
     {
       "text": "It holds about *99.8* percent of all the mass in our solar system.",

@@ -356,11 +356,13 @@
           "size": 56,
           "style": "glass",
           "enter": "pop",
-          "on": "earth",
+          "on": "dot",
           "idle": "none",
-          "impact": true
+          "impact": true,
+          "delay": 0.5
         }
-      ]
+      ],
+      "hold": 1.3
     },
     {
       "text": "So, did you know Saturn could float?",

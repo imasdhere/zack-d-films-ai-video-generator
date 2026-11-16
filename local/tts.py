@@ -188,6 +188,10 @@ def narrate(spec, out_dir):
             words_out.extend(timed)
             chunks.append(audio.astype(np.float32))
             cursor += len(audio) / SAMPLE_RATE
+        if beat.get("hold"):
+            # A dramatic pause, so a reveal stays on screen before the next cut
+            chunks.append(np.zeros(int(float(beat["hold"]) * SAMPLE_RATE), dtype=np.float32))
+            cursor += float(beat["hold"])
         beats_out.append({"words": words_out})
 
     chunks.append(np.zeros(int(TAIL * SAMPLE_RATE), dtype=np.float32))
