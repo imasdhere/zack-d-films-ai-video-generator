@@ -54,9 +54,45 @@ def find_word(words, key, nth=1):
     return None
 
 
+def resolve_image(src, credits, crop=None):
+    """Turn "nasa:<id>" or a repo-relative path into a file:// URL. Returns (url, credit).
+
+    crop = [x0, y0, x1, y1] in fractions cuts a region out first, for example one
+    planet from a side-by-side comparison.
+    """
+    credit = None
+    if src.startswith("nasa:"):
+        import nasa_images
+        nasa_id = src[len("nasa:"):]
+        path, credit, title = nasa_images.fetch(nasa_id)
+        credits[nasa_id] = (title, credit)
+    else:
+        path = src if os.path.isabs(src) else os.path.join(REPO, src)
+        if not os.path.exists(path):
+            sys.exit(f"[scene] image not found: {path}")
+    if crop:
+        from PIL import Image
+        stem = os.path.splitext(os.path.basename(path))[0]
+        tag = "_".join(f"{c:.3f}" for c in crop)
+        derived = os.path.join(REPO, "assets", "derived", f"{stem}_{tag}.jpg")
+        if not os.path.exists(derived):
+            os.makedirs(os.path.dirname(derived), exist_ok=True)
+            im = Image.open(path)
+            w, h = im.size
+            im.crop((int(crop[0] * w), int(crop[1] * h), int(crop[2] * w), int(crop[3] * h))).save(derived, quality=94)
+        path = derived
+    return "file://" + path, credit
+
+
+def short_credit(credit, limit=44):
+    credit = credit or ""
+    return credit if len(credit) <= limit else credit[:limit].rsplit(" ", 1)[0].rstrip(",;") + "…"
+
+
 def resolve_scene(spec, timing):
     """Merge the spec with the narration timings into what the renderer draws."""
     beats_in, beats_t = spec["beats"], timing["beats"]
+    credits = {}
     starts = []
     for i, bt in enumerate(beats_t):
         starts.append(0.0 if i == 0 else round(bt["words"][0]["s"] - CUT_LEAD, 3))
@@ -70,6 +106,8 @@ def resolve_scene(spec, timing):
         elements, impacts, untimed = [], [], 0
         for el in beat.get("elements", []):
             el = dict(el)
+            if el.get("type") == "image":
+                el["url"], _ = resolve_image(el["src"], credits, el.get("crop"))
             if el.get("on"):
                 t0 = find_word(words, el["on"], el.get("nth", 1))
                 if t0 is None:
@@ -96,7 +134,7 @@ def resolve_scene(spec, timing):
             elif el.get("sfx"):
                 sfx.append({"t": max(t0, 0), "kind": el["sfx"]})
             elements.append(el)
-        if not any(el["t0"] <= start + 0.35 for el in elements):
+        if not beat.get("photo") and not any(el["t0"] <= start + 0.35 for el in elements):
             print(f"[warn] beat {i + 1} shows nothing in its first moment; add an element without 'on'")
         for key in beat.get("impactOn", []):
             t = find_word(words, key)
@@ -106,12 +144,19 @@ def resolve_scene(spec, timing):
             sfx.append({"t": t, "kind": "pop"})
         if i > 0:
             sfx.append({"t": start - 0.08, "kind": "whoosh"})
+        photo = None
+        if beat.get("photo"):
+            photo = dict(beat["photo"])
+            photo["url"], auto_credit = resolve_image(photo["src"], credits, photo.get("crop"))
+            photo["credit"] = photo.get("credit") or short_credit(auto_credit)
         beats_out.append({
             "start": start, "end": round(end, 3), "bg": beat.get("bg", DEFAULT_BG),
-            "words": words, "elements": elements, "impacts": sorted(impacts),
+            "words": words, "elements": elements, "impacts": sorted(impacts), "photo": photo,
         })
     return {"title": spec.get("title", ""), "fps": spec.get("fps", 30), "duration": duration,
-            "beats": beats_out, "sfx": sorted(sfx, key=lambda e: e["t"])}
+            "theme": spec.get("theme", "default"), "beats": beats_out,
+            "sfx": sorted(sfx, key=lambda e: e["t"]),
+            "credits": [{"nasa_id": k, "title": t, "credit": c} for k, (t, c) in credits.items()]}
 
 
 def synth_whoosh(dur=0.34, seed=1):
@@ -192,9 +237,13 @@ def remux_audio(video_path, audio_path):
     os.replace(tmp, video_path)
 
 
-def write_post_kit(spec, out_dir, duration):
+def write_post_kit(spec, out_dir, duration, credits=()):
     post = spec.get("post", {})
     tags = " ".join("#" + t.lstrip("#") for t in post.get("hashtags", []))
+    caption = post.get("caption", "")
+    if credits:
+        # NASA asks for credit and no implied endorsement; keep it short in the caption
+        caption += "\n\nImages: " + "; ".join(sorted({c["credit"] for c in credits})) + ". Not endorsed by NASA."
     lines = [
         f"FILE: {spec['id']}.mp4   ({duration:.1f}s, 1080x1920, no music)",
         "",
@@ -202,7 +251,7 @@ def write_post_kit(spec, out_dir, duration):
         post.get("youtube_title", spec.get("title", "")),
         "",
         "TIKTOK / REELS / SHORTS CAPTION:",
-        (post.get("caption", "") + "\n\n" + tags).strip(),
+        (caption + "\n\n" + tags).strip(),
         "",
         "PINNED COMMENT (post it yourself right after upload):",
         post.get("pinned_comment", ""),
@@ -210,6 +259,9 @@ def write_post_kit(spec, out_dir, duration):
         "SOURCES (keep these; reply with them if someone asks):",
         *[f"- {s}" for s in spec.get("sources", [])],
     ]
+    if credits:
+        lines += ["", "IMAGE CREDITS (NASA Image and Video Library):",
+                  *[f"- {c['nasa_id']}: {c['title']} ({c['credit']})" for c in credits]]
     with open(os.path.join(out_dir, "post.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
@@ -266,7 +318,7 @@ def main():
                             "-of", "json", final], capture_output=True, text=True, check=True)
     fmt = json.loads(probe.stdout)["format"]
     duration = float(fmt["duration"])
-    write_post_kit(spec, out_dir, duration)
+    write_post_kit(spec, out_dir, duration, scene.get("credits", []))
     print(f"[done] {final}  {duration:.1f}s  {int(fmt['size']) / 1e6:.1f} MB")
     if duration < MIN_TIKTOK_REWARDS:
         print(f"[warn] {duration:.1f}s is too short for TikTok Creator Rewards (needs > 60s)")

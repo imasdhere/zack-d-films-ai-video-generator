@@ -9,8 +9,22 @@
   @font-face { font-family: "InterLocal"; font-weight: 900; src: url("node_modules/@fontsource/inter/files/inter-latin-900-normal.woff2") format("woff2"); }
   html, body { margin: 0; padding: 0; background: #000; }
   #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: "Inter", "InterLocal", "Noto Color Emoji", sans-serif; }
-  #bg, #fx, #scene, #vignette { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
-  #scene { transform-origin: 540px 860px; }
+  #bg, #fx, #cam, #photos, #scene, #shade, #vignette { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+  #cam { transform-origin: 540px 860px; }
+  /* Photo mode: full-bleed pictures with slow zooms, under the animated elements */
+  .ph { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; opacity: 0; visibility: hidden; }
+  .ph img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; will-change: transform; }
+  .ph .blurbg { object-fit: cover; filter: blur(38px) brightness(0.5) saturate(1.3); transform: scale(1.2); }
+  .ph .dim { position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: #000; }
+  #shade { opacity: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0) 22%, rgba(0,0,0,0) 56%, rgba(0,0,0,0.6) 76%, rgba(0,0,0,0.78) 100%); }
+  #badge { position: absolute; left: 60px; top: 322px; display: none; align-items: center; gap: 12px; color: #fff;
+    font-weight: 800; font-size: 28px; letter-spacing: 1.5px; text-transform: uppercase;
+    background: rgba(0,0,0,0.5); padding: 10px 22px 11px 16px; border-radius: 999px; max-width: 900px; white-space: nowrap; overflow: hidden; }
+  #badge .dot { flex: none; width: 14px; height: 14px; border-radius: 50%; background: #3ddc84; box-shadow: 0 0 12px #3ddc84; }
+  #badge .credit { font-weight: 600; text-transform: none; letter-spacing: 0.3px; opacity: 0.85; overflow: hidden; text-overflow: ellipsis; }
+  .image { overflow: hidden; }
+  .image img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  .image.frame { border: 5px solid rgba(255,255,255,0.92); box-shadow: 0 24px 60px rgba(0,0,0,0.55); }
   #vignette { background: radial-gradient(120% 85% at 50% 42%, rgba(0,0,0,0) 52%, rgba(0,0,0,0.58) 100%); }
   .el { position: absolute; left: 0; top: 0; transform-origin: 50% 50%; will-change: transform, opacity; }
   .icon img, .svg img { display: block; width: 100%; height: 100%; }
@@ -28,6 +42,10 @@
     text-shadow: 0 10px 0 rgba(0,0,0,0.28);
   }
   .text.pill { -webkit-text-stroke: 0; text-shadow: 0 6px 0 rgba(0,0,0,0.25); padding: 14px 34px 18px; border-radius: 28px; box-shadow: 0 18px 40px rgba(0,0,0,0.35); }
+  /* Documentary styles for text over photos */
+  .text.clean { -webkit-text-stroke: 0; text-shadow: 0 4px 22px rgba(0,0,0,0.85), 0 2px 6px rgba(0,0,0,0.9); }
+  .text.glass { -webkit-text-stroke: 0; text-shadow: none; background: rgba(8,10,20,0.55); backdrop-filter: blur(14px);
+    border: 2px solid rgba(255,255,255,0.2); border-radius: 28px; padding: 16px 34px 20px; box-shadow: 0 18px 40px rgba(0,0,0,0.35); }
   .meter { width: 760px; }
   .meter .mhead { display: flex; justify-content: space-between; align-items: baseline; font-weight: 900; color: #fff; text-transform: uppercase;
     font-size: 52px; -webkit-text-stroke: 10px #000; paint-order: stroke fill; margin-bottom: 14px; }
@@ -54,9 +72,11 @@
 <div id="stage">
   <div id="bg"></div>
   <canvas id="fx" width="1080" height="1920"></canvas>
-  <div id="scene"></div>
+  <div id="cam"><div id="photos"></div><div id="scene"></div></div>
+  <div id="shade"></div>
   <div id="vignette"></div>
   <div id="title"></div>
+  <div id="badge"><span class="dot"></span><span class="kind"></span><span class="credit"></span></div>
   <div id="cap"><div id="capin"></div></div>
 </div>
 <script>
@@ -116,10 +136,23 @@ function makeNode(el, icons) {
   } else if (el.type === 'svg') {
     node.style.width = (el.w || 800) + 'px'; node.style.height = (el.h || el.w || 800) + 'px';
     const img = new Image(); img.src = svgUrl(el.markup); node.appendChild(img); imgs.push(img);
+  } else if (el.type === 'image') {
+    node.style.width = (el.w || 600) + 'px'; node.style.height = (el.h || el.w || 600) + 'px';
+    if (el.radius != null) node.style.borderRadius = el.radius + 'px';
+    if (el.frame) node.classList.add('frame');
+    if (el.blend) node.style.mixBlendMode = el.blend;  // "screen" drops a black space background
+    const img = new Image(); img.src = el.url;
+    const f = el.focus || [0.5, 0.5];
+    img.style.objectFit = el.fit || 'cover';
+    img.style.objectPosition = img.style.transformOrigin = `${f[0] * 100}% ${f[1] * 100}%`;
+    node.appendChild(img); imgs.push(img);
+    el._img = img;
   } else if (el.type === 'text' || el.type === 'counter') {
     node.classList.add('text');
     node.style.fontSize = (el.size || 110) + 'px';
     node.style.color = el.color || '#fff';
+    const style = el.style || (S.theme === 'photo' ? 'clean' : 'stroke');
+    if (style === 'clean' || style === 'glass') node.classList.add(style);
     if (el.bg) { node.classList.add('pill'); node.style.background = el.bg; }
     node.textContent = el.type === 'text' ? el.text : (el.prefix || '') + fmtNum(el.from || 0, el) + (el.suffix || '');
   } else if (el.type === 'meter') {
@@ -148,10 +181,32 @@ function makeNode(el, icons) {
   return { node, imgs };
 }
 
+function makePhoto(p) {
+  const node = document.createElement('div');
+  node.className = 'ph';
+  const imgs = [];
+  if (p.fit === 'contain') {
+    // A landscape or small picture sits sharp in the middle of a blurred copy of itself
+    const blur = new Image(); blur.className = 'blurbg'; blur.src = p.url;
+    node.appendChild(blur); imgs.push(blur);
+  }
+  const img = new Image(); img.className = 'main'; img.src = p.url;
+  const f = p.focus || [0.5, 0.5];
+  img.style.objectFit = p.fit === 'contain' ? 'contain' : 'cover';
+  img.style.objectPosition = img.style.transformOrigin = `${f[0] * 100}% ${f[1] * 100}%`;
+  node.appendChild(img); imgs.push(img);
+  if (p.dim) { const d = document.createElement('div'); d.className = 'dim'; d.style.opacity = p.dim; node.appendChild(d); }
+  document.getElementById('photos').appendChild(node);
+  return { node, img, imgs };
+}
+
 window.setup = async (scene, icons) => {
   S = scene;
   const sceneNode = document.getElementById('scene');
   const allImgs = [];
+  S.beats.forEach(beat => {
+    if (beat.photo) { beat._ph = makePhoto(beat.photo); allImgs.push(...beat._ph.imgs); }
+  });
   S.beats.forEach((beat, bi) => {
     (beat.elements || []).forEach((el, ei) => {
       const { node, imgs } = makeNode(el, icons);
@@ -174,6 +229,18 @@ window.setup = async (scene, icons) => {
   await document.fonts.load('800 40px Inter, InterLocal');
   await document.fonts.ready;
   await Promise.all(allImgs.map(img => img.decode()));
+
+  // Shrink any callout that would run past the frame edges (measured at its final text)
+  const MAXW = 960;
+  for (const it of items) {
+    const el = it.el;
+    if (el.type !== 'text' && el.type !== 'counter') continue;
+    const shown = it.node.textContent;
+    if (el.type === 'counter') it.node.textContent = (el.prefix || '') + fmtNum(el.to || 0, el) + (el.suffix || '');
+    const w = it.node.offsetWidth;
+    el._fit = w > MAXW ? MAXW / w : 1;
+    it.node.textContent = shown;
+  }
   return { items: items.length, chunks: chunks.length };
 };
 
@@ -248,7 +315,8 @@ function renderElement(it, t, bi) {
   idleState(el.idle === undefined ? 'float' : el.idle, u, it.phase, st);
   if (out > 0) { st.o *= 1 - out; st.s *= 1 - 0.3 * ease.inCubic(out); }
   const base = (el.rot || 0) + st.r;
-  const sx = (el.flip && el.type !== 'icon' ? -1 : 1) * st.s * (el.scale || 1), sy = st.s * (el.scale || 1);
+  const fit = (el.scale || 1) * (el._fit || 1);
+  const sx = (el.flip && el.type !== 'icon' ? -1 : 1) * st.s * fit, sy = st.s * fit;
   node.style.opacity = st.o * (el.opacity == null ? 1 : el.opacity);
   node.style.transform = `translate(${el.x + st.x}px, ${el.y + st.y}px) translate(-50%, -50%) rotate(${base}deg) scale(${sx}, ${sy})`;
 
@@ -263,6 +331,10 @@ function renderElement(it, t, bi) {
     const v = (el.from || 0) + ((el.to || 0) - (el.from || 0)) * p;
     const txt = (el.prefix || '') + fmtNum(v, el) + (el.suffix || '');
     if (node.textContent !== txt) node.textContent = txt;
+  } else if (el.type === 'image' && el.zoom) {
+    const life = Math.max(1, tEnd - t0);
+    const z = el.zoom[0] + (el.zoom[1] - el.zoom[0]) * clamp01(u / life);
+    el._img.style.transform = `scale(${z})`;
   } else if (el.type === 'meter') {
     const p = ease.outCubic(clamp01((u - 0.15) / (el.dur || 0.9)));
     node.querySelector('.mfill').style.width = (el.value * p).toFixed(2) + '%';
@@ -296,7 +368,57 @@ function renderCamera(t, bi) {
     x += 14 * Math.exp(-d * 8) * Math.sin(d * 70);
     y += 10 * Math.exp(-d * 8) * Math.cos(d * 57);
   }
-  document.getElementById('scene').style.transform = `translate(${x}px, ${y}px) scale(${s})`;
+  document.getElementById('cam').style.transform = `translate(${x}px, ${y}px) scale(${s})`;
+}
+
+const XFADE = 0.4;
+const BADGE_COLORS = { 'REAL PHOTO': '#3ddc84', 'REAL IMAGE': '#3ddc84', 'ILLUSTRATION': '#ffb020', 'SIMULATION': '#ffb020' };
+let shownBadge = null;
+
+function renderPhotos(t, bi) {
+  const beat = S.beats[bi];
+  const into = t - beat.start;
+  S.beats.forEach((b, j) => {
+    if (!b._ph) return;
+    let o = 0;
+    if (j === bi) o = bi === 0 ? 1 : ease.outCubic(clamp01(into / XFADE));
+    else if (j === bi - 1 && into < XFADE) o = 1;  // stays under the incoming picture
+    const node = b._ph.node;
+    node.style.visibility = o > 0 ? 'visible' : 'hidden';
+    node.style.opacity = o;
+    if (o <= 0) return;
+    // Ken Burns: a slow zoom (and optional pan) across the beat, anchored at the focus point
+    const p = b.photo;
+    const len = Math.max(0.5, b.end - b.start + XFADE);
+    const k = clamp01((t - b.start) / len);
+    const e = k * k * (3 - 2 * k);
+    const zoom = p.zoom || [1.04, 1.12];
+    const z = Math.max(1.04, zoom[0] + (zoom[1] - zoom[0]) * e);  // never below 1.04, so a shake shows no edge
+    const pan = p.pan || [[0, 0], [0, 0]];
+    const tx = pan[0][0] + (pan[1][0] - pan[0][0]) * e;
+    const ty = pan[0][1] + (pan[1][1] - pan[0][1]) * e;
+    b._ph.img.style.transform = `translate(${tx}px, ${ty}px) scale(${z})`;
+  });
+
+  const shade = document.getElementById('shade');
+  const has = !!beat.photo, had = bi > 0 && !!S.beats[bi - 1].photo;
+  shade.style.opacity = has ? (had ? 1 : ease.outCubic(clamp01(into / XFADE))) : (had ? 1 - clamp01(into / XFADE) : 0);
+
+  const badge = document.getElementById('badge');
+  const want = beat.photo && beat.photo.badge ? `${beat.photo.badge}|${beat.photo.credit || ''}` : null;
+  if (want !== shownBadge) {
+    shownBadge = want;
+    if (!want) badge.style.display = 'none';
+    else {
+      badge.style.display = 'flex';
+      badge.querySelector('.kind').textContent = beat.photo.badge;
+      badge.querySelector('.credit').textContent = beat.photo.credit ? '· ' + beat.photo.credit : '';
+      const c = BADGE_COLORS[beat.photo.badge] || '#5ab8ff';
+      badge.querySelector('.dot').style.background = c;
+      badge.querySelector('.dot').style.boxShadow = `0 0 12px ${c}`;
+    }
+  }
+  badge.style.opacity = want ? ease.outCubic(clamp01((into + (bi === 0 ? 1 : 0)) / 0.3)) : 0;
 }
 
 function renderBackground(t, bi) {
@@ -353,6 +475,7 @@ function renderCaptions(t) {
 window.renderFrame = (t) => {
   const bi = beatAt(t);
   renderBackground(t, bi);
+  renderPhotos(t, bi);
   renderCamera(t, bi);
   for (const it of items) renderElement(it, t, bi);
   renderCaptions(t);

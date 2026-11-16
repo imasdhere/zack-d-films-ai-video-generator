@@ -1,0 +1,347 @@
+{
+  "id": "venus",
+  "title": "A day on Venus is longer than its year",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.04,
+  "post": {
+    "youtube_title": "A Day on Venus Is Longer Than Its Year ☀️ #shorts",
+    "caption": "Venus spins once every 243 Earth days but orbits the Sun in 225. It spins backwards, it's hot enough to melt lead, and it's hotter than Mercury 🔥",
+    "hashtags": [
+      "venus",
+      "space",
+      "planets",
+      "nasa",
+      "astronomy",
+      "science",
+      "shorts"
+    ],
+    "pinned_comment": "Would you rather spend a day on Venus, or a year? 👇"
+  },
+  "sources": [
+    "Margot et al. (2021), Nature Astronomy: Venus rotates once every 243.0226 Earth days; it orbits the Sun in 224.7 days",
+    "NASA Venus facts: retrograde rotation, sulfuric acid clouds, surface around 465 degrees C (hot enough to melt lead), pressure about 90 times Earth's",
+    "Venera 13 (1982) survived 127 minutes on the surface",
+    "Solar day on Venus (sunrise to sunrise): about 117 Earth days"
+  ],
+  "beats": [
+    {
+      "text": "On Venus, a single day lasts *longer* than an entire year.",
+      "photo": {
+        "src": "nasa:PIA23791",
+        "crop": [
+          0.0,
+          0.0,
+          0.5,
+          1.0
+        ],
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.18
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech (Mariner 10)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1 DAY > 1 YEAR",
+          "x": 540,
+          "y": 470,
+          "size": 120,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "longer",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Venus takes about *225* Earth days to go once around the Sun.",
+      "photo": {
+        "src": "nasa:PIA00104",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.16
+        ],
+        "badge": "RADAR MAP",
+        "credit": "NASA/JPL (Magellan)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1 YEAR = 225 DAYS",
+          "x": 540,
+          "y": 470,
+          "size": 104,
+          "enter": "zoom",
+          "on": "225",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "But it spins so slowly that one full turn takes *243* Earth days.",
+      "photo": {
+        "src": "nasa:S91-50688",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.18
+        ],
+        "badge": "RADAR MAP",
+        "credit": "NASA/JPL (Magellan)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1 SPIN = 243 DAYS",
+          "x": 540,
+          "y": 470,
+          "size": 104,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "243",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "And it spins *backwards*. On Venus, the Sun rises in the west and sets in the east.",
+      "photo": {
+        "src": "nasa:PIA00104",
+        "fit": "contain",
+        "zoom": [
+          1.18,
+          1.04
+        ],
+        "badge": "RADAR MAP",
+        "credit": "NASA/JPL (Magellan)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SUNRISE IN THE WEST",
+          "x": 540,
+          "y": 470,
+          "size": 84,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "west",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Not that you'd ever see it. The whole planet is wrapped in thick clouds of *sulfuric* acid.",
+      "photo": {
+        "src": "nasa:PIA23791",
+        "crop": [
+          0.5,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech (Mariner 10)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SULFURIC ACID CLOUDS",
+          "x": 540,
+          "y": 470,
+          "size": 76,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "sulfuric",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Down on the ground, it's around *465* degrees Celsius. Hot enough to melt lead.",
+      "photo": {
+        "src": "nasa:PIA00107",
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "RADAR 3D VIEW",
+        "credit": "NASA/JPL (Magellan)"
+      },
+      "elements": [
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 465,
+          "suffix": "°C",
+          "x": 540,
+          "y": 470,
+          "size": 170,
+          "color": "#ff9a3d",
+          "enter": "zoom",
+          "on": "465",
+          "dur": 1.1,
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "That makes Venus hotter than Mercury, even though Mercury is closer to the Sun.",
+      "photo": {
+        "src": "nasa:PIA00233",
+        "fit": "contain",
+        "zoom": [
+          1.3,
+          1.55
+        ],
+        "badge": "RADAR 3D VIEW",
+        "credit": "NASA/JPL (Magellan)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "HOTTER THAN MERCURY",
+          "x": 540,
+          "y": 470,
+          "size": 84,
+          "enter": "zoom",
+          "on": "hotter",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Its thick carbon dioxide air traps the heat. A *runaway* greenhouse effect.",
+      "photo": {
+        "src": "nasa:PIA23791",
+        "crop": [
+          0.0,
+          0.0,
+          0.5,
+          1.0
+        ],
+        "fit": "contain",
+        "zoom": [
+          1.2,
+          1.4
+        ],
+        "dim": 0.15,
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech (Mariner 10)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "RUNAWAY GREENHOUSE",
+          "x": 540,
+          "y": 470,
+          "size": 80,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "runaway",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "And the air is so *heavy*, standing there would feel like being nearly a kilometer underwater.",
+      "photo": {
+        "src": "nasa:PIA00107",
+        "focus": [
+          0.6,
+          0.45
+        ],
+        "zoom": [
+          1.3,
+          1.5
+        ],
+        "badge": "RADAR 3D VIEW",
+        "credit": "NASA/JPL (Magellan)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "≈ 90× EARTH'S AIR PRESSURE",
+          "x": 540,
+          "y": 470,
+          "size": 68,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "heavy",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "The few Soviet probes that landed there lasted only an hour or two.",
+      "photo": {
+        "src": "nasa:PIA00233",
+        "fit": "contain",
+        "zoom": [
+          1.6,
+          1.35
+        ],
+        "dim": 0.25,
+        "badge": "RADAR 3D VIEW",
+        "credit": "NASA/JPL (Magellan)"
+      }
+    },
+    {
+      "text": "One twist: because it spins backwards, sunrise to sunrise on Venus is about *117* Earth days.",
+      "photo": {
+        "src": "nasa:S91-50688",
+        "fit": "contain",
+        "zoom": [
+          1.18,
+          1.04
+        ],
+        "badge": "RADAR MAP",
+        "credit": "NASA/JPL (Magellan)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SUNRISE TO SUNRISE: 117 DAYS",
+          "x": 540,
+          "y": 470,
+          "size": 66,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "117",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "So, would you rather spend a day on Venus, or a year?",
+      "photo": {
+        "src": "nasa:PIA23791",
+        "crop": [
+          0.0,
+          0.0,
+          0.5,
+          1.0
+        ],
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.12
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech (Mariner 10)"
+      }
+    }
+  ]
+}

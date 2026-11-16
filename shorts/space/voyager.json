@@ -1,0 +1,95 @@
+{
+  "id": "voyager",
+  "title": "Voyager 1 is now one light-day from Earth",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.04,
+  "post": {
+    "youtube_title": "Voyager 1 Is Now One Light-Day From Earth 🛰️ #shorts",
+    "caption": "Launched in 1977 with 69 KB of memory, Voyager 1 just became the first human-made object one full light-day from Earth. A signal now takes 24 hours to reach it 🤯",
+    "hashtags": ["voyager1", "space", "nasa", "astronomy", "palebluedot", "science", "shorts"],
+    "pinned_comment": "If you could add one thing to the Golden Record, what would it be? 👇"
+  },
+  "sources": [
+    "NASA/JPL: Voyager 1 reaches one light-day (about 25.9 billion km) from Earth on November 18, 2026",
+    "NASA/JPL: Voyager 1 entered interstellar space in August 2012; speed about 61,000 km/h relative to the Sun",
+    "NASA/JPL: Pale Blue Dot, taken February 14, 1990, from about 6 billion km; Earth spans less than a pixel",
+    "Voyager computers: about 69.6 KB of memory in total (CCS, FDS and AACS)"
+  ],
+  "beats": [
+    {
+      "text": "A radio signal sent to {Voyager 1|Voyager one} now takes a *full* *day* to get there.",
+      "photo": {"src": "nasa:PIA21839", "fit": "contain", "focus": [0.72, 0.5], "zoom": [1.5, 1.75], "badge": "ILLUSTRATION", "credit": "NASA/JPL-Caltech"},
+      "elements": [
+        {"type": "text", "text": "24 HOURS", "x": 540, "y": 470, "size": 150, "color": "#FFE14D", "enter": "zoom", "on": "full", "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "On November 18th, {2026|twenty twenty-six}, it becomes the first human-made object to reach one *light-day* from Earth. That's nearly 26 billion kilometers away.",
+      "photo": {"src": "nasa:GSFC_20171208_Archive_e001788", "fit": "contain", "zoom": [1.0, 1.25], "badge": "REAL IMAGE", "credit": "NASA/NOAA"},
+      "elements": [
+        {"type": "text", "text": "1 LIGHT-DAY", "x": 540, "y": 470, "size": 120, "color": "#FFE14D", "enter": "zoom", "on": "light-day", "idle": "none"},
+        {"type": "counter", "from": 0, "to": 25.9, "decimals": 1, "suffix": " BILLION KM", "x": 540, "y": 1250, "size": 86, "enter": "rise", "on": "26", "dur": 1.2, "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "It launched in 1977, the same year the very first *Star* *Wars* movie came out.",
+      "photo": {"src": "nasa:PIA21747", "focus": [0.5, 0.45], "zoom": [1.04, 1.18], "badge": "REAL PHOTO", "credit": "NASA/JPL-Caltech/KSC"},
+      "elements": [
+        {"type": "text", "text": "1977", "x": 540, "y": 470, "size": 160, "color": "#FFE14D", "enter": "zoom", "on": "1977", "idle": "none"}
+      ]
+    },
+    {
+      "text": "And it still runs on computers with about *69* kilobytes of memory. That's less than a single photo on your phone.",
+      "photo": {"src": "nasa:PIA17049", "fit": "contain", "focus": [0.5, 0.45], "zoom": [1.45, 1.7], "badge": "ILLUSTRATION", "credit": "NASA/JPL-Caltech"},
+      "elements": [
+        {"type": "text", "text": "69 KB", "x": 540, "y": 470, "size": 170, "color": "#7CFFB2", "enter": "zoom", "on": "69", "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "In 1990, from about six billion kilometers away, it turned around and took this picture.",
+      "photo": {"src": "nasa:PIA23645", "focus": [0.594, 0.52], "zoom": [1.04, 1.22], "badge": "REAL PHOTO", "credit": "NASA/JPL-Caltech"},
+      "elements": [
+        {"type": "text", "text": "FEB 14, 1990", "x": 540, "y": 470, "size": 96, "enter": "fade", "on": "1990", "idle": "none"}
+      ]
+    },
+    {
+      "text": "That tiny speck is *Earth*. Every human who ever lived, on less than a single pixel.",
+      "photo": {"src": "nasa:PIA23645", "focus": [0.594, 0.52], "zoom": [2.2, 2.7], "badge": "REAL PHOTO", "credit": "NASA/JPL-Caltech"},
+      "elements": [
+        {"type": "svg", "x": 641, "y": 998, "w": 170, "h": 170, "enter": "zoom", "on": "speck", "idle": "pulse",
+         "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='100' cy='100' r='78' fill='none' stroke='#FFE14D' stroke-width='7'/><circle cx='100' cy='100' r='92' fill='none' stroke='#FFE14D' stroke-width='2' opacity='0.45'/></svg>"},
+        {"type": "text", "text": "EARTH", "x": 641, "y": 845, "size": 56, "style": "glass", "enter": "pop", "on": "earth", "idle": "none"}
+      ]
+    },
+    {
+      "text": "In 2012, {Voyager 1|Voyager one} left the Sun's bubble of solar wind, and entered *interstellar* space.",
+      "photo": {"src": "nasa:PIA13892", "fit": "contain", "focus": [0.5, 0.5], "zoom": [1.4, 1.65], "badge": "ILLUSTRATION", "credit": "NASA/JPL-Caltech"},
+      "elements": [
+        {"type": "text", "text": "INTERSTELLAR SPACE", "x": 540, "y": 470, "size": 74, "style": "glass", "enter": "zoom", "on": "interstellar", "idle": "none"}
+      ]
+    },
+    {
+      "text": "It's flying at about 61,000 kilometers per hour, and it's never coming back.",
+      "photo": {"src": "nasa:iss073e0982261", "focus": [0.45, 0.4], "zoom": [1.04, 1.2], "badge": "REAL PHOTO", "credit": "NASA (ISS)"},
+      "elements": [
+        {"type": "counter", "from": 0, "to": 61000, "suffix": " KM/H", "x": 540, "y": 470, "size": 120, "color": "#FFE14D", "enter": "zoom", "on": "61,000", "dur": 1.2, "idle": "none", "impact": true}
+      ]
+    },
+    {
+      "text": "Its nuclear power is fading, and one day soon, it will fall silent.",
+      "photo": {"src": "nasa:PIA21839", "fit": "contain", "focus": [0.72, 0.5], "zoom": [1.9, 1.5], "dim": 0.3, "badge": "ILLUSTRATION", "credit": "NASA/JPL-Caltech"}
+    },
+    {
+      "text": "But it will keep drifting between the stars for billions of years, carrying a *golden* *record* of sounds and pictures from Earth.",
+      "photo": {"src": "nasa:PIA14113", "fit": "contain", "zoom": [1.04, 1.25], "badge": "NASA IMAGE", "credit": "NASA/JPL-Caltech"},
+      "elements": [
+        {"type": "text", "text": "THE GOLDEN RECORD", "x": 540, "y": 470, "size": 76, "style": "glass", "color": "#FFD54A", "enter": "zoom", "on": "golden", "idle": "none"}
+      ]
+    },
+    {
+      "text": "If you could add one thing to that record, what would it be?",
+      "photo": {"src": "nasa:PIA23645", "focus": [0.594, 0.52], "zoom": [1.04, 1.12], "badge": "REAL PHOTO", "credit": "NASA/JPL-Caltech"}
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "id": "marssunset",
+  "title": "Sunsets on Mars are blue",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.04,
+  "post": {
+    "youtube_title": "This Is a Real Sunset on Mars. It's Blue 🔵 #shorts",
+    "caption": "NASA's Curiosity rover photographed this sunset in Gale Crater in 2015. Here's why the Red Planet's sunsets glow blue 🔴🔵",
+    "hashtags": [
+      "mars",
+      "curiosity",
+      "nasa",
+      "space",
+      "sunset",
+      "science",
+      "shorts"
+    ],
+    "pinned_comment": "Which sunset would you rather watch: Earth's or Mars'? 👇"
+  },
+  "sources": [
+    "NASA/JPL PIA19400: sunset in Gale Crater, photographed by Curiosity's Mastcam on April 15, 2015 (sol 956)",
+    "NASA/JPL (2015): fine Martian dust lets blue light penetrate more efficiently and scatters it close to the Sun's direction (M. Lemmon, Texas A&M)",
+    "NASA: Curiosity's camera is slightly less sensitive to blue than the human eye",
+    "NASA/JPL PIA23899: Earth and Venus seen from Mars by Curiosity",
+    "NASA: a Martian sol lasts 24 hours 39 minutes 35 seconds"
+  ],
+  "beats": [
+    {
+      "text": "This is a real sunset on Mars. And it's *blue*.",
+      "photo": {
+        "src": "nasa:PIA19400",
+        "fit": "contain",
+        "focus": [
+          0.34,
+          0.58
+        ],
+        "zoom": [
+          1.3,
+          1.55
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS/Texas A&M"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "A REAL MARTIAN SUNSET",
+          "x": 540,
+          "y": 470,
+          "size": 80,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "blue",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "NASA's *Curiosity* rover captured it in April {2015|twenty fifteen}, from inside Gale Crater, on its 956th day on Mars.",
+      "photo": {
+        "src": "nasa:PIA22960",
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "CURIOSITY ROVER",
+          "x": 540,
+          "y": 470,
+          "size": 96,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "curiosity",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "A day on Mars, called a *sol*, is only about 40 minutes longer than a day on Earth.",
+      "photo": {
+        "src": "nasa:PIA22960",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "zoom": [
+          1.3,
+          1.5
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1 SOL ≈ 24 H 40 MIN",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "sol",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "During the day, the Martian sky looks *butterscotch*. Dusty and orange.",
+      "photo": {
+        "src": "nasa:PIA23240",
+        "focus": [
+          0.5,
+          0.3
+        ],
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "DAYTIME: ORANGE",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "color": "#ffb36b",
+          "enter": "zoom",
+          "on": "butterscotch",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "But at sunset, it flips. The sky around the Sun glows *blue*.",
+      "photo": {
+        "src": "nasa:PIA19400",
+        "focus": [
+          0.34,
+          0.58
+        ],
+        "zoom": [
+          1.1,
+          1.35
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS/Texas A&M"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SUNSET: BLUE",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "color": "#9fd0ff",
+          "enter": "zoom",
+          "on": "blue",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "On Earth, it's the opposite. Blue skies by day, red and orange at *sunset*.",
+      "photo": {
+        "src": "nasa:iss044e025484",
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      }
+    },
+    {
+      "text": "The difference is dust. The thin Martian air is full of very fine *dust*.",
+      "photo": {
+        "src": "nasa:PIA23240",
+        "focus": [
+          0.5,
+          0.12
+        ],
+        "zoom": [
+          1.3,
+          1.5
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "FINE DUST",
+          "x": 540,
+          "y": 470,
+          "size": 120,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "dust",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Those tiny grains let blue light pass through more easily, and they scatter it close to the direction of the Sun.",
+      "photo": {
+        "src": "nasa:PIA19401",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS/Texas A&M"
+      }
+    },
+    {
+      "text": "So looking toward a setting Sun on Mars, you'd see a cool *blue* glow.",
+      "photo": {
+        "src": "nasa:PIA19400",
+        "focus": [
+          0.34,
+          0.58
+        ],
+        "zoom": [
+          1.5,
+          1.85
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS/Texas A&M"
+      }
+    },
+    {
+      "text": "And it's not a camera trick. Curiosity's camera is actually a little less sensitive to blue than your *eyes*.",
+      "photo": {
+        "src": "nasa:PIA22960",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "zoom": [
+          1.25,
+          1.45
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "NOT A CAMERA TRICK",
+          "x": 540,
+          "y": 470,
+          "size": 90,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "trick",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "And from Mars, our entire planet is just a tiny *dot* in the sky.",
+      "photo": {
+        "src": "nasa:PIA23899",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.18
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech",
+        "pan": [
+          [
+            0,
+            200
+          ],
+          [
+            0,
+            200
+          ]
+        ]
+      }
+    },
+    {
+      "text": "Which sunset would you rather watch, Earth's or Mars'?",
+      "photo": {
+        "src": "nasa:PIA19400",
+        "fit": "contain",
+        "focus": [
+          0.34,
+          0.58
+        ],
+        "zoom": [
+          1.55,
+          1.25
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/MSSS/Texas A&M"
+      }
+    }
+  ]
+}

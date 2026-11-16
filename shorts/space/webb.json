@@ -1,0 +1,361 @@
+{
+  "id": "webb",
+  "title": "Looking up is looking back in time",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.06,
+  "post": {
+    "youtube_title": "Every Time You Look Up, You're Looking Into the Past 🔭 #shorts",
+    "caption": "Moonlight is 1 second old. Andromeda's light is 2.5 million years old. And Webb sees galaxies as they were less than 300 million years after the Big Bang 🌌",
+    "hashtags": [
+      "jwst",
+      "jameswebb",
+      "space",
+      "nasa",
+      "astronomy",
+      "universe",
+      "shorts"
+    ],
+    "pinned_comment": "If you could look back at any moment in history, which would you pick? 👇"
+  },
+  "sources": [
+    "Light travel times: Moon about 1.3 s, Sun about 8 min 20 s, Andromeda about 2.5 million years",
+    "NASA: Webb's First Deep Field (SMACS 0723) covers a patch of sky about the size of a grain of sand held at arm's length and shows thousands of galaxies; some of its light traveled for more than 13 billion years",
+    "Webb has confirmed galaxies seen less than 300 million years after the Big Bang (JADES-GS-z14-0, MoM-z14)",
+    "Age of the universe: about 13.8 billion years (Planck)",
+    "NASA: Webb's primary mirror is 6.5 m across, made of 18 gold-coated beryllium segments"
+  ],
+  "beats": [
+    {
+      "text": "When you look deep into space, you are literally looking back in *time*.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "A TIME MACHINE",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "time",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Light is fast, but it's not instant. Moonlight is about one *second* old when it reaches you.",
+      "photo": {
+        "src": "nasa:as08-14-2383",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (Apollo 8)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "MOON: ≈ 1 SECOND",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "second",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Sunlight? About *eight* minutes.",
+      "photo": {
+        "src": "nasa:PIA26681",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.15
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/SDO"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SUN: ≈ 8 MINUTES",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "eight",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "The Andromeda galaxy? Its light left two and a half *million* years ago, before modern humans even existed.",
+      "photo": {
+        "src": "nasa:PIA04921",
+        "fit": "contain",
+        "zoom": [
+          1.3,
+          1.6
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/JPL-Caltech (GALEX)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "2,500,000 YEARS",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "million",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Now look at this. It's one of the first images from the *James* Webb Space Telescope.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "zoom": [
+          1.04,
+          1.12
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      }
+    },
+    {
+      "text": "Its main mirror is six and a half meters wide, made of *18* gold-coated segments.",
+      "photo": {
+        "src": "nasa:by-the-dozen-nasas-james-webb-space-telescope-mirrors_23607727573_o",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/Chris Gunn"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "18 GOLD MIRRORS",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "style": "glass",
+          "color": "#FFD54A",
+          "enter": "zoom",
+          "on": "18",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "It shows a patch of sky about the size of a *grain* of sand held at arm's length.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "zoom": [
+          1.12,
+          1.35
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "A GRAIN OF SAND\nAT ARM'S LENGTH",
+          "x": 540,
+          "y": 500,
+          "size": 74,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "grain",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "And almost every speck in it is a whole *galaxy*.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "focus": [
+          0.32,
+          0.68
+        ],
+        "zoom": [
+          1.6,
+          1.95
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "EACH SPECK: A GALAXY",
+          "x": 540,
+          "y": 470,
+          "size": 82,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "galaxy",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Some of this light has been traveling for more than *13* billion years.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "focus": [
+          0.7,
+          0.3
+        ],
+        "zoom": [
+          1.7,
+          2.05
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      },
+      "elements": [
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 13,
+          "prefix": "",
+          "suffix": " BILLION YEARS",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "13",
+          "dur": 1.0,
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Webb has even found galaxies we see as they were less than *300* million years after the Big Bang.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          2.0,
+          1.15
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "< 300 MILLION YEARS\nAFTER THE BIG BANG",
+          "x": 540,
+          "y": 500,
+          "size": 72,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "300",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "The universe is about *13.8* billion years old. We're seeing it as a baby.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.04,
+          1.18
+        ],
+        "dim": 0.1,
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "13.8 BILLION YEARS",
+          "x": 540,
+          "y": 470,
+          "size": 104,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "13.8",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Many of those galaxies may look completely different today. We're seeing their past.",
+      "photo": {
+        "src": "nasa:webb_first_deep_field",
+        "focus": [
+          0.62,
+          0.58
+        ],
+        "zoom": [
+          1.35,
+          1.6
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA, ESA, CSA, STScI"
+      }
+    },
+    {
+      "text": "If you could look back at any moment in Earth's history, which would you pick?",
+      "photo": {
+        "src": "nasa:as08-14-2383",
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "zoom": [
+          1.2,
+          1.04
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (Apollo 8)"
+      }
+    }
+  ]
+}

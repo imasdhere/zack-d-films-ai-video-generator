@@ -129,6 +129,7 @@ them. Then run:
 .venv-local/bin/python local/make_short.py shorts/<id>.json            # out/shorts/<id>/<id>.mp4
 ```
 
+- For realistic visuals, use photo mode (`"theme": "photo"`): real pictures from the NASA Image and Video Library (`"src": "nasa:<nasa_id>"`), labelled honestly as a real photo, an illustration or a simulation. See `shorts/space/`.
 - Verify every fact in the script against a source and list the sources in the spec.
 - Keep the render over 60 seconds if it is for TikTok Creator Rewards.
 - The audio is narration plus synthesized whooshes and pops. Never add music.

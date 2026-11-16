@@ -1,0 +1,378 @@
+{
+  "id": "neutron",
+  "title": "A teaspoon of this star weighs a billion tons",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.06,
+  "post": {
+    "youtube_title": "A Teaspoon of This Star Weighs a Billion Tons 🤯 #shorts",
+    "caption": "Neutron stars pack more than the Sun's mass into a ball the size of a city. One spins 716 times a second, and their collisions may have made the gold in your jewelry ✨",
+    "hashtags": [
+      "neutronstar",
+      "space",
+      "astronomy",
+      "nasa",
+      "crabnebula",
+      "science",
+      "shorts"
+    ],
+    "pinned_comment": "Which one got you: the teaspoon, or the gold? 👇"
+  },
+  "sources": [
+    "NASA Goddard (Imagine the Universe): one teaspoon of neutron star material would weigh about a billion tons",
+    "Crab Nebula: remnant of the supernova recorded in 1054, visible in daylight for about 23 days; its pulsar spins about 30 times per second",
+    "Hessels et al. (2006), Science: PSR J1748-2446ad spins 716 times per second",
+    "GW170817 (2017): a neutron star merger produced heavy elements such as gold",
+    "NASA (Chandra): a magnetar a sixth of the way to the Moon would wipe the data from all credit cards on Earth (older NASA pages say halfway)"
+  ],
+  "beats": [
+    {
+      "text": "A single *teaspoon* of this star would weigh about a *billion* tons.",
+      "photo": {
+        "src": "nasa:PIA21085",
+        "focus": [
+          0.475,
+          0.5
+        ],
+        "zoom": [
+          1.15,
+          1.4
+        ],
+        "badge": "ILLUSTRATION",
+        "credit": "NASA/JPL-Caltech"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1 TEASPOON",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "enter": "zoom",
+          "on": "teaspoon",
+          "idle": "none"
+        },
+        {
+          "type": "text",
+          "text": "≈ 1,000,000,000 TONS",
+          "x": 540,
+          "y": 1240,
+          "size": 80,
+          "color": "#FFE14D",
+          "enter": "rise",
+          "on": "billion",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "It's called a *neutron* *star*. It's what's left when a giant star explodes.",
+      "photo": {
+        "src": "nasa:PIA03606",
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "NEUTRON STAR",
+          "x": 540,
+          "y": 470,
+          "size": 80,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "neutron",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "This is the *Crab* *Nebula*, the wreckage of a star whose explosion people saw from Earth in the year {1054|ten fifty-four}.",
+      "photo": {
+        "src": "nasa:PIA03606",
+        "zoom": [
+          1.3,
+          1.55
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SEEN IN 1054 AD",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "1054",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "It was so bright, people could see it in broad daylight for weeks.",
+      "photo": {
+        "src": "nasa:PIA21474",
+        "fit": "contain",
+        "zoom": [
+          1.3,
+          1.55
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/ESA/CXC/JPL-Caltech/NRAO"
+      }
+    },
+    {
+      "text": "And right at its heart, there's a *neutron* *star*.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e000273",
+        "fit": "contain",
+        "zoom": [
+          1.5,
+          1.9
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "A NEUTRON STAR IS IN HERE",
+          "x": 540,
+          "y": 470,
+          "size": 66,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "neutron",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Picture something heavier than our Sun, squeezed into a ball about *20* kilometers wide. The size of a city.",
+      "photo": {
+        "src": "nasa:iss066e153994",
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "HEAVIER THAN THE SUN",
+          "x": 540,
+          "y": 470,
+          "size": 80,
+          "enter": "zoom",
+          "on": "heavier",
+          "idle": "none"
+        },
+        {
+          "type": "text",
+          "text": "≈ 20 KM ACROSS",
+          "x": 540,
+          "y": 1240,
+          "size": 96,
+          "color": "#FFE14D",
+          "enter": "rise",
+          "on": "20",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Gravity there is so strong that atoms get *crushed*, and most of the star turns into neutrons.",
+      "photo": {
+        "src": "nasa:PIA21085",
+        "focus": [
+          0.475,
+          0.5
+        ],
+        "zoom": [
+          1.8,
+          2.2
+        ],
+        "badge": "ILLUSTRATION",
+        "credit": "NASA/JPL-Caltech"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "ATOMS CRUSHED",
+          "x": 540,
+          "y": 470,
+          "size": 90,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "crushed",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "And it spins. The Crab's neutron star turns about *30* times every second.",
+      "photo": {
+        "src": "nasa:PIA21085",
+        "focus": [
+          0.475,
+          0.5
+        ],
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "ILLUSTRATION",
+        "credit": "NASA/JPL-Caltech"
+      },
+      "elements": [
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 30,
+          "suffix": " SPINS / SECOND",
+          "x": 540,
+          "y": 470,
+          "size": 96,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "30",
+          "dur": 1.0,
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "The fastest one we know of spins *716* times per second.",
+      "photo": {
+        "src": "nasa:PIA21085",
+        "focus": [
+          0.33,
+          0.3
+        ],
+        "zoom": [
+          1.3,
+          1.6
+        ],
+        "badge": "ILLUSTRATION",
+        "credit": "NASA/JPL-Caltech"
+      },
+      "elements": [
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 716,
+          "suffix": " / SECOND",
+          "x": 540,
+          "y": 470,
+          "size": 130,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "716",
+          "dur": 1.0,
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Some neutron stars, called *magnetars*, have magnetic fields so strong they could wipe the credit cards on Earth from tens of thousands of kilometers away.",
+      "photo": {
+        "src": "nasa:PIA21085",
+        "focus": [
+          0.6,
+          0.68
+        ],
+        "zoom": [
+          1.3,
+          1.6
+        ],
+        "badge": "ILLUSTRATION",
+        "credit": "NASA/JPL-Caltech"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "MAGNETARS",
+          "x": 540,
+          "y": 470,
+          "size": 120,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "magnetars",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "And when two neutron stars collide, they can forge *gold*.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001100",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "SIMULATION",
+        "credit": "NASA Goddard"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "GOLD",
+          "x": 540,
+          "y": 470,
+          "size": 150,
+          "color": "#FFD54A",
+          "enter": "zoom",
+          "on": "gold",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Some of the gold in your jewelry may have been made in a collision like this, long before the Sun was born.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001100",
+        "focus": [
+          0.45,
+          0.5
+        ],
+        "zoom": [
+          1.35,
+          1.6
+        ],
+        "badge": "SIMULATION",
+        "credit": "NASA Goddard"
+      }
+    },
+    {
+      "text": "Which fact got you: the teaspoon, or the gold?",
+      "photo": {
+        "src": "nasa:PIA03606",
+        "zoom": [
+          1.04,
+          1.12
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/ESA (Hubble)"
+      }
+    }
+  ]
+}

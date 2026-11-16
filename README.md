@@ -192,6 +192,8 @@ bash local/setup.sh                                        # one time
 
 Each short is one JSON file in [`shorts/`](shorts/): the narration split into beats, and each visual pinned to the word that triggers it. See [`local/README.md`](local/README.md) for the format.
 
+Photo mode builds documentary-style shorts from real NASA imagery instead of illustrations, with slow zooms, cross-fades and an on-screen credit for every picture. [`shorts/space/`](shorts/space/) has ten fact-checked examples.
+
 ## 📁 Repository structure
 
 ```

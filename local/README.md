@@ -99,6 +99,37 @@ Positions are in pixels on the 1080x1920 canvas and mark the element's centre.
 
 A beat can also list `impactOn` words for a camera punch without a new element.
 
+### Photo mode (real imagery)
+
+Set `"theme": "photo"` and give each beat a `photo`. The picture fills the
+frame with a slow zoom, cross-fades into the next beat, and shows a small
+badge such as `● REAL PHOTO · NASA/JPL-Caltech`. See `shorts/space/` for ten
+worked examples.
+
+```json
+"photo": {"src": "nasa:PIA19400", "fit": "contain", "focus": [0.34, 0.58],
+          "zoom": [1.1, 1.35], "badge": "REAL PHOTO", "credit": "NASA/JPL-Caltech/MSSS"}
+```
+
+| Field | Meaning |
+|---|---|
+| `src` | `nasa:<nasa_id>` from the [NASA Image and Video Library](https://images.nasa.gov), or a path in the repo. NASA pictures download on first use into `assets/nasa/` (needs access to `images-api.nasa.gov` and `images-assets.nasa.gov`). |
+| `fit` | `cover` (default) fills the frame. `contain` keeps the whole picture sharp over a blurred copy of itself; use it for wide or small pictures. |
+| `focus` | The point `[x, y]` (fractions of the picture) that the zoom closes in on. With `cover`, that point lands at the same fraction of the frame, so an overlay at `[x·1080, y·1920]` stays on it. |
+| `zoom`, `pan` | Start and end scale (at least 1.04), and start and end offsets in pixels. |
+| `crop` | `[x0, y0, x1, y1]` cuts a region out first, for example one planet from a side-by-side image. |
+| `dim` | 0 to 1 darkening, for text over bright pictures. |
+| `badge`, `credit` | The label and credit in the corner. Say what it is: `REAL PHOTO`, `REAL IMAGE`, `ILLUSTRATION`, `SIMULATION` or `RADAR MAP`. |
+
+Elements also take `"type": "image"` (`src`, `w`, `h`, `fit`, `radius`,
+`frame`, `blend`, `zoom`) for an inset picture, and text takes
+`"style": "clean"` (shadow, the photo default) or `"glass"` (frosted pill).
+A callout that would run past the frame edges is shrunk to fit.
+
+`post.txt` lists the credit of every NASA picture the short uses, and the
+caption ends with a short credit line. Keep both when you post: NASA asks
+for credit and does not allow use that implies its endorsement.
+
 ### Safe zones
 
 - Keep visuals between y = 320 and y = 1290. The title pill sits at the top.

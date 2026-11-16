@@ -1,0 +1,395 @@
+{
+  "id": "olympus",
+  "title": "Mars has a volcano 3 times taller than Everest",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.06,
+  "post": {
+    "youtube_title": "Mars Has a Volcano Almost 3x Taller Than Everest 🌋 #shorts",
+    "caption": "Olympus Mons rises about 25 km, with a base the size of Arizona. Here's why Mars can build volcanoes this big and Earth can't 🔴",
+    "hashtags": [
+      "mars",
+      "olympusmons",
+      "space",
+      "nasa",
+      "planets",
+      "science",
+      "shorts"
+    ],
+    "pinned_comment": "Would you try to climb it? 👇"
+  },
+  "sources": [
+    "NASA: Olympus Mons, about 25 km (16 miles) high and about 600 km wide, the largest volcano in the solar system",
+    "Olympus Mons summit caldera: about 80 x 60 km; the base is bounded by cliffs several kilometers high",
+    "Mars has no active plate tectonics, so a hot spot keeps feeding one volcano; Mars' surface gravity is 38% of Earth's",
+    "Hawaiian-Emperor seamount chain: the Pacific plate moving over a hot spot"
+  ],
+  "beats": [
+    {
+      "text": "Mars has a volcano almost *three* times taller than Mount Everest.",
+      "photo": {
+        "src": "nasa:PIA00300",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "≈ 3× EVEREST",
+          "x": 540,
+          "y": 470,
+          "size": 130,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "three",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "It's called *Olympus* *Mons*, and it rises about *25* kilometers above the plains around it.",
+      "photo": {
+        "src": "nasa:PIA00300",
+        "focus": [
+          0.5,
+          0.53
+        ],
+        "zoom": [
+          1.3,
+          1.55
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "OLYMPUS MONS",
+          "x": 540,
+          "y": 470,
+          "size": 90,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "olympus",
+          "idle": "none"
+        },
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 25,
+          "suffix": " KM HIGH",
+          "x": 540,
+          "y": 1240,
+          "size": 104,
+          "color": "#FFE14D",
+          "enter": "rise",
+          "on": "25",
+          "dur": 1.0,
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Earth's highest mountain, Everest, stands less than *9* kilometers tall.",
+      "photo": {
+        "src": "nasa:iss069e003192",
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "EVEREST: 8.8 KM",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "enter": "zoom",
+          "on": "9",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Planes on Earth cruise at about *11* kilometers up. Olympus Mons would tower more than twice as high.",
+      "photo": {
+        "src": "nasa:iss069e003192",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.25,
+          1.45
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "AIRLINERS: ≈ 11 KM",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "enter": "zoom",
+          "on": "11",
+          "idle": "none"
+        },
+        {
+          "type": "text",
+          "text": "OLYMPUS MONS: ≈ 25 KM",
+          "x": 540,
+          "y": 1240,
+          "size": 90,
+          "color": "#FFE14D",
+          "enter": "rise",
+          "on": "twice",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "And Olympus Mons is enormous. Its base is about *600* kilometers wide, roughly the size of Arizona.",
+      "photo": {
+        "src": "nasa:PIA00300",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "zoom": [
+          1.04,
+          1.12
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "≈ 600 KM WIDE",
+          "x": 540,
+          "y": 470,
+          "size": 120,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "600",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Its edges drop off in *cliffs* several kilometers high.",
+      "photo": {
+        "src": "nasa:PIA00300",
+        "focus": [
+          0.3,
+          0.3
+        ],
+        "zoom": [
+          1.7,
+          2.0
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "CLIFFS KILOMETERS HIGH",
+          "x": 540,
+          "y": 470,
+          "size": 72,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "cliffs",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "And the crater at the top is about *80* kilometers across.",
+      "photo": {
+        "src": "nasa:PIA00300",
+        "focus": [
+          0.5,
+          0.53
+        ],
+        "zoom": [
+          2.2,
+          2.6
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SUMMIT CRATER ≈ 80 KM",
+          "x": 540,
+          "y": 470,
+          "size": 80,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "80",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "So why are volcanoes on Mars so much bigger?",
+      "photo": {
+        "src": "nasa:PIA00408",
+        "focus": [
+          0.3,
+          0.3
+        ],
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      }
+    },
+    {
+      "text": "On Earth, the crust is broken into giant plates that slowly *move*.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001788",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/NOAA"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "MOVING PLATES",
+          "x": 540,
+          "y": 470,
+          "size": 96,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "move",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Hawaii sits over a hot spot. As the plate drifts across it, the hot spot builds a chain of islands instead of one giant mountain.",
+      "photo": {
+        "src": "nasa:iss055e070338",
+        "zoom": [
+          1.04,
+          1.3
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "HAWAII",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "enter": "zoom",
+          "on": "hawaii",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Mars has no moving plates. So the lava kept piling up in the *same* spot, for millions of years.",
+      "photo": {
+        "src": "nasa:PIA00300",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "zoom": [
+          1.04,
+          1.3
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "SAME SPOT, MILLIONS OF YEARS",
+          "x": 540,
+          "y": 470,
+          "size": 64,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "same",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "And with only *38* percent of Earth's gravity, Mars can hold up much taller mountains.",
+      "photo": {
+        "src": "nasa:PIA00408",
+        "focus": [
+          0.3,
+          0.3
+        ],
+        "zoom": [
+          1.25,
+          1.04
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "38% GRAVITY",
+          "x": 540,
+          "y": 470,
+          "size": 120,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "38",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "So, would you try to climb it?",
+      "photo": {
+        "src": "nasa:PIA00300",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "zoom": [
+          1.04,
+          1.1
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/USGS (Viking)"
+      }
+    }
+  ]
+}

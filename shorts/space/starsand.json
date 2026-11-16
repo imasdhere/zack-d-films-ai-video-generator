@@ -1,0 +1,371 @@
+{
+  "id": "starsand",
+  "title": "More stars than grains of sand on Earth",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.02,
+  "post": {
+    "youtube_title": "There Are More Stars Than Grains of Sand on Earth ✨ #shorts",
+    "caption": "Earth's beaches hold around 7.5 quintillion grains of sand. The universe? Roughly 10 sextillion stars or more. Every speck in that Hubble image is a galaxy 🌌",
+    "hashtags": [
+      "space",
+      "stars",
+      "hubble",
+      "universe",
+      "nasa",
+      "astronomy",
+      "shorts"
+    ],
+    "pinned_comment": "Does this make you feel small, or lucky? 👇"
+  },
+  "sources": [
+    "University of Hawaii estimate: about 7.5 x 10^18 grains of sand on Earth's beaches",
+    "NASA: the Milky Way holds an estimated 100 to 400 billion stars",
+    "STScI/NASA: the Hubble Ultra Deep Field covers a patch of sky about one tenth the width of the full Moon and shows about 10,000 galaxies",
+    "ESA: estimates of 10^22 to 10^24 stars in the observable universe",
+    "STScI: the Hubble Ultra Deep Field combines about 11 days of total exposure"
+  ],
+  "beats": [
+    {
+      "text": "There may be more stars in the universe than grains of *sand* on all of Earth's beaches.",
+      "photo": {
+        "src": "nasa:iss064e002482",
+        "zoom": [
+          1.04,
+          1.22
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "STARS > SAND",
+          "x": 540,
+          "y": 470,
+          "size": 130,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "sand",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Researchers estimate Earth's beaches hold around *seven* and a half quintillion grains of sand.",
+      "photo": {
+        "src": "nasa:iss071e449837",
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "7,500,000,000,000,000,000",
+          "x": 540,
+          "y": 470,
+          "size": 64,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "seven",
+          "idle": "none"
+        },
+        {
+          "type": "text",
+          "text": "GRAINS OF SAND",
+          "x": 540,
+          "y": 560,
+          "size": 64,
+          "style": "glass",
+          "enter": "fade",
+          "on": "quintillion",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Now look up. Our galaxy alone has somewhere between *100* and 400 billion stars.",
+      "photo": {
+        "src": "nasa:iss073e0982261",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "zoom": [
+          1.04,
+          1.22
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "100–400 BILLION STARS",
+          "x": 540,
+          "y": 470,
+          "size": 84,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "100",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "And this Hubble image shows a tiny patch of sky, about a tenth the width of the full *Moon*.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001061",
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1/10 THE WIDTH OF THE MOON",
+          "x": 540,
+          "y": 470,
+          "size": 70,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "moon",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Almost every speck here is not a star. It's a *galaxy*.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001061",
+        "focus": [
+          0.35,
+          0.6
+        ],
+        "zoom": [
+          1.6,
+          1.95
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "EACH SPECK: A GALAXY",
+          "x": 540,
+          "y": 470,
+          "size": 82,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "galaxy",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "About *ten* thousand galaxies, in this one tiny view.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001061",
+        "zoom": [
+          1.04,
+          1.12
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 10000,
+          "suffix": " GALAXIES",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "ten",
+          "dur": 1.1,
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "To collect that faint light, Hubble stared at the same tiny spot for more than *eleven* days.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001061",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.3,
+          1.5
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "11+ DAYS OF EXPOSURE",
+          "x": 540,
+          "y": 470,
+          "size": 96,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "eleven",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Across the whole sky, that adds up to hundreds of *billions* of galaxies. Maybe more.",
+      "photo": {
+        "src": "nasa:iss073e0982679",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "zoom": [
+          1.04,
+          1.22
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "HUNDREDS OF BILLIONS\nOF GALAXIES",
+          "x": 540,
+          "y": 500,
+          "size": 74,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "billions",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Each one holding millions, billions, even *trillions* of stars.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001061",
+        "focus": [
+          0.62,
+          0.35
+        ],
+        "zoom": [
+          1.7,
+          2.0
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/ESA (Hubble)"
+      }
+    },
+    {
+      "text": "Add it all up, and estimates land around *ten* sextillion stars, or more.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001651",
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/ESA (Hubble)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "10,000,000,000,000,000,000,000",
+          "x": 540,
+          "y": 470,
+          "size": 56,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "ten",
+          "idle": "none",
+          "impact": true
+        },
+        {
+          "type": "text",
+          "text": "STARS",
+          "x": 540,
+          "y": 560,
+          "size": 64,
+          "style": "glass",
+          "enter": "fade",
+          "on": "sextillion",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "That's at least a *thousand* times more stars than grains of sand.",
+      "photo": {
+        "src": "nasa:iss064e002482",
+        "zoom": [
+          1.25,
+          1.45
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1,000× MORE",
+          "x": 540,
+          "y": 470,
+          "size": 140,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "thousand",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "And we live on one small planet, circling one ordinary star.",
+      "photo": {
+        "src": "nasa:GSFC_20171208_Archive_e001788",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.18
+        ],
+        "badge": "REAL IMAGE",
+        "credit": "NASA/NOAA"
+      }
+    },
+    {
+      "text": "Does that make you feel small, or lucky?",
+      "photo": {
+        "src": "nasa:iss073e0982261",
+        "focus": [
+          0.5,
+          0.35
+        ],
+        "zoom": [
+          1.22,
+          1.04
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA (ISS)"
+      }
+    }
+  ]
+}

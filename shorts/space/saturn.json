@@ -1,0 +1,379 @@
+{
+  "id": "saturn",
+  "title": "Saturn would float in water",
+  "theme": "photo",
+  "voice": "af_heart",
+  "speed": 1.06,
+  "post": {
+    "youtube_title": "Saturn Would Float in Water 🪐 #shorts",
+    "caption": "Saturn is less dense than water, and its rings span 270,000 km but are only about 10 meters thick. And that tiny dot in the last photo? That's us 🌍",
+    "hashtags": [
+      "saturn",
+      "space",
+      "cassini",
+      "nasa",
+      "astronomy",
+      "planets",
+      "shorts"
+    ],
+    "pinned_comment": "Did you know Saturn could float? 👇"
+  },
+  "sources": [
+    "NASA Saturn facts: average density about 0.69 g/cm3, the only planet less dense than water; about 95 Earth masses",
+    "Main rings (C to A ring) extend to about 136,775 km from Saturn's center (about 273,000 km edge to edge); typical thickness about 10 m",
+    "NASA (2018): ring rain could remove the rings within a few hundred million years",
+    "NASA PIA17172 'The Day the Earth Smiled' (2013): Earth is the pale blue dot at lower right, between the E and G rings",
+    "NASA (2019, Cassini ring seismology): a day on Saturn lasts 10 hours 33 minutes"
+  ],
+  "beats": [
+    {
+      "text": "Saturn is so light for its size, it would *float* in water.",
+      "photo": {
+        "src": "nasa:PIA06193",
+        "fit": "contain",
+        "focus": [
+          0.6,
+          0.5
+        ],
+        "zoom": [
+          1.3,
+          1.6
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "IT WOULD FLOAT",
+          "x": 540,
+          "y": 470,
+          "size": 96,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "float",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "It's about *95* times heavier than Earth, but it's made mostly of hydrogen and helium.",
+      "photo": {
+        "src": "nasa:PIA06193",
+        "focus": [
+          0.62,
+          0.6
+        ],
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "95× EARTH'S MASS",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "95",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "And it spins fast. A day on Saturn lasts only about *ten* and a half hours.",
+      "photo": {
+        "src": "nasa:PIA06193",
+        "focus": [
+          0.62,
+          0.6
+        ],
+        "zoom": [
+          1.25,
+          1.4
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "1 DAY ≈ 10.5 HOURS",
+          "x": 540,
+          "y": 470,
+          "size": 110,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "ten",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "Its average *density* is lower than water's. No other planet in our solar system is like that.",
+      "photo": {
+        "src": "nasa:PIA11141",
+        "fit": "contain",
+        "zoom": [
+          1.3,
+          1.55
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "WATER  1.00 g/cm³",
+          "x": 540,
+          "y": 450,
+          "size": 80,
+          "color": "#7fd3ff",
+          "enter": "slideL",
+          "on": "density",
+          "idle": "none"
+        },
+        {
+          "type": "text",
+          "text": "SATURN  0.69 g/cm³",
+          "x": 540,
+          "y": 560,
+          "size": 80,
+          "color": "#FFE14D",
+          "enter": "slideR",
+          "on": "water's",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "So in a bathtub big enough to hold it, Saturn would bob on the surface.",
+      "photo": {
+        "src": "nasa:PIA11141",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.04,
+          1.25
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      }
+    },
+    {
+      "text": "Its rings are even stranger. From edge to edge, the main rings span about *270,000* kilometers.",
+      "photo": {
+        "src": "nasa:PIA08388",
+        "fit": "contain",
+        "zoom": [
+          1.3,
+          1.55
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      },
+      "elements": [
+        {
+          "type": "counter",
+          "from": 0,
+          "to": 270000,
+          "suffix": " KM WIDE",
+          "x": 540,
+          "y": 470,
+          "size": 100,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "270,000",
+          "dur": 1.2,
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "But in most places, they're only about *10* meters thick.",
+      "photo": {
+        "src": "nasa:PIA21901",
+        "fit": "contain",
+        "zoom": [
+          1.3,
+          1.6
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/SSI"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "≈ 10 METERS THICK",
+          "x": 540,
+          "y": 470,
+          "size": 104,
+          "color": "#FFE14D",
+          "enter": "zoom",
+          "on": "10",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "Shrink them to the width of a football field, and they'd be thinner than a sheet of paper.",
+      "photo": {
+        "src": "nasa:PIA08388",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "zoom": [
+          1.2,
+          1.45
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "THINNER THAN PAPER",
+          "x": 540,
+          "y": 470,
+          "size": 90,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "thinner",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "That's why, when we see them edge-on, they almost *vanish*.",
+      "photo": {
+        "src": "nasa:PIA01272",
+        "fit": "contain",
+        "zoom": [
+          1.04,
+          1.2
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/STScI (Hubble)"
+      }
+    },
+    {
+      "text": "They're made of countless chunks of ice, from tiny grains to pieces as big as houses.",
+      "photo": {
+        "src": "nasa:PIA21901",
+        "fit": "contain",
+        "zoom": [
+          1.6,
+          1.9
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/SSI"
+      }
+    },
+    {
+      "text": "And they might not last. Saturn is slowly pulling them in. In a few hundred million years, they could be *gone*.",
+      "photo": {
+        "src": "nasa:PIA06193",
+        "fit": "contain",
+        "focus": [
+          0.6,
+          0.5
+        ],
+        "zoom": [
+          1.6,
+          1.3
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL/Space Science Institute"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "text": "RINGS: TEMPORARY",
+          "x": 540,
+          "y": 470,
+          "size": 90,
+          "style": "glass",
+          "enter": "zoom",
+          "on": "gone",
+          "idle": "none"
+        }
+      ]
+    },
+    {
+      "text": "This photo was taken by Cassini from behind Saturn. That tiny dot below the rings? That's *Earth*.",
+      "photo": {
+        "src": "nasa:PIA17172",
+        "focus": [
+          0.614,
+          0.722
+        ],
+        "zoom": [
+          1.85,
+          2.3
+        ],
+        "pan": [
+          [
+            0,
+            -430
+          ],
+          [
+            0,
+            -430
+          ]
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/SSI"
+      },
+      "elements": [
+        {
+          "type": "svg",
+          "x": 663,
+          "y": 956,
+          "w": 170,
+          "h": 170,
+          "enter": "zoom",
+          "on": "dot",
+          "idle": "pulse",
+          "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><circle cx='100' cy='100' r='78' fill='none' stroke='#FFE14D' stroke-width='7'/><circle cx='100' cy='100' r='92' fill='none' stroke='#FFE14D' stroke-width='2' opacity='0.45'/></svg>"
+        },
+        {
+          "type": "text",
+          "text": "EARTH",
+          "x": 663,
+          "y": 805,
+          "size": 56,
+          "style": "glass",
+          "enter": "pop",
+          "on": "earth",
+          "idle": "none",
+          "impact": true
+        }
+      ]
+    },
+    {
+      "text": "So, did you know Saturn could float?",
+      "photo": {
+        "src": "nasa:PIA17172",
+        "fit": "contain",
+        "zoom": [
+          1.3,
+          1.45
+        ],
+        "badge": "REAL PHOTO",
+        "credit": "NASA/JPL-Caltech/SSI"
+      }
+    }
+  ]
+}
