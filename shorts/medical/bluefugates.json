@@ -1,6 +1,6 @@
 {
  "id": "bluefugates",
- "title": "The Kentucky family born with blue skin",
+ "title": "The family born with blue skin",
  "theme": "spooky",
  "voice": "af_heart",
  "speed": 1.04,
@@ -209,7 +209,6 @@
      "y": 850,
      "size": 300,
      "enter": "slideL",
-     "on": "Martin",
      "idle": "float",
      "label": "MARTIN"
     },

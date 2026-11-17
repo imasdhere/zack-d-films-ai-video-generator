@@ -1,6 +1,6 @@
 {
  "id": "explodinghead",
- "title": "Your brain can fire a cannon at bedtime",
+ "title": "The explosion only you can hear",
  "theme": "spooky",
  "voice": "af_heart",
  "speed": 1.04,
@@ -42,9 +42,9 @@
     {
      "type": "icon",
      "name": "crescent-moon",
-     "x": 820,
-     "y": 490,
-     "size": 150,
+     "x": 905,
+     "y": 470,
+     "size": 140,
      "enter": "fade",
      "idle": "float"
     },
@@ -185,6 +185,15 @@
    "elements": [
     {
      "type": "icon",
+     "name": "thinking-face",
+     "x": 540,
+     "y": 570,
+     "size": 180,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
      "name": "ninja",
      "x": 290,
      "y": 830,
@@ -294,7 +303,6 @@
      "y": 910,
      "size": 320,
      "enter": "zoom",
-     "on": "exploding",
      "idle": "shake"
     },
     {
@@ -323,7 +331,6 @@
      "y": 650,
      "size": 180,
      "enter": "pop",
-     "on": "gunshots",
      "idle": "none",
      "label": "BANG"
     },
@@ -397,7 +404,6 @@
      "y": 820,
      "size": 180,
      "enter": "pop",
-     "on": "students",
      "idle": "bob"
     },
     {
@@ -407,7 +413,6 @@
      "y": 820,
      "size": 180,
      "enter": "pop",
-     "on": "students",
      "delay": 0.08,
      "idle": "bob"
     },
@@ -418,8 +423,18 @@
      "y": 820,
      "size": 180,
      "enter": "pop",
-     "on": "students",
      "delay": 0.16,
+     "idle": "bob",
+     "outOn": "five"
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 540,
+     "y": 820,
+     "size": 180,
+     "enter": "fade",
+     "on": "five",
      "idle": "shake",
      "hue": 150
     },
@@ -430,7 +445,6 @@
      "y": 820,
      "size": 180,
      "enter": "pop",
-     "on": "students",
      "delay": 0.24,
      "idle": "bob"
     },
@@ -441,7 +455,6 @@
      "y": 820,
      "size": 180,
      "enter": "pop",
-     "on": "students",
      "delay": 0.32,
      "idle": "bob"
     },

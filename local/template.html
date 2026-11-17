@@ -60,6 +60,7 @@
     max-width: 880px; width: max-content; text-align: center; color: #fff; font-weight: 800; font-size: 40px; line-height: 1.18;
     background: rgba(0,0,0,0.42); padding: 14px 30px 16px; border-radius: 26px; text-transform: uppercase; letter-spacing: 0.6px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    text-wrap: balance;
   }
   #cap { position: absolute; left: 80px; width: 920px; top: 1330px; height: 260px; display: flex; align-items: center; justify-content: center; }
   #capin { text-align: center; line-height: 1.04; transform-origin: 50% 50%; }
@@ -323,9 +324,9 @@ function idleState(type, u, ph, st) {
   else if (type === 'spin') { st.r += u * 45; }
   else if (type === 'swim') { st.x += Math.sin(u * 1.4 + ph) * 40 * ramp; st.y += Math.sin(u * 2.8 + ph) * 18 * ramp; st.r += Math.cos(u * 1.4 + ph) * 6 * ramp; }
   else if (type === 'flicker') {
-    // A gentle float with the odd dropout, like a failing bulb
+    // A gentle float with a rare, soft dropout, like a failing bulb (about one every 2 s)
     st.y += Math.sin(u * 2.2 + ph) * 10 * ramp;
-    if (hash(Math.floor(u * 15) + ph * 13) < 0.1) st.o *= 0.3;
+    if (hash(Math.floor(u * 8) + ph * 13) < 0.06) st.o *= 0.45;
   }
 }
 

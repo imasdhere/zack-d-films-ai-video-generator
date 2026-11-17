@@ -1,6 +1,6 @@
 {
  "id": "foreignaccent",
- "title": "A head injury gave her a foreign accent",
+ "title": "Shrapnel gave her a German accent",
  "theme": "spooky",
  "voice": "af_heart",
  "speed": 1.02,
@@ -227,9 +227,9 @@
     {
      "type": "icon",
      "name": "prohibited",
-     "x": 320,
-     "y": 1010,
-     "size": 190,
+     "x": 395,
+     "y": 1085,
+     "size": 100,
      "enter": "zoom",
      "on": "serve",
      "delay": 0.25,
@@ -304,7 +304,6 @@
      "y": 590,
      "size": 180,
      "enter": "pop",
-     "on": "learned",
      "idle": "bob"
     },
     {
@@ -524,9 +523,9 @@
     {
      "type": "icon",
      "name": "prohibited",
-     "x": 820,
-     "y": 550,
-     "size": 170,
+     "x": 885,
+     "y": 615,
+     "size": 90,
      "enter": "zoom",
      "on": "visited",
      "delay": 0.25,
@@ -711,9 +710,9 @@
     {
      "type": "icon",
      "name": "prohibited",
-     "x": 300,
-     "y": 690,
-     "size": 190,
+     "x": 370,
+     "y": 760,
+     "size": 100,
      "enter": "zoom",
      "on": "don't",
      "idle": "none"

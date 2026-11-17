@@ -1,6 +1,6 @@
 {
  "id": "chimera",
- "title": "DNA said she wasn't her own kids' mom",
+ "title": "DNA said she wasn't their mom",
  "theme": "spooky",
  "voice": "af_heart",
  "speed": 1.04,
@@ -363,7 +363,6 @@
      "y": 770,
      "size": 260,
      "enter": "pop",
-     "on": "report",
      "idle": "float"
     },
     {
@@ -458,7 +457,6 @@
      "w": 220,
      "h": 220,
      "idle": "none",
-     "on": "twin",
      "enter": "slideL",
      "outOn": "fused"
     },
@@ -565,7 +563,6 @@
      "y": 780,
      "size": 240,
      "enter": "pop",
-     "on": "tested",
      "idle": "wiggle"
     },
     {
@@ -628,7 +625,6 @@
      "y": 650,
      "size": 260,
      "enter": "pop",
-     "on": "mom's",
      "idle": "float"
     },
     {

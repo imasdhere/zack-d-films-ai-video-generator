@@ -1,6 +1,6 @@
 {
  "id": "typhoidmary",
- "title": "She was never sick, but she spread typhoid",
+ "title": "She never got sick. Others did.",
  "theme": "spooky",
  "voice": "af_heart",
  "speed": 1.04,
@@ -242,7 +242,6 @@
      "y": 830,
      "size": 320,
      "enter": "slideL",
-     "on": "investigator",
      "idle": "float",
      "label": "SOPER"
     },
@@ -283,7 +282,6 @@
      "y": 790,
      "size": 340,
      "enter": "pop",
-     "on": "ice",
      "idle": "float"
     },
     {
@@ -366,20 +364,20 @@
     },
     {
      "type": "icon",
-     "name": "woman",
-     "x": 540,
-     "y": 880,
-     "size": 400,
+     "name": "woman-standing",
+     "x": 400,
+     "y": 900,
+     "size": 520,
      "enter": "pop",
      "idle": "none"
     },
     {
      "type": "glow",
-     "x": 540,
-     "y": 960,
-     "r": 240,
+     "x": 375,
+     "y": 880,
+     "r": 150,
      "color": "#9dff6b",
-     "opacity": 0.45,
+     "opacity": 0.5,
      "idle": "none",
      "enter": "fade",
      "on": "bacteria"
@@ -387,9 +385,9 @@
     {
      "type": "icon",
      "name": "microbe",
-     "x": 500,
-     "y": 950,
-     "size": 90,
+     "x": 360,
+     "y": 865,
+     "size": 70,
      "enter": "pop",
      "on": "bacteria",
      "idle": "wiggle"
@@ -397,9 +395,9 @@
     {
      "type": "icon",
      "name": "microbe",
-     "x": 585,
-     "y": 970,
-     "size": 80,
+     "x": 400,
+     "y": 885,
+     "size": 60,
      "enter": "pop",
      "on": "bacteria",
      "delay": 0.1,
@@ -408,13 +406,24 @@
     {
      "type": "icon",
      "name": "microbe",
-     "x": 540,
-     "y": 1020,
-     "size": 70,
+     "x": 370,
+     "y": 910,
+     "size": 55,
      "enter": "pop",
      "on": "bacteria",
      "delay": 0.2,
      "idle": "wiggle"
+    },
+    {
+     "type": "text",
+     "text": "← GALLBLADDER?",
+     "x": 740,
+     "y": 885,
+     "size": 50,
+     "enter": "pop",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "gallbladder"
     }
    ]
   },
@@ -560,9 +569,9 @@
     {
      "type": "icon",
      "name": "prohibited",
-     "x": 560,
-     "y": 880,
-     "size": 330,
+     "x": 690,
+     "y": 1010,
+     "size": 150,
      "enter": "zoom",
      "on": "never",
      "idle": "none",
@@ -610,6 +619,16 @@
     "#02060f"
    ],
    "elements": [
+    {
+     "type": "text",
+     "text": "MANHATTAN · 1915",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
     {
      "type": "icon",
      "name": "name-badge",
@@ -720,16 +739,27 @@
      "type": "icon",
      "name": "candle",
      "x": 540,
-     "y": 600,
-     "size": 170,
+     "y": 560,
+     "size": 150,
      "enter": "fade",
      "idle": "flicker"
+    },
+    {
+     "type": "text",
+     "text": "DOZENS INFECTED",
+     "x": 540,
+     "y": 760,
+     "size": 88,
+     "enter": "rise",
+     "idle": "none",
+     "color": "#ff7a7a",
+     "on": "dozens"
     },
     {
      "type": "icon",
      "name": "headstone",
      "x": 290,
-     "y": 880,
+     "y": 980,
      "size": 220,
      "enter": "rise",
      "on": "three",
@@ -739,7 +769,7 @@
      "type": "icon",
      "name": "headstone",
      "x": 540,
-     "y": 860,
+     "y": 960,
      "size": 240,
      "enter": "rise",
      "on": "three",
@@ -750,7 +780,7 @@
      "type": "icon",
      "name": "headstone",
      "x": 790,
-     "y": 880,
+     "y": 980,
      "size": 220,
      "enter": "rise",
      "on": "three",

@@ -391,10 +391,10 @@
     {
      "type": "icon",
      "name": "prohibited",
-     "x": 250,
-     "y": 600,
-     "size": 170,
-     "enter": "fade",
+     "x": 310,
+     "y": 660,
+     "size": 85,
+     "enter": "zoom",
      "on": "eat",
      "delay": 0.3,
      "idle": "none"
