@@ -1,0 +1,703 @@
+{
+ "id": "gage",
+ "title": "An iron rod shot through his head",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "post": {
+  "youtube_title": "An Iron Rod Shot Through His Skull. He Lived. 😳 #shorts",
+  "caption": "In 1848, a 6 kg iron rod blasted through Phineas Gage's head. He was talking within minutes, and his case changed what we know about the brain 🧠",
+  "hashtags": [
+   "phineasgage",
+   "brain",
+   "neuroscience",
+   "history",
+   "medicalfacts",
+   "creepyfacts",
+   "shorts"
+  ],
+  "pinned_comment": "Would you have kept the rod? 👇"
+ },
+ "sources": [
+  "Harlow JM (1848, 1868), Boston Medical and Surgical Journal / Publications of the Massachusetts Medical Society: on 13 September 1848 near Cavendish, Vermont, a tamping iron 3 ft 7 in long and 13.25 lb passed through the left side of Phineas Gage's face and out of the top of his head; he spoke within minutes and rode an ox cart sitting up; friends said he was 'no longer Gage'; Harlow wrote that the iron was his constant companion for the rest of his life",
+  "Macmillan M (2000), An Odd Kind of Fame (MIT Press): the iron landed about 80 ft (25 m) away; Gage later worked as a stagecoach driver in Chile for about seven years",
+  "Gage's skull and the tamping iron are on display at the Warren Anatomical Museum, Harvard Medical School"
+ ],
+ "beats": [
+  {
+   "text": "In {1848|eighteen forty-eight}, an iron rod shot straight through a man's *skull*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "CASE FILE · VERMONT 1848",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "skull",
+     "x": 540,
+     "y": 840,
+     "size": 420,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 580,
+     "y": 790,
+     "w": 820,
+     "h": 66,
+     "idle": "none",
+     "on": "shot",
+     "enter": "rise",
+     "impact": true,
+     "rot": -101
+    }
+   ]
+  },
+  {
+   "text": "He didn't die. He was *talking* within minutes.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man-construction-worker",
+     "x": 540,
+     "y": 850,
+     "size": 420,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 820,
+     "y": 590,
+     "size": 200,
+     "enter": "pop",
+     "on": "talking",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "HE DIDN'T DIE",
+     "x": 540,
+     "y": 1180,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "die"
+    }
+   ]
+  },
+  {
+   "text": "His name was Phineas Gage, a railroad foreman in Vermont, blasting rock to make way for the tracks.",
+   "bg": [
+    "#4d4636",
+    "#0c0a06"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "PHINEAS GAGE",
+     "x": 540,
+     "y": 500,
+     "size": 96,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "Phineas"
+    },
+    {
+     "type": "icon",
+     "name": "man-construction-worker",
+     "x": 290,
+     "y": 840,
+     "size": 340,
+     "enter": "slideL",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "rock",
+     "x": 760,
+     "y": 720,
+     "size": 240,
+     "enter": "drop",
+     "on": "rock",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "railway-track",
+     "x": 740,
+     "y": 1020,
+     "size": 300,
+     "enter": "rise",
+     "on": "railroad",
+     "idle": "none"
+    }
+   ]
+  },
+  {
+   "text": "He was packing explosive powder into a hole with an iron rod, when a spark set it *off*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "rock",
+     "x": 540,
+     "y": 970,
+     "size": 340,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 540,
+     "y": 690,
+     "w": 600,
+     "h": 48,
+     "idle": "none",
+     "rot": 90,
+     "on": "rod",
+     "enter": "drop"
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 690,
+     "y": 880,
+     "size": 160,
+     "enter": "zoom",
+     "on": "spark",
+     "idle": "shake"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 540,
+     "y": 910,
+     "size": 380,
+     "enter": "zoom",
+     "on": "off",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "The rod was over a meter long, and weighed about *six* kilograms.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 540,
+     "y": 780,
+     "w": 900,
+     "h": 72,
+     "idle": "none",
+     "enter": "slideL"
+    },
+    {
+     "type": "text",
+     "text": "1.1 METERS",
+     "x": 540,
+     "y": 640,
+     "size": 90,
+     "enter": "pop",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "meter"
+    },
+    {
+     "type": "text",
+     "text": "6 KG",
+     "x": 540,
+     "y": 950,
+     "size": 130,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "six",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It went in under his left cheekbone, passed behind his eye, and flew out the top of his *head*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "skull",
+     "x": 540,
+     "y": 840,
+     "size": 460,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 580,
+     "y": 790,
+     "w": 820,
+     "h": 66,
+     "idle": "none",
+     "on": "went",
+     "enter": "rise",
+     "rot": -101
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><defs><radialGradient id='g'><stop offset='0' stop-color='#ff3b3b' stop-opacity='0.95'/><stop offset='0.5' stop-color='#ff3b3b' stop-opacity='0.45'/><stop offset='1' stop-color='#ff3b3b' stop-opacity='0'/></radialGradient></defs><circle cx='100' cy='100' r='100' fill='url(#g)'/></svg>",
+     "x": 600,
+     "y": 930,
+     "w": 130,
+     "h": 130,
+     "idle": "pulse",
+     "on": "cheekbone",
+     "enter": "zoom"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><defs><radialGradient id='g'><stop offset='0' stop-color='#ff3b3b' stop-opacity='0.95'/><stop offset='0.5' stop-color='#ff3b3b' stop-opacity='0.45'/><stop offset='1' stop-color='#ff3b3b' stop-opacity='0'/></radialGradient></defs><circle cx='100' cy='100' r='100' fill='url(#g)'/></svg>",
+     "x": 580,
+     "y": 790,
+     "w": 120,
+     "h": 120,
+     "idle": "pulse",
+     "on": "eye",
+     "enter": "zoom"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><defs><radialGradient id='g'><stop offset='0' stop-color='#ff3b3b' stop-opacity='0.95'/><stop offset='0.5' stop-color='#ff3b3b' stop-opacity='0.45'/><stop offset='1' stop-color='#ff3b3b' stop-opacity='0'/></radialGradient></defs><circle cx='100' cy='100' r='100' fill='url(#g)'/></svg>",
+     "x": 555,
+     "y": 640,
+     "w": 140,
+     "h": 140,
+     "idle": "pulse",
+     "on": "head",
+     "enter": "zoom",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It landed about {25|twenty-five} meters away. Then Gage rode back to town in an ox cart, sitting *upright*.",
+   "bg": [
+    "#4d4636",
+    "#0c0a06"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 760,
+     "y": 540,
+     "w": 380,
+     "h": 32,
+     "idle": "none",
+     "rot": 12,
+     "on": "landed",
+     "enter": "drop"
+    },
+    {
+     "type": "text",
+     "text": "25 M AWAY",
+     "x": 760,
+     "y": 650,
+     "size": 64,
+     "enter": "pop",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "25"
+    },
+    {
+     "type": "icon",
+     "name": "ox",
+     "x": 380,
+     "y": 960,
+     "size": 340,
+     "enter": "slideL",
+     "on": "ox",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "man-construction-worker",
+     "x": 470,
+     "y": 800,
+     "size": 190,
+     "enter": "pop",
+     "on": "sitting",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "SITTING UPRIGHT",
+     "x": 540,
+     "y": 1190,
+     "size": 96,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "upright",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "He survived. But his friends said he was no longer *Gage*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man-construction-worker",
+     "x": 540,
+     "y": 840,
+     "size": 400,
+     "enter": "pop",
+     "idle": "none",
+     "outOn": "longer"
+    },
+    {
+     "type": "icon",
+     "name": "man-construction-worker",
+     "x": 540,
+     "y": 840,
+     "size": 400,
+     "enter": "glitch",
+     "on": "longer",
+     "idle": "flicker",
+     "hue": 110
+    },
+    {
+     "type": "text",
+     "text": "NO LONGER GAGE",
+     "x": 540,
+     "y": 1180,
+     "size": 110,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "Gage",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Reports say the reliable foreman became impatient, unpredictable, and full of *swear* words.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man-construction-worker",
+     "x": 270,
+     "y": 760,
+     "size": 240,
+     "enter": "pop",
+     "idle": "float",
+     "label": "BEFORE"
+    },
+    {
+     "type": "icon",
+     "name": "right-arrow",
+     "x": 540,
+     "y": 760,
+     "size": 140,
+     "enter": "pop",
+     "on": "became",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-symbols-on-mouth",
+     "x": 810,
+     "y": 760,
+     "size": 240,
+     "enter": "zoom",
+     "on": "impatient",
+     "idle": "shake",
+     "label": "AFTER"
+    },
+    {
+     "type": "text",
+     "text": "#@$%&!",
+     "x": 540,
+     "y": 1130,
+     "size": 130,
+     "enter": "glitch",
+     "idle": "none",
+     "color": "#ff7a7a",
+     "on": "swear",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "His case helped show that the front of the brain shapes who we *are*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 830,
+     "size": 440,
+     "enter": "pop",
+     "idle": "pulse"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><defs><radialGradient id='g'><stop offset='0' stop-color='#ff3b3b' stop-opacity='0.95'/><stop offset='0.5' stop-color='#ff3b3b' stop-opacity='0.45'/><stop offset='1' stop-color='#ff3b3b' stop-opacity='0'/></radialGradient></defs><circle cx='100' cy='100' r='100' fill='url(#g)'/></svg>",
+     "x": 380,
+     "y": 770,
+     "w": 260,
+     "h": 260,
+     "idle": "pulse",
+     "on": "front",
+     "enter": "zoom"
+    },
+    {
+     "type": "text",
+     "text": "FRONTAL LOBE",
+     "x": 540,
+     "y": 1170,
+     "size": 96,
+     "enter": "rise",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "front"
+    }
+   ]
+  },
+  {
+   "text": "And there's a twist. He later moved to Chile, and drove a {stagecoach|stage coach} for *years*.",
+   "bg": [
+    "#5c3310",
+    "#0a0502"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "globe-showing-americas",
+     "x": 290,
+     "y": 720,
+     "size": 240,
+     "enter": "pop",
+     "on": "Chile",
+     "idle": "float",
+     "label": "CHILE"
+    },
+    {
+     "type": "icon",
+     "name": "horse",
+     "x": 740,
+     "y": 830,
+     "size": 320,
+     "enter": "slideR",
+     "on": "stagecoach",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "STAGECOACH DRIVER",
+     "x": 540,
+     "y": 1170,
+     "size": 84,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "drove"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-raised-eyebrow",
+     "x": 820,
+     "y": 540,
+     "size": 150,
+     "enter": "pop",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "Today, his skull and that rod are on display at *Harvard*.",
+   "bg": [
+    "#4d4636",
+    "#0c0a06"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "classical-building",
+     "x": 540,
+     "y": 620,
+     "size": 300,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "skull",
+     "x": 380,
+     "y": 960,
+     "size": 240,
+     "enter": "pop",
+     "on": "skull",
+     "idle": "none"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 750,
+     "y": 960,
+     "w": 380,
+     "h": 32,
+     "idle": "none",
+     "rot": -70,
+     "on": "rod",
+     "enter": "rise"
+    },
+    {
+     "type": "text",
+     "text": "ON DISPLAY AT HARVARD",
+     "x": 540,
+     "y": 1180,
+     "size": 72,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "Harvard",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "He kept that rod for the rest of his life. Talk about a *souvenir*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 540,
+     "y": 780,
+     "w": 700,
+     "h": 56,
+     "idle": "float",
+     "rot": -20,
+     "enter": "pop"
+    },
+    {
+     "type": "icon",
+     "name": "red-heart",
+     "x": 790,
+     "y": 580,
+     "size": 160,
+     "enter": "pop",
+     "on": "kept",
+     "idle": "heartbeat"
+    },
+    {
+     "type": "icon",
+     "name": "wrapped-gift",
+     "x": 290,
+     "y": 580,
+     "size": 170,
+     "enter": "pop",
+     "on": "souvenir",
+     "idle": "wiggle"
+    },
+    {
+     "type": "text",
+     "text": "TALK ABOUT\nA SOUVENIR",
+     "x": 540,
+     "y": 1150,
+     "size": 96,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "souvenir",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Would you have kept the rod? Tell me below.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 80'><defs><linearGradient id='m' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3a3a3a'/><stop offset='0.45' stop-color='#e8e8e8'/><stop offset='1' stop-color='#2a2a2a'/></linearGradient></defs><path d='M20 25 L900 25 L990 40 L900 55 L20 55 Q5 40 20 25 Z' fill='url(#m)' stroke='#1a1a1a' stroke-width='3'/></svg>",
+     "x": 540,
+     "y": 720,
+     "w": 700,
+     "h": 56,
+     "idle": "float",
+     "rot": -20,
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "thinking-face",
+     "x": 540,
+     "y": 980,
+     "size": 240,
+     "enter": "pop",
+     "idle": "bob"
+    }
+   ]
+  }
+ ]
+}

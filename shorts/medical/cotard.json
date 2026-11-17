@@ -1,0 +1,835 @@
+{
+ "id": "cotard",
+ "title": "She was sure she was already dead",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.02,
+ "post": {
+  "youtube_title": "She Believed She Was Already Dead 💀 Walking Corpse Syndrome #shorts",
+  "caption": "In 1880, a woman told her doctor she had no brain, no nerves and no insides. Today it's called Cotard's syndrome, or walking corpse syndrome. And yes, it's treatable 🧠",
+  "hashtags": [
+   "cotardsyndrome",
+   "brain",
+   "psychology",
+   "medicalfacts",
+   "creepyfacts",
+   "science",
+   "shorts"
+  ],
+  "pinned_comment": "Which brain glitch would scare you the most? 👇"
+ },
+ "sources": [
+  "Cotard J (1880), lecture to the Société médico-psychologique, Paris: 'Mademoiselle X' said she had no brain, nerves, chest or entrails, believed she did not need to eat, and died of starvation",
+  "Charland-Verville V et al. (2013), Cortex 49(7):1997-1999, doi:10.1016/j.cortex.2013.03.003: PET scan of a man with Cotard's syndrome who believed his brain was dead showed very low metabolism across large areas of the brain",
+  "New Scientist (2013), interview with the same patient: he spent time in a graveyard because it was 'the closest I could get to death', and he improved with treatment",
+  "Cotard's syndrome is usually linked to severe depression or psychosis and responds to treatment"
+ ],
+ "beats": [
+  {
+   "text": "In {1880|eighteen eighty}, a French doctor met a woman with a chilling complaint. She said she had *no* brain.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 840,
+     "r": 430,
+     "color": "#8a5cff",
+     "opacity": 0.45,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "text",
+     "text": "CASE FILE · FRANCE 1880",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 860,
+     "size": 440,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 820,
+     "y": 610,
+     "size": 200,
+     "enter": "pop",
+     "on": "no",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 820,
+     "y": 610,
+     "size": 150,
+     "enter": "zoom",
+     "on": "brain",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "No nerves. No chest. No insides. Just *skin* and bones.",
+   "bg": [
+    "#2d1a4a",
+    "#05010c"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 920,
+     "size": 360,
+     "enter": "fade",
+     "idle": "float",
+     "outOn": "skin"
+    },
+    {
+     "type": "icon",
+     "name": "skull",
+     "x": 540,
+     "y": 920,
+     "size": 380,
+     "enter": "glitch",
+     "on": "skin",
+     "idle": "flicker",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 240,
+     "y": 560,
+     "size": 170,
+     "enter": "pop",
+     "on": "nerves",
+     "idle": "bob",
+     "label": "NERVES"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 240,
+     "y": 560,
+     "size": 120,
+     "enter": "zoom",
+     "on": "nerves",
+     "delay": 0.25,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "lungs",
+     "x": 540,
+     "y": 500,
+     "size": 170,
+     "enter": "pop",
+     "on": "chest",
+     "idle": "bob",
+     "label": "CHEST"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 540,
+     "y": 500,
+     "size": 120,
+     "enter": "zoom",
+     "on": "chest",
+     "delay": 0.25,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "anatomical-heart",
+     "x": 840,
+     "y": 560,
+     "size": 170,
+     "enter": "pop",
+     "on": "insides",
+     "idle": "heartbeat",
+     "label": "INSIDES"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 840,
+     "y": 560,
+     "size": 120,
+     "enter": "zoom",
+     "on": "insides",
+     "delay": 0.25,
+     "idle": "none"
+    },
+    {
+     "type": "text",
+     "text": "JUST SKIN & BONES",
+     "x": 540,
+     "y": 1190,
+     "size": 96,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "skin"
+    }
+   ]
+  },
+  {
+   "text": "Her doctor, Jules {Cotard|Koh tar}, called it the *delusion* of negation. Today, it has a creepier nickname.",
+   "bg": [
+    "#2d1a4a",
+    "#05010c"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man-health-worker",
+     "x": 280,
+     "y": 860,
+     "size": 360,
+     "enter": "slideL",
+     "idle": "float",
+     "label": "JULES COTARD"
+    },
+    {
+     "type": "text",
+     "text": "DELUSION\nOF NEGATION",
+     "x": 690,
+     "y": 560,
+     "size": 92,
+     "style": "spooky",
+     "glow": "rgba(190,120,255,0.78)",
+     "color": "#efdcff",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "delusion"
+    },
+    {
+     "type": "icon",
+     "name": "ghost",
+     "x": 760,
+     "y": 990,
+     "size": 240,
+     "enter": "glitch",
+     "on": "nickname",
+     "idle": "flicker"
+    }
+   ]
+  },
+  {
+   "text": "*Walking* corpse syndrome.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 900,
+     "r": 470,
+     "color": "#9dff6b",
+     "opacity": 0.3,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "person-zombie",
+     "x": 540,
+     "y": 910,
+     "size": 520,
+     "enter": "glitch",
+     "idle": "sway"
+    },
+    {
+     "type": "text",
+     "text": "WALKING CORPSE\nSYNDROME",
+     "x": 540,
+     "y": 480,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "walking",
+     "impact": true
+    }
+   ],
+   "hold": 0.6
+  },
+  {
+   "text": "People with it believe they're dead, or rotting, or that their organs have *vanished*.",
+   "bg": [
+    "#1f4d2b",
+    "#020a05"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "person-zombie",
+     "x": 540,
+     "y": 1090,
+     "size": 250,
+     "enter": "fade",
+     "idle": "sway"
+    },
+    {
+     "type": "icon",
+     "name": "headstone",
+     "x": 240,
+     "y": 740,
+     "size": 230,
+     "enter": "rise",
+     "on": "dead",
+     "idle": "none",
+     "label": "DEAD"
+    },
+    {
+     "type": "icon",
+     "name": "wilted-flower",
+     "x": 540,
+     "y": 700,
+     "size": 230,
+     "enter": "pop",
+     "on": "rotting",
+     "idle": "sway",
+     "label": "ROTTING"
+    },
+    {
+     "type": "icon",
+     "name": "fly",
+     "x": 610,
+     "y": 540,
+     "size": 110,
+     "enter": "pop",
+     "on": "rotting",
+     "delay": 0.2,
+     "idle": "swim"
+    },
+    {
+     "type": "icon",
+     "name": "anatomical-heart",
+     "x": 840,
+     "y": 740,
+     "size": 220,
+     "enter": "pop",
+     "on": "organs",
+     "idle": "heartbeat",
+     "outOn": "vanished"
+    },
+    {
+     "type": "icon",
+     "name": "ghost",
+     "x": 840,
+     "y": 740,
+     "size": 210,
+     "enter": "glitch",
+     "on": "vanished",
+     "idle": "flicker",
+     "label": "GONE?",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Sadly, she believed she no longer needed to eat. And she died of *starvation*.",
+   "bg": [
+    "#2a2620",
+    "#050403"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 760,
+     "r": 320,
+     "color": "#ffb347",
+     "opacity": 0.35,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "candle",
+     "x": 540,
+     "y": 860,
+     "size": 340,
+     "enter": "fade",
+     "idle": "flicker"
+    },
+    {
+     "type": "icon",
+     "name": "fork-and-knife",
+     "x": 250,
+     "y": 600,
+     "size": 160,
+     "enter": "fade",
+     "on": "eat",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 250,
+     "y": 600,
+     "size": 170,
+     "enter": "fade",
+     "on": "eat",
+     "delay": 0.3,
+     "idle": "none"
+    }
+   ]
+  },
+  {
+   "text": "And it still happens. In {2013|twenty thirteen}, doctors scanned the brain of a man who insisted his brain was *dead*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "CASE FILE · 2013",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 280,
+     "y": 890,
+     "size": 340,
+     "enter": "slideL",
+     "idle": "float"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><g fill='none' stroke='#7fb2ff' stroke-width='10' stroke-linecap='round'><path d='M20 90 V20 H90'/><path d='M310 20 H380 V90'/><path d='M380 310 V380 H310'/><path d='M90 380 H20 V310'/></g><line x1='30' y1='200' x2='370' y2='200' stroke='#7fb2ff' stroke-width='4' opacity='0.55'/></svg>",
+     "x": 760,
+     "y": 830,
+     "w": 380,
+     "h": 380,
+     "idle": "none",
+     "on": "scanned",
+     "enter": "zoom"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 760,
+     "y": 830,
+     "size": 250,
+     "enter": "pop",
+     "on": "scanned",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "thought-balloon",
+     "x": 400,
+     "y": 610,
+     "size": 200,
+     "enter": "pop",
+     "on": "insisted",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "skull",
+     "x": 405,
+     "y": 598,
+     "size": 100,
+     "enter": "pop",
+     "on": "dead",
+     "idle": "bob",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "He even spent time in a graveyard, because it felt like the closest he could get to *death*.",
+   "bg": [
+    "#0d1b2e",
+    "#010205"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "crescent-moon",
+     "x": 820,
+     "y": 490,
+     "size": 190,
+     "enter": "fade",
+     "idle": "float"
+    },
+    {
+     "type": "particles",
+     "name": "bat",
+     "count": 5,
+     "area": [
+      100,
+      420,
+      880,
+      480
+     ],
+     "x": 540,
+     "y": 960,
+     "speed": 55,
+     "minSize": 60,
+     "maxSize": 100,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "headstone",
+     "x": 230,
+     "y": 990,
+     "size": 240,
+     "enter": "rise",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "headstone",
+     "x": 450,
+     "y": 950,
+     "size": 270,
+     "enter": "rise",
+     "delay": 0.1,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "headstone",
+     "x": 870,
+     "y": 1000,
+     "size": 220,
+     "enter": "rise",
+     "delay": 0.2,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 670,
+     "y": 900,
+     "size": 330,
+     "enter": "fade",
+     "on": "graveyard",
+     "idle": "sway"
+    }
+   ]
+  },
+  {
+   "text": "The scan shocked them. Big parts of his brain were barely active, like someone under *anesthesia*.",
+   "bg": [
+    "#2d1a4a",
+    "#05010c"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 790,
+     "r": 400,
+     "color": "#5aa0ff",
+     "opacity": 0.35,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><g fill='none' stroke='#7fb2ff' stroke-width='10' stroke-linecap='round'><path d='M20 90 V20 H90'/><path d='M310 20 H380 V90'/><path d='M380 310 V380 H310'/><path d='M90 380 H20 V310'/></g><line x1='30' y1='200' x2='370' y2='200' stroke='#7fb2ff' stroke-width='4' opacity='0.55'/></svg>",
+     "x": 540,
+     "y": 790,
+     "w": 520,
+     "h": 520,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 790,
+     "size": 360,
+     "enter": "pop",
+     "idle": "pulse",
+     "opacity": 0.55
+    },
+    {
+     "type": "icon",
+     "name": "zzz",
+     "x": 790,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "barely",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "BARELY ACTIVE",
+     "x": 540,
+     "y": 1170,
+     "size": 92,
+     "enter": "rise",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "barely"
+    },
+    {
+     "type": "icon",
+     "name": "sleeping-face",
+     "x": 270,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "anesthesia",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "One theory: the brain's feeling system goes quiet. Nothing feels real, so the brain decides: I must be *dead*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 800,
+     "size": 340,
+     "enter": "pop",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "red-heart",
+     "x": 820,
+     "y": 570,
+     "size": 160,
+     "enter": "pop",
+     "on": "feeling",
+     "idle": "heartbeat",
+     "outOn": "quiet"
+    },
+    {
+     "type": "icon",
+     "name": "white-heart",
+     "x": 820,
+     "y": 570,
+     "size": 160,
+     "enter": "fade",
+     "on": "quiet",
+     "idle": "none",
+     "opacity": 0.6
+    },
+    {
+     "type": "icon",
+     "name": "thought-balloon",
+     "x": 270,
+     "y": 570,
+     "size": 220,
+     "enter": "pop",
+     "on": "decides",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "skull",
+     "x": 275,
+     "y": 557,
+     "size": 110,
+     "enter": "pop",
+     "on": "dead",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "I MUST BE DEAD",
+     "x": 540,
+     "y": 1170,
+     "size": 110,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "dead",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "The good news? It's treatable, and that man got *better*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 540,
+     "y": 850,
+     "size": 420,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 820,
+     "y": 570,
+     "size": 170,
+     "enter": "zoom",
+     "on": "treatable",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "sparkles",
+     "x": 260,
+     "y": 590,
+     "size": 160,
+     "enter": "pop",
+     "on": "better",
+     "idle": "pulse"
+    },
+    {
+     "type": "text",
+     "text": "TREATABLE",
+     "x": 540,
+     "y": 1180,
+     "size": 110,
+     "enter": "rise",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "treatable"
+    }
+   ]
+  },
+  {
+   "text": "So if your brain ever tells you you're a ghost, get a second *opinion*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 250,
+     "y": 570,
+     "size": 180,
+     "enter": "pop",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "ghost",
+     "x": 420,
+     "y": 850,
+     "size": 340,
+     "enter": "glitch",
+     "on": "ghost",
+     "idle": "flicker"
+    },
+    {
+     "type": "icon",
+     "name": "stethoscope",
+     "x": 790,
+     "y": 820,
+     "size": 260,
+     "enter": "pop",
+     "on": "second",
+     "idle": "sway"
+    },
+    {
+     "type": "text",
+     "text": "GET A SECOND\nOPINION",
+     "x": 540,
+     "y": 1160,
+     "size": 92,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "opinion",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Follow for more creepy brain facts. You know, if you're *alive*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 810,
+     "size": 340,
+     "enter": "pop",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "ghost",
+     "x": 820,
+     "y": 570,
+     "size": 160,
+     "enter": "fade",
+     "idle": "flicker"
+    },
+    {
+     "type": "text",
+     "text": "IF YOU'RE ALIVE...",
+     "x": 540,
+     "y": 1170,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "alive"
+    }
+   ]
+  }
+ ]
+}

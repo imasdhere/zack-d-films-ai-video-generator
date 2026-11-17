@@ -1,0 +1,825 @@
+{
+ "id": "bluefugates",
+ "title": "The Kentucky family born with blue skin",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "post": {
+  "youtube_title": "The Kentucky Family Born With Blue Skin 💙 #shorts",
+  "caption": "For generations, the Fugates of Troublesome Creek, Kentucky, were born blue. The cure? A blue dye. Science is weird 💙",
+  "hashtags": [
+   "bluefugates",
+   "genetics",
+   "kentucky",
+   "history",
+   "medicalfacts",
+   "weirdfacts",
+   "shorts"
+  ],
+  "pinned_comment": "Would you take the pill, or stay blue? 👇"
+ },
+ "sources": [
+  "Trost C (1982), 'The Blue People of Troublesome Creek', Science 82, 3(9):34-39: Martin Fugate and Elizabeth Smith settled at Troublesome Creek, Kentucky, around 1820; both carried a recessive gene; several of their children were blue",
+  "Cawein M et al. (1964), 'Hereditary diaphorase deficiency and methemoglobinemia', Archives of Internal Medicine 113:578-585: Madison Cawein and nurse Ruth Pendergrass traced the family in the 1960s; methylene blue turned the patients' skin pink within minutes; daily tablets kept the colour away",
+  "Methemoglobinemia: methemoglobin cannot carry oxygen and makes the blood look chocolate brown; methylene blue turns urine blue-green"
+ ],
+ "beats": [
+  {
+   "text": "For generations, members of one Kentucky family were born with *blue* skin.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 840,
+     "r": 470,
+     "color": "#4da3ff",
+     "opacity": 0.4,
+     "idle": "none",
+     "enter": "fade",
+     "on": "blue"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 290,
+     "y": 850,
+     "size": 300,
+     "enter": "pop",
+     "idle": "float",
+     "outOn": "blue"
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 540,
+     "y": 830,
+     "size": 330,
+     "enter": "pop",
+     "delay": 0.1,
+     "idle": "float",
+     "outOn": "blue"
+    },
+    {
+     "type": "icon",
+     "name": "child",
+     "x": 790,
+     "y": 870,
+     "size": 260,
+     "enter": "pop",
+     "delay": 0.2,
+     "idle": "float",
+     "outOn": "blue"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 290,
+     "y": 850,
+     "size": 300,
+     "enter": "fade",
+     "on": "blue",
+     "idle": "float",
+     "hue": 185
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 540,
+     "y": 830,
+     "size": 330,
+     "enter": "fade",
+     "on": "blue",
+     "idle": "float",
+     "impact": true,
+     "hue": 185
+    },
+    {
+     "type": "icon",
+     "name": "child",
+     "x": 790,
+     "y": 870,
+     "size": 260,
+     "enter": "fade",
+     "on": "blue",
+     "idle": "float",
+     "hue": 185
+    }
+   ]
+  },
+  {
+   "text": "Not bruised. Not cold. Truly *blue*.",
+   "bg": [
+    "#0f2a5c",
+    "#01040d"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 540,
+     "y": 840,
+     "size": 460,
+     "enter": "pop",
+     "idle": "float",
+     "hue": 185
+    },
+    {
+     "type": "text",
+     "text": "TRULY BLUE",
+     "x": 540,
+     "y": 1180,
+     "size": 130,
+     "style": "spooky",
+     "glow": "rgba(80,160,255,0.8)",
+     "color": "#dcefff",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "truly"
+    }
+   ],
+   "hold": 0.4
+  },
+  {
+   "text": "They were the Fugates of Troublesome Creek. Yes, that's its real *name*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "KENTUCKY · 1800s",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "text",
+     "text": "TROUBLESOME CREEK",
+     "x": 540,
+     "y": 590,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(80,160,255,0.8)",
+     "color": "#dcefff",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "Troublesome"
+    },
+    {
+     "type": "icon",
+     "name": "water-wave",
+     "x": 540,
+     "y": 860,
+     "size": 320,
+     "enter": "rise",
+     "on": "creek",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-raised-eyebrow",
+     "x": 820,
+     "y": 1060,
+     "size": 190,
+     "enter": "pop",
+     "on": "name",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "Around {1820|eighteen twenty}, Martin Fugate married Elizabeth Smith. By pure bad luck, they both carried the same rare *gene*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 300,
+     "y": 850,
+     "size": 300,
+     "enter": "slideL",
+     "on": "Martin",
+     "idle": "float",
+     "label": "MARTIN"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 780,
+     "y": 850,
+     "size": 300,
+     "enter": "slideR",
+     "on": "Elizabeth",
+     "idle": "float",
+     "label": "ELIZABETH"
+    },
+    {
+     "type": "icon",
+     "name": "red-heart",
+     "x": 540,
+     "y": 720,
+     "size": 150,
+     "enter": "pop",
+     "on": "married",
+     "idle": "heartbeat"
+    },
+    {
+     "type": "icon",
+     "name": "dna",
+     "x": 300,
+     "y": 560,
+     "size": 140,
+     "enter": "spin",
+     "on": "gene",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "dna",
+     "x": 780,
+     "y": 560,
+     "size": 140,
+     "enter": "spin",
+     "on": "gene",
+     "delay": 0.1,
+     "idle": "float",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It's recessive, so it usually hides. But a child who gets a copy from each parent can be born *blue*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "dna",
+     "x": 300,
+     "y": 630,
+     "size": 180,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "dna",
+     "x": 780,
+     "y": 630,
+     "size": 180,
+     "enter": "pop",
+     "delay": 0.1,
+     "idle": "float"
+    },
+    {
+     "type": "text",
+     "text": "+",
+     "x": 540,
+     "y": 630,
+     "size": 120,
+     "enter": "pop",
+     "idle": "none",
+     "on": "copy"
+    },
+    {
+     "type": "icon",
+     "name": "baby",
+     "x": 540,
+     "y": 930,
+     "size": 300,
+     "enter": "pop",
+     "on": "child",
+     "idle": "bob",
+     "outOn": "blue"
+    },
+    {
+     "type": "icon",
+     "name": "baby",
+     "x": 540,
+     "y": 930,
+     "size": 300,
+     "enter": "fade",
+     "on": "blue",
+     "idle": "bob",
+     "impact": true,
+     "hue": 185
+    }
+   ]
+  },
+  {
+   "text": "Several of their children were born blue. And in such an isolated place, the gene kept getting passed *down*.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 420,
+     "y": 540,
+     "size": 150,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 660,
+     "y": 540,
+     "size": 150,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "child",
+     "x": 270,
+     "y": 790,
+     "size": 150,
+     "enter": "pop",
+     "on": "children",
+     "idle": "bob",
+     "hue": 185
+    },
+    {
+     "type": "icon",
+     "name": "child",
+     "x": 450,
+     "y": 790,
+     "size": 150,
+     "enter": "pop",
+     "on": "children",
+     "delay": 0.1,
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "child",
+     "x": 630,
+     "y": 790,
+     "size": 150,
+     "enter": "pop",
+     "on": "children",
+     "delay": 0.2,
+     "idle": "bob",
+     "hue": 185
+    },
+    {
+     "type": "icon",
+     "name": "child",
+     "x": 810,
+     "y": 790,
+     "size": 150,
+     "enter": "pop",
+     "on": "children",
+     "delay": 0.3,
+     "idle": "bob",
+     "hue": 185
+    },
+    {
+     "type": "icon",
+     "name": "mountain",
+     "x": 160,
+     "y": 1050,
+     "size": 170,
+     "enter": "fade",
+     "on": "isolated",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "baby",
+     "x": 380,
+     "y": 1060,
+     "size": 130,
+     "enter": "pop",
+     "on": "down",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "baby",
+     "x": 560,
+     "y": 1060,
+     "size": 130,
+     "enter": "pop",
+     "on": "down",
+     "delay": 0.1,
+     "idle": "bob",
+     "hue": 185
+    },
+    {
+     "type": "icon",
+     "name": "baby",
+     "x": 740,
+     "y": 1060,
+     "size": 130,
+     "enter": "pop",
+     "on": "down",
+     "delay": 0.2,
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "The condition is called {methemoglobinemia|met hemoglobin eemia}. Their blood carried less oxygen, and looked chocolate *brown*.",
+   "bg": [
+    "#3d1f0f",
+    "#070302"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "METHEMOGLOBINEMIA",
+     "x": 540,
+     "y": 520,
+     "size": 80,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "called"
+    },
+    {
+     "type": "icon",
+     "name": "drop-of-blood",
+     "x": 540,
+     "y": 850,
+     "size": 280,
+     "enter": "pop",
+     "idle": "bob",
+     "outOn": "chocolate"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 260'><defs><radialGradient id='b' cx='0.38' cy='0.6' r='0.75'><stop offset='0' stop-color='#9a5a2a'/><stop offset='0.55' stop-color='#5e2f10'/><stop offset='1' stop-color='#2c1206'/></radialGradient></defs><path d='M100 8 C100 8 22 120 22 175 A78 78 0 0 0 178 175 C178 120 100 8 100 8 Z' fill='url(#b)' stroke='#1e0c03' stroke-width='5'/><ellipse cx='66' cy='172' rx='13' ry='30' fill='#fff' opacity='0.28' transform='rotate(18 66 172)'/></svg>",
+     "x": 540,
+     "y": 850,
+     "w": 230,
+     "h": 300,
+     "idle": "bob",
+     "on": "chocolate",
+     "enter": "drop",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "CHOCOLATE-BROWN BLOOD",
+     "x": 540,
+     "y": 1180,
+     "size": 84,
+     "style": "spooky",
+     "glow": "rgba(255,190,60,0.72)",
+     "color": "#ffeab8",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "brown"
+    }
+   ]
+  },
+  {
+   "text": "In the {1960s|nineteen sixties}, a doctor and a nurse tracked the family down, and tried something wild: a blue *dye*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man-health-worker",
+     "x": 300,
+     "y": 870,
+     "size": 300,
+     "enter": "slideL",
+     "on": "doctor",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "woman-health-worker",
+     "x": 780,
+     "y": 870,
+     "size": 300,
+     "enter": "slideR",
+     "on": "nurse",
+     "idle": "float"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 300'><defs><linearGradient id='l' x1='0' x2='1'><stop offset='0' stop-color='#1a4dff'/><stop offset='0.5' stop-color='#3d8bff'/><stop offset='1' stop-color='#1235b8'/></linearGradient></defs><rect x='30' y='18' width='100' height='26' rx='8' fill='#c9c9d6' stroke='#6b6b80' stroke-width='4'/><path d='M40 44 L40 250 A40 40 0 0 0 120 250 L120 44 Z' fill='rgba(220,235,255,0.18)' stroke='#e8f0ff' stroke-width='6'/><path d='M44 120 L44 250 A36 36 0 0 0 116 250 L116 120 Z' fill='url(#l)'/><ellipse cx='80' cy='120' rx='36' ry='7' fill='#7fb6ff'/><rect x='54' y='60' width='12' height='170' rx='6' fill='#fff' opacity='0.35'/></svg>",
+     "x": 540,
+     "y": 640,
+     "w": 150,
+     "h": 280,
+     "idle": "sway",
+     "on": "dye",
+     "enter": "zoom",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "1960s",
+     "x": 540,
+     "y": 1170,
+     "size": 90,
+     "enter": "fade",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "1960s"
+    }
+   ]
+  },
+  {
+   "text": "The dye, methylene blue, helps turn their blood back into the normal, oxygen-carrying *kind*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "METHYLENE BLUE",
+     "x": 540,
+     "y": 510,
+     "size": 84,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "methylene"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 260'><defs><radialGradient id='b' cx='0.38' cy='0.6' r='0.75'><stop offset='0' stop-color='#9a5a2a'/><stop offset='0.55' stop-color='#5e2f10'/><stop offset='1' stop-color='#2c1206'/></radialGradient></defs><path d='M100 8 C100 8 22 120 22 175 A78 78 0 0 0 178 175 C178 120 100 8 100 8 Z' fill='url(#b)' stroke='#1e0c03' stroke-width='5'/><ellipse cx='66' cy='172' rx='13' ry='30' fill='#fff' opacity='0.28' transform='rotate(18 66 172)'/></svg>",
+     "x": 330,
+     "y": 840,
+     "w": 170,
+     "h": 220,
+     "idle": "bob",
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "right-arrow",
+     "x": 540,
+     "y": 840,
+     "size": 130,
+     "enter": "pop",
+     "on": "turn",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "drop-of-blood",
+     "x": 750,
+     "y": 840,
+     "size": 220,
+     "enter": "pop",
+     "on": "normal",
+     "idle": "bob",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Within minutes, the blue in their skin *faded*.",
+   "bg": [
+    "#0f2a5c",
+    "#01040d"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "hourglass-not-done",
+     "x": 270,
+     "y": 570,
+     "size": 160,
+     "enter": "pop",
+     "on": "minutes",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 540,
+     "y": 850,
+     "size": 440,
+     "enter": "fade",
+     "idle": "float",
+     "outOn": "faded",
+     "hue": 185
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 540,
+     "y": 850,
+     "size": 440,
+     "enter": "fade",
+     "on": "faded",
+     "idle": "float",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "sparkles",
+     "x": 810,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "faded",
+     "idle": "pulse"
+    }
+   ]
+  },
+  {
+   "text": "The cure for blue skin was a blue dye. Science is *weird*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 300'><defs><linearGradient id='l' x1='0' x2='1'><stop offset='0' stop-color='#1a4dff'/><stop offset='0.5' stop-color='#3d8bff'/><stop offset='1' stop-color='#1235b8'/></linearGradient></defs><rect x='30' y='18' width='100' height='26' rx='8' fill='#c9c9d6' stroke='#6b6b80' stroke-width='4'/><path d='M40 44 L40 250 A40 40 0 0 0 120 250 L120 44 Z' fill='rgba(220,235,255,0.18)' stroke='#e8f0ff' stroke-width='6'/><path d='M44 120 L44 250 A36 36 0 0 0 116 250 L116 120 Z' fill='url(#l)'/><ellipse cx='80' cy='120' rx='36' ry='7' fill='#7fb6ff'/><rect x='54' y='60' width='12' height='170' rx='6' fill='#fff' opacity='0.35'/></svg>",
+     "x": 540,
+     "y": 780,
+     "w": 190,
+     "h": 355,
+     "idle": "sway",
+     "enter": "pop"
+    },
+    {
+     "type": "text",
+     "text": "BLUE CURES BLUE?!",
+     "x": 540,
+     "y": 1170,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(80,160,255,0.8)",
+     "color": "#dcefff",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "dye"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-spiral-eyes",
+     "x": 820,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "weird",
+     "idle": "wiggle",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "One side effect: their pee turned blue. The blue didn't leave. It just *moved*.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "toilet",
+     "x": 540,
+     "y": 860,
+     "size": 380,
+     "enter": "pop",
+     "on": "pee",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "droplet",
+     "x": 790,
+     "y": 620,
+     "size": 150,
+     "enter": "drop",
+     "on": "turned",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "IT JUST MOVED",
+     "x": 540,
+     "y": 1180,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(80,160,255,0.8)",
+     "color": "#dcefff",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "moved",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "face-with-raised-eyebrow",
+     "x": 280,
+     "y": 600,
+     "size": 150,
+     "enter": "pop",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "A pill every day kept the color away. And many Fugates lived long lives, some into their *eighties*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "pill",
+     "x": 290,
+     "y": 720,
+     "size": 220,
+     "enter": "pop",
+     "on": "pill",
+     "idle": "wiggle",
+     "hue": 180
+    },
+    {
+     "type": "icon",
+     "name": "old-woman",
+     "x": 720,
+     "y": 830,
+     "size": 320,
+     "enter": "pop",
+     "on": "lived",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "80+ YEARS",
+     "x": 540,
+     "y": 1170,
+     "size": 110,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "eighties",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Would you take the pill, or stay blue? Tell me below.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "pill",
+     "x": 290,
+     "y": 790,
+     "size": 220,
+     "enter": "pop",
+     "idle": "wiggle",
+     "hue": 180
+    },
+    {
+     "type": "text",
+     "text": "OR",
+     "x": 540,
+     "y": 790,
+     "size": 96,
+     "enter": "pop",
+     "idle": "none",
+     "on": "or"
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 790,
+     "y": 790,
+     "size": 300,
+     "enter": "pop",
+     "on": "blue",
+     "idle": "float",
+     "hue": 185
+    }
+   ]
+  }
+ ]
+}

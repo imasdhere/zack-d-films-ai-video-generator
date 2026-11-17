@@ -1,0 +1,861 @@
+{
+ "id": "autobrewery",
+ "title": "His gut was secretly brewing beer",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "post": {
+  "youtube_title": "His Gut Was Secretly Brewing Beer 🍺 Auto-Brewery Syndrome #shorts",
+  "caption": "Arrested for drunk driving, he swore he hadn't had a drink. He was telling the truth: brewer's yeast in his gut was turning carbs into alcohol 🤯",
+  "hashtags": [
+   "autobrewery",
+   "gut",
+   "microbiome",
+   "medicalfacts",
+   "weirdfacts",
+   "science",
+   "shorts"
+  ],
+  "pinned_comment": "What would be the worst food to eat with this? 👇"
+ },
+ "sources": [
+  "Malik F, Wickremesinghe P, Saverimuttu J (2019), BMJ Open Gastroenterology 6(1):e000325, doi:10.1136/bmjgast-2019-000325: a 46-year-old man arrested for presumed drunk driving denied drinking; blood alcohol 200 mg/dL; hospital staff and police did not believe him; brewer's yeast (Saccharomyces cerevisiae) in his gut; blood alcohol rose to 57 mg/dL after a carbohydrate meal under observation; symptoms began after a course of antibiotics; antifungals and a carbohydrate-free diet; a relapse after pizza and soda; symptom-free about 1.5 years later on a normal diet",
+  "US legal driving limit: 0.08% blood alcohol; 200 mg/dL is 0.20%, 2.5 times the limit",
+  "In 2015, a town court in New York dismissed a woman's drunk-driving charge after her doctor diagnosed auto-brewery syndrome (widely reported in the news)"
+ ],
+ "beats": [
+  {
+   "text": "One morning, police arrested a man for drunk driving. He swore he hadn't had a single *drink*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "police-car",
+     "x": 770,
+     "y": 610,
+     "size": 260,
+     "enter": "slideR",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 330,
+     "y": 890,
+     "size": 340,
+     "enter": "pop",
+     "idle": "sway"
+    },
+    {
+     "type": "icon",
+     "name": "beer-mug",
+     "x": 770,
+     "y": 950,
+     "size": 200,
+     "enter": "pop",
+     "on": "drink",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 770,
+     "y": 950,
+     "size": 200,
+     "enter": "zoom",
+     "on": "drink",
+     "delay": 0.2,
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Nobody believed him. His blood alcohol was two and a half times the legal *limit*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "police-officer",
+     "x": 820,
+     "y": 960,
+     "size": 180,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "drop-of-blood",
+     "x": 280,
+     "y": 710,
+     "size": 220,
+     "enter": "drop",
+     "on": "blood",
+     "idle": "bob"
+    },
+    {
+     "type": "counter",
+     "from": 0,
+     "to": 0.2,
+     "x": 660,
+     "y": 660,
+     "size": 120,
+     "dur": 1.1,
+     "enter": "zoom",
+     "idle": "none",
+     "decimals": 2,
+     "suffix": "%",
+     "color": "#ff7a7a",
+     "on": "alcohol"
+    },
+    {
+     "type": "text",
+     "text": "BLOOD ALCOHOL",
+     "x": 660,
+     "y": 770,
+     "size": 48,
+     "enter": "fade",
+     "idle": "none",
+     "on": "alcohol"
+    },
+    {
+     "type": "text",
+     "text": "2.5× THE LIMIT",
+     "x": 540,
+     "y": 1150,
+     "size": 104,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "limit",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Even hospital staff thought he was lying. But he *wasn't*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "hospital",
+     "x": 290,
+     "y": 650,
+     "size": 240,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "woman-health-worker",
+     "x": 760,
+     "y": 830,
+     "size": 300,
+     "enter": "pop",
+     "on": "staff",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "lying-face",
+     "x": 330,
+     "y": 990,
+     "size": 220,
+     "enter": "pop",
+     "on": "lying",
+     "idle": "wiggle",
+     "outOn": "wasn't"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 330,
+     "y": 990,
+     "size": 200,
+     "enter": "zoom",
+     "on": "wasn't",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "His gut was *brewing* its own alcohol.",
+   "bg": [
+    "#1f4d2b",
+    "#020a05"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 900,
+     "r": 340,
+     "color": "#ffcc33",
+     "opacity": 0.4,
+     "idle": "none",
+     "enter": "fade",
+     "on": "brewing"
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 540,
+     "y": 870,
+     "size": 500,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "beer-mug",
+     "x": 540,
+     "y": 900,
+     "size": 150,
+     "enter": "zoom",
+     "on": "brewing",
+     "idle": "bob",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "AUTO-BREWERY\nSYNDROME",
+     "x": 540,
+     "y": 480,
+     "size": 96,
+     "style": "spooky",
+     "glow": "rgba(255,190,60,0.72)",
+     "color": "#ffeab8",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "brewing"
+    }
+   ],
+   "hold": 0.4
+  },
+  {
+   "text": "Doctors found brewer's yeast, the same kind used to make beer, living in his *gut*.",
+   "bg": [
+    "#1f4d2b",
+    "#020a05"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "microscope",
+     "x": 280,
+     "y": 650,
+     "size": 220,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 700,
+     "y": 810,
+     "size": 280,
+     "enter": "pop",
+     "on": "yeast",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "beer-mug",
+     "x": 800,
+     "y": 570,
+     "size": 150,
+     "enter": "pop",
+     "on": "beer",
+     "idle": "bob"
+    },
+    {
+     "type": "particles",
+     "name": "microbe",
+     "count": 9,
+     "area": [
+      100,
+      420,
+      880,
+      820
+     ],
+     "x": 540,
+     "y": 960,
+     "speed": 60,
+     "minSize": 45,
+     "maxSize": 85,
+     "enter": "fade",
+     "idle": "none",
+     "on": "living"
+    },
+    {
+     "type": "text",
+     "text": "BREWER'S YEAST",
+     "x": 540,
+     "y": 1170,
+     "size": 92,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "yeast"
+    }
+   ]
+  },
+  {
+   "text": "So every time he ate carbs, the yeast turned them into *alcohol*.",
+   "bg": [
+    "#5c3310",
+    "#0a0502"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "bread",
+     "x": 250,
+     "y": 790,
+     "size": 230,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 540,
+     "y": 610,
+     "size": 130,
+     "enter": "pop",
+     "on": "yeast",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "right-arrow",
+     "x": 540,
+     "y": 790,
+     "size": 150,
+     "enter": "slideL",
+     "on": "turned",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "beer-mug",
+     "x": 830,
+     "y": 790,
+     "size": 230,
+     "enter": "pop",
+     "on": "alcohol",
+     "idle": "bob",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Bread? Beer. Pasta? Beer. Basically, he was a walking *brewery*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "bread",
+     "x": 290,
+     "y": 570,
+     "size": 190,
+     "enter": "pop",
+     "on": "bread",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "right-arrow",
+     "x": 540,
+     "y": 570,
+     "size": 110,
+     "enter": "pop",
+     "on": "beer",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "beer-mug",
+     "x": 790,
+     "y": 570,
+     "size": 190,
+     "enter": "pop",
+     "on": "beer",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "spaghetti",
+     "x": 290,
+     "y": 870,
+     "size": 190,
+     "enter": "pop",
+     "on": "pasta",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "right-arrow",
+     "x": 540,
+     "y": 870,
+     "size": 110,
+     "enter": "pop",
+     "on": "beer",
+     "nth": 2,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "beer-mug",
+     "x": 790,
+     "y": 870,
+     "size": 190,
+     "enter": "pop",
+     "on": "beer",
+     "nth": 2,
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "A WALKING BREWERY",
+     "x": 540,
+     "y": 1170,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(255,190,60,0.72)",
+     "color": "#ffeab8",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "brewery",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "To prove it, doctors fed him carbs and watched him the whole time. No drinks at all. His blood alcohol still *rose*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "person-in-bed",
+     "x": 290,
+     "y": 890,
+     "size": 320,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "spaghetti",
+     "x": 290,
+     "y": 630,
+     "size": 150,
+     "enter": "pop",
+     "on": "carbs",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "eyes",
+     "x": 760,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "watched",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "beer-mug",
+     "x": 760,
+     "y": 790,
+     "size": 150,
+     "enter": "pop",
+     "on": "drinks",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 760,
+     "y": 790,
+     "size": 150,
+     "enter": "zoom",
+     "on": "drinks",
+     "delay": 0.2,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "chart-increasing",
+     "x": 760,
+     "y": 1030,
+     "size": 220,
+     "enter": "zoom",
+     "on": "rose",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It likely started after a long course of *antibiotics*. They may have wiped out gut bacteria that kept the yeast in check.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "GOOD BACTERIA",
+     "x": 730,
+     "y": 480,
+     "size": 56,
+     "enter": "fade",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "outOn": "wiped"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 650,
+     "y": 610,
+     "size": 130,
+     "enter": "pop",
+     "idle": "wiggle",
+     "hue": 170,
+     "outOn": "wiped"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 810,
+     "y": 710,
+     "size": 120,
+     "enter": "pop",
+     "delay": 0.1,
+     "idle": "wiggle",
+     "hue": 170,
+     "outOn": "wiped"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 680,
+     "y": 830,
+     "size": 110,
+     "enter": "pop",
+     "delay": 0.2,
+     "idle": "wiggle",
+     "hue": 170,
+     "outOn": "wiped"
+    },
+    {
+     "type": "icon",
+     "name": "pill",
+     "x": 280,
+     "y": 650,
+     "size": 220,
+     "enter": "pop",
+     "on": "antibiotics",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 730,
+     "y": 710,
+     "size": 230,
+     "enter": "zoom",
+     "on": "wiped",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 540,
+     "y": 1050,
+     "size": 200,
+     "enter": "pop",
+     "on": "yeast",
+     "idle": "wiggle"
+    }
+   ]
+  },
+  {
+   "text": "The treatment? Antifungal drugs, and a strict carb-free *diet*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "TREATMENT",
+     "x": 540,
+     "y": 490,
+     "size": 80,
+     "enter": "fade",
+     "idle": "none",
+     "color": "#7CFFB2"
+    },
+    {
+     "type": "icon",
+     "name": "pill",
+     "x": 290,
+     "y": 770,
+     "size": 230,
+     "enter": "pop",
+     "on": "antifungal",
+     "idle": "wiggle",
+     "label": "ANTIFUNGAL"
+    },
+    {
+     "type": "icon",
+     "name": "bread",
+     "x": 790,
+     "y": 770,
+     "size": 230,
+     "enter": "pop",
+     "on": "carb-free",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 790,
+     "y": 770,
+     "size": 230,
+     "enter": "zoom",
+     "on": "diet",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Then, during treatment, he ate pizza and drank soda... and got drunk *again*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 540,
+     "y": 970,
+     "size": 300,
+     "enter": "fade",
+     "idle": "none",
+     "outOn": "drunk"
+    },
+    {
+     "type": "icon",
+     "name": "pizza",
+     "x": 290,
+     "y": 670,
+     "size": 230,
+     "enter": "pop",
+     "on": "pizza",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "cup-with-straw",
+     "x": 790,
+     "y": 670,
+     "size": 230,
+     "enter": "pop",
+     "on": "soda",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "woozy-face",
+     "x": 540,
+     "y": 970,
+     "size": 300,
+     "enter": "zoom",
+     "on": "drunk",
+     "idle": "sway",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "OOPS.",
+     "x": 540,
+     "y": 1190,
+     "size": 120,
+     "style": "spooky",
+     "glow": "rgba(255,70,70,0.78)",
+     "color": "#ffd9d9",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "again"
+    }
+   ]
+  },
+  {
+   "text": "After more treatment, he recovered. Now he eats normally again.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 540,
+     "y": 850,
+     "size": 400,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 820,
+     "y": 570,
+     "size": 160,
+     "enter": "zoom",
+     "on": "recovered",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "spaghetti",
+     "x": 260,
+     "y": 590,
+     "size": 170,
+     "enter": "pop",
+     "on": "eats",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "And in New York, a judge once dismissed a woman's drunk driving charge, after a doctor said she had this *syndrome*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "NEW YORK",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "judge",
+     "x": 540,
+     "y": 830,
+     "size": 380,
+     "enter": "pop",
+     "on": "judge",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "balance-scale",
+     "x": 820,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "charge",
+     "idle": "sway"
+    },
+    {
+     "type": "text",
+     "text": "CHARGE DISMISSED",
+     "x": 540,
+     "y": 1170,
+     "size": 88,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "dismissed",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "But no, you can't use this as an excuse. They will *test* you.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "police-car",
+     "x": 300,
+     "y": 650,
+     "size": 240,
+     "enter": "slideL",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "test-tube",
+     "x": 780,
+     "y": 650,
+     "size": 220,
+     "enter": "pop",
+     "on": "test",
+     "idle": "wiggle",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "index-pointing-at-the-viewer",
+     "x": 540,
+     "y": 970,
+     "size": 280,
+     "enter": "zoom",
+     "on": "you",
+     "nth": 2,
+     "idle": "none"
+    },
+    {
+     "type": "text",
+     "text": "NICE TRY",
+     "x": 540,
+     "y": 1190,
+     "size": 120,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "excuse"
+    }
+   ]
+  }
+ ]
+}

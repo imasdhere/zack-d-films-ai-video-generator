@@ -1,0 +1,744 @@
+{
+ "id": "foreignaccent",
+ "title": "A head injury gave her a foreign accent",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.02,
+ "post": {
+  "youtube_title": "A Head Injury Gave Her a Foreign Accent 🗣️ #shorts",
+  "caption": "In 1941, a Norwegian woman was hit by shrapnel and started to sound German, in Nazi-occupied Norway. It's called foreign accent syndrome, and it's incredibly rare 🤯",
+  "hashtags": [
+   "foreignaccentsyndrome",
+   "brain",
+   "neuroscience",
+   "history",
+   "medicalfacts",
+   "creepyfacts",
+   "shorts"
+  ],
+  "pinned_comment": "Which accent would your brain pick? 👇"
+ },
+ "sources": [
+  "Monrad-Krohn GH (1947), 'Dysprosody or altered melody of language', Brain 70:405-415: Astrid L., hit by shrapnel in a 1941 air raid on Oslo, developed speech that listeners heard as a German accent; she was shunned and shopkeepers refused to serve her",
+  "Foreign accent syndrome was first described by the French neurologist Pierre Marie in 1907",
+  "Foreign accent syndrome has been reported after stroke, traumatic brain injury and migraine; it is very rare"
+ ],
+ "beats": [
+  {
+   "text": "In {1941|nineteen forty-one}, during an air raid on Oslo, a Norwegian woman was hit in the head by *shrapnel*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "CASE FILE · NORWAY 1941",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 380,
+     "y": 910,
+     "size": 360,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "bomb",
+     "x": 780,
+     "y": 610,
+     "size": 190,
+     "enter": "drop",
+     "on": "raid",
+     "idle": "sway"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 700,
+     "y": 870,
+     "size": 240,
+     "enter": "zoom",
+     "on": "shrapnel",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "She survived, and recovered. But when she started talking again, something was very *wrong*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "face-with-head-bandage",
+     "x": 540,
+     "y": 830,
+     "size": 380,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 820,
+     "y": 570,
+     "size": 200,
+     "enter": "pop",
+     "on": "talking",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "warning",
+     "x": 260,
+     "y": 570,
+     "size": 170,
+     "enter": "zoom",
+     "on": "wrong",
+     "idle": "pulse",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "She sounded *German*.",
+   "bg": [
+    "#2a2a2a",
+    "#050505"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 540,
+     "y": 790,
+     "size": 460,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 250 150'><defs><clipPath id='c'><rect width='250' height='150' rx='14'/></clipPath><linearGradient id='s' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#fff' stop-opacity='0.22'/><stop offset='1' stop-color='#000' stop-opacity='0.25'/></linearGradient></defs><g clip-path='url(#c)'><rect width='250' height='50' fill='#111'/><rect y='50' width='250' height='50' fill='#DD0000'/><rect y='100' width='250' height='50' fill='#FFCE00'/><rect width='250' height='150' fill='url(#s)'/></g></svg>",
+     "x": 540,
+     "y": 760,
+     "w": 250,
+     "h": 150,
+     "idle": "none",
+     "enter": "zoom",
+     "on": "German",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "GERMAN?!",
+     "x": 540,
+     "y": 1170,
+     "size": 140,
+     "style": "spooky",
+     "glow": "rgba(255,190,60,0.72)",
+     "color": "#ffeab8",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "German"
+    }
+   ],
+   "hold": 0.5
+  },
+  {
+   "text": "And Norway was occupied by Nazi Germany at the time. Worst possible moment to sound *German*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 160'><defs><clipPath id='c'><rect width='220' height='160' rx='14'/></clipPath><linearGradient id='s' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#fff' stop-opacity='0.22'/><stop offset='1' stop-color='#000' stop-opacity='0.25'/></linearGradient></defs><g clip-path='url(#c)'><rect width='220' height='160' fill='#BA0C2F'/><rect x='60' width='40' height='160' fill='#fff'/><rect y='60' width='220' height='40' fill='#fff'/><rect x='70' width='20' height='160' fill='#00205B'/><rect y='70' width='220' height='20' fill='#00205B'/><rect width='220' height='160' fill='url(#s)'/></g></svg>",
+     "x": 540,
+     "y": 650,
+     "w": 330,
+     "h": 240,
+     "idle": "sway",
+     "enter": "pop",
+     "on": "Norway"
+    },
+    {
+     "type": "icon",
+     "name": "grimacing-face",
+     "x": 540,
+     "y": 970,
+     "size": 240,
+     "enter": "zoom",
+     "on": "worst",
+     "idle": "shake",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "WORST TIMING EVER",
+     "x": 540,
+     "y": 1180,
+     "size": 80,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "worst"
+    }
+   ]
+  },
+  {
+   "text": "Shopkeepers refused to serve her, because they thought she was *German*.",
+   "bg": [
+    "#2d1a4a",
+    "#05010c"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "convenience-store",
+     "x": 540,
+     "y": 690,
+     "size": 320,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "shopping-cart",
+     "x": 320,
+     "y": 1010,
+     "size": 200,
+     "enter": "slideL",
+     "on": "serve",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 320,
+     "y": 1010,
+     "size": 190,
+     "enter": "zoom",
+     "on": "serve",
+     "delay": 0.25,
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 770,
+     "y": 1010,
+     "size": 240,
+     "enter": "pop",
+     "on": "her",
+     "idle": "float"
+    }
+   ]
+  },
+  {
+   "text": "In her own country, she was *shunned*.",
+   "bg": [
+    "#0d1b2e",
+    "#010205"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 160'><defs><clipPath id='c'><rect width='220' height='160' rx='14'/></clipPath><linearGradient id='s' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='#fff' stop-opacity='0.22'/><stop offset='1' stop-color='#000' stop-opacity='0.25'/></linearGradient></defs><g clip-path='url(#c)'><rect width='220' height='160' fill='#BA0C2F'/><rect x='60' width='40' height='160' fill='#fff'/><rect y='60' width='220' height='40' fill='#fff'/><rect x='70' width='20' height='160' fill='#00205B'/><rect y='70' width='220' height='20' fill='#00205B'/><rect width='220' height='160' fill='url(#s)'/></g></svg>",
+     "x": 540,
+     "y": 650,
+     "w": 300,
+     "h": 218,
+     "idle": "sway",
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 970,
+     "size": 260,
+     "enter": "pop",
+     "idle": "float",
+     "opacity": 0.85
+    },
+    {
+     "type": "text",
+     "text": "SHUNNED",
+     "x": 540,
+     "y": 1180,
+     "size": 130,
+     "style": "spooky",
+     "glow": "rgba(80,160,255,0.8)",
+     "color": "#dcefff",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "shunned"
+    }
+   ]
+  },
+  {
+   "text": "But she hadn't learned any German. Her brain had just changed how she *spoke*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "graduation-cap",
+     "x": 260,
+     "y": 590,
+     "size": 180,
+     "enter": "pop",
+     "on": "learned",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 260,
+     "y": 590,
+     "size": 120,
+     "enter": "zoom",
+     "on": "learned",
+     "delay": 0.25,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 580,
+     "y": 870,
+     "size": 360,
+     "enter": "pop",
+     "on": "brain",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 840,
+     "y": 610,
+     "size": 180,
+     "enter": "pop",
+     "on": "spoke",
+     "idle": "bob",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Her neurologist, {Monrad-Krohn|Monrad Krohn}, found an injury to the left front of her *brain*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 830,
+     "size": 460,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "man-health-worker",
+     "x": 860,
+     "y": 530,
+     "size": 170,
+     "enter": "pop",
+     "on": "neurologist",
+     "idle": "bob"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><defs><radialGradient id='g'><stop offset='0' stop-color='#ff3b3b' stop-opacity='0.95'/><stop offset='0.5' stop-color='#ff3b3b' stop-opacity='0.45'/><stop offset='1' stop-color='#ff3b3b' stop-opacity='0'/></radialGradient></defs><circle cx='100' cy='100' r='100' fill='url(#g)'/></svg>",
+     "x": 380,
+     "y": 770,
+     "w": 240,
+     "h": 240,
+     "idle": "pulse",
+     "enter": "zoom",
+     "on": "left",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "LEFT FRONTAL LOBE",
+     "x": 540,
+     "y": 1170,
+     "size": 80,
+     "enter": "rise",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "left"
+    }
+   ]
+  },
+  {
+   "text": "It didn't change her words. It changed the *music* of her speech. The rhythm, the stress, the melody.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 540,
+     "y": 770,
+     "size": 400,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 120'><path d='M10 60 C40 10 60 10 80 60 S120 110 150 60 S190 0 220 60 S260 115 290 60 S340 20 390 60' fill='none' stroke='#FFE14D' stroke-width='10' stroke-linecap='round'/></svg>",
+     "x": 540,
+     "y": 740,
+     "w": 260,
+     "h": 78,
+     "idle": "none",
+     "enter": "fade",
+     "on": "rhythm"
+    },
+    {
+     "type": "icon",
+     "name": "musical-notes",
+     "x": 820,
+     "y": 550,
+     "size": 190,
+     "enter": "pop",
+     "on": "music",
+     "idle": "sway"
+    },
+    {
+     "type": "text",
+     "text": "THE MUSIC OF SPEECH",
+     "x": 540,
+     "y": 1170,
+     "size": 90,
+     "style": "spooky",
+     "glow": "rgba(255,190,60,0.72)",
+     "color": "#ffeab8",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "music"
+    }
+   ]
+  },
+  {
+   "text": "To everyone listening, it sounded exactly like a foreign *accent*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 990,
+     "size": 260,
+     "enter": "fade",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "ear",
+     "x": 280,
+     "y": 770,
+     "size": 230,
+     "enter": "pop",
+     "on": "listening",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "ear",
+     "x": 800,
+     "y": 770,
+     "size": 230,
+     "enter": "pop",
+     "on": "listening",
+     "delay": 0.15,
+     "idle": "wiggle",
+     "flip": true
+    },
+    {
+     "type": "icon",
+     "name": "red-question-mark",
+     "x": 540,
+     "y": 610,
+     "size": 200,
+     "enter": "zoom",
+     "on": "accent",
+     "idle": "bob",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Some people even sound like they're from a country they've never *visited*.",
+   "bg": [
+    "#5c3310",
+    "#0a0502"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "globe-showing-europe-africa",
+     "x": 540,
+     "y": 790,
+     "size": 380,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "airplane",
+     "x": 820,
+     "y": 550,
+     "size": 170,
+     "enter": "slideR",
+     "on": "visited",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 820,
+     "y": 550,
+     "size": 170,
+     "enter": "zoom",
+     "on": "visited",
+     "delay": 0.25,
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "person-shrugging",
+     "x": 260,
+     "y": 1050,
+     "size": 220,
+     "enter": "pop",
+     "on": "never",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "Foreign accent syndrome was first described back in {1907|nineteen oh seven}, and it's incredibly *rare*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "FOREIGN ACCENT\nSYNDROME",
+     "x": 540,
+     "y": 570,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "foreign"
+    },
+    {
+     "type": "icon",
+     "name": "scroll",
+     "x": 300,
+     "y": 930,
+     "size": 220,
+     "enter": "pop",
+     "on": "1907",
+     "idle": "float",
+     "label": "1907"
+    },
+    {
+     "type": "icon",
+     "name": "gem-stone",
+     "x": 780,
+     "y": 930,
+     "size": 200,
+     "enter": "zoom",
+     "on": "rare",
+     "idle": "pulse",
+     "label": "RARE",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It's been reported after strokes, head injuries, and even a severe *migraine*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "REPORTED AFTER...",
+     "x": 540,
+     "y": 480,
+     "size": 64,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 250,
+     "y": 710,
+     "size": 180,
+     "enter": "pop",
+     "on": "strokes",
+     "idle": "pulse",
+     "label": "STROKE"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-head-bandage",
+     "x": 540,
+     "y": 650,
+     "size": 180,
+     "enter": "pop",
+     "on": "head",
+     "idle": "bob",
+     "label": "HEAD INJURY"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-spiral-eyes",
+     "x": 830,
+     "y": 710,
+     "size": 180,
+     "enter": "pop",
+     "on": "migraine",
+     "idle": "wiggle",
+     "label": "MIGRAINE",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "So, technically, it's the cheapest language course ever. Zero lessons. Perfect *accent*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "graduation-cap",
+     "x": 540,
+     "y": 770,
+     "size": 320,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "money-with-wings",
+     "x": 820,
+     "y": 550,
+     "size": 180,
+     "enter": "pop",
+     "on": "cheapest",
+     "idle": "float"
+    },
+    {
+     "type": "text",
+     "text": "$0 TUITION",
+     "x": 540,
+     "y": 1110,
+     "size": 110,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "zero"
+    },
+    {
+     "type": "icon",
+     "name": "sparkles",
+     "x": 260,
+     "y": 570,
+     "size": 160,
+     "enter": "pop",
+     "on": "perfect",
+     "idle": "pulse",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Please don't try this at home. Which accent would your brain pick? Tell me below.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "house",
+     "x": 300,
+     "y": 690,
+     "size": 200,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 300,
+     "y": 690,
+     "size": 190,
+     "enter": "zoom",
+     "on": "don't",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 680,
+     "y": 890,
+     "size": 320,
+     "enter": "pop",
+     "on": "brain",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 860,
+     "y": 630,
+     "size": 160,
+     "enter": "pop",
+     "on": "accent",
+     "idle": "bob"
+    }
+   ]
+  }
+ ]
+}

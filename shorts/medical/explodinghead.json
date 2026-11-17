@@ -1,0 +1,795 @@
+{
+ "id": "explodinghead",
+ "title": "Your brain can fire a cannon at bedtime",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "post": {
+  "youtube_title": "Some People Hear an EXPLOSION While Falling Asleep 💥 #shorts",
+  "caption": "Exploding head syndrome: a loud bang as you fall asleep that nobody else hears. In one study, about 1 in 5 college students had felt it at least once 🤯",
+  "hashtags": [
+   "explodingheadsyndrome",
+   "sleep",
+   "brain",
+   "medicalfacts",
+   "creepyfacts",
+   "science",
+   "shorts"
+  ],
+  "pinned_comment": "Has this ever happened to you? 👇"
+ },
+ "sources": [
+  "Sharpless BA (2015), 'Exploding head syndrome is common in college students', Journal of Sleep Research 24(4):447-449, doi:10.1111/jsr.12292: 18% of 211 undergraduates had experienced it; it was found in 36.89% of those with isolated sleep paralysis",
+  "Sharpless BA (2014), 'Exploding head syndrome', Sleep Medicine Reviews 18(6):489-493: episodes are painless loud noises at sleep onset or on waking, sometimes with a flash of light; possible links to stress and fatigue; one theory is a delayed shutdown of auditory neurons"
+ ],
+ "beats": [
+  {
+   "text": "You're drifting off to sleep, when suddenly... *BANG*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "person-in-bed",
+     "x": 540,
+     "y": 920,
+     "size": 440,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "crescent-moon",
+     "x": 820,
+     "y": 490,
+     "size": 150,
+     "enter": "fade",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "zzz",
+     "x": 760,
+     "y": 680,
+     "size": 170,
+     "enter": "fade",
+     "idle": "bob",
+     "outOn": "BANG"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><g fill='none' stroke='#ffb347'><circle cx='200' cy='200' r='120' stroke-width='10' opacity='0.8'/><circle cx='200' cy='200' r='160' stroke-width='7' opacity='0.5'/><circle cx='200' cy='200' r='195' stroke-width='4' opacity='0.3'/></g></svg>",
+     "x": 540,
+     "y": 720,
+     "w": 720,
+     "h": 720,
+     "idle": "pulse",
+     "on": "BANG",
+     "enter": "zoom"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 540,
+     "y": 720,
+     "size": 400,
+     "enter": "zoom",
+     "on": "BANG",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "BANG!",
+     "x": 540,
+     "y": 500,
+     "size": 170,
+     "style": "spooky",
+     "glow": "rgba(255,140,40,0.78)",
+     "color": "#ffe0b8",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "BANG"
+    }
+   ]
+  },
+  {
+   "text": "A massive explosion, right inside your *head*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><g fill='none' stroke='#ffb347'><circle cx='200' cy='200' r='120' stroke-width='10' opacity='0.8'/><circle cx='200' cy='200' r='160' stroke-width='7' opacity='0.5'/><circle cx='200' cy='200' r='195' stroke-width='4' opacity='0.3'/></g></svg>",
+     "x": 540,
+     "y": 830,
+     "w": 820,
+     "h": 820,
+     "idle": "pulse",
+     "enter": "zoom"
+    },
+    {
+     "type": "icon",
+     "name": "exploding-head",
+     "x": 540,
+     "y": 830,
+     "size": 460,
+     "enter": "zoom",
+     "idle": "shake"
+    }
+   ],
+   "impactOn": [
+    "head"
+   ]
+  },
+  {
+   "text": "You jolt awake. Your heart is pounding. But the room is totally *silent*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "face-screaming-in-fear",
+     "x": 540,
+     "y": 790,
+     "size": 360,
+     "enter": "zoom",
+     "on": "jolt",
+     "idle": "shake"
+    },
+    {
+     "type": "icon",
+     "name": "anatomical-heart",
+     "x": 820,
+     "y": 570,
+     "size": 180,
+     "enter": "pop",
+     "on": "heart",
+     "idle": "heartbeat"
+    },
+    {
+     "type": "icon",
+     "name": "shushing-face",
+     "x": 270,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "silent",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "SILENCE.",
+     "x": 540,
+     "y": 1150,
+     "size": 100,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "silent"
+    }
+   ]
+  },
+  {
+   "text": "Some people think it's a burglar. Others think they're having a *stroke*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "ninja",
+     "x": 290,
+     "y": 830,
+     "size": 290,
+     "enter": "slideL",
+     "on": "burglar",
+     "idle": "sway"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 780,
+     "y": 830,
+     "size": 280,
+     "enter": "pop",
+     "on": "stroke",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 780,
+     "y": 640,
+     "size": 140,
+     "enter": "zoom",
+     "on": "stroke",
+     "delay": 0.15,
+     "idle": "shake",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Good news: your head did not explode. We *checked*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "face-with-monocle",
+     "x": 540,
+     "y": 830,
+     "size": 380,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "text",
+     "text": "HEAD: INTACT",
+     "x": 540,
+     "y": 1160,
+     "size": 100,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "explode"
+    },
+    {
+     "type": "icon",
+     "name": "magnifying-glass-tilted-left",
+     "x": 800,
+     "y": 640,
+     "size": 190,
+     "enter": "pop",
+     "on": "checked",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 290,
+     "y": 610,
+     "size": 170,
+     "enter": "zoom",
+     "on": "checked",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "This is exploding head syndrome. Yes, that's the real *name*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "EXPLODING HEAD\nSYNDROME",
+     "x": 540,
+     "y": 570,
+     "size": 110,
+     "style": "spooky",
+     "glow": "rgba(255,140,40,0.78)",
+     "color": "#ffe0b8",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "exploding"
+    },
+    {
+     "type": "icon",
+     "name": "exploding-head",
+     "x": 540,
+     "y": 910,
+     "size": 320,
+     "enter": "zoom",
+     "on": "exploding",
+     "idle": "shake"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-raised-eyebrow",
+     "x": 830,
+     "y": 1090,
+     "size": 150,
+     "enter": "pop",
+     "on": "name",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "People hear gunshots, slamming doors, or crashing cymbals. Some even see a flash of *light*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 260,
+     "y": 650,
+     "size": 180,
+     "enter": "pop",
+     "on": "gunshots",
+     "idle": "none",
+     "label": "BANG"
+    },
+    {
+     "type": "icon",
+     "name": "door",
+     "x": 540,
+     "y": 650,
+     "size": 200,
+     "enter": "pop",
+     "on": "doors",
+     "idle": "shake",
+     "label": "SLAM"
+    },
+    {
+     "type": "icon",
+     "name": "drum",
+     "x": 820,
+     "y": 650,
+     "size": 180,
+     "enter": "pop",
+     "on": "cymbals",
+     "idle": "wiggle",
+     "label": "CRASH"
+    },
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 980,
+     "r": 300,
+     "color": "#ffffff",
+     "opacity": 0.55,
+     "idle": "none",
+     "enter": "fade",
+     "on": "light"
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 540,
+     "y": 980,
+     "size": 250,
+     "enter": "zoom",
+     "on": "light",
+     "idle": "shake",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It sounds rare, but it's not. In a {2015|twenty fifteen} study, about one in five college students had experienced it at least *once*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "WSU STUDY · 2015",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 190,
+     "y": 820,
+     "size": 180,
+     "enter": "pop",
+     "on": "students",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 365,
+     "y": 820,
+     "size": 180,
+     "enter": "pop",
+     "on": "students",
+     "delay": 0.08,
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 540,
+     "y": 820,
+     "size": 180,
+     "enter": "pop",
+     "on": "students",
+     "delay": 0.16,
+     "idle": "shake",
+     "hue": 150
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 715,
+     "y": 820,
+     "size": 180,
+     "enter": "pop",
+     "on": "students",
+     "delay": 0.24,
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "person-standing",
+     "x": 890,
+     "y": 820,
+     "size": 180,
+     "enter": "pop",
+     "on": "students",
+     "delay": 0.32,
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 540,
+     "y": 640,
+     "size": 120,
+     "enter": "zoom",
+     "on": "once",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "counter",
+     "from": 0,
+     "to": 18,
+     "x": 540,
+     "y": 1120,
+     "size": 120,
+     "dur": 1.1,
+     "enter": "zoom",
+     "idle": "none",
+     "suffix": "%",
+     "color": "#FFE14D",
+     "on": "five"
+    }
+   ]
+  },
+  {
+   "text": "And among people who get sleep paralysis, more than a *third* had it too.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "person-in-bed",
+     "x": 540,
+     "y": 920,
+     "size": 400,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "ghost",
+     "x": 810,
+     "y": 620,
+     "size": 210,
+     "enter": "glitch",
+     "on": "paralysis",
+     "idle": "flicker"
+    },
+    {
+     "type": "text",
+     "text": "1 IN 3",
+     "x": 290,
+     "y": 610,
+     "size": 110,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "third",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Stress and bad sleep may make it *worse*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "sleepy-face",
+     "x": 540,
+     "y": 840,
+     "size": 340,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "alarm-clock",
+     "x": 810,
+     "y": 600,
+     "size": 170,
+     "enter": "pop",
+     "on": "sleep",
+     "idle": "shake"
+    },
+    {
+     "type": "icon",
+     "name": "chart-increasing",
+     "x": 270,
+     "y": 600,
+     "size": 170,
+     "enter": "zoom",
+     "on": "worse",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "What's going on? One theory: as you fall asleep, your brain shuts down in *stages*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 820,
+     "size": 400,
+     "enter": "pop",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "low-battery",
+     "x": 820,
+     "y": 580,
+     "size": 170,
+     "enter": "pop",
+     "on": "shuts",
+     "idle": "pulse"
+    },
+    {
+     "type": "text",
+     "text": "SHUTTING DOWN...",
+     "x": 540,
+     "y": 1160,
+     "size": 90,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "stages"
+    }
+   ]
+  },
+  {
+   "text": "But the neurons that handle sound fire all at once, instead of switching off *quietly*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "ear",
+     "x": 540,
+     "y": 830,
+     "size": 360,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 300,
+     "y": 640,
+     "size": 150,
+     "enter": "zoom",
+     "on": "fire",
+     "idle": "shake",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 780,
+     "y": 640,
+     "size": 150,
+     "enter": "zoom",
+     "on": "fire",
+     "delay": 0.1,
+     "idle": "shake"
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 540,
+     "y": 570,
+     "size": 150,
+     "enter": "zoom",
+     "on": "fire",
+     "delay": 0.2,
+     "idle": "shake"
+    },
+    {
+     "type": "icon",
+     "name": "speaker-high-volume",
+     "x": 820,
+     "y": 1030,
+     "size": 170,
+     "enter": "pop",
+     "on": "once",
+     "idle": "pulse"
+    }
+   ]
+  },
+  {
+   "text": "Basically, your brain slams the door on its way *out*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "door",
+     "x": 540,
+     "y": 830,
+     "size": 400,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 290,
+     "y": 640,
+     "size": 200,
+     "enter": "slideL",
+     "on": "brain",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 540,
+     "y": 830,
+     "size": 260,
+     "enter": "zoom",
+     "on": "slams",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "dashing-away",
+     "x": 800,
+     "y": 650,
+     "size": 180,
+     "enter": "pop",
+     "on": "out",
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "It's harmless, and it doesn't hurt. Your brain is just being *dramatic*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 290,
+     "y": 610,
+     "size": 170,
+     "enter": "zoom",
+     "on": "harmless",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 790,
+     "y": 610,
+     "size": 200,
+     "enter": "pop",
+     "on": "brain",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "performing-arts",
+     "x": 540,
+     "y": 870,
+     "size": 380,
+     "enter": "zoom",
+     "on": "dramatic",
+     "idle": "wiggle",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "DRAMATIC",
+     "x": 540,
+     "y": 1180,
+     "size": 130,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "dramatic"
+    }
+   ]
+  },
+  {
+   "text": "If it happens a lot, though, mention it to a doctor. Has this ever happened to you?",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man-health-worker",
+     "x": 300,
+     "y": 830,
+     "size": 300,
+     "enter": "pop",
+     "on": "doctor",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "exploding-head",
+     "x": 780,
+     "y": 890,
+     "size": 240,
+     "enter": "pop",
+     "idle": "shake"
+    },
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 780,
+     "y": 640,
+     "size": 190,
+     "enter": "pop",
+     "on": "happened",
+     "idle": "bob"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,745 @@
+{
+ "id": "alienhand",
+ "title": "Her own hand tried to strangle her",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "post": {
+  "youtube_title": "Her Own Hand Tried to Strangle Her 🖐️ Alien Hand Syndrome #shorts",
+  "caption": "In 1908, a doctor described a woman whose left hand tried to strangle her. Alien hand syndrome is real, and patients cope by giving the 'rebel' hand something to hold 😳",
+  "hashtags": [
+   "alienhandsyndrome",
+   "brain",
+   "neuroscience",
+   "medicalfacts",
+   "creepyfacts",
+   "science",
+   "shorts"
+  ],
+  "pinned_comment": "Would you trust your hands after this? 👇"
+ },
+ "sources": [
+  "Goldstein K (1908): a woman whose left hand tried to choke her; she pulled it away with her right hand; autopsy found brain damage that included the corpus callosum",
+  "Alien hand syndrome is also called 'Dr. Strangelove syndrome' after the 1964 film; causes include stroke, tumours, corpus callosotomy and neurodegenerative disease",
+  "The human corpus callosum holds about 200 million nerve fibres (axons)",
+  "Corpus callosotomy is a surgery for severe, drug-resistant epilepsy",
+  "Intermanual conflict: one hand acts against the other (for example, dressing and undressing); keeping the alien hand busy, for example holding an object, reduces unwanted actions"
+ ],
+ "beats": [
+  {
+   "text": "In {1908|nineteen oh eight}, a German doctor treated a woman whose left hand tried to *strangle* her.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "CASE FILE · GERMANY 1908",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 870,
+     "size": 420,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 260,
+     "y": 1010,
+     "size": 220,
+     "enter": "slideL",
+     "on": "hand",
+     "idle": "shake",
+     "hue": 75,
+     "rot": 25
+    },
+    {
+     "type": "icon",
+     "name": "face-screaming-in-fear",
+     "x": 820,
+     "y": 590,
+     "size": 180,
+     "enter": "zoom",
+     "on": "strangle",
+     "idle": "shake",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "She had to pull it away with her *other* hand.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 360,
+     "y": 830,
+     "size": 300,
+     "enter": "fade",
+     "idle": "shake",
+     "hue": 75
+    },
+    {
+     "type": "icon",
+     "name": "raised-hand",
+     "x": 740,
+     "y": 830,
+     "size": 300,
+     "enter": "slideR",
+     "on": "other",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 550,
+     "y": 830,
+     "size": 170,
+     "enter": "zoom",
+     "on": "other",
+     "delay": 0.35,
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "She wasn't controlling it. The hand seemed to act on its *own*.",
+   "bg": [
+    "#1f4d2b",
+    "#020a05"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 810,
+     "r": 380,
+     "color": "#9dff6b",
+     "opacity": 0.35,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 540,
+     "y": 810,
+     "size": 380,
+     "enter": "glitch",
+     "idle": "wiggle",
+     "hue": 75
+    },
+    {
+     "type": "text",
+     "text": "A MIND OF\nITS OWN",
+     "x": 540,
+     "y": 1160,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "own",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Doctors call this alien hand syndrome. Its nickname comes from a movie: *Doctor* {Strangelove|Strange love} syndrome.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "alien",
+     "x": 300,
+     "y": 870,
+     "size": 260,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "text",
+     "text": "ALIEN HAND\nSYNDROME",
+     "x": 540,
+     "y": 530,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "alien"
+    },
+    {
+     "type": "icon",
+     "name": "clapper-board",
+     "x": 780,
+     "y": 870,
+     "size": 240,
+     "enter": "pop",
+     "on": "movie",
+     "idle": "wiggle"
+    },
+    {
+     "type": "text",
+     "text": "DR. STRANGELOVE\nSYNDROME",
+     "x": 540,
+     "y": 1160,
+     "size": 84,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "doctor",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It can follow a stroke, a tumor, or brain surgery, especially when the bridge between the brain's two halves is *damaged*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 500'><defs><radialGradient id='h' cx='0.5' cy='0.4' r='0.7'><stop offset='0' stop-color='#ffc2d1'/><stop offset='1' stop-color='#e07a9a'/></radialGradient></defs><ellipse cx='175' cy='250' rx='150' ry='220' fill='url(#h)' stroke='#9c3b5c' stroke-width='8'/><ellipse cx='425' cy='250' rx='150' ry='220' fill='url(#h)' stroke='#9c3b5c' stroke-width='8'/><path d='M120 120 q40 30 0 60 q-40 30 0 60 q40 30 0 60 M230 90 q-30 40 0 80 q30 40 0 80 q-30 40 0 80 M370 90 q30 40 0 80 q-30 40 0 80 q30 40 0 80 M480 120 q-40 30 0 60 q40 30 0 60 q-40 30 0 60' fill='none' stroke='#b8506f' stroke-width='7' stroke-linecap='round'/><rect x='270' y='170' width='60' height='160' rx='26' fill='#ffe14d' stroke='#c79b00' stroke-width='6'/></svg>",
+     "x": 540,
+     "y": 830,
+     "w": 560,
+     "h": 467,
+     "idle": "none",
+     "enter": "pop"
+    },
+    {
+     "type": "text",
+     "text": "THE BRIDGE ↓",
+     "x": 540,
+     "y": 530,
+     "size": 64,
+     "enter": "pop",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "bridge"
+    },
+    {
+     "type": "text",
+     "text": "LEFT",
+     "x": 330,
+     "y": 1120,
+     "size": 56,
+     "enter": "pop",
+     "idle": "none",
+     "on": "halves"
+    },
+    {
+     "type": "text",
+     "text": "RIGHT",
+     "x": 750,
+     "y": 1120,
+     "size": 56,
+     "enter": "pop",
+     "idle": "none",
+     "on": "halves"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><defs><radialGradient id='g'><stop offset='0' stop-color='#ff3b3b' stop-opacity='0.95'/><stop offset='0.5' stop-color='#ff3b3b' stop-opacity='0.45'/><stop offset='1' stop-color='#ff3b3b' stop-opacity='0'/></radialGradient></defs><circle cx='100' cy='100' r='100' fill='url(#g)'/></svg>",
+     "x": 540,
+     "y": 830,
+     "w": 280,
+     "h": 280,
+     "idle": "pulse",
+     "enter": "zoom",
+     "on": "damaged"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 540,
+     "y": 830,
+     "size": 150,
+     "enter": "zoom",
+     "on": "damaged",
+     "delay": 0.12,
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "That bridge, the corpus callosum, has about *200* million nerve fibers. It keeps your left and right sides in sync.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 500'><defs><radialGradient id='h' cx='0.5' cy='0.4' r='0.7'><stop offset='0' stop-color='#ffc2d1'/><stop offset='1' stop-color='#e07a9a'/></radialGradient></defs><ellipse cx='175' cy='250' rx='150' ry='220' fill='url(#h)' stroke='#9c3b5c' stroke-width='8'/><ellipse cx='425' cy='250' rx='150' ry='220' fill='url(#h)' stroke='#9c3b5c' stroke-width='8'/><path d='M120 120 q40 30 0 60 q-40 30 0 60 q40 30 0 60 M230 90 q-30 40 0 80 q30 40 0 80 q-30 40 0 80 M370 90 q30 40 0 80 q-30 40 0 80 q30 40 0 80 M480 120 q-40 30 0 60 q40 30 0 60 q-40 30 0 60' fill='none' stroke='#b8506f' stroke-width='7' stroke-linecap='round'/><rect x='270' y='170' width='60' height='160' rx='26' fill='#ffe14d' stroke='#c79b00' stroke-width='6'/></svg>",
+     "x": 540,
+     "y": 830,
+     "w": 560,
+     "h": 467,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "text",
+     "text": "CORPUS CALLOSUM",
+     "x": 540,
+     "y": 510,
+     "size": 80,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "corpus"
+    },
+    {
+     "type": "counter",
+     "from": 0,
+     "to": 200,
+     "x": 540,
+     "y": 1170,
+     "size": 76,
+     "dur": 1.1,
+     "enter": "zoom",
+     "idle": "none",
+     "suffix": " MILLION FIBERS",
+     "color": "#FFE14D",
+     "on": "200",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Surgeons sometimes cut it on purpose, to treat severe *seizures*.",
+   "bg": [
+    "#2d1a4a",
+    "#05010c"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 500'><defs><radialGradient id='h' cx='0.5' cy='0.4' r='0.7'><stop offset='0' stop-color='#ffc2d1'/><stop offset='1' stop-color='#e07a9a'/></radialGradient></defs><ellipse cx='175' cy='250' rx='150' ry='220' fill='url(#h)' stroke='#9c3b5c' stroke-width='8'/><ellipse cx='425' cy='250' rx='150' ry='220' fill='url(#h)' stroke='#9c3b5c' stroke-width='8'/><path d='M120 120 q40 30 0 60 q-40 30 0 60 q40 30 0 60 M230 90 q-30 40 0 80 q30 40 0 80 q-30 40 0 80 M370 90 q30 40 0 80 q-30 40 0 80 q30 40 0 80 M480 120 q-40 30 0 60 q40 30 0 60 q-40 30 0 60' fill='none' stroke='#b8506f' stroke-width='7' stroke-linecap='round'/><rect x='270' y='170' width='60' height='160' rx='26' fill='#ffe14d' stroke='#c79b00' stroke-width='6'/></svg>",
+     "x": 540,
+     "y": 830,
+     "w": 560,
+     "h": 467,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "scissors",
+     "x": 540,
+     "y": 830,
+     "size": 200,
+     "enter": "drop",
+     "on": "cut",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "high-voltage",
+     "x": 830,
+     "y": 570,
+     "size": 170,
+     "enter": "zoom",
+     "on": "seizures",
+     "idle": "shake",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "FOR SEVERE EPILEPSY",
+     "x": 540,
+     "y": 1170,
+     "size": 76,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "seizures"
+    }
+   ]
+  },
+  {
+   "text": "But then, sometimes, one hand stops getting the *memo*.",
+   "bg": [
+    "#1f4d2b",
+    "#020a05"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 340,
+     "y": 870,
+     "size": 300,
+     "enter": "pop",
+     "idle": "shake",
+     "hue": 75
+    },
+    {
+     "type": "icon",
+     "name": "memo",
+     "x": 740,
+     "y": 650,
+     "size": 220,
+     "enter": "slideR",
+     "on": "memo",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 740,
+     "y": 650,
+     "size": 130,
+     "enter": "zoom",
+     "on": "memo",
+     "delay": 0.3,
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "MISSED THE MEMO",
+     "x": 540,
+     "y": 1170,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "memo",
+     "delay": 0.3
+    }
+   ]
+  },
+  {
+   "text": "The hands can even fight each other. One reaches for something. The other pulls it *back*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 290,
+     "y": 870,
+     "size": 260,
+     "enter": "slideL",
+     "idle": "shake",
+     "hue": 75
+    },
+    {
+     "type": "icon",
+     "name": "raised-hand",
+     "x": 790,
+     "y": 870,
+     "size": 260,
+     "enter": "slideR",
+     "idle": "shake"
+    },
+    {
+     "type": "text",
+     "text": "HAND VS HAND",
+     "x": 540,
+     "y": 510,
+     "size": 88,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "fight"
+    },
+    {
+     "type": "icon",
+     "name": "cookie",
+     "x": 540,
+     "y": 690,
+     "size": 160,
+     "enter": "pop",
+     "on": "reaches",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 540,
+     "y": 890,
+     "size": 170,
+     "enter": "zoom",
+     "on": "back",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "One hand gets dressed, while the other one *undresses*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "t-shirt",
+     "x": 540,
+     "y": 770,
+     "size": 300,
+     "enter": "pop",
+     "idle": "sway"
+    },
+    {
+     "type": "icon",
+     "name": "raised-hand",
+     "x": 290,
+     "y": 970,
+     "size": 200,
+     "enter": "slideL",
+     "on": "dressed",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 790,
+     "y": 970,
+     "size": 200,
+     "enter": "slideR",
+     "on": "undresses",
+     "idle": "shake",
+     "hue": 75,
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "TUG OF WAR",
+     "x": 540,
+     "y": 1180,
+     "size": 80,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "undresses"
+    }
+   ]
+  },
+  {
+   "text": "So how do patients cope? Often, by giving the rebel hand something to *hold*.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 540,
+     "y": 930,
+     "size": 320,
+     "enter": "pop",
+     "idle": "wiggle",
+     "hue": 75
+    },
+    {
+     "type": "icon",
+     "name": "light-bulb",
+     "x": 820,
+     "y": 570,
+     "size": 150,
+     "enter": "pop",
+     "on": "cope",
+     "idle": "pulse"
+    },
+    {
+     "type": "icon",
+     "name": "teddy-bear",
+     "x": 540,
+     "y": 670,
+     "size": 230,
+     "enter": "drop",
+     "on": "hold",
+     "idle": "bob",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Keep it busy, and it's less likely to cause *trouble*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 540,
+     "y": 930,
+     "size": 320,
+     "enter": "fade",
+     "idle": "none",
+     "hue": 75
+    },
+    {
+     "type": "icon",
+     "name": "teddy-bear",
+     "x": 540,
+     "y": 690,
+     "size": 230,
+     "enter": "fade",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 820,
+     "y": 570,
+     "size": 160,
+     "enter": "zoom",
+     "on": "trouble",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "KEEP IT BUSY",
+     "x": 540,
+     "y": 1180,
+     "size": 96,
+     "enter": "rise",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "busy"
+    }
+   ]
+  },
+  {
+   "text": "So if your hand ever grabs a midnight snack without asking... Just kidding. That one's on *you*.",
+   "bg": [
+    "#0d1b2e",
+    "#010205"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "crescent-moon",
+     "x": 820,
+     "y": 490,
+     "size": 170,
+     "enter": "fade",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 340,
+     "y": 910,
+     "size": 260,
+     "enter": "pop",
+     "idle": "shake",
+     "outOn": "you"
+    },
+    {
+     "type": "icon",
+     "name": "pizza",
+     "x": 660,
+     "y": 770,
+     "size": 220,
+     "enter": "pop",
+     "on": "snack",
+     "idle": "float",
+     "outOn": "you"
+    },
+    {
+     "type": "icon",
+     "name": "index-pointing-at-the-viewer",
+     "x": 540,
+     "y": 870,
+     "size": 380,
+     "enter": "zoom",
+     "on": "you",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "THAT'S ON YOU",
+     "x": 540,
+     "y": 1180,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(255,190,60,0.72)",
+     "color": "#ffeab8",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "you"
+    }
+   ]
+  },
+  {
+   "text": "Would you trust your hands after hearing this? Tell me below.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "raised-hand",
+     "x": 360,
+     "y": 830,
+     "size": 280,
+     "enter": "pop",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "raised-back-of-hand",
+     "x": 720,
+     "y": 830,
+     "size": 280,
+     "enter": "pop",
+     "delay": 0.1,
+     "idle": "shake",
+     "hue": 75
+    },
+    {
+     "type": "icon",
+     "name": "face-with-raised-eyebrow",
+     "x": 540,
+     "y": 570,
+     "size": 180,
+     "enter": "pop",
+     "on": "trust",
+     "idle": "bob"
+    }
+   ]
+  }
+ ]
+}

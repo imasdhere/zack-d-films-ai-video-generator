@@ -8,6 +8,7 @@ machine. Nothing is sent to a paid service.
 | Narration with word timings | [Kokoro TTS](https://github.com/thewh1teagle/kokoro-onnx), CPU | Apache-2.0 |
 | Illustrations | [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (3D-style vectors) | MIT |
 | Captions and titles | [Inter](https://rsms.me/inter/) | OFL-1.1 |
+| Horror callouts (`spooky` style) | [Creepster](https://fonts.google.com/specimen/Creepster) | OFL-1.1 |
 | Animation | headless Chromium (Playwright), one exact frame at a time | Apache-2.0 |
 | Encode | ffmpeg: 1080x1920, 30 fps, H.264, AAC, -14 LUFS | LGPL/GPL |
 
@@ -82,8 +83,8 @@ Positions are in pixels on the 1080x1920 canvas and mark the element's centre.
 | `nth` | Use the nth match of `on`. |
 | `delay` | Seconds after the trigger. |
 | `outOn` | The element leaves when this word is spoken. |
-| `enter` | `pop`, `zoom`, `drop`, `rise`, `slideL`, `slideR`, `spin`, `fade` or `none` |
-| `idle` | `float` (default), `bob`, `pulse`, `heartbeat`, `shake`, `wiggle`, `sway`, `spin`, `swim` or `none` |
+| `enter` | `pop`, `zoom`, `drop`, `rise`, `slideL`, `slideR`, `spin`, `fade`, `glitch` (jittery, flickering arrival) or `none` |
+| `idle` | `float` (default), `bob`, `pulse`, `heartbeat`, `shake`, `wiggle`, `sway`, `spin`, `swim`, `flicker` (float with random dropouts) or `none` |
 | `impact` | Camera punch, small shake and a pop sound when the element lands. |
 | `rot`, `flip`, `scale`, `opacity` | Static rotation in degrees, mirror, extra scale and opacity. |
 
@@ -98,6 +99,13 @@ Positions are in pixels on the 1080x1920 canvas and mark the element's centre.
 | `particles` | `name` (icon), `count`, `area` `[x, y, w, h]`, `speed`, `dir` (`up` or `down`), `minSize`, `maxSize`, `seed` |
 
 A beat can also list `impactOn` words for a camera punch without a new element.
+
+### Spooky theme
+
+`"theme": "spooky"` darkens the vignette and turns the floating specks a
+sickly green. Text with `"style": "spooky"` uses the Creepster horror font
+with a coloured `glow` (any CSS colour). See `shorts/medical/` for ten worked
+examples.
 
 ### Photo mode (real imagery)
 

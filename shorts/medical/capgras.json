@@ -1,0 +1,890 @@
+{
+ "id": "capgras",
+ "title": "His brain decided his dad was an impostor",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "post": {
+  "youtube_title": "His Brain Was Sure His Dad Was an Impostor 🎭 #shorts",
+  "caption": "Capgras syndrome makes the brain insist a loved one has been replaced by an impostor. One patient was fine with his dad on the phone. In person? Impostor 🤯",
+  "hashtags": [
+   "capgras",
+   "brain",
+   "neuroscience",
+   "psychology",
+   "medicalfacts",
+   "creepyfacts",
+   "shorts"
+  ],
+  "pinned_comment": "How would you prove you're not an impostor? 👇"
+ },
+ "sources": [
+  "Capgras J, Reboul-Lachaux J (1923), 'L'illusion des sosies': a woman who believed her husband and others had been replaced by doubles",
+  "Hirstein W, Ramachandran VS (1997), Proc Biol Sci 264(1380):437-444, doi:10.1098/rspb.1997.0062: patient DS (after a car accident) called his parents impostors when he saw them but not on the telephone; his skin conductance to familiar faces was no larger than to strangers; he called photos of one model looking in different directions 'different women who looked just like each other'",
+  "Capgras syndrome can follow brain injury, dementia or psychiatric illness; treatment targets the cause"
+ ],
+ "beats": [
+  {
+   "text": "Imagine looking at your mom and being *certain* she's an impostor.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 850,
+     "r": 430,
+     "color": "#ff4d4d",
+     "opacity": 0.3,
+     "idle": "none",
+     "enter": "fade"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 850,
+     "size": 440,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "performing-arts",
+     "x": 820,
+     "y": 590,
+     "size": 200,
+     "enter": "glitch",
+     "on": "impostor",
+     "idle": "wiggle",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "IMPOSTOR?!",
+     "x": 540,
+     "y": 1180,
+     "size": 130,
+     "style": "spooky",
+     "glow": "rgba(255,70,70,0.78)",
+     "color": "#ffd9d9",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "impostor"
+    }
+   ]
+  },
+  {
+   "text": "Same face. Same voice. Same terrible jokes. But your brain screams: *fake*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 890,
+     "size": 380,
+     "enter": "fade",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "eyes",
+     "x": 230,
+     "y": 530,
+     "size": 150,
+     "enter": "pop",
+     "on": "face",
+     "idle": "none",
+     "label": "FACE"
+    },
+    {
+     "type": "icon",
+     "name": "speech-balloon",
+     "x": 540,
+     "y": 490,
+     "size": 150,
+     "enter": "pop",
+     "on": "voice",
+     "idle": "bob",
+     "label": "VOICE"
+    },
+    {
+     "type": "icon",
+     "name": "zany-face",
+     "x": 850,
+     "y": 530,
+     "size": 150,
+     "enter": "pop",
+     "on": "jokes",
+     "idle": "wiggle",
+     "label": "JOKES"
+    },
+    {
+     "type": "text",
+     "text": "FAKE!",
+     "x": 540,
+     "y": 1180,
+     "size": 160,
+     "style": "spooky",
+     "glow": "rgba(255,70,70,0.78)",
+     "color": "#ffd9d9",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "fake",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "It's named after Joseph {Capgras|Cap grah}, a French psychiatrist. In {1923|nineteen twenty-three}, he described a woman sure her husband had been replaced by *doubles*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "CASE FILE · FRANCE 1923",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "text",
+     "text": "CAPGRAS SYNDROME",
+     "x": 540,
+     "y": 590,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "Capgras"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 200,
+     "y": 930,
+     "size": 260,
+     "enter": "slideL",
+     "on": "woman",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 470,
+     "y": 910,
+     "size": 240,
+     "enter": "pop",
+     "on": "husband",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 680,
+     "y": 910,
+     "size": 240,
+     "enter": "glitch",
+     "on": "doubles",
+     "idle": "flicker",
+     "hue": 40
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 880,
+     "y": 910,
+     "size": 240,
+     "enter": "glitch",
+     "on": "doubles",
+     "delay": 0.15,
+     "idle": "flicker",
+     "hue": -40
+    }
+   ]
+  },
+  {
+   "text": "Decades later, scientists studied a man who developed it after a car crash. He believed his parents were *impostors*.",
+   "bg": [
+    "#2d1a4a",
+    "#05010c"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "automobile",
+     "x": 280,
+     "y": 610,
+     "size": 220,
+     "enter": "slideL",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 400,
+     "y": 610,
+     "size": 180,
+     "enter": "zoom",
+     "on": "crash",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 280,
+     "y": 960,
+     "size": 300,
+     "enter": "pop",
+     "on": "man",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "old-man",
+     "x": 640,
+     "y": 930,
+     "size": 250,
+     "enter": "pop",
+     "on": "parents",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "old-woman",
+     "x": 860,
+     "y": 930,
+     "size": 250,
+     "enter": "pop",
+     "on": "parents",
+     "delay": 0.12,
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "performing-arts",
+     "x": 750,
+     "y": 650,
+     "size": 180,
+     "enter": "glitch",
+     "on": "impostors",
+     "idle": "wiggle"
+    }
+   ]
+  },
+  {
+   "text": "But here's the creepy part. When his dad *called* him on the phone, he was totally fine.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "man",
+     "x": 300,
+     "y": 970,
+     "size": 300,
+     "enter": "fade",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "telephone-receiver",
+     "x": 540,
+     "y": 630,
+     "size": 220,
+     "enter": "pop",
+     "on": "called",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "old-man",
+     "x": 780,
+     "y": 970,
+     "size": 280,
+     "enter": "pop",
+     "on": "dad",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 540,
+     "y": 970,
+     "size": 150,
+     "enter": "zoom",
+     "on": "fine",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Same dad. In person? Impostor. On the phone? *Dad*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 700'><line x1='20' y1='10' x2='20' y2='690' stroke='#ffffff' stroke-opacity='0.55' stroke-width='6' stroke-linecap='round' stroke-dasharray='22 18'/></svg>",
+     "x": 540,
+     "y": 810,
+     "w": 40,
+     "h": 700,
+     "idle": "none"
+    },
+    {
+     "type": "text",
+     "text": "IN PERSON",
+     "x": 290,
+     "y": 490,
+     "size": 64,
+     "enter": "pop",
+     "idle": "none",
+     "on": "person"
+    },
+    {
+     "type": "icon",
+     "name": "old-man",
+     "x": 290,
+     "y": 790,
+     "size": 260,
+     "enter": "pop",
+     "on": "person",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 290,
+     "y": 1050,
+     "size": 150,
+     "enter": "zoom",
+     "on": "impostor",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "ON PHONE",
+     "x": 790,
+     "y": 490,
+     "size": 64,
+     "enter": "pop",
+     "idle": "none",
+     "on": "phone"
+    },
+    {
+     "type": "icon",
+     "name": "telephone-receiver",
+     "x": 790,
+     "y": 790,
+     "size": 240,
+     "enter": "pop",
+     "on": "phone",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 790,
+     "y": 1050,
+     "size": 150,
+     "enter": "zoom",
+     "on": "dad",
+     "nth": 2,
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "So what's going on? Your brain recognizes faces in one place, and *feels* them in another.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 830,
+     "size": 440,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "eye",
+     "x": 380,
+     "y": 730,
+     "size": 150,
+     "enter": "pop",
+     "on": "recognizes",
+     "idle": "none",
+     "label": "FACE"
+    },
+    {
+     "type": "icon",
+     "name": "red-heart",
+     "x": 700,
+     "y": 750,
+     "size": 150,
+     "enter": "pop",
+     "on": "feels",
+     "idle": "heartbeat",
+     "label": "FEELING"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40'><line x1='10' y1='20' x2='390' y2='20' stroke='#9dff6b' stroke-width='8' stroke-linecap='round' stroke-dasharray='22 16'/></svg>",
+     "x": 540,
+     "y": 740,
+     "w": 200,
+     "h": 20,
+     "idle": "none",
+     "enter": "fade",
+     "on": "feels",
+     "delay": 0.3
+    }
+   ]
+  },
+  {
+   "text": "In his brain, the link between them was likely *damaged*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 540,
+     "y": 830,
+     "size": 440,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "eye",
+     "x": 380,
+     "y": 730,
+     "size": 150,
+     "enter": "fade",
+     "idle": "none",
+     "label": "FACE"
+    },
+    {
+     "type": "icon",
+     "name": "red-heart",
+     "x": 700,
+     "y": 750,
+     "size": 150,
+     "enter": "fade",
+     "idle": "heartbeat",
+     "label": "FEELING"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 40'><line x1='10' y1='20' x2='390' y2='20' stroke='#9dff6b' stroke-width='8' stroke-linecap='round' stroke-dasharray='22 16'/></svg>",
+     "x": 540,
+     "y": 740,
+     "w": 200,
+     "h": 20,
+     "idle": "none",
+     "enter": "fade",
+     "outOn": "damaged"
+    },
+    {
+     "type": "icon",
+     "name": "collision",
+     "x": 540,
+     "y": 740,
+     "size": 170,
+     "enter": "zoom",
+     "on": "damaged",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "LINK DAMAGED",
+     "x": 540,
+     "y": 1180,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(255,70,70,0.78)",
+     "color": "#ffd9d9",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "damaged"
+    }
+   ]
+  },
+  {
+   "text": "Tests backed it up. Normally, a familiar face makes your skin sweat a tiny bit. For his parents? *Nothing* extra.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "clipboard",
+     "x": 540,
+     "y": 640,
+     "size": 200,
+     "enter": "pop",
+     "idle": "float",
+     "outOn": "familiar"
+    },
+    {
+     "type": "icon",
+     "name": "framed-picture",
+     "x": 330,
+     "y": 830,
+     "size": 280,
+     "enter": "pop",
+     "on": "familiar",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "sweat-droplets",
+     "x": 700,
+     "y": 650,
+     "size": 170,
+     "enter": "drop",
+     "on": "sweat",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "old-man",
+     "x": 640,
+     "y": 970,
+     "size": 200,
+     "enter": "pop",
+     "on": "parents",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "old-woman",
+     "x": 840,
+     "y": 970,
+     "size": 200,
+     "enter": "pop",
+     "on": "parents",
+     "delay": 0.12,
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "cross-mark",
+     "x": 700,
+     "y": 650,
+     "size": 130,
+     "enter": "zoom",
+     "on": "nothing",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "NO REACTION",
+     "x": 540,
+     "y": 1180,
+     "size": 96,
+     "enter": "glitch",
+     "idle": "none",
+     "color": "#ff7a7a",
+     "on": "nothing"
+    }
+   ]
+  },
+  {
+   "text": "So his brain filled in the gap. Looks like Dad. Doesn't feel like Dad. Must be an *impostor*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "thought-balloon",
+     "x": 540,
+     "y": 630,
+     "size": 380,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "old-man",
+     "x": 540,
+     "y": 610,
+     "size": 190,
+     "enter": "pop",
+     "on": "looks",
+     "idle": "none",
+     "outOn": "impostor"
+    },
+    {
+     "type": "icon",
+     "name": "performing-arts",
+     "x": 540,
+     "y": 610,
+     "size": 200,
+     "enter": "glitch",
+     "on": "impostor",
+     "idle": "wiggle",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "LOOKS LIKE DAD",
+     "x": 540,
+     "y": 910,
+     "size": 72,
+     "enter": "slideL",
+     "idle": "none",
+     "color": "#7CFFB2",
+     "on": "looks"
+    },
+    {
+     "type": "text",
+     "text": "DOESN'T FEEL LIKE DAD",
+     "x": 540,
+     "y": 1010,
+     "size": 64,
+     "enter": "slideR",
+     "idle": "none",
+     "color": "#ff7a7a",
+     "on": "doesn't"
+    },
+    {
+     "type": "text",
+     "text": "IMPOSTOR!",
+     "x": 540,
+     "y": 1170,
+     "size": 120,
+     "style": "spooky",
+     "glow": "rgba(255,70,70,0.78)",
+     "color": "#ffd9d9",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "impostor"
+    }
+   ]
+  },
+  {
+   "text": "It got even weirder. Shown photos of one woman looking in different directions, he said they were different women who just looked *alike*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "face-with-spiral-eyes",
+     "x": 820,
+     "y": 540,
+     "size": 150,
+     "enter": "pop",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 250,
+     "y": 870,
+     "size": 240,
+     "enter": "pop",
+     "on": "photos",
+     "idle": "float",
+     "rot": -10
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 870,
+     "size": 240,
+     "enter": "pop",
+     "on": "directions",
+     "idle": "float",
+     "flip": true
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 830,
+     "y": 870,
+     "size": 240,
+     "enter": "pop",
+     "on": "directions",
+     "delay": 0.2,
+     "idle": "float",
+     "rot": 10
+    },
+    {
+     "type": "text",
+     "text": "\"DIFFERENT WOMEN\"",
+     "x": 540,
+     "y": 1170,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(190,120,255,0.78)",
+     "color": "#efdcff",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "women"
+    }
+   ]
+  },
+  {
+   "text": "{Capgras|Cap grah} can follow a brain injury, dementia, or mental illness. Treating the cause can *help*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "WHAT CAUSES IT?",
+     "x": 540,
+     "y": 480,
+     "size": 70,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-head-bandage",
+     "x": 250,
+     "y": 650,
+     "size": 180,
+     "enter": "pop",
+     "on": "injury",
+     "idle": "bob",
+     "label": "INJURY"
+    },
+    {
+     "type": "icon",
+     "name": "old-woman",
+     "x": 540,
+     "y": 620,
+     "size": 180,
+     "enter": "pop",
+     "on": "dementia",
+     "idle": "bob",
+     "label": "DEMENTIA"
+    },
+    {
+     "type": "icon",
+     "name": "brain",
+     "x": 830,
+     "y": 650,
+     "size": 180,
+     "enter": "pop",
+     "on": "mental",
+     "idle": "pulse",
+     "label": "ILLNESS"
+    },
+    {
+     "type": "icon",
+     "name": "man-health-worker",
+     "x": 540,
+     "y": 1010,
+     "size": 260,
+     "enter": "rise",
+     "on": "treating",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "check-mark-button",
+     "x": 720,
+     "y": 910,
+     "size": 130,
+     "enter": "zoom",
+     "on": "help",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "So, go hug your family. You know... just to be *sure*.",
+   "bg": [
+    "#5c3310",
+    "#0a0502"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "people-hugging",
+     "x": 540,
+     "y": 850,
+     "size": 440,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "red-heart",
+     "x": 820,
+     "y": 570,
+     "size": 160,
+     "enter": "pop",
+     "idle": "heartbeat",
+     "delay": 0.2
+    },
+    {
+     "type": "icon",
+     "name": "face-with-monocle",
+     "x": 260,
+     "y": 590,
+     "size": 170,
+     "enter": "pop",
+     "on": "sure",
+     "idle": "wiggle"
+    },
+    {
+     "type": "text",
+     "text": "JUST TO BE SURE",
+     "x": 540,
+     "y": 1180,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(255,190,60,0.72)",
+     "color": "#ffeab8",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "sure"
+    }
+   ]
+  }
+ ]
+}

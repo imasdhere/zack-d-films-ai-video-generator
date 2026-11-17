@@ -1,0 +1,865 @@
+{
+ "id": "typhoidmary",
+ "title": "She was never sick, but she spread typhoid",
+ "theme": "spooky",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "post": {
+  "youtube_title": "Typhoid Mary: The Healthy Cook Who Spread a Deadly Disease 🦠 #shorts",
+  "caption": "Mary Mallon felt perfectly healthy, but she carried typhoid. She was the first known healthy carrier in the US and spent more than 20 years in isolation. Villain or victim? 🤔",
+  "hashtags": [
+   "typhoidmary",
+   "history",
+   "microbiology",
+   "publichealth",
+   "medicalfacts",
+   "creepyfacts",
+   "shorts"
+  ],
+  "pinned_comment": "Villain or victim? 👇"
+ },
+ "sources": [
+  "Soper GA (1939), 'The curious career of Typhoid Mary', Bulletin of the New York Academy of Medicine 15(10):698-712: the 1906 Oyster Bay outbreak; Soper traced it to the cook, Mary Mallon, and suspected ice cream with raw peaches",
+  "Mary Mallon was the first person in the United States identified as a healthy (asymptomatic) carrier of Salmonella Typhi; doctors suspected her gallbladder",
+  "She was isolated on North Brother Island 1907-1910, released on condition she stop working as a cook, then found cooking at Sloane Hospital for Women in 1915 under the name 'Mary Brown' (25 cases); she was returned to the island until her death in 1938",
+  "She is linked to dozens of infections and at least three deaths (Leavitt JW (1996), Typhoid Mary: Captive to the Public's Health, Beacon Press)"
+ ],
+ "beats": [
+  {
+   "text": "She felt perfectly healthy. But in house after house where she cooked, people came down with *typhoid*.",
+   "bg": [
+    "#1f4d2b",
+    "#020a05"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman-cook",
+     "x": 540,
+     "y": 840,
+     "size": 400,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "house",
+     "x": 240,
+     "y": 610,
+     "size": 160,
+     "enter": "pop",
+     "on": "house",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "house",
+     "x": 840,
+     "y": 610,
+     "size": 160,
+     "enter": "pop",
+     "on": "house",
+     "nth": 2,
+     "idle": "none"
+    },
+    {
+     "type": "particles",
+     "name": "microbe",
+     "count": 8,
+     "area": [
+      100,
+      420,
+      880,
+      800
+     ],
+     "x": 540,
+     "y": 960,
+     "speed": 55,
+     "minSize": 40,
+     "maxSize": 80,
+     "enter": "fade",
+     "idle": "none",
+     "on": "cooked"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-thermometer",
+     "x": 240,
+     "y": 1050,
+     "size": 170,
+     "enter": "pop",
+     "on": "typhoid",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-thermometer",
+     "x": 840,
+     "y": 1050,
+     "size": 170,
+     "enter": "pop",
+     "on": "typhoid",
+     "delay": 0.15,
+     "idle": "bob",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Her name was Mary Mallon. History remembers her as *Typhoid* Mary.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman-cook",
+     "x": 540,
+     "y": 870,
+     "size": 380,
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "text",
+     "text": "MARY MALLON",
+     "x": 540,
+     "y": 520,
+     "size": 84,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "Mary"
+    },
+    {
+     "type": "text",
+     "text": "TYPHOID MARY",
+     "x": 540,
+     "y": 1180,
+     "size": 130,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "typhoid",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "In {1906|nineteen oh six}, typhoid tore through a wealthy family's summer home in Oyster Bay, New *York*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "CASE FILE · NEW YORK 1906",
+     "x": 540,
+     "y": 440,
+     "size": 50,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "house-with-garden",
+     "x": 540,
+     "y": 780,
+     "size": 360,
+     "enter": "pop",
+     "on": "home",
+     "idle": "none"
+    },
+    {
+     "type": "particles",
+     "name": "microbe",
+     "count": 7,
+     "area": [
+      100,
+      420,
+      880,
+      760
+     ],
+     "x": 540,
+     "y": 960,
+     "speed": 55,
+     "minSize": 40,
+     "maxSize": 80,
+     "enter": "fade",
+     "idle": "none",
+     "on": "typhoid"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-thermometer",
+     "x": 290,
+     "y": 1070,
+     "size": 150,
+     "enter": "pop",
+     "on": "tore",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-thermometer",
+     "x": 540,
+     "y": 1100,
+     "size": 150,
+     "enter": "pop",
+     "on": "tore",
+     "delay": 0.12,
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "face-with-thermometer",
+     "x": 790,
+     "y": 1070,
+     "size": 150,
+     "enter": "pop",
+     "on": "tore",
+     "delay": 0.24,
+     "idle": "bob"
+    }
+   ]
+  },
+  {
+   "text": "The owners hired an investigator named George Soper. He traced the outbreaks back to the *cook*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "detective",
+     "x": 300,
+     "y": 830,
+     "size": 320,
+     "enter": "slideL",
+     "on": "investigator",
+     "idle": "float",
+     "label": "SOPER"
+    },
+    {
+     "type": "icon",
+     "name": "magnifying-glass-tilted-left",
+     "x": 540,
+     "y": 640,
+     "size": 180,
+     "enter": "pop",
+     "on": "traced",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "woman-cook",
+     "x": 780,
+     "y": 830,
+     "size": 300,
+     "enter": "glitch",
+     "on": "cook",
+     "idle": "flicker",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "He suspected her peach ice cream. Nothing in it was cooked, so nothing killed the *germs*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "ice-cream",
+     "x": 540,
+     "y": 790,
+     "size": 340,
+     "enter": "pop",
+     "on": "ice",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "peach",
+     "x": 290,
+     "y": 600,
+     "size": 180,
+     "enter": "drop",
+     "on": "peach",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 720,
+     "y": 650,
+     "size": 120,
+     "enter": "pop",
+     "on": "germs",
+     "idle": "wiggle",
+     "impact": true
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 810,
+     "y": 810,
+     "size": 110,
+     "enter": "pop",
+     "on": "germs",
+     "delay": 0.1,
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 680,
+     "y": 890,
+     "size": 100,
+     "enter": "pop",
+     "on": "germs",
+     "delay": 0.2,
+     "idle": "wiggle"
+    },
+    {
+     "type": "text",
+     "text": "PEACH ICE CREAM?!",
+     "x": 540,
+     "y": 1180,
+     "size": 96,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "cream"
+    }
+   ]
+  },
+  {
+   "text": "Mary was a healthy carrier. The bacteria lived inside her, likely in her gallbladder, but she never got *sick*.",
+   "bg": [
+    "#1f4d2b",
+    "#020a05"
+   ],
+   "elements": [
+    {
+     "type": "text",
+     "text": "HEALTHY CARRIER",
+     "x": 540,
+     "y": 530,
+     "size": 104,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "none",
+     "on": "healthy"
+    },
+    {
+     "type": "icon",
+     "name": "woman",
+     "x": 540,
+     "y": 880,
+     "size": 400,
+     "enter": "pop",
+     "idle": "none"
+    },
+    {
+     "type": "glow",
+     "x": 540,
+     "y": 960,
+     "r": 240,
+     "color": "#9dff6b",
+     "opacity": 0.45,
+     "idle": "none",
+     "enter": "fade",
+     "on": "bacteria"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 500,
+     "y": 950,
+     "size": 90,
+     "enter": "pop",
+     "on": "bacteria",
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 585,
+     "y": 970,
+     "size": 80,
+     "enter": "pop",
+     "on": "bacteria",
+     "delay": 0.1,
+     "idle": "wiggle"
+    },
+    {
+     "type": "icon",
+     "name": "microbe",
+     "x": 540,
+     "y": 1020,
+     "size": 70,
+     "enter": "pop",
+     "on": "bacteria",
+     "delay": 0.2,
+     "idle": "wiggle"
+    }
+   ]
+  },
+  {
+   "text": "She was the first known healthy carrier of typhoid in the United *States*.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman-cook",
+     "x": 540,
+     "y": 780,
+     "size": 360,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "1st-place-medal",
+     "x": 800,
+     "y": 570,
+     "size": 170,
+     "enter": "pop",
+     "on": "first",
+     "idle": "sway"
+    },
+    {
+     "type": "text",
+     "text": "FIRST KNOWN\nIN THE U.S.",
+     "x": 540,
+     "y": 1130,
+     "size": 96,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "first"
+    }
+   ]
+  },
+  {
+   "text": "She refused to believe it. In {1907|nineteen oh seven}, she was taken to an island, and kept in *isolation*.",
+   "bg": [
+    "#0d1b2e",
+    "#010205"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman-gesturing-no",
+     "x": 280,
+     "y": 760,
+     "size": 260,
+     "enter": "pop",
+     "on": "refused",
+     "idle": "wiggle"
+    },
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 260'><defs><linearGradient id='w' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#1d4e7a'/><stop offset='1' stop-color='#0a2238'/></linearGradient><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3e7d3a'/><stop offset='1' stop-color='#1f4220'/></linearGradient></defs><ellipse cx='260' cy='190' rx='255' ry='62' fill='url(#w)'/><path d='M70 175 Q120 110 210 118 Q300 96 370 122 Q440 130 455 178 Q360 205 260 200 Q150 205 70 175 Z' fill='url(#g)' stroke='#14301a' stroke-width='5'/><path d='M40 215 q20 -8 40 0 t40 0 M380 222 q20 -8 40 0 t40 0 M200 238 q20 -8 40 0 t40 0' stroke='#6fa8d6' stroke-width='5' fill='none' stroke-linecap='round' opacity='0.7'/></svg>",
+     "x": 710,
+     "y": 930,
+     "w": 420,
+     "h": 210,
+     "idle": "none",
+     "on": "island",
+     "enter": "rise"
+    },
+    {
+     "type": "icon",
+     "name": "hospital",
+     "x": 700,
+     "y": 830,
+     "size": 170,
+     "enter": "pop",
+     "on": "island",
+     "delay": 0.1,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "locked",
+     "x": 870,
+     "y": 600,
+     "size": 150,
+     "enter": "zoom",
+     "on": "isolation",
+     "idle": "none",
+     "impact": true
+    },
+    {
+     "type": "text",
+     "text": "NORTH BROTHER ISLAND",
+     "x": 540,
+     "y": 1180,
+     "size": 54,
+     "bg": "#8f1d2c",
+     "enter": "fade",
+     "idle": "none",
+     "on": "island",
+     "delay": 0.3
+    }
+   ]
+  },
+  {
+   "text": "In {1910|nineteen ten}, she was released, on one condition: never work as a cook *again*.",
+   "bg": [
+    "#0f4a4a",
+    "#010808"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "unlocked",
+     "x": 290,
+     "y": 650,
+     "size": 180,
+     "enter": "pop",
+     "on": "released",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "scroll",
+     "x": 820,
+     "y": 600,
+     "size": 160,
+     "enter": "pop",
+     "on": "condition",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "woman-cook",
+     "x": 560,
+     "y": 880,
+     "size": 320,
+     "enter": "pop",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "prohibited",
+     "x": 560,
+     "y": 880,
+     "size": 330,
+     "enter": "zoom",
+     "on": "never",
+     "idle": "none",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "Spoiler: she cooked *again*.",
+   "bg": [
+    "#5c0f17",
+    "#0a0103"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "woman-cook",
+     "x": 540,
+     "y": 840,
+     "size": 420,
+     "enter": "glitch",
+     "idle": "wiggle"
+    },
+    {
+     "type": "text",
+     "text": "SHE COOKED AGAIN",
+     "x": 540,
+     "y": 1180,
+     "size": 110,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "again",
+     "impact": true
+    }
+   ],
+   "hold": 0.3
+  },
+  {
+   "text": "In {1915|nineteen fifteen}, under a fake name, she cooked at a maternity hospital. At least *25* people got sick.",
+   "bg": [
+    "#16325c",
+    "#02060f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "name-badge",
+     "x": 290,
+     "y": 620,
+     "size": 180,
+     "enter": "pop",
+     "on": "name",
+     "idle": "sway",
+     "label": "MARY BROWN"
+    },
+    {
+     "type": "icon",
+     "name": "hospital",
+     "x": 740,
+     "y": 770,
+     "size": 300,
+     "enter": "pop",
+     "on": "maternity",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "baby",
+     "x": 740,
+     "y": 990,
+     "size": 130,
+     "enter": "pop",
+     "on": "maternity",
+     "delay": 0.15,
+     "idle": "bob"
+    },
+    {
+     "type": "counter",
+     "from": 0,
+     "to": 25,
+     "x": 540,
+     "y": 1170,
+     "size": 120,
+     "dur": 1.1,
+     "enter": "zoom",
+     "idle": "none",
+     "suffix": " SICK",
+     "color": "#ff7a7a",
+     "on": "25",
+     "impact": true
+    }
+   ]
+  },
+  {
+   "text": "She was sent back to the island, and stayed there for the rest of her life. More than twenty *years*.",
+   "bg": [
+    "#0d1b2e",
+    "#010205"
+   ],
+   "elements": [
+    {
+     "type": "svg",
+     "markup": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 260'><defs><linearGradient id='w' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#1d4e7a'/><stop offset='1' stop-color='#0a2238'/></linearGradient><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'><stop offset='0' stop-color='#3e7d3a'/><stop offset='1' stop-color='#1f4220'/></linearGradient></defs><ellipse cx='260' cy='190' rx='255' ry='62' fill='url(#w)'/><path d='M70 175 Q120 110 210 118 Q300 96 370 122 Q440 130 455 178 Q360 205 260 200 Q150 205 70 175 Z' fill='url(#g)' stroke='#14301a' stroke-width='5'/><path d='M40 215 q20 -8 40 0 t40 0 M380 222 q20 -8 40 0 t40 0 M200 238 q20 -8 40 0 t40 0' stroke='#6fa8d6' stroke-width='5' fill='none' stroke-linecap='round' opacity='0.7'/></svg>",
+     "x": 540,
+     "y": 880,
+     "w": 520,
+     "h": 260,
+     "idle": "none",
+     "enter": "rise"
+    },
+    {
+     "type": "icon",
+     "name": "hospital",
+     "x": 530,
+     "y": 760,
+     "size": 200,
+     "enter": "pop",
+     "delay": 0.1,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "hourglass-not-done",
+     "x": 820,
+     "y": 560,
+     "size": 170,
+     "enter": "pop",
+     "on": "life",
+     "idle": "wiggle"
+    },
+    {
+     "type": "text",
+     "text": "MORE THAN 20 YEARS",
+     "x": 540,
+     "y": 1170,
+     "size": 80,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#FFE14D",
+     "on": "twenty"
+    }
+   ]
+  },
+  {
+   "text": "In total, she's linked to dozens of infections, and at least three *deaths*.",
+   "bg": [
+    "#2a2620",
+    "#050403"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "candle",
+     "x": 540,
+     "y": 600,
+     "size": 170,
+     "enter": "fade",
+     "idle": "flicker"
+    },
+    {
+     "type": "icon",
+     "name": "headstone",
+     "x": 290,
+     "y": 880,
+     "size": 220,
+     "enter": "rise",
+     "on": "three",
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "headstone",
+     "x": 540,
+     "y": 860,
+     "size": 240,
+     "enter": "rise",
+     "on": "three",
+     "delay": 0.12,
+     "idle": "none"
+    },
+    {
+     "type": "icon",
+     "name": "headstone",
+     "x": 790,
+     "y": 880,
+     "size": 220,
+     "enter": "rise",
+     "on": "three",
+     "delay": 0.24,
+     "idle": "none"
+    }
+   ]
+  },
+  {
+   "text": "Was she a villain, or a victim? Many later carriers were never locked away like she *was*.",
+   "bg": [
+    "#3b1f5c",
+    "#07020f"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "balance-scale",
+     "x": 540,
+     "y": 790,
+     "size": 340,
+     "enter": "pop",
+     "idle": "sway"
+    },
+    {
+     "type": "text",
+     "text": "VILLAIN?",
+     "x": 290,
+     "y": 560,
+     "size": 80,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#ff7a7a",
+     "on": "villain"
+    },
+    {
+     "type": "text",
+     "text": "VICTIM?",
+     "x": 790,
+     "y": 560,
+     "size": 80,
+     "enter": "zoom",
+     "idle": "none",
+     "color": "#8fc2ff",
+     "on": "victim"
+    },
+    {
+     "type": "icon",
+     "name": "locked",
+     "x": 540,
+     "y": 1080,
+     "size": 150,
+     "enter": "pop",
+     "on": "locked",
+     "idle": "none"
+    }
+   ]
+  },
+  {
+   "text": "Either way, the lesson stands. Wash your *hands*.",
+   "bg": [
+    "#2f7a4a",
+    "#04140a"
+   ],
+   "elements": [
+    {
+     "type": "icon",
+     "name": "soap",
+     "x": 540,
+     "y": 820,
+     "size": 340,
+     "enter": "pop",
+     "idle": "bob"
+    },
+    {
+     "type": "icon",
+     "name": "bubbles",
+     "x": 800,
+     "y": 590,
+     "size": 170,
+     "enter": "pop",
+     "on": "wash",
+     "idle": "float"
+    },
+    {
+     "type": "icon",
+     "name": "droplet",
+     "x": 280,
+     "y": 600,
+     "size": 150,
+     "enter": "drop",
+     "on": "hands",
+     "idle": "bob"
+    },
+    {
+     "type": "text",
+     "text": "WASH YOUR HANDS",
+     "x": 540,
+     "y": 1180,
+     "size": 100,
+     "style": "spooky",
+     "glow": "rgba(157,255,107,0.72)",
+     "color": "#e2ffd2",
+     "enter": "glitch",
+     "idle": "flicker",
+     "on": "hands",
+     "impact": true
+    }
+   ]
+  }
+ ]
+}
