@@ -1,0 +1,1309 @@
+{
+  "name": "Zack D-style 3D short generator (MuAPI + Veo 3.1)",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "🎬 Zack D-style 3D short",
+        "formDescription": "Type one curiosity question. The workflow writes a curiosity-loop script, renders 3D keyframes, animates them with Veo 3.1, adds narration and returns a finished 9:16 MP4.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Topic",
+              "placeholder": "What happens when you swallow gum?",
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Length",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Short (3 beats, ~20s)"
+                  },
+                  {
+                    "option": "Medium (5 beats, ~35s)"
+                  },
+                  {
+                    "option": "Long (7 beats, ~50s)"
+                  }
+                ]
+              },
+              "requiredField": true
+            },
+            {
+              "fieldLabel": "Voice ID",
+              "placeholder": "Leave empty for the default voice"
+            }
+          ]
+        },
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "74183220-5716-4e40-b5f2-212971d8c2e3",
+      "name": "Video request form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "64e519f9-e388-4779-a9b2-eb5700b902f6"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "285ac481-d166-4a00-bf44-92733414bcab",
+              "name": "topic",
+              "type": "string",
+              "value": "={{ $json.Topic.trim() }}"
+            },
+            {
+              "id": "85548f01-03c8-4e1c-b1ce-ca81d0508b79",
+              "name": "beatCount",
+              "type": "number",
+              "value": "={{ $json.Length.startsWith('Long') ? 7 : $json.Length.startsWith('Medium') ? 5 : 3 }}"
+            },
+            {
+              "id": "ed67c51c-4a96-44bc-8499-732210223d09",
+              "name": "voiceId",
+              "type": "string",
+              "value": "={{ ($json['Voice ID'] || '').trim() || 'male_doc_fast' }}"
+            },
+            {
+              "id": "1ddceef2-f7c3-492a-84be-0fc55beb9ef7",
+              "name": "speechSpeed",
+              "type": "number",
+              "value": "1.1"
+            },
+            {
+              "id": "cfbb2c81-071b-4063-a61a-0b718323252c",
+              "name": "claudeModel",
+              "type": "string",
+              "value": "claude-sonnet-5-5"
+            },
+            {
+              "id": "717b2979-9398-4ae7-8dc2-65782d54a65f",
+              "name": "imageEndpoint",
+              "type": "string",
+              "value": "nano-banana-2"
+            },
+            {
+              "id": "d85f0a1d-09cf-4784-902b-6628dd10e43f",
+              "name": "imageEditEndpoint",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "29aedc0b-9724-4184-8f4a-488609199c73",
+              "name": "referenceImagesField",
+              "type": "string",
+              "value": "images_list"
+            },
+            {
+              "id": "3b86de64-3459-4275-8dd8-50a6ec32c16c",
+              "name": "videoEndpoint",
+              "type": "string",
+              "value": "veo3.1-fast-image-to-video"
+            },
+            {
+              "id": "072ae424-cc3a-4bc4-92e6-ffa67dbaad18",
+              "name": "ttsEndpoint",
+              "type": "string",
+              "value": "minimax-speech-2.6-turbo"
+            },
+            {
+              "id": "b0c45c02-ca4f-4265-b526-9c125450b8b6",
+              "name": "aspectRatio",
+              "type": "string",
+              "value": "9:16"
+            },
+            {
+              "id": "7dd155fe-ae75-4d9c-9602-2dde9817cecb",
+              "name": "videoResolution",
+              "type": "string",
+              "value": "720p"
+            },
+            {
+              "id": "d3b800af-fa3f-45ec-8cd9-bf713ee32c62",
+              "name": "transitionDuration",
+              "type": "number",
+              "value": "0.35"
+            },
+            {
+              "id": "c3b022d6-6211-4977-87f2-405242ed36bc",
+              "name": "bgmPath",
+              "type": "string",
+              "value": ""
+            },
+            {
+              "id": "5a9a4548-906c-44da-b191-4ad7a091c108",
+              "name": "outputDir",
+              "type": "string",
+              "value": "/home/node/.n8n-files/zackd"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "2718f982-bc1e-4d40-a9a2-e67d937e7cc1",
+      "name": "Config",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "anthropicApi",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: $json.claudeModel,\n  max_tokens: 8000,\n  system: \"You write scripts for Zack D Films-style 3D animated explainer shorts.\\n\\nCURIOSITY LOOP RULES\\n- Every line opens a question the viewer needs closed, then answers the previous one.\\n- Beat 1 is the hook (3 seconds or less of narration) and has \\\"hook\\\": true.\\n- Use one of these shapes: Myth-Buster (hook myth -> mechanism -> escalation -> twist -> resolution) or \\\"What If\\\" body horror (hook -> step-by-step mechanism -> reaction).\\n- Narration is energetic, plain English, 12-22 words per beat. No emojis.\\n\\nVISUAL RULES\\n- Each beat has 2 shots (the last beat may have 1): shot A is an establishing wide shot, shot B is a macro or anatomical cross-section cutaway.\\n- duration_sec is 2 to 4.\\n- Alternate camera_move across beats: push_in, pan_right, tilt_down, static, pull_out, pan_left, tilt_up.\\n- Set zoom_impact true on the shot that lands the strongest line of the beat.\\n- scene_description is a self-contained image prompt: subject, action, framing, lighting. Name recurring characters by their id and repeat their key look (colors, clothes, shape) every time.\\n\\nOUTPUT\\nReturn ONLY one JSON object, no markdown fences, with this shape:\\n{\\n  \\\"project_name\\\": \\\"snake_case_slug\\\",\\n  \\\"topic\\\": \\\"...\\\",\\n  \\\"characters\\\": [ { \\\"id\\\": \\\"boy_turnaround\\\", \\\"description\\\": \\\"detailed visual description\\\" } ],\\n  \\\"beats\\\": [\\n    {\\n      \\\"beat_id\\\": \\\"beat_1\\\",\\n      \\\"hook\\\": true,\\n      \\\"title_en\\\": \\\"Short title\\\",\\n      \\\"narration\\\": \\\"...\\\",\\n      \\\"shots\\\": [\\n        { \\\"shot_id\\\": \\\"beat_1_a\\\", \\\"type\\\": \\\"wide\\\", \\\"duration_sec\\\": 3.0, \\\"scene_description\\\": \\\"...\\\", \\\"camera_move\\\": \\\"push_in\\\", \\\"character_refs\\\": [\\\"boy_turnaround\\\"], \\\"zoom_impact\\\": false }\\n      ]\\n    }\\n  ]\\n}\\nUse 1 to 3 characters. character_refs must only use ids from \\\"characters\\\".\",\n  messages: [{ role: 'user', content: 'Topic: ' + $json.topic + '\\nNumber of beats: ' + $json.beatCount }]\n}) }}",
+        "options": {
+          "timeout": 180000
+        }
+      },
+      "id": "c4b2f6fd-f20a-4405-a7f1-b89f10e0a646",
+      "name": "Write script (Claude)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        300
+      ],
+      "credentials": {
+        "anthropicApi": {
+          "id": "REPLACE_ME",
+          "name": "Anthropic account"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "jsCode": "// Pull the JSON object out of Claude's reply and check the fields the pipeline needs.\nconst config = $('Config').first().json;\nconst text = ($json.content || []).filter((c) => c.type === 'text').map((c) => c.text).join('');\nconst start = text.indexOf('{');\nconst end = text.lastIndexOf('}');\nif (start === -1 || end <= start) throw new Error('Claude did not return JSON: ' + text.slice(0, 300));\nconst beats = JSON.parse(text.slice(start, end + 1));\n\nif (!Array.isArray(beats.beats) || beats.beats.length === 0) throw new Error('Script has no beats');\nbeats.characters = Array.isArray(beats.characters) && beats.characters.length\n  ? beats.characters\n  : [{ id: 'main_character', description: 'friendly stylized 3D cartoon person, big expressive eyes, simple clothes' }];\nconst characterIds = new Set(beats.characters.map((c) => c.id));\n\nconst slug = String(beats.project_name || config.topic)\n  .toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '').slice(0, 40) || 'zackd_short';\nbeats.project_name = slug + '_' + $execution.id;\nbeats.topic = beats.topic || config.topic;\nbeats.aspect_ratio = config.aspectRatio;\n\nbeats.beats.forEach((beat, b) => {\n  beat.beat_id = beat.beat_id || 'beat_' + (b + 1);\n  if (!beat.narration) throw new Error(beat.beat_id + ' has no narration');\n  if (!Array.isArray(beat.shots) || beat.shots.length === 0) throw new Error(beat.beat_id + ' has no shots');\n  beat.shots.forEach((shot, s) => {\n    shot.shot_id = beat.beat_id + '_' + 'abcdefgh'[s];\n    shot.duration_sec = Math.min(4, Math.max(2, Number(shot.duration_sec) || 3));\n    shot.camera_move = shot.camera_move || 'push_in';\n    shot.zoom_impact = Boolean(shot.zoom_impact);\n    shot.character_refs = (shot.character_refs || []).filter((id) => characterIds.has(id));\n  });\n});\n\nreturn [{ json: beats }];"
+      },
+      "id": "1ba9ee2c-fcea-48b2-8c24-0916798303b5",
+      "name": "Parse beats.json",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Decision",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Approve and render"
+                  },
+                  {
+                    "option": "Reject"
+                  }
+                ]
+              },
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {
+          "formTitle": "={{ 'Script: ' + $json.topic }}",
+          "formDescription": "={{ $json.beats.map((b, i) => (i + 1) + '. ' + (b.title_en || b.beat_id) + ' — ' + b.narration + ' (' + b.shots.length + (b.shots.length === 1 ? ' shot)' : ' shots)')).join('\\n\\n') + '\\n\\nRendering costs MuAPI credits for every shot. Approve to continue.' }}",
+          "buttonLabel": "Continue"
+        }
+      },
+      "id": "4a4c30c8-5834-4454-a6f6-e3403102339a",
+      "name": "Approve script",
+      "type": "n8n-nodes-base.form",
+      "typeVersion": 1,
+      "position": [
+        880,
+        300
+      ],
+      "webhookId": "5542e137-9e2e-4c56-b317-927ad5dab4a0"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "dd688f00-eae7-4f13-bbc8-3688fbcef91a",
+              "leftValue": "={{ $json.Decision }}",
+              "rightValue": "Approve and render",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "bee7ac00-94d9-46ef-81b6-2aa39887ae1a",
+      "name": "Approved?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1100,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "completion",
+        "completionTitle": "Cancelled",
+        "completionMessage": "Nothing was rendered. Submit the form again with a different topic.",
+        "options": {}
+      },
+      "id": "e8dbf7b9-e757-4a33-a7cc-e6f1462b1f85",
+      "name": "Cancelled",
+      "type": "n8n-nodes-base.form",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        500
+      ],
+      "webhookId": "bfbe7796-03f8-40ee-b670-ee65eafb7e7f"
+    },
+    {
+      "parameters": {
+        "jsCode": "// One turnaround sheet per recurring character keeps the look stable across shots.\nconst beats = $('Parse beats.json').first().json;\nconst config = $('Config').first().json;\nreturn beats.characters.map((c) => ({\n  json: {\n    tag: c.id,\n    endpoint: config.imageEndpoint,\n    payload: {\n      prompt: 'Orthographic 3D character turnaround sheet, front view, side profile and 3/4 view of ' + c.description +\n        '. Stylized 3D digital art, smooth plasticine shader, clean light grey background, octane render, studio lighting.',\n      aspect_ratio: '16:9',\n    },\n  },\n}));"
+      },
+      "id": "852cc826-7164-4238-a019-f06e3a20f210",
+      "name": "Character sheet jobs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1540,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "9c719930-c65b-4929-89ce-39a1230a9b68",
+              "leftValue": "={{ $('Config').first().json.imageEditEndpoint }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a01f1d49-3e8c-4060-9d53-2ec202846392",
+      "name": "Use character sheets?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1320,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $workflow.id }}"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "mode": "each",
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "id": "d071f458-0592-41e4-a304-ac7e8f0e1269",
+      "name": "Render character sheets",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        1760,
+        180
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Each shot's keyframe prompt repeats the character descriptions so the image model keeps identities.\nconst beats = $('Parse beats.json').first().json;\nconst config = $('Config').first().json;\nconst characters = Object.fromEntries(beats.characters.map((c) => [c.id, c.description]));\n// Turnaround sheets exist only when Config.imageEditEndpoint is set; then they go to the edit model as references.\nconst sheets = $('Render character sheets').isExecuted\n  ? Object.fromEntries($('Render character sheets').all().map((i) => [i.json.tag, i.json.url]))\n  : {};\n\nconst jobs = [];\nfor (const beat of beats.beats) {\n  for (const shot of beat.shots) {\n    const anchors = shot.character_refs.map((id) => id + ': ' + characters[id]).join('; ');\n    const refs = shot.character_refs.map((id) => sheets[id]).filter(Boolean);\n    jobs.push({\n      json: {\n        tag: shot.shot_id,\n        endpoint: refs.length ? config.imageEditEndpoint : config.imageEndpoint,\n        payload: {\n          ...(refs.length ? { [config.referenceImagesField]: refs } : {}),\n          prompt: 'Stylized 3D render, Zack D Films visual aesthetic, plasticine clay subsurface scattering: ' +\n            shot.scene_description +\n            '. Dramatic studio key light, vibrant rim lighting, crisp ambient occlusion, macro depth of field.' +\n            (anchors ? ' Characters: ' + anchors + '.' : ''),\n          aspect_ratio: config.aspectRatio,\n        },\n      },\n    });\n  }\n}\nreturn jobs;"
+      },
+      "id": "71b87488-6545-4637-88fc-7cce1704c22c",
+      "name": "Keyframe jobs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1980,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $workflow.id }}"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "mode": "each",
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "id": "04d22552-9fa7-46f2-b932-4716a2be3869",
+      "name": "Render keyframes",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        2200,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Animate every keyframe with Veo 3.1 image-to-video.\nconst beats = $('Parse beats.json').first().json;\nconst config = $('Config').first().json;\nconst keyframes = Object.fromEntries($input.all().map((i) => [i.json.tag, i.json.url]));\n\nconst jobs = [];\nfor (const beat of beats.beats) {\n  for (const shot of beat.shots) {\n    if (!keyframes[shot.shot_id]) throw new Error('No keyframe for ' + shot.shot_id);\n    jobs.push({\n      json: {\n        tag: shot.shot_id,\n        endpoint: config.videoEndpoint,\n        payload: {\n          image_url: keyframes[shot.shot_id],\n          prompt: 'Smooth 3D animation, camera movement ' + shot.camera_move.replace(/_/g, ' ') + '. ' + shot.scene_description,\n          aspect_ratio: config.aspectRatio,\n          resolution: config.videoResolution,\n        },\n      },\n    });\n  }\n}\nreturn jobs;"
+      },
+      "id": "70489b96-08e0-4c1d-8684-1450a3f059ed",
+      "name": "Clip jobs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2420,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $workflow.id }}"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "mode": "each",
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "id": "66523c67-0b5c-43ff-898f-9b5b8f21fb63",
+      "name": "Animate clips",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        2640,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const beats = $('Parse beats.json').first().json;\nconst config = $('Config').first().json;\nreturn [{\n  json: {\n    tag: 'narration',\n    endpoint: config.ttsEndpoint,\n    payload: {\n      text: beats.beats.map((b) => b.narration.trim()).join(' '),\n      voice_id: config.voiceId,\n      speed: config.speechSpeed,\n    },\n  },\n}];"
+      },
+      "id": "b31bb544-5a84-4c3f-a12e-546eb222c766",
+      "name": "Narration job",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2860,
+        300
+      ],
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $workflow.id }}"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": []
+        },
+        "mode": "each",
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "id": "4bfd8bd6-3fc7-4c9f-8439-952f49f8c6d7",
+      "name": "Narrate",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        3080,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "command": "=mkdir -p '{{ String($('Config').first().json.outputDir + '/' + $('Parse beats.json').first().json.project_name + '_work').replace(/'/g, \"'\\\\''\") }}'"
+      },
+      "id": "ae734fff-0a08-42b5-8203-b985cdd35c92",
+      "name": "Create work folder",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        3300,
+        300
+      ],
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "jsCode": "const beats = $('Parse beats.json').first().json;\nconst config = $('Config').first().json;\nconst workDir = config.outputDir + '/' + beats.project_name + '_work';\nconst media = $('Animate clips').all().map((i) => ({ json: { url: i.json.url, file: workDir + '/' + i.json.tag + '.mp4' } }));\nmedia.push({ json: { url: $('Narrate').first().json.url, file: workDir + '/narration.audio' } });\nreturn media;"
+      },
+      "id": "f80cc10a-ebb1-45b1-bfa9-b8f649acd004",
+      "name": "Media to download",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3520,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.url }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file",
+              "outputPropertyName": "data"
+            }
+          },
+          "timeout": 300000
+        }
+      },
+      "id": "6c33d7b2-e35c-452e-98f7-30c12dbf8c38",
+      "name": "Download media",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3740,
+        300
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('Media to download').item.json.file }}",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "id": "c021da76-bfa7-4fed-b368-5be7a42d265e",
+      "name": "Save media",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        3960,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "command": "=ffmpeg -y -hide_banner -loglevel error -i '{{ String($('Config').first().json.outputDir + '/' + $('Parse beats.json').first().json.project_name + '_work' + '/narration.audio').replace(/'/g, \"'\\\\''\") }}' -ac 2 -ar 48000 '{{ String($('Config').first().json.outputDir + '/' + $('Parse beats.json').first().json.project_name + '_work' + '/narration.wav').replace(/'/g, \"'\\\\''\") }}' && ffprobe -v error -show_entries format=duration -of csv=p=0 '{{ String($('Config').first().json.outputDir + '/' + $('Parse beats.json').first().json.project_name + '_work' + '/narration.wav').replace(/'/g, \"'\\\\''\") }}'"
+      },
+      "id": "85c94dc2-84cc-40f2-b824-c9738ec0f67f",
+      "name": "Probe narration length",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        4180,
+        300
+      ],
+      "executeOnce": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Port of scripts/assemble.py: 720x1280 canvas, impact zoom, cycling xfade transitions.\n// Shot lengths are scaled so the cut matches the narration, then narration (and optional BGM) is the soundtrack.\nconst W = 720, H = 1280, FPS = 30, MAX_CLIP = 7.5;\nconst TRANSITIONS = ['fade', 'wipeleft', 'slideleft', 'circleopen'];\nconst beats = $('Parse beats.json').first().json;\nconst config = $('Config').first().json;\nconst workDir = config.outputDir + '/' + beats.project_name + '_work';\nconst narrationWav = workDir + '/narration.wav';\nconst narrationSec = parseFloat($json.stdout);\nif (!(narrationSec > 0)) throw new Error('Could not read narration length: ' + $json.stdout + ' ' + $json.stderr);\n\nconst q = (s) => \"'\" + String(s).replace(/'/g, \"'\\\\''\") + \"'\";\nconst n = (v) => v.toFixed(3);\nconst shots = beats.beats.flatMap((b) => b.shots);\nconst t = Math.max(0, config.transitionDuration);\n\n// Fit the planned durations to the narration, keeping each shot inside the generated clip.\nconst planned = shots.reduce((sum, s) => sum + s.duration_sec, 0) - t * (shots.length - 1);\nconst scale = (narrationSec + 0.4) / planned;\nconst durations = shots.map((s) => Math.min(MAX_CLIP, Math.max(t + 0.5, s.duration_sec * scale)));\n\nconst inputs = [];\nconst filters = [];\nshots.forEach((shot, i) => {\n  inputs.push('-i ' + q(workDir + '/' + shot.shot_id + '.mp4'));\n  let v = '[' + i + ':v]trim=duration=' + n(durations[i]) + ',setpts=PTS-STARTPTS,fps=' + FPS +\n    ',scale=' + W + ':' + H + ':force_original_aspect_ratio=increase,crop=' + W + ':' + H + ',setsar=1,settb=AVTB';\n  if (shot.zoom_impact) {\n    v += ',scale=' + (W + 36) + ':' + (H + 64) + ':flags=lanczos,crop=' + W + ':' + H + ':(iw-' + W + ')/2:(ih-' + H + ')/2';\n  }\n  filters.push(v + ',format=yuv420p[v' + i + ']');\n});\n\nlet previous = 'v0';\nlet timeline = durations[0];\nfor (let i = 1; i < shots.length; i++) {\n  if (t > 0) {\n    const d = Math.min(t, durations[i], timeline);\n    filters.push('[' + previous + '][v' + i + ']xfade=transition=' + TRANSITIONS[(i - 1) % TRANSITIONS.length] +\n      ':duration=' + n(d) + ':offset=' + n(timeline - d) + '[vx' + i + ']');\n    timeline += durations[i] - d;\n  } else {\n    filters.push('[' + previous + '][v' + i + ']concat=n=2:v=1:a=0[vx' + i + ']');\n    timeline += durations[i];\n  }\n  previous = 'vx' + i;\n}\n// Hold the last frame if the narration still runs past the final cut.\nfilters.push('[' + previous + ']tpad=stop_mode=clone:stop_duration=10[vout]');\n\nconst narrationIndex = shots.length;\ninputs.push('-i ' + q(narrationWav));\nfilters.push('[' + narrationIndex + ':a]highpass=f=80,lowpass=f=8000,volume=1.2,aresample=48000[narr]');\nif (config.bgmPath) {\n  inputs.push('-stream_loop -1 -i ' + q(config.bgmPath));\n  filters.push('[' + (narrationIndex + 1) + ':a]volume=0.15,aresample=48000[bgm]');\n  filters.push('[narr][bgm]amix=inputs=2:duration=first:dropout_transition=0[aout]');\n} else {\n  filters.push('[narr]anull[aout]');\n}\n\nconst outFile = config.outputDir + '/' + beats.project_name + '.mp4';\nconst command = [\n  'ffmpeg -y -hide_banner -loglevel error',\n  inputs.join(' '),\n  '-filter_complex ' + q(filters.join(';')),\n  '-map [vout] -map [aout] -t ' + n(narrationSec + 0.4),\n  '-c:v libx264 -preset medium -crf 23 -pix_fmt yuv420p -c:a aac -b:a 128k -movflags +faststart',\n  q(outFile),\n  '&& rm -rf ' + q(workDir),\n].join(' ');\n\nreturn [{ json: { command, outFile, narrationSec, shotCount: shots.length } }];"
+      },
+      "id": "faa46e10-d1bb-4e6d-bd80-68d1c0a9db0c",
+      "name": "Build ffmpeg command",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        4400,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "command": "={{ $json.command }}"
+      },
+      "id": "4091e08d-a888-4582-b40e-1bf566822ee5",
+      "name": "Render final.mp4",
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        4620,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "={{ $('Build ffmpeg command').first().json.outFile }}",
+        "options": {
+          "dataPropertyName": "data"
+        }
+      },
+      "id": "980459f5-3fb1-4194-97b0-abe9493fa4b3",
+      "name": "Load final.mp4",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        4840,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "completion",
+        "respondWith": "returnBinary",
+        "completionTitle": "Your short is ready",
+        "completionMessage": "={{ 'Saved on the server as ' + $('Build ffmpeg command').first().json.outFile }}",
+        "inputDataFieldName": "data",
+        "options": {}
+      },
+      "id": "aa498a56-5c75-4460-9652-725c352a1dd3",
+      "name": "Download video",
+      "type": "n8n-nodes-base.form",
+      "typeVersion": 1,
+      "position": [
+        5060,
+        300
+      ],
+      "webhookId": "09dcd725-f012-462b-b703-b8f121edd81f"
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "id": "ef9ce0ac-20cd-448c-9223-2e0ff090aed6",
+      "name": "MuAPI job (called by this workflow)",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        1320,
+        900
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://api.muapi.ai/api/v1/{{ $json.endpoint }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.payload) }}",
+        "options": {
+          "timeout": 60000
+        }
+      },
+      "id": "9e457a33-5ab8-44be-9013-9399a1fd97c3",
+      "name": "Submit MuAPI job",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1540,
+        900
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "REPLACE_ME",
+          "name": "MuAPI (x-api-key)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const pick = (d) => { const o = d.outputs || d.output || d.url; return Array.isArray(o) ? o[0] : o; };\nconst job = $('MuAPI job (called by this workflow)').item.json;\nconst requestId = $json.request_id || $json.id;\nconst url = requestId ? null : pick($json);\nif (!requestId && !url) throw new Error('MuAPI returned neither a request id nor an output: ' + JSON.stringify($json));\nreturn { json: { tag: job.tag, endpoint: job.endpoint, requestId, url: url || null, status: url ? 'completed' : 'pending', attempt: 0 } };"
+      },
+      "id": "18aa9851-e919-44b0-b3f1-5b1699145914",
+      "name": "Start polling",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1760,
+        900
+      ]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "721f1fa8-16db-4e34-a3b9-ca91fb062f6a",
+                    "leftValue": "={{ $json.status }}",
+                    "rightValue": "completed",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Done"
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "2485936a-bab7-45f2-bfc8-0211f541af28",
+                    "leftValue": "={{ $json.status }}",
+                    "rightValue": "failed",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              },
+              "renameOutput": true,
+              "outputKey": "Failed"
+            }
+          ]
+        },
+        "options": {
+          "fallbackOutput": "extra",
+          "renameFallbackOutput": "Pending"
+        }
+      },
+      "id": "ddff2d09-f767-4127-a99f-a5c150e0d828",
+      "name": "Poll state",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        1980,
+        900
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "6eb740b0-8e1e-423f-81cb-a2bb63a9fe8e",
+              "name": "tag",
+              "type": "string",
+              "value": "={{ $json.tag }}"
+            },
+            {
+              "id": "73c6b625-5d5c-40f2-ba52-34d93f036246",
+              "name": "url",
+              "type": "string",
+              "value": "={{ $json.url }}"
+            },
+            {
+              "id": "0e1c15dd-874d-4ece-b784-6e0ef750ed4d",
+              "name": "requestId",
+              "type": "string",
+              "value": "={{ $json.requestId }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "7fe726ee-cbbe-4f00-8dbf-a8763da12950",
+      "name": "Return result",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2200,
+        740
+      ]
+    },
+    {
+      "parameters": {
+        "errorMessage": "={{ 'MuAPI ' + $json.endpoint + ' job for ' + $json.tag + ' failed: ' + ($json.error || 'timed out') }}"
+      },
+      "id": "81203873-c2e2-4afb-94f2-39ec713eea37",
+      "name": "MuAPI job failed",
+      "type": "n8n-nodes-base.stopAndError",
+      "typeVersion": 1,
+      "position": [
+        2200,
+        900
+      ]
+    },
+    {
+      "parameters": {
+        "amount": 10,
+        "unit": "seconds"
+      },
+      "id": "d102dc17-3111-4196-bf84-b6c370215a69",
+      "name": "Wait 10s",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        2200,
+        1080
+      ],
+      "webhookId": "341af992-fde1-4946-9b8b-3f38f7325966"
+    },
+    {
+      "parameters": {
+        "url": "=https://api.muapi.ai/api/v1/predictions/{{ $json.requestId }}/result",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "options": {
+          "timeout": 30000
+        }
+      },
+      "id": "0e3aac3a-85d3-4372-93cb-51c34e4ab6cd",
+      "name": "Get job result",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2420,
+        1080
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "REPLACE_ME",
+          "name": "MuAPI (x-api-key)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const pick = (d) => { const o = d.outputs || d.output || d.url; return Array.isArray(o) ? o[0] : o; };\n// 90 polls x 10s = 15 minutes, enough for a Veo clip in a busy queue.\nconst MAX_ATTEMPTS = 90;\nconst prev = $('Wait 10s').item.json;\nconst attempt = prev.attempt + 1;\nconst raw = String($json.status || '').toLowerCase();\nlet status = 'pending';\nif (raw === 'completed' || raw === 'succeeded') status = pick($json) ? 'completed' : 'failed';\nelse if (raw === 'failed' || raw === 'error' || raw === 'canceled') status = 'failed';\nelse if (attempt >= MAX_ATTEMPTS) status = 'failed';\nreturn { json: { ...prev, attempt, status, url: status === 'completed' ? pick($json) : null, error: $json.error || null } };"
+      },
+      "id": "edf60e86-1ae0-49d5-81ad-ae06e185770d",
+      "name": "Check status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2640,
+        1080
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## 🎬 Zack D-style short generator\nSame pipeline as the **zack-d-films-ai-video-generator** repo, inside n8n.\n\n**Setup**\n1. Credentials: **Anthropic** (script) and **Header Auth** named `x-api-key` with your MuAPI key (all 3 MuAPI nodes).\n2. Save the workflow once: the *Render / Animate / Narrate* nodes call this same workflow by `$workflow.id`.\n3. Self-hosted only: `ffmpeg` + `ffprobe` on PATH, and allow Execute Command (remove it from `NODES_EXCLUDE`).\n4. Open the form URL from **Video request form**.\n\nTune models, voice, transitions and BGM in **Config**.",
+        "width": 520,
+        "height": 300,
+        "color": 4
+      },
+      "id": "3b0cae83-451d-4d31-8e76-dd498956460b",
+      "name": "Note: setup",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -40,
+        -40
+      ]
+    },
+    {
+      "parameters": {
+        "content": "### Gate 1: script approval\nRead the beats before any credits are spent.",
+        "width": 400,
+        "height": 130,
+        "color": 5
+      },
+      "id": "80304967-6c4a-4a60-a67e-26ff7c17783c",
+      "name": "Note: gate",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        820,
+        120
+      ]
+    },
+    {
+      "parameters": {
+        "content": "### MuAPI renders\nEach node runs the job runner below once per item: sheets (optional) → keyframes (nano-banana-2) → clips (Veo 3.1 fast) → narration (MiniMax TTS). Sheets run only when **Config → imageEditEndpoint** is set.",
+        "width": 1840,
+        "height": 130,
+        "color": 6
+      },
+      "id": "09f1419c-eea6-4d42-b247-fbae70b134b0",
+      "name": "Note: render",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1280,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "content": "### FFmpeg assembly\nClips and narration are downloaded to a work folder first. Then a port of `scripts/assemble.py` renders 720×1280 with impact zoom and fade → wipeleft → slideleft → circleopen, fitted to the narration length.",
+        "width": 2000,
+        "height": 130,
+        "color": 3
+      },
+      "id": "e5fcdfd9-b9ae-4b7f-b0e5-c4993126f216",
+      "name": "Note: assembly",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        3260,
+        140
+      ]
+    },
+    {
+      "parameters": {
+        "content": "## MuAPI job runner (sub-workflow)\nInput: `{ tag, endpoint, payload }`. Submits to `api.muapi.ai/api/v1/<endpoint>`, polls `/predictions/<id>/result` every 10 s (15 min max), returns `{ tag, url }`.",
+        "width": 1560,
+        "height": 180,
+        "color": 7
+      },
+      "id": "ed337b88-69e7-4c4c-82fe-e1480d80c6dc",
+      "name": "Note: runner",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        1280,
+        640
+      ]
+    }
+  ],
+  "connections": {
+    "Video request form": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Write script (Claude)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write script (Claude)": {
+      "main": [
+        [
+          {
+            "node": "Parse beats.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse beats.json": {
+      "main": [
+        [
+          {
+            "node": "Approve script",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approve script": {
+      "main": [
+        [
+          {
+            "node": "Approved?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Approved?": {
+      "main": [
+        [
+          {
+            "node": "Use character sheets?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Cancelled",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Use character sheets?": {
+      "main": [
+        [
+          {
+            "node": "Character sheet jobs",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Keyframe jobs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Character sheet jobs": {
+      "main": [
+        [
+          {
+            "node": "Render character sheets",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Render character sheets": {
+      "main": [
+        [
+          {
+            "node": "Keyframe jobs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Keyframe jobs": {
+      "main": [
+        [
+          {
+            "node": "Render keyframes",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Render keyframes": {
+      "main": [
+        [
+          {
+            "node": "Clip jobs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clip jobs": {
+      "main": [
+        [
+          {
+            "node": "Animate clips",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Animate clips": {
+      "main": [
+        [
+          {
+            "node": "Narration job",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Narration job": {
+      "main": [
+        [
+          {
+            "node": "Narrate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Narrate": {
+      "main": [
+        [
+          {
+            "node": "Create work folder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create work folder": {
+      "main": [
+        [
+          {
+            "node": "Media to download",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Media to download": {
+      "main": [
+        [
+          {
+            "node": "Download media",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Download media": {
+      "main": [
+        [
+          {
+            "node": "Save media",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Save media": {
+      "main": [
+        [
+          {
+            "node": "Probe narration length",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Probe narration length": {
+      "main": [
+        [
+          {
+            "node": "Build ffmpeg command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build ffmpeg command": {
+      "main": [
+        [
+          {
+            "node": "Render final.mp4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Render final.mp4": {
+      "main": [
+        [
+          {
+            "node": "Load final.mp4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Load final.mp4": {
+      "main": [
+        [
+          {
+            "node": "Download video",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MuAPI job (called by this workflow)": {
+      "main": [
+        [
+          {
+            "node": "Submit MuAPI job",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Submit MuAPI job": {
+      "main": [
+        [
+          {
+            "node": "Start polling",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Start polling": {
+      "main": [
+        [
+          {
+            "node": "Poll state",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Poll state": {
+      "main": [
+        [
+          {
+            "node": "Return result",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "MuAPI job failed",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wait 10s",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait 10s": {
+      "main": [
+        [
+          {
+            "node": "Get job result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get job result": {
+      "main": [
+        [
+          {
+            "node": "Check status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check status": {
+      "main": [
+        [
+          {
+            "node": "Poll state",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true
+  },
+  "tags": [],
+  "meta": {
+    "templateCredsSetupCompleted": false
+  }
+}
