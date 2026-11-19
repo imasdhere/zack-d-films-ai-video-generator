@@ -1,0 +1,124 @@
+{
+ "container": {
+  "duration_s": 1261.625,
+  "size_mb": 3707.5,
+  "video_codec": "h264",
+  "profile": "High",
+  "width": 1920,
+  "height": 1080,
+  "fps": "24/1",
+  "pix_fmt": "yuv420p",
+  "dar": null,
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_rate": "48000",
+  "streams": [
+   "video",
+   "audio",
+   "subtitle"
+  ]
+ },
+ "decode_errors": [],
+ "black_segments": [
+  [
+   1261.08,
+   1261.58
+  ]
+ ],
+ "frozen_segments": [],
+ "loudness": {
+  "integrated_lufs": -16.0,
+  "lra_lu": 4.1,
+  "true_peak_dbfs": -4.8
+ },
+ "silences_over_2s_below_-55dB": [],
+ "music_check": {
+  "sustained_tonal_components_>=0.5s": 0,
+  "chroma_peak_ratio_median": 0.12,
+  "max_rhythmic_autocorrelation_lag_0.6-12s": 0.095,
+  "stem_duration_min": 21.0,
+  "reference_values": "tonal music typically shows many sustained tonal components, chroma peak ratio > 0.3, rhythmic autocorrelation > 0.3"
+ },
+ "narration_wer_sampled": [
+  {
+   "seg": "0.01",
+   "wer": 0.0
+  },
+  {
+   "seg": "1.05",
+   "wer": 0.222
+  },
+  {
+   "seg": "2.03",
+   "wer": 0.122
+  },
+  {
+   "seg": "2.09",
+   "wer": 0.0
+  },
+  {
+   "seg": "3.05",
+   "wer": 0.107
+  },
+  {
+   "seg": "3.11",
+   "wer": 0.0
+  },
+  {
+   "seg": "4.03",
+   "wer": 0.0
+  },
+  {
+   "seg": "4.09",
+   "wer": 0.095
+  },
+  {
+   "seg": "4.15",
+   "wer": 0.062
+  },
+  {
+   "seg": "5.02",
+   "wer": 0.0
+  },
+  {
+   "seg": "5.08",
+   "wer": 0.354
+  },
+  {
+   "seg": "6.03",
+   "wer": 0.163
+  },
+  {
+   "seg": "6.09",
+   "wer": 0.062
+  }
+ ],
+ "narration_wer_mean": 0.091,
+ "shots": {
+  "count": 152,
+  "unique_assets": 107,
+  "max_reuse": [
+   [
+    "G_CHAPTER",
+    6
+   ],
+   [
+    "G_SUMMARY",
+    5
+   ],
+   [
+    "D16",
+    4
+   ],
+   [
+    "R04",
+    4
+   ],
+   [
+    "R02",
+    3
+   ]
+  ],
+  "mean_shot_s": 8.3
+ }
+}

@@ -1,13 +1,13 @@
 # THE LOST CITY OF IRAM
 ### In Search of the People of the Pillars
 
-A ~21-minute historical investigation documentary (1920×1080, 24 fps, H.264, stereo, **no music**). It covers Iram Dhāt al-ʿImād (Quran 89:6–8), the people of ʿĀd, the classical exegetical debate, the search for "Ubar" at Shisr in Oman, and a recent epigraphic proposal that points to Wadi Ramm in Jordan. The film keeps seven evidence levels visibly apart: Quranic text, authentic hadith, classical scholarship, later legend, archaeology, scientific hypothesis and artistic reconstruction.
+A **21:01** historical investigation documentary (1920×1080, 24 fps, H.264 High, AAC stereo, −16 LUFS, **no music**; 17/17 automated QC checks pass). It covers Iram Dhāt al-ʿImād (Quran 89:6–8), the people of ʿĀd, the classical exegetical debate, the search for "Ubar" at Shisr in Oman, and a recent epigraphic proposal that points to Wadi Ramm in Jordan. The film keeps seven evidence levels visibly apart: Quranic text, authentic hadith, classical scholarship, later legend, archaeology, scientific hypothesis and artistic reconstruction.
 
 ## Deliverables
 
 | # | Deliverable | Location |
 |---|---|---|
-| — | **Main documentary** | `renders/final/iram_lost_city_documentary.mp4` (not in git: too large) |
+| — | **Main documentary** | `renders/final/iram_lost_city_documentary.mp4` (3.7 GB, not in git: too large; regenerate with `documentation/workflow.md`) |
 | 1 | Final screenplay | `screenplay/final_fact_checked_script.md` (source: `screenplay/script.yaml`) |
 | 2 | Chapter-by-chapter narration | `screenplay/chapter_00_cold_open.md` … `chapter_06.md`; audio in `assets/narration/raw/` |
 | 3 | Bibliography | `research/bibliography.md` |

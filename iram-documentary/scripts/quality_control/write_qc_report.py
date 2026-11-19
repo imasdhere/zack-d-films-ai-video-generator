@@ -19,7 +19,7 @@ fallbacks = sorted({s['asset'] for s in tl['shots'] if s['asset'] in edit.PHOTOS
 blacks = [b for b in m['black_segments'] if not (b[0] < 3 or b[1] > dur - 3)]
 rows = [
     ('Duration ≥ 15 min (target 18–22)', f"{dur / 60:.2f} min (incl. {edit.CREDITS:.0f} s credits)", 15 * 60 <= dur),
-    ('Resolution ≥ 1920×1080, 16:9', f"{c['width']}×{c['height']} (DAR {c['dar']})", c['width'] >= 1920 and c['height'] >= 1080),
+    ('Resolution ≥ 1920×1080, 16:9', f"{c['width']}×{c['height']} (aspect {c['width'] / c['height']:.3f} = 16:9, square pixels)", c['width'] >= 1920 and c['height'] >= 1080),
     ('Frame rate 24 fps', c['fps'], c['fps'] in ('24/1', '24')),
     ('H.264 MP4', f"{c['video_codec']} {c['profile']}, {c['pix_fmt']}", c['video_codec'] == 'h264'),
     ('Stereo audio', f"{c['audio_codec']} {c['audio_channels']} ch @ {c['audio_rate']} Hz", c['audio_channels'] == 2),

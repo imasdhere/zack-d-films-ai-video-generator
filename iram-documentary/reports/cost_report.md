@@ -29,6 +29,8 @@ Prices are indicative ranges for late 2026 and must be checked with each provide
 
 | Asset | CPU time on this container |
 |---|---|
-| 1 SDXL-Lightning image, 1344×768 | see `production_log.md` |
-| 1 minute of narration (Qwen3-TTS, CPU) | about 5 min |
-| 1 minute of final 1080p video (compositor + x264) | about 4–5 min per process |
+| 1 SDXL-Lightning image, 1344×768, 4 steps (landscapes) | about 100 s (about 20 s per step on 4 cores) |
+| 1 SDXL-Lightning image, 1344×768, 8 steps (reconstructions, legends) | about 175–190 s |
+| 1 minute of narration (Qwen3-TTS 1.7B clone, CPU) | about 5.5 min |
+| 1 minute of final 1080p video (compositor + x264) | about 4 min for one process alone; about 12 min per process with 4 in parallel |
+| Whole project, wall clock | about 7 h (11:13–18:15), all on a 4-vCPU CPU-only container |
