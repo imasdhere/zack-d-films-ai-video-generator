@@ -43,3 +43,16 @@ All times are the container's local time on 2026-11-19.
 | 17:25 | Edit | Chapters 3 and 4 re-rendered with the corrected shots. Chapter 4 was split into two parallel parts (`--part 1/2`, `2/2`) and joined losslessly. |
 | 17:50 | Export | First mux used `-shortest`, which cut the master to the subtitle track's end (20:11). Fixed: trim to the picture length. **Final master 21:01.6**, 1920×1080, 24 fps, H.264 High, AAC 256k, soft English subtitles. 540p review copy (65 MB) and thumbnail generated. |
 | 18:10 | QC | `qc.py`: 17/17 automated checks pass. No decode errors; the only black frames are the intended final fade; no freezes; −16.0 LUFS, true peak −4.8 dBTP; **no musical content** (0 sustained tonal components); narration WER 0.091 (sampled). See `reports/quality_control_report.md`. |
+
+## Version 2: dual-language cloned narration (2026-11-19, evening)
+
+| Time | Stage | Event / decision |
+|---|---|---|
+| 18:14 | Brief | New brief: clone the narrator of Video 1 for English and of Video 2 for Arabic; evaluate Audar-TTS and VoxCPM; Quranic safeguards; re-engineer the audio pipeline. |
+| 18:20 | Inspect | Video 1: 26 s vertical clip, one man in a studio (voice coach), English, dry and noise-gated. Video 2: 56 s, still image with the travel supplication (duʿāʾ al-safar), one male voice, chanted, reverberant. No music bed in either. |
+| 18:22 | Consent | **Owner confirmed** permission from both speakers to clone their voices for this documentary. Owner chose "bilingual quotations": the Arabic narrator reads the original Arabic of the classical and hadith cards; Quranic audio stays out of the film until a qualified review. |
+| 18:24 | Install | VoxCPM2 weights (5.0 GB, Apache-2.0), Audar-TTS-V1-Flash weights (1.1 GB, AudarAI Open v1.0), Whisper large-v3-turbo and WavLM-SV downloaded. Removed the unused SDXL base checkpoint (6.9 GB) and two intermediate render files (4.1 GB) to free disk. |
+| 18:25 | Blocker | Audar needs NeuCodec (`neuphonic/neucodec`), which is gated (HTTP 401). The owner saved a Hugging Face credential, but Hugging Face rejects it ("Invalid username or password"). Audar stays untested until a valid token is provided. |
+| 18:35 | References | Both transcripts verified: Video 1 by two Whisper models in exact agreement (and the burned-in captions); Video 2 against the on-screen text of the supplication in the video. Clips chosen by measurement: English 3.09–12.96 s (steady register, median 98 Hz; the "belly" demonstration and a raised aside excluded); Arabic 37.24–47.02 s (least chanted passage, median 68 Hz). WPE dereverberation made the Arabic tail worse (−22 → −17 dB), so it is not used. Fixed a downmix bug (ffmpeg `-ac 1` sums channels and clipped). |
+| 18:50 | Engines | VoxCPM2 runs on this CPU in bf16: about 4.3× slower than real time, 11.5 GB peak RAM. |
+| 18:55 | Quran | Registry of 22 verses built from Tanzil; all 22 match quran.com letter for letter. The router's Quranic scan flags the ʿĀʾisha hadith card, because it contains the words of 46:24 ("هذا عارض ممطرنا"), so that quotation goes to the review workflow, not the mix. |

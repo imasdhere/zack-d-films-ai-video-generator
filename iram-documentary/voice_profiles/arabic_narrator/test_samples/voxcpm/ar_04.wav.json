@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_ar_04",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 10.045,
+ "compute_s": 60.3,
+ "seed": 20261123,
+ "attempts": [
+  {
+   "seed": 20261123,
+   "dur": 10.04,
+   "expected": 8.27,
+   "ok": true
+  }
+ ],
+ "text": "وبعد أربعةِ قرون، وافقه ابنُ كثير، وعدَّ حكاياتِ المدينةِ الذهبيةِ من خرافاتِ الإسرائيليات.",
+ "lang": "ar",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

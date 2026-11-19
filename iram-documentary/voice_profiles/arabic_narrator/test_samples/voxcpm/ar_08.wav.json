@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_ar_08",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 7.224,
+ "compute_s": 35.0,
+ "seed": 20261127,
+ "attempts": [
+  {
+   "seed": 20261127,
+   "dur": 7.22,
+   "expected": 6.27,
+   "ok": true
+  }
+ ],
+ "text": "ربما كانت درساً محفوظاً في الذاكرة، أطولَ عمراً من الحجارةِ والأعمدة.",
+ "lang": "ar",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

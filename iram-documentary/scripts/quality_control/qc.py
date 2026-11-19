@@ -57,10 +57,16 @@ disp = {seg['id']: ' '.join(seg['text'].split()) for ch in script['chapters'] fo
 norm = lambda s: re.sub(r"[^a-z0-9 ]", " ", s.lower()).split()
 checks = []
 for seg in tl['segments'][::6]:
-    s0 = int(seg['start'] * msr); s1 = int((seg['start'] + seg['dur']) * msr)
-    clip = librosa.resample(mix[s0:s1].mean(1), orig_sr=msr, target_sr=16000)
+    sents = seg['sentences']
+    if all('lang' in s for s in sents):    # version 2: score the English sentences only (Arabic quotations are checked separately)
+        en = [s for s in sents if s['lang'] == 'en']
+        clip = np.concatenate([mix[int((seg['start'] + s['start']) * msr):int((seg['start'] + s['end']) * msr)].mean(1) for s in en])
+        ref = ' '.join(s['display'] for s in en)
+    else:
+        s0 = int(seg['start'] * msr); s1 = int((seg['start'] + seg['dur']) * msr); clip = mix[s0:s1].mean(1); ref = disp[seg['id']]
+    clip = librosa.resample(clip, orig_sr=msr, target_sr=16000)
     hyp = m.transcribe(clip, language='en', fp16=False, temperature=0)['text']
-    checks.append({'seg': seg['id'], 'wer': round(jiwer.wer(' '.join(norm(disp[seg['id']])), ' '.join(norm(hyp))), 3)})
+    checks.append({'seg': seg['id'], 'wer': round(jiwer.wer(' '.join(norm(ref)), ' '.join(norm(hyp))), 3)})
 res['narration_wer_sampled'] = checks; res['narration_wer_mean'] = round(float(np.mean([c['wer'] for c in checks])), 3)
 # 7. editorial checks from the timeline
 import collections

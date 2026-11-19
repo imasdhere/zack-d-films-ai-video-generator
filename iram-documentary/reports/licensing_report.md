@@ -31,7 +31,13 @@ Scope: everything that appears in, or was used to make, `renders/final/iram_lost
 
 | Source | Licence | Notes |
 |---|---|---|
-| Narration: Qwen3-TTS 1.7B (VoiceDesign + Base), voice designed from a text description, **not cloned from any real person** | Apache-2.0 (code and weights) | A synthetic voice. The credits disclose it. |
+| Narration, version 1: Qwen3-TTS 1.7B (VoiceDesign + Base), voice designed from a text description, **not cloned from any real person** | Apache-2.0 (code and weights) | A synthetic voice. The credits disclose it. |
+| **Narration, version 2: VoxCPM2**, voices cloned from Video 1 (English) and Video 2 (Arabic) | Code: Apache-2.0 (github.com/OpenBMB/VoxCPM). Weights `openbmb/VoxCPM2`: Apache-2.0 (model card). | ⚠ **Voice rights.** The engine licence covers the software only. Use of a real person's voice depends on that person's permission. The project owner confirmed permission from both speakers for this documentary only (2026-11-19, `configuration/voice_config.yaml`). Keep that permission in writing. Do not reuse the cloned voices elsewhere. Disclose synthetic narration in the credits. |
+| Audar-TTS-V1-Flash (evaluated; see `reports/voice_cloning_evaluation.md`) | Reference code: Apache-2.0. Weights: **AudarAI Open License v1.0**: commercial use, redistribution and fine-tuning allowed with no revenue or user cap. Redistribution needs the licence copy and notices. Outputs are not owned by AudarAI. Singapore law. Do not imply AudarAI endorsement. | Needs NeuCodec (`neuphonic/neucodec`, Apache-2.0, gated: accept the terms on Hugging Face). |
+| Audar-TTS-V1-Turbo (not used) | **AudarAI Community License v1.0**: research use, and limited commercial use only for a "Community Entity" (fewer than 50 staff and under USD 2 M annual revenue, among other limits). Above that, an enterprise licence is needed. | Not downloaded. Check the thresholds before any use. |
+| Audar-TTS-V1-Pro (not used) | AudarAI Enterprise License (contract, hosted access) | Not accessible without an agreement. Not evaluated. |
+| Source recordings (Video 1, Video 2) | Rights of the speakers and of whoever made the recordings | Used only as cloning references, never in the film. Kept out of git. Video 2 carries a third-party editing-app watermark and on-screen text. Neither is used. |
+| Quranic audio | None in the film | Synthetic renderings exist only as review candidates (`assets/narration/quranic/`, not approved). For published recitation, license an authentic recording by a qualified reciter. |
 | Sound effects | Procedurally synthesised from noise by `scripts/editing/sfx.py` | Original work. No third-party samples. **No music.** |
 
 ## 4. Fonts (rendered into the picture)
@@ -46,7 +52,8 @@ Using the tools does not impose obligations on the film. ComfyUI (GPL-3.0) and B
 
 | Item | Commercial use OK? |
 |---|---|
-| Qwen3-TTS, Kokoro, SDXL, SDXL-Lightning, Depth-Anything-V2-Small | Yes (Apache / OpenRAIL++, within the use restrictions) |
+| Qwen3-TTS, Kokoro, VoxCPM2, Audar-TTS-V1-Flash, SDXL, SDXL-Lightning, Depth-Anything-V2-Small | Yes (Apache / AudarAI Open / OpenRAIL++, within the use restrictions) |
+| Cloned narrator voices | Yes only with the speakers' documented permission, for this documentary only ⚠ |
 | Excluded: F5-TTS weights, Fish Audio weights, Depth-Anything-V2 Base/Large | No (non-commercial). Not used. |
 | NASA imagery | Generally yes, without implying endorsement |
 | CC BY-SA photographs | Yes, with attribution and share-alike ⚠ |

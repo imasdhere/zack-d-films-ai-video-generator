@@ -103,11 +103,11 @@ def num_words(n):
     if n < 20: return ONES[n]
     if n < 100: return TENS[n // 10] + ('' if n % 10 == 0 else ' ' + ONES[n % 10])
     if n < 1000: return ONES[n // 100] + ' hundred' + ('' if n % 100 == 0 else ' and ' + num_words(n % 100))
-    if 1100 <= n < 2000 and n % 100 and False: pass
-    if n < 10000:
-        if 1100 <= n <= 1999 or 2010 <= n <= 2099:   # years: nineteen ninety-two, twenty twenty-five
-            hi, lo = divmod(n, 100); return num_words(hi) + ' ' + (num_words(lo) if lo >= 10 else 'oh ' + num_words(lo) if lo else 'hundred')
-        return num_words(n // 1000) + ' thousand' + ('' if n % 1000 == 0 else (' and ' if n % 1000 < 100 else ' ') + num_words(n % 1000))
+    if n < 10000 and 1100 <= n <= 1999:                 # years: nineteen ninety-two (the screenplay's convention)
+        hi, lo = divmod(n, 100); return num_words(hi) + ' ' + (num_words(lo) if lo >= 10 else ('oh ' + num_words(lo) if lo else 'hundred'))
+    if n < 1000000:                                       # 2004 -> two thousand and four; 650000 -> six hundred and fifty thousand
+        hi, lo = divmod(n, 1000)
+        return num_words(hi) + ' thousand' + ('' if lo == 0 else (' and ' if lo < 100 else ' ') + num_words(lo))
     return str(n)
 
 

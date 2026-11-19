@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_ar_00",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 14.166,
+ "compute_s": 50.5,
+ "seed": 20261119,
+ "attempts": [
+  {
+   "seed": 20261119,
+   "dur": 14.17,
+   "expected": 10.91,
+   "ok": true
+  }
+ ],
+ "text": "في جنوبِ الجزيرةِ العربية، حيث تمتدُّ رمالُ الرُّبعِ الخالي بلا نهاية، يتردّدُ منذ قرونٍ اسمٌ قديم: إِرَمُ ذاتُ العِماد.",
+ "lang": "ar",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

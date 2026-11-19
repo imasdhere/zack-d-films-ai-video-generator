@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_ar_03",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 12.781,
+ "compute_s": 52.4,
+ "seed": 20261122,
+ "attempts": [
+  {
+   "seed": 20261122,
+   "dur": 12.78,
+   "expected": 12.0,
+   "ok": true
+  }
+ ],
+ "text": "جمعَ الإمامُ الطَّبَريُّ أقوالَ مَن سبقه، ورجَّحَ أنّ العِمادَ هي أعمدةُ الخيام، وقال إنه لا يُعلَمُ لهم بناءٌ بالعِمادِ بخبرٍ صحيح.",
+ "lang": "ar",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

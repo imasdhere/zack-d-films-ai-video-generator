@@ -422,7 +422,7 @@ def g_credits(t, dur, step, bg=None):
              ('head', 'ABOUT THE IMAGES IN THIS FILM'),
              ('body', 'Scenes marked ARTISTIC RECONSTRUCTION, LEGEND or ILLUSTRATIVE were generated with AI (SDXL) or 3D software (Blender).'),
              ('body', 'They are interpretations, not photographs of any excavated site. The Prophet Hūd is not depicted.'), ('gap', ''),
-             ('head', 'NARRATION'), ('body', 'Synthetic voice: Qwen3-TTS (Apache-2.0) · No music is used in this film'), ('gap', ''),
+             ('head', 'NARRATION'), ('body', 'Synthetic English and Arabic narration: VoxCPM2 (Apache-2.0), voices cloned with the speakers\u2019 permission'), ('body', 'No music is used in this film'), ('gap', ''),
              ('body', 'Full sources: research/bibliography.md and research/claim_verification_matrix.csv')]
     im = background().copy()
     total_h = sum(110 if k == 'title' else 70 if k == 'gap' else 58 for k, _ in lines)

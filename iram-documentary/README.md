@@ -25,6 +25,25 @@ A **21:01** historical investigation documentary (1920×1080, 24 fps, H.264 High
 | 15 | Thumbnail | `renders/final/thumbnail.jpg` |
 | 16 | Lower-resolution review copy | `renders/final/iram_lost_city_documentary_review_540p.mp4` |
 
+## Version 2: cloned English and Arabic narrators
+
+Version 2 replaces the designed synthetic voice with two cloned narrators, used with the speakers' permission:
+the English narrator from Video 1 and the Arabic narrator from Video 2. The Arabic narrator reads the original
+Arabic of the classical and hadith quotations, and the English narrator then reads the translation. Quranic
+verses are not voiced in the film: the Arabic is shown on screen and the English translation is narrated.
+Synthetic Quranic renderings exist only as review candidates and are not approved.
+
+| Deliverable | Location |
+|---|---|
+| Voice profiles (transcripts, metadata, reference reports; audio local only) | `voice_profiles/english_narrator/`, `voice_profiles/arabic_narrator/` |
+| Voice engine (adapters, routing, Quranic checks, chunking, synthesis, QA, assembly) | `audio_engine/` |
+| Central voice configuration | `configuration/voice_config.yaml` |
+| Model comparison report | `reports/voice_cloning_evaluation.md` (+ `reports/voice_clone_metrics.json`) |
+| Quranic verse registry | `research/quranic_verse_registry.csv` |
+| Narration manifest (every chunk: language, profile, engine, text, settings, QA, approval) | `assets/narration/narration_manifest.csv` |
+| Final audio QA report | `reports/final_audio_quality_control.md` |
+| Installation and usage | `documentation/voice_engine.md` |
+
 ## Research in one paragraph
 
 The Quran names Iram once (89:7) and describes it as *dhāt al-ʿimād*. Al-Ṭabarī (d. 923) reports earlier views (Iram as Alexandria, Damascus, a nation, a clan or an ancestor) and prefers "a tribe of ʿĀd". He reads *ʿimād* as the poles of a travelling people's tents, adding that "no building of theirs with columns is known through any authentic report". Ibn Kathīr (d. 1373) agrees, and calls the golden-city and Ibn Qilāba stories fables of the *Israʾīliyyāt* with unsound chains. In 1992, Landsat-guided fieldwork at Shisr (Dhofar) uncovered a real caravan fortress, partly collapsed into a sinkhole, and it was hailed as "Ubar". Its excavators themselves argued that Ubar was a region and people (Ptolemy's Iobaritae). UNESCO lists Shisr as "the caravan oasis of Shisr/Wubar", and scholars do not accept Shisr = Iram. In 2025 Ahmad Al-Jallad surveyed pre-Islamic inscriptions by members of a tribe called ʿĀd in the north and proposed a link with Wadi Ramm, whose ancient name was ʾrm. See `research/`.

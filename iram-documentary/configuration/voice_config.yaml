@@ -27,7 +27,7 @@ voice_profiles:
       dereverb: none
     reference: voice_profiles/english_narrator/cleaned_reference.wav
     transcript: voice_profiles/english_narrator/reference_transcript.txt
-    preferred_engine: pending_evaluation
+    preferred_engine: voxcpm
   arabic:
     id: arabic_narrator
     language: ar
@@ -43,7 +43,7 @@ voice_profiles:
       dereverb: evaluate
     reference: voice_profiles/arabic_narrator/cleaned_reference.wav
     transcript: voice_profiles/arabic_narrator/reference_transcript.txt
-    preferred_engine: pending_evaluation
+    preferred_engine: voxcpm
   quranic:
     reference_profile: arabic
     engine: requires_qualified_review

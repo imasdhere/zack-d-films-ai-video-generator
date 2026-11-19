@@ -4,9 +4,10 @@ set -euo pipefail
 P="$(cd "$(dirname "$0")/../.." && pwd)"; cd "$P"
 OUT=renders/final; mkdir -p $OUT
 ls renders/chapters/chapter_{0,1,2,3,4,5,6,7}.mp4 | sed "s|^|file '$P/|; s|$|'|" > $OUT/concat.txt
-ffmpeg -y -loglevel error -f concat -safe 0 -i $OUT/concat.txt -c copy $OUT/video_only.mp4
-VDUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $OUT/video_only.mp4)   # trim audio to picture; never -shortest (subtitles end early)
-ffmpeg -y -loglevel error -i $OUT/video_only.mp4 -i $OUT/mix.wav -i assets/subtitles/iram_lost_city_documentary.en.srt \
+# picture length = sum of the chapter files; mux straight from the concat list (no 3.7 GB intermediate file)
+VDUR=$(for f in renders/chapters/chapter_{0,1,2,3,4,5,6,7}.mp4; do ffprobe -v error -show_entries format=duration -of csv=p=0 "$f"; done | awk '{s+=$1} END {printf "%.3f", s}')
+# trim audio to picture; never -shortest (subtitles end early)
+ffmpeg -y -loglevel error -f concat -safe 0 -i $OUT/concat.txt -i $OUT/mix.wav -i assets/subtitles/iram_lost_city_documentary.en.srt \
   -map 0:v:0 -map 1:a:0 -map 2:s:0 -c:v copy -c:a aac -b:a 256k -ar 48000 -c:s mov_text \
   -metadata title="The Lost City of Iram — In Search of the People of the Pillars" -metadata:s:a:0 language=eng -metadata:s:s:0 language=eng \
   -t "$VDUR" -movflags +faststart $OUT/iram_lost_city_documentary.mp4
