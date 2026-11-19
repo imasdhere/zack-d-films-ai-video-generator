@@ -2093,13 +2093,13 @@
   "status": "fail",
   "err": 0.667,
   "raw_wer": 0.667,
-  "similarity": 0.848,
-  "asr": "Hold Doom's Walk.",
-  "duration": 1.76,
+  "similarity": 0.89,
+  "asr": "Holdoon's Walk.",
+  "duration": 1.84,
   "notes": [
    "ASR error 0.667 > 0.15"
   ],
-  "mtime": 1795123986.1996937
+  "mtime": 1795124032.8171265
  },
  "2.03_p01_c00": {
   "status": "pass",
