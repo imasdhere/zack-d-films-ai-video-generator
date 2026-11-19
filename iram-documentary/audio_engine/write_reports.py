@@ -11,7 +11,8 @@ CRIT = [('similarity', 'Similarity to the reference speaker'), ('naturalness', '
         ('accent_preservation', 'Accent preservation'), ('rhythm_pacing', 'Rhythm and pacing'), ('prosody', 'Prosody'),
         ('emotional_suitability', 'Emotional suitability'), ('consistency', 'Consistency between generated segments'),
         ('artefacts', 'Absence of robotic artefacts'), ('overall_provisional', 'Overall (mean of scored rows)')]
-ENGINE_NAME = {'voxcpm2': 'VoxCPM2', 'audar-flash': 'Audar-TTS-V1-Flash', 'qwen3-base': 'Qwen3-TTS 1.7B Base (version 1 engine)'}
+ENGINE_NAME = {'voxcpm-reference': 'VoxCPM2, reference mode (production)', 'voxcpm-ultimate': 'VoxCPM2, ultimate mode', 'audar': 'Audar-TTS-V1-Flash',
+               'qwen3': 'Qwen3-TTS 1.7B Base (version 1 engine)'}
 
 
 def fmt(v): return '—' if v is None else v
@@ -85,10 +86,12 @@ def evaluation():
           'Each engine received the same reference clip and transcript. Seeds are fixed (base 20261119 + chunk index). Chunks are joined with 0.45 s pauses.', '',
           '## Test matrix', '', '| Test | Reference | Engine | Language | Status | Output |', '|---|---|---|---|---|---|']
     done = {(s['engine'], s['lang']): s for s in S}
-    for n, (eng, lang) in enumerate([('audar-flash', 'en'), ('voxcpm2', 'en'), ('audar-flash', 'ar'), ('voxcpm2', 'ar'), ('qwen3-base', 'en')], 1):
+    tests = [('1', 'audar', 'en'), ('2', 'voxcpm-reference', 'en'), ('2b', 'voxcpm-ultimate', 'en'), ('3', 'audar', 'ar'),
+             ('4', 'voxcpm-reference', 'ar'), ('4b', 'voxcpm-ultimate', 'ar'), ('baseline', 'qwen3', 'en')]
+    for n, eng, lang in tests:
         ref = 'Video 1' if lang == 'en' else 'Video 2'; s = done.get((eng, lang))
-        status = 'done' if s else ('not run: NeuCodec codec is gated on Hugging Face and the access token was not accepted' if eng == 'audar-flash' else 'not run')
-        L.append(f"| {n if n < 5 else 'baseline'} | {ref} | {ENGINE_NAME[eng]} | {LANG[lang]} | {status} | {('`' + s['file'] + '` (local only)') if s else '—'} |")
+        status = 'done' if s else ('not run: NeuCodec codec is gated on Hugging Face and the access token was not accepted' if eng == 'audar' else 'not run')
+        L.append(f"| {n} | {ref} | {ENGINE_NAME[eng]} | {LANG[lang]} | {status} | {('`' + s['file'] + '` (local only)') if s else '—'} |")
     L += ['', '## Measurements', '', '| Metric | ' + ' | '.join(f"{ENGINE_NAME[s['engine']]} {s['lang'].upper()}" for s in S) + ' |', '|---|' + '---|' * len(S)]
     def row(name, f): L.append(f'| {name} | ' + ' | '.join(str(fmt(f(s))) for s in S) + ' |')
     row('Audio length (s)', lambda s: s['duration_s']); row('Generation wall time (s, incl. model load)', lambda s: s['generation'].get('wall_s'))
