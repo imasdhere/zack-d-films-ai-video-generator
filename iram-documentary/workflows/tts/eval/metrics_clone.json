@@ -1,0 +1,30 @@
+[
+ {
+  "file": "qwen3_clone_split.wav",
+  "duration_s": 65.9,
+  "wer": 0.095,
+  "terms_recognised": 8,
+  "terms": {
+   "Iram": true,
+   "Aad": true,
+   "Hud": false,
+   "Tabari": true,
+   "Kathir": true,
+   "Shisr": true,
+   "Fajr": true,
+   "Khali": true,
+   "Imad": true
+  },
+  "f0_median_hz": 90.9,
+  "f0_semitone_sd": 2.76,
+  "wpm_overall": 134.7,
+  "wpm_articulation": 184.8,
+  "n_pauses": 20,
+  "mean_pause_s": 0.89,
+  "peak_dbfs": -2.6,
+  "transcript": "Across the southern edge of the Arabian Peninsula lies the Rub Al-Khalih, the empty quarter, an ocean of sand covering some 650,000 square kilometers. Somewhere in the memory of this land is a name, Iram. Dhat, Al-Imad, Irem of the Pillars. The Quran mentions it only once, in Surat al-Fajr, beside the people of Ad, the nation to whom the prophethood was sent. For more than a thousand years, scholars such as Al-Tabari and Ibn Kathir debated what those words meant. Was Iram a city, a tribe, or the name of an ancestor? Were its pillars columns of stone or the poles of great tents? In the 20th century, explorers and scientists carried the question into the desert itself. What they found at a place called Shisur would make headlines around the world. But what exactly did they find?",
+  "squim_stoi": 0.998,
+  "squim_pesq": 4.33,
+  "squim_sisdr": 30.2
+ }
+]

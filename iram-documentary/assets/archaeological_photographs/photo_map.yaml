@@ -1,0 +1,30 @@
+# Real photographs / satellite images. Licence metadata: commons_licences.json (Wikimedia) and nasa/*.caption.txt (NASA).
+# fallback: used only if the real file could not be downloaded (rate-limited host); fallbacks keep their own labels.
+PH_SHISR1: {commons: "File:Shisr (Ubar)9.jpg", fallback: NASA_PIA01721}
+PH_SHISR2: {commons: "File:Ubar.jpg", fallback: E07}
+PH_SHISR_WELL: {commons: "File:Ubar 2002 Hole Water.jpg", fallback: E09}
+PH_SHISR_RUIN: {commons: "File:Ubar 2002 Ruine.jpg", fallback: D08}
+PH_ROAD_UBAR: {commons: "File:Road to Ubar.jpg", fallback: NASA_ISS_DUNES}
+PH_BOSW1: {commons: "File:Boswellia sacra kz02.jpg", fallback: E12}
+PH_DAWKAH: {commons: "File:Oman, Wadi Dawkah, Land of Frankincense.jpg", fallback: NASA_ISS_DHOFAR}
+PH_BARK: {commons: "File:Boswellia sacra bark.jpg", fallback: E13}
+PH_BALEED: {commons: "File:Al Baleed Archaeological Park.jpg", fallback: NASA_SALALAH}
+PH_THOMAS_BEDU: {commons: "File:Janababedouin.png", fallback: E01}
+PH_WABAR: {commons: "File:Wabar craters.jpg", fallback: NASA_EMPTYQ}
+PH_WABAR2: {commons: "File:Meteorite crater at Wabar.jpg", fallback: D16}
+PH_WABAR_IRON: {commons: "File:Widmanstatten patterns 1.jpg", fallback: NASA_ASTER_DUNES}
+PH_RUM1: {commons: "File:Wadi Rum (12463439175).jpg", fallback: NASA_WADIRUM}
+PH_RUM2: {commons: "File:Wadi Rum (12463602173).jpg", fallback: D20}
+PH_RUM3: {commons: "File:Wadi Rum landscape (12465264714).jpg", fallback: D20}
+PH_RUM4: {commons: "File:Wadi Rum (12464968534).jpg", fallback: NASA_WADIRUM}
+PH_ASTER_RUB: {nasa: PIA11084, credit: "NASA/METI/AIST/Japan Space Systems & U.S./Japan ASTER Science Team — Terra ASTER, Rubʿ al-Khālī"}
+PH_ASTER_DUNES: {nasa: PIA02656, credit: "NASA/GSFC/METI/ERSDAC/JAROS & U.S./Japan ASTER Science Team — linear dunes, Rubʿ al-Khālī, 2000"}
+NASA_ASTER_DUNES: {nasa: PIA02656, credit: "NASA/GSFC/METI/ERSDAC/JAROS & U.S./Japan ASTER Science Team — linear dunes, Rubʿ al-Khālī, 2000"}
+NASA_PIA01721: {nasa: PIA01721, credit: "NASA/JPL — SIR-C/X-SAR radar, Space Shuttle Endeavour, 13 April 1994"}
+NASA_PIA01302: {nasa: PIA01302, credit: "NASA/JPL — SIR-C/X-SAR radar (left) and astronaut photograph (right)"}
+NASA_STS59: {nasa: sts059-s-109, credit: "NASA — Liftoff of STS-59 Endeavour, 9 April 1994 (the SIR-C radar mission)"}
+NASA_ISS_DUNES: {nasa: iss069e010867, credit: "NASA — ISS Expedition 69, dunes on the Saudi Arabia–Oman border, 16 May 2023"}
+NASA_ISS_DHOFAR: {nasa: iss069e003275, credit: "NASA — ISS Expedition 69, Oman and the Dhofar mountains, 13 April 2023"}
+NASA_SALALAH: {nasa: PIA21803, credit: "NASA/METI/AIST/Japan Space Systems & U.S./Japan ASTER Science Team — Salalah, Oman"}
+NASA_WADIRUM: {nasa: GSFC_20171208_Archive_e001903, credit: "NASA — Wadi Rum, Jordan, satellite image acquired 27 July 2001"}
+NASA_EMPTYQ: {nasa: GSFC_20171208_Archive_e001930, credit: "NASA — the Rubʿ al-Khālī near the Saudi Arabia–Yemen border"}

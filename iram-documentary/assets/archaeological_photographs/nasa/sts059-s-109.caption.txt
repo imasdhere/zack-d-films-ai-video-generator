@@ -1,0 +1,14 @@
+{
+ "center": "JSC",
+ "date_created": "1994-04-09T00:00:00Z",
+ "description": "STS059-S-109 (9 April 1994) --- The Space Shuttle Endeavour heads for its sixth mission in space.  Liftoff occurred at 7:05 a.m. (EDT), April 9, 1994.  Onboard were astronauts Sidney M. Gutierrez, Kevin P. Chilton, Linda M. Godwin, Jerome (Jay) Apt, Michael R. (Rich) Clifford and Thomas D. Jones.  The photograph was taken by Karen Dillon of San Jose, California, who observed the liftoff from the NASA causeway.",
+ "keywords": [
+  "ENDEAVOUR (ORBITER)",
+  "LIFTOFF (LAUNCHING)",
+  "STS-59",
+  "FLORIDA"
+ ],
+ "media_type": "image",
+ "nasa_id": "sts059-s-109",
+ "title": "Liftoff of STS-59 Shuttle Endeavour"
+}

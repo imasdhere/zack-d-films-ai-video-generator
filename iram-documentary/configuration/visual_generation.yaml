@@ -1,0 +1,17 @@
+image_generation:
+  tool: ComfyUI 0.46.0 (headless API, CPU)
+  checkpoint: stabilityai/stable-diffusion-xl-base-1.0
+  lora: ByteDance/SDXL-Lightning 8-step (strength 1.0)
+  vae: madebyollin/sdxl-vae-fp16-fix
+  sampler: euler / sgm_uniform, 8 steps, CFG 1.0
+  size: [1344, 768]
+  dtype: bf16 (unet, text encoder, vae)
+  img2img_over_blender: denoise 0.55-0.60, same model
+  prompts: storyboard/assets.yaml (style suffixes: photo / recon / legend)
+  per_image_record: assets/images/<ID>.json (prompt, negative, seed, settings, full ComfyUI API workflow)
+style_grammar:
+  photo: atmosphere and landscapes, no factual claim
+  recon: "ARTISTIC RECONSTRUCTION" label, documentary realism, anonymous distant figures only
+  legend: Persian-miniature painterly style + "LEGEND — LATER TRADITION" label, so legend never looks like evidence
+depth: depth-anything/Depth-Anything-V2-Small-hf (Apache-2.0), used for 2.5-D parallax
+3d: Blender bpy 5.3, Cycles CPU, workflows/blender/iram_scenes.py

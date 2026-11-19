@@ -1,0 +1,5 @@
+iram:
+  base_path: /home/user/iram-work/models
+  checkpoints: sdxl
+  loras: sdxl-lightning
+  vae: sdxl-vae-fix

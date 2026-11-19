@@ -1,0 +1,19 @@
+{
+ "id": "2.06",
+ "sr": 24000,
+ "duration": 9.798,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "The Quran tells us where Hood preached in a single phrase.",
+   "start": 0.0,
+   "end": 3.32
+  },
+  {
+   "i": 1,
+   "tts": "He warned his people, it says, among the wind-curved sandhills: bil-Ahqaaf.",
+   "start": 3.77,
+   "end": 9.798
+  }
+ ]
+}

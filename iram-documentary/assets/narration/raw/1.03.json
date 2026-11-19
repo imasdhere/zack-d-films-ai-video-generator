@@ -1,0 +1,19 @@
+{
+ "id": "1.03",
+ "sr": 24000,
+ "duration": 9.065,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "The oldest written source for that memory is the Quran.",
+   "start": 0.0,
+   "end": 3.543
+  },
+  {
+   "i": 1,
+   "tts": "In a short passage of Soorat al-Fajr, the chapter of the Dawn, it asks:",
+   "start": 3.993,
+   "end": 9.065
+  }
+ ]
+}

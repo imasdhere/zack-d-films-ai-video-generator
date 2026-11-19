@@ -1,0 +1,8 @@
+{
+ "center": "JSC",
+ "date_created": "2023-05-16T00:00:00Z",
+ "description": "iss069e010867 (May 16, 2023) --- Sand dunes in the desert area along the Saudi Arabia-Oman border were pictured by UAE (United Arab Emirates) astronaut and Expedition 69 Flight Engineer Sultan Alneyadi from the International Space Station as it orbited 256 miles above.",
+ "media_type": "image",
+ "nasa_id": "iss069e010867",
+ "title": "Sand dunes along the Saudi Arabia-Oman border"
+}

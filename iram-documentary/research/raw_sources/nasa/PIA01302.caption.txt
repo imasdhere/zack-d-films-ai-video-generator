@@ -1,0 +1,14 @@
+{
+ "center": "JPL",
+ "date_created": "1998-04-28T12:59:13Z",
+ "description": "This pair of images from space shows a portion of the southern Empty Quarter of the Arabian Peninsula in the country of Oman. On the left is a radar image of the region around the site of the fabled Lost City of Ubar, discovered in 1992 with the aid of remote sensing data. On the right is an enhanced optical image taken by the shuttle astronauts. Ubar existed from about 2800 BC to about 300 AD. and was a remote desert outpost where caravans were assembled for the transport of frankincense across the desert. The actual site of the fortress of the Lost City of Ubar, currently under excavation, is too small to show in either image. However, tracks leading to the site, and surrounding tracks, show as prominent, but diffuse, reddish streaks in the radar image. Although used in modern times, field investigations show many of these tracks were in use in ancient times as well. Mapping of these tracks on regional remote sensing images provided by the Landsat satellite was a key to recognizing the site as Ubar. The prominent magenta colored area is a region of large sand dunes. The green areas are limestone rocks, which form a rocky desert floor. A major wadi, or dry stream bed, runs across the scene and appears as a white line. The radar images, and ongoing field investigations, will help shed light on an early civilization about which little in known. The radar image was taken by the Spaceborne Imaging Radar C/X-Band Synthetic Aperture Radar (SIR-C/X-SAR) and is centered at 18 degrees North latitude and 53 degrees East longitude. The image covers an area about 50 kilometers by 100 kilometers (31 miles by 62 miles). The colors in the image are assigned to different frequencies and polarizations of the radar as follows: red is L-band, horizontally transmitted, horizontally received; blue is C-band horizontally transmitted, horizontally received; green is L-band horizontally transmitted, vertically received. SIR-C/X-SAR, a joint mission of the German, Italian and the United States space agencies, is part of NASA's Mission to Planet Earth.   http://photojournal.jpl.nasa.gov/catalog/PIA01302",
+ "description_508": "This pair of images from NASA's Synthetic Aperture Radar shows a portion of the southern Empty Quarter of the Arabian Peninsula in the country of Oman.",
+ "keywords": [
+  "Earth",
+  "Spaceborne Imaging Radar-C/X-Band Synthetic Aperture Radar"
+ ],
+ "media_type": "image",
+ "nasa_id": "PIA01302",
+ "secondary_creator": "NASA/JPL",
+ "title": "Space Radar Image of Ubar Optical/Radar"
+}

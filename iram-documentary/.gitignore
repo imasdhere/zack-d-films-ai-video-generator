@@ -1,0 +1,17 @@
+# large or regenerable media (kept locally; see README for how to regenerate)
+renders/chapters/
+renders/previews/
+renders/shots/
+renders/final/*.mp4
+renders/final/*.wav
+renders/final/concat.txt
+assets/narration/raw/*.wav
+assets/narration/narration_stem.wav
+assets/sound_effects/*.wav
+assets/images/depth/
+assets/3d_models/renders/*.png
+assets/archaeological_photographs/*.jpg
+assets/archaeological_photographs/*.png
+assets/archaeological_photographs/*.tif
+research/raw_sources/web_secondary/*.html
+__pycache__/

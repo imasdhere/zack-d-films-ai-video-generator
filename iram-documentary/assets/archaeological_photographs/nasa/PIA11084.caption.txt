@@ -1,0 +1,14 @@
+{
+ "center": "JPL",
+ "date_created": "2008-08-08T17:45:17Z",
+ "description": "NASA Terra spacecraft shows the Rub al Khali, one of the largest sand deserts in the world, encompassing most of the southern third of the Arabian Peninsula; it includes parts of Oman, United Arab Emirates, and Yemen.",
+ "description_508": "NASA Terra spacecraft shows the Rub al Khali, one of the largest sand deserts in the world, encompassing most of the southern third of the Arabian Peninsula; it includes parts of Oman, United Arab Emirates, and Yemen.",
+ "keywords": [
+  "Earth",
+  "Terra"
+ ],
+ "media_type": "image",
+ "nasa_id": "PIA11084",
+ "secondary_creator": "NASA/GSFC/METI/ERSDAC/JAROS, and U.S./Japan ASTER Science Team",
+ "title": "Rub al Khali, Arabia"
+}

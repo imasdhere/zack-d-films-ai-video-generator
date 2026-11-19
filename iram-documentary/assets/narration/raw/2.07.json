@@ -1,0 +1,25 @@
+{
+ "id": "2.07",
+ "sr": 24000,
+ "duration": 20.449,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "Classical scholars tried to find that landscape on the map.",
+   "start": 0.0,
+   "end": 3.427
+  },
+  {
+   "i": 1,
+   "tts": "The great exegete at-Tabari, who died in Baghdad in the year nine hundred and twenty-three, explained that ahqaaf means sand that curves and bends.",
+   "start": 3.877,
+   "end": 12.594
+  },
+  {
+   "i": 2,
+   "tts": "He placed the land of Aad in the south: in ash-Shihr, in the region of Hadramawt, and the lands around it.",
+   "start": 13.044,
+   "end": 20.449
+  }
+ ]
+}

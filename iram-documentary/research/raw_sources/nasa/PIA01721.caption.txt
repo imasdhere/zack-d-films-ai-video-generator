@@ -1,0 +1,14 @@
+{
+ "center": "JPL",
+ "date_created": "1999-01-27T08:19:49Z",
+ "description": "This is a radar image of the region around the site of the lost city of Ubar in southern Oman, on the Arabian Peninsula. The ancient city was discovered in 1992 with the aid of remote sensing data. Archeologists believe Ubar existed from about 2800 B.C. to about 300 A.D. and was a remote desert outpost where caravans were assembled for the transport of frankincense across the desert.  This image was acquired on orbit 65 of space shuttle Endeavour on April 13, 1994 by the Spaceborne Imaging Radar C/X-Band Synthetic Aperture Radar (SIR-C/X-SAR). The SIR-C image shown is centered at 18.4 degrees north latitude and 53.6 degrees east longitude. The image covers an area about 50 by 100 kilometers (31 miles by 62 miles). The image is constructed from three of the available SIR-C channels and displays L-band, HH (horizontal transmit and receive) data as red, C-band HH as blue, and L-band HV (horizontal transmit, vertical receive) as green. The prominent magenta colored area is a region of large sand dunes, which are bright reflectors at both L-and C-band. The prominent green areas (L-HV) are rough limestone rocks, which form a rocky desert floor. A major wadi, or dry stream bed, runs across the middle of the image and is shown largely in white due to strong radar scattering in all channels displayed (L and C HH, L-HV).  The actual site of the fortress of the lost city of Ubar, currently under excavation, is near the Wadi close to the center of the image. The fortress is too small to be detected in this image. However, tracks leading to the site, and surrounding tracks, appear as prominent, but diffuse, reddish streaks. These tracks have been used in modern times, but field investigations show many of these tracks were in use in ancient times as well. Mapping of these tracks on regional remote sensing images was a key to recognizing the site as Ubar in 1992. This image, and ongoing field investigations, will help shed light on a little known early civilization.  http://photojournal.jpl.nasa.gov/catalog/PIA01721",
+ "description_508": "This is a radar image of the region around the site of the lost city of Ubar in southern Oman, on the Arabian Peninsula.",
+ "keywords": [
+  "Earth",
+  "Spaceborne Imaging Radar-C/X-Band Synthetic Aperture Radar"
+ ],
+ "media_type": "image",
+ "nasa_id": "PIA01721",
+ "secondary_creator": "NASA/JPL-Caltech",
+ "title": "Space Radar Image of the Lost City of Ubar"
+}

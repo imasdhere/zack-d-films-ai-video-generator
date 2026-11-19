@@ -1,0 +1,21 @@
+project: THE LOST CITY OF IRAM
+subtitle: In Search of the People of the Pillars
+working_title_note: >-
+  The brief's subtitle "The City of a Thousand Pillars — A Civilization Swallowed by the Sands" was revised: the Quran gives no
+  number of pillars, and it says the people's dwellings remained visible (46:25), not that a city was buried. The main title is kept.
+output:
+  master: renders/final/iram_lost_city_documentary.mp4
+  review_copy: renders/final/iram_lost_city_documentary_review_540p.mp4
+  resolution: [1920, 1080]
+  fps: 24
+  video_codec: h264 (libx264, crf 16, yuv420p)
+  audio: AAC-LC 256 kb/s stereo 48 kHz, loudness -16 LUFS integrated, -1.5 dBTP
+  subtitles: assets/subtitles/iram_lost_city_documentary.en.srt (also muxed as a soft track)
+target_duration_min: [18, 22]
+music: none            # strictly prohibited; QC verifies
+work_dir: /home/user/iram-work   # venvs, models, caches (not in git)
+editorial_rules:
+  - The Prophet Hud is never depicted.
+  - The people of ʿĀd appear only as distant, anonymous figures.
+  - Every reconstruction, legend and illustration carries an on-screen label.
+  - Religious account and scientific evidence are kept in separate sequences.

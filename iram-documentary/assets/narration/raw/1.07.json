@@ -1,0 +1,31 @@
+{
+ "id": "1.07",
+ "sr": 24000,
+ "duration": 11.757,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "This film asks three questions.",
+   "start": 0.0,
+   "end": 2.112
+  },
+  {
+   "i": 1,
+   "tts": "What does the text actually say?",
+   "start": 2.562,
+   "end": 5.009
+  },
+  {
+   "i": 2,
+   "tts": "What did the earliest scholars understand by it?",
+   "start": 5.572,
+   "end": 8.161
+  },
+  {
+   "i": 3,
+   "tts": "And what, if anything, has archaeology really found?",
+   "start": 8.724,
+   "end": 11.757
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "0.02",
+ "sr": 24000,
+ "duration": 5.009,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "And yet, some names survive the wind.",
+   "start": 0.0,
+   "end": 3.064
+  },
+  {
+   "i": 1,
+   "tts": "One of them is Iram.",
+   "start": 3.514,
+   "end": 5.009
+  }
+ ]
+}

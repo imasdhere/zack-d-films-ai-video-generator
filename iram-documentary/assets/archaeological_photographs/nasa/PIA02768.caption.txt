@@ -1,0 +1,14 @@
+{
+ "center": "JPL",
+ "date_created": "2000-08-03T21:35:07Z",
+ "description": "This perspective view includes the city of Salalah, the second largest city in Oman. The city is located on the broad, generally bright coastal plain and includes areas of green irrigated crops.",
+ "description_508": "This perspective view includes the city of Salalah, the second largest city in Oman. The city is located on the broad, generally bright coastal plain and includes areas of green irrigated crops.",
+ "keywords": [
+  "Earth",
+  "Landsat,Shuttle Radar Topography Mission SRTM"
+ ],
+ "media_type": "image",
+ "nasa_id": "PIA02768",
+ "secondary_creator": "NASA/JPL",
+ "title": "Perspective View, Landsat Overlay, Salalah, Oman, Southern Arabian Peninsula"
+}

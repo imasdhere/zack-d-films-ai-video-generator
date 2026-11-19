@@ -1,0 +1,91 @@
+# Visual asset register. Every generated asset keeps its prompt and settings next to the output (assets/images/<id>.json).
+# label: overlay tag shown on screen (evidence grammar). kinds: ai | blender | map | photo | nasa | graphic
+style:
+  photo: "cinematic documentary photograph, shot on 35mm film, natural light, realistic textures, muted earth tones, subtle atmospheric haze, high detail, wide dynamic range"
+  recon: "photorealistic historical reconstruction, documentary realism, natural light, weathered materials, plausible ancient South Arabian architecture, muted earth palette, atmospheric haze"
+  legend: "Persian miniature painting style, gold leaf, illuminated manuscript illustration, flat perspective, ornamental borders, gouache on paper, no text"
+negative:
+  default: "text, letters, words, writing, watermark, logo, signature, caption, frame, border, modern buildings, cars, roads, power lines, airplane, close-up face, portrait, cartoon, anime, 3d render, cgi, plastic, oversaturated, neon, fantasy glow, sci-fi, blurry, lowres, jpeg artifacts, deformed, extra limbs"
+  legend: "photograph, photorealistic, text, letters, calligraphy, watermark, logo, signature, modern, 3d render, blurry, deformed, close-up face"
+ai:
+  # --- desert / landscape (no factual claim; atmosphere) ---
+  D01: {style: photo, label: null, prompt: "aerial view of an endless sea of giant sand dunes at dawn in the Empty Quarter of Arabia, long blue shadows, soft golden light on dune crests, vast scale"}
+  D02: {style: photo, label: null, prompt: "close view of a sharp sand dune crest with sand streaming off the ridge in strong wind, golden hour backlight, glowing particles of sand"}
+  D03: {style: photo, label: null, prompt: "macro detail of wind ripples in fine orange sand, low raking sunlight, deep shadows in the ripples"}
+  D04: {style: photo, label: null, prompt: "high altitude view over a vast orange dune field stretching to a hazy horizon, star dunes and long linear dunes, Arabian desert"}
+  D05: {style: photo, label: null, prompt: "desert at night under a starry sky with the Milky Way, dark silhouettes of tall sand dunes, faint blue moonlight on the sand"}
+  D06: {style: photo, label: null, prompt: "a towering wall of dust and sand rolling across a flat desert plain toward the camera, dark ochre sky, dramatic natural light"}
+  D07: {style: photo, label: null, prompt: "tall red sand dunes at sunset beside a pale gravel plain, warm light, Arabian desert"}
+  D08: {style: photo, label: null, prompt: "flat stony limestone desert plain with distant low sand dunes on the horizon, Dhofar interior of Oman, harsh midday light, heat haze"}
+  D09: {style: photo, label: null, prompt: "aerial view of curved crescent-shaped barchan sand dunes in a row, wind-curved sandhills, soft morning light"}
+  D10: {style: photo, label: null, prompt: "a line of human footprints on a smooth sand dune slope, wind blowing sand across them, partly erased, evening light"}
+  D11: {style: photo, label: null, prompt: "soft dawn mist lying between sand dunes, pale pink and gold light, quiet desert landscape"}
+  D12: {style: photo, label: null, prompt: "dry rocky wadi bed in a limestone desert with a few acacia trees, pale stones, southern Arabia, morning light"}
+  D13: {style: photo, label: null, prompt: "white gypsum flat between tall dunes, shimmering mirage on the horizon, Arabian desert"}
+  D14: {style: photo, label: null, prompt: "huge dark storm cloud approaching over desert valleys and rocky hills, shafts of light, ominous sky, no people"}
+  D15: {style: photo, label: null, prompt: "a dense rolling cloud bank moving across a wide desert valley, dust rising beneath it, dim amber light"}
+  D16: {style: photo, label: null, prompt: "calm dawn after a sandstorm, fine sand drifted over scattered stones, soft pastel light, silent desert"}
+  D17: {style: photo, label: null, prompt: "a lone acacia tree in a sandy desert with dust blowing in the wind, late afternoon light"}
+  D18: {style: photo, label: null, prompt: "sun rays piercing through airborne dust haze over sand dunes, golden volumetric light"}
+  D19: {style: photo, label: null, prompt: "a single sand dune ridge curving into the distance, minimalist composition, wind-carved sand, pale blue sky"}
+  D20: {style: photo, label: null, prompt: "red sandstone cliffs and sand valley of Wadi Rum in southern Jordan at dawn, rock towers, red sand"}
+  # --- ancient life: artistic reconstruction (anonymous distant figures only) ---
+  P01: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "ancient Arabian pastoral settlement in a green valley with springs and date palm gardens, small distant figures and cattle, low stone houses, early morning haze, wide landscape"}
+  P02: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "herd of cattle and goats drinking at a natural spring beneath date palms in an ancient Arabian valley, wide shot, no close faces"}
+  P03: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "ancient irrigated gardens with stone water channels and palm groves at the foot of rocky hills, southern Arabia, golden light"}
+  P04: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "a tall ancient stone tower standing alone on a high rocky ridge above a desert valley, dramatic evening light"}
+  P05: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "massive fortified stone stronghold built on a rocky hill, ancient southern Arabia, thick dry-stone walls and towers, wide view, haze"}
+  P06: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "distant silhouettes of a few people in simple robes walking along a desert ridge at sunset, tiny figures, vast landscape"}
+  P07: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "close-up of weathered hands placing a rough limestone block on a dry-stone wall, dust in the air, warm light, no face visible"}
+  P09: {style: photo, label: "ILLUSTRATIVE", prompt: "aerial view of a deep desert canyon valley in Hadhramaut, Yemen, with sheer layered sandstone cliffs and green date palm groves along the valley floor, morning haze"}
+  P08: {style: photo, label: "ILLUSTRATION — HUMID PERIOD", prompt: "ancient green Arabian landscape with a shallow lake among low sand dunes, grassland and scattered trees, herds of wild animals in the distance, soft light"}
+  # --- Iram: two readings (artistic reconstruction) ---
+  R01: {style: recon, label: "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING", prompt: "an imagined ancient desert city with rows of tall stone columns in a sandy valley, monumental colonnades of pale limestone, morning haze, wide establishing view"}
+  R02: {style: recon, label: "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING", prompt: "a colonnade of massive weathered stone pillars casting long shadows on sand, low sun, ancient desert architecture"}
+  R03: {style: recon, label: "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING", prompt: "distant view of an ancient walled settlement with tall columns among sand dunes, dust haze, late afternoon light"}
+  R04: {style: recon, label: "ARTISTIC RECONSTRUCTION — THE CLASSICAL EXEGETES' READING", prompt: "a large Bedouin encampment of long black goat-hair tents raised on tall wooden poles in a desert valley at dawn, camels resting, smoke from fires, wide shot, small distant figures"}
+  R05: {style: recon, label: "ARTISTIC RECONSTRUCTION — THE CLASSICAL EXEGETES' READING", prompt: "detail of a black woven goat-hair tent stretched over tall wooden tent poles with ropes and stakes in sand, warm morning light"}
+  R06: {style: recon, label: "ARTISTIC RECONSTRUCTION — THE CLASSICAL EXEGETES' READING", prompt: "a nomadic caravan of camels carrying rolled tents and tent poles across a wide desert plain, long shadows, distant figures"}
+  # --- legend (distinct painterly grammar) ---
+  L01: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a fabulous golden city with palaces of gold and silver bricks, jewelled gardens and rivers, surrounded by desert, seen from a distance"}
+  L02: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a lone traveller with camels in the desert at night discovering the tall gates of a mysterious walled city, small figure seen from behind"}
+  L03: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a mirage of a golden city floating above desert sands, ornamental clouds, gold leaf sky"}
+  # --- scholarship atmosphere (no legible text) ---
+  K01: {style: photo, label: null, prompt: "a medieval scholar's desk lit by an oil lamp, closed leather-bound books, reed pens and an inkwell, warm candlelight, dark background, no people"}
+  K02: {style: photo, label: null, prompt: "stacked old closed manuscripts with worn leather covers on a wooden shelf, dust in lamplight, no visible text"}
+  # --- exploration & trade ---
+  E01: {style: recon, label: "RECONSTRUCTION", prompt: "a camel caravan crossing towering sand dunes in single file, seen from far away, long shadows at sunset, Arabian desert"}
+  E02: {style: photo, label: null, prompt: "camels resting beside a low stone well in a stony desert at dusk, embers of a small fire, no faces"}
+  E04: {style: photo, label: null, prompt: "white smoke of frankincense rising from a clay incense burner, dark background, glowing coals, close-up"}
+  E05: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "an ancient fortified harbour town on a rocky headland above a lagoon, wooden sailing ships moored, misty green hills behind, southern Arabian coast"}
+  E06: {style: photo, label: null, prompt: "green mountains of Dhofar in Oman wrapped in thick monsoon fog and low clouds, wet grass, mysterious atmosphere"}
+  E07: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "a camel caravan loaded with sacks arriving at a small stone fortress beside a desert waterhole, ancient Arabia, dusk light, distant figures"}
+  E08: {style: photo, label: "ILLUSTRATIVE — NOT SHISR", prompt: "an archaeological excavation trench revealing old dry-stone walls in a desert, string grid lines, trowels and buckets, harsh daylight, no people"}
+  E09: {style: photo, label: "ILLUSTRATIVE", prompt: "a collapsed limestone sinkhole in a desert with broken stone walls slumped into the cavity, pale rock, daylight"}
+  E10: {style: photo, label: null, prompt: "night sky over a dark desert with a bright satellite moving among the stars, long exposure"}
+  E12: {style: photo, label: "ILLUSTRATIVE", prompt: "a gnarled frankincense tree with papery peeling bark growing on a dry rocky hillside in southern Oman, sparse leaves, harsh sunlight"}
+  E13: {style: photo, label: "ILLUSTRATIVE", prompt: "close-up of milky white frankincense resin tears oozing from a cut in the papery bark of a Boswellia tree, macro, natural light"}
+  E11: {style: photo, label: null, prompt: "pages of an old leather-bound travel journal and a brass compass on a camel saddle blanket, warm light, no legible writing"}
+  # --- science illustration ---
+  S01: {style: photo, label: "ILLUSTRATIVE", prompt: "inside a limestone cave, tall stalagmites and stalactites lit by a beam of light, water droplets, dark atmosphere"}
+  S02: {style: photo, label: "ILLUSTRATIVE", prompt: "close-up of a cut stalagmite cross-section showing fine growth layers, laboratory light, scientific detail"}
+  S03: {style: photo, label: "ILLUSTRATION — HUMID PERIOD", prompt: "an ancient lake among sand dunes in Arabia with green reeds on its shore, a river channel flowing out, soft light, aerial view"}
+  S04: {style: photo, label: null, prompt: "dry cracked lake bed in a sandy desert with white mineral crust, distant dunes, harsh light"}
+blender:
+  B01: {label: null, desc: "Procedural dune-sea flyover at golden hour (camera dolly + slow yaw), 8 s, 24 fps"}
+  B02: {label: "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING", desc: "Stone-column settlement in a sand valley, slow push-in along a colonnade, volumetric haze"}
+  B03: {label: "SCHEMATIC — NOT TO SCALE", desc: "Shisr schematic: fortress wall ring partially slumped into a limestone sinkhole above a water table"}
+  B04: {label: null, desc: "Low wind-swept dune ridge at dusk with blowing sand particles, for ending"}
+maps:
+  M01: {label: "MAP", desc: "Arabian Peninsula overview, Rubʿ al-Khālī highlighted, countries"}
+  M03: {label: "MAP — CLASSICAL INTERPRETATION", desc: "al-Aḥqāf according to al-Ṭabarī: soft zone over Ḥaḍramawt / al-Shiḥr"}
+  M05: {label: "MAP", desc: "Wabar craters location in the Rubʿ al-Khālī"}
+  M06: {label: "MAP", desc: "Dhofar: Salalah, Khor Rori, Al-Baleed, Wadi Dawkah, Shisr; DEM relief"}
+  M07: {label: "MAP — SIMPLIFIED SCHEMATIC", desc: "Incense routes from southern Arabia to the Mediterranean (simplified)"}
+  M09: {label: "MAP — HYPOTHESES", desc: "Two proposed regions: South Arabia (classical) vs Wadi Ramm (recent proposal); Iram location unknown"}
+
+# SDXL img2img passes over Blender layouts: the 3D scene fixes geometry and camera; SDXL adds photographic materials and light.
+img2img:
+  B02_V1: {src: assets/3d_models/renders/columns_v1.png, denoise: 0.58, style: recon, label: "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING", prompt: "an imagined ancient South Arabian sanctuary with a row of tall square monolithic limestone pillars on a high ashlar stone platform with a broad stair, multi-storey mud-brick tower houses behind, desert valley, soft morning light, dust haze, weathered stone texture"}
+  B02_V2: {src: assets/3d_models/renders/columns_v2.png, denoise: 0.55, style: recon, label: "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING", prompt: "low angle view along a row of towering square monolithic limestone pillars with notched tops on an ashlar platform, ancient South Arabia, bright hazy sky, weathered pale stone, sand"}
+  B02_V3: {src: assets/3d_models/renders/columns_v3.png, denoise: 0.6, style: recon, label: "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING", prompt: "distant view of an imagined ancient walled settlement of mud-brick tower houses and a pillared stone sanctuary in a wide sandy desert valley, dunes on the horizon, warm haze, documentary landscape"}

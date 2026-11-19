@@ -1,0 +1,9 @@
+{
+ "center": "JSC",
+ "date_created": "2023-04-13T00:00:00Z",
+ "description": "iss069e003275 (April 13, 2023) --- The middle eastern nation of Oman and its Dhofar mountains on the coast of the Arabian Sea were pictured by UAE (United Arab Emirates) astronaut and Expedition 69 Flight Engineer Sultan Alneyadi as the International Space Station orbited 257 miles above.",
+ "description_508": "The middle eastern nation of Oman and its Dhofar mountains on the coast of the Arabian Sea were pictured by UAE (United Arab Emirates) astronaut and Expedition 69 Flight Engineer Sultan Alneyadi as the International Space Station orbited 257 miles above.",
+ "media_type": "image",
+ "nasa_id": "iss069e003275",
+ "title": "Oman and its Dhofar mountains on the coast of the Arabian Sea"
+}

@@ -1,0 +1,25 @@
+{
+ "id": "2.02",
+ "sr": 24000,
+ "duration": 10.554,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "In the Quranic account, Aad were a people who came after the people of Noah.",
+   "start": 0.0,
+   "end": 4.232
+  },
+  {
+   "i": 1,
+   "tts": "To them was sent a prophet from among themselves.",
+   "start": 4.682,
+   "end": 7.673
+  },
+  {
+   "i": 2,
+   "tts": "The Quran calls him their brother: Hood.",
+   "start": 8.123,
+   "end": 10.554
+  }
+ ]
+}

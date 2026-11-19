@@ -1,0 +1,19 @@
+{
+ "id": "2.08",
+ "sr": 24000,
+ "duration": 11.346,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "In Hadramawt today, a tomb attributed to the Prophet Hood is still visited by pilgrims.",
+   "start": 0.0,
+   "end": 5.888
+  },
+  {
+   "i": 1,
+   "tts": "It is a living tradition, though more than one place has claimed his resting place.",
+   "start": 6.338,
+   "end": 11.346
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+# See reports/dependency_register.md for versions, licences and the reasons each candidate was adopted or rejected.
+venvs:
+  ml: {python: "3.12", path: /home/user/iram-work/venvs/ml}
+  qwen: {python: "3.12", path: /home/user/iram-work/venvs/qwen, pins: {transformers: 4.57.3, qwen-tts: 0.1.1}}
+  comfy: {python: "3.12", path: /home/user/iram-work/venvs/comfy, source: /home/user/ComfyUI (imasdhere/ComfyUI @ 995456d)}
+  blender: {python: "3.13", path: /home/user/iram-work/venvs/blender, pins: {bpy: 5.3.0}}
+models_dir: /home/user/iram-work/models
+system: {ffmpeg: 6.1.1, os: Ubuntu 24.04, cpu_only: true}

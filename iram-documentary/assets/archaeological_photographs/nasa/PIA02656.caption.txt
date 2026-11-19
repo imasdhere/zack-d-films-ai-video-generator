@@ -1,0 +1,14 @@
+{
+ "center": "JPL",
+ "date_created": "2000-10-06T23:11:59Z",
+ "description": "This image of Saudi Arabia shows a great sea of linear dunes in part of the Rub' al Khali, or the Empty Quarter. Acquired on June 25, 2000, the image covers an area 37 kilometers (23 miles) wide and 28 kilometers (17 miles) long in three bands of the reflected visible and infrared wavelength region. The dunes are yellow due to the presence of iron oxide minerals. The inter-dune area is made up of clays and silt and appears blue due to its high reflectance in band 1. The Rub' al Khali is the world's largest continuous sand desert. It covers about 650,000 square kilometers (250,966 square miles) and lies mainly in southern Saudi Arabia, though it does extend into the United Arab Emirates, Oman, and Yemen. One of the world's driest areas, it is uninhabited except for the Bedouin nomads who cross it. The first European to travel through the desert was Bertram Thomas in 1930.  http://photojournal.jpl.nasa.gov/catalog/PIA02656",
+ "description_508": "This image of Saudi Arabia shows a great sea of linear dunes in part of the Rub al Khali, or the Empty Quarter. Acquired on June 25, 2000 by NASA Terra satellite.",
+ "keywords": [
+  "Earth",
+  "Terra"
+ ],
+ "media_type": "image",
+ "nasa_id": "PIA02656",
+ "secondary_creator": "NASA/GSFC/METI/ERSDAC/JAROS, and U.S./Japan ASTER Science Team",
+ "title": "ASTER Dunes"
+}

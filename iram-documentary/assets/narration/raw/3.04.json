@@ -1,0 +1,19 @@
+{
+ "id": "3.04",
+ "sr": 24000,
+ "duration": 8.708,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "At-Tabari weighed these views, and concluded that Iram was most likely the name of a tribe of Aad.",
+   "start": 0.0,
+   "end": 6.556
+  },
+  {
+   "i": 1,
+   "tts": "Then he turned to the pillars.",
+   "start": 7.006,
+   "end": 8.708
+  }
+ ]
+}

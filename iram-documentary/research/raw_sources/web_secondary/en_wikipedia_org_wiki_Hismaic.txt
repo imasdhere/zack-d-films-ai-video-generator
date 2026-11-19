@@ -1,0 +1,29 @@
+SOURCE: https://en.wikipedia.org/wiki/Hismaic
+HTTP: 200
+
+Hismaic
+| Hismaic |  | 
+|---|---|
+| Region | Hisma (ar) | 
+|  | Old North Arabian script | 
+| Language codes |  | 
+| ISO 639-3 | – | 
+| Glottolog | hism1236 | 
+Hismaic (Arabic: حسمائية) is a variety of the Ancient North Arabian script and the language most commonly expressed in it. The Hismaic script may have been used to write Safaitic dialects of Old Arabic, but the language of most inscriptions differs from Safaitic in a few important respects, meriting its classification as a separate dialect or language.[citation needed] Hismaic inscriptions are attested in the Ḥismā region of Northwest Arabia, dating to the centuries around and immediately following the start of the Common Era. One striking feature of the script is that it lacks a definite article.
+The Hismaic script is named after Hisma Desert, where it was mainly used, along with the surrounding areas up to central Jordan. It was discovered by F.V. Winnett who named it Thamudic E, and later G. King's work, it was renamed to "Hismaic".[1]
+Characteristics
+[edit]
+Phonology
+[edit]
+Hismaic has undergone the merger of Proto-Semitic s¹ + s³, the same as all Arabic varieties and Dadanitic. There are clear instances of d being used for /ḏ/ in the variant spellings of the divine name Ḏū l-S2arā as ds2r or ds2ry – as against classical ḏs2r or ḏs2ry, although these are probably Aramaicisms, under Nabataean influence.
+The spelling ʿbdmk for ʿbdmlk suggests an interchange of n for l (with unvocalised n assimilated to the following k), similar to that found in Nabataean where the name of the kings named Malichos occurs as both mlkw and mnkw and the compound as both ʿbdmlkw and ʿbdmnkw.[2]
+Grammar
+[edit]
+Perhaps the most salient distinction between Safaitic and Hismaic is the attestation of the definite articles h-, hn-, ʾ-, and ʾl- in the former. A prefixed definite article is not attested in Hismaic. Nevertheless, Hismaic seems to attest a suffixed -ʾ on nouns and hn in personal names. The use of the morpheme h- as a demonstrative is attested.[3]
+See also
+[edit]
+References
+[edit]
+- ↑ Al-Jallad, Ahmad (2020). "Notes on the language of the Hismaic Inscriptions and a re-reading of Line 4 of the Madaba Hismaic Inscription". Journal of the Royal Asiatic Society. 30 (3): 561–569. doi:10.1017/S1356186319000476. ISSN 1356-1863.
+- ↑ "Archived copy" (PDF). Archived from the original (PDF) on 2019-12-16. Retrieved 2015-12-08.{{cite web}}:  CS1 maint: archived copy as title (link)
+- ↑ Al-Jallad, A. (2015). An Outline of the Grammar of the Safaitic Inscriptions. Brill.

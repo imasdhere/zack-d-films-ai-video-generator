@@ -1,0 +1,14 @@
+{
+ "center": "JPL",
+ "date_created": "2017-08-01T00:00:00Z",
+ "description": "Salalah is the second largest city in the Sultanate of Oman, located in the far southern tip of the country. Salalah reached its peak in the 13th century, thanks to the trade in frankincense and myrrh. From 1932 to 1970, it was the capital of the Sultanate of Muscat and Oman. The Port of Salalah is one of the most vital on the Arabian Peninsula. The image was acquired October 15, 2016, covers an area of 47 by 49 km, and is located at 17.1 north, 54.1 east.  https://photojournal.jpl.nasa.gov/catalog/PIA21803",
+ "description_508": "This image from NASA's Terra spacecraft shows Salalah, the second largest city in the Sultanate of Oman, located in the far southern tip of the country.",
+ "keywords": [
+  "Terra",
+  "Earth"
+ ],
+ "media_type": "image",
+ "nasa_id": "PIA21803",
+ "secondary_creator": "NASA/METI/AIST/Japan Space Systems, and U.S./Japan ASTER Science Team",
+ "title": "Salalah, Oman"
+}

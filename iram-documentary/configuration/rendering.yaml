@@ -1,0 +1,12 @@
+editor: scripts/editing/edit.py
+frame: [1920, 1080]
+fps: 24
+crossfade_s: 1.0
+paragraph_gap_s: 0.6
+chapter_card_s: 5.0
+credits_s: 42.0
+moves: {in: zoom 1.00->1.13, out: 1.13->1.00, left/right/up/down: pan at 1.10, drift: 1.03->1.08, par: depth push 1.00->1.06 (+7% near), parl/parr: depth slide}
+framed_photos: portrait or small archival images are shown framed over a blurred copy of themselves (no cropping of evidence)
+grade: per-shot percentile normalisation + shared warm filmic curve, saturation x0.9, vignette 22%, film grain sigma ~3
+overlays: evidence tag (top-left, colour-coded), caption (lower-left), credit (bottom-right)
+encode: libx264 crf 16 preset medium yuv420p, keyint 48; final mux AAC 256k + mov_text subtitles, +faststart

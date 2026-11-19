@@ -1,0 +1,24 @@
+{
+ "album": [
+  "Test"
+ ],
+ "center": "GSFC",
+ "date_created": "2017-12-08T00:00:00Z",
+ "description": "NASA image acquired July 27, 2001  In southwestern Jordan lies an unusual landscape. Mountains of granite and sandstone rise next to valleys filled with red sand. Some of the mountains reach a height of about 1,700 meters (5,600 feet) above sea level, and many have near-vertical slopes. So alien is this landscape, it\u2019s nicknamed \u201cValley of the Moon,\u201d and it has served as the film set for a movie about Mars. Yet nomadic people have lived here for thousands of years. Declared a protected area in 1998, this unearthly landscape is Wadi Rum.  The Advanced Land Imager (ALI) on NASA\u2019s Earth Observing-1 (EO-1) satellite captured this natural-color image on July 27, 2001. The scene includes part of Wadi Rum and an adjacent area to the east. East of the protected area, fields with center-pivot irrigation make circles of green and brown (image upper right). As the earth tones throughout the image attest, the area is naturally arid, receiving little annual precipitation and supporting only sparse vegetation. Between rocky peaks, the sandy valleys range in color from beige to brick.  Ancient granite rocks dating from the Precambrian underlie younger rocks, and some of these basement rocks have eroded into rugged, steep-sloped mountains. The granite mountains have risen thanks partly to crisscrossing fault lines under the park. Overlying the granite are sandstones from the Cambrian and Ordovician Periods, as well as loose sands.  Lawrence of Arabia, who fought in the Arab Revolt of 1917\u20131918, made frequent references to Wadi Rum in his book The Seven Pillars of Wisdom. Likewise, a prominent feature of the protected area is named after the book. Several popular sites in Wadi Rum bear Lawrence of Arabia\u2019s name, but whether he actually visited those sites is uncertain.  To download the full high res go to: <a href=\"http://earthobservatory.nasa.gov/IOTD/view.php?id=49945\" rel=\"nofollow\">earthobservatory.nasa.gov/IOTD/view.php?id=49945</a>  NASA Earth Observatory image created by Jesse Allen and Robert Simmon, using EO-1 ALI data provided courtesy of the NASA EO-1 team and the United States Geological Survey. Caption by Michon Scott.  Instrument: EO-1 - ALI  Credit: <b><a href=\"http://www.earthobservatory.nasa.gov/\" rel=\"nofollow\"> NASA Earth Observatory</a></b>  <b><a href=\"http://www.nasa.gov/centers/goddard/home/index.html\" rel=\"nofollow\">NASA Goddard Space Flight Center</a></b> enables NASA\u2019s mission through four scientific endeavors: Earth Science, Heliophysics, Solar System Exploration, and Astrophysics. Goddard plays a leading role in NASA\u2019s accomplishments by contributing compelling scientific knowledge to advance the Agency\u2019s mission.  <b>Follow us on <a href=\"http://twitter.com/NASA_GoddardPix\" rel=\"nofollow\">Twitter</a></b>  <b>Join us on <a href=\"http://www.facebook.com/pages/Greenbelt-MD/NASA-Goddard/395013845897?ref=tsd\" rel=\"nofollow\">Facebook</a></b>",
+ "keywords": [
+  "Wadi Rum, Jordan",
+  "mountains",
+  "rocks",
+  "satellite",
+  "redsand",
+  "aerial",
+  "nasa",
+  "jordan",
+  "valleyofthemoon",
+  "lawrenceofarabiawadirum"
+ ],
+ "location": "Greenbelt, MD",
+ "media_type": "image",
+ "nasa_id": "GSFC_20171208_Archive_e001903",
+ "title": "Wadi Rum, Jordan"
+}

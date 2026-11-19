@@ -1,0 +1,37 @@
+{
+ "id": "3.05",
+ "sr": 24000,
+ "duration": 23.106,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "Some early authorities said the word described the people themselves: their great height.",
+   "start": 0.0,
+   "end": 5.525
+  },
+  {
+   "i": 1,
+   "tts": "One said it meant a building they had raised, on tall columns.",
+   "start": 5.975,
+   "end": 10.314
+  },
+  {
+   "i": 2,
+   "tts": "But the view at-Tabari preferred was simpler.",
+   "start": 10.764,
+   "end": 13.497
+  },
+  {
+   "i": 3,
+   "tts": "The imaad, he argued, were the poles of tents.",
+   "start": 13.947,
+   "end": 17.378
+  },
+  {
+   "i": 4,
+   "tts": "Aad were people of poles: travellers, moving with the rains and the pasture.",
+   "start": 17.828,
+   "end": 23.106
+  }
+ ]
+}
