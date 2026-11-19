@@ -49,7 +49,9 @@ def loop(engine, synth, a):
                 w, sr = synth(j, seed)
             except Exception as e:  # report and retry with another seed
                 tries.append({'seed': seed, 'error': repr(e)[:300]}); continue
-            w = trim(np.asarray(w, np.float32).reshape(-1), sr); d = len(w) / sr
+            w = np.asarray(w, np.float32).reshape(-1)
+            if j.get('trim', True): w = trim(w, sr)
+            d = len(w) / sr
             ok, exp = plausible(j['text'], j.get('lang', 'en'), d)
             tries.append({'seed': seed, 'dur': round(d, 2), 'expected': exp, 'ok': ok})
             if best is None or ok: best = (w, sr, seed)

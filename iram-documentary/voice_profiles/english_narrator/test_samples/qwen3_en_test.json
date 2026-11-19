@@ -1,0 +1,20 @@
+{
+ "engine": "qwen3",
+ "lang": "en",
+ "reference": "voice_profiles/english_narrator/cleaned_reference.wav",
+ "chunks": 11,
+ "audio_s": 61.47,
+ "wall_s": 349.4,
+ "compute_s_sum_chunks": 290.6,
+ "model_load_and_overhead_s": 58.8,
+ "real_time_factor": 4.73,
+ "peak_rss_gb": 6.87,
+ "cpu_percent_avg": 244,
+ "threads": 4,
+ "device": "cpu",
+ "params": {},
+ "retries": 0,
+ "implausible_chunks": [],
+ "seed_base": 20261119,
+ "input_text": "At-Tabari gathered the opinions of the generations before him. Some said Iram was a city: Alexandria, according to one early authority; Damascus, according to another. But the view at-Tabari preferred was simpler. The imaad, he argued, were the poles of tents. Aad were people of poles: travellers, moving with the rains and the pasture. And he added a sentence that cuts to the heart of this mystery. No building of theirs with columns, he wrote, is known through any authentic report. The search later led to Shisr, a small oasis in Dhofar, about one hundred and seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a few centuries old. Perhaps that is the real lesson of Iram. A people can survive in memory long after their stones are gone, or even if they never built in stone at all. A few words in a sacred text have outlived empires, maps and explorers."
+}

@@ -1,0 +1,190 @@
+{
+ "references": {
+  "en": {
+   "f0_median_hz": 98.3,
+   "f0_sd_semitones": 3.51,
+   "words_per_minute": 160.5
+  },
+  "ar": {
+   "f0_median_hz": 67.1,
+   "f0_sd_semitones": 1.68,
+   "words_per_minute": 72.9
+  },
+  "cross_reference_similarity": 0.841
+ },
+ "samples": [
+  {
+   "engine": "qwen3",
+   "lang": "en",
+   "file": "voice_profiles/english_narrator/test_samples/qwen3_en_test.wav",
+   "duration_s": 61.47,
+   "asr_transcript": "Tabari gathered the opinions of the generations before him. Some said Iram was a city, Alexandria, according to one early authority, Damascus, according to another. But the view at Tabari preferred was simpler. The Imad, he argued, were the poles of tents. A-Aid-Eid were people of poles, travelers moving with the rains and the pasture. And he added a sentence that cuts to the heart of this mystery. No building of theirs with columns, he wrote, is known through any authentic report. The search later led to Shisr, a small oasis in Dofar, about 170 kilometers inland, with a Bedouin well and a ruined fort that earlier travelers had dismissed as only a few centuries old. Perhaps that is the real lesson of Irem. A people can survive in memory long after their stones are gone, or even if they never built in stone at all. A few words in a sacred text have outlived empires, maps, and explorers.",
+   "wer": 0.061,
+   "cer": 0.018,
+   "speaker_similarity": 0.986,
+   "similarity_to_other_reference": 0.829,
+   "chunk_similarity_mean": 0.977,
+   "chunk_similarity_sd": 0.007,
+   "chunk_f0_median_sd_semitones": 0.84,
+   "f0_median_hz": 93.3,
+   "f0_sd_semitones": 3.08,
+   "words_per_minute": 155.2,
+   "squim": {
+    "stoi_est": 0.998,
+    "pesq_est": 3.93,
+    "si_sdr_est_db": 27.8
+   },
+   "clipped_samples": 0,
+   "internal_silences_over_1s": 0,
+   "longest_internal_silence_s": 0.55,
+   "peak_dbfs": -2.44,
+   "generation": {
+    "chunks": 11,
+    "audio_s": 61.47,
+    "wall_s": 349.4,
+    "compute_s_sum_chunks": 290.6,
+    "model_load_and_overhead_s": 58.8,
+    "real_time_factor": 4.73,
+    "peak_rss_gb": 6.87,
+    "cpu_percent_avg": 244,
+    "retries": 0,
+    "implausible_chunks": [],
+    "params": {},
+    "seed_base": 20261119
+   },
+   "implausible_chunks": [],
+   "f0_shift_vs_reference_semitones": -0.9,
+   "scores": {
+    "similarity": 10,
+    "naturalness": null,
+    "pronunciation": 8,
+    "accent_preservation": null,
+    "rhythm_pacing": 9,
+    "prosody": 8,
+    "emotional_suitability": null,
+    "consistency": 8,
+    "artefacts": 9,
+    "overall_provisional": 8.7
+   }
+  },
+  {
+   "engine": "voxcpm",
+   "lang": "en",
+   "file": "voice_profiles/english_narrator/test_samples/voxcpm_en_test.wav",
+   "duration_s": 63.4,
+   "asr_transcript": "But Tabari gathered the opinions of the generations before him. Banta-e-Rom was a city, Alexandria according to one early authority, Damascus according to another. But the view at Tabari preferred was simpler. The Imad, he argued, were the poles of tents. It were people of poles, travelers, moving with the rains and the pasture. He added a sentence that cuts to the heart of this mystery. no building of theirs with columns, he wrote, is known through any authentic report. The search later led to Shishir, a small oasis in Dofar, about 170 kilometers inland, with a Bedouin well and a ruined fort that earlier travelers had dismissed as only a few centuries old. Perhaps that is the real lesson of Iram. People can survive in memory long after their stones are gone, or even if they never built in stone at all. In few words in the sacred text have outlived empires, maps, and explorers.",
+   "wer": 0.092,
+   "cer": 0.042,
+   "speaker_similarity": 0.989,
+   "similarity_to_other_reference": 0.843,
+   "chunk_similarity_mean": 0.973,
+   "chunk_similarity_sd": 0.01,
+   "chunk_f0_median_sd_semitones": 0.69,
+   "f0_median_hz": 93.3,
+   "f0_sd_semitones": 3.22,
+   "words_per_minute": 147.6,
+   "squim": {
+    "stoi_est": 0.99,
+    "pesq_est": 3.25,
+    "si_sdr_est_db": 23.6
+   },
+   "clipped_samples": 0,
+   "internal_silences_over_1s": 0,
+   "longest_internal_silence_s": 0.55,
+   "peak_dbfs": -0.66,
+   "generation": {
+    "chunks": 11,
+    "audio_s": 63.4,
+    "wall_s": 292.4,
+    "compute_s_sum_chunks": 274.8,
+    "model_load_and_overhead_s": 17.6,
+    "real_time_factor": 4.33,
+    "peak_rss_gb": 11.48,
+    "cpu_percent_avg": 367,
+    "retries": 0,
+    "implausible_chunks": [],
+    "params": {
+     "cfg_value": 2.0,
+     "inference_timesteps": 10,
+     "normalize": false,
+     "denoise": false
+    },
+    "seed_base": 20261119
+   },
+   "implausible_chunks": [],
+   "f0_shift_vs_reference_semitones": -0.9,
+   "scores": {
+    "similarity": 10,
+    "naturalness": null,
+    "pronunciation": 6,
+    "accent_preservation": null,
+    "rhythm_pacing": 9,
+    "prosody": 9,
+    "emotional_suitability": null,
+    "consistency": 8,
+    "artefacts": 8,
+    "overall_provisional": 8.3
+   }
+  },
+  {
+   "engine": "voxcpm",
+   "lang": "ar",
+   "file": "voice_profiles/arabic_narrator/test_samples/voxcpm_ar_test.wav",
+   "duration_s": 105.11,
+   "asr_transcript": "جنوب الجزيرة العربية حيث تمتد رمال الربع الخالي بلا نهاية يتردد منذ قرون اسم قديم إرم ذات العماد القرآن الكريم مرة واحدة مقرونة بقوم عاد الذين أرسل إليهم النبي هود أرم أهي مدينة ذات أعمدة شاهقة أم قبيلة من الرحل تتنقل بخيامها وراء المطر والمرعى الإمام الطبري أقوى لمن سبقه ورجح أن العمادة هي أعمدة الخيام وقال إنه لا يعلم لهم بناء بالعماد بخبر صحيح أربعة قرون وافقه ابن كثير وعد حكامه حكايات المدينة الذهبية من خرافات الإسرائيليات في عام 1992 كشفت بعثة أثرية في شصر بمحافظة ظفار في سلطنة عمان عن حصن قديم على طرق تجارة اللبان أعلنت الصحف أن مدينة أوبار قد وجدت غير أن المنقبين أنفسهم رأوا أن أوبار اسم إقليم وقوم لا مدينة واحدة لا تكون إرم مدينة ضائعة تنتظر من يكتشفها يما كانت درسا محفوظا في الذاكرة أطول عمرا من الحجارة والأعمدة",
+   "wer": 0.11,
+   "cer": 0.084,
+   "speaker_similarity": 0.99,
+   "similarity_to_other_reference": 0.829,
+   "chunk_similarity_mean": 0.957,
+   "chunk_similarity_sd": 0.075,
+   "chunk_f0_median_sd_semitones": 0.86,
+   "f0_median_hz": 66.7,
+   "f0_sd_semitones": 2.24,
+   "words_per_minute": 78.2,
+   "squim": {
+    "stoi_est": 0.984,
+    "pesq_est": 2.75,
+    "si_sdr_est_db": 19.2
+   },
+   "clipped_samples": 0,
+   "internal_silences_over_1s": 0,
+   "longest_internal_silence_s": 0.86,
+   "peak_dbfs": -1.48,
+   "generation": {
+    "chunks": 9,
+    "audio_s": 105.11,
+    "wall_s": 448.6,
+    "compute_s_sum_chunks": 432.3,
+    "model_load_and_overhead_s": 16.3,
+    "real_time_factor": 4.11,
+    "peak_rss_gb": 11.19,
+    "cpu_percent_avg": 368,
+    "retries": 0,
+    "implausible_chunks": [],
+    "params": {
+     "cfg_value": 2.0,
+     "inference_timesteps": 10,
+     "normalize": false,
+     "denoise": false
+    },
+    "seed_base": 20261119
+   },
+   "implausible_chunks": [],
+   "f0_shift_vs_reference_semitones": -0.1,
+   "scores": {
+    "similarity": 10,
+    "naturalness": null,
+    "pronunciation": 7,
+    "accent_preservation": null,
+    "rhythm_pacing": null,
+    "prosody": 7,
+    "emotional_suitability": null,
+    "consistency": 4,
+    "artefacts": 7,
+    "overall_provisional": 7.0
+   }
+  }
+ ],
+ "notes": "Automated proxies only; see reports/voice_cloning_evaluation.md"
+}
