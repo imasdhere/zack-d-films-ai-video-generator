@@ -117,7 +117,15 @@ def norm_en(t):
     t = re.sub(r'\d+', lambda m: num_words(m.group()), t)
     t = strip_latin_diacritics(t)
     t = re.sub(r"[^a-z' ]", ' ', t).replace("'", '')
-    return t.split()
+    return [UKUS.get(w, w) for w in t.split()]
+
+
+# British and American spellings count as the same word (the screenplay is British, Whisper writes American)
+UKUS = {'travellers': 'travelers', 'traveller': 'traveler', 'travelled': 'traveled', 'kilometres': 'kilometers', 'kilometre': 'kilometer',
+        'metres': 'meters', 'metre': 'meter', 'centre': 'center', 'centres': 'centers', 'colour': 'color', 'colours': 'colors',
+        'honour': 'honor', 'grey': 'gray', 'favour': 'favor', 'labelled': 'labeled', 'theatre': 'theater', 'mould': 'mold',
+        'harbour': 'harbor', 'harbours': 'harbors', 'neighbouring': 'neighboring', 'civilisation': 'civilization', 'recognised': 'recognized',
+        'organised': 'organized', 'realised': 'realized', 'analysed': 'analyzed', 'sceptical': 'skeptical', 'defence': 'defense'}
 
 
 def strip_latin_diacritics(t):
@@ -161,15 +169,38 @@ def _names():
     toks = set()
     for d in lx.values():
         for k, v in d.items(): toks |= set(norm_en(k)) | set(norm_en(v))
-    return {t for t in toks if len(t) > 2 and t not in {'the', 'and', 'ibn', 'al'}}
+    common = {'the', 'and', 'of', 'a', 'an', 'in', 'on', 'to', 'is', 'was', 'were', 'his', 'her', 'their', 'son', 'city', 'name'}
+    return {t for t in toks if t not in common}
+
+
+def _align(r, h):
+    """Word alignment (Levenshtein with backtrace): list of (op, ref_index or None)."""
+    n, m = len(r), len(h); D = [[0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n + 1): D[i][0] = i
+    for j in range(m + 1): D[0][j] = j
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            D[i][j] = min(D[i - 1][j] + 1, D[i][j - 1] + 1, D[i - 1][j - 1] + (r[i - 1] != h[j - 1]))
+    ops, i, j = [], n, m
+    while i or j:
+        if i and j and D[i][j] == D[i - 1][j - 1] + (r[i - 1] != h[j - 1]):
+            ops.append(('ok' if r[i - 1] == h[j - 1] else 'sub', i - 1)); i -= 1; j -= 1
+        elif i and D[i][j] == D[i - 1][j] + 1: ops.append(('del', i - 1)); i -= 1
+        else: ops.append(('ins', i - 1 if i else None)); j -= 1
+    return ops[::-1]
 
 
 def wer_without_names(ref, hyp):
-    """WER after removing transliterated names, which Whisper spells in many ways; names are checked by listening."""
-    names = _names()
-    def near(t): return any(edit_distance(t, n) <= max(1, len(n) // 3) for n in names)
-    r = [t for t in norm_en(ref) if t not in names]; h = [t for t in norm_en(hyp) if not near(t)]
-    return round(edit_distance(r, h) / max(1, len(r)), 3)
+    """WER that ignores errors on transliterated names (Whisper spells them in many ways, and may split one name into
+    several words). Substitutions and deletions of a name word, and insertions next to a name word, are not counted.
+    Names are checked by listening instead."""
+    names = _names(); r = norm_en(ref); h = norm_en(hyp)
+    isname = lambda i: i is not None and 0 <= i < len(r) and r[i] in names
+    err = 0
+    for op, i in _align(r, h):
+        if op in ('sub', 'del') and not isname(i): err += 1
+        elif op == 'ins' and not (isname(i) or isname((i if i is not None else -1) + 1)): err += 1
+    return round(err / max(1, len(r)), 3)
 
 
 def chunk_qa(item, cfg):
@@ -247,7 +278,7 @@ def score_eval_samples():
             x = load16(f); hyp = transcribe(x, lang)
             ref_text = info['input_text']
             wer, cer = error_rates(ref_text, hyp, lang)
-            chunks = sorted((d / info['engine']).glob(f'{lang}_*.wav'))
+            chunks = sorted((d / info['engine']).glob(f'{lang}_*.wav'))  # chunk folder = engine label
             cs, cf = [], []
             for c in chunks:
                 y = load16(c)

@@ -60,7 +60,9 @@ engines:
     venv: /home/user/iram-work/venvs/voxcpm
     model_dir: /home/user/iram-work/models/voxcpm2
     worker: audio_engine/engines/workers/voxcpm_worker.py
-    params: {cfg_value: 2.0, inference_timesteps: 10, normalize: false, denoise: false}
+    # mode 'reference' (reference clip only). 'ultimate' (clip as continuation prompt) garbled or dropped the first word
+    # of 7 of 8 sentences in the A/B test (workflows/tts/eval/voxcpm_mode_ab.json)
+    params: {mode: reference, cfg_value: 2.0, inference_timesteps: 10, normalize: false, denoise: false}
   audar:
     name: Audar-TTS-V1-Flash
     repo: https://github.com/AudarAI/Audar-TTS-V1

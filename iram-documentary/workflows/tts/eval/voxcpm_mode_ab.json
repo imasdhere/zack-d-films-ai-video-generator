@@ -1,0 +1,154 @@
+{
+ "summary": {
+  "ultimate": {
+   "first_word_ok": 1,
+   "n": 8,
+   "mean_cer": 0.141
+  },
+  "reference": {
+   "first_word_ok": 6,
+   "n": 8,
+   "mean_cer": 0.077
+  }
+ },
+ "results": [
+  {
+   "id": "en0_ultimate",
+   "first_word_ok": false,
+   "wer": 0.154,
+   "cer": 0.18,
+   "asr": "a sentence. And he added a sentence that cuts to the heart of this mystery."
+  },
+  {
+   "id": "en0_reference",
+   "first_word_ok": true,
+   "wer": 0.0,
+   "cer": 0.0,
+   "asr": "And he added a sentence that cuts to the heart of this mystery."
+  },
+  {
+   "id": "en1_ultimate",
+   "first_word_ok": false,
+   "wer": 0.125,
+   "cer": 0.06,
+   "asr": "It then said, Iram was a city, Alexandria, according to one early authority, Damascus, according to another."
+  },
+  {
+   "id": "en1_reference",
+   "first_word_ok": true,
+   "wer": 0.062,
+   "cer": 0.012,
+   "asr": "Some said Eram was a city, Alexandria, according to one early authority, Damascus, according to another."
+  },
+  {
+   "id": "en2_ultimate",
+   "first_word_ok": false,
+   "wer": 0.077,
+   "cer": 0.018,
+   "asr": "few words in a sacred text have outlived empires, maps, and explorers."
+  },
+  {
+   "id": "en2_reference",
+   "first_word_ok": true,
+   "wer": 0.0,
+   "cer": 0.0,
+   "asr": "A few words in a sacred text have outlived empires, maps, and explorers."
+  },
+  {
+   "id": "en3_ultimate",
+   "first_word_ok": false,
+   "wer": 0.154,
+   "cer": 0.066,
+   "asr": "were people of poles, travelers, moving with the rains and the pasture."
+  },
+  {
+   "id": "en3_reference",
+   "first_word_ok": false,
+   "wer": 0.154,
+   "cer": 0.049,
+   "asr": "odd were people of poles travelers moving with the rains and the pasture"
+  },
+  {
+   "id": "ar0_ultimate",
+   "first_word_ok": false,
+   "wer": 0.231,
+   "cer": 0.1,
+   "asr": "هل قرآن الكريم مرة واحدة مقرونة بقوم عاد الذين أرسل إليهم النبي هول"
+  },
+  {
+   "id": "ar0_reference",
+   "first_word_ok": true,
+   "wer": 0.0,
+   "cer": 0.0,
+   "asr": "ذكرها القرآن الكريم مرة واحدة مقرونة بقوم عاد الذين أرسل إليهم النبي هود"
+  },
+  {
+   "id": "ar1_ultimate",
+   "first_word_ok": false,
+   "wer": 0.455,
+   "cer": 0.543,
+   "asr": "عام 1992 كشفت بعثة أثرية في شصر"
+  },
+  {
+   "id": "ar1_reference",
+   "first_word_ok": true,
+   "wer": 0.364,
+   "cer": 0.478,
+   "asr": "وفي عام 1992 كشفت بعثة أثرية في شصر"
+  },
+  {
+   "id": "ar2_ultimate",
+   "first_word_ok": false,
+   "wer": 0.2,
+   "cer": 0.158,
+   "asr": "قبيلة وأمة من الأمم"
+  },
+  {
+   "id": "ar2_reference",
+   "first_word_ok": true,
+   "wer": 0.0,
+   "cer": 0.0,
+   "asr": "فهم قبيلة وأمة من الأمم"
+  },
+  {
+   "id": "ar3_ultimate",
+   "first_word_ok": true,
+   "wer": 0.0,
+   "cer": 0.0,
+   "asr": "نصرت بالصبا وأهلكت عاد بالدبور"
+  },
+  {
+   "id": "ar3_reference",
+   "first_word_ok": false,
+   "wer": 0.4,
+   "cer": 0.077,
+   "asr": "نُسِرتُ بالصبى وأُهلِكَتْ عَادٌ بالدبور"
+  }
+ ],
+ "speaker_and_quality": {
+  "ultimate_en": {
+   "sim_mean": 0.976,
+   "sim_min": 0.971,
+   "pesq_est": 2.92,
+   "f0_median": 91.2
+  },
+  "ultimate_ar": {
+   "sim_mean": 0.983,
+   "sim_min": 0.975,
+   "pesq_est": 2.84,
+   "f0_median": 65.2
+  },
+  "reference_en": {
+   "sim_mean": 0.947,
+   "sim_min": 0.936,
+   "pesq_est": 3.26,
+   "f0_median": 102.2
+  },
+  "reference_ar": {
+   "sim_mean": 0.981,
+   "sim_min": 0.973,
+   "pesq_est": 3.28,
+   "f0_median": 71.3
+  }
+ }
+}

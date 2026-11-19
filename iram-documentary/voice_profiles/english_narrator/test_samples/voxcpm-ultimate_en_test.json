@@ -1,5 +1,5 @@
 {
- "engine": "voxcpm",
+ "engine": "voxcpm-ultimate",
  "lang": "en",
  "reference": "voice_profiles/english_narrator/cleaned_reference.wav",
  "chunks": 11,
@@ -16,7 +16,8 @@
   "cfg_value": 2.0,
   "inference_timesteps": 10,
   "normalize": false,
-  "denoise": false
+  "denoise": false,
+  "mode": "ultimate"
  },
  "retries": 0,
  "implausible_chunks": [],
