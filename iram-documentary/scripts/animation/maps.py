@@ -266,7 +266,7 @@ def m07(t, dur, step):
     return G.global_fade(im, t, dur, 0.4, 0.5)
 
 def m09(t, dur, step):
-    bm = 'arabia'; cam = (43.5, 21.6, 40)
+    bm = 'arabia'; cam = (43.5, 22.9, 40)
     im, M = frame(bm, cam, t); ov = Overlay(); F = G.fade
     s = M[0, 0] * BASEMAPS[bm][4] * COS
     south = to_frame(M, 51.0, 16.8, bm); north = to_frame(M, P['Wadi Ramm'][1], P['Wadi Ramm'][0], bm)
