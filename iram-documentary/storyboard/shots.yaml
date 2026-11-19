@@ -38,7 +38,6 @@
   - [G_COUNT, gfx, 1.0, {sfx: [wind_low]}]
 "2.02":
   - [D12, par, 1.0, {sfx: [wind_soft]}]
-  - [P06, par, 1.0, {sfx: [wind_soft, footsteps]}]
 "2.03":
   - [P01, par, 1.0, {sfx: [water_spring, wind_low], caption: "Qurʾān 26:133–134 (tr. Pickthall)"}]
   - [P02, parr, 1.0, {sfx: [water_spring], caption: "Qurʾān 26:133–134"}]
