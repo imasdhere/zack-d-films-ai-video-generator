@@ -3,7 +3,7 @@
 style:
   photo: "cinematic documentary photograph, shot on 35mm film, natural light, realistic textures, muted earth tones, subtle atmospheric haze, high detail, wide dynamic range"
   recon: "photorealistic historical reconstruction, documentary realism, natural light, weathered materials, plausible ancient South Arabian architecture, muted earth palette, atmospheric haze"
-  legend: "Persian miniature painting style, gold leaf, illuminated manuscript illustration, flat perspective, ornamental borders, gouache on paper, no text"
+  legend: "ink and wash illustration on aged parchment with gold leaf highlights, antique storybook engraving style, sepia and gold tones, fine linework, flat perspective, no text"
 negative:
   default: "text, letters, words, writing, watermark, logo, signature, caption, frame, border, modern buildings, cars, roads, power lines, airplane, close-up face, portrait, cartoon, anime, 3d render, cgi, plastic, oversaturated, neon, fantasy glow, sci-fi, blurry, lowres, jpeg artifacts, deformed, extra limbs"
   legend: "photograph, photorealistic, text, letters, calligraphy, watermark, logo, signature, modern, 3d render, blurry, deformed, close-up face"
@@ -47,9 +47,9 @@ ai:
   R05: {style: recon, label: "ARTISTIC RECONSTRUCTION — THE CLASSICAL EXEGETES' READING", prompt: "detail of a black woven goat-hair tent stretched over tall wooden tent poles with ropes and stakes in sand, warm morning light"}
   R06: {style: recon, label: "ARTISTIC RECONSTRUCTION — THE CLASSICAL EXEGETES' READING", prompt: "a nomadic caravan of camels carrying rolled tents and tent poles across a wide desert plain, long shadows, distant figures"}
   # --- legend (distinct painterly grammar) ---
-  L01: {style: legend, label: "LEGEND — LATER TRADITION", seed: 410001, prompt: "a fabulous ancient city of flat-roofed palaces and tall square towers built of gold and silver bricks, walled gardens and streams, set in a golden desert, pre-Islamic antiquity, seen from a distance"}
-  L02: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a lone traveller with camels in the desert at night discovering the tall gates of a mysterious walled city, small figure seen from behind"}
-  L03: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a mirage of a golden city floating above desert sands, ornamental clouds, gold leaf sky"}
+  L01: {style: legend, label: "LEGEND — LATER TRADITION", seed: 410001, prompt: "a fabulous ancient city of flat-roofed palaces and tall square towers built of gold and silver bricks, walled gardens and streams, set in a desert, seen from a distance"}
+  L02: {style: legend, label: "LEGEND — LATER TRADITION", seed: 410002, prompt: "a lone traveller with two camels at night, seen from behind, standing before the massive gate of a mysterious walled city with square towers and flat roofs, rising out of desert sand under the stars"}
+  L03: {style: legend, label: "LEGEND — LATER TRADITION", seed: 410003, prompt: "a mirage of a golden walled city with square towers and flat-roofed palaces floating above desert dunes, wavy heat haze, ornamental clouds"}
   # --- scholarship atmosphere (no legible text) ---
   K01: {style: photo, label: null, prompt: "a medieval scholar's desk lit by an oil lamp, closed leather-bound books, reed pens and an inkwell, warm candlelight, dark background, no people"}
   K02: {style: photo, label: null, prompt: "stacked old closed manuscripts with worn leather covers on a wooden shelf, dust in lamplight, no visible text"}
