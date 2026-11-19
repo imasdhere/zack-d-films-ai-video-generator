@@ -1,0 +1,2164 @@
+{
+ "0.01_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.948,
+  "asr": "There are places on Earth where the land itself seems to forget.",
+  "duration": 3.52,
+  "notes": [],
+  "mtime": 1795117882.3755946
+ },
+ "0.01_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.931,
+  "asr": "Here, in the south of Arabia, the wind has been moving sand for thousands of years.",
+  "duration": 5.3,
+  "notes": [],
+  "mtime": 1795117904.2431037
+ },
+ "0.01_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "lifting it",
+  "duration": 0.94,
+  "notes": [],
+  "mtime": 1795117910.9352512
+ },
+ "0.01_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "Folding it.",
+  "duration": 0.88,
+  "notes": [],
+  "mtime": 1795117917.161804
+ },
+ "0.01_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "Laying it down again.",
+  "duration": 1.47,
+  "notes": [],
+  "mtime": 1795117925.8382063
+ },
+ "0.01_p05_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.93,
+  "asr": "Footprints vanish by evening.",
+  "duration": 1.83,
+  "notes": [],
+  "mtime": 1795117936.668036
+ },
+ "0.01_p06_c00": {
+  "status": "fail",
+  "err": 0.333,
+  "raw_wer": 0.333,
+  "similarity": 0.872,
+  "asr": "Hold Dunes Walk.",
+  "duration": 2.05,
+  "notes": [
+   "ASR error 0.333 > 0.15"
+  ],
+  "mtime": 1795117947.0045981
+ },
+ "0.02_p00_c00": {
+  "status": "pass",
+  "err": 0.143,
+  "raw_wer": 0.143,
+  "similarity": 0.948,
+  "asr": "And yet, some names survived the wind.",
+  "duration": 3.52,
+  "notes": [],
+  "mtime": 1795117962.52472
+ },
+ "0.02_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.333,
+  "similarity": 0.883,
+  "asr": "One of them is Eram.",
+  "duration": 2.07,
+  "notes": [],
+  "mtime": 1795117973.4828653
+ },
+ "1.01_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.031,
+  "similarity": 0.971,
+  "asr": "The Rub al-Khali, the empty quarter, covers some 650,000 square kilometers of the Arabian Peninsula across parts of Saudi Arabia, Oman, the United Arab Emirates, and Yemen.",
+  "duration": 11.61,
+  "notes": [],
+  "mtime": 1795118018.362205
+ },
+ "1.01_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.97,
+  "asr": "It is often described as the largest continuous sand desert on Earth.",
+  "duration": 4.21,
+  "notes": [],
+  "mtime": 1795118036.3683014
+ },
+ "1.01_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.956,
+  "asr": "In places, its dunes rise more than 200 meters.",
+  "duration": 3.69,
+  "notes": [],
+  "mtime": 1795118051.4553668
+ },
+ "1.02_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.931,
+  "asr": "For centuries, those who lived along its edges told stories of a people of great strength, of towering buildings, and of a city that was lost.",
+  "duration": 9.07,
+  "notes": [],
+  "mtime": 1795118086.4237778
+ },
+ "1.03_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.925,
+  "asr": "The oldest written source for that memory is the Quran.",
+  "duration": 3.06,
+  "notes": [],
+  "mtime": 1795118101.1733477
+ },
+ "1.03_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.067,
+  "similarity": 0.967,
+  "asr": "In a short passage of Surat al-Fajr, the chapter of the dawn, it asks,",
+  "duration": 5.56,
+  "notes": [],
+  "mtime": 1795118126.0464993
+ },
+ "1.04_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.138,
+  "similarity": 0.951,
+  "asr": "Dost thou not consider how thy lord dealt with the tribe of A-I-D, with many-columned E-Rom, the like of which was not created in the lands?",
+  "duration": 8.84,
+  "notes": [],
+  "mtime": 1795118157.521272
+ },
+ "1.05_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.943,
+  "asr": "Three short verses.",
+  "duration": 1.76,
+  "notes": [],
+  "mtime": 1795118167.8130229
+ },
+ "1.05_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.5,
+  "similarity": 0.898,
+  "asr": "A people. A-A-D.",
+  "duration": 1.98,
+  "notes": [],
+  "mtime": 1795118178.3419683
+ },
+ "1.05_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.5,
+  "similarity": 0.925,
+  "asr": "A name, I-Ramam.",
+  "duration": 2.17,
+  "notes": [],
+  "mtime": 1795118189.3027005
+ },
+ "1.05_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.429,
+  "similarity": 0.954,
+  "asr": "and a description. Al-Imad",
+  "duration": 3.05,
+  "notes": [],
+  "mtime": 1795118202.1784616
+ },
+ "1.05_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.667,
+  "similarity": null,
+  "asr": "possessing Imad.",
+  "duration": 1.28,
+  "notes": [],
+  "mtime": 1795118212.537289
+ },
+ "1.05_p05_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.958,
+  "asr": "A word that can mean columns or pillars or the poles that hold up a tent.",
+  "duration": 4.38,
+  "notes": [],
+  "mtime": 1795118230.573229
+ },
+ "1.06_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.948,
+  "asr": "From these few words grew one of the most enduring mysteries of the Arabian Desert.",
+  "duration": 5.11,
+  "notes": [],
+  "mtime": 1795118250.045842
+ },
+ "1.06_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.942,
+  "asr": "Storytellers imagined palaces of gold.",
+  "duration": 2.71,
+  "notes": [],
+  "mtime": 1795118262.756522
+ },
+ "1.06_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.942,
+  "asr": "Popular retellings still speak of a city of a thousand pillars.",
+  "duration": 3.68,
+  "notes": [],
+  "mtime": 1795118278.9470062
+ },
+ "1.06_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.951,
+  "asr": "Explorers went looking for it.",
+  "duration": 1.91,
+  "notes": [],
+  "mtime": 1795118289.4655015
+ },
+ "1.06_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.955,
+  "asr": "and satellites photographed the sand where it might lie.",
+  "duration": 4.79,
+  "notes": [],
+  "mtime": 1795118308.8376985
+ },
+ "1.07_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.946,
+  "asr": "This film asks three questions.",
+  "duration": 2.28,
+  "notes": [],
+  "mtime": 1795118321.3101919
+ },
+ "1.07_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.938,
+  "asr": "What does the text actually say?",
+  "duration": 2.51,
+  "notes": [],
+  "mtime": 1795118338.900762
+ },
+ "1.07_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.926,
+  "asr": "What did the earliest scholars understand by it?",
+  "duration": 2.92,
+  "notes": [],
+  "mtime": 1795118352.5033011
+ },
+ "1.07_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.931,
+  "asr": "And what, if anything, has archaeology really found?",
+  "duration": 3.48,
+  "notes": [],
+  "mtime": 1795118368.7394292
+ },
+ "1.08_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.915,
+  "asr": "To answer them, we must keep different kinds of evidence apart, scripture, scholarship, legend, excavation, and hypothesis.",
+  "duration": 8.63,
+  "notes": [],
+  "mtime": 1795118402.1951234
+ },
+ "1.08_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.942,
+  "asr": "Throughout this film, each will be marked as it appears.",
+  "duration": 3.71,
+  "notes": [],
+  "mtime": 1795118418.1315696
+ },
+ "2.01_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.25,
+  "similarity": 0.95,
+  "asr": "The Qur'an names Ah-Dhi 24 times.",
+  "duration": 3.4,
+  "notes": [],
+  "mtime": 1795118433.8407109
+ },
+ "2.01_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.667,
+  "similarity": 0.917,
+  "asr": "E.R.A.M. It names only once.",
+  "duration": 3.23,
+  "notes": [],
+  "mtime": 1795118449.3341374
+ },
+ "2.02_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.125,
+  "similarity": 0.979,
+  "asr": "In the Quranic account, Adi were a people who came after the people of Noah.",
+  "duration": 4.3,
+  "notes": [],
+  "mtime": 1795118466.4826305
+ },
+ "2.02_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.954,
+  "asr": "To them was sent a prophet from among themselves.",
+  "duration": 2.55,
+  "notes": [],
+  "mtime": 1795118478.072489
+ },
+ "2.02_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.143,
+  "similarity": 0.905,
+  "asr": "The Quran calls him their brother, Hud.",
+  "duration": 2.79,
+  "notes": [],
+  "mtime": 1795118490.5063336
+ },
+ "2.03_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.977,
+  "asr": "It describes a people blessed with plenty.",
+  "duration": 3.31,
+  "notes": [],
+  "mtime": 1795118505.510559
+ },
+ "2.03_p01_c00": {
+  "status": "fail",
+  "err": 0.188,
+  "raw_wer": 0.25,
+  "similarity": 0.873,
+  "asr": "Huda reminds them that God has aided them with cattle and suns and gardens and water springs,",
+  "duration": 5.22,
+  "notes": [
+   "ASR error 0.188 > 0.15"
+  ],
+  "mtime": 1795118528.2097132
+ },
+ "2.03_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.954,
+  "asr": "He reminds them that they were given growth of stature in Arabic, basta, a word the commentators read as size or strength or reach.",
+  "duration": 7.74,
+  "notes": [],
+  "mtime": 1795118557.6101072
+ },
+ "2.04_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.861,
+  "asr": "They were builders.",
+  "duration": 2.23,
+  "notes": [],
+  "mtime": 1795118567.1356459
+ },
+ "2.04_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.93,
+  "asr": "Build ye on every high place a monument for vain delight.",
+  "duration": 3.98,
+  "notes": [],
+  "mtime": 1795118584.5389435
+ },
+ "2.04_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "Hood asks them.",
+  "duration": 1.22,
+  "notes": [],
+  "mtime": 1795118592.5895784
+ },
+ "2.04_p03_c00": {
+  "status": "fail",
+  "err": 0.25,
+  "raw_wer": 0.25,
+  "similarity": 0.958,
+  "asr": "and seek ye out strongholds, that happily ye may last forever.",
+  "duration": 4.28,
+  "notes": [
+   "ASR error 0.25 > 0.15"
+  ],
+  "mtime": 1795118610.4298952
+ },
+ "2.05_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.953,
+  "asr": "and they were certain of their own power.",
+  "duration": 2.22,
+  "notes": [],
+  "mtime": 1795118623.535933
+ },
+ "2.05_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.94,
+  "asr": "who is mightier than us in power.",
+  "duration": 2.45,
+  "notes": [],
+  "mtime": 1795118634.4457307
+ },
+ "2.05_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "They ask.",
+  "duration": 0.91,
+  "notes": [],
+  "mtime": 1795118640.2776356
+ },
+ "2.06_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.091,
+  "similarity": 0.972,
+  "asr": "The Quran tells us where Hud preached in a single phrase.",
+  "duration": 3.4,
+  "notes": [],
+  "mtime": 1795118653.008612
+ },
+ "2.06_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.154,
+  "similarity": 0.901,
+  "asr": "He warned his people, it says, among the wind-curved sandhills, Bilakaf.",
+  "duration": 6.31,
+  "notes": [],
+  "mtime": 1795118673.3561435
+ },
+ "2.07_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.926,
+  "asr": "Classical scholars tried to find that landscape on the map.",
+  "duration": 3.25,
+  "notes": [],
+  "mtime": 1795118688.1891088
+ },
+ "2.07_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.038,
+  "similarity": 0.964,
+  "asr": "The great exegete al-Tabari, who died in Baghdad in the year 923, explained that Aqaaaf means sand that curves and bends.",
+  "duration": 8.87,
+  "notes": [],
+  "mtime": 1795118720.6203668
+ },
+ "2.07_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.217,
+  "similarity": 0.91,
+  "asr": "He placed the land of Ad in the south, in Ashir, in the region of Hadramath and the lands around it.",
+  "duration": 8.46,
+  "notes": [],
+  "mtime": 1795118753.1102717
+ },
+ "2.08_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.067,
+  "similarity": 0.97,
+  "asr": "In Hadramoth today, a tomb attributed to the prophet Hood is still visited by pilgrims.",
+  "duration": 5.58,
+  "notes": [],
+  "mtime": 1795118779.3650637
+ },
+ "2.08_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.953,
+  "asr": "It is a living tradition, though more than one place has claimed his resting place.",
+  "duration": 4.21,
+  "notes": [],
+  "mtime": 1795118797.9817512
+ },
+ "2.09_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.971,
+  "asr": "What the Quran does not give us is a date, a map, or a description of a city.",
+  "duration": 6.16,
+  "notes": [],
+  "mtime": 1795118822.943887
+ },
+ "2.09_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.863,
+  "asr": "It gives a moral history, a people given strength and plenty, a warning, a refusal,",
+  "duration": 5.49,
+  "notes": [],
+  "mtime": 1795118845.7791467
+ },
+ "2.10_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.922,
+  "asr": "In this film, the prophet Hood is never shown.",
+  "duration": 2.99,
+  "notes": [],
+  "mtime": 1795118859.96675
+ },
+ "2.10_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.105,
+  "similarity": 0.935,
+  "asr": "And the people of AAD appear only as distant figures because no one knows what they looked like.",
+  "duration": 5.75,
+  "notes": [],
+  "mtime": 1795118879.880432
+ },
+ "3.01_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.833,
+  "similarity": 0.915,
+  "asr": "Iramdat, Al-Imad.",
+  "duration": 2.66,
+  "notes": [],
+  "mtime": 1795118891.4134157
+ },
+ "3.01_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.934,
+  "asr": "Translators still disagree on how to render it.",
+  "duration": 2.68,
+  "notes": [],
+  "mtime": 1795118903.7545834
+ },
+ "3.01_p02_c00": {
+  "status": "pass",
+  "err": 0.1,
+  "raw_wer": 0.3,
+  "similarity": 0.942,
+  "asr": "Marmaduke Pictal, in 1930, wrote many-columned E-ROM.",
+  "duration": 5.06,
+  "notes": [],
+  "mtime": 1795118926.4630075
+ },
+ "3.01_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.25,
+  "similarity": 0.939,
+  "asr": "A modern translation, Sahih International has E. Ram who had lofty pillars.",
+  "duration": 5.64,
+  "notes": [],
+  "mtime": 1795118946.4045432
+ },
+ "3.01_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.867,
+  "asr": "Even the next verse divides them.",
+  "duration": 2.04,
+  "notes": [],
+  "mtime": 1795118957.6899188
+ },
+ "3.01_p05_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.167,
+  "similarity": 0.949,
+  "asr": "Was I-Ram a place, the like of which was never created?",
+  "duration": 4.05,
+  "notes": [],
+  "mtime": 1795118977.746091
+ },
+ "3.01_p06_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.96,
+  "asr": "Or a people the likes of whom?",
+  "duration": 2.52,
+  "notes": [],
+  "mtime": 1795118990.0157015
+ },
+ "3.02_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.89,
+  "asr": "Muslim scholars were asking the same questions more than a thousand years ago.",
+  "duration": 4.26,
+  "notes": [],
+  "mtime": 1795119009.0217981
+ },
+ "3.03_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.963,
+  "asr": "Al-Tabari gathered the opinions of the generations before him.",
+  "duration": 3.36,
+  "notes": [],
+  "mtime": 1795119025.219877
+ },
+ "3.03_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.118,
+  "similarity": 0.957,
+  "asr": "Some said Eram was a city, Alexandria, according to one early authority, Damascus, according to another.",
+  "duration": 7.8,
+  "notes": [],
+  "mtime": 1795119051.6966915
+ },
+ "3.03_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.946,
+  "asr": "Some said it was a nation.",
+  "duration": 1.62,
+  "notes": [],
+  "mtime": 1795119060.8337815
+ },
+ "3.03_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.172,
+  "similarity": 0.942,
+  "asr": "Others said it was a clan of AAD, the royal house of AAD, in the words of the early scholar Katada, or the name of their ancestor.",
+  "duration": 8.64,
+  "notes": [],
+  "mtime": 1795119092.5623684
+ },
+ "3.04_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.238,
+  "similarity": 0.98,
+  "asr": "Al-Tuburi weighed these views and concluded that E-Ram was most likely the name of a tribe of AAD.",
+  "duration": 6.51,
+  "notes": [],
+  "mtime": 1795119114.867739
+ },
+ "3.04_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.852,
+  "asr": "Then he turned to the pillars.",
+  "duration": 2.15,
+  "notes": [],
+  "mtime": 1795119124.3843415
+ },
+ "3.05_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.921,
+  "asr": "Some early authorities said the word described the people themselves, their great height.",
+  "duration": 6.82,
+  "notes": [],
+  "mtime": 1795119149.0698633
+ },
+ "3.05_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.874,
+  "asr": "One said it meant a building they had raised on tall columns.",
+  "duration": 4.64,
+  "notes": [],
+  "mtime": 1795119165.8600008
+ },
+ "3.05_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.943,
+  "asr": "But the view Al-Tabari preferred was simpler.",
+  "duration": 2.6,
+  "notes": [],
+  "mtime": 1795119177.3736355
+ },
+ "3.05_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.2,
+  "similarity": 0.92,
+  "asr": "The E-Made, he argued, were the poles of tents.",
+  "duration": 3.51,
+  "notes": [],
+  "mtime": 1795119188.6412387
+ },
+ "3.05_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.143,
+  "similarity": 0.941,
+  "asr": "Ah, there were people of poles, travelers moving with the rains and the pasture.",
+  "duration": 7.26,
+  "notes": [],
+  "mtime": 1795119214.283816
+ },
+ "3.06_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.928,
+  "asr": "And he added a sentence that cuts to the heart of this mystery.",
+  "duration": 3.61,
+  "notes": [],
+  "mtime": 1795119230.9774885
+ },
+ "3.06_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.975,
+  "asr": "\u0648\u0644\u0627 \u064a\u0639\u0644\u0645 \u0628\u0646\u0627\u0621 \u0643\u0627\u0646 \u0644\u0647\u0645 \u0628\u0627\u0644\u0639\u0645\u0627\u062f \u0628\u062e\u0628\u0631 \u0635\u062d\u064a\u062d",
+  "duration": 5.28,
+  "notes": [],
+  "mtime": 1795122405.0298798
+ },
+ "3.06_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.972,
+  "asr": "No building of theirs with columns, he wrote, is known through any authentic report.",
+  "duration": 4.84,
+  "notes": [],
+  "mtime": 1795119251.267297
+ },
+ "3.07_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.1,
+  "similarity": 0.941,
+  "asr": "Four centuries later, in Damascus, the scholar Ibn Khatir agreed.",
+  "duration": 5.1,
+  "notes": [],
+  "mtime": 1795119271.9462063
+ },
+ "3.07_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.974,
+  "asr": "\u0641\u0647\u0645 \u0642\u0628\u064a\u0644\u0629 \u0648\u0623\u0645\u0629 \u0645\u0646 \u0627\u0644\u0623\u0645\u0645",
+  "duration": 2.56,
+  "notes": [],
+  "mtime": 1795122416.0192382
+ },
+ "3.07_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.138,
+  "similarity": 0.955,
+  "asr": "whether the imad were buildings or tent-poles or weapons or the height of the people he wrote adi were a tribe a nation among the nations",
+  "duration": 11.42,
+  "notes": [],
+  "mtime": 1795119316.392307
+ },
+ "3.08_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.931,
+  "asr": "So where did the Golden City come from?",
+  "duration": 2.2,
+  "notes": [],
+  "mtime": 1795119328.1252153
+ },
+ "3.08_p01_c00": {
+  "status": "pass",
+  "err": 0.083,
+  "raw_wer": 0.083,
+  "similarity": 0.956,
+  "asr": "By Ibn Kathir's time, a rich legend had grown around the verse.",
+  "duration": 3.9,
+  "notes": [],
+  "mtime": 1795119344.3948004
+ },
+ "3.08_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.231,
+  "similarity": 0.966,
+  "asr": "In some versions, a king named Shadad, son of Adi, built it.",
+  "duration": 5.19,
+  "notes": [],
+  "mtime": 1795119363.8152072
+ },
+ "3.08_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.964,
+  "asr": "Commentators described a city of bricks of gold and silver, its pebbles, pearls, and jewels, its soil made of musk.",
+  "duration": 7.68,
+  "notes": [],
+  "mtime": 1795119392.7302084
+ },
+ "3.08_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.921,
+  "asr": "A city that moved from land to land, sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+  "duration": 7.07,
+  "notes": [],
+  "mtime": 1795119417.9575846
+ },
+ "3.09_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.091,
+  "similarity": 0.968,
+  "asr": "One story told of a Bedouin, Abdullah ibn Khilaba, who, while searching for his lost camels in the time of the Caliph Muawaiya, came upon a great city with walls and gates.",
+  "duration": 10.25,
+  "notes": [],
+  "mtime": 1795119453.5723467
+ },
+ "3.09_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.979,
+  "asr": "When others went back with him to the place, they found nothing.",
+  "duration": 3.51,
+  "notes": [],
+  "mtime": 1795119466.7590053
+ },
+ "3.10_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.333,
+  "similarity": 0.905,
+  "asr": "Ivan Kathir rejected all of it.",
+  "duration": 2.74,
+  "notes": [],
+  "mtime": 1795119477.692922
+ },
+ "3.10_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.987,
+  "asr": "\u0641\u0625\u0646 \u0647\u0630\u0627 \u0643\u0644\u0647 \u0645\u0646 \u062e\u0631\u0627\u0641\u0627\u062a \u0627\u0644\u0625\u0633\u0631\u0627\u0626\u064a\u0644\u064a\u064a\u0646",
+  "duration": 4.16,
+  "notes": [],
+  "mtime": 1795122430.4193852
+ },
+ "3.10_p01_c01": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.972,
+  "asr": "\u0641\u0647\u0630\u0647 \u0627\u0644\u062d\u0643\u0627\u064a\u0629 \u0644\u064a\u0633 \u064a\u0635\u062d \u0625\u0633\u0646\u0627\u062f\u0647\u0627",
+  "duration": 3.2,
+  "notes": [],
+  "mtime": 1795122442.6907284
+ },
+ "3.10_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.2,
+  "similarity": 0.962,
+  "asr": "These were, in his words, fables of the Israeliyat.",
+  "duration": 3.49,
+  "notes": [],
+  "mtime": 1795119490.8693225
+ },
+ "3.10_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.056,
+  "similarity": 0.913,
+  "asr": "The tale of Ibn Kilaba, he said, had no sound chain of transmission and was certainly not authentic.",
+  "duration": 6.89,
+  "notes": [],
+  "mtime": 1795119515.0783958
+ },
+ "3.11_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.888,
+  "asr": "The legend lived on regardless.",
+  "duration": 2.19,
+  "notes": [],
+  "mtime": 1795119527.1918209
+ },
+ "3.11_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.956,
+  "asr": "It entered the Thousand and One Nights, and later the poetry and fiction of Europe.",
+  "duration": 4.86,
+  "notes": [],
+  "mtime": 1795119546.525225
+ },
+ "3.12_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.965,
+  "asr": "What you are seeing now is an artistic reconstruction.",
+  "duration": 3.85,
+  "notes": [],
+  "mtime": 1795119561.5150714
+ },
+ "3.12_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.932,
+  "asr": "One imagined reading of the verse, a settlement raised on stone columns,",
+  "duration": 6.18,
+  "notes": [],
+  "mtime": 1795119588.9388344
+ },
+ "3.12_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.964,
+  "asr": "It is not based on any excavated site.",
+  "duration": 2.61,
+  "notes": [],
+  "mtime": 1795119602.64656
+ },
+ "3.12_p03_c00": {
+  "status": "pass",
+  "err": 0.071,
+  "raw_wer": 0.143,
+  "similarity": 0.941,
+  "asr": "The Quran does not describe E-Ram's appearance and no archaeologist has found it.",
+  "duration": 6.57,
+  "notes": [],
+  "mtime": 1795119627.4536362
+ },
+ "3.13_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.945,
+  "asr": "And this is the other reading, the one the classical scholars preferred. Great tents of woven hair, raised on poles, moving across the land,",
+  "duration": 9.28,
+  "notes": [],
+  "mtime": 1795119664.1535075
+ },
+ "3.13_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.961,
+  "asr": "It too is an interpretation.",
+  "duration": 2.18,
+  "notes": [],
+  "mtime": 1795119675.0287802
+ },
+ "3.13_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.939,
+  "asr": "But it reminds us how much a single word can carry.",
+  "duration": 3.23,
+  "notes": [],
+  "mtime": 1795119688.377405
+ },
+ "3.14_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.926,
+  "asr": "The City of a Thousand Pillars is real in its way.",
+  "duration": 3.93,
+  "notes": [],
+  "mtime": 1795119703.2030542
+ },
+ "3.14_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.962,
+  "asr": "but it belongs to the history of storytelling.",
+  "duration": 2.84,
+  "notes": [],
+  "mtime": 1795119715.1176991
+ },
+ "3.14_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.883,
+  "asr": "The text itself is far more restrained.",
+  "duration": 2.91,
+  "notes": [],
+  "mtime": 1795119728.041829
+ },
+ "4.01_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.954,
+  "asr": "In the twentieth century, the search moved from the library into the desert.",
+  "duration": 4.68,
+  "notes": [],
+  "mtime": 1795119745.1394465
+ },
+ "4.02_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.045,
+  "similarity": 0.97,
+  "asr": "In 1930, the British explorer Bertram Thomas set out to cross the empty quarter, guided by Bedouin of the Rashid tribe.",
+  "duration": 8.75,
+  "notes": [],
+  "mtime": 1795119776.3478994
+ },
+ "4.02_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.935,
+  "asr": "He became the first Westerner on record to do so.",
+  "duration": 3.16,
+  "notes": [],
+  "mtime": 1795119789.4420853
+ },
+ "4.02_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.94,
+  "asr": "Along the way, his guides pointed to wide tracks between the dunes.",
+  "duration": 4.52,
+  "notes": [],
+  "mtime": 1795119806.9515634
+ },
+ "4.02_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.899,
+  "asr": "Look, Sahib, one said.",
+  "duration": 2.15,
+  "notes": [],
+  "mtime": 1795119816.3178544
+ },
+ "4.02_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "There is the way to Ubar.",
+  "duration": 1.46,
+  "notes": [],
+  "mtime": 1795119824.8953617
+ },
+ "4.03_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.948,
+  "asr": "Thomas wrote of this Atlantis of the Sands.",
+  "duration": 2.62,
+  "notes": [],
+  "mtime": 1795120060.706369
+ },
+ "4.03_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.894,
+  "asr": "The phrase is often credited to Lawrence of Arabia, but it does not appear in Lawrence's published works.",
+  "duration": 6.0,
+  "notes": [],
+  "mtime": 1795120084.6284328
+ },
+ "4.04_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.05,
+  "similarity": 0.92,
+  "asr": "Ubar, or Wabar, was a name from Arabian tradition, a fabled place of wealth and ruin somewhere in the sands.",
+  "duration": 8.66,
+  "notes": [],
+  "mtime": 1795120115.6241345
+ },
+ "4.04_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.154,
+  "similarity": 0.956,
+  "asr": "Over time, some writers began to merge it with the Quranic I-Ram.",
+  "duration": 3.96,
+  "notes": [],
+  "mtime": 1795120129.4270122
+ },
+ "4.05_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.222,
+  "similarity": 0.974,
+  "asr": "In 1932, Harry Sinjun Philby went in search of Wabar, deep in the Rubal Kali.",
+  "duration": 6.49,
+  "notes": [],
+  "mtime": 1795120151.6173947
+ },
+ "4.05_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.966,
+  "asr": "Bedouin had told him of ruins and of a block of iron the size of a camel.",
+  "duration": 5.62,
+  "notes": [],
+  "mtime": 1795120174.2957642
+ },
+ "4.05_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.881,
+  "asr": "After a month of hard travel, he reached a field of black glass and craters half choked with sand.",
+  "duration": 5.77,
+  "notes": [],
+  "mtime": 1795120197.7294655
+ },
+ "4.05_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.933,
+  "asr": "He thought it was a volcano.",
+  "duration": 1.82,
+  "notes": [],
+  "mtime": 1795120208.2940288
+ },
+ "4.06_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.922,
+  "asr": "It was neither a city nor a volcano.",
+  "duration": 2.52,
+  "notes": [],
+  "mtime": 1795120220.8314865
+ },
+ "4.06_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.963,
+  "asr": "Samples sent to the British Museum showed that it was the impact site of an iron meteorite.",
+  "duration": 5.3,
+  "notes": [],
+  "mtime": 1795120242.205378
+ },
+ "4.06_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.932,
+  "asr": "Later luminescence dating suggests the craters may be only a few centuries old, perhaps less than 250 years,",
+  "duration": 6.4,
+  "notes": [],
+  "mtime": 1795120268.2213044
+ },
+ "4.06_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.923,
+  "asr": "a real place, and a real mystery.",
+  "duration": 2.92,
+  "notes": [],
+  "mtime": 1795120282.479403
+ },
+ "4.06_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.5,
+  "similarity": 0.916,
+  "asr": "But not eRum.",
+  "duration": 1.67,
+  "notes": [],
+  "mtime": 1795120293.585449
+ },
+ "4.07_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.967,
+  "asr": "To understand why anyone would travel through this desert at all, follow the smoke of frankincense.",
+  "duration": 6.49,
+  "notes": [],
+  "mtime": 1795120320.9229028
+ },
+ "4.07_p01_c00": {
+  "status": "pass",
+  "err": 0.048,
+  "raw_wer": 0.048,
+  "similarity": 0.958,
+  "asr": "Frankincense is the resin of Boswellia sacra, a tree that still grows in the dry valleys of Dauphar, in southern Oman.",
+  "duration": 7.96,
+  "notes": [],
+  "mtime": 1795120351.2319424
+ },
+ "4.07_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.962,
+  "asr": "In the ancient world, it was prized from Arabia to Rome.",
+  "duration": 3.39,
+  "notes": [],
+  "mtime": 1795120366.7022417
+ },
+ "4.08_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.887,
+  "asr": "A Greek sailing guide of the first century, the Periplus of the Erythraean Sea, describes this coast as the frankincense country, mountainous and forbidding, wrapped in thick clouds and fog.",
+  "duration": 10.46,
+  "notes": [],
+  "mtime": 1795120404.4008396
+ },
+ "4.08_p01_c00": {
+  "status": "pass",
+  "err": 0.053,
+  "raw_wer": 0.053,
+  "similarity": 0.894,
+  "asr": "It names a harbor called Moshe, where ships took on the resin under the control of the king's officers.",
+  "duration": 6.18,
+  "notes": [],
+  "mtime": 1795120429.041438
+ },
+ "4.09_p00_c00": {
+  "status": "pass",
+  "err": 0.1,
+  "raw_wer": 0.1,
+  "similarity": 0.967,
+  "asr": "Moshe is identified with Kor Rori, near modern Salalah, where the walls of a fortified port called Sumhuram still stand.",
+  "duration": 8.28,
+  "notes": [],
+  "mtime": 1795120460.3450406
+ },
+ "4.09_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.964,
+  "asr": "From this coast and its hinterland, frankincense moved inland and north along caravan routes that linked southern Arabia to the Mediterranean world.",
+  "duration": 8.9,
+  "notes": [],
+  "mtime": 1795120497.3517497
+ },
+ "4.10_p00_c00": {
+  "status": "pass",
+  "err": 0.059,
+  "raw_wer": 0.059,
+  "similarity": 0.948,
+  "asr": "Decades after Thomas, an American filmmaker, Nicholas Clapp, raid his account and set out to find Ubar.",
+  "duration": 7.06,
+  "notes": [],
+  "mtime": 1795120523.8367689
+ },
+ "4.10_p01_c00": {
+  "status": "pass",
+  "err": 0.143,
+  "raw_wer": 0.143,
+  "similarity": 0.952,
+  "asr": "He brought together scientists from NASA's Jet Propulsion Laboratory, among them Ronald Blum and Charles Alachi, with the archaeologist Juris Zarens, the explorer Ranul Fiennes, and George Hedges.",
+  "duration": 12.13,
+  "notes": [],
+  "mtime": 1795120563.4006085
+ },
+ "4.11_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.959,
+  "asr": "Satellites could not see a buried city.",
+  "duration": 2.27,
+  "notes": [],
+  "mtime": 1795120574.0453687
+ },
+ "4.11_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.929,
+  "asr": "But Landsat images revealed something subtler, faint, ancient tracks crossing the desert floor.",
+  "duration": 6.77,
+  "notes": [],
+  "mtime": 1795120598.4258714
+ },
+ "4.11_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.962,
+  "asr": "and several of them led towards one place.",
+  "duration": 2.43,
+  "notes": [],
+  "mtime": 1795120609.308697
+ },
+ "4.11_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.961,
+  "asr": "In 1994, radar aboard the space shuttle Endeavour imaged the same region, and the tracks appeared again as soft red streaks.",
+  "duration": 8.85,
+  "notes": [],
+  "mtime": 1795120641.1877432
+ },
+ "4.12_p00_c00": {
+  "status": "pass",
+  "err": 0.057,
+  "raw_wer": 0.057,
+  "similarity": 0.934,
+  "asr": "That place was Shishir, a small oasis in Dofar, about 170 kilometers inland, with a Bedouin well and a ruined fort that earlier travelers had dismissed as only a few centuries old.",
+  "duration": 11.84,
+  "notes": [],
+  "mtime": 1795120684.4717412
+ },
+ "4.13_p00_c00": {
+  "status": "fail",
+  "err": 0.2,
+  "raw_wer": 0.2,
+  "similarity": 0.915,
+  "asr": "Excavation began under Juris Zarans.",
+  "duration": 2.65,
+  "notes": [
+   "ASR error 0.2 > 0.15"
+  ],
+  "mtime": 1795120697.6496341
+ },
+ "4.13_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.88,
+  "asr": "Beneath the later fort, the team uncovered the walls and towers of a much older fortress, more than 2,000 years old in its earliest phases, according to its excavators.",
+  "duration": 11.36,
+  "notes": [],
+  "mtime": 1795120740.5770328
+ },
+ "4.13_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.898,
+  "asr": "They found objects from Persia, Greece, and Rome, the traces of long-distance trade.",
+  "duration": 5.31,
+  "notes": [],
+  "mtime": 1795120760.8273752
+ },
+ "4.13_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.974,
+  "asr": "and they found that much of the fortress had collapsed into a sinkhole, the limestone cavern that held the well.",
+  "duration": 5.97,
+  "notes": [],
+  "mtime": 1795120786.6535256
+ },
+ "4.14_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.939,
+  "asr": "In February 1992, newspapers around the world announced that the lost city of Ubar had been found.",
+  "duration": 6.7,
+  "notes": [],
+  "mtime": 1795120812.7554858
+ },
+ "4.15_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.956,
+  "asr": "But the scientists themselves soon told a more careful story.",
+  "duration": 4.04,
+  "notes": [],
+  "mtime": 1795120830.1198857
+ },
+ "4.15_p01_c00": {
+  "status": "pass",
+  "err": 0.027,
+  "raw_wer": 0.135,
+  "similarity": 0.922,
+  "asr": "Juris Zarans argued that, in the classical and Arabic sources, Ubar was not a single town at all, but a region and a people, the Yobar Ritai, marked on the second-century map of Ptolemy.",
+  "duration": 11.66,
+  "notes": [],
+  "mtime": 1795120872.8637328
+ },
+ "4.15_p02_c00": {
+  "status": "pass",
+  "err": 0.1,
+  "raw_wer": 0.1,
+  "similarity": 0.899,
+  "asr": "Shisir, in this view, was one fortified station in that land, a vital source of water on the frankincense roots.",
+  "duration": 6.84,
+  "notes": [],
+  "mtime": 1795120898.1453986
+ },
+ "4.16_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "Others went further.",
+  "duration": 1.41,
+  "notes": [],
+  "mtime": 1795120907.0132759
+ },
+ "4.16_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.967,
+  "asr": "In 2004, the geologist H.",
+  "duration": 3.53,
+  "notes": [],
+  "mtime": 1795120925.9505036
+ },
+ "4.16_p02_c00": {
+  "status": "pass",
+  "err": 0.071,
+  "raw_wer": 0.071,
+  "similarity": 0.958,
+  "asr": "Stuart Edgel published a critique titled The Myth of the Lost City of the Arabian Sands, arguing that Shisr had been a small caravanserai, not a lost metropolis.",
+  "duration": 9.89,
+  "notes": [],
+  "mtime": 1795120965.4997287
+ },
+ "4.17_p00_c00": {
+  "status": "pass",
+  "err": 0.071,
+  "raw_wer": 0.071,
+  "similarity": 0.971,
+  "asr": "Today, Shiser is part of a UNESCO World Heritage property, the land of frankincense.",
+  "duration": 5.18,
+  "notes": [],
+  "mtime": 1795120986.192838
+ },
+ "4.17_p01_c00": {
+  "status": "pass",
+  "err": 0.033,
+  "raw_wer": 0.1,
+  "similarity": 0.954,
+  "asr": "UNESCO describes it not as E-Ram, but as the remains of the caravan oasis of Shisr, or Wubar, a station for water on the roots of the incense trade.",
+  "duration": 11.36,
+  "notes": [],
+  "mtime": 1795121031.2677257
+ },
+ "4.18_p00_c00": {
+  "status": "fail",
+  "err": 0.4,
+  "raw_wer": 0.4,
+  "similarity": 0.934,
+  "asr": "So, what did she should prove?",
+  "duration": 2.11,
+  "notes": [
+   "ASR error 0.4 > 0.15"
+  ],
+  "mtime": 1795121042.0273364
+ },
+ "4.18_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.954,
+  "asr": "It proved that ancient tracks can be traced from space.",
+  "duration": 3.64,
+  "notes": [],
+  "mtime": 1795121056.2111223
+ },
+ "4.18_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.919,
+  "asr": "It proved that this desert edge was busy with trade.",
+  "duration": 3.58,
+  "notes": [],
+  "mtime": 1795121072.8097582
+ },
+ "4.18_p03_c00": {
+  "status": "fail",
+  "err": 0.25,
+  "raw_wer": 0.25,
+  "similarity": 0.937,
+  "asr": "It did not prove that Cisro is Ubar.",
+  "duration": 2.11,
+  "notes": [
+   "ASR error 0.25 > 0.15"
+  ],
+  "mtime": 1795121083.336419
+ },
+ "4.18_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.2,
+  "similarity": 0.967,
+  "asr": "and it did not prove that Ubar was Iram.",
+  "duration": 2.9,
+  "notes": [],
+  "mtime": 1795121097.227434
+ },
+ "4.19_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.878,
+  "asr": "The difference matters.",
+  "duration": 1.79,
+  "notes": [],
+  "mtime": 1795121108.7397223
+ },
+ "4.19_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.947,
+  "asr": "A popular identification is a story that people choose to tell.",
+  "duration": 4.04,
+  "notes": [],
+  "mtime": 1795121126.2719932
+ },
+ "4.19_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.955,
+  "asr": "An archaeological interpretation is an argument from evidence.",
+  "duration": 3.71,
+  "notes": [],
+  "mtime": 1795121140.3736846
+ },
+ "4.19_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.942,
+  "asr": "An established conclusion is what remains when the arguments have been tested.",
+  "duration": 4.17,
+  "notes": [],
+  "mtime": 1795121157.0782528
+ },
+ "4.19_p04_c00": {
+  "status": "pass",
+  "err": 0.077,
+  "raw_wer": 0.231,
+  "similarity": 0.899,
+  "asr": "The link between Shisha and Iram has never moved beyond the first.",
+  "duration": 4.66,
+  "notes": [],
+  "mtime": 1795121175.6911747
+ },
+ "5.01_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.133,
+  "similarity": 0.914,
+  "asr": "The Quran's account of how AAD came to an end is brief and vivid.",
+  "duration": 4.37,
+  "notes": [],
+  "mtime": 1795121194.6157155
+ },
+ "5.01_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.935,
+  "asr": "They demanded the punishment they had been warned of.",
+  "duration": 2.22,
+  "notes": [],
+  "mtime": 1795121204.8589501
+ },
+ "5.01_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.941,
+  "asr": "And then the text says,",
+  "duration": 1.63,
+  "notes": [],
+  "mtime": 1795121214.4672112
+ },
+ "5.02_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.957,
+  "asr": "When they beheld it as a dense cloud coming toward their valleys, they said, Here is a cloud bringing us rain.",
+  "duration": 7.42,
+  "notes": [],
+  "mtime": 1795121239.6496985
+ },
+ "5.02_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.912,
+  "asr": "Nay, but it is that which ye did seek to hasten, a wind wherein is painful torment, destroying all things by commandment of its Lord.",
+  "duration": 10.48,
+  "notes": [],
+  "mtime": 1795121279.6237144
+ },
+ "5.02_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.96,
+  "asr": "and morning found them so that naught could be seen save their dwellings.",
+  "duration": 3.74,
+  "notes": [],
+  "mtime": 1795121295.5870316
+ },
+ "5.03_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.133,
+  "similarity": 0.969,
+  "asr": "Elsewhere the wind is called sarsar, raging, or roaring, and alaqwim, the barren wind.",
+  "duration": 7.34,
+  "notes": [],
+  "mtime": 1795121324.7922235
+ },
+ "5.03_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.959,
+  "asr": "It blew, the Quran says, for seven long nights and eight long days.",
+  "duration": 4.35,
+  "notes": [],
+  "mtime": 1795121342.7716095
+ },
+ "5.03_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.932,
+  "asr": "Hood, and those who believed with him were saved.",
+  "duration": 3.8,
+  "notes": [],
+  "mtime": 1795121357.8089335
+ },
+ "5.04_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.937,
+  "asr": "The memory of that wind stayed with the Prophet Muhammad.",
+  "duration": 3.12,
+  "notes": [],
+  "mtime": 1795121371.1304235
+ },
+ "5.04_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.118,
+  "similarity": 0.911,
+  "asr": "His wife, Aisha, reported that whenever he saw clouds or wind, concern showed on his face.",
+  "duration": 6.48,
+  "notes": [],
+  "mtime": 1795121395.7951026
+ },
+ "5.04_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.95,
+  "asr": "When she asked him why, he said that a people had been punished with wind, and that when they saw it coming, they had said, This cloud will give us rain.",
+  "duration": 8.43,
+  "notes": [],
+  "mtime": 1795121427.2228053
+ },
+ "5.05_p00_c00": {
+  "status": "pass",
+  "err": 0.077,
+  "raw_wer": 0.2,
+  "similarity": 0.965,
+  "asr": "\u0646\u0635\u0631\u062a \u0628\u0627\u0644\u0635\u0628\u0627 \u0648\u0623\u0647\u0644\u0643\u062a \u062d\u062f \u0628\u0627\u0644\u062f\u0628\u0648\u0631",
+  "duration": 4.2,
+  "notes": [],
+  "mtime": 1795122460.3440154
+ },
+ "5.05_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.087,
+  "similarity": 0.958,
+  "asr": "In another authentic report, he said, I was granted victory with the East Wind, and AAD were destroyed by the West Wind.",
+  "duration": 8.21,
+  "notes": [],
+  "mtime": 1795121457.5611794
+ },
+ "5.06_p00_c00": {
+  "status": "pass",
+  "err": 0.111,
+  "raw_wer": 0.111,
+  "similarity": 0.897,
+  "asr": "Science cannot test a religious account of divine judgment.",
+  "duration": 4.21,
+  "notes": [],
+  "mtime": 1795121475.8829927
+ },
+ "5.06_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.968,
+  "asr": "But it can ask a different question, how has this land itself changed?",
+  "duration": 3.54,
+  "notes": [],
+  "mtime": 1795121490.582077
+ },
+ "5.07_p00_c00": {
+  "status": "pass",
+  "err": 0.091,
+  "raw_wer": 0.091,
+  "similarity": 0.967,
+  "asr": "In a cave called Khunf, in the mountains of Dauphar, a stalagmite has recorded rainfall for thousands of years, layer by layer.",
+  "duration": 7.87,
+  "notes": [],
+  "mtime": 1795121521.176563
+ },
+ "5.07_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.957,
+  "asr": "A study published in 2003 found that monsoon rain here was stronger in the early Holocene, and that after about 8,000 years ago, it gradually declined.",
+  "duration": 10.13,
+  "notes": [],
+  "mtime": 1795121555.997121
+ },
+ "5.08_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.097,
+  "similarity": 0.956,
+  "asr": "Deep in the Rubal Kali, researchers reported in 2025 that, during an ancient humid phase, heavy rains filled a lake of about 1,100 square kilometers",
+  "duration": 9.74,
+  "notes": [],
+  "mtime": 1795121592.3037004
+ },
+ "5.08_p00_c01": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.978,
+  "asr": "which eventually broke its banks and carved a valley some 150 kilometers long.",
+  "duration": 5.16,
+  "notes": [],
+  "mtime": 1795121612.2832685
+ },
+ "5.09_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.957,
+  "asr": "Arabia, in other words, was not always this dry.",
+  "duration": 3.66,
+  "notes": [],
+  "mtime": 1795121627.1915317
+ },
+ "5.09_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.938,
+  "asr": "Over many thousands of years, its landscapes have shifted between green and gold.",
+  "duration": 5.57,
+  "notes": [],
+  "mtime": 1795121651.979417
+ },
+ "5.10_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": null,
+  "asr": "But we should be clear.",
+  "duration": 1.33,
+  "notes": [],
+  "mtime": 1795121660.1783648
+ },
+ "5.10_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.88,
+  "asr": "These changes unfolded over centuries and millennia.",
+  "duration": 3.62,
+  "notes": [],
+  "mtime": 1795121674.8974025
+ },
+ "5.10_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.095,
+  "similarity": 0.957,
+  "asr": "No study has dated the people of AAD, and no geological event has been shown to match the Quranic account.",
+  "duration": 7.38,
+  "notes": [],
+  "mtime": 1795121701.501761
+ },
+ "5.10_p03_c00": {
+  "status": "pass",
+  "err": 0.077,
+  "raw_wer": 0.077,
+  "similarity": 0.962,
+  "asr": "At Shishir, the excavators found no evidence that a sandstorm destroyed the site.",
+  "duration": 4.98,
+  "notes": [],
+  "mtime": 1795121725.0036945
+ },
+ "5.10_p04_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.105,
+  "similarity": 0.863,
+  "asr": "The collapse of its fortress into a sinkhole has a geological explanation and no known connection to AID.",
+  "duration": 7.26,
+  "notes": [],
+  "mtime": 1795121749.9996934
+ },
+ "5.11_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.959,
+  "asr": "Religious memory and physical evidence are answering different questions.",
+  "duration": 4.78,
+  "notes": [],
+  "mtime": 1795121769.333991
+ },
+ "5.11_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.971,
+  "asr": "Merging them would do justice to neither.",
+  "duration": 3.13,
+  "notes": [],
+  "mtime": 1795121783.7215874
+ },
+ "6.01_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.105,
+  "similarity": 0.962,
+  "asr": "In recent years, the search for E-ROM has taken an unexpected turn, away from the southern sands altogether.",
+  "duration": 6.61,
+  "notes": [],
+  "mtime": 1795121812.2693045
+ },
+ "6.02_p00_c00": {
+  "status": "pass",
+  "err": 0.042,
+  "raw_wer": 0.042,
+  "similarity": 0.943,
+  "asr": "In the deserts of southern Jordan lies Wadi Rum, the valley known today as Wadi Rum, red cliffs, and some 20,000 recorded inscriptions.",
+  "duration": 11.11,
+  "notes": [],
+  "mtime": 1795121857.181905
+ },
+ "6.02_p01_c00": {
+  "status": "pass",
+  "err": 0.103,
+  "raw_wer": 0.172,
+  "similarity": 0.973,
+  "asr": "a nabatean temple to the goddess alat stands at the foot of jabal ram and inscriptions from the site give the ancient name of the place as e",
+  "duration": 9.84,
+  "notes": [],
+  "mtime": 1795121896.0836868
+ },
+ "6.03_p00_c00": {
+  "status": "pass",
+  "err": 0.023,
+  "raw_wer": 0.068,
+  "similarity": 0.957,
+  "asr": "In 2025, the epigrapher Ahmad al-Jalad published a study of pre-Islamic inscriptions written by members of a tribe called A-A-D in the deserts of the north and argued that the Quranic names may belong to this region.",
+  "duration": 15.33,
+  "notes": [],
+  "mtime": 1795121949.6716845
+ },
+ "6.04_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.945,
+  "asr": "It is a serious proposal, built on careful readings of ancient texts.",
+  "duration": 5.07,
+  "notes": [],
+  "mtime": 1795121971.1454275
+ },
+ "6.04_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.95,
+  "asr": "It is also new, and scholars are still weighing it.",
+  "duration": 3.85,
+  "notes": [],
+  "mtime": 1795121988.0883229
+ },
+ "6.04_p02_c00": {
+  "status": "pass",
+  "err": 0.062,
+  "raw_wer": 0.062,
+  "similarity": 0.96,
+  "asr": "Like Shisir before it, it shows how much depends on the evidence we choose to follow.",
+  "duration": 5.4,
+  "notes": [],
+  "mtime": 1795122012.5735688
+ },
+ "6.05_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.942,
+  "asr": "So, what can we actually say?",
+  "duration": 2.52,
+  "notes": [],
+  "mtime": 1795122023.8049147
+ },
+ "6.06_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.107,
+  "similarity": 0.957,
+  "asr": "The Quran tells of a people named A-A-D, of their prophet Hud, of their strength and their building, and of a wind that left only their dwellings.",
+  "duration": 10.43,
+  "notes": [],
+  "mtime": 1795122062.2053936
+ },
+ "6.06_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.417,
+  "similarity": 0.976,
+  "asr": "It names Iram once and calls it Dat Al-Imad.",
+  "duration": 4.23,
+  "notes": [],
+  "mtime": 1795122079.058272
+ },
+ "6.07_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.96,
+  "asr": "The classical scholars recorded a debate.",
+  "duration": 2.59,
+  "notes": [],
+  "mtime": 1795122092.583087
+ },
+ "6.07_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.2,
+  "similarity": 0.955,
+  "asr": "Two of the most influential, Al-Tabari and Ibn Kathir, understood Iram as a tribe and its Imad as the poles of tents.",
+  "duration": 9.61,
+  "notes": [],
+  "mtime": 1795122127.5596764
+ },
+ "6.07_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.949,
+  "asr": "and they rejected the legend of a golden city.",
+  "duration": 2.61,
+  "notes": [],
+  "mtime": 1795122139.3875818
+ },
+ "6.08_p00_c00": {
+  "status": "pass",
+  "err": 0.032,
+  "raw_wer": 0.129,
+  "similarity": 0.941,
+  "asr": "Archaeology has found real places, a caravan fortress at Shisir, frankincense ports on the coast, and, in the north, inscriptions that name both E-Ram and a tribe called A-D.",
+  "duration": 12.51,
+  "notes": [],
+  "mtime": 1795122186.4516737
+ },
+ "6.08_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.954,
+  "asr": "It has not found a city of a thousand pillars.",
+  "duration": 3.48,
+  "notes": [],
+  "mtime": 1795122202.9901834
+ },
+ "6.09_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.118,
+  "similarity": 0.94,
+  "asr": "And some things remain unknown when AID lived, exactly where and what their pillars really were.",
+  "duration": 8.43,
+  "notes": [],
+  "mtime": 1795122235.8476715
+ },
+ "6.10_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.222,
+  "similarity": 0.921,
+  "asr": "Perhaps that is the real lesson of E-ROM.",
+  "duration": 3.28,
+  "notes": [],
+  "mtime": 1795122252.813104
+ },
+ "6.10_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.944,
+  "asr": "A people can survive in memory long after their stones are gone, or even if they never built in stone at all.",
+  "duration": 7.15,
+  "notes": [],
+  "mtime": 1795122280.8697383
+ },
+ "6.10_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.913,
+  "asr": "A few words in a sacred text have outlived empires, maps, and explorers.",
+  "duration": 4.97,
+  "notes": [],
+  "mtime": 1795122298.3317108
+ },
+ "6.11_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.95,
+  "asr": "The wind still moves across the sand, as it always has, erasing footprints by evening.",
+  "duration": 6.0,
+  "notes": [],
+  "mtime": 1795122321.6841354
+ },
+ "6.11_p01_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.934,
+  "asr": "What remains is the question.",
+  "duration": 2.46,
+  "notes": [],
+  "mtime": 1795122335.264231
+ },
+ "6.11_p02_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.962,
+  "asr": "and the discipline to tell the difference between what we know, what we believe, and what we only imagine.",
+  "duration": 6.0,
+  "notes": [],
+  "mtime": 1795122359.1293318
+ }
+}
