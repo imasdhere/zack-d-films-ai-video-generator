@@ -1,0 +1,3918 @@
+{
+ "segments": [
+  {
+   "id": "0.01",
+   "chapter": 0,
+   "start": 7.0,
+   "dur": 17.996,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "There are places on Earth where the land itself seems to forget.",
+     "start": 0.0,
+     "end": 3.589
+    },
+    {
+     "i": 1,
+     "tts": "Here, in the south of Arabia, the wind has been moving sand for thousands of years.",
+     "start": 4.039,
+     "end": 9.47
+    },
+    {
+     "i": 2,
+     "tts": "Lifting it.",
+     "start": 9.92,
+     "end": 10.607
+    },
+    {
+     "i": 3,
+     "tts": "Folding it.",
+     "start": 11.057,
+     "end": 11.8
+    },
+    {
+     "i": 4,
+     "tts": "Laying it down again.",
+     "start": 12.25,
+     "end": 13.576
+    },
+    {
+     "i": 5,
+     "tts": "Footprints vanish by evening.",
+     "start": 14.026,
+     "end": 16.032
+    },
+    {
+     "i": 6,
+     "tts": "Whole dunes walk.",
+     "start": 16.482,
+     "end": 17.996
+    }
+   ]
+  },
+  {
+   "id": "0.02",
+   "chapter": 0,
+   "start": 28.096,
+   "dur": 5.009,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "And yet, some names survive the wind.",
+     "start": 0.0,
+     "end": 3.064
+    },
+    {
+     "i": 1,
+     "tts": "One of them is Iram.",
+     "start": 3.514,
+     "end": 5.009
+    }
+   ]
+  },
+  {
+   "id": "1.01",
+   "chapter": 1,
+   "start": 41.705,
+   "dur": 22.313,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The Rub al Khaali, the Empty Quarter, covers some six hundred and fifty thousand square kilometres of the Arabian Peninsula, across parts of Saudi Arabia, Oman, the United Arab Emirates and Yemen.",
+     "start": 0.0,
+     "end": 13.059
+    },
+    {
+     "i": 1,
+     "tts": "It is often described as the largest continuous sand desert on Earth.",
+     "start": 13.509,
+     "end": 18.379
+    },
+    {
+     "i": 2,
+     "tts": "In places, its dunes rise more than two hundred metres.",
+     "start": 18.829,
+     "end": 22.313
+    }
+   ]
+  },
+  {
+   "id": "1.02",
+   "chapter": 1,
+   "start": 64.618,
+   "dur": 7.871,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "For centuries, those who lived along its edges told stories of a people of great strength, of towering buildings, and of a city that was lost.",
+     "start": 0.0,
+     "end": 7.871
+    }
+   ]
+  },
+  {
+   "id": "1.03",
+   "chapter": 1,
+   "start": 73.089,
+   "dur": 9.065,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The oldest written source for that memory is the Quran.",
+     "start": 0.0,
+     "end": 3.543
+    },
+    {
+     "i": 1,
+     "tts": "In a short passage of Soorat al-Fajr, the chapter of the Dawn, it asks:",
+     "start": 3.993,
+     "end": 9.065
+    }
+   ]
+  },
+  {
+   "id": "1.04",
+   "chapter": 1,
+   "start": 82.754,
+   "dur": 8.639,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Dost thou not consider how thy Lord dealt with the tribe of Aad, with many-columned Iram, the like of which was not created in the lands.",
+     "start": 0.0,
+     "end": 8.639
+    }
+   ]
+  },
+  {
+   "id": "1.05",
+   "chapter": 1,
+   "start": 91.993,
+   "dur": 17.393,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Three short verses.",
+     "start": 0.0,
+     "end": 1.471
+    },
+    {
+     "i": 1,
+     "tts": "A people: Aad.",
+     "start": 1.921,
+     "end": 3.403
+    },
+    {
+     "i": 2,
+     "tts": "A name: Iram.",
+     "start": 3.853,
+     "end": 5.66
+    },
+    {
+     "i": 3,
+     "tts": "And a description: dhaat, al-Imaad.",
+     "start": 6.11,
+     "end": 9.864
+    },
+    {
+     "i": 4,
+     "tts": "Possessing imaad.",
+     "start": 10.314,
+     "end": 11.505
+    },
+    {
+     "i": 5,
+     "tts": "A word that can mean columns, or pillars, or the poles that hold up a tent.",
+     "start": 11.955,
+     "end": 17.393
+    }
+   ]
+  },
+  {
+   "id": "1.06",
+   "chapter": 1,
+   "start": 109.986,
+   "dur": 18.347,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "From these few words grew one of the most enduring mysteries of the Arabian desert.",
+     "start": 0.0,
+     "end": 4.751
+    },
+    {
+     "i": 1,
+     "tts": "Storytellers imagined palaces of gold.",
+     "start": 5.201,
+     "end": 7.987
+    },
+    {
+     "i": 2,
+     "tts": "Popular retellings still speak of a city of a thousand pillars.",
+     "start": 8.437,
+     "end": 12.661
+    },
+    {
+     "i": 3,
+     "tts": "Explorers went looking for it.",
+     "start": 13.111,
+     "end": 14.786
+    },
+    {
+     "i": 4,
+     "tts": "And satellites photographed the sand where it might lie.",
+     "start": 15.236,
+     "end": 18.347
+    }
+   ]
+  },
+  {
+   "id": "1.07",
+   "chapter": 1,
+   "start": 128.933,
+   "dur": 11.757,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "This film asks three questions.",
+     "start": 0.0,
+     "end": 2.112
+    },
+    {
+     "i": 1,
+     "tts": "What does the text actually say?",
+     "start": 2.562,
+     "end": 5.009
+    },
+    {
+     "i": 2,
+     "tts": "What did the earliest scholars understand by it?",
+     "start": 5.572,
+     "end": 8.161
+    },
+    {
+     "i": 3,
+     "tts": "And what, if anything, has archaeology really found?",
+     "start": 8.724,
+     "end": 11.757
+    }
+   ]
+  },
+  {
+   "id": "1.08",
+   "chapter": 1,
+   "start": 141.29,
+   "dur": 14.503,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "To answer them, we must keep different kinds of evidence apart: scripture, scholarship, legend, excavation and hypothesis.",
+     "start": 0.0,
+     "end": 10.216
+    },
+    {
+     "i": 1,
+     "tts": "Throughout this film, each will be marked as it appears.",
+     "start": 10.666,
+     "end": 14.503
+    }
+   ]
+  },
+  {
+   "id": "2.01",
+   "chapter": 2,
+   "start": 163.393,
+   "dur": 5.531,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The Quran names Aad twenty-four times.",
+     "start": 0.0,
+     "end": 3.069
+    },
+    {
+     "i": 1,
+     "tts": "Iram, it names only once.",
+     "start": 3.519,
+     "end": 5.531
+    }
+   ]
+  },
+  {
+   "id": "2.02",
+   "chapter": 2,
+   "start": 169.524,
+   "dur": 10.554,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In the Quranic account, Aad were a people who came after the people of Noah.",
+     "start": 0.0,
+     "end": 4.232
+    },
+    {
+     "i": 1,
+     "tts": "To them was sent a prophet from among themselves.",
+     "start": 4.682,
+     "end": 7.673
+    },
+    {
+     "i": 2,
+     "tts": "The Quran calls him their brother: Hood.",
+     "start": 8.123,
+     "end": 10.554
+    }
+   ]
+  },
+  {
+   "id": "2.03",
+   "chapter": 2,
+   "start": 180.678,
+   "dur": 17.903,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "It describes a people blessed with plenty.",
+     "start": 0.0,
+     "end": 2.425
+    },
+    {
+     "i": 1,
+     "tts": "Hood reminds them that God has aided them with cattle and sons, and gardens and watersprings.",
+     "start": 2.875,
+     "end": 7.954
+    },
+    {
+     "i": 2,
+     "tts": "He reminds them that they were given growth of stature: in Arabic, basta, a word the commentators read as size, or strength, or reach.",
+     "start": 8.404,
+     "end": 17.903
+    }
+   ]
+  },
+  {
+   "id": "2.04",
+   "chapter": 2,
+   "start": 199.181,
+   "dur": 12.033,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "They were builders.",
+     "start": 0.0,
+     "end": 1.232
+    },
+    {
+     "i": 1,
+     "tts": "Build ye on every high place a monument for vain delight?",
+     "start": 1.682,
+     "end": 5.361
+    },
+    {
+     "i": 2,
+     "tts": "Hood asks them.",
+     "start": 5.923,
+     "end": 6.869
+    },
+    {
+     "i": 3,
+     "tts": "And seek ye out strongholds, that haply ye may last for ever?",
+     "start": 7.319,
+     "end": 12.033
+    }
+   ]
+  },
+  {
+   "id": "2.05",
+   "chapter": 2,
+   "start": 211.814,
+   "dur": 6.129,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "And they were certain of their own power.",
+     "start": 0.0,
+     "end": 2.155
+    },
+    {
+     "i": 1,
+     "tts": "Who is mightier than us in power?",
+     "start": 2.605,
+     "end": 5.008
+    },
+    {
+     "i": 2,
+     "tts": "they ask.",
+     "start": 5.57,
+     "end": 6.129
+    }
+   ]
+  },
+  {
+   "id": "2.06",
+   "chapter": 2,
+   "start": 218.543,
+   "dur": 9.798,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The Quran tells us where Hood preached in a single phrase.",
+     "start": 0.0,
+     "end": 3.32
+    },
+    {
+     "i": 1,
+     "tts": "He warned his people, it says, among the wind-curved sandhills: bil-Ahqaaf.",
+     "start": 3.77,
+     "end": 9.798
+    }
+   ]
+  },
+  {
+   "id": "2.07",
+   "chapter": 2,
+   "start": 228.941,
+   "dur": 20.449,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Classical scholars tried to find that landscape on the map.",
+     "start": 0.0,
+     "end": 3.427
+    },
+    {
+     "i": 1,
+     "tts": "The great exegete at-Tabari, who died in Baghdad in the year nine hundred and twenty-three, explained that ahqaaf means sand that curves and bends.",
+     "start": 3.877,
+     "end": 12.594
+    },
+    {
+     "i": 2,
+     "tts": "He placed the land of Aad in the south: in ash-Shihr, in the region of Hadramawt, and the lands around it.",
+     "start": 13.044,
+     "end": 20.449
+    }
+   ]
+  },
+  {
+   "id": "2.08",
+   "chapter": 2,
+   "start": 249.99,
+   "dur": 11.346,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In Hadramawt today, a tomb attributed to the Prophet Hood is still visited by pilgrims.",
+     "start": 0.0,
+     "end": 5.888
+    },
+    {
+     "i": 1,
+     "tts": "It is a living tradition, though more than one place has claimed his resting place.",
+     "start": 6.338,
+     "end": 11.346
+    }
+   ]
+  },
+  {
+   "id": "2.09",
+   "chapter": 2,
+   "start": 261.936,
+   "dur": 12.116,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "What the Quran does not give us is a date, a map, or a description of a city.",
+     "start": 0.0,
+     "end": 5.587
+    },
+    {
+     "i": 1,
+     "tts": "It gives a moral history: a people given strength and plenty; a warning; a refusal.",
+     "start": 6.037,
+     "end": 12.116
+    }
+   ]
+  },
+  {
+   "id": "2.10",
+   "chapter": 2,
+   "start": 274.652,
+   "dur": 9.616,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In this film, the Prophet Hood is never shown.",
+     "start": 0.0,
+     "end": 2.544
+    },
+    {
+     "i": 1,
+     "tts": "And the people of Aad appear only as distant figures, because no one knows what they looked like.",
+     "start": 2.994,
+     "end": 9.616
+    }
+   ]
+  },
+  {
+   "id": "3.01",
+   "chapter": 3,
+   "start": 291.868,
+   "dur": 26.408,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Iram dhaat, al-Imaad.",
+     "start": 0.0,
+     "end": 1.984
+    },
+    {
+     "i": 1,
+     "tts": "Translators still disagree on how to render it.",
+     "start": 2.434,
+     "end": 5.184
+    },
+    {
+     "i": 2,
+     "tts": "Marmaduke Pickthall, in nineteen thirty, wrote many-columned Iram.",
+     "start": 5.634,
+     "end": 9.878
+    },
+    {
+     "i": 3,
+     "tts": "A modern translation, Saheeh International, has Iram, who had lofty pillars.",
+     "start": 10.328,
+     "end": 16.19
+    },
+    {
+     "i": 4,
+     "tts": "Even the next verse divides them.",
+     "start": 16.64,
+     "end": 18.508
+    },
+    {
+     "i": 5,
+     "tts": "Was Iram a place, the like of which was never created?",
+     "start": 18.958,
+     "end": 23.059
+    },
+    {
+     "i": 6,
+     "tts": "Or a people, the likes of whom?",
+     "start": 23.622,
+     "end": 26.408
+    }
+   ]
+  },
+  {
+   "id": "3.02",
+   "chapter": 3,
+   "start": 318.876,
+   "dur": 4.237,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Muslim scholars were asking the same questions more than a thousand years ago.",
+     "start": 0.0,
+     "end": 4.237
+    }
+   ]
+  },
+  {
+   "id": "3.03",
+   "chapter": 3,
+   "start": 323.713,
+   "dur": 24.642,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "At-Tabari gathered the opinions of the generations before him.",
+     "start": 0.0,
+     "end": 3.51
+    },
+    {
+     "i": 1,
+     "tts": "Some said Iram was a city: Alexandria, according to one early authority; Damascus, according to another.",
+     "start": 3.96,
+     "end": 12.217
+    },
+    {
+     "i": 2,
+     "tts": "Some said it was a nation.",
+     "start": 12.667,
+     "end": 14.542
+    },
+    {
+     "i": 3,
+     "tts": "Others said it was a clan of Aad, the royal house of Aad, in the words of the early scholar Qataada, or the name of their ancestor.",
+     "start": 14.992,
+     "end": 24.642
+    }
+   ]
+  },
+  {
+   "id": "3.04",
+   "chapter": 3,
+   "start": 348.955,
+   "dur": 8.708,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "At-Tabari weighed these views, and concluded that Iram was most likely the name of a tribe of Aad.",
+     "start": 0.0,
+     "end": 6.556
+    },
+    {
+     "i": 1,
+     "tts": "Then he turned to the pillars.",
+     "start": 7.006,
+     "end": 8.708
+    }
+   ]
+  },
+  {
+   "id": "3.05",
+   "chapter": 3,
+   "start": 358.263,
+   "dur": 23.106,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Some early authorities said the word described the people themselves: their great height.",
+     "start": 0.0,
+     "end": 5.525
+    },
+    {
+     "i": 1,
+     "tts": "One said it meant a building they had raised, on tall columns.",
+     "start": 5.975,
+     "end": 10.314
+    },
+    {
+     "i": 2,
+     "tts": "But the view at-Tabari preferred was simpler.",
+     "start": 10.764,
+     "end": 13.497
+    },
+    {
+     "i": 3,
+     "tts": "The imaad, he argued, were the poles of tents.",
+     "start": 13.947,
+     "end": 17.378
+    },
+    {
+     "i": 4,
+     "tts": "Aad were people of poles: travellers, moving with the rains and the pasture.",
+     "start": 17.828,
+     "end": 23.106
+    }
+   ]
+  },
+  {
+   "id": "3.06",
+   "chapter": 3,
+   "start": 381.969,
+   "dur": 8.715,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "And he added a sentence that cuts to the heart of this mystery.",
+     "start": 0.0,
+     "end": 3.379
+    },
+    {
+     "i": 1,
+     "tts": "No building of theirs with columns, he wrote, is known through any authentic report.",
+     "start": 3.829,
+     "end": 8.715
+    }
+   ]
+  },
+  {
+   "id": "3.07",
+   "chapter": 3,
+   "start": 392.784,
+   "dur": 15.963,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Four centuries later, in Damascus, the scholar Ibn Katheer agreed.",
+     "start": 0.0,
+     "end": 5.717
+    },
+    {
+     "i": 1,
+     "tts": "Whether the imaad were buildings, or tent poles, or weapons, or the height of the people, he wrote, Aad were a tribe: a nation among the nations.",
+     "start": 6.167,
+     "end": 15.963
+    }
+   ]
+  },
+  {
+   "id": "3.08",
+   "chapter": 3,
+   "start": 409.347,
+   "dur": 29.858,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "So where did the golden city come from?",
+     "start": 0.0,
+     "end": 2.073
+    },
+    {
+     "i": 1,
+     "tts": "By Ibn Katheer's time, a rich legend had grown around the verse.",
+     "start": 2.635,
+     "end": 7.011
+    },
+    {
+     "i": 2,
+     "tts": "In some versions, a king named Shaddaad, son of Aad, built it.",
+     "start": 7.461,
+     "end": 13.241
+    },
+    {
+     "i": 3,
+     "tts": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk.",
+     "start": 13.691,
+     "end": 21.812
+    },
+    {
+     "i": 4,
+     "tts": "A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+     "start": 22.262,
+     "end": 29.858
+    }
+   ]
+  },
+  {
+   "id": "3.09",
+   "chapter": 3,
+   "start": 439.805,
+   "dur": 15.261,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "One story told of a Bedouin, Abdullah ibn Qilaaba, who, while searching for his lost camels in the time of the caliph Mu-aawiya, came upon a great city with walls and gates.",
+     "start": 0.0,
+     "end": 10.95
+    },
+    {
+     "i": 1,
+     "tts": "When others went back with him to the place, they found nothing.",
+     "start": 11.4,
+     "end": 15.26
+    }
+   ]
+  },
+  {
+   "id": "3.10",
+   "chapter": 3,
+   "start": 455.666,
+   "dur": 13.164,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Ibn Katheer rejected all of it.",
+     "start": 0.0,
+     "end": 2.053
+    },
+    {
+     "i": 1,
+     "tts": "These were, in his words, fables of the Israa-eeliyyaat.",
+     "start": 2.503,
+     "end": 6.173
+    },
+    {
+     "i": 2,
+     "tts": "The tale of Ibn Qilaaba, he said, had no sound chain of transmission, and was certainly not authentic.",
+     "start": 6.623,
+     "end": 13.164
+    }
+   ]
+  },
+  {
+   "id": "3.11",
+   "chapter": 3,
+   "start": 469.43,
+   "dur": 7.711,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The legend lived on regardless.",
+     "start": 0.0,
+     "end": 2.109
+    },
+    {
+     "i": 1,
+     "tts": "It entered the Thousand and One Nights, and later the poetry and fiction of Europe.",
+     "start": 2.559,
+     "end": 7.711
+    }
+   ]
+  },
+  {
+   "id": "3.12",
+   "chapter": 3,
+   "start": 477.741,
+   "dur": 16.919,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "What you are seeing now is an artistic reconstruction.",
+     "start": 0.0,
+     "end": 3.334
+    },
+    {
+     "i": 1,
+     "tts": "One imagined reading of the verse: a settlement raised on stone columns.",
+     "start": 3.784,
+     "end": 8.721
+    },
+    {
+     "i": 2,
+     "tts": "It is not based on any excavated site.",
+     "start": 9.171,
+     "end": 11.713
+    },
+    {
+     "i": 3,
+     "tts": "The Quran does not describe Iram's appearance, and no archaeologist has found it.",
+     "start": 12.163,
+     "end": 16.919
+    }
+   ]
+  },
+  {
+   "id": "3.13",
+   "chapter": 3,
+   "start": 495.26,
+   "dur": 14.469,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "And this is the other reading, the one the classical scholars preferred: great tents of woven hair, raised on poles, moving across the land.",
+     "start": 0.0,
+     "end": 8.809
+    },
+    {
+     "i": 1,
+     "tts": "It too is an interpretation.",
+     "start": 9.259,
+     "end": 11.17
+    },
+    {
+     "i": 2,
+     "tts": "But it reminds us how much a single word can carry.",
+     "start": 11.62,
+     "end": 14.469
+    }
+   ]
+  },
+  {
+   "id": "3.14",
+   "chapter": 3,
+   "start": 510.329,
+   "dur": 9.979,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The city of a thousand pillars is real, in its way.",
+     "start": 0.0,
+     "end": 3.885
+    },
+    {
+     "i": 1,
+     "tts": "But it belongs to the history of storytelling.",
+     "start": 4.335,
+     "end": 6.971
+    },
+    {
+     "i": 2,
+     "tts": "The text itself is far more restrained.",
+     "start": 7.421,
+     "end": 9.979
+    }
+   ]
+  },
+  {
+   "id": "4.01",
+   "chapter": 4,
+   "start": 528.408,
+   "dur": 4.727,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In the twentieth century, the search moved from the library into the desert.",
+     "start": 0.0,
+     "end": 4.727
+    }
+   ]
+  },
+  {
+   "id": "4.02",
+   "chapter": 4,
+   "start": 533.735,
+   "dur": 20.771,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In nineteen thirty, the British explorer Bertram Thomas set out to cross the Empty Quarter, guided by Bedouin of the Rasheed tribe.",
+     "start": 0.0,
+     "end": 8.924
+    },
+    {
+     "i": 1,
+     "tts": "He became the first Westerner on record to do so.",
+     "start": 9.374,
+     "end": 12.29
+    },
+    {
+     "i": 2,
+     "tts": "Along the way, his guides pointed to wide tracks between the dunes.",
+     "start": 12.74,
+     "end": 16.983
+    },
+    {
+     "i": 3,
+     "tts": "Look, Sahib, one said.",
+     "start": 17.433,
+     "end": 18.855
+    },
+    {
+     "i": 4,
+     "tts": "There is the way to Ubar.",
+     "start": 19.305,
+     "end": 20.771
+    }
+   ]
+  },
+  {
+   "id": "4.03",
+   "chapter": 4,
+   "start": 555.106,
+   "dur": 9.837,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Thomas wrote of this Atlantis of the Sands.",
+     "start": 0.0,
+     "end": 2.585
+    },
+    {
+     "i": 1,
+     "tts": "The phrase is often credited to Lawrence of Arabia, but it does not appear in Lawrence's published works.",
+     "start": 3.035,
+     "end": 9.837
+    }
+   ]
+  },
+  {
+   "id": "4.04",
+   "chapter": 4,
+   "start": 565.543,
+   "dur": 13.054,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Ubar, or Wabaar, was a name from Arabian tradition: a fabled place of wealth and ruin somewhere in the sands.",
+     "start": 0.0,
+     "end": 8.478
+    },
+    {
+     "i": 1,
+     "tts": "Over time, some writers began to merge it with the Quranic Iram.",
+     "start": 8.928,
+     "end": 13.054
+    }
+   ]
+  },
+  {
+   "id": "4.05",
+   "chapter": 4,
+   "start": 579.197,
+   "dur": 20.829,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In nineteen thirty-two, Harry Sinjun Philby went in search of Wabaar, deep in the Rub al Khaali.",
+     "start": 0.0,
+     "end": 6.444
+    },
+    {
+     "i": 1,
+     "tts": "Bedouin had told him of ruins, and of a block of iron the size of a camel.",
+     "start": 6.894,
+     "end": 11.623
+    },
+    {
+     "i": 2,
+     "tts": "After a month of hard travel, he reached a field of black glass and craters half choked with sand.",
+     "start": 12.073,
+     "end": 19.01
+    },
+    {
+     "i": 3,
+     "tts": "He thought it was a volcano.",
+     "start": 19.46,
+     "end": 20.829
+    }
+   ]
+  },
+  {
+   "id": "4.06",
+   "chapter": 4,
+   "start": 600.626,
+   "dur": 22.12,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "It was neither a city nor a volcano.",
+     "start": 0.0,
+     "end": 2.853
+    },
+    {
+     "i": 1,
+     "tts": "Samples sent to the British Museum showed that it was the impact site of an iron meteorite.",
+     "start": 3.303,
+     "end": 8.805
+    },
+    {
+     "i": 2,
+     "tts": "Later luminescence dating suggests the craters may be only a few centuries old, perhaps less than two hundred and fifty years.",
+     "start": 9.255,
+     "end": 17.035
+    },
+    {
+     "i": 3,
+     "tts": "A real place, and a real mystery.",
+     "start": 17.485,
+     "end": 20.575
+    },
+    {
+     "i": 4,
+     "tts": "But not Iram.",
+     "start": 21.025,
+     "end": 22.12
+    }
+   ]
+  },
+  {
+   "id": "4.07",
+   "chapter": 4,
+   "start": 624.846,
+   "dur": 19.42,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "To understand why anyone would travel through this desert at all, follow the smoke of frankincense.",
+     "start": 0.0,
+     "end": 5.955
+    },
+    {
+     "i": 1,
+     "tts": "Frankincense is the resin of Boswellia sacra, a tree that still grows in the dry valleys of Dhofar, in southern Oman.",
+     "start": 6.405,
+     "end": 14.836
+    },
+    {
+     "i": 2,
+     "tts": "In the ancient world, it was prized from Arabia to Rome.",
+     "start": 15.286,
+     "end": 19.42
+    }
+   ]
+  },
+  {
+   "id": "4.08",
+   "chapter": 4,
+   "start": 644.866,
+   "dur": 19.457,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "A Greek sailing guide of the first century, the Periplus of the Erythraean Sea, describes this coast as the Frankincense Country, mountainous and forbidding, wrapped in thick clouds and fog.",
+     "start": 0.0,
+     "end": 12.294
+    },
+    {
+     "i": 1,
+     "tts": "It names a harbour called Moscha, where ships took on the resin, under the control of the king's officers.",
+     "start": 12.744,
+     "end": 19.457
+    }
+   ]
+  },
+  {
+   "id": "4.09",
+   "chapter": 4,
+   "start": 664.923,
+   "dur": 17.75,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Moscha is identified with Khor Rori, near modern Salalah, where the walls of a fortified port called Sumhuram still stand.",
+     "start": 0.0,
+     "end": 8.312
+    },
+    {
+     "i": 1,
+     "tts": "From this coast and its hinterland, frankincense moved inland and north, along caravan routes that linked southern Arabia to the Mediterranean world.",
+     "start": 8.762,
+     "end": 17.75
+    }
+   ]
+  },
+  {
+   "id": "4.10",
+   "chapter": 4,
+   "start": 683.273,
+   "dur": 19.63,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Decades after Thomas, an American filmmaker, Nicholas Clapp, read his account and set out to find Ubar.",
+     "start": 0.0,
+     "end": 6.423
+    },
+    {
+     "i": 1,
+     "tts": "He brought together scientists from NASA's Jet Propulsion Laboratory, among them Ronald Blom and Charles Elachi, with the archaeologist Juris Zarins, the explorer Ranulph Fiennes, and George Hedges.",
+     "start": 6.873,
+     "end": 19.63
+    }
+   ]
+  },
+  {
+   "id": "4.11",
+   "chapter": 4,
+   "start": 703.503,
+   "dur": 23.628,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Satellites could not see a buried city.",
+     "start": 0.0,
+     "end": 2.243
+    },
+    {
+     "i": 1,
+     "tts": "But Landsat images revealed something subtler: faint, ancient tracks crossing the desert floor.",
+     "start": 2.693,
+     "end": 9.947
+    },
+    {
+     "i": 2,
+     "tts": "And several of them led towards one place.",
+     "start": 10.397,
+     "end": 12.837
+    },
+    {
+     "i": 3,
+     "tts": "In nineteen ninety-four, radar aboard the Space Shuttle Endeavour imaged the same region, and the tracks appeared again, as soft red streaks.",
+     "start": 13.287,
+     "end": 23.628
+    }
+   ]
+  },
+  {
+   "id": "4.12",
+   "chapter": 4,
+   "start": 727.731,
+   "dur": 12.491,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "That place was Shisr, a small oasis in Dhofar, about one hundred and seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a few centuries old.",
+     "start": 0.0,
+     "end": 12.491
+    }
+   ]
+  },
+  {
+   "id": "4.13",
+   "chapter": 4,
+   "start": 740.822,
+   "dur": 27.182,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Excavation began under Juris Zarins.",
+     "start": 0.0,
+     "end": 2.528
+    },
+    {
+     "i": 1,
+     "tts": "Beneath the later fort, the team uncovered the walls and towers of a much older fortress, more than two thousand years old in its earliest phases, according to its excavators.",
+     "start": 2.978,
+     "end": 14.121
+    },
+    {
+     "i": 2,
+     "tts": "They found objects from Persia, Greece and Rome: the traces of long-distance trade.",
+     "start": 14.571,
+     "end": 20.558
+    },
+    {
+     "i": 3,
+     "tts": "And they found that much of the fortress had collapsed into a sinkhole, the limestone cavern that held the well.",
+     "start": 21.008,
+     "end": 27.182
+    }
+   ]
+  },
+  {
+   "id": "4.14",
+   "chapter": 4,
+   "start": 768.604,
+   "dur": 6.689,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In February nineteen ninety-two, newspapers around the world announced that the lost city of Ubar had been found.",
+     "start": 0.0,
+     "end": 6.689
+    }
+   ]
+  },
+  {
+   "id": "4.15",
+   "chapter": 4,
+   "start": 777.393,
+   "dur": 26.76,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "But the scientists themselves soon told a more careful story.",
+     "start": 0.0,
+     "end": 3.945
+    },
+    {
+     "i": 1,
+     "tts": "Juris Zarins argued that, in the classical and Arabic sources, Ubar was not a single town at all, but a region and a people: the Yo-ba-ree-tie, marked on the second-century map of Ptolemy.",
+     "start": 4.395,
+     "end": 18.522
+    },
+    {
+     "i": 2,
+     "tts": "Shisr, in this view, was one fortified station in that land, a vital source of water on the frankincense routes.",
+     "start": 18.972,
+     "end": 26.76
+    }
+   ]
+  },
+  {
+   "id": "4.16",
+   "chapter": 4,
+   "start": 804.753,
+   "dur": 14.638,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Others went further.",
+     "start": 0.0,
+     "end": 1.069
+    },
+    {
+     "i": 1,
+     "tts": "In two thousand and four, the geologist H.",
+     "start": 1.519,
+     "end": 4.27
+    },
+    {
+     "i": 2,
+     "tts": "Stewart Edgell published a critique titled The myth of the lost city of the Arabian Sands, arguing that Shisr had been a small caravanserai, not a lost metropolis.",
+     "start": 4.72,
+     "end": 14.638
+    }
+   ]
+  },
+  {
+   "id": "4.17",
+   "chapter": 4,
+   "start": 819.991,
+   "dur": 16.314,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Today, Shisr is part of a UNESCO World Heritage property, the Land of Frankincense.",
+     "start": 0.0,
+     "end": 5.74
+    },
+    {
+     "i": 1,
+     "tts": "UNESCO describes it not as Iram, but as the remains of the caravan oasis of Shisr, or Wubar: a station for water on the routes of the incense trade.",
+     "start": 6.19,
+     "end": 16.314
+    }
+   ]
+  },
+  {
+   "id": "4.18",
+   "chapter": 4,
+   "start": 836.905,
+   "dur": 15.376,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "So what did Shisr prove?",
+     "start": 0.0,
+     "end": 2.073
+    },
+    {
+     "i": 1,
+     "tts": "It proved that ancient tracks can be traced from space.",
+     "start": 2.635,
+     "end": 6.109
+    },
+    {
+     "i": 2,
+     "tts": "It proved that this desert edge was busy with trade.",
+     "start": 6.559,
+     "end": 9.507
+    },
+    {
+     "i": 3,
+     "tts": "It did not prove that Shisr was Ubar.",
+     "start": 9.957,
+     "end": 12.574
+    },
+    {
+     "i": 4,
+     "tts": "And it did not prove that Ubar was Iram.",
+     "start": 13.024,
+     "end": 15.376
+    }
+   ]
+  },
+  {
+   "id": "4.19",
+   "chapter": 4,
+   "start": 852.881,
+   "dur": 18.541,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The difference matters.",
+     "start": 0.0,
+     "end": 1.155
+    },
+    {
+     "i": 1,
+     "tts": "A popular identification is a story that people choose to tell.",
+     "start": 1.605,
+     "end": 5.545
+    },
+    {
+     "i": 2,
+     "tts": "An archaeological interpretation is an argument from evidence.",
+     "start": 5.995,
+     "end": 9.791
+    },
+    {
+     "i": 3,
+     "tts": "An established conclusion is what remains when the arguments have been tested.",
+     "start": 10.241,
+     "end": 14.045
+    },
+    {
+     "i": 4,
+     "tts": "The link between Shisr and Iram has never moved beyond the first.",
+     "start": 14.495,
+     "end": 18.541
+    }
+   ]
+  },
+  {
+   "id": "5.01",
+   "chapter": 5,
+   "start": 879.522,
+   "dur": 10.46,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The Quran's account of how Aad came to an end is brief, and vivid.",
+     "start": 0.0,
+     "end": 4.878
+    },
+    {
+     "i": 1,
+     "tts": "They demanded the punishment they had been warned of.",
+     "start": 5.328,
+     "end": 7.801
+    },
+    {
+     "i": 2,
+     "tts": "And then, the text says,",
+     "start": 8.251,
+     "end": 10.46
+    }
+   ]
+  },
+  {
+   "id": "5.02",
+   "chapter": 5,
+   "start": 890.582,
+   "dur": 21.735,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "when they beheld it as a dense cloud coming toward their valleys, they said: Here is a cloud bringing us rain.",
+     "start": 0.0,
+     "end": 6.923
+    },
+    {
+     "i": 1,
+     "tts": "Nay, but it is that which ye did seek to hasten, a wind wherein is painful torment, destroying all things by commandment of its Lord.",
+     "start": 7.373,
+     "end": 17.32
+    },
+    {
+     "i": 2,
+     "tts": "And morning found them so that naught could be seen save their dwellings.",
+     "start": 17.77,
+     "end": 21.735
+    }
+   ]
+  },
+  {
+   "id": "5.03",
+   "chapter": 5,
+   "start": 914.417,
+   "dur": 17.142,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Elsewhere the wind is called sarsar, raging, or roaring, and al-aqeem, the barren wind.",
+     "start": 0.0,
+     "end": 6.272
+    },
+    {
+     "i": 1,
+     "tts": "It blew, the Quran says, for seven long nights and eight long days.",
+     "start": 6.722,
+     "end": 12.817
+    },
+    {
+     "i": 2,
+     "tts": "Hood, and those who believed with him, were saved.",
+     "start": 13.267,
+     "end": 17.142
+    }
+   ]
+  },
+  {
+   "id": "5.04",
+   "chapter": 5,
+   "start": 932.159,
+   "dur": 20.041,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The memory of that wind stayed with the Prophet Muhammad.",
+     "start": 0.0,
+     "end": 3.645
+    },
+    {
+     "i": 1,
+     "tts": "His wife Aa-isha reported that whenever he saw clouds or wind, concern showed on his face.",
+     "start": 4.095,
+     "end": 10.684
+    },
+    {
+     "i": 2,
+     "tts": "When she asked him why, he said that a people had been punished with wind, and that when they saw it coming, they had said, This cloud will give us rain.",
+     "start": 11.134,
+     "end": 20.041
+    }
+   ]
+  },
+  {
+   "id": "5.05",
+   "chapter": 5,
+   "start": 952.8,
+   "dur": 7.834,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In another authentic report, he said: I was granted victory with the east wind, and Aad were destroyed by the west wind.",
+     "start": 0.0,
+     "end": 7.834
+    }
+   ]
+  },
+  {
+   "id": "5.06",
+   "chapter": 5,
+   "start": 963.734,
+   "dur": 8.098,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Science cannot test a religious account of divine judgement.",
+     "start": 0.0,
+     "end": 3.192
+    },
+    {
+     "i": 1,
+     "tts": "But it can ask a different question: how has this land itself changed?",
+     "start": 3.642,
+     "end": 8.098
+    }
+   ]
+  },
+  {
+   "id": "5.07",
+   "chapter": 5,
+   "start": 972.432,
+   "dur": 18.633,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In a cave called Qunf, in the mountains of Dhofar, a stalagmite has recorded rainfall for thousands of years, layer by layer.",
+     "start": 0.0,
+     "end": 8.45
+    },
+    {
+     "i": 1,
+     "tts": "A study published in two thousand and three found that monsoon rain here was stronger in the early Holocene, and that after about eight thousand years ago, it gradually declined.",
+     "start": 8.9,
+     "end": 18.633
+    }
+   ]
+  },
+  {
+   "id": "5.08",
+   "chapter": 5,
+   "start": 991.665,
+   "dur": 16.358,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Deep in the Rub al Khaali, researchers reported in two thousand and twenty-five that, during an ancient humid phase, heavy rains filled a lake of about eleven hundred square kilometres, which eventually broke its banks and carved a valley some one hundred and fifty kilometres long.",
+     "start": 0.0,
+     "end": 16.358
+    }
+   ]
+  },
+  {
+   "id": "5.09",
+   "chapter": 5,
+   "start": 1008.623,
+   "dur": 9.549,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Arabia, in other words, was not always this dry.",
+     "start": 0.0,
+     "end": 3.976
+    },
+    {
+     "i": 1,
+     "tts": "Over many thousands of years, its landscapes have shifted between green and gold.",
+     "start": 4.426,
+     "end": 9.549
+    }
+   ]
+  },
+  {
+   "id": "5.10",
+   "chapter": 5,
+   "start": 1018.772,
+   "dur": 25.815,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "But we should be clear.",
+     "start": 0.0,
+     "end": 1.39
+    },
+    {
+     "i": 1,
+     "tts": "These changes unfolded over centuries and millennia.",
+     "start": 1.84,
+     "end": 5.325
+    },
+    {
+     "i": 2,
+     "tts": "No study has dated the people of Aad, and no geological event has been shown to match the Quranic account.",
+     "start": 5.775,
+     "end": 12.011
+    },
+    {
+     "i": 3,
+     "tts": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site.",
+     "start": 12.461,
+     "end": 17.958
+    },
+    {
+     "i": 4,
+     "tts": "The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to Aad.",
+     "start": 18.408,
+     "end": 25.815
+    }
+   ]
+  },
+  {
+   "id": "5.11",
+   "chapter": 5,
+   "start": 1045.187,
+   "dur": 7.119,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Religious memory and physical evidence are answering different questions.",
+     "start": 0.0,
+     "end": 4.395
+    },
+    {
+     "i": 1,
+     "tts": "Merging them would do justice to neither.",
+     "start": 4.845,
+     "end": 7.119
+    }
+   ]
+  },
+  {
+   "id": "6.01",
+   "chapter": 6,
+   "start": 1060.406,
+   "dur": 6.662,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In recent years, the search for Iram has taken an unexpected turn, away from the southern sands altogether.",
+     "start": 0.0,
+     "end": 6.662
+    }
+   ]
+  },
+  {
+   "id": "6.02",
+   "chapter": 6,
+   "start": 1067.668,
+   "dur": 20.915,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In the deserts of southern Jordan lies Wadi Ramm, the valley known today as Wadi Rum: red cliffs, and some twenty thousand recorded inscriptions.",
+     "start": 0.0,
+     "end": 10.601
+    },
+    {
+     "i": 1,
+     "tts": "A Nabataean temple to the goddess Allat stands at the foot of Jabal Ramm, and inscriptions from the site give the ancient name of the place as Iram.",
+     "start": 11.051,
+     "end": 20.915
+    }
+   ]
+  },
+  {
+   "id": "6.03",
+   "chapter": 6,
+   "start": 1089.183,
+   "dur": 15.084,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "In two thousand and twenty-five, the epigrapher Ahmad Al-Jallad published a study of pre-Islamic inscriptions written by members of a tribe called Aad, in the deserts of the north, and argued that the Quranic names may belong to this region.",
+     "start": 0.0,
+     "end": 15.084
+    }
+   ]
+  },
+  {
+   "id": "6.04",
+   "chapter": 6,
+   "start": 1104.867,
+   "dur": 14.28,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "It is a serious proposal, built on careful readings of ancient texts.",
+     "start": 0.0,
+     "end": 4.706
+    },
+    {
+     "i": 1,
+     "tts": "It is also new, and scholars are still weighing it.",
+     "start": 5.156,
+     "end": 8.645
+    },
+    {
+     "i": 2,
+     "tts": "Like Shisr before it, it shows how much depends on the evidence we choose to follow.",
+     "start": 9.095,
+     "end": 14.28
+    }
+   ]
+  },
+  {
+   "id": "6.05",
+   "chapter": 6,
+   "start": 1121.747,
+   "dur": 3.044,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "So, what can we actually say?",
+     "start": 0.0,
+     "end": 3.044
+    }
+   ]
+  },
+  {
+   "id": "6.06",
+   "chapter": 6,
+   "start": 1125.391,
+   "dur": 14.537,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The Quran tells of a people named Aad; of their prophet, Hood; of their strength and their building; and of a wind that left only their dwellings.",
+     "start": 0.0,
+     "end": 8.993
+    },
+    {
+     "i": 1,
+     "tts": "It names Iram once, and calls it dhaat, al-Imaad.",
+     "start": 9.443,
+     "end": 14.537
+    }
+   ]
+  },
+  {
+   "id": "6.07",
+   "chapter": 6,
+   "start": 1140.528,
+   "dur": 14.697,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The classical scholars recorded a debate.",
+     "start": 0.0,
+     "end": 2.221
+    },
+    {
+     "i": 1,
+     "tts": "Two of the most influential, at-Tabari and Ibn Katheer, understood Iram as a tribe, and its imaad as the poles of tents.",
+     "start": 2.671,
+     "end": 11.52
+    },
+    {
+     "i": 2,
+     "tts": "And they rejected the legend of a golden city.",
+     "start": 11.97,
+     "end": 14.697
+    }
+   ]
+  },
+  {
+   "id": "6.08",
+   "chapter": 6,
+   "start": 1155.825,
+   "dur": 14.508,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Archaeology has found real places: a caravan fortress at Shisr, frankincense ports on the coast, and, in the north, inscriptions that name both Iram and a tribe called Aad.",
+     "start": 0.0,
+     "end": 10.889
+    },
+    {
+     "i": 1,
+     "tts": "It has not found a city of a thousand pillars.",
+     "start": 11.338,
+     "end": 14.508
+    }
+   ]
+  },
+  {
+   "id": "6.09",
+   "chapter": 6,
+   "start": 1170.933,
+   "dur": 6.401,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "And some things remain unknown: when Aad lived; exactly where; and what their pillars really were.",
+     "start": 0.0,
+     "end": 6.401
+    }
+   ]
+  },
+  {
+   "id": "6.10",
+   "chapter": 6,
+   "start": 1180.434,
+   "dur": 14.833,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "Perhaps that is the real lesson of Iram.",
+     "start": 0.0,
+     "end": 2.138
+    },
+    {
+     "i": 1,
+     "tts": "A people can survive in memory long after their stones are gone, or even if they never built in stone at all.",
+     "start": 2.588,
+     "end": 8.818
+    },
+    {
+     "i": 2,
+     "tts": "A few words in a sacred text have outlived empires, maps and explorers.",
+     "start": 9.268,
+     "end": 14.833
+    }
+   ]
+  },
+  {
+   "id": "6.11",
+   "chapter": 6,
+   "start": 1195.867,
+   "dur": 15.136,
+   "sentences": [
+    {
+     "i": 0,
+     "tts": "The wind still moves across the sand, as it always has, erasing footprints by evening.",
+     "start": 0.0,
+     "end": 6.237
+    },
+    {
+     "i": 1,
+     "tts": "What remains is the question.",
+     "start": 6.687,
+     "end": 8.637
+    },
+    {
+     "i": 2,
+     "tts": "And the discipline to tell the difference between what we know, what we believe, and what we only imagine.",
+     "start": 9.087,
+     "end": 15.136
+    }
+   ]
+  }
+ ],
+ "shots": [
+  {
+   "asset": "D01",
+   "move": "par",
+   "start": 0.0,
+   "end": 8.726,
+   "chapter": 0,
+   "seg": "0.01",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "D02",
+   "move": "par",
+   "start": 8.726,
+   "end": 14.543,
+   "chapter": 0,
+   "seg": "0.01",
+   "opts": {
+    "sfx": [
+     "sand_hiss"
+    ]
+   }
+  },
+  {
+   "asset": "D10",
+   "move": "parr",
+   "start": 14.543,
+   "end": 20.36,
+   "chapter": 0,
+   "seg": "0.01",
+   "opts": {
+    "sfx": [
+     "wind_gust"
+    ]
+   }
+  },
+  {
+   "asset": "D09",
+   "move": "in",
+   "start": 20.36,
+   "end": 25.596,
+   "chapter": 0,
+   "seg": "0.01",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "D18",
+   "move": "par",
+   "start": 25.596,
+   "end": 30.886,
+   "chapter": 0,
+   "seg": "0.02",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_TITLE",
+   "move": "gfx",
+   "start": 30.886,
+   "end": 36.705,
+   "chapter": 0,
+   "seg": "0.02",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_CHAPTER",
+   "move": "gfx",
+   "start": 36.705,
+   "end": 41.705,
+   "chapter": 1,
+   "opts": {
+    "number": "ONE",
+    "title": "The Disappearance",
+    "bg": "PH_ASTER_RUB",
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_ASTER_RUB",
+   "move": "down",
+   "start": 41.705,
+   "end": 47.898,
+   "chapter": 1,
+   "seg": "1.01",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "M01",
+   "move": "gfx",
+   "start": 47.898,
+   "end": 58.425,
+   "chapter": 1,
+   "seg": "1.01",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D04",
+   "move": "par",
+   "start": 58.425,
+   "end": 64.618,
+   "chapter": 1,
+   "seg": "1.01",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "E02",
+   "move": "par",
+   "start": 64.618,
+   "end": 68.853,
+   "chapter": 1,
+   "seg": "1.02",
+   "opts": {
+    "sfx": [
+     "fire",
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "P06",
+   "move": "parl",
+   "start": 68.853,
+   "end": 73.089,
+   "chapter": 1,
+   "seg": "1.02",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "D11",
+   "move": "par",
+   "start": 73.089,
+   "end": 82.754,
+   "chapter": 1,
+   "seg": "1.03",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_Q89",
+   "move": "gfx",
+   "start": 82.754,
+   "end": 91.993,
+   "chapter": 1,
+   "seg": "1.04",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_IMAD",
+   "move": "gfx",
+   "start": 91.993,
+   "end": 100.297,
+   "chapter": 1,
+   "seg": "1.05",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "R02",
+   "move": "par",
+   "start": 100.297,
+   "end": 105.142,
+   "chapter": 1,
+   "seg": "1.05",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ]
+   }
+  },
+  {
+   "asset": "R05",
+   "move": "in",
+   "start": 105.142,
+   "end": 109.986,
+   "chapter": 1,
+   "seg": "1.05",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "cloth"
+    ]
+   }
+  },
+  {
+   "asset": "L01",
+   "move": "in",
+   "start": 109.986,
+   "end": 114.723,
+   "chapter": 1,
+   "seg": "1.06",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "R03",
+   "move": "par",
+   "start": 114.723,
+   "end": 119.459,
+   "chapter": 1,
+   "seg": "1.06",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "E01",
+   "move": "left",
+   "start": 119.459,
+   "end": 124.196,
+   "chapter": 1,
+   "seg": "1.06",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "NASA_PIA01302",
+   "move": "in",
+   "start": 124.196,
+   "end": 128.933,
+   "chapter": 1,
+   "seg": "1.06",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_QUESTIONS",
+   "move": "gfx",
+   "start": 128.933,
+   "end": 141.29,
+   "chapter": 1,
+   "seg": "1.07",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_EVIDENCE_KEY",
+   "move": "gfx",
+   "start": 141.29,
+   "end": 158.393,
+   "chapter": 1,
+   "seg": "1.08",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_CHAPTER",
+   "move": "gfx",
+   "start": 158.393,
+   "end": 163.393,
+   "chapter": 2,
+   "opts": {
+    "number": "TWO",
+    "title": "The People of ʿĀd",
+    "bg": "G_COUNT",
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_COUNT",
+   "move": "gfx",
+   "start": 163.393,
+   "end": 169.524,
+   "chapter": 2,
+   "seg": "2.01",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D12",
+   "move": "par",
+   "start": 169.524,
+   "end": 175.101,
+   "chapter": 2,
+   "seg": "2.02",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "P06",
+   "move": "par",
+   "start": 175.101,
+   "end": 180.678,
+   "chapter": 2,
+   "seg": "2.02",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "footsteps"
+    ]
+   }
+  },
+  {
+   "asset": "P01",
+   "move": "par",
+   "start": 180.678,
+   "end": 186.846,
+   "chapter": 2,
+   "seg": "2.03",
+   "opts": {
+    "sfx": [
+     "water_spring",
+     "wind_low"
+    ],
+    "caption": "Qurʾān 26:133–134 (tr. Pickthall)"
+   }
+  },
+  {
+   "asset": "P02",
+   "move": "parr",
+   "start": 186.846,
+   "end": 193.013,
+   "chapter": 2,
+   "seg": "2.03",
+   "opts": {
+    "sfx": [
+     "water_spring"
+    ],
+    "caption": "Qurʾān 26:133–134"
+   }
+  },
+  {
+   "asset": "P03",
+   "move": "in",
+   "start": 193.013,
+   "end": 199.181,
+   "chapter": 2,
+   "seg": "2.03",
+   "opts": {
+    "sfx": [
+     "water_spring",
+     "wind_low"
+    ],
+    "caption": "Qurʾān 7:69 — basṭa"
+   }
+  },
+  {
+   "asset": "P04",
+   "move": "par",
+   "start": 199.181,
+   "end": 203.86,
+   "chapter": 2,
+   "seg": "2.04",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ],
+    "caption": "Qurʾān 26:128 (tr. Pickthall)"
+   }
+  },
+  {
+   "asset": "P05",
+   "move": "parl",
+   "start": 203.86,
+   "end": 208.539,
+   "chapter": 2,
+   "seg": "2.04",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ],
+    "caption": "Qurʾān 26:129 (tr. Pickthall)"
+   }
+  },
+  {
+   "asset": "P07",
+   "move": "in",
+   "start": 208.539,
+   "end": 211.814,
+   "chapter": 2,
+   "seg": "2.04",
+   "opts": {
+    "sfx": [
+     "stone_place"
+    ]
+   }
+  },
+  {
+   "asset": "B02_V3",
+   "move": "par",
+   "start": 211.814,
+   "end": 218.543,
+   "chapter": 2,
+   "seg": "2.05",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ],
+    "caption": "Qurʾān 41:15 (tr. Pickthall)"
+   }
+  },
+  {
+   "asset": "D09",
+   "move": "par",
+   "start": 218.543,
+   "end": 223.742,
+   "chapter": 2,
+   "seg": "2.06",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ],
+    "caption": "Qurʾān 46:21 — al-Aḥqāf (tr. Pickthall)"
+   }
+  },
+  {
+   "asset": "NASA_EMPTYQ",
+   "move": "in",
+   "start": 223.742,
+   "end": 228.941,
+   "chapter": 2,
+   "seg": "2.06",
+   "opts": {
+    "sfx": [
+     "sand_hiss"
+    ]
+   }
+  },
+  {
+   "asset": "K01",
+   "move": "in",
+   "start": 228.941,
+   "end": 235.957,
+   "chapter": 2,
+   "seg": "2.07",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "M03",
+   "move": "gfx",
+   "start": 235.957,
+   "end": 249.99,
+   "chapter": 2,
+   "seg": "2.07",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "P09",
+   "move": "par",
+   "start": 249.99,
+   "end": 261.936,
+   "chapter": 2,
+   "seg": "2.08",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D16",
+   "move": "par",
+   "start": 261.936,
+   "end": 268.294,
+   "chapter": 2,
+   "seg": "2.09",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D19",
+   "move": "right",
+   "start": 268.294,
+   "end": 274.652,
+   "chapter": 2,
+   "seg": "2.09",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "P06",
+   "move": "out",
+   "start": 274.652,
+   "end": 286.868,
+   "chapter": 2,
+   "seg": "2.10",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_CHAPTER",
+   "move": "gfx",
+   "start": 286.86800000000005,
+   "end": 291.86800000000005,
+   "chapter": 3,
+   "opts": {
+    "number": "THREE",
+    "title": "Iram of the Pillars",
+    "bg": "G_TRANSLATIONS",
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_TRANSLATIONS",
+   "move": "gfx",
+   "start": 291.868,
+   "end": 318.876,
+   "chapter": 3,
+   "seg": "3.01",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "K02",
+   "move": "par",
+   "start": 318.876,
+   "end": 323.713,
+   "chapter": 3,
+   "seg": "3.02",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "G_OPINIONS_IRAM",
+   "move": "gfx",
+   "start": 323.713,
+   "end": 348.955,
+   "chapter": 3,
+   "seg": "3.03",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "G_OPINIONS_IRAM",
+   "move": "gfx",
+   "start": 348.955,
+   "end": 354.385,
+   "chapter": 3,
+   "seg": "3.04",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ],
+    "step": 2
+   }
+  },
+  {
+   "asset": "R02",
+   "move": "par",
+   "start": 354.385,
+   "end": 358.263,
+   "chapter": 3,
+   "seg": "3.04",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ]
+   }
+  },
+  {
+   "asset": "G_OPINIONS_IMAD",
+   "move": "gfx",
+   "start": 358.263,
+   "end": 370.68,
+   "chapter": 3,
+   "seg": "3.05",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "R04",
+   "move": "par",
+   "start": 370.68,
+   "end": 381.969,
+   "chapter": 3,
+   "seg": "3.05",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "cloth"
+    ]
+   }
+  },
+  {
+   "asset": "G_TABARI_QUOTE",
+   "move": "gfx",
+   "start": 381.969,
+   "end": 392.784,
+   "chapter": 3,
+   "seg": "3.06",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "G_IBNKATHIR_QUOTE",
+   "move": "gfx",
+   "start": 392.784,
+   "end": 403.136,
+   "chapter": 3,
+   "seg": "3.07",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "R06",
+   "move": "left",
+   "start": 403.136,
+   "end": 409.347,
+   "chapter": 3,
+   "seg": "3.07",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "footsteps"
+    ]
+   }
+  },
+  {
+   "asset": "L01",
+   "move": "par",
+   "start": 409.347,
+   "end": 424.576,
+   "chapter": 3,
+   "seg": "3.08",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "L03",
+   "move": "in",
+   "start": 424.576,
+   "end": 439.805,
+   "chapter": 3,
+   "seg": "3.08",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "L02",
+   "move": "in",
+   "start": 439.805,
+   "end": 449.135,
+   "chapter": 3,
+   "seg": "3.09",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "D05",
+   "move": "drift",
+   "start": 449.135,
+   "end": 455.666,
+   "chapter": 3,
+   "seg": "3.09",
+   "opts": {
+    "sfx": [
+     "wind_night"
+    ]
+   }
+  },
+  {
+   "asset": "G_IBNKATHIR_REJECT",
+   "move": "gfx",
+   "start": 455.666,
+   "end": 469.43,
+   "chapter": 3,
+   "seg": "3.10",
+   "opts": {
+    "sfx": [
+     "lamp_room"
+    ]
+   }
+  },
+  {
+   "asset": "L03",
+   "move": "out",
+   "start": 469.43,
+   "end": 477.741,
+   "chapter": 3,
+   "seg": "3.11",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "B02_V1",
+   "move": "par",
+   "start": 477.741,
+   "end": 483.581,
+   "chapter": 3,
+   "seg": "3.12",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ]
+   }
+  },
+  {
+   "asset": "R01",
+   "move": "par",
+   "start": 483.581,
+   "end": 489.42,
+   "chapter": 3,
+   "seg": "3.12",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ]
+   }
+  },
+  {
+   "asset": "B02_V2",
+   "move": "up",
+   "start": 489.42,
+   "end": 495.26,
+   "chapter": 3,
+   "seg": "3.12",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ]
+   }
+  },
+  {
+   "asset": "R04",
+   "move": "par",
+   "start": 495.26,
+   "end": 500.642,
+   "chapter": 3,
+   "seg": "3.13",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "cloth",
+     "fire"
+    ]
+   }
+  },
+  {
+   "asset": "R05",
+   "move": "in",
+   "start": 500.642,
+   "end": 504.947,
+   "chapter": 3,
+   "seg": "3.13",
+   "opts": {
+    "sfx": [
+     "cloth"
+    ]
+   }
+  },
+  {
+   "asset": "R06",
+   "move": "right",
+   "start": 504.947,
+   "end": 510.329,
+   "chapter": 3,
+   "seg": "3.13",
+   "opts": {
+    "sfx": [
+     "footsteps",
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "D16",
+   "move": "par",
+   "start": 510.329,
+   "end": 523.408,
+   "chapter": 3,
+   "seg": "3.14",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_CHAPTER",
+   "move": "gfx",
+   "start": 523.408,
+   "end": 528.408,
+   "chapter": 4,
+   "opts": {
+    "number": "FOUR",
+    "title": "The Search Beneath the Sands",
+    "bg": "E11",
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "E11",
+   "move": "in",
+   "start": 528.408,
+   "end": 533.735,
+   "chapter": 4,
+   "seg": "4.01",
+   "opts": {
+    "sfx": [
+     "wind_low",
+     "paper"
+    ]
+   }
+  },
+  {
+   "asset": "PH_THOMAS_BEDU",
+   "move": "in",
+   "start": 533.735,
+   "end": 541.749,
+   "chapter": 4,
+   "seg": "4.02",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "E01",
+   "move": "left",
+   "start": 541.749,
+   "end": 548.428,
+   "chapter": 4,
+   "seg": "4.02",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "footsteps"
+    ]
+   }
+  },
+  {
+   "asset": "D13",
+   "move": "par",
+   "start": 548.428,
+   "end": 555.106,
+   "chapter": 4,
+   "seg": "4.02",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_THOMAS_QUOTE",
+   "move": "gfx",
+   "start": 555.106,
+   "end": 565.543,
+   "chapter": 4,
+   "seg": "4.03",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "L03",
+   "move": "par",
+   "start": 565.543,
+   "end": 572.37,
+   "chapter": 4,
+   "seg": "4.04",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D04",
+   "move": "right",
+   "start": 572.37,
+   "end": 579.197,
+   "chapter": 4,
+   "seg": "4.04",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "M05",
+   "move": "gfx",
+   "start": 579.197,
+   "end": 589.911,
+   "chapter": 4,
+   "seg": "4.05",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_ASTER_DUNES",
+   "move": "in",
+   "start": 589.911,
+   "end": 600.626,
+   "chapter": 4,
+   "seg": "4.05",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "PH_WABAR",
+   "move": "in",
+   "start": 600.626,
+   "end": 609.276,
+   "chapter": 4,
+   "seg": "4.06",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_WABAR_IRON",
+   "move": "drift",
+   "start": 609.276,
+   "end": 617.926,
+   "chapter": 4,
+   "seg": "4.06",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_WABAR2",
+   "move": "in",
+   "start": 617.926,
+   "end": 624.846,
+   "chapter": 4,
+   "seg": "4.06",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "PH_BOSW1",
+   "move": "par",
+   "start": 624.846,
+   "end": 631.519,
+   "chapter": 4,
+   "seg": "4.07",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_BARK",
+   "move": "in",
+   "start": 631.519,
+   "end": 638.193,
+   "chapter": 4,
+   "seg": "4.07",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "E04",
+   "move": "up",
+   "start": 638.193,
+   "end": 644.866,
+   "chapter": 4,
+   "seg": "4.07",
+   "opts": {
+    "sfx": [
+     "fire"
+    ]
+   }
+  },
+  {
+   "asset": "E06",
+   "move": "par",
+   "start": 644.866,
+   "end": 654.894,
+   "chapter": 4,
+   "seg": "4.08",
+   "opts": {
+    "sfx": [
+     "fog_coast"
+    ],
+    "caption": "Periplus of the Erythraean Sea §29 (tr. Schoff, 1912)"
+   }
+  },
+  {
+   "asset": "E05",
+   "move": "par",
+   "start": 654.894,
+   "end": 664.923,
+   "chapter": 4,
+   "seg": "4.08",
+   "opts": {
+    "sfx": [
+     "sea"
+    ],
+    "caption": "Periplus §32 — Moscha"
+   }
+  },
+  {
+   "asset": "NASA_ISS_DHOFAR",
+   "move": "in",
+   "start": 664.923,
+   "end": 669.117,
+   "chapter": 4,
+   "seg": "4.09",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "M06",
+   "move": "gfx",
+   "start": 669.117,
+   "end": 675.409,
+   "chapter": 4,
+   "seg": "4.09",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "M07",
+   "move": "gfx",
+   "start": 675.409,
+   "end": 683.273,
+   "chapter": 4,
+   "seg": "4.09",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "E10",
+   "move": "drift",
+   "start": 683.273,
+   "end": 693.388,
+   "chapter": 4,
+   "seg": "4.10",
+   "opts": {
+    "sfx": [
+     "wind_night"
+    ]
+   }
+  },
+  {
+   "asset": "D08",
+   "move": "par",
+   "start": 693.388,
+   "end": 703.503,
+   "chapter": 4,
+   "seg": "4.10",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "NASA_PIA01302",
+   "move": "right",
+   "start": 703.503,
+   "end": 710.845,
+   "chapter": 4,
+   "seg": "4.11",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "NASA_STS59",
+   "move": "up",
+   "start": 710.845,
+   "end": 716.718,
+   "chapter": 4,
+   "seg": "4.11",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "NASA_PIA01721",
+   "move": "down",
+   "start": 716.718,
+   "end": 727.731,
+   "chapter": 4,
+   "seg": "4.11",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_ROAD_UBAR",
+   "move": "in",
+   "start": 727.731,
+   "end": 734.276,
+   "chapter": 4,
+   "seg": "4.12",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "PH_SHISR1",
+   "move": "par",
+   "start": 734.276,
+   "end": 740.822,
+   "chapter": 4,
+   "seg": "4.12",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "E08",
+   "move": "par",
+   "start": 740.822,
+   "end": 746.378,
+   "chapter": 4,
+   "seg": "4.13",
+   "opts": {
+    "sfx": [
+     "excavation"
+    ]
+   }
+  },
+  {
+   "asset": "PH_SHISR2",
+   "move": "in",
+   "start": 746.378,
+   "end": 753.324,
+   "chapter": 4,
+   "seg": "4.13",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "excavation"
+    ]
+   }
+  },
+  {
+   "asset": "PH_SHISR_WELL",
+   "move": "up",
+   "start": 753.324,
+   "end": 760.269,
+   "chapter": 4,
+   "seg": "4.13",
+   "opts": {
+    "sfx": [
+     "wind_low",
+     "water_drip"
+    ]
+   }
+  },
+  {
+   "asset": "B03",
+   "move": "in",
+   "start": 760.269,
+   "end": 768.604,
+   "chapter": 4,
+   "seg": "4.13",
+   "opts": {
+    "sfx": [
+     "stone_rumble"
+    ],
+    "caption": "Schematic: a fortress above a limestone cavern, partly collapsed into it — not to scale"
+   }
+  },
+  {
+   "asset": "G_HEADLINE",
+   "move": "gfx",
+   "start": 768.604,
+   "end": 777.393,
+   "chapter": 4,
+   "seg": "4.14",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_ZARINS_QUOTE",
+   "move": "gfx",
+   "start": 777.393,
+   "end": 791.073,
+   "chapter": 4,
+   "seg": "4.15",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "E07",
+   "move": "par",
+   "start": 791.073,
+   "end": 804.753,
+   "chapter": 4,
+   "seg": "4.15",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "footsteps"
+    ]
+   }
+  },
+  {
+   "asset": "G_EDGELL",
+   "move": "gfx",
+   "start": 804.753,
+   "end": 812.372,
+   "chapter": 4,
+   "seg": "4.16",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_SHISR_RUIN",
+   "move": "par",
+   "start": 812.372,
+   "end": 819.991,
+   "chapter": 4,
+   "seg": "4.16",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "PH_DAWKAH",
+   "move": "par",
+   "start": 819.991,
+   "end": 828.448,
+   "chapter": 4,
+   "seg": "4.17",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ],
+    "caption": "UNESCO World Heritage: Land of Frankincense (2000)"
+   }
+  },
+  {
+   "asset": "PH_BALEED",
+   "move": "right",
+   "start": 828.448,
+   "end": 836.905,
+   "chapter": 4,
+   "seg": "4.17",
+   "opts": {
+    "sfx": [
+     "sea",
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "NASA_PIA01721",
+   "move": "in",
+   "start": 836.905,
+   "end": 844.893,
+   "chapter": 4,
+   "seg": "4.18",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_SHISR1",
+   "move": "out",
+   "start": 844.893,
+   "end": 852.881,
+   "chapter": 4,
+   "seg": "4.18",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_THREE_TIERS",
+   "move": "gfx",
+   "start": 852.881,
+   "end": 874.522,
+   "chapter": 4,
+   "seg": "4.19",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_CHAPTER",
+   "move": "gfx",
+   "start": 874.5219999999999,
+   "end": 879.5219999999999,
+   "chapter": 5,
+   "opts": {
+    "number": "FIVE",
+    "title": "What Happened?",
+    "bg": "D14",
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D14",
+   "move": "par",
+   "start": 879.522,
+   "end": 890.582,
+   "chapter": 5,
+   "seg": "5.01",
+   "opts": {
+    "sfx": [
+     "thunder_far",
+     "wind_rising"
+    ]
+   }
+  },
+  {
+   "asset": "G_Q46",
+   "move": "gfx",
+   "start": 890.582,
+   "end": 903.583,
+   "chapter": 5,
+   "seg": "5.02",
+   "opts": {
+    "sfx": [
+     "wind_rising"
+    ]
+   }
+  },
+  {
+   "asset": "D15",
+   "move": "par",
+   "start": 903.583,
+   "end": 914.417,
+   "chapter": 5,
+   "seg": "5.02",
+   "opts": {
+    "sfx": [
+     "wind_strong",
+     "thunder_far"
+    ]
+   }
+  },
+  {
+   "asset": "D06",
+   "move": "in",
+   "start": 914.417,
+   "end": 923.288,
+   "chapter": 5,
+   "seg": "5.03",
+   "opts": {
+    "sfx": [
+     "wind_strong",
+     "sand_hiss"
+    ],
+    "caption": "Qurʾān 69:6–7 (tr. Pickthall)"
+   }
+  },
+  {
+   "asset": "D16",
+   "move": "par",
+   "start": 923.288,
+   "end": 932.159,
+   "chapter": 5,
+   "seg": "5.03",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_HADITH_AISHA",
+   "move": "gfx",
+   "start": 932.159,
+   "end": 945.06,
+   "chapter": 5,
+   "seg": "5.04",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D14",
+   "move": "drift",
+   "start": 945.06,
+   "end": 952.8,
+   "chapter": 5,
+   "seg": "5.04",
+   "opts": {
+    "sfx": [
+     "thunder_far"
+    ]
+   }
+  },
+  {
+   "asset": "G_HADITH_SABA",
+   "move": "gfx",
+   "start": 952.8,
+   "end": 963.734,
+   "chapter": 5,
+   "seg": "5.05",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_SCIENCE_DIVIDER",
+   "move": "gfx",
+   "start": 963.734,
+   "end": 972.432,
+   "chapter": 5,
+   "seg": "5.06",
+   "opts": {
+    "sfx": [
+     "silence_room"
+    ]
+   }
+  },
+  {
+   "asset": "S01",
+   "move": "par",
+   "start": 972.432,
+   "end": 978.843,
+   "chapter": 5,
+   "seg": "5.07",
+   "opts": {
+    "sfx": [
+     "water_drip",
+     "cave"
+    ]
+   }
+  },
+  {
+   "asset": "S02",
+   "move": "in",
+   "start": 978.843,
+   "end": 983.972,
+   "chapter": 5,
+   "seg": "5.07",
+   "opts": {
+    "sfx": [
+     "cave"
+    ]
+   }
+  },
+  {
+   "asset": "G_HOLOCENE",
+   "move": "gfx",
+   "start": 983.972,
+   "end": 991.665,
+   "chapter": 5,
+   "seg": "5.07",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "S03",
+   "move": "par",
+   "start": 991.665,
+   "end": 1000.144,
+   "chapter": 5,
+   "seg": "5.08",
+   "opts": {
+    "sfx": [
+     "water_lake",
+     "wind_low"
+    ],
+    "label": "ILLUSTRATION — HUMID PERIOD"
+   }
+  },
+  {
+   "asset": "S04",
+   "move": "right",
+   "start": 1000.144,
+   "end": 1008.623,
+   "chapter": 5,
+   "seg": "5.08",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "P08",
+   "move": "par",
+   "start": 1008.623,
+   "end": 1013.697,
+   "chapter": 5,
+   "seg": "5.09",
+   "opts": {
+    "sfx": [
+     "wind_low",
+     "water_lake"
+    ]
+   }
+  },
+  {
+   "asset": "D07",
+   "move": "in",
+   "start": 1013.697,
+   "end": 1018.772,
+   "chapter": 5,
+   "seg": "5.09",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "D16",
+   "move": "drift",
+   "start": 1018.772,
+   "end": 1033.447,
+   "chapter": 5,
+   "seg": "5.10",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "B03",
+   "move": "out",
+   "start": 1033.447,
+   "end": 1045.187,
+   "chapter": 5,
+   "seg": "5.10",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "D19",
+   "move": "par",
+   "start": 1045.187,
+   "end": 1055.406,
+   "chapter": 5,
+   "seg": "5.11",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_CHAPTER",
+   "move": "gfx",
+   "start": 1055.4059999999997,
+   "end": 1060.4059999999997,
+   "chapter": 6,
+   "opts": {
+    "number": "SIX",
+    "title": "The Mystery Remains",
+    "bg": "M09",
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "M09",
+   "move": "gfx",
+   "start": 1060.406,
+   "end": 1064.44,
+   "chapter": 6,
+   "seg": "6.01",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ],
+    "step": 1
+   }
+  },
+  {
+   "asset": "NASA_WADIRUM",
+   "move": "in",
+   "start": 1064.44,
+   "end": 1067.668,
+   "chapter": 6,
+   "seg": "6.01",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_RUM1",
+   "move": "par",
+   "start": 1067.668,
+   "end": 1074.84,
+   "chapter": 6,
+   "seg": "6.02",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "PH_RUM2",
+   "move": "right",
+   "start": 1074.84,
+   "end": 1082.011,
+   "chapter": 6,
+   "seg": "6.02",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "D20",
+   "move": "par",
+   "start": 1082.011,
+   "end": 1089.183,
+   "chapter": 6,
+   "seg": "6.02",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_ALJALLAD",
+   "move": "gfx",
+   "start": 1089.183,
+   "end": 1097.025,
+   "chapter": 6,
+   "seg": "6.03",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "PH_RUM3",
+   "move": "in",
+   "start": 1097.025,
+   "end": 1104.867,
+   "chapter": 6,
+   "seg": "6.03",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "PH_RUM4",
+   "move": "par",
+   "start": 1104.867,
+   "end": 1113.307,
+   "chapter": 6,
+   "seg": "6.04",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "M09",
+   "move": "gfx",
+   "start": 1113.307,
+   "end": 1121.747,
+   "chapter": 6,
+   "seg": "6.04",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ],
+    "step": 2
+   }
+  },
+  {
+   "asset": "G_SUMMARY",
+   "move": "gfx",
+   "start": 1121.747,
+   "end": 1125.391,
+   "chapter": 6,
+   "seg": "6.05",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ],
+    "step": 0
+   }
+  },
+  {
+   "asset": "G_SUMMARY",
+   "move": "gfx",
+   "start": 1125.391,
+   "end": 1133.8,
+   "chapter": 6,
+   "seg": "6.06",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ],
+    "step": 1
+   }
+  },
+  {
+   "asset": "D11",
+   "move": "par",
+   "start": 1133.8,
+   "end": 1140.528,
+   "chapter": 6,
+   "seg": "6.06",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  },
+  {
+   "asset": "G_SUMMARY",
+   "move": "gfx",
+   "start": 1140.528,
+   "end": 1149.026,
+   "chapter": 6,
+   "seg": "6.07",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ],
+    "step": 2
+   }
+  },
+  {
+   "asset": "R04",
+   "move": "par",
+   "start": 1149.026,
+   "end": 1155.825,
+   "chapter": 6,
+   "seg": "6.07",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_SUMMARY",
+   "move": "gfx",
+   "start": 1155.825,
+   "end": 1161.636,
+   "chapter": 6,
+   "seg": "6.08",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ],
+    "step": 3
+   }
+  },
+  {
+   "asset": "PH_SHISR1",
+   "move": "in",
+   "start": 1161.636,
+   "end": 1166.284,
+   "chapter": 6,
+   "seg": "6.08",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "PH_RUM1",
+   "move": "out",
+   "start": 1166.284,
+   "end": 1170.933,
+   "chapter": 6,
+   "seg": "6.08",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "G_SUMMARY",
+   "move": "gfx",
+   "start": 1170.933,
+   "end": 1175.683,
+   "chapter": 6,
+   "seg": "6.09",
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ],
+    "step": 4
+   }
+  },
+  {
+   "asset": "D05",
+   "move": "drift",
+   "start": 1175.683,
+   "end": 1180.434,
+   "chapter": 6,
+   "seg": "6.09",
+   "opts": {
+    "sfx": [
+     "wind_night"
+    ]
+   }
+  },
+  {
+   "asset": "R04",
+   "move": "par",
+   "start": 1180.434,
+   "end": 1188.15,
+   "chapter": 6,
+   "seg": "6.10",
+   "opts": {
+    "sfx": [
+     "wind_soft"
+    ]
+   }
+  },
+  {
+   "asset": "B02_V3",
+   "move": "out",
+   "start": 1188.15,
+   "end": 1195.867,
+   "chapter": 6,
+   "seg": "6.10",
+   "opts": {
+    "sfx": [
+     "wind_structures"
+    ]
+   }
+  },
+  {
+   "asset": "D03",
+   "move": "par",
+   "start": 1195.867,
+   "end": 1204.005,
+   "chapter": 6,
+   "seg": "6.11",
+   "opts": {
+    "sfx": [
+     "wind_soft",
+     "sand_hiss"
+    ]
+   }
+  },
+  {
+   "asset": "D10",
+   "move": "par",
+   "start": 1204.005,
+   "end": 1210.787,
+   "chapter": 6,
+   "seg": "6.11",
+   "opts": {
+    "sfx": [
+     "wind_gust"
+    ]
+   }
+  },
+  {
+   "asset": "D05",
+   "move": "drift",
+   "start": 1210.787,
+   "end": 1219.603,
+   "chapter": 6,
+   "seg": "6.11",
+   "opts": {
+    "sfx": [
+     "wind_night"
+    ]
+   }
+  },
+  {
+   "asset": "G_CREDITS",
+   "move": "gfx",
+   "start": 1219.6029999999998,
+   "end": 1261.6029999999998,
+   "chapter": 7,
+   "opts": {
+    "sfx": [
+     "wind_low"
+    ]
+   }
+  }
+ ],
+ "duration": 1261.603
+}

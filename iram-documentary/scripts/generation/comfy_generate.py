@@ -6,10 +6,12 @@ SERVER = 'http://127.0.0.1:8188'
 
 def workflow(prompt, negative, seed, w, h, steps, lora, cfg):
     return {
-        "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "sd_xl_base_1.0.safetensors"}},
-        "2": {"class_type": "LoraLoader", "inputs": {"model": ["1", 0], "clip": ["1", 1], "lora_name": lora, "strength_model": 1.0, "strength_clip": 1.0}},
-        "3": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["2", 1], "text": prompt}},
-        "4": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["2", 1], "text": negative}},
+        # merged SDXL-Lightning UNet (no runtime LoRA patch -> about half the RAM on CPU) + SDXL base text encoders
+        "1": {"class_type": "UNETLoader", "inputs": {"unet_name": lora, "weight_dtype": "default"}},
+        "11": {"class_type": "DualCLIPLoader", "inputs": {"clip_name1": "text_encoder/model.fp16.safetensors", "clip_name2": "text_encoder_2/model.fp16.safetensors", "type": "sdxl"}},
+        "2": {"class_type": "ModelSamplingDiscrete", "inputs": {"model": ["1", 0], "sampling": "eps", "zsnr": False}},
+        "3": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["11", 0], "text": prompt}},
+        "4": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["11", 0], "text": negative}},
         "5": {"class_type": "EmptyLatentImage", "inputs": {"width": w, "height": h, "batch_size": 1}},
         "6": {"class_type": "KSampler", "inputs": {"model": ["2", 0], "positive": ["3", 0], "negative": ["4", 0], "latent_image": ["5", 0],
               "seed": seed, "steps": steps, "cfg": cfg, "sampler_name": "euler", "scheduler": "sgm_uniform", "denoise": 1.0}},
@@ -20,10 +22,11 @@ def workflow(prompt, negative, seed, w, h, steps, lora, cfg):
 
 def workflow_i2i(prompt, negative, seed, image_name, denoise, steps, lora):
     return {
-        "1": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": "sd_xl_base_1.0.safetensors"}},
-        "2": {"class_type": "LoraLoader", "inputs": {"model": ["1", 0], "clip": ["1", 1], "lora_name": lora, "strength_model": 1.0, "strength_clip": 1.0}},
-        "3": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["2", 1], "text": prompt}},
-        "4": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["2", 1], "text": negative}},
+        "1": {"class_type": "UNETLoader", "inputs": {"unet_name": lora, "weight_dtype": "default"}},
+        "11": {"class_type": "DualCLIPLoader", "inputs": {"clip_name1": "text_encoder/model.fp16.safetensors", "clip_name2": "text_encoder_2/model.fp16.safetensors", "type": "sdxl"}},
+        "2": {"class_type": "ModelSamplingDiscrete", "inputs": {"model": ["1", 0], "sampling": "eps", "zsnr": False}},
+        "3": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["11", 0], "text": prompt}},
+        "4": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["11", 0], "text": negative}},
         "5": {"class_type": "LoadImage", "inputs": {"image": image_name}},
         "7": {"class_type": "VAELoader", "inputs": {"vae_name": "sdxl_vae.safetensors"}},
         "10": {"class_type": "VAEEncode", "inputs": {"pixels": ["5", 0], "vae": ["7", 0]}},
@@ -44,7 +47,7 @@ def run_one(aid, spec, styles, negs, out_dir, seed=None, w=1344, h=768, steps=8,
     style = styles[spec['style']]; neg = negs['legend'] if spec['style'] == 'legend' else negs['default']
     prompt = f"{spec['prompt']}, {style}"
     seed = seed if seed is not None else random.Random(aid + variant).randint(1, 2**31)
-    lora = 'sdxl_lightning_8step_lora.safetensors' if steps == 8 else 'sdxl_lightning_4step_lora.safetensors'
+    lora = 'sdxl_lightning_8step_unet.safetensors' if steps == 8 else 'sdxl_lightning_4step_unet.safetensors'
     if 'src' in spec:   # img2img over a Blender layout
         name = pathlib.Path(spec['src']).name; shutil.copy(root / spec['src'], pathlib.Path('/home/user/ComfyUI/input') / name)
         wf = workflow_i2i(prompt, neg, seed, name, spec['denoise'], steps, lora)
@@ -61,15 +64,15 @@ def run_one(aid, spec, styles, negs, out_dir, seed=None, w=1344, h=768, steps=8,
     name = f"{aid}{variant}"
     shutil.copy(src, out_dir / f"{name}.png")
     meta = {'id': aid, 'variant': variant, 'source_layout': spec.get('src'), 'denoise': spec.get('denoise', 1.0), 'prompt': prompt, 'negative_prompt': neg, 'seed': seed, 'width': w, 'height': h, 'steps': steps,
-            'cfg': 1.0, 'sampler': 'euler', 'scheduler': 'sgm_uniform', 'checkpoint': 'stabilityai/stable-diffusion-xl-base-1.0 (sd_xl_base_1.0.safetensors)',
-            'lora': f'ByteDance/SDXL-Lightning ({lora})', 'vae': 'madebyollin/sdxl-vae-fp16-fix', 'label': spec.get('label'),
+            'cfg': 1.0, 'sampler': 'euler', 'scheduler': 'sgm_uniform', 'unet': f'ByteDance/SDXL-Lightning merged UNet ({lora})',
+            'text_encoders': 'stabilityai/stable-diffusion-xl-base-1.0 text_encoder + text_encoder_2 (fp16)', 'vae': 'madebyollin/sdxl-vae-fp16-fix', 'label': spec.get('label'),
             'compute_s': round(time.time() - t0, 1), 'comfyui_workflow_api': wf}
     (out_dir / f"{name}.json").write_text(json.dumps(meta, indent=1, ensure_ascii=False))
     print(json.dumps({'id': name, 'seed': seed, 'compute_s': meta['compute_s']}), flush=True)
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('ids', nargs='*'); ap.add_argument('--variants', type=int, default=1)
-    ap.add_argument('--steps', type=int, default=8); ap.add_argument('--force', action='store_true'); a = ap.parse_args()
+    ap.add_argument('--steps', type=int, default=8); ap.add_argument('--hero_steps', type=int, default=8); ap.add_argument('--force', action='store_true'); a = ap.parse_args()
     cfg = yaml.safe_load(open(root / 'storyboard/assets.yaml', encoding='utf-8'))
     out = root / 'assets/images'; out.mkdir(parents=True, exist_ok=True)
     specs = {**cfg['ai'], **cfg.get('img2img', {})}

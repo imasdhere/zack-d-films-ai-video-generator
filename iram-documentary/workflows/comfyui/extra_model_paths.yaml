@@ -3,3 +3,6 @@ iram:
   checkpoints: sdxl
   loras: sdxl-lightning
   vae: sdxl-vae-fix
+  diffusion_models: sdxl-unet
+  text_encoders: sdxl-clip
+  clip: sdxl-clip

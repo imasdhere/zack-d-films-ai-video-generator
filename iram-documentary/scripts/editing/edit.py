@@ -339,6 +339,16 @@ def render_video(chapter, preview=False):
     proc.stdin.close(); proc.wait(); print('wrote', out, flush=True)
 
 # ------------------------------------------------------------------ audio
+def ff_process(x, sr, af):
+    """Run a float32 array (N or Nx2) through an ffmpeg audio filter chain and return it."""
+    import soundfile as sf, tempfile
+    with tempfile.TemporaryDirectory(dir='/home/user/iram-work') as d:
+        a, b = f'{d}/in.wav', f'{d}/out.wav'
+        sf.write(a, x, sr, subtype='FLOAT')
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', a, '-af', af, '-c:a', 'pcm_f32le', b], check=True)
+        y, _ = sf.read(b, dtype='float32')
+    return y[:len(x)]
+
 def build_audio():
     import soundfile as sf, sfx, pyloudnorm as pyln
     from scipy.signal import resample_poly
@@ -348,7 +358,10 @@ def build_audio():
         a, sr = sf.read(ROOT / f"assets/narration/raw/{seg['id']}.wav", dtype='float32')
         a = resample_poly(a, SR, sr).astype(np.float32); a = sfx.hp(a, 70, 2)
         i = int(seg['start'] * SR); narr[i:i + len(a)] += a[:N - i]
-    meter = pyln.Meter(SR); narr *= 10 ** ((-17.0 - meter.integrated_loudness(narr)) / 20)
+    meter = pyln.Meter(SR); narr *= 10 ** ((-19.0 - meter.integrated_loudness(narr)) / 20)
+    # gentle voice compression + peak limiting (TTS output has a high crest factor)
+    narr = ff_process(narr, SR, 'acompressor=threshold=-24dB:ratio=2.5:attack=8:release=180:makeup=1.5,alimiter=limit=0.56:attack=4:release=80:level=false')
+    narr *= 10 ** ((-17.0 - meter.integrated_loudness(narr)) / 20)
     amb = np.zeros((N, 2), np.float32)
     for k, s in enumerate(tl['shots']):
         a0 = max(0.0, s['start'] - XF); a1 = min(tl['duration'], s['end'] + XF); dur = a1 - a0; n = int(dur * SR)
@@ -368,7 +381,11 @@ def build_audio():
     e = np.clip(e / (np.percentile(e[e > 1e-4], 60) + 1e-9), 0, 1)
     e = sfx.lp(e, 2.0, 1); duck = 1 - 0.6 * np.clip(e, 0, 1)
     amb_l = meter.integrated_loudness(amb); amb *= 10 ** ((-29.0 - amb_l) / 20)
+    amb = ff_process(amb, SR, 'alimiter=limit=0.22:attack=10:release=200:level=false')
     mix = np.stack([narr, narr], 1) + amb * duck[:, None]
+    mix *= 10 ** ((-19.0 - meter.integrated_loudness(mix)) / 20)              # premaster at -19 LUFS (stereo)
+    mix = ff_process(mix, SR, 'alimiter=limit=0.35:attack=3:release=60:level=false')   # peaks <= about -9 dBFS
+    print('premaster peak dBFS', round(float(20 * np.log10(np.abs(mix).max() + 1e-9)), 2), 'LUFS', round(meter.integrated_loudness(mix), 2), flush=True)
     sf.write(ROOT / 'renders/final/mix_premaster.wav', mix, SR, subtype='FLOAT')
     sf.write(ROOT / 'assets/narration/narration_stem.wav', narr, SR, subtype='PCM_24')
     sf.write(ROOT / 'assets/sound_effects/ambience_stem.wav', amb * duck[:, None], SR, subtype='PCM_24')
@@ -385,7 +402,7 @@ def build_audio():
 def build_srt():
     tl = json.load(open(TL)); script = load_yaml('screenplay/script.yaml')
     disp = {seg['id']: ' '.join(seg['text'].split()) for ch in script['chapters'] for seg in ch['segments']}
-    split = lambda t: [x for x in re.split(r'(?<=[.?!])\s+', t) if x.strip()]
+    split = lambda t: [x for x in re.split(r'(?<=[.?!])\s+|(?<=[.?!]["”’])\s+', t) if x and x.strip()]
     cues = []
     for seg in tl['segments']:
         ds = split(disp[seg['id']]); ts = seg['sentences']
@@ -395,14 +412,21 @@ def build_srt():
             st, en = seg['start'] + s['start'], seg['start'] + s['end']
             words = d.split(); chunks = []; cur = ''
             for w_ in words:
-                if len(cur) + len(w_) + 1 > 84 and cur: chunks.append(cur); cur = w_
+                if len(cur) + len(w_) + 1 > 76 and cur: chunks.append(cur); cur = w_
                 else: cur = (cur + ' ' + w_).strip()
             if cur: chunks.append(cur)
             tot = sum(len(c) for c in chunks) or 1; c0 = st
             for c in chunks:
                 c1 = c0 + (en - st) * len(c) / tot
-                lines = c if len(c) <= 42 else (lambda i: c[:i] + '\n' + c[i + 1:])(c.rfind(' ', 0, len(c) // 2 + 8) if c.rfind(' ', 0, len(c) // 2 + 8) > 0 else c.find(' '))
+                if len(c) <= 42: lines = c
+                else:
+                    sp = [i for i, ch in enumerate(c) if ch == ' ']
+                    i = min(sp, key=lambda i: max(i, len(c) - i - 1)); lines = c[:i] + '\n' + c[i + 1:]
                 cues.append((c0, max(c1, c0 + 1.0), lines)); c0 = c1
+    cues.sort(key=lambda c: c[0])
+    for k in range(len(cues) - 1):               # never overlap the next cue
+        a_, b_, t_ = cues[k]
+        if b_ > cues[k + 1][0] - 0.04: cues[k] = (a_, max(a_ + 0.5, cues[k + 1][0] - 0.04), t_)
     fmt = lambda x: f"{int(x // 3600):02d}:{int(x % 3600 // 60):02d}:{int(x % 60):02d},{int(round(x % 1 * 1000)) % 1000:03d}"
     out = ROOT / 'assets/subtitles/iram_lost_city_documentary.en.srt'; out.parent.mkdir(parents=True, exist_ok=True)
     with open(out, 'w', encoding='utf-8') as f:
