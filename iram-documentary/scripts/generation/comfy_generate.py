@@ -46,7 +46,7 @@ def get(path):
 def run_one(aid, spec, styles, negs, out_dir, seed=None, w=1344, h=768, steps=8, variant=''):
     style = styles[spec['style']]; neg = negs['legend'] if spec['style'] == 'legend' else negs['default']
     prompt = f"{spec['prompt']}, {style}"
-    seed = seed if seed is not None else random.Random(aid + variant).randint(1, 2**31)
+    seed = seed if seed is not None else spec.get('seed') or random.Random(aid + variant).randint(1, 2**31)
     lora = 'sdxl_lightning_8step_unet.safetensors' if steps == 8 else 'sdxl_lightning_4step_unet.safetensors'
     if 'src' in spec:   # img2img over a Blender layout
         name = pathlib.Path(spec['src']).name; shutil.copy(root / spec['src'], pathlib.Path('/home/user/ComfyUI/input') / name)

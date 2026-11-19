@@ -14,7 +14,7 @@ ai:
   D03: {style: photo, label: null, prompt: "macro detail of wind ripples in fine orange sand, low raking sunlight, deep shadows in the ripples"}
   D04: {style: photo, label: null, prompt: "high altitude view over a vast orange dune field stretching to a hazy horizon, star dunes and long linear dunes, Arabian desert"}
   D05: {style: photo, label: null, prompt: "desert at night under a starry sky with the Milky Way, dark silhouettes of tall sand dunes, faint blue moonlight on the sand"}
-  D06: {style: photo, label: null, prompt: "a towering wall of dust and sand rolling across a flat desert plain toward the camera, dark ochre sky, dramatic natural light"}
+  D06: {style: photo, label: null, prompt: "a haboob dust storm, a vast towering wall of brown dust stretching across the entire horizon, advancing over a flat desert plain, sky darkening, low sun behind, realistic weather photograph"}
   D07: {style: photo, label: null, prompt: "tall red sand dunes at sunset beside a pale gravel plain, warm light, Arabian desert"}
   D08: {style: photo, label: null, prompt: "flat stony limestone desert plain with distant low sand dunes on the horizon, Dhofar interior of Oman, harsh midday light, heat haze"}
   D09: {style: photo, label: null, prompt: "aerial view of curved crescent-shaped barchan sand dunes in a row, wind-curved sandhills, soft morning light"}
@@ -28,7 +28,7 @@ ai:
   D17: {style: photo, label: null, prompt: "a lone acacia tree in a sandy desert with dust blowing in the wind, late afternoon light"}
   D18: {style: photo, label: null, prompt: "sun rays piercing through airborne dust haze over sand dunes, golden volumetric light"}
   D19: {style: photo, label: null, prompt: "a single sand dune ridge curving into the distance, minimalist composition, wind-carved sand, pale blue sky"}
-  D20: {style: photo, label: null, prompt: "red sandstone cliffs and sand valley of Wadi Rum in southern Jordan at dawn, rock towers, red sand"}
+  D20: {style: photo, label: null, seed: 777001, prompt: "red sandstone cliffs and sand valley of Wadi Rum in southern Jordan at dawn, rock towers, red sand"}
   # --- ancient life: artistic reconstruction (anonymous distant figures only) ---
   P01: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "ancient Arabian pastoral settlement in a green valley with springs and date palm gardens, small distant figures and cattle, low stone houses, early morning haze, wide landscape"}
   P02: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "herd of cattle and goats drinking at a natural spring beneath date palms in an ancient Arabian valley, wide shot, no close faces"}
