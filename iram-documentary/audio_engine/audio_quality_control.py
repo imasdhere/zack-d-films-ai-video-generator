@@ -112,7 +112,9 @@ def num_words(n):
 
 
 def norm_en(t):
-    t = t.lower().replace('-', ' ').replace('’', "'")
+    t = t.lower().replace('’', "'")
+    for a_, b_ in (('for ever', 'forever'), ('watersprings', 'water springs'), ('haply', 'happily')): t = t.replace(a_, b_)
+    t = t.replace('-', ' ')
     t = re.sub(r'(\d),(\d{3})', r'\1\2', t)
     t = re.sub(r'\d+', lambda m: num_words(m.group()), t)
     t = strip_latin_diacritics(t)
@@ -170,7 +172,14 @@ def _names():
     for d in lx.values():
         for k, v in d.items(): toks |= set(norm_en(k)) | set(norm_en(v))
     common = {'the', 'and', 'of', 'a', 'an', 'in', 'on', 'to', 'is', 'was', 'were', 'his', 'her', 'their', 'son', 'city', 'name'}
+    # names that the screenplay writes in plain English letters (not in the lexicon)
+    toks |= set(EXTRA_NAMES)
     return {t for t in toks if t not in common}
+
+
+EXTRA_NAMES = ['shisr', 'zarins', 'ubar', 'wubar', 'dhofar', 'philby', 'wabar', 'clapp', 'blom', 'elachi', 'hedges', 'fiennes', 'edgell', 'jallad',
+               'moscha', 'sumhuram', 'khor', 'rori', 'salalah', 'ramm', 'rum', 'allat', 'nabataean', 'ptolemy', 'periplus', 'erythraean',
+               'boswellia', 'sacra', 'iram', 'iobaritae', 'pickthall', 'marmaduke', 'saheeh', 'muhammad', 'jabal', 'wadi', 'rashid', 'bedouin', 'sahib']
 
 
 def _align(r, h):

@@ -10,7 +10,11 @@ fail() { echo "PIPELINE_FAILED: $*"; exit 1; }
 step plan;            $PY -m audio_engine.synthesis_manager plan                         || fail plan
 step narration-en;    $PY -m audio_engine.synthesis_manager generate --lang en           || fail narration-en
 step narration-ar;    $PY -m audio_engine.synthesis_manager generate --lang ar           || fail narration-ar
-step qa;              $PY -m audio_engine.synthesis_manager qa --regenerate              || fail qa
+step qa;              $PY -m audio_engine.synthesis_manager qa                           || fail qa
+for r in 1 2; do       # failed chunks only, new seed; generation and QA run in separate processes (memory)
+  step regenerate-$r; $PY -m audio_engine.synthesis_manager regenerate-failed --round $r || fail regenerate-$r
+  step qa-$r;         $PY -m audio_engine.synthesis_manager qa                           || fail qa-$r
+done
 step quranic;         $PY -m audio_engine.synthesis_manager quranic                      || echo "quranic review candidates failed (not part of the film)"
 step assemble-mix;    $PY -m audio_engine.audio_assembler all                            || fail assemble
 step render

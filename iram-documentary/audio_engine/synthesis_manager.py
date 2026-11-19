@@ -71,26 +71,38 @@ def generate(only=None, lang=None, force=False, seed_offset=0, ids=None):
     write_manifest()
 
 
-def qa(only=None, regenerate=False, max_rounds=2):
-    """Per-chunk ASR and speaker check. With --regenerate, failed chunks are generated again with a new seed."""
+def qa(only=None):
+    """Per-chunk ASR and speaker check (results cached by file time in assets/narration/chunk_qa.json)."""
     from .audio_quality_control import chunk_qa
     cfg = config(); store = NARR / 'chunk_qa.json'
     res = json.load(open(store)) if store.exists() else {}
-    for rnd in range(max_rounds + 1):
-        items = [i for i in plan() if i['include_in_mix'] and pathlib.Path(i['wav']).exists()]
-        if only: items = [i for i in items if i['segment_id'] in only]
-        todo = [i for i in items if i['id'] not in res or res[i['id']].get('mtime') != pathlib.Path(i['wav']).stat().st_mtime]
-        for i in todo:
-            r = chunk_qa(i, cfg); r['mtime'] = pathlib.Path(i['wav']).stat().st_mtime; res[i['id']] = r
-            print(json.dumps({'id': i['id'], **{k: r[k] for k in ('status', 'err', 'similarity')}}), flush=True)
+    items = [i for i in plan() if i['include_in_mix'] and pathlib.Path(i['wav']).exists()]
+    if only: items = [i for i in items if i['segment_id'] in only]
+    todo = [i for i in items if i['id'] not in res or res[i['id']].get('mtime') != pathlib.Path(i['wav']).stat().st_mtime]
+    for i in todo:
+        r = chunk_qa(i, cfg); r['mtime'] = pathlib.Path(i['wav']).stat().st_mtime; res[i['id']] = r
+        print(json.dumps({'id': i['id'], **{k: r[k] for k in ('status', 'err', 'similarity')}}), flush=True)
         json.dump(res, open(store, 'w'), indent=1)
-        failed = [i['id'] for i in items if res[i['id']]['status'] != 'pass']
-        print(json.dumps({'round': rnd, 'checked': len(todo), 'failed': failed}), flush=True)
-        if not (regenerate and failed) or rnd == max_rounds: break
-        for f in failed:
-            p = next(i for i in items if i['id'] == f); pathlib.Path(p['wav']).unlink()
-        generate(ids=set(failed), seed_offset=7919 * (rnd + 1))
+    failed = [i['id'] for i in items if res[i['id']]['status'] != 'pass']
+    print(json.dumps({'checked': len(todo), 'failed': failed}), flush=True)
     write_manifest()
+    return failed
+
+
+def regenerate_failed(rnd):
+    """Generate the chunks that failed QA again with a new seed. Runs in its own process (no QA models loaded),
+    so that VoxCPM2 (about 11 GB) and the QA models (about 4 GB) are never in memory together."""
+    store = NARR / 'chunk_qa.json'; res = json.load(open(store)) if store.exists() else {}
+    items = {i['id']: i for i in plan() if i['include_in_mix']}
+    failed = [k for k, v in res.items() if v['status'] != 'pass' and k in items]
+    print(json.dumps({'round': rnd, 'regenerate': failed}), flush=True)
+    if not failed: return
+    for k in failed:
+        w = pathlib.Path(items[k]['wav']); keep = w.with_suffix(f'.round{rnd - 1}.wav')
+        if w.exists(): w.replace(keep)          # keep the previous take for comparison
+        mj = pathlib.Path(str(w) + '.json')
+        if mj.exists(): mj.replace(pathlib.Path(str(keep) + '.json'))
+    generate(ids=set(failed), seed_offset=7919 * rnd)
 
 
 def assemble():
@@ -167,7 +179,7 @@ def quranic():
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('cmd'); ap.add_argument('--only', nargs='*'); ap.add_argument('--lang')
-    ap.add_argument('--force', action='store_true'); ap.add_argument('--regenerate', action='store_true')
+    ap.add_argument('--force', action='store_true'); ap.add_argument('--round', type=int, default=1)
     a = ap.parse_args()
     if a.cmd == 'plan':
         its = plan(); print(json.dumps({'chunks': len(its), 'in_mix': sum(i['include_in_mix'] for i in its),
@@ -175,6 +187,7 @@ if __name__ == '__main__':
                                         'excluded': [i['id'] for i in its if not i['include_in_mix']]}))
         write_manifest()
     elif a.cmd == 'generate': generate(a.only, a.lang, a.force)
-    elif a.cmd == 'qa': qa(a.only, a.regenerate)
+    elif a.cmd == 'qa': qa(a.only)
+    elif a.cmd == 'regenerate-failed': regenerate_failed(a.round)
     elif a.cmd == 'assemble': assemble()
     elif a.cmd == 'quranic': quranic()
