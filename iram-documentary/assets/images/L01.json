@@ -1,0 +1,132 @@
+{
+ "id": "L01",
+ "variant": "",
+ "source_layout": null,
+ "denoise": 1.0,
+ "prompt": "a fabulous ancient city of flat-roofed palaces and tall square towers built of gold and silver bricks, walled gardens and streams, set in a desert, seen from a distance, ink and wash illustration on aged parchment with gold leaf highlights, antique storybook engraving style, sepia and gold tones, fine linework, flat perspective, no text",
+ "negative_prompt": "photograph, photorealistic, text, letters, calligraphy, watermark, logo, signature, modern, 3d render, blurry, deformed, close-up face",
+ "seed": 410001,
+ "width": 1344,
+ "height": 768,
+ "steps": 8,
+ "cfg": 1.0,
+ "sampler": "euler",
+ "scheduler": "sgm_uniform",
+ "unet": "ByteDance/SDXL-Lightning merged UNet (sdxl_lightning_8step_unet.safetensors)",
+ "text_encoders": "stabilityai/stable-diffusion-xl-base-1.0 text_encoder + text_encoder_2 (fp16)",
+ "vae": "madebyollin/sdxl-vae-fp16-fix",
+ "label": "LEGEND — LATER TRADITION",
+ "compute_s": 180.5,
+ "comfyui_workflow_api": {
+  "1": {
+   "class_type": "UNETLoader",
+   "inputs": {
+    "unet_name": "sdxl_lightning_8step_unet.safetensors",
+    "weight_dtype": "default"
+   }
+  },
+  "11": {
+   "class_type": "DualCLIPLoader",
+   "inputs": {
+    "clip_name1": "text_encoder/model.fp16.safetensors",
+    "clip_name2": "text_encoder_2/model.fp16.safetensors",
+    "type": "sdxl"
+   }
+  },
+  "2": {
+   "class_type": "ModelSamplingDiscrete",
+   "inputs": {
+    "model": [
+     "1",
+     0
+    ],
+    "sampling": "eps",
+    "zsnr": false
+   }
+  },
+  "3": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "clip": [
+     "11",
+     0
+    ],
+    "text": "a fabulous ancient city of flat-roofed palaces and tall square towers built of gold and silver bricks, walled gardens and streams, set in a desert, seen from a distance, ink and wash illustration on aged parchment with gold leaf highlights, antique storybook engraving style, sepia and gold tones, fine linework, flat perspective, no text"
+   }
+  },
+  "4": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "clip": [
+     "11",
+     0
+    ],
+    "text": "photograph, photorealistic, text, letters, calligraphy, watermark, logo, signature, modern, 3d render, blurry, deformed, close-up face"
+   }
+  },
+  "5": {
+   "class_type": "EmptyLatentImage",
+   "inputs": {
+    "width": 1344,
+    "height": 768,
+    "batch_size": 1
+   }
+  },
+  "6": {
+   "class_type": "KSampler",
+   "inputs": {
+    "model": [
+     "2",
+     0
+    ],
+    "positive": [
+     "3",
+     0
+    ],
+    "negative": [
+     "4",
+     0
+    ],
+    "latent_image": [
+     "5",
+     0
+    ],
+    "seed": 410001,
+    "steps": 8,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "sgm_uniform",
+    "denoise": 1.0
+   }
+  },
+  "7": {
+   "class_type": "VAELoader",
+   "inputs": {
+    "vae_name": "sdxl_vae.safetensors"
+   }
+  },
+  "8": {
+   "class_type": "VAEDecode",
+   "inputs": {
+    "samples": [
+     "6",
+     0
+    ],
+    "vae": [
+     "7",
+     0
+    ]
+   }
+  },
+  "9": {
+   "class_type": "SaveImage",
+   "inputs": {
+    "images": [
+     "8",
+     0
+    ],
+    "filename_prefix": "iram"
+   }
+  }
+ }
+}

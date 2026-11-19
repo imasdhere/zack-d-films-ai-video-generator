@@ -1,0 +1,132 @@
+{
+ "id": "R02",
+ "variant": "",
+ "source_layout": null,
+ "denoise": 1.0,
+ "prompt": "a line of tall square monolithic limestone pillars without capitals, plain rectangular stone shafts with notched tops, casting long shadows on sand at low sun, ancient South Arabian sanctuary, Sabaean style, weathered pale stone, photorealistic historical reconstruction, documentary realism, natural light, weathered materials, plausible ancient South Arabian architecture, muted earth palette, atmospheric haze",
+ "negative_prompt": "text, letters, words, writing, watermark, logo, signature, caption, frame, border, modern buildings, cars, roads, power lines, airplane, close-up face, portrait, cartoon, anime, 3d render, cgi, plastic, oversaturated, neon, fantasy glow, sci-fi, blurry, lowres, jpeg artifacts, deformed, extra limbs",
+ "seed": 310002,
+ "width": 1344,
+ "height": 768,
+ "steps": 8,
+ "cfg": 1.0,
+ "sampler": "euler",
+ "scheduler": "sgm_uniform",
+ "unet": "ByteDance/SDXL-Lightning merged UNet (sdxl_lightning_8step_unet.safetensors)",
+ "text_encoders": "stabilityai/stable-diffusion-xl-base-1.0 text_encoder + text_encoder_2 (fp16)",
+ "vae": "madebyollin/sdxl-vae-fp16-fix",
+ "label": "ARTISTIC RECONSTRUCTION — ONE IMAGINED READING",
+ "compute_s": 184.2,
+ "comfyui_workflow_api": {
+  "1": {
+   "class_type": "UNETLoader",
+   "inputs": {
+    "unet_name": "sdxl_lightning_8step_unet.safetensors",
+    "weight_dtype": "default"
+   }
+  },
+  "11": {
+   "class_type": "DualCLIPLoader",
+   "inputs": {
+    "clip_name1": "text_encoder/model.fp16.safetensors",
+    "clip_name2": "text_encoder_2/model.fp16.safetensors",
+    "type": "sdxl"
+   }
+  },
+  "2": {
+   "class_type": "ModelSamplingDiscrete",
+   "inputs": {
+    "model": [
+     "1",
+     0
+    ],
+    "sampling": "eps",
+    "zsnr": false
+   }
+  },
+  "3": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "clip": [
+     "11",
+     0
+    ],
+    "text": "a line of tall square monolithic limestone pillars without capitals, plain rectangular stone shafts with notched tops, casting long shadows on sand at low sun, ancient South Arabian sanctuary, Sabaean style, weathered pale stone, photorealistic historical reconstruction, documentary realism, natural light, weathered materials, plausible ancient South Arabian architecture, muted earth palette, atmospheric haze"
+   }
+  },
+  "4": {
+   "class_type": "CLIPTextEncode",
+   "inputs": {
+    "clip": [
+     "11",
+     0
+    ],
+    "text": "text, letters, words, writing, watermark, logo, signature, caption, frame, border, modern buildings, cars, roads, power lines, airplane, close-up face, portrait, cartoon, anime, 3d render, cgi, plastic, oversaturated, neon, fantasy glow, sci-fi, blurry, lowres, jpeg artifacts, deformed, extra limbs"
+   }
+  },
+  "5": {
+   "class_type": "EmptyLatentImage",
+   "inputs": {
+    "width": 1344,
+    "height": 768,
+    "batch_size": 1
+   }
+  },
+  "6": {
+   "class_type": "KSampler",
+   "inputs": {
+    "model": [
+     "2",
+     0
+    ],
+    "positive": [
+     "3",
+     0
+    ],
+    "negative": [
+     "4",
+     0
+    ],
+    "latent_image": [
+     "5",
+     0
+    ],
+    "seed": 310002,
+    "steps": 8,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "sgm_uniform",
+    "denoise": 1.0
+   }
+  },
+  "7": {
+   "class_type": "VAELoader",
+   "inputs": {
+    "vae_name": "sdxl_vae.safetensors"
+   }
+  },
+  "8": {
+   "class_type": "VAEDecode",
+   "inputs": {
+    "samples": [
+     "6",
+     0
+    ],
+    "vae": [
+     "7",
+     0
+    ]
+   }
+  },
+  "9": {
+   "class_type": "SaveImage",
+   "inputs": {
+    "images": [
+     "8",
+     0
+    ],
+    "filename_prefix": "iram"
+   }
+  }
+ }
+}
