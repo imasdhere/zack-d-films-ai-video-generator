@@ -1,0 +1,19 @@
+{
+ "id": "3.06",
+ "sr": 24000,
+ "duration": 8.715,
+ "sentences": [
+  {
+   "i": 0,
+   "tts": "And he added a sentence that cuts to the heart of this mystery.",
+   "start": 0.0,
+   "end": 3.379
+  },
+  {
+   "i": 1,
+   "tts": "No building of theirs with columns, he wrote, is known through any authentic report.",
+   "start": 3.829,
+   "end": 8.715
+  }
+ ]
+}
