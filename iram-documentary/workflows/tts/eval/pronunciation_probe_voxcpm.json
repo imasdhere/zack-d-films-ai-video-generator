@@ -1,0 +1,244 @@
+{
+ "results": {
+  "Iram": {
+   "Iram": [
+    {
+     "hit": true,
+     "asr": "the name Iram appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Irim and about what it meant."
+    }
+   ],
+   "Eeram": [
+    {
+     "hit": true,
+     "asr": "The name Eram appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Irim and about what it meant."
+    }
+   ],
+   "Ee-rahm": [
+    {
+     "hit": true,
+     "asr": "The name, Eram, appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about Iram and about what it meant."
+    }
+   ],
+   "Irum": [
+    {
+     "hit": true,
+     "asr": "The name Eram appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Irum and about what it meant."
+    }
+   ]
+  },
+  "ʿĀd": {
+   "Aad": [
+    {
+     "hit": true,
+     "asr": "The name AAD appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about A.D. and about what it meant."
+    }
+   ],
+   "Aahd": [
+    {
+     "hit": false,
+     "asr": "The name Ahad appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Ahida and about what it meant."
+    }
+   ],
+   "Ahd": [
+    {
+     "hit": false,
+     "asr": "the name HAD appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about AHD and about what it meant."
+    }
+   ],
+   "Aa-d": [
+    {
+     "hit": true,
+     "asr": "The name AAD appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about AAD and about what it meant."
+    }
+   ]
+  },
+  "al-Ṭabarī": {
+   "at-Tabari": [
+    {
+     "hit": false,
+     "asr": "The name at tablery appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about At-Tabari and about what it meant."
+    }
+   ],
+   "al-Tabari": [
+    {
+     "hit": true,
+     "asr": "The name Al-Tabari appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about Al-Tabari and about what it meant."
+    }
+   ],
+   "At Tabaree": [
+    {
+     "hit": true,
+     "asr": "The name at Tabari appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Ataburi and about what it meant."
+    }
+   ],
+   "Tabari": [
+    {
+     "hit": true,
+     "asr": "The name Tabari appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "scholars still argue about Tabari and about what it meant."
+    }
+   ]
+  },
+  "ʿimād": {
+   "imaad": [
+    {
+     "hit": false,
+     "asr": "The name he made up appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about Imad and about what it meant."
+    }
+   ],
+   "ee-maad": [
+    {
+     "hit": true,
+     "asr": "The name Imad appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about EMAD and about what it meant."
+    }
+   ],
+   "imad": [
+    {
+     "hit": true,
+     "asr": "The name Imad appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about Imad and about what it meant."
+    }
+   ],
+   "i-mahd": [
+    {
+     "hit": false,
+     "asr": "The name Imahadi appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about Imad and about what it meant."
+    }
+   ]
+  },
+  "Hūd": {
+   "Hood": [
+    {
+     "hit": true,
+     "asr": "The name Hood appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about Hood and about what it meant."
+    }
+   ],
+   "Hud": [
+    {
+     "hit": true,
+     "asr": "The name HUD appears in the old commentaries."
+    },
+    {
+     "hit": true,
+     "asr": "But scholars still argue about HUD and about what it meant."
+    }
+   ],
+   "Hoo-d": [
+    {
+     "hit": false,
+     "asr": "The name Hoody appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about HUT and about what it meant."
+    }
+   ]
+  },
+  "Shisr": {
+   "Shisr": [
+    {
+     "hit": false,
+     "asr": "The name Shisser appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Schiser and about what it meant."
+    }
+   ],
+   "Shis-ur": [
+    {
+     "hit": false,
+     "asr": "The name Shisur appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Shizur and about what it meant."
+    }
+   ],
+   "Shiser": [
+    {
+     "hit": false,
+     "asr": "The name Scheiser appears in the old commentaries."
+    },
+    {
+     "hit": false,
+     "asr": "But scholars still argue about Scheiser and about what it meant."
+    }
+   ]
+  }
+ },
+ "choice": {
+  "Iram": "Ee-rahm",
+  "ʿĀd": "Aa-d",
+  "al-Ṭabarī": "al-Tabari",
+  "ʿimād": "ee-maad",
+  "Hūd": "Hood",
+  "Shisr": "Shisr"
+ }
+}

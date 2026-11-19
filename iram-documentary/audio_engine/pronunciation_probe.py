@@ -55,9 +55,12 @@ def write_lexicon(engine, choice):
     rep = {'Aad': choice.get('ʿĀd'), 'at-Tabari': choice.get('al-Ṭabarī'), 'imaad': choice.get('ʿimād'), 'Hood': choice.get('Hūd')}
     for k, v in base.items():
         for old, nw in rep.items():
-            if nw and old.lower() in v.lower():
-                v = re.sub(re.escape(old), nw if not v.startswith(old[0].upper()) else nw[0].upper() + nw[1:], v, flags=re.I)
+            if not nw: continue
+            # whole words only (never inside another name), keeping the capital of the original word
+            v = re.sub(rf'(?<![A-Za-z]){re.escape(old)}(?![A-Za-z])',
+                       lambda m: nw[0].upper() + nw[1:] if m.group()[0].isupper() else nw, v, flags=re.I)
         new[k] = v
+    if 'ʾrm' in new and choice.get('Iram'): new['ʾrm'] = choice['Iram']
     if choice.get('Iram') and choice['Iram'] != 'Iram': new = {'Iram': choice['Iram'], **new}
     if choice.get('Shisr') and choice['Shisr'] != 'Shisr': new = {'Shisr': choice['Shisr'], **new}
     text = open(lp, encoding='utf-8').read()
