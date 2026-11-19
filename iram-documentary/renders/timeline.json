@@ -2631,7 +2631,7 @@
    }
   },
   {
-   "asset": "R01",
+   "asset": "R02",
    "move": "par",
    "start": 477.741,
    "end": 483.581,
@@ -2644,8 +2644,8 @@
    }
   },
   {
-   "asset": "R03",
-   "move": "in",
+   "asset": "B02_V2",
+   "move": "up",
    "start": 483.581,
    "end": 489.42,
    "chapter": 3,
@@ -2657,8 +2657,8 @@
    }
   },
   {
-   "asset": "R02",
-   "move": "up",
+   "asset": "R03",
+   "move": "in",
    "start": 489.42,
    "end": 495.26,
    "chapter": 3,
