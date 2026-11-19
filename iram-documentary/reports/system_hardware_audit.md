@@ -46,3 +46,23 @@ The source images are generated at 1344×768 and upscaled. Rendering at 4K would
 - Kokoro: set `PYTORCH_ENABLE_MPS_FALLBACK=1`.
 - Qwen3-TTS: officially CUDA-oriented. It works on CPU. MPS support is not documented, so test before you rely on it.
 - `bpy` wheels exist for macOS arm64. Alternatively install Blender.app and run the scripts with `blender -b -P`.
+
+## Version 2 voice engines (measured 2026-11-19)
+
+The same container (4 vCPU Xeon with AMX-BF16, 15 GiB RAM, no GPU, Linux, not a Mac). Disk reads of model weights run at about 50 MB/s, so a cold model load takes 1–2 minutes.
+
+| Engine | Precision / device | Speed (compute ÷ audio) | Peak RAM | Fits alongside other jobs? |
+|---|---|---|---|---|
+| VoxCPM2 (2B), reference-mode cloning | bf16, CPU (AMX) | 3.6–3.8× slower than real time | 10.7–11.3 GB | No. Run it alone (Whisper large-v3-turbo, about 4 GB more, would exceed the 14 GiB limit). |
+| VoxCPM2, ultimate-mode cloning | bf16, CPU | 4.1–4.3× | 11.2–11.5 GB | No |
+| Qwen3-TTS 1.7B Base clone (baseline) | bf16, CPU | 4.7× | about 6 GB | With light jobs only |
+| Audar-TTS-V1-Flash (0.55B) | float32, CPU (Transformers) | not measured: the NeuCodec codec is gated | expected 3–4 GB | — |
+| Whisper large-v3-turbo + WavLM-SV (QA) | float32, CPU | about 2 s per chunk | about 4 GB | Yes, when no TTS model is loaded |
+
+The full English narration (about 18 minutes of speech) takes about one hour with VoxCPM2 on this machine.
+
+### Mac notes for the voice engines
+
+- VoxCPM2 can use MPS (`device='mps'` in the worker). Plan for 16 GB of unified memory or more, and compare a test sample against the CPU result before a full run.
+- Audar-TTS-V1-Flash/Turbo also ship as GGUF for llama.cpp, which runs on Metal. The NeuCodec codec (PyTorch) still runs on CPU or MPS.
+- CUDA-only paths (flash-attention, `torch.compile` with Triton) are not needed. The workers disable `torch.compile`.

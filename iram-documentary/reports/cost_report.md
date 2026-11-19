@@ -25,6 +25,17 @@ Prices are indicative ranges for late 2026 and must be checked with each provide
 - One-time: none incurred. A future 4K/AI-video upgrade would be a one-time GPU rental of about US$10–60.
 - Recurring: none. Storage stays local or in the user's own GitHub repository.
 
+## Version 2 (cloned narration)
+
+**$0.00.** VoxCPM2 and Audar-TTS-V1-Flash are open weights and ran locally. No hosted voice API was used. The Audar
+hosted API and the Audar Pro tier (enterprise licence) were not used. Hugging Face access to the gated NeuCodec model is free.
+
+| Asset | CPU time on this container |
+|---|---|
+| 1 minute of cloned narration (VoxCPM2, reference mode) | about 3.7 min |
+| Voice-cloning evaluation (4 VoxCPM2 tests, 1 Qwen3 baseline, mode A/B, pronunciation probe) | about 50 min |
+| Full version 2 narration (210 English + 5 Arabic chunks) | about 65 min |
+
 ## Cost per asset (actual, compute-only)
 
 | Asset | CPU time on this container |
