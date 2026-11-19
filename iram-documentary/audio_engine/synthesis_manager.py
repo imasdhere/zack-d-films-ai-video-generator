@@ -94,7 +94,7 @@ def regenerate_failed(rnd):
     so that VoxCPM2 (about 11 GB) and the QA models (about 4 GB) are never in memory together."""
     store = NARR / 'chunk_qa.json'; res = json.load(open(store)) if store.exists() else {}
     items = {i['id']: i for i in plan() if i['include_in_mix']}
-    failed = [k for k, v in res.items() if v['status'] != 'pass' and k in items]
+    failed = [k for k, v in res.items() if v['status'] == 'fail' and k in items]   # 'review' = best take kept for listening
     print(json.dumps({'round': rnd, 'regenerate': failed}), flush=True)
     if not failed: return
     for k in failed:
@@ -103,6 +103,32 @@ def regenerate_failed(rnd):
         mj = pathlib.Path(str(w) + '.json')
         if mj.exists(): mj.replace(pathlib.Path(str(keep) + '.json'))
     generate(ids=set(failed), seed_offset=7919 * rnd)
+
+
+def best_of(cid, n=6):
+    """Generate n takes of one chunk (one model load), score each with the chunk QA, keep the best.
+    The engine runs first; the QA models load only after the engine process has exited (memory)."""
+    import shutil
+    cfg = config(); it = next(i for i in plan() if i['id'] == cid); rw, rt = _ref(it['profile'], cfg)
+    w = pathlib.Path(it['wav']); jobs = []
+    for k in range(n):
+        jobs.append({'id': f'{cid}_take{k}', 'text': it['text'], 'lang': it['lang'], 'out': str(w.with_suffix(f'.take{k}.wav')),
+                     'ref_wav': rw, 'ref_text': rt, 'seed': it['seed'] + 104729 * (k + 1)})
+    engines.get(it['engine']).run(jobs, log_path=WORK / 'logs' / f'bestof_{cid}.log', force=True)
+    from .audio_quality_control import chunk_qa
+    scored = []
+    for j in jobs:
+        if not pathlib.Path(j['out']).exists(): continue
+        r = chunk_qa({**it, 'wav': j['out']}, cfg); scored.append((r['err'], -(r['similarity'] or 0), j, r))
+        print(json.dumps({'take': j['id'], 'err': r['err'], 'similarity': r['similarity'], 'asr': r['asr']}, ensure_ascii=False), flush=True)
+    err, nsim, j, r = min(scored, key=lambda x: (x[0], x[1]))
+    shutil.copy2(j['out'], w); shutil.copy2(j['out'] + '.json', str(w) + '.json')
+    store = NARR / 'chunk_qa.json'; res = json.load(open(store))
+    r['mtime'] = w.stat().st_mtime; r['notes'] = r['notes'] + [f'best of {len(scored)} takes ({j["id"]})']
+    if r['status'] == 'fail': r['status'] = 'review'   # keep the best take; a listener decides
+    res[cid] = r
+    json.dump(res, open(store, 'w'), indent=1); write_manifest()
+    print(json.dumps({'chosen': j['id'], 'err': err, 'status': r['status']}), flush=True)
 
 
 def assemble():
@@ -180,6 +206,7 @@ def quranic():
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('cmd'); ap.add_argument('--only', nargs='*'); ap.add_argument('--lang')
     ap.add_argument('--force', action='store_true'); ap.add_argument('--round', type=int, default=1)
+    ap.add_argument('--id'); ap.add_argument('--n', type=int, default=6)
     a = ap.parse_args()
     if a.cmd == 'plan':
         its = plan(); print(json.dumps({'chunks': len(its), 'in_mix': sum(i['include_in_mix'] for i in its),
@@ -189,5 +216,6 @@ if __name__ == '__main__':
     elif a.cmd == 'generate': generate(a.only, a.lang, a.force)
     elif a.cmd == 'qa': qa(a.only)
     elif a.cmd == 'regenerate-failed': regenerate_failed(a.round)
+    elif a.cmd == 'best-of': best_of(a.id, a.n)
     elif a.cmd == 'assemble': assemble()
     elif a.cmd == 'quranic': quranic()
