@@ -89,9 +89,9 @@
 "3.11":
   - [L03, out, 1.0, {sfx: [wind_low]}]
 "3.12":
-  - [R01, par, 1.0, {sfx: [wind_structures]}]
+  - [R02, par, 1.0, {sfx: [wind_structures]}]
+  - [B02_V2, up, 1.0, {sfx: [wind_structures]}]
   - [R03, in, 1.0, {sfx: [wind_structures]}]
-  - [R02, up, 1.0, {sfx: [wind_structures]}]
 "3.13":
   - [R04, par, 1.0, {sfx: [wind_soft, cloth, fire]}]
   - [R05, in, 0.8, {sfx: [cloth]}]
