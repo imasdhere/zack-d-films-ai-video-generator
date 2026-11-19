@@ -57,7 +57,7 @@ ai:
   E01: {style: recon, label: "RECONSTRUCTION", prompt: "a camel caravan crossing towering sand dunes in single file, seen from far away, long shadows at sunset, Arabian desert"}
   E02: {style: photo, label: null, prompt: "camels resting beside a low stone well in a stony desert at dusk, embers of a small fire, no faces"}
   E04: {style: photo, label: null, prompt: "white smoke of frankincense rising from a clay incense burner, dark background, glowing coals, close-up"}
-  E05: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "an ancient fortified harbour town on a rocky headland above a lagoon, wooden sailing ships moored, misty green hills behind, southern Arabian coast"}
+  E05: {style: recon, label: "ARTISTIC RECONSTRUCTION", seed: 510005, prompt: "a small ancient fortified harbour town of pale limestone on a rocky headland beside a calm lagoon, flat-roofed stone buildings and a thick fortress wall with square towers, simple wooden sewn-plank boats pulled up on a sandy beach, misty green mountains behind, southern Arabian coast in antiquity"}
   E06: {style: photo, label: null, prompt: "green mountains of Dhofar in Oman wrapped in thick monsoon fog and low clouds, wet grass, mysterious atmosphere"}
   E07: {style: recon, label: "ARTISTIC RECONSTRUCTION", prompt: "a camel caravan loaded with sacks arriving at a small stone fortress beside a desert waterhole, ancient Arabia, dusk light, distant figures"}
   E08: {style: photo, label: "ILLUSTRATIVE — NOT SHISR", prompt: "an archaeological excavation trench revealing old dry-stone walls in a desert, string grid lines, trowels and buckets, harsh daylight, no people"}

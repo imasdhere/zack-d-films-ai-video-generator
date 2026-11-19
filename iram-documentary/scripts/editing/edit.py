@@ -197,10 +197,10 @@ class StillShot:
         vw = tw / 1.22 / z * 1.0; vh = vw * Ht / Wt                 # source view size (source px)
         span_x = (tw - vw) / 2; span_y = (th - vh) / 2
         cx, cy = tw / 2, th / 2
-        if self.move == 'left': cx += span_x * 0.8 * (1 - 2 * u)
-        if self.move == 'right': cx -= span_x * 0.8 * (1 - 2 * u)
-        if self.move == 'up': cy += span_y * 0.8 * (1 - 2 * u)
-        if self.move == 'down': cy -= span_y * 0.8 * (1 - 2 * u)
+        if self.move == 'left': cx += span_x * 0.6 * (1 - 2 * u)
+        if self.move == 'right': cx -= span_x * 0.6 * (1 - 2 * u)
+        if self.move == 'up': cy += span_y * 0.6 * (1 - 2 * u)
+        if self.move == 'down': cy -= span_y * 0.6 * (1 - 2 * u)
         if self.move == 'drift': cx += span_x * 0.3 * (u - 0.5); cy += span_y * 0.2 * (0.5 - u)
         s = vw / Wt
         if self.depth is None or not self.move.startswith('par'):
