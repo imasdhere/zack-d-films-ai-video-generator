@@ -29,3 +29,5 @@ assets/narration/english/
 assets/narration/arabic/
 assets/narration/quranic/*.wav
 assets/narration/segments/*.wav
+# per-chunk test files (regenerable; the aggregate *_test.json files are committed)
+voice_profiles/*/test_samples/*/
