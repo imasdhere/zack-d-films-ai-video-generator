@@ -2088,5 +2088,67 @@
   "duration": 6.0,
   "notes": [],
   "mtime": 1795122359.1293318
+ },
+ "0.01_p06_c00": {
+  "status": "fail",
+  "err": 0.333,
+  "raw_wer": 0.333,
+  "similarity": 0.872,
+  "asr": "Hold Dunes Walk.",
+  "duration": 2.05,
+  "notes": [
+   "ASR error 0.333 > 0.15"
+  ],
+  "mtime": 1795123845.2920518
+ },
+ "2.03_p01_c00": {
+  "status": "pass",
+  "err": 0.059,
+  "raw_wer": 0.118,
+  "similarity": 0.873,
+  "asr": "Huda reminds them that God has aided them with cattle and suns and gardens and water springs,",
+  "duration": 5.22,
+  "notes": [],
+  "mtime": 1795123861.985473
+ },
+ "2.04_p03_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.0,
+  "similarity": 0.958,
+  "asr": "and seek ye out strongholds, that happily ye may last forever.",
+  "duration": 4.28,
+  "notes": [],
+  "mtime": 1795123878.8887537
+ },
+ "4.13_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.2,
+  "similarity": 0.915,
+  "asr": "Excavation began under Juris Zarans.",
+  "duration": 2.65,
+  "notes": [],
+  "mtime": 1795123888.892052
+ },
+ "4.18_p00_c00": {
+  "status": "pass",
+  "err": 0.0,
+  "raw_wer": 0.4,
+  "similarity": 0.934,
+  "asr": "So, what did she should prove?",
+  "duration": 2.11,
+  "notes": [],
+  "mtime": 1795123898.3178892
+ },
+ "4.18_p03_c00": {
+  "status": "pass",
+  "err": 0.125,
+  "raw_wer": 0.25,
+  "similarity": 0.937,
+  "asr": "It did not prove that Cisro is Ubar.",
+  "duration": 2.11,
+  "notes": [],
+  "mtime": 1795123908.7225943
  }
 }
