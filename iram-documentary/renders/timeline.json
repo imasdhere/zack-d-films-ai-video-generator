@@ -2566,7 +2566,7 @@
    }
   },
   {
-   "asset": "L03",
+   "asset": "D13",
    "move": "in",
    "start": 424.576,
    "end": 439.805,
@@ -2579,7 +2579,7 @@
    }
   },
   {
-   "asset": "L02",
+   "asset": "L01",
    "move": "in",
    "start": 439.805,
    "end": 449.135,
@@ -2618,15 +2618,15 @@
    }
   },
   {
-   "asset": "L03",
-   "move": "out",
+   "asset": "K02",
+   "move": "in",
    "start": 469.43,
    "end": 477.741,
    "chapter": 3,
    "seg": "3.11",
    "opts": {
     "sfx": [
-     "wind_low"
+     "lamp_room"
     ]
    }
   },
@@ -2806,7 +2806,7 @@
    }
   },
   {
-   "asset": "L03",
+   "asset": "D18",
    "move": "par",
    "start": 565.543,
    "end": 572.37,

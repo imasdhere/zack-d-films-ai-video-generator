@@ -292,14 +292,15 @@ def finish(frame, fi, scale):
     return np.clip(f, 0, 255).astype(np.uint8)
 
 # ------------------------------------------------------------------ video render
-def render_video(chapter, preview=False):
+def render_video(chapter, preview=False, part=None):
     tl = json.load(open(TL)); scale = 0.5 if preview else 1.0; fps = 12 if preview else FPS
     shots = [s for s in tl['shots'] if chapter == 'all' or s['chapter'] == int(chapter)]
     t0 = shots[0]['start']; t1 = shots[-1]['end']
     if chapter != 'all' and int(chapter) < 7:
         nxt = [s for s in tl['shots'] if s['chapter'] == int(chapter) + 1]
         t1 = nxt[0]['start'] if nxt else t1
-    out = ROOT / ('renders/previews' if preview else 'renders/chapters') / f"chapter_{chapter}.mp4"
+    suffix = '' if not part else f"_part{part[0]}of{part[1]}"
+    out = ROOT / ('renders/previews' if preview else 'renders/chapters') / f"chapter_{chapter}{suffix}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
     w, h = int(W * scale), int(H * scale)
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{w}x{h}', '-r', str(fps), '-i', '-',
@@ -307,7 +308,8 @@ def render_video(chapter, preview=False):
            '-x264-params', 'keyint=48', '-r', str(fps), str(out)]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     live = {}; nfr = int(round((t1 - t0) * fps)); total_start = tl['shots'][0]['start']; film_end = tl['duration']
-    for fi in range(nfr):
+    f_lo, f_hi = (0, nfr) if not part else ((part[0] - 1) * nfr // part[1], part[0] * nfr // part[1])
+    for fi in range(f_lo, f_hi):
         t = t0 + fi / fps
         act = [s for s in tl['shots'] if s['start'] - XF / 2 <= t < s['end'] + XF / 2]
         layers = []
@@ -335,7 +337,7 @@ def render_video(chapter, preview=False):
         if t > film_end - 2.0: frame = frame * max(0, (film_end - t) / 2.0)
         proc.stdin.write(finish(frame, fi, scale).tobytes())
         for k in [k for k in live if not any((s['asset'], s['start']) == k for s in act)]: del live[k]
-        if fi % (fps * 30) == 0: print(f'chapter {chapter}: {fi}/{nfr} frames', flush=True)
+        if fi % (fps * 30) == 0: print(f'chapter {chapter}{suffix}: {fi}/{nfr} frames', flush=True)
     proc.stdin.close(); proc.wait(); print('wrote', out, flush=True)
 
 # ------------------------------------------------------------------ audio
@@ -434,12 +436,12 @@ def build_srt():
     print('srt cues', len(cues), out)
 
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(); ap.add_argument('cmd'); ap.add_argument('--chapter', default='all'); ap.add_argument('--preview', action='store_true')
+    ap = argparse.ArgumentParser(); ap.add_argument('cmd'); ap.add_argument('--chapter', default='all'); ap.add_argument('--preview', action='store_true'); ap.add_argument('--part', default=None)
     a = ap.parse_args()
     if a.cmd == 'timeline': build_timeline()
     elif a.cmd == 'depth':
         sh = load_yaml('storyboard/shots.yaml'); keys = sorted({x[0] for v in sh.values() for x in v if x[1].startswith('par')})
         compute_depth(keys)
-    elif a.cmd == 'video': render_video(a.chapter, a.preview)
+    elif a.cmd == 'video': render_video(a.chapter, a.preview, tuple(int(x) for x in a.part.split('/')) if a.part else None)
     elif a.cmd == 'audio': build_audio()
     elif a.cmd == 'srt': build_srt()

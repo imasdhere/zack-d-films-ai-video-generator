@@ -80,14 +80,14 @@
   - [R06, left, 0.6, {sfx: [wind_soft, footsteps]}]
 "3.08":
   - [L01, par, 1.0, {sfx: [wind_low]}]
-  - [L03, in, 1.0, {sfx: [wind_low]}]
+  - [D13, in, 1.0, {sfx: [wind_low]}]
 "3.09":
-  - [L02, in, 1.0, {sfx: [wind_soft]}]
+  - [L01, in, 1.0, {sfx: [wind_soft]}]
   - [D05, drift, 0.7, {sfx: [wind_night]}]
 "3.10":
   - [G_IBNKATHIR_REJECT, gfx, 1.0, {sfx: [lamp_room]}]
 "3.11":
-  - [L03, out, 1.0, {sfx: [wind_low]}]
+  - [K02, in, 1.0, {sfx: [lamp_room]}]
 "3.12":
   - [R02, par, 1.0, {sfx: [wind_structures]}]
   - [B02_V2, up, 1.0, {sfx: [wind_structures]}]
@@ -107,7 +107,7 @@
 "4.03":
   - [G_THOMAS_QUOTE, gfx, 1.0, {sfx: [wind_low]}]
 "4.04":
-  - [L03, par, 1.0, {sfx: [wind_low]}]
+  - [D18, par, 1.0, {sfx: [wind_low]}]
   - [D04, right, 1.0, {sfx: [wind_soft]}]
 "4.05":
   - [M05, gfx, 1.0, {sfx: [wind_low]}]
