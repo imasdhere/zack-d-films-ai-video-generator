@@ -5,9 +5,9 @@ PH_SHISR2: {commons: "File:Ubar.jpg", fallback: E07}
 PH_SHISR_WELL: {commons: "File:Ubar 2002 Hole Water.jpg", fallback: E09}
 PH_SHISR_RUIN: {commons: "File:Ubar 2002 Ruine.jpg", fallback: D08}
 PH_ROAD_UBAR: {commons: "File:Road to Ubar.jpg", fallback: NASA_ISS_DUNES}
-PH_BOSW1: {commons: "File:Boswellia sacra kz02.jpg", fallback: E12}
+PH_BOSW1: {commons: "File:Boswellia sacra kz02.jpg", fallback: NASA_ISS_DHOFAR}
 PH_DAWKAH: {commons: "File:Oman, Wadi Dawkah, Land of Frankincense.jpg", fallback: NASA_ISS_DHOFAR}
-PH_BARK: {commons: "File:Boswellia sacra bark.jpg", fallback: E13}
+PH_BARK: {commons: "File:Boswellia sacra bark.jpg", fallback: D08}
 PH_BALEED: {commons: "File:Al Baleed Archaeological Park.jpg", fallback: NASA_SALALAH}
 PH_THOMAS_BEDU: {commons: "File:Janababedouin.png", fallback: E01}
 PH_WABAR: {commons: "File:Wabar craters.jpg", fallback: NASA_EMPTYQ}

@@ -53,7 +53,7 @@
   - [D09, par, 1.0, {sfx: [wind_soft], caption: "Qurʾān 46:21 — al-Aḥqāf (tr. Pickthall)"}]
   - [NASA_EMPTYQ, in, 1.0, {sfx: [sand_hiss]}]
 "2.07":
-  - [K01, in, 0.8, {sfx: [lamp_room]}]
+  - [K02, out, 0.8, {sfx: [lamp_room]}]
   - [M03, gfx, 1.6, {sfx: [wind_low]}]
 "2.08":
   - [P09, par, 1.0, {sfx: [wind_low]}]
@@ -100,7 +100,7 @@
 "3.14":
   - [D16, par, 1.0, {sfx: [wind_low]}]
 "4.01":
-  - [E11, in, 1.0, {sfx: [wind_low, paper]}]
+  - [NASA_ISS_DUNES, in, 1.0, {sfx: [wind_low]}]
 "4.02":
   - [PH_THOMAS_BEDU, in, 1.2, {sfx: [wind_low]}]
   - [E01, left, 1.0, {sfx: [wind_soft, footsteps]}]
@@ -118,14 +118,14 @@
   - [PH_WABAR_IRON, drift, 1.0, {sfx: [wind_low]}]
   - [PH_WABAR2, in, 0.8, {sfx: [wind_soft]}]
 "4.07":
-  - [PH_BOSW1, par, 1.0, {sfx: [wind_low]}]
-  - [PH_BARK, in, 1.0, {sfx: [wind_low]}]
   - [E04, up, 1.0, {sfx: [fire]}]
+  - [PH_BOSW1, in, 1.0, {sfx: [wind_low]}]
+  - [PH_BARK, in, 1.0, {sfx: [wind_low]}]
 "4.08":
   - [E06, par, 1.0, {sfx: [fog_coast], caption: "Periplus of the Erythraean Sea §29 (tr. Schoff, 1912)"}]
   - [E05, par, 1.0, {sfx: [sea], caption: "Periplus §32 — Moscha"}]
 "4.09":
-  - [NASA_ISS_DHOFAR, in, 0.8, {sfx: [wind_low]}]
+  - [NASA_SALALAH, in, 0.8, {sfx: [wind_low]}]
   - [M06, gfx, 1.2, {sfx: [wind_low]}]
   - [M07, gfx, 1.5, {sfx: [wind_low]}]
 "4.10":
@@ -176,7 +176,6 @@
   - [G_SCIENCE_DIVIDER, gfx, 1.0, {sfx: [silence_room]}]
 "5.07":
   - [S01, par, 1.0, {sfx: [water_drip, cave]}]
-  - [S02, in, 0.8, {sfx: [cave]}]
   - [G_HOLOCENE, gfx, 1.2, {sfx: [wind_low]}]
 "5.08":
   - [S03, par, 1.0, {sfx: [water_lake, wind_low], label: "ILLUSTRATION — HUMID PERIOD"}]
