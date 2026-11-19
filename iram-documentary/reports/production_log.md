@@ -36,3 +36,8 @@ All times are the container's local time on 2026-11-19.
 | 14:45 | Review | **Removed from the cut:** E11 and K01 (pseudo-text pages that could read as fabricated documents), S02 (not a convincing stalagmite section), E12/E13 (botanically inaccurate frankincense). P06 (robed figures) moved away from the line naming the Prophet Hūd. |
 | 15:00 | Photos | Wikimedia Commons stayed rate-limited (HTTP 429 on the API for 40+ minutes). Only 2 of 19 photos downloaded (Wabar craters, Wabar meteorite section). Labelled NASA/AI fallbacks used for the rest. |
 | 15:15 | Edit | Depth maps (Depth-Anything-V2-Small) checked. Chapter 0 (36.7 s) and the credits rendered and reviewed. |
+| 16:15 | Review | The img2img pass over the Blender layout (denoise 0.55–0.60, Lightning) lost the structure in view 1. View 2 (square monoliths) and view 3 (distant settlement) are kept. 2.05 now uses the stronghold P05. |
+| 16:50 | Review | The regenerated R01 still drifted classical (round columns, dome), so it is not used. R02 (sturdy rock-cut pillars) is kept. 3.12 = R02 → B02_V2 → R03. |
+| 17:00 | Review | The legend style was changed from Persian miniature to ink-and-gold storybook engraving, because the miniature style kept producing domes and minarets (an Islamic-looking skyline is inappropriate for the destroyed city of the story). L01 accepted. L02 and L03 still had domes, so they were **rejected and removed from the cut** (replaced by L01, D13, K02, D18). |
+| 17:05 | Review | E05 harbour regenerated with South Arabian forms (flat roofs, fortress wall, sewn-plank boats). Accepted. |
+| 17:25 | Edit | Chapters 3 and 4 re-rendered with the corrected shots. Chapter 4 was split into two parallel parts (`--part 1/2`, `2/2`) and joined losslessly. |
