@@ -305,6 +305,14 @@ def render_video(chapter, preview=False, part=None):
     suffix = '' if not part else f"_part{part[0]}of{part[1]}"
     out = ROOT / ('renders/previews' if preview else 'renders/chapters') / f"chapter_{chapter}{suffix}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
+    # make-style skip (resume after an interruption): an output newer than every input is up to date
+    if not preview and os.environ.get('IRAM_FORCE_RENDER') != '1':
+        inputs = [TL, ROOT / 'storyboard/shots.yaml', ROOT / 'storyboard/assets.yaml', pathlib.Path(__file__), ROOT / 'scripts/animation/graphics.py']
+        newest = max(p.stat().st_mtime for p in inputs if p.exists())
+        whole = out.parent / f"chapter_{chapter}.mp4"
+        for done in ([out] + ([whole] if part else [])):
+            if done.exists() and done.stat().st_mtime > newest and done.stat().st_size > 1_000_000:
+                print('up to date, skipped:', done.name, flush=True); return
     w, h = int(W * scale), int(H * scale)
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{w}x{h}', '-r', str(fps), '-i', '-',
            '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'medium', '-crf', '23' if preview else '16', '-pix_fmt', 'yuv420p',
