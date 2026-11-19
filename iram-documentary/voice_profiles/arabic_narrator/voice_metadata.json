@@ -1,0 +1,205 @@
+{
+ "profile": "arabic_narrator",
+ "language": "ar",
+ "created": "2026-11-19",
+ "consent": {
+  "confirmed_by": "project owner",
+  "date": "2026-11-19",
+  "statement": "The project owner confirmed that they own these voices or have the speakers' permission to clone them for this documentary. Use the cloned voices for this documentary only. Do not use them for impersonation, deception or any other project."
+ },
+ "source": {
+  "upload_name": "Video2.mp4",
+  "sha256": "2f67df6030ae231716d8c01e5033f471af5c90b35146f6472ff63a8b56752576",
+  "probe": {
+   "programs": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "codec_type": "video",
+     "width": 608,
+     "height": 1080,
+     "bit_rate": "105577"
+    },
+    {
+     "codec_name": "aac",
+     "codec_type": "audio",
+     "sample_rate": "44100",
+     "channels": 2,
+     "bit_rate": "127999"
+    }
+   ],
+   "format": {
+    "duration": "55.588571",
+    "bit_rate": "241427"
+   }
+  }
+ },
+ "full_recording": {
+  "duration_s": 55.59,
+  "sample_rate": 44100,
+  "peak_dbfs": -4.19,
+  "clipped_samples": 0,
+  "integrated_lufs": -22.1,
+  "phrase_end_tail_db": -19.7,
+  "pause_count": 16,
+  "last_hz_above_40dB": 10673,
+  "last_hz_above_60dB": 14917,
+  "pause_rms_dbfs": -58.3,
+  "pause_spectral_flatness": 0.231,
+  "pause_total_s": 16.53,
+  "f0_median_hz": 74.1,
+  "f0_p10_hz": 60.2,
+  "f0_p90_hz": 105.9,
+  "f0_sd_semitones": 4.04,
+  "voiced_fraction": 0.44,
+  "sustained_pitch_runs_ge_0.4s": 5,
+  "longest_sustained_pitch_s": 0.69,
+  "words": 61,
+  "words_per_minute": 72.9,
+  "articulation_words_per_s": 1.58,
+  "left_right_correlation": 1.0
+ },
+ "reference_clip": {
+  "start_s": 37.24,
+  "end_s": 47.02,
+  "padding_s": [
+   0.12,
+   0.25
+  ],
+  "selection_score": -2.301,
+  "measurements": {
+   "start": 37.24,
+   "end": 47.02,
+   "duration_s": 9.78,
+   "sample_rate": 44100,
+   "peak_dbfs": -4.34,
+   "clipped_samples": 0,
+   "integrated_lufs": -22.4,
+   "phrase_end_tail_db": -21.0,
+   "pause_count": 3,
+   "last_hz_above_40dB": 10430,
+   "last_hz_above_60dB": 14917,
+   "pause_rms_dbfs": -56.0,
+   "pause_spectral_flatness": 0.376,
+   "pause_total_s": 1.45,
+   "f0_median_hz": 67.5,
+   "f0_p10_hz": 60.2,
+   "f0_p90_hz": 78.5,
+   "f0_sd_semitones": 2.61,
+   "voiced_fraction": 0.45,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "longest_sustained_pitch_s": 0.56,
+   "words": 12,
+   "words_per_minute": 80.1,
+   "articulation_words_per_s": 1.56,
+   "score": -2.301
+  },
+  "cleaned_measurements": {
+   "duration_s": 10.15,
+   "sample_rate": 44100,
+   "peak_dbfs": -1.76,
+   "clipped_samples": 0,
+   "integrated_lufs": -20.0,
+   "phrase_end_tail_db": -22.4,
+   "pause_count": 4,
+   "last_hz_above_40dB": 10430,
+   "last_hz_above_60dB": 14917,
+   "pause_rms_dbfs": -55.8,
+   "pause_spectral_flatness": 0.259,
+   "pause_total_s": 2.06,
+   "f0_median_hz": 68.7,
+   "f0_p10_hz": 60.5,
+   "f0_p90_hz": 81.0,
+   "f0_sd_semitones": 2.75,
+   "voiced_fraction": 0.35,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "longest_sustained_pitch_s": 0.56
+  }
+ },
+ "selection_rules": {
+  "min_s": 8.0,
+  "max_s": 15.0,
+  "exclude": [
+   [
+    0.0,
+    18.3,
+    "takbir and Quran 43:13-14, chanted with long vowel elongations (not a narration register)"
+   ]
+  ],
+  "dereverb": "evaluate"
+ },
+ "dereverberation": {
+  "method": "none",
+  "evaluation": {
+   "phrase_end_tail_db_without": -22.4,
+   "phrase_end_tail_db_with_wpe": -17.1,
+   "rule": "use WPE if it lowers the tail by >= 3 dB"
+  }
+ },
+ "processing": [
+  "mono downmix (L/R correlation above)",
+  "high-pass 60 Hz, 2 poles",
+  "dereverberation: none",
+  "12 ms edge fades",
+  "loudness gain to -20 LUFS, peak <= -1 dBFS",
+  "no pitch shift, no EQ, no time stretch"
+ ],
+ "transcript": {
+  "reference": "والخليفة في الأهل اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر",
+  "asr_model": "Whisper large-v3-turbo",
+  "asr_raw": "والخليفة في الأهل اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر",
+  "override_applied": false
+ },
+ "candidates_top5": [
+  {
+   "start": 37.24,
+   "end": 47.02,
+   "score": -2.301,
+   "f0_median_hz": 67.5,
+   "f0_sd_semitones": 2.61,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "phrase_end_tail_db": -21.0,
+   "text": "والخليفة في الأهل اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر"
+  },
+  {
+   "start": 37.24,
+   "end": 46.84,
+   "score": -2.32,
+   "f0_median_hz": 67.5,
+   "f0_sd_semitones": 2.62,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "phrase_end_tail_db": -21.0,
+   "text": "والخليفة في الأهل اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر"
+  },
+  {
+   "start": 37.37,
+   "end": 47.02,
+   "score": -2.384,
+   "f0_median_hz": 67.1,
+   "f0_sd_semitones": 2.68,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "phrase_end_tail_db": -20.7,
+   "text": "والخليفة في الأهل اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر"
+  },
+  {
+   "start": 37.37,
+   "end": 46.84,
+   "score": -2.393,
+   "f0_median_hz": 67.1,
+   "f0_sd_semitones": 2.68,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "phrase_end_tail_db": -20.7,
+   "text": "والخليفة في الأهل اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر"
+  },
+  {
+   "start": 39.55,
+   "end": 52.91,
+   "score": -2.65,
+   "f0_median_hz": 67.9,
+   "f0_sd_semitones": 3.15,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "phrase_end_tail_db": -21.6,
+   "text": "اللهم إني أعوذ بك من وعثاء السفر وكآبة المنظر وسوء المنقلب في المال والأهل"
+  }
+ ]
+}

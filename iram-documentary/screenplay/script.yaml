@@ -193,6 +193,12 @@ chapters:
         text: >-
           And he added a sentence that cuts to the heart of this mystery. No building of theirs with columns,
           he wrote, is known through any authentic report.
+        arabic_quotes:   # read by the Arabic narrator; text verbatim from the on-screen card (graphics.g_tabari_quote)
+          - text: "ولا يعلم بناء كان لهم بالعماد بخبر صحيح"
+            tts: "وَلَا يُعْلَمُ بِنَاءٌ كَانَ لَهُمْ بِالْعِمَادِ بِخَبَرٍ صَحِيحْ"
+            after_sentence: 0
+            kind: classical
+            source: "al-Ṭabarī, Jāmiʿ al-Bayān, on Q 89:7"
         post_silence: 1.5
       - id: "3.07"
         evidence: C
@@ -201,6 +207,12 @@ chapters:
           Four centuries later, in Damascus, the scholar Ibn Kathīr agreed. Whether the ʿimād were buildings,
           or tent poles, or weapons, or the height of the people, he wrote, ʿĀd were a tribe:
           "a nation among the nations".
+        arabic_quotes:   # graphics.g_ibnkathir_quote
+          - text: "فهم قبيلة وأمة من الأمم"
+            tts: "فَهُمْ قَبِيلَةٌ وَأُمَّةٌ مِنَ الْأُمَمْ"
+            after_sentence: 0
+            kind: classical
+            source: "Ibn Kathīr, Tafsīr al-Qurʾān al-ʿAẓīm, on Q 89:8"
       - id: "3.08"
         evidence: L
         claims: [L04]
@@ -222,6 +234,12 @@ chapters:
         text: >-
           Ibn Kathīr rejected all of it. These were, in his words, fables of the Israʾīliyyāt. The tale of
           Ibn Qilāba, he said, had no sound chain of transmission, and was certainly not authentic.
+        arabic_quotes:   # graphics.g_ibnkathir_reject (two excerpts, read as two sentences)
+          - text: "فإن هذا كله من خرافات الإسرائيليين. فهذه الحكاية ليس يصح إسنادها."
+            tts: "فَإِنَّ هَذَا كُلَّهُ مِنْ خُرَافَاتِ الْإِسْرَائِيلِيِّينْ. فَهَذِهِ الْحِكَايَةُ لَيْسَ يَصِحُّ إِسْنَادُهَا."
+            after_sentence: 0
+            kind: classical
+            source: "Ibn Kathīr, Tafsīr al-Qurʾān al-ʿAẓīm, on Q 89:8"
       - id: "3.11"
         evidence: L
         claims: [L06]
@@ -426,6 +444,12 @@ chapters:
           The memory of that wind stayed with the Prophet Muhammad. His wife ʿĀʾisha reported that whenever he
           saw clouds or wind, concern showed on his face. When she asked him why, he said that a people had been
           punished with wind, and that when they saw it coming, they had said, "This cloud will give us rain."
+        arabic_quotes:   # graphics.g_hadith_aisha; contains the Quranic words of 46:24, so the router sends it to the
+                         # Quranic review workflow and keeps it out of the mix until a qualified reviewer approves it
+          - text: "عُذِّبَ قَوْمٌ بِالرِّيحِ، وَقَدْ رَأَى قَوْمٌ الْعَذَابَ فَقَالُوا هَذَا عَارِضٌ مُمْطِرُنَا"
+            after_sentence: end
+            kind: hadith
+            source: "Ṣaḥīḥ al-Bukhārī 4828–4829; Ṣaḥīḥ Muslim 899"
       - id: "5.05"
         evidence: H
         claims: [H02]
@@ -433,6 +457,12 @@ chapters:
         text: >-
           In another authentic report, he said: "I was granted victory with the east wind, and ʿĀd were
           destroyed by the west wind."
+        arabic_quotes:   # graphics.g_hadith_saba
+          - text: "نُصِرْتُ بِالصَّبَا، وَأُهْلِكَتْ عَادٌ بِالدَّبُورِ"
+            tts: "نُصِرْتُ بِالصَّبَا، وَأُهْلِكَتْ عَادٌ بِالدَّبُورْ"
+            after_sentence: -1
+            kind: hadith
+            source: "Ṣaḥīḥ al-Bukhārī 1035; Ṣaḥīḥ Muslim 900"
         post_silence: 2.5
       - id: "5.06"
         evidence: S

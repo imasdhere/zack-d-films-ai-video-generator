@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_en_04",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 4.588,
+ "compute_s": 21.1,
+ "seed": 20261123,
+ "attempts": [
+  {
+   "seed": 20261123,
+   "dur": 4.59,
+   "expected": 5.43,
+   "ok": true
+  }
+ ],
+ "text": "Aad were people of poles: travellers, moving with the rains and the pasture.",
+ "lang": "en",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

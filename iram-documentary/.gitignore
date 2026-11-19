@@ -17,3 +17,15 @@ research/raw_sources/web_secondary/*.html
 __pycache__/
 assets/narration/raw/
 assets/images/*.png
+# voice data (version 2): source recordings, reference clips and cloned-voice audio stay local.
+# They are personal (biometric) data of the two speakers; transcripts, metadata and reports are committed.
+voice_profiles/*/original_video/
+voice_profiles/*/extracted_audio/*.wav
+voice_profiles/*/cleaned_reference.wav
+voice_profiles/*/test_samples/**/*.wav
+voice_profiles/*/test_samples/*.wav
+voice_profiles/*/test_samples/*.mp3
+assets/narration/english/
+assets/narration/arabic/
+assets/narration/quranic/*.wav
+assets/narration/segments/*.wav

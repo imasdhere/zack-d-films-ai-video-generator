@@ -1,0 +1,116 @@
+# Central voice, engine and routing configuration for the dual-language narration engine (audio_engine/).
+# English text -> english profile (Video 1). Arabic text -> arabic profile (Video 2).
+# Quranic text -> quranic workflow (separate assets, never approved automatically, never mixed until approved).
+
+consent:
+  confirmed_by: project owner
+  date: 2026-11-19
+  statement: >-
+    The project owner confirmed that they own these voices or have the speakers' permission to clone them for
+    this documentary. Use the cloned voices for this documentary only. Do not use them for impersonation,
+    deception or any other project.
+
+voice_profiles:
+  english:
+    id: english_narrator
+    language: en
+    dir: voice_profiles/english_narrator
+    source:
+      upload_name: Video1.mp4
+      sha256: d6dff13a05ad0f31376db296b7c6a922746b915ba21a99db8e30cd290cd0626a
+    reference_selection:
+      min_s: 8.0
+      max_s: 15.0
+      exclude:
+        - [0.0, 3.05, "demonstration of an exaggerated 'belly' register (median F0 55 Hz, creaky voice)"]
+        - [15.0, 18.1, "raised-pitch coaching aside (median F0 123 Hz)"]
+      dereverb: none
+    reference: voice_profiles/english_narrator/cleaned_reference.wav
+    transcript: voice_profiles/english_narrator/reference_transcript.txt
+    preferred_engine: pending_evaluation
+  arabic:
+    id: arabic_narrator
+    language: ar
+    dir: voice_profiles/arabic_narrator
+    source:
+      upload_name: Video2.mp4
+      sha256: 2f67df6030ae231716d8c01e5033f471af5c90b35146f6472ff63a8b56752576
+    reference_selection:
+      min_s: 8.0
+      max_s: 15.0
+      exclude:
+        - [0.0, 18.3, "takbir and Quran 43:13-14, chanted with long vowel elongations (not a narration register)"]
+      dereverb: evaluate
+    reference: voice_profiles/arabic_narrator/cleaned_reference.wav
+    transcript: voice_profiles/arabic_narrator/reference_transcript.txt
+    preferred_engine: pending_evaluation
+  quranic:
+    reference_profile: arabic
+    engine: requires_qualified_review
+    automatic_approval: false
+    include_in_mix_until_approved: false
+
+engines:
+  voxcpm:
+    name: VoxCPM2
+    repo: https://github.com/OpenBMB/VoxCPM
+    package: voxcpm==2.0.3
+    weights: openbmb/VoxCPM2
+    weights_licence: Apache-2.0
+    venv: /home/user/iram-work/venvs/voxcpm
+    model_dir: /home/user/iram-work/models/voxcpm2
+    worker: audio_engine/engines/workers/voxcpm_worker.py
+    params: {cfg_value: 2.0, inference_timesteps: 10, normalize: false, denoise: false}
+  audar:
+    name: Audar-TTS-V1-Flash
+    repo: https://github.com/AudarAI/Audar-TTS-V1
+    weights: audarai/Audar-TTS-V1-Flash (transformers/ subfolder)
+    weights_licence: AudarAI Open License v1.0
+    codec: neuphonic/neucodec (gated on Hugging Face, Apache-2.0)
+    venv: /home/user/iram-work/venvs/audar
+    model_dir: /home/user/iram-work/models/audar-flash/transformers
+    codec_dir: /home/user/iram-work/models/neucodec
+    worker: audio_engine/engines/workers/audar_worker.py
+    params: {temperature: 0.7, top_k: 40, top_p: 0.9, repetition_penalty: 1.1}
+  qwen3:
+    name: Qwen3-TTS-12Hz-1.7B-Base (legacy engine of version 1)
+    venv: /home/user/iram-work/venvs/qwen
+    model_dir: /home/user/iram-work/models/qwen3-tts-1.7b-base
+    worker: audio_engine/engines/workers/qwen3_worker.py
+    params: {}
+
+routing:
+  arabic_ratio_arabic: 0.8      # >= this share of Arabic letters -> Arabic
+  arabic_ratio_english: 0.05    # <= this share -> English; anything between -> flagged for review
+  quranic_ngram: 3              # >= 3 consecutive words that match the Tanzil text -> Quranic workflow
+
+chunking:
+  en_max_chars: 260
+  ar_max_chars: 200
+  sentence_pause_s: 0.45
+  question_pause_factor: 1.25
+  merge_short_ar: true          # an Arabic sentence under 25 characters joins the next one (very short inputs are unstable)
+  merge_short_en: false
+  part_pause_s: 0.7             # pause around an Arabic quotation inside an English paragraph
+
+audio_policy:
+  background_music: false
+  natural_sound_effects: true
+  preserve_voice_identity: true
+  pitch_shift: false
+  regenerate_failed_segments_only: true
+  require_human_review_for_quranic_audio: true
+
+postprocess:
+  sample_rate: 48000
+  highpass_hz: 60
+  segment_lufs: -19.0
+  max_peak_dbfs: -1.0
+  edge_fade_ms: 12
+
+qa:
+  max_wer_en: 0.15
+  max_cer_ar: 0.15
+  min_speaker_similarity: 0.80   # WavLM-base-plus-sv cosine; supporting evidence only, not proof of identity
+  max_f0_drift_semitones: 1.5    # chapter median F0 vs reference median F0
+  max_lufs_spread: 1.0

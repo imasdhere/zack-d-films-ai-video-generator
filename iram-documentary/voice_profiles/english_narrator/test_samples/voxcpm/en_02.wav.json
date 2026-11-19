@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_en_02",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 2.703,
+ "compute_s": 14.7,
+ "seed": 20261121,
+ "attempts": [
+  {
+   "seed": 20261121,
+   "dur": 2.7,
+   "expected": 3.21,
+   "ok": true
+  }
+ ],
+ "text": "But the view at-Tabari preferred was simpler.",
+ "lang": "en",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

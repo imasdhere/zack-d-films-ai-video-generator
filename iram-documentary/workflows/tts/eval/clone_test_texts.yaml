@@ -1,0 +1,24 @@
+# Standard test texts for the voice-cloning evaluation (identical text for every engine within a language).
+# English: assembled from the approved screenplay (segments 3.03, 3.05, 3.06, 4.12, 6.10); one connective phrase changed.
+# Arabic: written for this test in Modern Standard Arabic from claims already in the claim matrix (Q01, Q02, Q05, C05, C06,
+# C08, A-series on Shisr); not used in the film. Vowel marks are added only where they guide the pronunciation of names.
+en: >-
+  Al-Ṭabarī gathered the opinions of the generations before him. Some said Iram was a city: Alexandria, according to
+  one early authority; Damascus, according to another. But the view al-Ṭabarī preferred was simpler. The ʿimād, he
+  argued, were the poles of tents. ʿĀd were "people of poles": travellers, moving with the rains and the pasture.
+  And he added a sentence that cuts to the heart of this mystery. No building of theirs with columns, he wrote, is
+  known through any authentic report. The search later led to Shisr, a small oasis in Dhofar, about one hundred and
+  seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a
+  few centuries old. Perhaps that is the real lesson of Iram. A people can survive in memory long after their stones
+  are gone, or even if they never built in stone at all. A few words in a sacred text have outlived empires, maps and
+  explorers.
+ar: >-
+  في جنوبِ الجزيرةِ العربية، حيث تمتدُّ رمالُ الرُّبعِ الخالي بلا نهاية، يتردّدُ منذ قرونٍ اسمٌ قديم: إِرَمُ ذاتُ العِماد.
+  ذكرها القرآنُ الكريمُ مرّةً واحدة، مقرونةً بقومِ عاد، الذين أُرسِلَ إليهم النبيُّ هود.
+  فما إرم؟ أهي مدينةٌ ذاتُ أعمدةٍ شاهقة، أم قبيلةٌ من الرُّحَّل، تتنقّلُ بخيامها وراءَ المطرِ والمرعى؟
+  جمعَ الإمامُ الطَّبَريُّ أقوالَ مَن سبقه، ورجَّحَ أنّ العِمادَ هي أعمدةُ الخيام، وقال إنه لا يُعلَمُ لهم بناءٌ بالعِمادِ بخبرٍ صحيح.
+  وبعد أربعةِ قرون، وافقه ابنُ كثير، وعدَّ حكاياتِ المدينةِ الذهبيةِ من خرافاتِ الإسرائيليات.
+  وفي عامِ ألفٍ وتسعمئةٍ واثنين وتسعين، كشفت بعثةٌ أثريةٌ في شِصْر، بمحافظةِ ظَفار في سلطنةِ عُمان، عن حصنٍ قديمٍ على طرقِ تجارةِ اللُّبان.
+  أعلنت الصحفُ أنّ مدينةَ أُوبار قد وُجدت، غيرَ أنّ المنقِّبين أنفسَهم رأوا أنّ أوبار اسمُ إقليمٍ وقوم، لا مدينةٍ واحدة.
+  ربما لا تكونُ إرمُ مدينةً ضائعةً تنتظرُ مَن يكتشفها.
+  ربما كانت درساً محفوظاً في الذاكرة، أطولَ عمراً من الحجارةِ والأعمدة.

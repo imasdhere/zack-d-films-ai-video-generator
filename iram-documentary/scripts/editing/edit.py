@@ -19,6 +19,9 @@ GAP = 0.6         # pause between narration paragraphs (s)
 CHAPTER_CARD = 5.0
 CREDITS = 42.0
 TL = pathlib.Path(os.environ.get('IRAM_TIMELINE', ROOT / 'renders/timeline.json'))
+# Narration segments from audio_engine (version 2: cloned English + Arabic narrators). Version 1 (Qwen3 designed
+# voice) stays reproducible with IRAM_NARRATION_DIR=assets/narration/raw.
+NARR = ROOT / os.environ.get('IRAM_NARRATION_DIR', 'assets/narration/segments')
 NUM = {1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR', 5: 'FIVE', 6: 'SIX'}
 
 def load_yaml(p): return yaml.safe_load(open(ROOT / p, encoding='utf-8'))
@@ -26,7 +29,7 @@ def load_yaml(p): return yaml.safe_load(open(ROOT / p, encoding='utf-8'))
 # ------------------------------------------------------------------ timeline
 def build_timeline():
     script = load_yaml('screenplay/script.yaml'); shots = load_yaml('storyboard/shots.yaml')
-    raw = ROOT / 'assets/narration/raw'; tl = {'segments': [], 'shots': []}; t = 0.0
+    raw = NARR; tl = {'segments': [], 'shots': []}; t = 0.0
     for ch in script['chapters']:
         if ch['id'] > 0:
             first = shots[ch['segments'][0]['id']][0][0]
@@ -357,7 +360,7 @@ def build_audio():
     tl = json.load(open(TL)); SR = sfx.SR; N = int((tl['duration'] + 1) * SR)
     narr = np.zeros(N, np.float32)
     for seg in tl['segments']:
-        a, sr = sf.read(ROOT / f"assets/narration/raw/{seg['id']}.wav", dtype='float32')
+        a, sr = sf.read(NARR / f"{seg['id']}.wav", dtype='float32')
         a = resample_poly(a, SR, sr).astype(np.float32); a = sfx.hp(a, 70, 2)
         i = int(seg['start'] * SR); narr[i:i + len(a)] += a[:N - i]
     meter = pyln.Meter(SR); narr *= 10 ** ((-19.0 - meter.integrated_loudness(narr)) / 20)
@@ -407,7 +410,10 @@ def build_srt():
     split = lambda t: [x for x in re.split(r'(?<=[.?!])\s+|(?<=[.?!]["”’])\s+', t) if x and x.strip()]
     cues = []
     for seg in tl['segments']:
-        ds = split(disp[seg['id']]); ts = seg['sentences']
+        ts = seg['sentences']
+        if all('display' in s for s in ts):        # audio_engine timings carry the display text of each sentence
+            ds = [' '.join(s['display'].split()) for s in ts]
+        else: ds = split(disp[seg['id']])
         if len(ds) != len(ts):
             print('sentence mismatch', seg['id'], len(ds), len(ts)); ds = ds[:len(ts)] + [''] * (len(ts) - len(ds))
         for d, s in zip(ds, ts):

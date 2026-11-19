@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_en_07",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 14.097,
+ "compute_s": 56.3,
+ "seed": 20261126,
+ "attempts": [
+  {
+   "seed": 20261126,
+   "dur": 14.1,
+   "expected": 14.93,
+   "ok": true
+  }
+ ],
+ "text": "The search later led to Shisr, a small oasis in Dhofar, about one hundred and seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a few centuries old.",
+ "lang": "en",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

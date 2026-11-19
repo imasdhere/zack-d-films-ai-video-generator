@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_en_03",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 3.04,
+ "compute_s": 17.7,
+ "seed": 20261122,
+ "attempts": [
+  {
+   "seed": 20261122,
+   "dur": 3.04,
+   "expected": 3.29,
+   "ok": true
+  }
+ ],
+ "text": "The imaad, he argued, were the poles of tents.",
+ "lang": "en",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

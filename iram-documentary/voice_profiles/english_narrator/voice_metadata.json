@@ -1,0 +1,176 @@
+{
+ "profile": "english_narrator",
+ "language": "en",
+ "created": "2026-11-19",
+ "consent": {
+  "confirmed_by": "project owner",
+  "date": "2026-11-19",
+  "statement": "The project owner confirmed that they own these voices or have the speakers' permission to clone them for this documentary. Use the cloned voices for this documentary only. Do not use them for impersonation, deception or any other project."
+ },
+ "source": {
+  "upload_name": "Video1.mp4",
+  "sha256": "d6dff13a05ad0f31376db296b7c6a922746b915ba21a99db8e30cd290cd0626a",
+  "probe": {
+   "programs": [],
+   "streams": [
+    {
+     "codec_name": "h264",
+     "codec_type": "video",
+     "width": 720,
+     "height": 1280,
+     "bit_rate": "989866"
+    },
+    {
+     "codec_name": "aac",
+     "codec_type": "audio",
+     "sample_rate": "44100",
+     "channels": 2,
+     "bit_rate": "128155"
+    }
+   ],
+   "format": {
+    "duration": "26.122449",
+    "bit_rate": "1122192"
+   }
+  }
+ },
+ "full_recording": {
+  "duration_s": 26.12,
+  "sample_rate": 44100,
+  "peak_dbfs": -2.95,
+  "clipped_samples": 0,
+  "integrated_lufs": -16.7,
+  "phrase_end_tail_db": -53.9,
+  "pause_count": 8,
+  "last_hz_above_40dB": 9722,
+  "last_hz_above_60dB": 15696,
+  "pause_rms_dbfs": -44.7,
+  "pause_spectral_flatness": 0.441,
+  "pause_total_s": 2.98,
+  "f0_median_hz": 92.8,
+  "f0_p10_hz": 51.8,
+  "f0_p90_hz": 124.5,
+  "f0_sd_semitones": 5.12,
+  "voiced_fraction": 0.63,
+  "sustained_pitch_runs_ge_0.4s": 1,
+  "longest_sustained_pitch_s": 0.59,
+  "words": 68,
+  "words_per_minute": 160.5,
+  "articulation_words_per_s": 3.03,
+  "left_right_correlation": 0.9992
+ },
+ "reference_clip": {
+  "start_s": 3.09,
+  "end_s": 12.96,
+  "padding_s": [
+   0.12,
+   0.25
+  ],
+  "selection_score": -2.78,
+  "measurements": {
+   "start": 3.09,
+   "end": 12.96,
+   "duration_s": 9.87,
+   "sample_rate": 44100,
+   "peak_dbfs": -2.98,
+   "clipped_samples": 0,
+   "integrated_lufs": -18.0,
+   "phrase_end_tail_db": -52.3,
+   "pause_count": 2,
+   "last_hz_above_40dB": 10526,
+   "last_hz_above_60dB": 15701,
+   "pause_rms_dbfs": -52.3,
+   "pause_spectral_flatness": 0.365,
+   "pause_total_s": 0.57,
+   "f0_median_hz": 98.3,
+   "f0_p10_hz": 77.1,
+   "f0_p90_hz": 122.4,
+   "f0_sd_semitones": 3.72,
+   "voiced_fraction": 0.63,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "longest_sustained_pitch_s": 0.59,
+   "words": 28,
+   "words_per_minute": 178.7,
+   "articulation_words_per_s": 3.2,
+   "score": -2.78
+  },
+  "cleaned_measurements": {
+   "duration_s": 10.24,
+   "sample_rate": 44100,
+   "peak_dbfs": -2.48,
+   "clipped_samples": 0,
+   "integrated_lufs": -20.0,
+   "phrase_end_tail_db": -61.7,
+   "pause_count": 3,
+   "last_hz_above_40dB": 10671,
+   "last_hz_above_60dB": 15718,
+   "pause_rms_dbfs": -53.7,
+   "pause_spectral_flatness": 0.466,
+   "pause_total_s": 0.95,
+   "f0_median_hz": 98.3,
+   "f0_p10_hz": 78.5,
+   "f0_p90_hz": 121.7,
+   "f0_sd_semitones": 3.43,
+   "voiced_fraction": 0.62,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "longest_sustained_pitch_s": 0.59
+  }
+ },
+ "selection_rules": {
+  "min_s": 8.0,
+  "max_s": 15.0,
+  "exclude": [
+   [
+    0.0,
+    3.05,
+    "demonstration of an exaggerated 'belly' register (median F0 55 Hz, creaky voice)"
+   ],
+   [
+    15.0,
+    18.1,
+    "raised-pitch coaching aside (median F0 123 Hz)"
+   ]
+  ],
+  "dereverb": "none"
+ },
+ "dereverberation": {
+  "method": "none",
+  "evaluation": null
+ },
+ "processing": [
+  "mono downmix (L/R correlation above)",
+  "high-pass 60 Hz, 2 poles",
+  "dereverberation: none",
+  "12 ms edge fades",
+  "loudness gain to -20 LUFS, peak <= -1 dBFS",
+  "no pitch shift, no EQ, no time stretch"
+ ],
+ "transcript": {
+  "reference": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+  "asr_model": "Whisper small.en",
+  "asr_raw": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+  "override_applied": false
+ },
+ "candidates_top5": [
+  {
+   "start": 3.09,
+   "end": 12.96,
+   "score": -2.78,
+   "f0_median_hz": 98.3,
+   "f0_sd_semitones": 3.72,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "phrase_end_tail_db": -52.3,
+   "text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this."
+  },
+  {
+   "start": 3.09,
+   "end": 12.92,
+   "score": -2.783,
+   "f0_median_hz": 98.3,
+   "f0_sd_semitones": 3.72,
+   "sustained_pitch_runs_ge_0.4s": 1,
+   "phrase_end_tail_db": -52.3,
+   "text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this."
+  }
+ ]
+}

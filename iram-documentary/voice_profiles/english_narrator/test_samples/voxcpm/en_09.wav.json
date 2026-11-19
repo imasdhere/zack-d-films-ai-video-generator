@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_en_09",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 6.383,
+ "compute_s": 30.1,
+ "seed": 20261128,
+ "attempts": [
+  {
+   "seed": 20261128,
+   "dur": 6.38,
+   "expected": 7.79,
+   "ok": true
+  }
+ ],
+ "text": "A people can survive in memory long after their stones are gone, or even if they never built in stone at all.",
+ "lang": "en",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

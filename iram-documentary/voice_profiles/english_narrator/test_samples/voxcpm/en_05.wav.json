@@ -1,0 +1,25 @@
+{
+ "id": "voxcpm_en_05",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 3.96,
+ "compute_s": 20.1,
+ "seed": 20261124,
+ "attempts": [
+  {
+   "seed": 20261124,
+   "dur": 3.96,
+   "expected": 4.5,
+   "ok": true
+  }
+ ],
+ "text": "And he added a sentence that cuts to the heart of this mystery.",
+ "lang": "en",
+ "params": {
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}
