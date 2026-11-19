@@ -2191,26 +2191,12 @@
    "asset": "D12",
    "move": "par",
    "start": 169.524,
-   "end": 175.101,
-   "chapter": 2,
-   "seg": "2.02",
-   "opts": {
-    "sfx": [
-     "wind_soft"
-    ]
-   }
-  },
-  {
-   "asset": "P06",
-   "move": "par",
-   "start": 175.101,
    "end": 180.678,
    "chapter": 2,
    "seg": "2.02",
    "opts": {
     "sfx": [
-     "wind_soft",
-     "footsteps"
+     "wind_soft"
     ]
    }
   },
@@ -2300,8 +2286,8 @@
    }
   },
   {
-   "asset": "B02_V3",
-   "move": "par",
+   "asset": "P05",
+   "move": "out",
    "start": 211.814,
    "end": 218.543,
    "chapter": 2,
@@ -2645,7 +2631,7 @@
    }
   },
   {
-   "asset": "B02_V1",
+   "asset": "R01",
    "move": "par",
    "start": 477.741,
    "end": 483.581,
@@ -2658,8 +2644,8 @@
    }
   },
   {
-   "asset": "R01",
-   "move": "par",
+   "asset": "R03",
+   "move": "in",
    "start": 483.581,
    "end": 489.42,
    "chapter": 3,
@@ -2671,7 +2657,7 @@
    }
   },
   {
-   "asset": "B02_V2",
+   "asset": "R02",
    "move": "up",
    "start": 489.42,
    "end": 495.26,

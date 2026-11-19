@@ -47,7 +47,7 @@
   - [P05, parl, 1.0, {sfx: [wind_structures], caption: "Qurʾān 26:129 (tr. Pickthall)"}]
   - [P07, in, 0.7, {sfx: [stone_place]}]
 "2.05":
-  - [B02_V3, par, 1.0, {sfx: [wind_structures], caption: "Qurʾān 41:15 (tr. Pickthall)"}]
+  - [P05, out, 1.0, {sfx: [wind_structures], caption: "Qurʾān 41:15 (tr. Pickthall)"}]
 "2.06":
   - [D09, par, 1.0, {sfx: [wind_soft], caption: "Qurʾān 46:21 — al-Aḥqāf (tr. Pickthall)"}]
   - [NASA_EMPTYQ, in, 1.0, {sfx: [sand_hiss]}]
