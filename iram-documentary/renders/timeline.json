@@ -2341,8 +2341,8 @@
    }
   },
   {
-   "asset": "K01",
-   "move": "in",
+   "asset": "K02",
+   "move": "out",
    "start": 228.941,
    "end": 235.957,
    "chapter": 2,
@@ -2747,14 +2747,14 @@
    "opts": {
     "number": "FOUR",
     "title": "The Search Beneath the Sands",
-    "bg": "E11",
+    "bg": "NASA_ISS_DUNES",
     "sfx": [
      "wind_low"
     ]
    }
   },
   {
-   "asset": "E11",
+   "asset": "NASA_ISS_DUNES",
    "move": "in",
    "start": 528.408,
    "end": 533.735,
@@ -2762,8 +2762,7 @@
    "seg": "4.01",
    "opts": {
     "sfx": [
-     "wind_low",
-     "paper"
+     "wind_low"
     ]
    }
   },
@@ -2912,20 +2911,20 @@
    }
   },
   {
-   "asset": "PH_BOSW1",
-   "move": "par",
+   "asset": "E04",
+   "move": "up",
    "start": 624.846,
    "end": 631.519,
    "chapter": 4,
    "seg": "4.07",
    "opts": {
     "sfx": [
-     "wind_low"
+     "fire"
     ]
    }
   },
   {
-   "asset": "PH_BARK",
+   "asset": "PH_BOSW1",
    "move": "in",
    "start": 631.519,
    "end": 638.193,
@@ -2938,15 +2937,15 @@
    }
   },
   {
-   "asset": "E04",
-   "move": "up",
+   "asset": "PH_BARK",
+   "move": "in",
    "start": 638.193,
    "end": 644.866,
    "chapter": 4,
    "seg": "4.07",
    "opts": {
     "sfx": [
-     "fire"
+     "wind_low"
     ]
    }
   },
@@ -2979,7 +2978,7 @@
    }
   },
   {
-   "asset": "NASA_ISS_DHOFAR",
+   "asset": "NASA_SALALAH",
    "move": "in",
    "start": 664.923,
    "end": 669.117,
@@ -3436,7 +3435,7 @@
    "asset": "S01",
    "move": "par",
    "start": 972.432,
-   "end": 978.843,
+   "end": 981.174,
    "chapter": 5,
    "seg": "5.07",
    "opts": {
@@ -3447,22 +3446,9 @@
    }
   },
   {
-   "asset": "S02",
-   "move": "in",
-   "start": 978.843,
-   "end": 983.972,
-   "chapter": 5,
-   "seg": "5.07",
-   "opts": {
-    "sfx": [
-     "cave"
-    ]
-   }
-  },
-  {
    "asset": "G_HOLOCENE",
    "move": "gfx",
-   "start": 983.972,
+   "start": 981.174,
    "end": 991.665,
    "chapter": 5,
    "seg": "5.07",
