@@ -47,7 +47,7 @@ ai:
   R05: {style: recon, label: "ARTISTIC RECONSTRUCTION — THE CLASSICAL EXEGETES' READING", prompt: "detail of a black woven goat-hair tent stretched over tall wooden tent poles with ropes and stakes in sand, warm morning light"}
   R06: {style: recon, label: "ARTISTIC RECONSTRUCTION — THE CLASSICAL EXEGETES' READING", prompt: "a nomadic caravan of camels carrying rolled tents and tent poles across a wide desert plain, long shadows, distant figures"}
   # --- legend (distinct painterly grammar) ---
-  L01: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a fabulous golden city with palaces of gold and silver bricks, jewelled gardens and rivers, surrounded by desert, seen from a distance"}
+  L01: {style: legend, label: "LEGEND — LATER TRADITION", seed: 410001, prompt: "a fabulous ancient city of flat-roofed palaces and tall square towers built of gold and silver bricks, walled gardens and streams, set in a golden desert, pre-Islamic antiquity, seen from a distance"}
   L02: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a lone traveller with camels in the desert at night discovering the tall gates of a mysterious walled city, small figure seen from behind"}
   L03: {style: legend, label: "LEGEND — LATER TRADITION", prompt: "a mirage of a golden city floating above desert sands, ornamental clouds, gold leaf sky"}
   # --- scholarship atmosphere (no legible text) ---
