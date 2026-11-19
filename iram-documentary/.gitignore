@@ -15,3 +15,4 @@ assets/archaeological_photographs/*.png
 assets/archaeological_photographs/*.tif
 research/raw_sources/web_secondary/*.html
 __pycache__/
+assets/narration/raw/
