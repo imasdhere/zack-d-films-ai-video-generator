@@ -6,7 +6,7 @@ P="$(cd "$(dirname "$0")/../.." && pwd)"; cd "$P"
 PY=/home/user/iram-work/venvs/ml/bin/python; LOG=/home/user/iram-work/logs
 step() { echo "== $(date +%H:%M:%S) $*"; }
 fail() { echo "PIPELINE_FAILED: $*"; exit 1; }
-export IRAM_SCALE=1.3333333 IRAM_CRF=18 IRAM_CHAPTER_DIR=renders/chapters_1440 IRAM_MASTER_NAME=iram_lost_city_documentary_1440p
+export IRAM_SCALE=1.3333334 IRAM_CRF=18 IRAM_CHAPTER_DIR=renders/chapters_1440 IRAM_MASTER_NAME=iram_lost_city_documentary_1440p
 mkdir -p $IRAM_CHAPTER_DIR
 
 step plan;            $PY -m audio_engine.synthesis_manager plan                          || fail plan

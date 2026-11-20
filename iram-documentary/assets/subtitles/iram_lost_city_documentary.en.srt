@@ -1,1442 +1,1442 @@
 1
-00:00:07,000 --> 00:00:10,516
+00:00:07,000 --> 00:00:11,620
 There are places on Earth where
 the land itself seems to forget.
 
 2
-00:00:10,966 --> 00:00:15,834
+00:00:11,830 --> 00:00:16,637
 Here, in the south of Arabia, the wind
 has been moving sand for thousands of
 
 3
-00:00:15,874 --> 00:00:16,672
+00:00:16,677 --> 00:00:17,390
 years.
 
 4
-00:00:16,712 --> 00:00:17,712
+00:00:17,430 --> 00:00:18,340
 Lifting it.
 
 5
-00:00:18,102 --> 00:00:19,102
+00:00:18,380 --> 00:00:18,880
 Folding it.
 
 6
-00:00:19,429 --> 00:00:20,900
+00:00:18,579 --> 00:00:19,579
 Laying it down again.
 
 7
-00:00:21,350 --> 00:00:23,182
+00:00:19,850 --> 00:00:21,500
 Footprints vanish by evening.
 
 8
-00:00:23,632 --> 00:00:25,398
+00:00:22,130 --> 00:00:23,169
 Whole dunes walk.
 
 9
-00:00:28,498 --> 00:00:32,015
+00:00:26,269 --> 00:00:28,709
 And yet, some names survive the wind.
 
 10
-00:00:32,465 --> 00:00:34,538
+00:00:28,839 --> 00:00:30,741
 One of them is Iram.
 
 11
-00:00:43,138 --> 00:00:47,347
+00:00:39,341 --> 00:00:44,219
 The Rubʿ al-Khālī, the Empty Quarter,
 covers some six hundred and fifty
 
 12
-00:00:47,387 --> 00:00:51,775
+00:00:44,259 --> 00:00:49,344
 thousand square kilometres of the
 Arabian Peninsula, across parts of Saudi
 
 13
-00:00:51,815 --> 00:00:54,747
+00:00:49,384 --> 00:00:52,778
 Arabia, Oman, the United
 Arab Emirates and Yemen.
 
 14
-00:00:55,197 --> 00:00:59,409
+00:00:53,228 --> 00:00:57,498
 It is often described as the largest
 continuous sand desert on Earth.
 
 15
-00:00:59,859 --> 00:01:03,550
+00:00:58,008 --> 00:01:01,504
 In places, its dunes rise
 more than two hundred metres.
 
 16
-00:01:04,150 --> 00:01:08,870
+00:01:02,104 --> 00:01:06,220
 For centuries, those who lived along
 its edges told stories of a people of
 
 17
-00:01:08,910 --> 00:01:13,220
+00:01:06,260 --> 00:01:10,022
 great strength, of towering buildings,
 and of a city that was lost.
 
 18
-00:01:13,820 --> 00:01:16,878
+00:01:10,622 --> 00:01:13,982
 The oldest written source
 for that memory is the Quran.
 
 19
-00:01:17,328 --> 00:01:22,888
+00:01:14,182 --> 00:01:18,675
 In a short passage of Sūrat al-Fajr,
 the chapter of the Dawn, it asks:
 
 20
-00:01:23,488 --> 00:01:27,931
+00:01:19,275 --> 00:01:23,189
 "Dost thou not consider how thy Lord
 dealt with the tribe of ʿĀd, with
 
 21
-00:01:27,971 --> 00:01:32,326
+00:01:23,229 --> 00:01:27,070
 many-columned Iram, the like of
 which was not created in the lands."
 
 22
-00:01:32,926 --> 00:01:34,685
+00:01:27,670 --> 00:01:28,760
 Three short verses.
 
 23
-00:01:35,135 --> 00:01:37,111
+00:01:28,990 --> 00:01:30,360
 A people: ʿĀd.
 
 24
-00:01:37,561 --> 00:01:39,733
+00:01:30,590 --> 00:01:31,510
 A name: Iram.
 
 25
-00:01:40,183 --> 00:01:43,231
+00:01:31,550 --> 00:01:33,980
 And a description: dhāt al-ʿimād.
 
 26
-00:01:43,681 --> 00:01:44,958
+00:01:34,090 --> 00:01:34,770
 Possessing ʿimād.
 
 27
-00:01:45,408 --> 00:01:49,788
+00:01:34,810 --> 00:01:40,782
 A word that can mean columns, or pillars,
 or the poles that hold up a tent.
 
 28
-00:01:50,388 --> 00:01:55,024
+00:01:41,382 --> 00:01:45,632
 From these few words grew one of the
 most enduring mysteries of the Arabian
 
 29
-00:01:55,064 --> 00:01:55,910
+00:01:45,672 --> 00:01:46,312
 desert.
 
 30
-00:01:55,950 --> 00:01:58,663
+00:01:46,352 --> 00:01:48,842
 Storytellers imagined palaces of gold.
 
 31
-00:01:59,113 --> 00:02:02,793
+00:01:49,192 --> 00:01:53,162
 Popular retellings still speak
 of a city of a thousand pillars.
 
 32
-00:02:03,243 --> 00:02:05,155
+00:01:53,482 --> 00:01:55,377
 Explorers went looking for it.
 
 33
-00:02:05,605 --> 00:02:10,395
+00:01:55,827 --> 00:01:58,828
 And satellites photographed
 the sand where it might lie.
 
 34
-00:02:10,995 --> 00:02:13,279
+00:01:59,428 --> 00:02:01,538
 This film asks three questions.
 
 35
-00:02:13,729 --> 00:02:16,242
+00:02:02,108 --> 00:02:03,978
 What does the text actually say?
 
 36
-00:02:16,805 --> 00:02:19,725
+00:02:04,518 --> 00:02:07,068
 What did the earliest
 scholars understand by it?
 
 37
-00:02:20,287 --> 00:02:23,769
+00:02:07,808 --> 00:02:11,113
 And what, if anything, has
 archaeology really found?
 
 38
-00:02:24,369 --> 00:02:29,609
+00:02:11,713 --> 00:02:16,480
 To answer them, we must keep different
 kinds of evidence apart: scripture,
 
 39
-00:02:29,649 --> 00:02:33,003
+00:02:16,520 --> 00:02:19,573
 scholarship, legend,
 excavation and hypothesis.
 
 40
-00:02:33,453 --> 00:02:37,161
+00:02:19,823 --> 00:02:22,867
 Throughout this film, each
 will be marked as it appears.
 
 41
-00:02:44,761 --> 00:02:48,162
+00:02:30,467 --> 00:02:33,447
 The Quran names ʿĀd twenty-four times.
 
 42
-00:02:48,612 --> 00:02:51,843
+00:02:33,827 --> 00:02:35,909
 Iram, it names only once.
 
 43
-00:02:52,443 --> 00:02:56,744
+00:02:36,509 --> 00:02:41,449
 In the Quranic account, ʿĀd were a
 people who came after the people of Noah.
 
 44
-00:02:57,194 --> 00:02:59,745
+00:02:42,099 --> 00:02:45,159
 To them was sent a prophet
 from among themselves.
 
 45
-00:03:00,195 --> 00:03:02,984
+00:02:45,889 --> 00:02:48,711
 The Quran calls him their brother: Hūd.
 
 46
-00:03:03,584 --> 00:03:06,898
+00:02:49,311 --> 00:02:51,831
 It describes a people blessed with plenty.
 
 47
-00:03:07,348 --> 00:03:11,514
+00:02:51,941 --> 00:02:56,486
 Hūd reminds them that God has aided
 them "with cattle and sons, and gardens
 
 48
-00:03:11,554 --> 00:03:12,564
+00:02:56,526 --> 00:02:57,626
 and watersprings."
 
 49
-00:03:13,014 --> 00:03:17,276
+00:02:58,076 --> 00:03:02,317
 He reminds them that they were given
 "growth of stature": in Arabic, basṭa,
 
 50
-00:03:17,316 --> 00:03:20,757
+00:03:02,357 --> 00:03:05,781
 a word the commentators read
 as size, or strength, or reach.
 
 51
-00:03:21,357 --> 00:03:23,583
+00:03:06,381 --> 00:03:07,351
 They were builders.
 
 52
-00:03:24,033 --> 00:03:28,016
+00:03:07,391 --> 00:03:10,621
 "Build ye on every high place
 a monument for vain delight?"
 
 53
-00:03:28,579 --> 00:03:29,796
+00:03:10,811 --> 00:03:11,741
 Hūd asks them.
 
 54
-00:03:30,246 --> 00:03:34,531
+00:03:11,781 --> 00:03:15,709
 "And seek ye out strongholds,
 that haply ye may last for ever?"
 
 55
-00:03:35,131 --> 00:03:37,356
+00:03:16,309 --> 00:03:18,949
 And they were certain of their own power.
 
 56
-00:03:37,806 --> 00:03:40,260
+00:03:19,879 --> 00:03:21,959
 "Who is mightier than us in power?"
 
 57
-00:03:40,822 --> 00:03:41,822
+00:03:22,339 --> 00:03:23,339
 they ask.
 
 58
-00:03:42,332 --> 00:03:45,727
+00:03:23,497 --> 00:03:26,857
 The Quran tells us where Hūd
 preached in a single phrase.
 
 59
-00:03:46,177 --> 00:03:52,492
+00:03:27,017 --> 00:03:31,771
 He warned his people, it says, "among
 the wind-curved sandhills": bil-Aḥqāf.
 
 60
-00:03:53,092 --> 00:03:56,343
+00:03:32,371 --> 00:03:35,501
 Classical scholars tried to
 find that landscape on the map.
 
 61
-00:03:56,793 --> 00:04:01,217
+00:03:35,961 --> 00:03:40,438
 The great exegete al-Ṭabarī, who died
 in Baghdad in the year nine hundred
 
 62
-00:04:01,257 --> 00:04:05,659
+00:03:40,478 --> 00:03:44,933
 and twenty-three, explained that aḥqāf
 means sand that curves and bends.
 
 63
-00:04:06,109 --> 00:04:11,684
+00:03:45,383 --> 00:03:49,833
 He placed the land of ʿĀd in the
 south: in al-Shiḥr, in the region of
 
 64
-00:04:11,724 --> 00:04:14,572
+00:03:49,873 --> 00:03:52,150
 Ḥaḍramawt, and the lands around it.
 
 65
-00:04:15,172 --> 00:04:20,121
+00:03:52,750 --> 00:03:57,458
 In Ḥaḍramawt today, a tomb attributed
 to the Prophet Hūd is still visited by
 
 66
-00:04:20,161 --> 00:04:21,161
+00:03:57,498 --> 00:03:58,460
 pilgrims.
 
 67
-00:04:21,202 --> 00:04:25,065
+00:03:58,500 --> 00:04:02,528
 It is a living tradition, though more
 than one place has claimed his resting
 
 68
-00:04:25,105 --> 00:04:25,973
+00:04:02,568 --> 00:04:03,449
 place.
 
 69
-00:04:26,013 --> 00:04:31,726
+00:04:03,489 --> 00:04:07,644
 What the Quran does not give us is
 a date, a map, or a description of a
 
 70
-00:04:31,766 --> 00:04:32,581
+00:04:07,684 --> 00:04:08,259
 city.
 
 71
-00:04:32,621 --> 00:04:37,532
+00:04:08,299 --> 00:04:13,443
 It gives a moral history: a people
 given strength and plenty; a warning; a
 
 72
-00:04:37,572 --> 00:04:38,572
+00:04:13,483 --> 00:04:14,483
 refusal.
 
 73
-00:04:38,707 --> 00:04:41,696
+00:04:14,643 --> 00:04:17,443
 In this film, the Prophet
 Hūd is never shown.
 
 74
-00:04:42,146 --> 00:04:46,541
+00:04:17,593 --> 00:04:21,352
 And the people of ʿĀd appear only as
 distant figures, because no one knows
 
 75
-00:04:46,581 --> 00:04:47,900
+00:04:21,392 --> 00:04:22,522
 what they looked like.
 
 76
-00:04:55,500 --> 00:04:58,161
+00:04:30,122 --> 00:04:31,792
 Iram dhāt al-ʿimād.
 
 77
-00:04:58,611 --> 00:05:01,295
+00:04:31,952 --> 00:04:35,202
 Translators still disagree
 on how to render it.
 
 78
-00:05:01,745 --> 00:05:06,800
+00:04:35,322 --> 00:04:40,532
 Marmaduke Pickthall, in nineteen
 thirty, wrote "many-columned Iram".
 
 79
-00:05:07,250 --> 00:05:12,188
+00:04:40,642 --> 00:04:45,618
 A modern translation, Saheeh
 International, has "Iram, who had lofty
 
 80
-00:05:12,228 --> 00:05:13,228
+00:04:45,658 --> 00:04:46,472
 pillars".
 
 81
-00:05:13,337 --> 00:05:15,376
+00:04:46,512 --> 00:04:48,307
 Even the next verse divides them.
 
 82
-00:05:15,826 --> 00:05:19,876
+00:04:48,757 --> 00:04:52,417
 Was Iram a place, "the like
 of which" was never created?
 
 83
-00:05:20,438 --> 00:05:22,959
+00:04:52,827 --> 00:04:54,942
 Or a people, "the likes of whom"?
 
 84
-00:05:23,559 --> 00:05:27,561
+00:04:55,542 --> 00:04:59,423
 Muslim scholars were asking the same
 questions more than a thousand years
 
 85
-00:05:27,601 --> 00:05:28,382
+00:04:59,463 --> 00:05:00,238
 ago.
 
 86
-00:05:28,422 --> 00:05:31,777
+00:05:00,278 --> 00:05:04,818
 Al-Ṭabarī gathered the opinions
 of the generations before him.
 
 87
-00:05:32,227 --> 00:05:37,637
+00:05:05,008 --> 00:05:09,428
 Some said Iram was a city: Alexandria,
 according to one early authority;
 
 88
-00:05:37,677 --> 00:05:40,024
+00:05:09,468 --> 00:05:11,388
 Damascus, according to another.
 
 89
-00:05:40,474 --> 00:05:42,095
+00:05:11,588 --> 00:05:13,327
 Some said it was a nation.
 
 90
-00:05:42,545 --> 00:05:47,449
+00:05:13,777 --> 00:05:19,013
 Others said it was a clan of ʿĀd, "the
 royal house of ʿĀd", in the words of
 
 91
-00:05:47,489 --> 00:05:51,180
+00:05:19,053 --> 00:05:22,992
 the early scholar Qatāda, or
 the name of their ancestor.
 
 92
-00:05:51,780 --> 00:05:56,709
+00:05:23,592 --> 00:05:29,091
 Al-Ṭabarī weighed these views, and
 concluded that Iram was most likely the
 
 93
-00:05:56,749 --> 00:05:58,294
+00:05:29,131 --> 00:05:30,852
 name of a tribe of ʿĀd.
 
 94
-00:05:58,744 --> 00:06:00,895
+00:05:31,292 --> 00:05:32,971
 Then he turned to the pillars.
 
 95
-00:06:01,495 --> 00:06:07,269
+00:05:33,571 --> 00:05:37,886
 Some early authorities said the word
 described the people themselves: their
 
 96
-00:06:07,309 --> 00:06:08,317
+00:05:37,926 --> 00:05:38,926
 great height.
 
 97
-00:06:08,767 --> 00:06:13,407
+00:05:39,041 --> 00:05:42,481
 One said it meant a building
 they had raised, on tall columns.
 
 98
-00:06:13,857 --> 00:06:16,457
+00:05:42,951 --> 00:05:45,561
 But the view al-Ṭabarī
 preferred was simpler.
 
 99
-00:06:16,907 --> 00:06:20,417
+00:05:45,991 --> 00:05:48,532
 The ʿimād, he argued,
 were the poles of tents.
 
 100
-00:06:20,867 --> 00:06:27,334
+00:05:48,982 --> 00:05:53,556
 ʿĀd were "people of poles": travellers,
 moving with the rains and the
 
 101
-00:06:27,374 --> 00:06:28,374
+00:05:53,596 --> 00:05:54,596
 pasture.
 
 102
-00:06:28,728 --> 00:06:32,336
+00:05:54,731 --> 00:05:58,539
 And he added a sentence that cuts
 to the heart of this mystery.
 
 103
-00:06:33,036 --> 00:06:38,316
+00:05:59,239 --> 00:06:04,519
 ولا يعلم بناء كان لهم بالعماد بخبر صحيح
 
 104
-00:06:39,016 --> 00:06:43,404
+00:06:05,219 --> 00:06:10,421
 No building of theirs with columns, he
 wrote, is known through any authentic
 
 105
-00:06:43,444 --> 00:06:44,444
+00:06:10,461 --> 00:06:11,461
 report.
 
 106
-00:06:45,952 --> 00:06:51,048
+00:06:13,044 --> 00:06:17,110
 Four centuries later, in Damascus,
 the scholar Ibn Kathīr agreed.
 
 107
-00:06:51,748 --> 00:06:54,308
+00:06:17,810 --> 00:06:20,370
 فهم قبيلة وأمة من الأمم
 
 108
-00:06:55,008 --> 00:07:00,754
+00:06:21,070 --> 00:06:25,264
 Whether the ʿimād were buildings, or
 tent poles, or weapons, or the height
 
 109
-00:07:00,794 --> 00:07:06,424
+00:06:25,304 --> 00:06:29,423
 of the people, he wrote, ʿĀd were a
 tribe: "a nation among the nations".
 
 110
-00:07:07,024 --> 00:07:09,228
+00:06:30,023 --> 00:06:32,273
 So where did the golden city come from?
 
 111
-00:07:09,791 --> 00:07:13,692
+00:06:32,603 --> 00:06:37,113
 By Ibn Kathīr's time, a rich
 legend had grown around the verse.
 
 112
-00:07:14,142 --> 00:07:19,331
+00:06:37,343 --> 00:06:41,843
 In some versions, a king named
 Shaddād, son of ʿĀd, built it.
 
 113
-00:07:19,781 --> 00:07:24,607
+00:06:42,293 --> 00:06:46,779
 Commentators described a city of
 bricks of gold and silver, its pebbles
 
 114
-00:07:24,647 --> 00:07:27,457
+00:06:46,819 --> 00:06:49,433
 pearls and jewels, its soil made of musk.
 
 115
-00:07:27,907 --> 00:07:33,580
+00:06:49,983 --> 00:06:54,919
 A city that moved from land to land:
 sometimes in Syria, sometimes in Yemen,
 
 116
-00:07:33,620 --> 00:07:34,973
+00:06:54,959 --> 00:06:56,138
 sometimes in Iraq.
 
 117
-00:07:35,573 --> 00:07:40,090
+00:06:56,738 --> 00:07:01,854
 One story told of a Bedouin, ʿAbd Allāh
 ibn Qilāba, who, while searching for
 
 118
-00:07:40,130 --> 00:07:44,528
+00:07:01,894 --> 00:07:06,873
 his lost camels in the time of the
 caliph Muʿāwiya, came upon a great city
 
 119
-00:07:44,568 --> 00:07:45,827
+00:07:06,913 --> 00:07:08,338
 with walls and gates.
 
 120
-00:07:46,277 --> 00:07:49,791
+00:07:08,788 --> 00:07:12,414
 When others went back with him
 to the place, they found nothing.
 
 121
-00:07:50,391 --> 00:07:53,129
+00:07:13,014 --> 00:07:15,012
 Ibn Kathīr rejected all of it.
 
 122
-00:07:53,829 --> 00:08:01,639
+00:07:15,712 --> 00:07:23,522
 فإن هذا كله من خرافات الإسرائيليين.
 فهذه الحكاية ليس يصح إسنادها.
 
 123
-00:08:02,339 --> 00:08:05,830
+00:07:24,222 --> 00:07:28,232
 These were, in his words,
 fables of the Israʾīliyyāt.
 
 124
-00:08:06,280 --> 00:08:11,479
+00:07:28,322 --> 00:07:33,445
 The tale of Ibn Qilāba, he said, had
 no sound chain of transmission, and was
 
 125
-00:08:11,519 --> 00:08:13,173
+00:07:33,485 --> 00:07:35,116
 certainly not authentic.
 
 126
-00:08:13,773 --> 00:08:15,963
+00:07:35,716 --> 00:07:37,866
 The legend lived on regardless.
 
 127
-00:08:16,413 --> 00:08:20,820
+00:07:38,386 --> 00:07:42,910
 It entered the Thousand and One Nights,
 and later the poetry and fiction of
 
 128
-00:08:20,860 --> 00:08:21,835
+00:07:42,950 --> 00:07:43,936
 Europe.
 
 129
-00:08:21,875 --> 00:08:25,727
+00:07:43,976 --> 00:07:47,086
 What you are seeing now is
 an artistic reconstruction.
 
 130
-00:08:26,177 --> 00:08:32,360
+00:07:47,366 --> 00:07:51,896
 One imagined reading of the verse: a
 settlement raised on stone columns.
 
 131
-00:08:32,810 --> 00:08:35,425
+00:07:52,146 --> 00:07:54,876
 It is not based on any excavated site.
 
 132
-00:08:35,875 --> 00:08:41,667
+00:07:55,146 --> 00:07:59,705
 The Quran does not describe Iram's
 appearance, and no archaeologist has
 
 133
-00:08:41,707 --> 00:08:42,707
+00:07:59,745 --> 00:08:00,745
 found it.
 
 134
-00:08:43,046 --> 00:08:47,814
+00:08:00,928 --> 00:08:06,078
 And this is the other reading, the
 one the classical scholars preferred:
 
 135
-00:08:47,854 --> 00:08:52,329
+00:08:06,118 --> 00:08:10,948
 great tents of woven hair, raised
 on poles, moving across the land.
 
 136
-00:08:52,779 --> 00:08:54,956
+00:08:11,158 --> 00:08:13,058
 It too is an interpretation.
 
 137
-00:08:55,406 --> 00:08:58,637
+00:08:13,508 --> 00:08:16,730
 But it reminds us how much
 a single word can carry.
 
 138
-00:08:59,237 --> 00:09:03,172
+00:08:17,330 --> 00:08:20,490
 The city of a thousand
 pillars is real, in its way.
 
 139
-00:09:03,622 --> 00:09:06,462
+00:08:20,800 --> 00:08:23,290
 But it belongs to the
 history of storytelling.
 
 140
-00:09:06,912 --> 00:09:09,819
+00:08:23,480 --> 00:08:25,918
 The text itself is far more restrained.
 
 141
-00:09:17,919 --> 00:09:22,604
+00:08:34,018 --> 00:08:38,832
 In the twentieth century, the search
 moved from the library into the desert.
 
 142
-00:09:23,204 --> 00:09:28,320
+00:08:39,432 --> 00:08:44,394
 In nineteen thirty, the British explorer
 Bertram Thomas set out to cross the
 
 143
-00:09:28,360 --> 00:09:31,956
+00:08:44,434 --> 00:08:47,922
 Empty Quarter, guided by
 Bedouin of the Rashīd tribe.
 
 144
-00:09:32,406 --> 00:09:35,562
+00:08:48,072 --> 00:08:51,102
 He became the first
 Westerner on record to do so.
 
 145
-00:09:36,012 --> 00:09:40,528
+00:08:51,252 --> 00:08:55,090
 Along the way, his guides pointed
 to wide tracks between the dunes.
 
 146
-00:09:40,978 --> 00:09:43,126
+00:08:55,540 --> 00:08:57,180
 "Look, Sahib," one said.
 
 147
-00:09:43,576 --> 00:09:45,036
+00:08:57,500 --> 00:08:58,824
 "There is the way to Ubar."
 
 148
-00:09:45,636 --> 00:09:48,259
+00:08:59,424 --> 00:09:02,274
 Thomas wrote of "this
 Atlantis of the Sands".
 
 149
-00:09:48,709 --> 00:09:52,935
+00:09:02,424 --> 00:09:06,790
 The phrase is often credited to Lawrence
 of Arabia, but it does not appear
 
 150
-00:09:52,975 --> 00:09:54,705
+00:09:06,830 --> 00:09:08,616
 in Lawrence's published works.
 
 151
-00:09:55,305 --> 00:10:01,337
+00:09:09,216 --> 00:09:14,461
 Ubar, or Wabār, was a name from Arabian
 tradition: a fabled place of wealth
 
 152
-00:10:01,377 --> 00:10:03,968
+00:09:14,501 --> 00:09:16,756
 and ruin somewhere in the sands.
 
 153
-00:10:04,418 --> 00:10:08,373
+00:09:17,066 --> 00:09:21,651
 Over time, some writers began to
 merge it with the Quranic Iram.
 
 154
-00:10:08,973 --> 00:10:13,986
+00:09:22,251 --> 00:09:27,150
 In nineteen thirty-two, Harry St John
 Philby went in search of Wabār, deep
 
 155
-00:10:14,026 --> 00:10:15,460
+00:09:27,190 --> 00:09:28,591
 in the Rubʿ al-Khālī.
 
 156
-00:10:15,910 --> 00:10:21,533
+00:09:29,151 --> 00:09:33,853
 Bedouin had told him of ruins, and of
 a block of iron the size of a camel.
 
 157
-00:10:21,983 --> 00:10:26,408
+00:09:34,303 --> 00:09:38,848
 After a month of hard travel, he reached
 a field of black glass and craters
 
 158
-00:10:26,448 --> 00:10:27,758
+00:09:38,888 --> 00:09:40,233
 half choked with sand.
 
 159
-00:10:28,208 --> 00:10:30,028
+00:09:40,383 --> 00:09:42,013
 He thought it was a volcano.
 
 160
-00:10:30,628 --> 00:10:33,149
+00:09:42,613 --> 00:09:44,923
 It was neither a city nor a volcano.
 
 161
-00:10:33,599 --> 00:10:37,979
+00:09:45,303 --> 00:09:49,780
 Samples sent to the British Museum
 showed that it was the impact site of an
 
 162
-00:10:38,019 --> 00:10:39,019
+00:09:49,820 --> 00:09:50,820
 iron meteorite.
 
 163
-00:10:39,353 --> 00:10:43,101
+00:09:50,903 --> 00:09:54,990
 Later luminescence dating suggests the
 craters may be only a few centuries
 
 164
-00:10:43,141 --> 00:10:45,751
+00:09:55,030 --> 00:09:57,874
 old, perhaps less than two
 hundred and fifty years.
 
 165
-00:10:46,201 --> 00:10:49,126
+00:09:58,324 --> 00:10:00,794
 A real place, and a real mystery.
 
 166
-00:10:49,576 --> 00:10:51,242
+00:10:01,464 --> 00:10:03,001
 But not Iram.
 
 167
-00:10:53,342 --> 00:10:58,338
+00:10:05,101 --> 00:10:09,303
 To understand why anyone would travel
 through this desert at all, follow the
 
 168
-00:10:58,378 --> 00:10:59,836
+00:10:09,343 --> 00:10:10,571
 smoke of frankincense.
 
 169
-00:11:00,286 --> 00:11:05,464
+00:10:10,821 --> 00:10:15,581
 Frankincense is the resin of Boswellia
 sacra, a tree that still grows in the
 
 170
-00:11:05,504 --> 00:11:08,250
+00:10:15,621 --> 00:10:18,148
 dry valleys of Dhofar, in southern Oman.
 
 171
-00:11:08,700 --> 00:11:12,087
+00:10:18,598 --> 00:10:22,140
 In the ancient world, it was
 prized from Arabia to Rome.
 
 172
-00:11:12,687 --> 00:11:16,722
+00:10:22,740 --> 00:10:27,094
 A Greek sailing guide of the first
 century, the Periplus of the Erythraean
 
 173
-00:11:16,762 --> 00:11:20,633
+00:10:27,134 --> 00:10:31,310
 Sea, describes this coast as "the
 Frankincense Country, mountainous and
 
 174
-00:11:20,673 --> 00:11:23,151
+00:10:31,350 --> 00:10:34,022
 forbidding, wrapped in
 thick clouds and fog."
 
 175
-00:11:23,601 --> 00:11:27,916
+00:10:34,472 --> 00:10:39,198
 It names a harbour called Moscha, where
 ships took on the resin, under the
 
 176
-00:11:27,956 --> 00:11:29,780
+00:10:39,238 --> 00:10:41,234
 control of the king's officers.
 
 177
-00:11:30,380 --> 00:11:35,540
+00:10:41,834 --> 00:10:46,928
 Moscha is identified with Khor Rori,
 near modern Salalah, where the walls of
 
 178
-00:11:35,580 --> 00:11:38,659
+00:10:46,968 --> 00:10:50,008
 a fortified port called
 Sumhuram still stand.
 
 179
-00:11:39,109 --> 00:11:43,400
+00:10:50,458 --> 00:10:55,032
 From this coast and its hinterland,
 frankincense moved inland and north,
 
 180
-00:11:43,440 --> 00:11:48,011
+00:10:55,072 --> 00:10:59,942
 along caravan routes that linked southern
 Arabia to the Mediterranean world.
 
 181
-00:11:48,611 --> 00:11:53,346
+00:11:00,542 --> 00:11:04,953
 Decades after Thomas, an American
 filmmaker, Nicholas Clapp, read his
 
 182
-00:11:53,386 --> 00:11:55,670
+00:11:04,993 --> 00:11:07,122
 account and set out to find Ubar.
 
 183
-00:11:56,120 --> 00:12:00,720
+00:11:07,572 --> 00:11:12,538
 He brought together scientists from
 NASA's Jet Propulsion Laboratory, among
 
 184
-00:12:00,760 --> 00:12:05,236
+00:11:12,578 --> 00:11:17,411
 them Ronald Blom and Charles Elachi,
 with the archaeologist Juris Zarins,
 
 185
-00:12:05,276 --> 00:12:08,245
+00:11:17,451 --> 00:11:20,655
 the explorer Ranulph
 Fiennes, and George Hedges.
 
 186
-00:12:08,845 --> 00:12:11,119
+00:11:21,255 --> 00:11:24,145
 Satellites could not see a buried city.
 
 187
-00:12:11,569 --> 00:12:16,428
+00:11:24,275 --> 00:11:28,445
 But Landsat images revealed something
 subtler: faint, ancient tracks
 
 188
-00:12:16,468 --> 00:12:18,341
+00:11:28,485 --> 00:11:30,095
 crossing the desert floor.
 
 189
-00:12:18,791 --> 00:12:21,216
+00:11:30,325 --> 00:11:32,833
 And several of them led towards one place.
 
 190
-00:12:21,666 --> 00:12:26,428
+00:11:33,283 --> 00:11:37,388
 In nineteen ninety-four, radar aboard
 the Space Shuttle Endeavour imaged the
 
 191
-00:12:26,468 --> 00:12:30,512
+00:11:37,428 --> 00:11:40,918
 same region, and the tracks
 appeared again, as soft red streaks.
 
 192
-00:12:31,112 --> 00:12:35,617
+00:11:41,518 --> 00:11:46,662
 That place was Shisr, a small oasis in
 Dhofar, about one hundred and seventy
 
 193
-00:12:35,657 --> 00:12:39,743
+00:11:46,702 --> 00:11:51,368
 kilometres inland, with a Bedouin
 well and a ruined fort that earlier
 
 194
-00:12:39,783 --> 00:12:42,952
+00:11:51,408 --> 00:11:55,023
 travellers had dismissed as
 only a few centuries old.
 
 195
-00:12:43,552 --> 00:12:46,201
+00:11:55,623 --> 00:11:58,463
 Excavation began under Juris Zarins.
 
 196
-00:12:46,651 --> 00:12:51,406
+00:11:58,863 --> 00:12:03,360
 Beneath the later fort, the team
 uncovered the walls and towers of a much
 
 197
-00:12:51,446 --> 00:12:56,136
+00:12:03,400 --> 00:12:07,835
 older fortress, more than two thousand
 years old in its earliest phases,
 
 198
-00:12:56,176 --> 00:12:58,015
+00:12:07,875 --> 00:12:09,615
 according to its excavators.
 
 199
-00:12:58,465 --> 00:13:03,348
+00:12:10,065 --> 00:12:15,215
 They found objects from Persia, Greece
 and Rome: the traces of long-distance
 
 200
-00:13:03,388 --> 00:13:04,187
+00:12:15,255 --> 00:12:15,825
 trade.
 
 201
-00:13:04,227 --> 00:13:08,221
+00:12:15,865 --> 00:12:20,230
 And they found that much of the fortress
 had collapsed into a sinkhole, the
 
 202
-00:13:08,261 --> 00:13:10,197
+00:12:20,270 --> 00:12:22,385
 limestone cavern that held the well.
 
 203
-00:13:10,797 --> 00:13:15,246
+00:12:22,985 --> 00:12:27,590
 In February nineteen ninety-two,
 newspapers around the world announced that
 
 204
-00:13:15,286 --> 00:13:17,500
+00:12:27,630 --> 00:12:29,922
 the lost city of Ubar had been found.
 
 205
-00:13:19,600 --> 00:13:23,637
+00:12:32,022 --> 00:12:35,642
 But the scientists themselves
 soon told a more careful story.
 
 206
-00:13:24,087 --> 00:13:28,852
+00:12:35,882 --> 00:12:41,069
 Juris Zarins argued that, in the
 classical and Arabic sources, Ubar was not
 
 207
-00:13:28,892 --> 00:13:33,529
+00:12:41,109 --> 00:12:46,157
 a single town at all, but a region
 and a people: the Iobaritae, marked on
 
 208
-00:13:33,569 --> 00:13:35,747
+00:12:46,197 --> 00:12:48,567
 the second-century map of Ptolemy.
 
 209
-00:13:36,197 --> 00:13:40,779
+00:12:49,017 --> 00:12:53,620
 Shisr, in this view, was one fortified
 station in that land, a vital source
 
 210
-00:13:40,819 --> 00:13:43,037
+00:12:53,660 --> 00:12:55,888
 of water on the frankincense routes.
 
 211
-00:13:43,637 --> 00:13:45,047
+00:12:56,488 --> 00:12:57,488
 Others went further.
 
 212
-00:13:45,497 --> 00:13:49,026
+00:12:57,628 --> 00:12:59,628
 In two thousand and four, the geologist H.
 
 213
-00:13:49,476 --> 00:13:54,049
+00:12:59,768 --> 00:13:04,561
 Stewart Edgell published a critique
 titled "The myth of the lost city of the
 
 214
-00:13:54,089 --> 00:13:58,662
+00:13:04,601 --> 00:13:09,394
 Arabian Sands", arguing that Shisr had
 been a small caravanserai, not a lost
 
 215
-00:13:58,702 --> 00:13:59,702
+00:13:09,434 --> 00:13:10,434
 metropolis.
 
 216
-00:13:59,970 --> 00:14:04,288
+00:13:10,733 --> 00:13:16,381
 Today, Shisr is part of a UNESCO
 World Heritage property, the Land of
 
 217
-00:14:04,328 --> 00:14:05,328
+00:13:16,421 --> 00:13:17,493
 Frankincense.
 
 218
-00:14:05,599 --> 00:14:11,354
+00:13:17,743 --> 00:13:23,460
 UNESCO describes it not as Iram, but
 as "the remains of the caravan oasis of
 
 219
-00:14:11,394 --> 00:14:16,961
+00:13:23,500 --> 00:13:29,029
 Shisr, or Wubar": a station for water
 on the routes of the incense trade.
 
 220
-00:14:17,561 --> 00:14:19,670
+00:13:29,629 --> 00:13:31,129
 So what did Shisr prove?
 
 221
-00:14:20,233 --> 00:14:23,876
+00:13:31,519 --> 00:13:34,379
 It proved that ancient tracks
 can be traced from space.
 
 222
-00:14:24,326 --> 00:14:27,901
+00:13:34,709 --> 00:13:37,389
 It proved that this desert
 edge was busy with trade.
 
 223
-00:14:28,351 --> 00:14:30,465
+00:13:37,519 --> 00:13:39,959
 It did not prove that Shisr was Ubar.
 
 224
-00:14:30,915 --> 00:14:33,810
+00:13:40,179 --> 00:13:42,494
 And it did not prove that Ubar was Iram.
 
 225
-00:14:34,410 --> 00:14:36,205
+00:13:43,094 --> 00:13:44,154
 The difference matters.
 
 226
-00:14:36,655 --> 00:14:40,693
+00:13:44,304 --> 00:13:47,764
 A popular identification is a
 story that people choose to tell.
 
 227
-00:14:41,143 --> 00:14:44,854
+00:13:47,934 --> 00:13:51,054
 An archaeological interpretation
 is an argument from evidence.
 
 228
-00:14:45,304 --> 00:14:49,051
+00:13:51,364 --> 00:13:54,568
 An established conclusion is what
 remains when the arguments have been
 
 229
-00:14:49,091 --> 00:14:49,880
+00:13:54,608 --> 00:13:55,342
 tested.
 
 230
-00:14:49,920 --> 00:14:54,582
+00:13:55,382 --> 00:13:59,574
 The link between Shisr and Iram
 has never moved beyond the first.
 
 231
-00:15:02,682 --> 00:15:07,056
+00:14:07,674 --> 00:14:12,024
 The Quran's account of how ʿĀd
 came to an end is brief, and vivid.
 
 232
-00:15:07,506 --> 00:15:09,721
+00:14:12,924 --> 00:14:15,314
 They demanded the punishment
 they had been warned of.
 
 233
-00:15:10,171 --> 00:15:11,803
+00:14:15,814 --> 00:14:17,292
 And then, the text says,
 
 234
-00:15:12,403 --> 00:15:17,155
+00:14:17,892 --> 00:14:22,015
 "when they beheld it as a dense cloud
 coming toward their valleys, they
 
 235
-00:15:17,195 --> 00:15:19,827
+00:14:22,055 --> 00:14:24,342
 said: Here is a cloud bringing us rain.
 
 236
-00:15:20,277 --> 00:15:26,110
+00:14:24,522 --> 00:14:28,694
 Nay, but it is that which ye did seek
 to hasten, a wind wherein is painful
 
 237
-00:15:26,150 --> 00:15:30,753
+00:14:28,734 --> 00:14:32,036
 torment, destroying all things
 by commandment of its Lord.
 
 238
-00:15:31,203 --> 00:15:34,947
+00:14:32,486 --> 00:14:36,922
 And morning found them so that naught
 could be seen save their dwellings."
 
 239
-00:15:37,047 --> 00:15:43,325
+00:14:39,022 --> 00:14:44,506
 Elsewhere the wind is called ṣarṣar,
 raging, or roaring, and al-ʿaqīm, the
 
 240
-00:15:43,365 --> 00:15:44,390
+00:14:44,546 --> 00:14:45,546
 barren wind.
 
 241
-00:15:44,840 --> 00:15:49,188
+00:14:45,612 --> 00:14:49,682
 It blew, the Quran says, "for seven
 long nights and eight long days".
 
 242
-00:15:49,638 --> 00:15:53,435
+00:14:49,882 --> 00:14:53,917
 Hūd, and those who believed
 with him, were saved.
 
 243
-00:15:54,035 --> 00:15:57,155
+00:14:54,517 --> 00:14:57,037
 The memory of that wind stayed
 with the Prophet Muhammad.
 
 244
-00:15:57,605 --> 00:16:02,662
+00:14:57,187 --> 00:15:01,330
 His wife ʿĀʾisha reported that
 whenever he saw clouds or wind, concern
 
 245
-00:16:02,702 --> 00:16:04,085
+00:15:01,370 --> 00:15:02,506
 showed on his face.
 
 246
-00:16:04,535 --> 00:16:08,570
+00:15:02,956 --> 00:15:07,589
 When she asked him why, he said that
 a people had been punished with wind,
 
 247
-00:16:08,610 --> 00:16:12,591
+00:15:07,629 --> 00:15:12,199
 and that when they saw it coming, they
 had said, "This cloud will give us
 
 248
-00:16:12,631 --> 00:16:13,521
+00:15:12,239 --> 00:15:13,178
 rain."
 
 249
-00:16:13,561 --> 00:16:17,761
+00:15:13,218 --> 00:15:17,418
 نُصِرْتُ بِالصَّبَا،
 وَأُهْلِكَتْ عَادٌ بِالدَّبُورِ
 
 250
-00:16:18,461 --> 00:16:23,439
+00:15:18,118 --> 00:15:22,676
 In another authentic report, he said:
 "I was granted victory with the east
 
 251
-00:16:23,479 --> 00:16:26,666
+00:15:22,716 --> 00:15:25,636
 wind, and ʿĀd were
 destroyed by the west wind."
 
 252
-00:16:29,766 --> 00:16:33,977
+00:15:28,736 --> 00:15:32,366
 Science cannot test a religious
 account of divine judgement.
 
 253
-00:16:34,427 --> 00:16:37,963
+00:15:32,666 --> 00:15:37,269
 But it can ask a different question:
 how has this land itself changed?
 
 254
-00:16:38,563 --> 00:16:43,349
+00:15:37,869 --> 00:15:43,083
 In a cave called Qunf, in the mountains
 of Dhofar, a stalagmite has recorded
 
 255
-00:16:43,389 --> 00:16:46,437
+00:15:43,123 --> 00:15:46,442
 rainfall for thousands
 of years, layer by layer.
 
 256
-00:16:46,887 --> 00:16:51,220
+00:15:46,892 --> 00:15:51,088
 A study published in two thousand and
 three found that monsoon rain here was
 
 257
-00:16:51,260 --> 00:16:55,420
+00:15:51,128 --> 00:15:55,156
 stronger in the early Holocene, and
 that after about eight thousand years
 
 258
-00:16:55,460 --> 00:16:57,014
+00:15:55,196 --> 00:15:56,701
 ago, it gradually declined.
 
 259
-00:16:57,614 --> 00:17:01,210
+00:15:57,301 --> 00:16:01,183
 Deep in the Rubʿ al-Khālī, researchers
 reported in two thousand and
 
 260
-00:17:01,250 --> 00:17:05,227
+00:16:01,223 --> 00:16:05,514
 twenty-five that, during an ancient
 humid phase, heavy rains filled a lake
 
 261
-00:17:05,267 --> 00:17:09,298
+00:16:05,554 --> 00:16:09,904
 of about eleven hundred square kilometres,
 which eventually broke its banks
 
 262
-00:17:09,338 --> 00:17:12,757
+00:16:09,944 --> 00:16:13,631
 and carved a valley some one
 hundred and fifty kilometres long.
 
 263
-00:17:13,357 --> 00:17:17,021
+00:16:14,231 --> 00:16:17,371
 Arabia, in other words,
 was not always this dry.
 
 264
-00:17:17,471 --> 00:17:22,656
+00:16:17,521 --> 00:16:21,770
 Over many thousands of years, its
 landscapes have shifted between green and
 
 265
-00:17:22,696 --> 00:17:23,604
+00:16:21,810 --> 00:16:22,656
 gold.
 
 266
-00:17:23,644 --> 00:17:24,976
+00:16:22,696 --> 00:16:23,696
 But we should be clear.
 
 267
-00:17:25,426 --> 00:17:29,051
+00:16:23,886 --> 00:16:27,486
 These changes unfolded over
 centuries and millennia.
 
 268
-00:17:29,501 --> 00:17:34,803
+00:16:27,606 --> 00:16:32,455
 No study has dated the people of ʿĀd,
 and no geological event has been shown
 
 269
-00:17:34,843 --> 00:17:36,881
+00:16:32,495 --> 00:16:34,361
 to match the Quranic account.
 
 270
-00:17:37,331 --> 00:17:41,950
+00:16:34,811 --> 00:16:39,404
 At Shisr, the excavators found no
 evidence that a sandstorm destroyed the
 
 271
-00:17:41,990 --> 00:17:42,719
+00:16:39,444 --> 00:16:40,031
 site.
 
 272
-00:17:42,759 --> 00:17:47,837
+00:16:40,071 --> 00:16:45,064
 The collapse of its fortress into a
 sinkhole has a geological explanation,
 
 273
-00:17:47,877 --> 00:17:50,021
+00:16:45,104 --> 00:16:47,213
 and no known connection to ʿĀd.
 
 274
-00:17:50,621 --> 00:17:55,400
+00:16:47,813 --> 00:16:51,543
 Religious memory and physical evidence
 are answering different questions.
 
 275
-00:17:55,850 --> 00:17:58,976
+00:16:51,793 --> 00:16:53,954
 Merging them would do justice to neither.
 
 276
-00:18:07,076 --> 00:18:11,774
+00:17:02,054 --> 00:17:07,629
 In recent years, the search for Iram
 has taken an unexpected turn, away from
 
 277
-00:18:11,814 --> 00:18:13,684
+00:17:07,669 --> 00:17:09,886
 the southern sands altogether.
 
 278
-00:18:14,284 --> 00:18:20,030
+00:17:10,486 --> 00:17:15,218
 In the deserts of southern Jordan lies
 Wadi Ramm, the valley known today as
 
 279
-00:18:20,070 --> 00:18:25,394
+00:17:15,258 --> 00:17:19,648
 Wadi Rum: red cliffs, and some twenty
 thousand recorded inscriptions.
 
 280
-00:18:25,844 --> 00:18:30,691
+00:17:20,098 --> 00:17:24,656
 A Nabataean temple to the goddess
 Allat stands at the foot of Jabal Ramm,
 
 281
-00:18:30,731 --> 00:18:35,684
+00:17:24,696 --> 00:17:29,357
 and inscriptions from the site give
 the ancient name of the place as Iram.
 
 282
-00:18:36,284 --> 00:18:41,075
+00:17:29,958 --> 00:17:34,019
 In two thousand and twenty-five, the
 epigrapher Ahmad Al-Jallad published a
 
 283
-00:18:41,115 --> 00:18:45,905
+00:17:34,059 --> 00:17:38,119
 study of pre-Islamic inscriptions
 written by members of a tribe called ʿĀd,
 
 284
-00:18:45,945 --> 00:18:50,800
+00:17:38,159 --> 00:17:42,275
 in the deserts of the north, and argued
 that the Quranic names may belong to
 
 285
-00:18:50,840 --> 00:18:51,840
+00:17:42,315 --> 00:17:43,315
 this region.
 
 286
-00:18:52,213 --> 00:18:57,284
+00:17:43,571 --> 00:17:47,581
 It is a serious proposal, built on
 careful readings of ancient texts.
 
 287
-00:18:57,734 --> 00:19:01,586
+00:17:47,691 --> 00:17:50,501
 It is also new, and scholars
 are still weighing it.
 
 288
-00:19:02,036 --> 00:19:06,944
+00:17:50,681 --> 00:17:54,939
 Like Shisr before it, it shows how much
 depends on the evidence we choose to
 
 289
-00:19:06,984 --> 00:19:07,984
+00:17:54,979 --> 00:17:55,979
 follow.
 
 290
-00:19:10,040 --> 00:19:12,564
+00:17:57,975 --> 00:18:00,441
 So, what can we actually say?
 
 291
-00:19:13,164 --> 00:19:18,196
+00:18:01,041 --> 00:18:05,357
 The Quran tells of a people named
 ʿĀd; of their prophet, Hūd; of their
 
 292
-00:19:18,236 --> 00:19:23,598
+00:18:05,397 --> 00:18:10,001
 strength and their building; and of a
 wind that left only their dwellings.
 
 293
-00:19:24,048 --> 00:19:28,276
+00:18:10,141 --> 00:18:12,895
 It names Iram once, and
 calls it dhāt al-ʿimād.
 
 294
-00:19:28,876 --> 00:19:31,467
+00:18:13,495 --> 00:18:16,155
 The classical scholars recorded a debate.
 
 295
-00:19:31,917 --> 00:19:37,985
+00:18:16,455 --> 00:18:21,430
 Two of the most influential, al-Ṭabarī
 and Ibn Kathīr, understood Iram as a
 
 296
-00:19:38,025 --> 00:19:41,527
+00:18:21,470 --> 00:18:24,345
 tribe, and its ʿimād
 as the poles of tents.
 
 297
-00:19:41,977 --> 00:19:44,586
+00:18:24,585 --> 00:18:27,404
 And they rejected the
 legend of a golden city.
 
 298
-00:19:45,186 --> 00:19:50,740
+00:18:28,004 --> 00:18:32,953
 Archaeology has found real places: a
 caravan fortress at Shisr, frankincense
 
 299
-00:19:50,780 --> 00:19:56,260
+00:18:32,993 --> 00:18:37,877
 ports on the coast, and, in the north,
 inscriptions that name both Iram and
 
 300
-00:19:56,300 --> 00:19:57,699
+00:18:37,917 --> 00:18:39,164
 a tribe called ʿĀd.
 
 301
-00:19:58,149 --> 00:20:01,629
+00:18:39,254 --> 00:18:42,185
 It has not found a city
 of a thousand pillars.
 
 302
-00:20:02,229 --> 00:20:08,359
+00:18:42,785 --> 00:18:47,159
 And some things remain unknown: when
 ʿĀd lived; exactly where; and what
 
 303
-00:20:08,399 --> 00:20:10,659
+00:18:47,199 --> 00:18:48,815
 their pillars really were.
 
 304
-00:20:13,759 --> 00:20:17,043
+00:18:51,915 --> 00:18:54,575
 Perhaps that is the real lesson of Iram.
 
 305
-00:20:17,493 --> 00:20:22,421
+00:18:54,935 --> 00:18:59,846
 A people can survive in memory long
 after their stones are gone, or even if
 
 306
-00:20:22,461 --> 00:20:24,647
+00:18:59,886 --> 00:19:02,065
 they never built in stone at all.
 
 307
-00:20:25,097 --> 00:20:30,063
+00:19:02,465 --> 00:19:07,758
 A few words in a sacred text have
 outlived empires, maps and explorers.
 
 308
-00:20:30,663 --> 00:20:35,847
+00:19:08,358 --> 00:19:12,462
 The wind still moves across the sand,
 as it always has, erasing footprints
 
 309
-00:20:35,887 --> 00:20:36,887
+00:19:12,502 --> 00:19:13,168
 by evening.
 
 310
-00:20:37,113 --> 00:20:39,577
+00:19:13,208 --> 00:19:16,028
 What remains is the question.
 
 311
-00:20:40,027 --> 00:20:44,046
+00:19:16,148 --> 00:19:20,027
 And the discipline to tell the
 difference between what we know, what we
 
 312
-00:20:44,086 --> 00:20:46,030
+00:19:20,067 --> 00:19:21,944
 believe, and what we only imagine.
 
