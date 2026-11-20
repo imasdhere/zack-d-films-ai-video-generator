@@ -69,8 +69,8 @@ engines:
     package: voxcpm==2.0.3
     weights: openbmb/VoxCPM2
     weights_licence: Apache-2.0
-    venv: /home/user/iram-work/venvs/voxcpm
-    model_dir: /home/user/iram-work/models/voxcpm2
+    venv: ${IRAM_WORK}/venvs/voxcpm
+    model_dir: ${IRAM_WORK}/models/voxcpm2
     worker: audio_engine/engines/workers/voxcpm_worker.py
     # mode 'reference' (reference clip only). 'ultimate' (clip as continuation prompt) garbled or dropped the first word
     # of 7 of 8 sentences in the A/B test (workflows/tts/eval/voxcpm_mode_ab.json)
@@ -81,15 +81,15 @@ engines:
     weights: audarai/Audar-TTS-V1-Flash (transformers/ subfolder)
     weights_licence: AudarAI Open License v1.0
     codec: neuphonic/neucodec (gated on Hugging Face, Apache-2.0)
-    venv: /home/user/iram-work/venvs/audar
-    model_dir: /home/user/iram-work/models/audar-flash/transformers
-    codec_dir: /home/user/iram-work/models/neucodec
+    venv: ${IRAM_WORK}/venvs/audar
+    model_dir: ${IRAM_WORK}/models/audar-flash/transformers
+    codec_dir: ${IRAM_WORK}/models/neucodec
     worker: audio_engine/engines/workers/audar_worker.py
     params: {temperature: 0.7, top_k: 40, top_p: 0.9, repetition_penalty: 1.1}
   qwen3:
     name: Qwen3-TTS-12Hz-1.7B-Base (legacy engine of version 1)
-    venv: /home/user/iram-work/venvs/qwen
-    model_dir: /home/user/iram-work/models/qwen3-tts-1.7b-base
+    venv: ${IRAM_WORK}/venvs/qwen
+    model_dir: ${IRAM_WORK}/models/qwen3-tts-1.7b-base
     worker: audio_engine/engines/workers/qwen3_worker.py
     params: {}
 

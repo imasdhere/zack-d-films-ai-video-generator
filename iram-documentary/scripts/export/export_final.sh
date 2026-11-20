@@ -4,6 +4,8 @@ set -euo pipefail
 P="$(cd "$(dirname "$0")/../.." && pwd)"; cd "$P"
 OUT=renders/final; mkdir -p $OUT
 CH=${IRAM_CHAPTER_DIR:-renders/chapters}; NAME=${IRAM_MASTER_NAME:-iram_lost_city_documentary}
+# the handoff archive carries the mix as FLAC (lossless); turn it back into mix.wav when needed
+[ -f $OUT/mix.wav ] || { [ -f $OUT/mix.flac ] && ffmpeg -y -loglevel error -i $OUT/mix.flac -c:a pcm_s24le $OUT/mix.wav; }
 ls $CH/chapter_{0,1,2,3,4,5,6,7}.mp4 | sed "s|^|file '$P/|; s|$|'|" > $OUT/concat.txt
 # picture length = sum of the chapter files; mux straight from the concat list (no 3.7 GB intermediate file)
 VDUR=$(for f in $CH/chapter_{0,1,2,3,4,5,6,7}.mp4; do ffprobe -v error -show_entries format=duration -of csv=p=0 "$f"; done | awk '{s+=$1} END {printf "%.3f", s}')

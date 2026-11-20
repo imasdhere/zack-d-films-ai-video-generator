@@ -1,5 +1,6 @@
 """Objective TTS comparison: intelligibility (Whisper WER), Arabic-term recognition, pitch depth,
 pitch variation, speaking rate, pause structure, clipping, and an automatic MOS estimate (torchaudio SQUIM)."""
+import os
 import sys, json, re, glob, pathlib
 import numpy as np, soundfile as sf, librosa, torch, whisper, jiwer
 ref_text = open(sys.argv[1], encoding='utf-8').read()
@@ -7,7 +8,7 @@ wavs = sorted(glob.glob(sys.argv[2]))
 out_json = sys.argv[3]
 norm = lambda s: re.sub(r"[^a-z0-9 ]", " ", s.lower().replace('-', ' ')).split()
 TERMS = {'Iram': r'\bi[r]+[ae]m', 'Aad': r'\b(aad|ad|aahd|odd)\b', 'Hud': r'\b(hud|hood|hude)\b', 'Tabari': r'tabar', 'Kathir': r'kath', 'Shisr': r'shis|shiz', 'Fajr': r'fajr|fajir|fudger|fadger', 'Khali': r'khali|kali|kahli', 'Imad': r'imad|ima?d|emad'}
-model = whisper.load_model('small.en', download_root='/home/user/iram-work/models/whisper')
+model = whisper.load_model('small.en', download_root=os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/models/whisper')
 try:
     from torchaudio.pipelines import SQUIM_OBJECTIVE
     squim = SQUIM_OBJECTIVE.get_model(); have_squim = True

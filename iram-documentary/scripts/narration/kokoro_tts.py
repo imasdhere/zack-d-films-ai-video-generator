@@ -1,8 +1,9 @@
 """Kokoro-82M narration generator (CPU). Sentence-level synthesis so pauses and retakes stay controllable."""
+import os
 import argparse, json, re, time, pathlib
 import numpy as np, soundfile as sf, torch
 
-MODEL_DIR = pathlib.Path('/home/user/iram-work/models/kokoro-82m')
+MODEL_DIR = pathlib.Path(os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/models/kokoro-82m')
 
 def load_pipeline(lang='b'):
     from kokoro import KPipeline, KModel

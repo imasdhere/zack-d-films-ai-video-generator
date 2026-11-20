@@ -49,7 +49,7 @@ res['music_check'] = {'sustained_tonal_components_>=0.5s': int(sustained), 'chro
                       'reference_values': 'tonal music typically shows many sustained tonal components, chroma peak ratio > 0.3, rhythmic autocorrelation > 0.3'}
 # 6. narration intelligibility and subtitle sync (Whisper on the final mix, sampled windows)
 import whisper, jiwer
-m = whisper.load_model('small.en', download_root='/home/user/iram-work/models/whisper')
+m = whisper.load_model('small.en', download_root=os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/models/whisper')
 mix, msr = sf.read(ROOT / 'renders/final/mix.wav', dtype='float32')
 tl = json.load(open(ROOT / 'renders/timeline.json')); import yaml
 script = yaml.safe_load(open(ROOT / 'screenplay/script.yaml', encoding='utf-8'))

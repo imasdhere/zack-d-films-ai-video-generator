@@ -1,13 +1,14 @@
 """Animated documentary maps (1920x1080) from real data.
 Basemap: Copernicus GLO-90 DEM hillshade + Natural Earth land/borders (equirectangular, standard parallel = view centre).
 Overlays (regions, pins, routes, labels) are animated per frame. Coordinates: see assets/maps_coordinates_wikipedia.json."""
+import os
 import functools, json, math, pathlib
 import numpy as np, cv2
 from PIL import Image, ImageDraw, ImageFilter
 import graphics as G
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-WORK = pathlib.Path('/home/user/iram-work')
+WORK = pathlib.Path(os.environ.get('IRAM_WORK', '/home/user/iram-work'))
 W, H = 1920, 1080
 STD_LAT = 22.0
 COS = math.cos(math.radians(STD_LAT))

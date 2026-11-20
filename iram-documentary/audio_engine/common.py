@@ -1,18 +1,28 @@
 """Shared paths, configuration and small audio helpers (numpy, soundfile, ffmpeg only)."""
+import os
 import json, pathlib, subprocess, hashlib, re
 import numpy as np
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-WORK = pathlib.Path('/home/user/iram-work')
+WORK = pathlib.Path(os.environ.get('IRAM_WORK', '/home/user/iram-work'))
 
 
 def load_yaml(rel):
     return yaml.safe_load(open(ROOT / rel, encoding='utf-8'))
 
 
+def _expand(v):
+    if isinstance(v, str): return os.path.expandvars(v)
+    if isinstance(v, dict): return {k: _expand(x) for k, x in v.items()}
+    if isinstance(v, list): return [_expand(x) for x in v]
+    return v
+
+
 def config():
-    return load_yaml('configuration/voice_config.yaml')
+    """voice_config.yaml with ${IRAM_WORK} (venvs, models, caches; default /home/user/iram-work) expanded."""
+    os.environ.setdefault('IRAM_WORK', str(WORK))
+    return _expand(load_yaml('configuration/voice_config.yaml'))
 
 
 def sha256(path):

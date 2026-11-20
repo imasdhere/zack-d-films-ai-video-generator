@@ -33,3 +33,8 @@ assets/narration/segments/*.wav
 voice_profiles/*/test_samples/*/
 renders/chapters_1440/
 assets/narration/english_v2/
+handoff_out/
+handoff/wangp_jobs/
+handoff_work/
+assets/generated_video/*.mp4
+.venv-iram/

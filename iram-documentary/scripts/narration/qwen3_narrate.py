@@ -1,9 +1,10 @@
 """Qwen3-TTS narration (CPU). Mode 'design': VoiceDesign model from a text persona.
 Mode 'clone': Base model cloned from a designed reference clip, for a consistent voice across chapters."""
+import os
 import argparse, json, time, re, pathlib
 import numpy as np, soundfile as sf, torch
 from qwen_tts import Qwen3TTSModel
-M = pathlib.Path('/home/user/iram-work/models')
+M = pathlib.Path(os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/models')
 PERSONA = ("Male narrator, about 55 years old, deep baritone voice with a warm, smooth, rounded tone. "
            "Calm, soothing and measured, like a premium historical documentary. Natural pacing with gentle pauses, "
            "clear articulation, serious and reflective, quietly investigative, never theatrical or exaggerated.")

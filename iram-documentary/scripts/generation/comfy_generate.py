@@ -1,5 +1,6 @@
 """Queue SDXL + SDXL-Lightning images through a local ComfyUI server (CPU) and save each image with its
 full API workflow, prompt, negative prompt, seed and settings (assets/images/<ID>.png + <ID>.json)."""
+import os
 import argparse, json, time, uuid, urllib.request, pathlib, shutil, yaml, random
 root = pathlib.Path(__file__).resolve().parents[2]
 SERVER = 'http://127.0.0.1:8188'
@@ -60,7 +61,7 @@ def run_one(aid, spec, styles, negs, out_dir, seed=None, w=1344, h=768, steps=8,
         if pid in hist and hist[pid].get('status', {}).get('status_str') == 'error': raise RuntimeError(json.dumps(hist[pid]['status'])[:800])
         time.sleep(2)
     img = hist[pid]['outputs']['9']['images'][0]
-    src = pathlib.Path('/home/user/iram-work/comfy_out') / img.get('subfolder', '') / img['filename']
+    src = pathlib.Path(os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/comfy_out') / img.get('subfolder', '') / img['filename']
     name = f"{aid}{variant}"
     shutil.copy(src, out_dir / f"{name}.png")
     meta = {'id': aid, 'variant': variant, 'source_layout': spec.get('src'), 'denoise': spec.get('denoise', 1.0), 'prompt': prompt, 'negative_prompt': neg, 'seed': seed, 'width': w, 'height': h, 'steps': steps,

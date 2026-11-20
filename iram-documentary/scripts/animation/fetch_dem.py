@@ -1,5 +1,6 @@
 """Build DEM mosaics from Copernicus GLO-90 (AWS open data) via HTTP range reads of COG overviews.
 Copernicus DEM: © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the EU and ESA."""
+import os
 import sys, numpy as np, rasterio, concurrent.futures as cf
 from rasterio.enums import Resampling
 def tile_url(lat, lon):
@@ -26,7 +27,7 @@ def mosaic(lat0, lat1, lon0, lon1, px_per_deg, out):
                 arr[r:r+px_per_deg, c:c+px_per_deg] = d; n += 1
     np.save(out, arr); print(out, arr.shape, 'tiles', n, 'max', arr.max())
 if __name__ == '__main__':
-    D = '/home/user/iram-work/data/dem/'
+    D = os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/data/dem/'
     mosaic(10, 34, 32, 62, 150, D+'arabia_150ppd.npy')      # whole peninsula ~740 m
     mosaic(16, 21, 50, 57, 600, D+'dhofar_600ppd.npy')      # Dhofar / Shisr ~185 m
     mosaic(28, 31, 34, 37, 1200, D+'wadirum_1200ppd.npy')   # Wadi Rum 90 m

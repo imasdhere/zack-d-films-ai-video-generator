@@ -3,10 +3,11 @@
 # 1440p picture (2560x1440, resumable parts, 4 in parallel) -> export -> QC -> reports. Re-run it after an interruption.
 set -uo pipefail
 P="$(cd "$(dirname "$0")/../.." && pwd)"; cd "$P"
-PY=/home/user/iram-work/venvs/ml/bin/python; LOG=/home/user/iram-work/logs
+export IRAM_WORK=${IRAM_WORK:-/home/user/iram-work}
+PY=${IRAM_PY:-$IRAM_WORK/venvs/ml/bin/python}; LOG=$IRAM_WORK/logs; mkdir -p $LOG; JOBS=${IRAM_JOBS:-4}
 step() { echo "== $(date +%H:%M:%S) $*"; }
 fail() { echo "PIPELINE_FAILED: $*"; exit 1; }
-export IRAM_SCALE=1.3333334 IRAM_CRF=18 IRAM_CHAPTER_DIR=renders/chapters_1440 IRAM_MASTER_NAME=iram_lost_city_documentary_1440p
+export IRAM_SCALE=${IRAM_SCALE:-1.3333334} IRAM_CRF=${IRAM_CRF:-18} IRAM_CHAPTER_DIR=${IRAM_CHAPTER_DIR:-renders/chapters_1440} IRAM_MASTER_NAME=${IRAM_MASTER_NAME:-iram_lost_city_documentary_1440p}
 mkdir -p $IRAM_CHAPTER_DIR
 
 step plan;            $PY -m audio_engine.synthesis_manager plan                          || fail plan
@@ -25,7 +26,7 @@ jobs=()
 for cp in $PLAN; do c=${cp%%:*}; n=${cp##*:}
   if [ "$n" = 1 ]; then jobs+=("$c"); else for i in $(seq 1 $n); do jobs+=("$c --part $i/$n"); done; fi
 done
-printf '%s\n' "${jobs[@]}" | xargs -P 4 -I{} sh -c "$PY scripts/editing/edit.py video --chapter {} > $LOG/v3_render_\$(echo {} | tr -c '0-9' '_').log 2>&1 || echo RENDER_FAILED {}"
+printf '%s\n' "${jobs[@]}" | xargs -P $JOBS -I{} sh -c "$PY scripts/editing/edit.py video --chapter {} > $LOG/v3_render_\$(echo {} | tr -c '0-9' '_').log 2>&1 || echo RENDER_FAILED {}"
 step join
 for cp in $PLAN; do c=${cp%%:*}; n=${cp##*:}; [ "$n" = 1 ] && continue
   : > $LOG/v3_ch${c}_concat.txt

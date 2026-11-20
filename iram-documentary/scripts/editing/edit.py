@@ -106,8 +106,8 @@ def credit_for(shot):
         if not m: return None
         artist = re.sub(r'\s+', ' ', m.get('artist', '')).strip()[:60]
         return f"{artist} · {m.get('license', '')} · via Wikimedia Commons"
-    if a in ASSETS['ai']: return 'AI-generated image (SDXL)'
-    if a.startswith('B0'): return '3D render (Blender)'
+    if a in ASSETS['ai']: return 'AI-generated image (SDXL), animated with AI image-to-video' if clip_for(shot) else 'AI-generated image (SDXL)'
+    if a.startswith('B0'): return '3D render (Blender), animated with AI image-to-video' if clip_for(shot) else '3D render (Blender)'
     return None
 
 def tag_color(text):
@@ -122,7 +122,7 @@ def tag_color(text):
 def compute_depth(keys):
     import torch
     from transformers import AutoImageProcessor, AutoModelForDepthEstimation
-    mp = '/home/user/iram-work/models/depth-anything-v2-small'
+    mp = os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/models/depth-anything-v2-small'
     proc = AutoImageProcessor.from_pretrained(mp); model = AutoModelForDepthEstimation.from_pretrained(mp).eval()
     out = ROOT / 'assets/images/depth'; out.mkdir(parents=True, exist_ok=True)
     for k in keys:
@@ -250,9 +250,61 @@ class GfxShot:
         if self.sc == 1: return f
         return cv2.resize(f, (int(W * self.sc), int(H * self.sc)), interpolation=cv2.INTER_LANCZOS4 if self.sc > 1 else cv2.INTER_AREA)
 
+# ------------------------------------------------------------------ image-to-video clips (WanGP or any other tool)
+GEN_VIDEO = ROOT / 'assets/generated_video'
+
+
+def shot_keys(tl):
+    """Stable key per shot: <segment>_<index of the shot inside the segment>_<asset>, e.g. 1.01_0_D02.
+    It does not depend on timings, so clips stay valid when the narration (and so the timeline) changes."""
+    n = {}
+    for s in tl['shots']:
+        seg = s.get('seg') or f"ch{s['chapter']}"; k = n.get(seg, 0); n[seg] = k + 1
+        s['_key'] = f"{seg}_{k}_{s['asset']}"
+    return tl
+
+
+def animatable(shot):
+    """Only AI images and Blender renders may be animated. Real photographs (evidence), maps and graphics stay as they are."""
+    a = shot['asset']
+    return shot.get('move', 'still') not in ('gfx', 'anim') and (a in ASSETS['ai'] or a.startswith('B0'))
+
+
+def clip_for(shot):
+    if not animatable(shot) or os.environ.get('IRAM_USE_CLIPS', '1') == '0': return None
+    for name in (shot.get('_key'), shot['asset']):
+        if name and (GEN_VIDEO / f'{name}.mp4').exists(): return GEN_VIDEO / f'{name}.mp4'
+    return None
+
+
+class VideoShot:
+    """A generated clip in place of a still. The clip is stretched to the shot length (neighbouring frames are blended
+    when it plays slower), cropped to fill the frame, and graded with the same per-shot LUT as the stills."""
+    def __init__(self, shot, path, scale=1.0):
+        self.sc = scale; self.dur = shot['end'] - shot['start'] + XF; cap = cv2.VideoCapture(str(path)); fr = []
+        while True:
+            ok, f = cap.read()
+            if not ok: break
+            fr.append(cv2.cvtColor(f, cv2.COLOR_BGR2RGB))
+        cap.release()
+        if not fr: raise RuntimeError(f'cannot read {path}')
+        self.frames = fr; self.lut = lut_for(fr[len(fr) // 2])
+
+    def frame(self, tl):
+        n = len(self.frames); pos = min(1.0, max(0.0, tl / self.dur)) * (n - 1); i = int(pos); a = pos - i
+        f = self.frames[i].astype(np.float32)
+        if a > 0.01 and i + 1 < n: f = f * (1 - a) + self.frames[i + 1].astype(np.float32) * a
+        Wt, Ht = int(W * self.sc), int(H * self.sc); h, w = f.shape[:2]; z = max(Wt / w, Ht / h)
+        f = cv2.resize(f, (int(round(w * z)), int(round(h * z))), interpolation=cv2.INTER_LANCZOS4 if z > 1 else cv2.INTER_AREA)
+        y0 = (f.shape[0] - Ht) // 2; x0 = (f.shape[1] - Wt) // 2
+        return apply_lut(np.clip(f[y0:y0 + Ht, x0:x0 + Wt], 0, 255).astype(np.uint8), self.lut)
+
+
 def make_shot(shot, scale):
     if shot['move'] == 'gfx': return GfxShot(shot, scale)
     if shot['move'] == 'anim': return AnimShot(shot, scale)
+    clip = clip_for(shot)
+    if clip: return VideoShot(shot, clip, scale)
     return StillShot(shot, scale)
 
 # ------------------------------------------------------------------ overlays & finishing
@@ -298,7 +350,7 @@ def finish(frame, fi, scale):
 # ------------------------------------------------------------------ video render
 def render_video(chapter, preview=False, part=None):
     # IRAM_SCALE=1.3333333 renders 2560x1440 (stills are resampled from the source; graphics and overlays drawn at 1080p are upscaled)
-    tl = json.load(open(TL)); scale = 0.5 if preview else float(os.environ.get('IRAM_SCALE', '1.0')); fps = 12 if preview else FPS
+    tl = shot_keys(json.load(open(TL))); scale = 0.5 if preview else float(os.environ.get('IRAM_SCALE', '1.0')); fps = 12 if preview else FPS
     shots = [s for s in tl['shots'] if chapter == 'all' or s['chapter'] == int(chapter)]
     t0 = shots[0]['start']; t1 = shots[-1]['end']
     if chapter != 'all' and int(chapter) < 7:
@@ -316,7 +368,8 @@ def render_video(chapter, preview=False, part=None):
     # resume after an interruption: skip an output that is newer than every input AND has the full expected length
     # (a file cut off mid-write has no index, so ffprobe reports no duration)
     if not preview and os.environ.get('IRAM_FORCE_RENDER') != '1' and out.exists():
-        inputs = [TL, ROOT / 'storyboard/shots.yaml', ROOT / 'storyboard/assets.yaml', pathlib.Path(__file__), ROOT / 'scripts/animation/graphics.py']
+        inputs = [TL, ROOT / 'storyboard/shots.yaml', ROOT / 'storyboard/assets.yaml', pathlib.Path(__file__), ROOT / 'scripts/animation/graphics.py'] + \
+                 [c for c in (clip_for(s_) for s_ in shots) if c]
         newest = max(p.stat().st_mtime for p in inputs if p.exists())
         r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(out)], capture_output=True, text=True)
         try: got = float(r.stdout.strip())
@@ -359,7 +412,7 @@ def render_video(chapter, preview=False, part=None):
 def ff_process(x, sr, af):
     """Run a float32 array (N or Nx2) through an ffmpeg audio filter chain and return it."""
     import soundfile as sf, tempfile
-    with tempfile.TemporaryDirectory(dir='/home/user/iram-work') as d:
+    with tempfile.TemporaryDirectory(dir=os.environ.get('IRAM_WORK', '/home/user/iram-work')) as d:
         a, b = f'{d}/in.wav', f'{d}/out.wav'
         sf.write(a, x, sr, subtype='FLOAT')
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', a, '-af', af, '-c:a', 'pcm_f32le', b], check=True)

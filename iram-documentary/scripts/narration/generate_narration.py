@@ -1,10 +1,11 @@
 """Generate the full narration with Qwen3-TTS (voice-design reference -> Base-model clone), segment by segment.
 Resumable: existing segment files are skipped. Writes assets/narration/raw/<seg>.wav and <seg>.json (sentence timings)."""
+import os
 import json, re, time, pathlib, argparse
 import numpy as np, soundfile as sf, torch
 from qwen_tts import Qwen3TTSModel
 root = pathlib.Path(__file__).resolve().parents[2]
-M = pathlib.Path('/home/user/iram-work/models')
+M = pathlib.Path(os.environ.get('IRAM_WORK', '/home/user/iram-work') + '/models')
 ap = argparse.ArgumentParser(); ap.add_argument('--only', nargs='*'); ap.add_argument('--sentence_pause', type=float, default=0.45)
 ap.add_argument('--seed', type=int, default=20261119); ap.add_argument('--force', action='store_true'); a = ap.parse_args()
 torch.set_num_threads(4)
