@@ -1,0 +1,47 @@
+{
+ "id": "4.11",
+ "sr": 48000,
+ "duration": 21.667,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Satellites could not see a buried city.",
+   "tts": "Satellites could not see a buried city.",
+   "start": 0.0,
+   "end": 2.274
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "But Landsat images revealed something subtler: faint, ancient tracks crossing the desert floor.",
+   "tts": "But Landsat images revealed something subtler: faint, ancient tracks crossing the desert floor.",
+   "start": 2.724,
+   "end": 9.496
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And several of them led towards one place.",
+   "tts": "And several of them led towards one place.",
+   "start": 9.946,
+   "end": 12.371
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In nineteen ninety-four, radar aboard the Space Shuttle Endeavour imaged the same region, and the tracks appeared again, as soft red streaks.",
+   "tts": "In nineteen ninety-four, radar aboard the Space Shuttle Endeavour imaged the same region, and the tracks appeared again, as soft red streaks.",
+   "start": 12.821,
+   "end": 21.667
+  }
+ ]
+}

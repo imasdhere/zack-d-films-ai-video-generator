@@ -1,0 +1,37 @@
+{
+ "id": "5.01",
+ "sr": 48000,
+ "duration": 9.121,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The Quran's account of how ʿĀd came to an end is brief, and vivid.",
+   "tts": "The Quran's account of how Aa-d came to an end is brief, and vivid.",
+   "start": 0.0,
+   "end": 4.374
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "They demanded the punishment they had been warned of.",
+   "tts": "They demanded the punishment they had been warned of.",
+   "start": 4.824,
+   "end": 7.039
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And then, the text says,",
+   "tts": "And then, the text says,",
+   "start": 7.489,
+   "end": 9.121
+  }
+ ]
+}

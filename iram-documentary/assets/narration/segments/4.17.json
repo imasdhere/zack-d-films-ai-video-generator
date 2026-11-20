@@ -1,0 +1,27 @@
+{
+ "id": "4.17",
+ "sr": 48000,
+ "duration": 16.991,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Today, Shisr is part of a UNESCO World Heritage property, the Land of Frankincense.",
+   "tts": "Today, Shisr is part of a UNESCO World Heritage property, the Land of Frankincense.",
+   "start": 0.0,
+   "end": 5.179
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "UNESCO describes it not as Iram, but as \"the remains of the caravan oasis of Shisr, or Wubar\": a station for water on the routes of the incense trade.",
+   "tts": "UNESCO describes it not as Ee-rahm, but as the remains of the caravan oasis of Shisr, or Wubar: a station for water on the routes of the incense trade.",
+   "start": 5.629,
+   "end": 16.991
+  }
+ ]
+}

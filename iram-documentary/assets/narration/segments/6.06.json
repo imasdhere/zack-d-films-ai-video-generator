@@ -1,0 +1,27 @@
+{
+ "id": "6.06",
+ "sr": 48000,
+ "duration": 15.112,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The Quran tells of a people named ʿĀd; of their prophet, Hūd; of their strength and their building; and of a wind that left only their dwellings.",
+   "tts": "The Quran tells of a people named Aa-d; of their prophet, Hood; of their strength and their building; and of a wind that left only their dwellings.",
+   "start": 0.0,
+   "end": 10.434
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "It names Iram once, and calls it dhāt al-ʿimād.",
+   "tts": "It names Ee-rahm once, and calls it dhaat, al-Ee-maad.",
+   "start": 10.884,
+   "end": 15.112
+  }
+ ]
+}

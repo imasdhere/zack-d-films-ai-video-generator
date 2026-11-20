@@ -1,0 +1,27 @@
+{
+ "id": "3.04",
+ "sr": 48000,
+ "duration": 9.115,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Al-Ṭabarī weighed these views, and concluded that Iram was most likely the name of a tribe of ʿĀd.",
+   "tts": "Al-Tabari weighed these views, and concluded that Ee-rahm was most likely the name of a tribe of Aa-d.",
+   "start": 0.0,
+   "end": 6.514
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Then he turned to the pillars.",
+   "tts": "Then he turned to the pillars.",
+   "start": 6.964,
+   "end": 9.115
+  }
+ ]
+}

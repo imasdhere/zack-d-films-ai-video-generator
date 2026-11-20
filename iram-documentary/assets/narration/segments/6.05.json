@@ -1,0 +1,17 @@
+{
+ "id": "6.05",
+ "sr": 48000,
+ "duration": 2.524,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "So, what can we actually say?",
+   "tts": "So, what can we actually say?",
+   "start": 0.0,
+   "end": 2.524
+  }
+ ]
+}

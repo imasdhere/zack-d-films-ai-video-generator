@@ -1,0 +1,26 @@
+{
+ "id": "q89_7_uthmani",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 2.64,
+ "compute_s": 12.1,
+ "seed": 93607,
+ "attempts": [
+  {
+   "seed": 93607,
+   "dur": 2.64,
+   "expected": 2.09,
+   "ok": true
+  }
+ ],
+ "text": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+ "lang": "ar",
+ "params": {
+  "mode": "reference",
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

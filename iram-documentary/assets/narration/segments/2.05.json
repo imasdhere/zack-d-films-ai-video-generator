@@ -1,0 +1,37 @@
+{
+ "id": "2.05",
+ "sr": 48000,
+ "duration": 6.601,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And they were certain of their own power.",
+   "tts": "And they were certain of their own power.",
+   "start": 0.0,
+   "end": 2.225
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "\"Who is mightier than us in power?\"",
+   "tts": "Who is mightier than us in power?",
+   "start": 2.675,
+   "end": 5.129
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "they ask.",
+   "tts": "they ask.",
+   "start": 5.691,
+   "end": 6.601
+  }
+ ]
+}

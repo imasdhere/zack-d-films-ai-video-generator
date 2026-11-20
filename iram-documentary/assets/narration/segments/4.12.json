@@ -1,0 +1,17 @@
+{
+ "id": "4.12",
+ "sr": 48000,
+ "duration": 11.84,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "That place was Shisr, a small oasis in Dhofar, about one hundred and seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a few centuries old.",
+   "tts": "That place was Shisr, a small oasis in Dhofar, about one hundred and seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a few centuries old.",
+   "start": 0.0,
+   "end": 11.84
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "id": "6.10",
+ "sr": 48000,
+ "duration": 16.304,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Perhaps that is the real lesson of Iram.",
+   "tts": "Perhaps that is the real lesson of Ee-rahm.",
+   "start": 0.0,
+   "end": 3.284
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "A people can survive in memory long after their stones are gone, or even if they never built in stone at all.",
+   "tts": "A people can survive in memory long after their stones are gone, or even if they never built in stone at all.",
+   "start": 3.734,
+   "end": 10.888
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "A few words in a sacred text have outlived empires, maps and explorers.",
+   "tts": "A few words in a sacred text have outlived empires, maps and explorers.",
+   "start": 11.338,
+   "end": 16.304
+  }
+ ]
+}

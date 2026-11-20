@@ -1,0 +1,77 @@
+{
+ "id": "3.01",
+ "sr": 48000,
+ "duration": 27.459,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Iram dhāt al-ʿimād.",
+   "tts": "Ee-rahm dhaat, al-Ee-maad.",
+   "start": 0.0,
+   "end": 2.661
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Translators still disagree on how to render it.",
+   "tts": "Translators still disagree on how to render it.",
+   "start": 3.111,
+   "end": 5.795
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Marmaduke Pickthall, in nineteen thirty, wrote \"many-columned Iram\".",
+   "tts": "Marmaduke Pickthall, in nineteen thirty, wrote many-columned Ee-rahm.",
+   "start": 6.245,
+   "end": 11.3
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "A modern translation, Saheeh International, has \"Iram, who had lofty pillars\".",
+   "tts": "A modern translation, Saheeh International, has Ee-rahm, who had lofty pillars.",
+   "start": 11.75,
+   "end": 17.387
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Even the next verse divides them.",
+   "tts": "Even the next verse divides them.",
+   "start": 17.837,
+   "end": 19.876
+  },
+  {
+   "i": 5,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Was Iram a place, \"the like of which\" was never created?",
+   "tts": "Was Ee-rahm a place, the like of which was never created?",
+   "start": 20.326,
+   "end": 24.376
+  },
+  {
+   "i": 6,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Or a people, \"the likes of whom\"?",
+   "tts": "Or a people, the likes of whom?",
+   "start": 24.938,
+   "end": 27.459
+  }
+ ]
+}

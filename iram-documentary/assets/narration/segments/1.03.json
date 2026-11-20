@@ -1,0 +1,27 @@
+{
+ "id": "1.03",
+ "sr": 48000,
+ "duration": 9.068,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The oldest written source for that memory is the Quran.",
+   "tts": "The oldest written source for that memory is the Quran.",
+   "start": 0.0,
+   "end": 3.058
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In a short passage of Sūrat al-Fajr, the chapter of the Dawn, it asks:",
+   "tts": "In a short passage of Soorat al-Fajr, the chapter of the Dawn, it asks:",
+   "start": 3.508,
+   "end": 9.068
+  }
+ ]
+}

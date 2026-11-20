@@ -1,0 +1,57 @@
+{
+ "id": "4.02",
+ "sr": 48000,
+ "duration": 21.832,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In nineteen thirty, the British explorer Bertram Thomas set out to cross the Empty Quarter, guided by Bedouin of the Rashīd tribe.",
+   "tts": "In nineteen thirty, the British explorer Bertram Thomas set out to cross the Empty Quarter, guided by Bedouin of the Rasheed tribe.",
+   "start": 0.0,
+   "end": 8.752
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "He became the first Westerner on record to do so.",
+   "tts": "He became the first Westerner on record to do so.",
+   "start": 9.202,
+   "end": 12.358
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Along the way, his guides pointed to wide tracks between the dunes.",
+   "tts": "Along the way, his guides pointed to wide tracks between the dunes.",
+   "start": 12.808,
+   "end": 17.324
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "\"Look, Sahib,\" one said.",
+   "tts": "Look, Sahib, one said.",
+   "start": 17.774,
+   "end": 19.922
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "\"There is the way to Ubar.\"",
+   "tts": "There is the way to Ubar.",
+   "start": 20.372,
+   "end": 21.832
+  }
+ ]
+}

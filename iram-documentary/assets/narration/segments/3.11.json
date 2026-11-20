@@ -1,0 +1,27 @@
+{
+ "id": "3.11",
+ "sr": 48000,
+ "duration": 7.502,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The legend lived on regardless.",
+   "tts": "The legend lived on regardless.",
+   "start": 0.0,
+   "end": 2.19
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "It entered the Thousand and One Nights, and later the poetry and fiction of Europe.",
+   "tts": "It entered the Thousand and One Nights, and later the poetry and fiction of Europe.",
+   "start": 2.64,
+   "end": 7.502
+  }
+ ]
+}

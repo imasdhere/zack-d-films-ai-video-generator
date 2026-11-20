@@ -1,0 +1,27 @@
+{
+ "id": "0.02",
+ "sr": 48000,
+ "duration": 6.04,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And yet, some names survive the wind.",
+   "tts": "And yet, some names survive the wind.",
+   "start": 0.0,
+   "end": 3.517
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "One of them is Iram.",
+   "tts": "One of them is Ee-rahm.",
+   "start": 3.967,
+   "end": 6.04
+  }
+ ]
+}

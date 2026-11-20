@@ -1,0 +1,27 @@
+{
+ "id": "2.08",
+ "sr": 48000,
+ "duration": 10.241,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In Ḥaḍramawt today, a tomb attributed to the Prophet Hūd is still visited by pilgrims.",
+   "tts": "In Hadramawt today, a tomb attributed to the Prophet Hood is still visited by pilgrims.",
+   "start": 0.0,
+   "end": 5.58
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "It is a living tradition, though more than one place has claimed his resting place.",
+   "tts": "It is a living tradition, though more than one place has claimed his resting place.",
+   "start": 6.03,
+   "end": 10.241
+  }
+ ]
+}

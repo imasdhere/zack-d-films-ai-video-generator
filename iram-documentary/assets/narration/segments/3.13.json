@@ -1,0 +1,37 @@
+{
+ "id": "3.13",
+ "sr": 48000,
+ "duration": 15.591,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And this is the other reading, the one the classical scholars preferred: great tents of woven hair, raised on poles, moving across the land.",
+   "tts": "And this is the other reading, the one the classical scholars preferred: great tents of woven hair, raised on poles, moving across the land.",
+   "start": 0.0,
+   "end": 9.283
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "It too is an interpretation.",
+   "tts": "It too is an interpretation.",
+   "start": 9.733,
+   "end": 11.91
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "But it reminds us how much a single word can carry.",
+   "tts": "But it reminds us how much a single word can carry.",
+   "start": 12.36,
+   "end": 15.591
+  }
+ ]
+}

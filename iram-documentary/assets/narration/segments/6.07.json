@@ -1,0 +1,37 @@
+{
+ "id": "6.07",
+ "sr": 48000,
+ "duration": 15.71,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The classical scholars recorded a debate.",
+   "tts": "The classical scholars recorded a debate.",
+   "start": 0.0,
+   "end": 2.591
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Two of the most influential, al-Ṭabarī and Ibn Kathīr, understood Iram as a tribe, and its ʿimād as the poles of tents.",
+   "tts": "Two of the most influential, al-Tabari and Ibn Katheer, understood Ee-rahm as a tribe, and its ee-maad as the poles of tents.",
+   "start": 3.041,
+   "end": 12.651
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And they rejected the legend of a golden city.",
+   "tts": "And they rejected the legend of a golden city.",
+   "start": 13.101,
+   "end": 15.71
+  }
+ ]
+}

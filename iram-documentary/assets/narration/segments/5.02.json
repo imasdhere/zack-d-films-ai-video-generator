@@ -1,0 +1,37 @@
+{
+ "id": "5.02",
+ "sr": 48000,
+ "duration": 22.544,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "\"when they beheld it as a dense cloud coming toward their valleys, they said: Here is a cloud bringing us rain.",
+   "tts": "when they beheld it as a dense cloud coming toward their valleys, they said: Here is a cloud bringing us rain.",
+   "start": 0.0,
+   "end": 7.424
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Nay, but it is that which ye did seek to hasten, a wind wherein is painful torment, destroying all things by commandment of its Lord.",
+   "tts": "Nay, but it is that which ye did seek to hasten, a wind wherein is painful torment, destroying all things by commandment of its Lord.",
+   "start": 7.874,
+   "end": 18.35
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And morning found them so that naught could be seen save their dwellings.\"",
+   "tts": "And morning found them so that naught could be seen save their dwellings.",
+   "start": 18.8,
+   "end": 22.544
+  }
+ ]
+}

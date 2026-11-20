@@ -1,0 +1,27 @@
+{
+ "id": "4.04",
+ "sr": 48000,
+ "duration": 13.068,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Ubar, or Wabār, was a name from Arabian tradition: a fabled place of wealth and ruin somewhere in the sands.",
+   "tts": "Ubar, or Wabaar, was a name from Arabian tradition: a fabled place of wealth and ruin somewhere in the sands.",
+   "start": 0.0,
+   "end": 8.663
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Over time, some writers began to merge it with the Quranic Iram.",
+   "tts": "Over time, some writers began to merge it with the Quranic Ee-rahm.",
+   "start": 9.113,
+   "end": 13.068
+  }
+ ]
+}

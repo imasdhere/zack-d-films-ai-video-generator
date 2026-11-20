@@ -1,0 +1,37 @@
+{
+ "id": "4.07",
+ "sr": 48000,
+ "duration": 18.745,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "To understand why anyone would travel through this desert at all, follow the smoke of frankincense.",
+   "tts": "To understand why anyone would travel through this desert at all, follow the smoke of frankincense.",
+   "start": 0.0,
+   "end": 6.494
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Frankincense is the resin of Boswellia sacra, a tree that still grows in the dry valleys of Dhofar, in southern Oman.",
+   "tts": "Frankincense is the resin of Boswellia sacra, a tree that still grows in the dry valleys of Dhofar, in southern Oman.",
+   "start": 6.944,
+   "end": 14.908
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In the ancient world, it was prized from Arabia to Rome.",
+   "tts": "In the ancient world, it was prized from Arabia to Rome.",
+   "start": 15.358,
+   "end": 18.745
+  }
+ ]
+}

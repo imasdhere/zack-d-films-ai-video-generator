@@ -1,0 +1,37 @@
+{
+ "id": "3.07",
+ "sr": 48000,
+ "duration": 20.472,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Four centuries later, in Damascus, the scholar Ibn Kathīr agreed.",
+   "tts": "Four centuries later, in Damascus, the scholar Ibn Katheer agreed.",
+   "start": 0.0,
+   "end": 5.096
+  },
+  {
+   "i": 1,
+   "lang": "ar",
+   "profile": "arabic",
+   "engine": "voxcpm",
+   "display": "فهم قبيلة وأمة من الأمم",
+   "tts": "فَهُمْ قَبِيلَةٌ وَأُمَّةٌ مِنَ الْأُمَمْ",
+   "start": 5.796,
+   "end": 8.356
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Whether the ʿimād were buildings, or tent poles, or weapons, or the height of the people, he wrote, ʿĀd were a tribe: \"a nation among the nations\".",
+   "tts": "Whether the ee-maad were buildings, or tent poles, or weapons, or the height of the people, he wrote, Aa-d were a tribe: a nation among the nations.",
+   "start": 9.056,
+   "end": 20.472
+  }
+ ]
+}

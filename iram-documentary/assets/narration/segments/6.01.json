@@ -1,0 +1,17 @@
+{
+ "id": "6.01",
+ "sr": 48000,
+ "duration": 6.608,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In recent years, the search for Iram has taken an unexpected turn, away from the southern sands altogether.",
+   "tts": "In recent years, the search for Ee-rahm has taken an unexpected turn, away from the southern sands altogether.",
+   "start": 0.0,
+   "end": 6.608
+  }
+ ]
+}

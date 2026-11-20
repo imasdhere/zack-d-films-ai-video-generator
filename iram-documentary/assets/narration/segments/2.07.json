@@ -1,0 +1,37 @@
+{
+ "id": "2.07",
+ "sr": 48000,
+ "duration": 21.48,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Classical scholars tried to find that landscape on the map.",
+   "tts": "Classical scholars tried to find that landscape on the map.",
+   "start": 0.0,
+   "end": 3.251
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The great exegete al-Ṭabarī, who died in Baghdad in the year nine hundred and twenty-three, explained that aḥqāf means sand that curves and bends.",
+   "tts": "The great exegete al-Tabari, who died in Baghdad in the year nine hundred and twenty-three, explained that ahqaaf means sand that curves and bends.",
+   "start": 3.701,
+   "end": 12.567
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "He placed the land of ʿĀd in the south: in al-Shiḥr, in the region of Ḥaḍramawt, and the lands around it.",
+   "tts": "He placed the land of Aa-d in the south: in ash-Shihr, in the region of Hadramawt, and the lands around it.",
+   "start": 13.017,
+   "end": 21.48
+  }
+ ]
+}

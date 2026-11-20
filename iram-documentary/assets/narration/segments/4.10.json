@@ -1,0 +1,27 @@
+{
+ "id": "4.10",
+ "sr": 48000,
+ "duration": 19.634,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Decades after Thomas, an American filmmaker, Nicholas Clapp, read his account and set out to find Ubar.",
+   "tts": "Decades after Thomas, an American filmmaker, Nicholas Clapp, read his account and set out to find Ubar.",
+   "start": 0.0,
+   "end": 7.059
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "He brought together scientists from NASA's Jet Propulsion Laboratory, among them Ronald Blom and Charles Elachi, with the archaeologist Juris Zarins, the explorer Ranulph Fiennes, and George Hedges.",
+   "tts": "He brought together scientists from NASA's Jet Propulsion Laboratory, among them Ronald Blom and Charles Elachi, with the archaeologist Juris Zarins, the explorer Ranulph Fiennes, and George Hedges.",
+   "start": 7.509,
+   "end": 19.634
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "4.05",
+ "sr": 48000,
+ "duration": 21.055,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In nineteen thirty-two, Harry St John Philby went in search of Wabār, deep in the Rubʿ al-Khālī.",
+   "tts": "In nineteen thirty-two, Harry Sinjun Philby went in search of Wabaar, deep in the Rub al Khaali.",
+   "start": 0.0,
+   "end": 6.487
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Bedouin had told him of ruins, and of a block of iron the size of a camel.",
+   "tts": "Bedouin had told him of ruins, and of a block of iron the size of a camel.",
+   "start": 6.937,
+   "end": 12.56
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "After a month of hard travel, he reached a field of black glass and craters half choked with sand.",
+   "tts": "After a month of hard travel, he reached a field of black glass and craters half choked with sand.",
+   "start": 13.01,
+   "end": 18.785
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "He thought it was a volcano.",
+   "tts": "He thought it was a volcano.",
+   "start": 19.235,
+   "end": 21.055
+  }
+ ]
+}

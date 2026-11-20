@@ -1,0 +1,57 @@
+{
+ "id": "4.19",
+ "sr": 48000,
+ "duration": 20.172,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The difference matters.",
+   "tts": "The difference matters.",
+   "start": 0.0,
+   "end": 1.795
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "A popular identification is a story that people choose to tell.",
+   "tts": "A popular identification is a story that people choose to tell.",
+   "start": 2.245,
+   "end": 6.283
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "An archaeological interpretation is an argument from evidence.",
+   "tts": "An archaeological interpretation is an argument from evidence.",
+   "start": 6.733,
+   "end": 10.444
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "An established conclusion is what remains when the arguments have been tested.",
+   "tts": "An established conclusion is what remains when the arguments have been tested.",
+   "start": 10.894,
+   "end": 15.06
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The link between Shisr and Iram has never moved beyond the first.",
+   "tts": "The link between Shisr and Ee-rahm has never moved beyond the first.",
+   "start": 15.51,
+   "end": 20.172
+  }
+ ]
+}

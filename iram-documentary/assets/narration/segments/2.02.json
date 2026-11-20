@@ -1,0 +1,37 @@
+{
+ "id": "2.02",
+ "sr": 48000,
+ "duration": 10.541,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In the Quranic account, ʿĀd were a people who came after the people of Noah.",
+   "tts": "In the Quranic account, Aa-d were a people who came after the people of Noah.",
+   "start": 0.0,
+   "end": 4.301
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "To them was sent a prophet from among themselves.",
+   "tts": "To them was sent a prophet from among themselves.",
+   "start": 4.751,
+   "end": 7.302
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The Quran calls him their brother: Hūd.",
+   "tts": "The Quran calls him their brother: Hood.",
+   "start": 7.752,
+   "end": 10.541
+  }
+ ]
+}

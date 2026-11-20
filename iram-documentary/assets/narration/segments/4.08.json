@@ -1,0 +1,27 @@
+{
+ "id": "4.08",
+ "sr": 48000,
+ "duration": 17.093,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "A Greek sailing guide of the first century, the Periplus of the Erythraean Sea, describes this coast as \"the Frankincense Country, mountainous and forbidding, wrapped in thick clouds and fog.\"",
+   "tts": "A Greek sailing guide of the first century, the Periplus of the Erythraean Sea, describes this coast as the Frankincense Country, mountainous and forbidding, wrapped in thick clouds and fog.",
+   "start": 0.0,
+   "end": 10.464
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "It names a harbour called Moscha, where ships took on the resin, under the control of the king's officers.",
+   "tts": "It names a harbour called Moscha, where ships took on the resin, under the control of the king's officers.",
+   "start": 10.914,
+   "end": 17.093
+  }
+ ]
+}

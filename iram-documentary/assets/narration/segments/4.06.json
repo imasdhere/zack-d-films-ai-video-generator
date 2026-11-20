@@ -1,0 +1,57 @@
+{
+ "id": "4.06",
+ "sr": 48000,
+ "duration": 20.614,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "It was neither a city nor a volcano.",
+   "tts": "It was neither a city nor a volcano.",
+   "start": 0.0,
+   "end": 2.521
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Samples sent to the British Museum showed that it was the impact site of an iron meteorite.",
+   "tts": "Samples sent to the British Museum showed that it was the impact site of an iron meteorite.",
+   "start": 2.971,
+   "end": 8.275
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Later luminescence dating suggests the craters may be only a few centuries old, perhaps less than two hundred and fifty years.",
+   "tts": "Later luminescence dating suggests the craters may be only a few centuries old, perhaps less than two hundred and fifty years.",
+   "start": 8.725,
+   "end": 15.123
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "A real place, and a real mystery.",
+   "tts": "A real place, and a real mystery.",
+   "start": 15.573,
+   "end": 18.498
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "But not Iram.",
+   "tts": "But not Ee-rahm.",
+   "start": 18.948,
+   "end": 20.614
+  }
+ ]
+}

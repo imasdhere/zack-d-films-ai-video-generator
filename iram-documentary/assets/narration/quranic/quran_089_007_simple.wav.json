@@ -1,0 +1,26 @@
+{
+ "id": "q89_7_simple",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 2.675,
+ "compute_s": 11.2,
+ "seed": 93607,
+ "attempts": [
+  {
+   "seed": 93607,
+   "dur": 2.68,
+   "expected": 2.09,
+   "ok": true
+  }
+ ],
+ "text": "إِرَمَ ذَاتِ الْعِمَادِ",
+ "lang": "ar",
+ "params": {
+  "mode": "reference",
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

@@ -1,0 +1,27 @@
+{
+ "id": "5.05",
+ "sr": 48000,
+ "duration": 13.105,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "ar",
+   "profile": "arabic",
+   "engine": "voxcpm",
+   "display": "نُصِرْتُ بِالصَّبَا، وَأُهْلِكَتْ عَادٌ بِالدَّبُورِ",
+   "tts": "نُصِرْتُ بِالصَّبَا، وَأُهْلِكَتْ عَادٌ بِالدَّبُورْ",
+   "start": 0.0,
+   "end": 4.2
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In another authentic report, he said: \"I was granted victory with the east wind, and ʿĀd were destroyed by the west wind.\"",
+   "tts": "In another authentic report, he said: I was granted victory with the east wind, and Aa-d were destroyed by the west wind.",
+   "start": 4.9,
+   "end": 13.105
+  }
+ ]
+}

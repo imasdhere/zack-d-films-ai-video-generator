@@ -4,1853 +4,2729 @@
    "id": "0.01",
    "chapter": 0,
    "start": 7.0,
-   "dur": 17.996,
+   "dur": 18.398,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "There are places on Earth where the land itself seems to forget.",
      "tts": "There are places on Earth where the land itself seems to forget.",
      "start": 0.0,
-     "end": 3.589
+     "end": 3.516
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Here, in the south of Arabia, the wind has been moving sand for thousands of years.",
      "tts": "Here, in the south of Arabia, the wind has been moving sand for thousands of years.",
-     "start": 4.039,
-     "end": 9.47
+     "start": 3.966,
+     "end": 9.262
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Lifting it.",
      "tts": "Lifting it.",
-     "start": 9.92,
-     "end": 10.607
+     "start": 9.712,
+     "end": 10.652
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Folding it.",
      "tts": "Folding it.",
-     "start": 11.057,
-     "end": 11.8
+     "start": 11.102,
+     "end": 11.979
     },
     {
      "i": 4,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Laying it down again.",
      "tts": "Laying it down again.",
-     "start": 12.25,
-     "end": 13.576
+     "start": 12.429,
+     "end": 13.9
     },
     {
      "i": 5,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Footprints vanish by evening.",
      "tts": "Footprints vanish by evening.",
-     "start": 14.026,
-     "end": 16.032
+     "start": 14.35,
+     "end": 16.182
     },
     {
      "i": 6,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Whole dunes walk.",
      "tts": "Whole dunes walk.",
-     "start": 16.482,
-     "end": 17.996
+     "start": 16.632,
+     "end": 18.398
     }
    ]
   },
   {
    "id": "0.02",
    "chapter": 0,
-   "start": 28.096,
-   "dur": 5.009,
+   "start": 28.498,
+   "dur": 6.04,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And yet, some names survive the wind.",
      "tts": "And yet, some names survive the wind.",
      "start": 0.0,
-     "end": 3.064
+     "end": 3.517
     },
     {
      "i": 1,
-     "tts": "One of them is Iram.",
-     "start": 3.514,
-     "end": 5.009
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "One of them is Iram.",
+     "tts": "One of them is Ee-rahm.",
+     "start": 3.967,
+     "end": 6.04
     }
    ]
   },
   {
    "id": "1.01",
    "chapter": 1,
-   "start": 41.705,
-   "dur": 22.313,
+   "start": 43.138,
+   "dur": 20.412,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The Rubʿ al-Khālī, the Empty Quarter, covers some six hundred and fifty thousand square kilometres of the Arabian Peninsula, across parts of Saudi Arabia, Oman, the United Arab Emirates and Yemen.",
      "tts": "The Rub al Khaali, the Empty Quarter, covers some six hundred and fifty thousand square kilometres of the Arabian Peninsula, across parts of Saudi Arabia, Oman, the United Arab Emirates and Yemen.",
      "start": 0.0,
-     "end": 13.059
+     "end": 11.609
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It is often described as the largest continuous sand desert on Earth.",
      "tts": "It is often described as the largest continuous sand desert on Earth.",
-     "start": 13.509,
-     "end": 18.379
+     "start": 12.059,
+     "end": 16.271
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In places, its dunes rise more than two hundred metres.",
      "tts": "In places, its dunes rise more than two hundred metres.",
-     "start": 18.829,
-     "end": 22.313
+     "start": 16.721,
+     "end": 20.412
     }
    ]
   },
   {
    "id": "1.02",
    "chapter": 1,
-   "start": 64.618,
-   "dur": 7.871,
+   "start": 64.15,
+   "dur": 9.07,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "For centuries, those who lived along its edges told stories of a people of great strength, of towering buildings, and of a city that was lost.",
      "tts": "For centuries, those who lived along its edges told stories of a people of great strength, of towering buildings, and of a city that was lost.",
      "start": 0.0,
-     "end": 7.871
+     "end": 9.07
     }
    ]
   },
   {
    "id": "1.03",
    "chapter": 1,
-   "start": 73.089,
-   "dur": 9.065,
+   "start": 73.82,
+   "dur": 9.068,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The oldest written source for that memory is the Quran.",
      "tts": "The oldest written source for that memory is the Quran.",
      "start": 0.0,
-     "end": 3.543
+     "end": 3.058
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In a short passage of Sūrat al-Fajr, the chapter of the Dawn, it asks:",
      "tts": "In a short passage of Soorat al-Fajr, the chapter of the Dawn, it asks:",
-     "start": 3.993,
-     "end": 9.065
+     "start": 3.508,
+     "end": 9.068
     }
    ]
   },
   {
    "id": "1.04",
    "chapter": 1,
-   "start": 82.754,
-   "dur": 8.639,
+   "start": 83.488,
+   "dur": 8.838,
    "sentences": [
     {
      "i": 0,
-     "tts": "Dost thou not consider how thy Lord dealt with the tribe of Aad, with many-columned Iram, the like of which was not created in the lands.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "\"Dost thou not consider how thy Lord dealt with the tribe of ʿĀd, with many-columned Iram, the like of which was not created in the lands.\"",
+     "tts": "Dost thou not consider how thy Lord dealt with the tribe of Aa-d, with many-columned Ee-rahm, the like of which was not created in the lands.",
      "start": 0.0,
-     "end": 8.639
+     "end": 8.838
     }
    ]
   },
   {
    "id": "1.05",
    "chapter": 1,
-   "start": 91.993,
-   "dur": 17.393,
+   "start": 92.926,
+   "dur": 16.862,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Three short verses.",
      "tts": "Three short verses.",
      "start": 0.0,
-     "end": 1.471
+     "end": 1.759
     },
     {
      "i": 1,
-     "tts": "A people: Aad.",
-     "start": 1.921,
-     "end": 3.403
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A people: ʿĀd.",
+     "tts": "A people: Aa-d.",
+     "start": 2.209,
+     "end": 4.185
     },
     {
      "i": 2,
-     "tts": "A name: Iram.",
-     "start": 3.853,
-     "end": 5.66
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A name: Iram.",
+     "tts": "A name: Ee-rahm.",
+     "start": 4.635,
+     "end": 6.807
     },
     {
      "i": 3,
-     "tts": "And a description: dhaat, al-Imaad.",
-     "start": 6.11,
-     "end": 9.864
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And a description: dhāt al-ʿimād.",
+     "tts": "And a description: dhaat, al-Ee-maad.",
+     "start": 7.257,
+     "end": 10.305
     },
     {
      "i": 4,
-     "tts": "Possessing imaad.",
-     "start": 10.314,
-     "end": 11.505
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Possessing ʿimād.",
+     "tts": "Possessing ee-maad.",
+     "start": 10.755,
+     "end": 12.032
     },
     {
      "i": 5,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A word that can mean columns, or pillars, or the poles that hold up a tent.",
      "tts": "A word that can mean columns, or pillars, or the poles that hold up a tent.",
-     "start": 11.955,
-     "end": 17.393
+     "start": 12.482,
+     "end": 16.862
     }
    ]
   },
   {
    "id": "1.06",
    "chapter": 1,
-   "start": 109.986,
-   "dur": 18.347,
+   "start": 110.388,
+   "dur": 20.007,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "From these few words grew one of the most enduring mysteries of the Arabian desert.",
      "tts": "From these few words grew one of the most enduring mysteries of the Arabian desert.",
      "start": 0.0,
-     "end": 4.751
+     "end": 5.112
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Storytellers imagined palaces of gold.",
      "tts": "Storytellers imagined palaces of gold.",
-     "start": 5.201,
-     "end": 7.987
+     "start": 5.562,
+     "end": 8.275
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Popular retellings still speak of a city of a thousand pillars.",
      "tts": "Popular retellings still speak of a city of a thousand pillars.",
-     "start": 8.437,
-     "end": 12.661
+     "start": 8.725,
+     "end": 12.405
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Explorers went looking for it.",
      "tts": "Explorers went looking for it.",
-     "start": 13.111,
-     "end": 14.786
+     "start": 12.855,
+     "end": 14.767
     },
     {
      "i": 4,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And satellites photographed the sand where it might lie.",
      "tts": "And satellites photographed the sand where it might lie.",
-     "start": 15.236,
-     "end": 18.347
+     "start": 15.217,
+     "end": 20.007
     }
    ]
   },
   {
    "id": "1.07",
    "chapter": 1,
-   "start": 128.933,
-   "dur": 11.757,
+   "start": 130.995,
+   "dur": 12.774,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "This film asks three questions.",
      "tts": "This film asks three questions.",
      "start": 0.0,
-     "end": 2.112
+     "end": 2.284
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "What does the text actually say?",
      "tts": "What does the text actually say?",
-     "start": 2.562,
-     "end": 5.009
+     "start": 2.734,
+     "end": 5.247
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "What did the earliest scholars understand by it?",
      "tts": "What did the earliest scholars understand by it?",
-     "start": 5.572,
-     "end": 8.161
+     "start": 5.81,
+     "end": 8.73
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And what, if anything, has archaeology really found?",
      "tts": "And what, if anything, has archaeology really found?",
-     "start": 8.724,
-     "end": 11.757
+     "start": 9.292,
+     "end": 12.774
     }
    ]
   },
   {
    "id": "1.08",
    "chapter": 1,
-   "start": 141.29,
-   "dur": 14.503,
+   "start": 144.369,
+   "dur": 12.792,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "To answer them, we must keep different kinds of evidence apart: scripture, scholarship, legend, excavation and hypothesis.",
      "tts": "To answer them, we must keep different kinds of evidence apart: scripture, scholarship, legend, excavation and hypothesis.",
      "start": 0.0,
-     "end": 10.216
+     "end": 8.634
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Throughout this film, each will be marked as it appears.",
      "tts": "Throughout this film, each will be marked as it appears.",
-     "start": 10.666,
-     "end": 14.503
+     "start": 9.084,
+     "end": 12.792
     }
    ]
   },
   {
    "id": "2.01",
    "chapter": 2,
-   "start": 163.393,
-   "dur": 5.531,
+   "start": 164.761,
+   "dur": 7.082,
    "sentences": [
     {
      "i": 0,
-     "tts": "The Quran names Aad twenty-four times.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The Quran names ʿĀd twenty-four times.",
+     "tts": "The Quran names Aa-d twenty-four times.",
      "start": 0.0,
-     "end": 3.069
+     "end": 3.401
     },
     {
      "i": 1,
-     "tts": "Iram, it names only once.",
-     "start": 3.519,
-     "end": 5.531
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Iram, it names only once.",
+     "tts": "Ee-rahm, it names only once.",
+     "start": 3.851,
+     "end": 7.082
     }
    ]
   },
   {
    "id": "2.02",
    "chapter": 2,
-   "start": 169.524,
-   "dur": 10.554,
+   "start": 172.443,
+   "dur": 10.541,
    "sentences": [
     {
      "i": 0,
-     "tts": "In the Quranic account, Aad were a people who came after the people of Noah.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In the Quranic account, ʿĀd were a people who came after the people of Noah.",
+     "tts": "In the Quranic account, Aa-d were a people who came after the people of Noah.",
      "start": 0.0,
-     "end": 4.232
+     "end": 4.301
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "To them was sent a prophet from among themselves.",
      "tts": "To them was sent a prophet from among themselves.",
-     "start": 4.682,
-     "end": 7.673
+     "start": 4.751,
+     "end": 7.302
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The Quran calls him their brother: Hūd.",
      "tts": "The Quran calls him their brother: Hood.",
-     "start": 8.123,
-     "end": 10.554
+     "start": 7.752,
+     "end": 10.541
     }
    ]
   },
   {
    "id": "2.03",
    "chapter": 2,
-   "start": 180.678,
-   "dur": 17.903,
+   "start": 183.584,
+   "dur": 17.173,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It describes a people blessed with plenty.",
      "tts": "It describes a people blessed with plenty.",
      "start": 0.0,
-     "end": 2.425
+     "end": 3.314
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Hūd reminds them that God has aided them \"with cattle and sons, and gardens and watersprings.\"",
      "tts": "Hood reminds them that God has aided them with cattle and sons, and gardens and watersprings.",
-     "start": 2.875,
-     "end": 7.954
+     "start": 3.764,
+     "end": 8.98
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "He reminds them that they were given \"growth of stature\": in Arabic, basṭa, a word the commentators read as size, or strength, or reach.",
      "tts": "He reminds them that they were given growth of stature: in Arabic, basta, a word the commentators read as size, or strength, or reach.",
-     "start": 8.404,
-     "end": 17.903
+     "start": 9.43,
+     "end": 17.173
     }
    ]
   },
   {
    "id": "2.04",
    "chapter": 2,
-   "start": 199.181,
-   "dur": 12.033,
+   "start": 201.357,
+   "dur": 13.174,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "They were builders.",
      "tts": "They were builders.",
      "start": 0.0,
-     "end": 1.232
+     "end": 2.226
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "\"Build ye on every high place a monument for vain delight?\"",
      "tts": "Build ye on every high place a monument for vain delight?",
-     "start": 1.682,
-     "end": 5.361
+     "start": 2.676,
+     "end": 6.659
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Hūd asks them.",
      "tts": "Hood asks them.",
-     "start": 5.923,
-     "end": 6.869
+     "start": 7.222,
+     "end": 8.439
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "\"And seek ye out strongholds, that haply ye may last for ever?\"",
      "tts": "And seek ye out strongholds, that haply ye may last for ever?",
-     "start": 7.319,
-     "end": 12.033
+     "start": 8.889,
+     "end": 13.174
     }
    ]
   },
   {
    "id": "2.05",
    "chapter": 2,
-   "start": 211.814,
-   "dur": 6.129,
+   "start": 215.131,
+   "dur": 6.601,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And they were certain of their own power.",
      "tts": "And they were certain of their own power.",
      "start": 0.0,
-     "end": 2.155
+     "end": 2.225
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "\"Who is mightier than us in power?\"",
      "tts": "Who is mightier than us in power?",
-     "start": 2.605,
-     "end": 5.008
+     "start": 2.675,
+     "end": 5.129
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "they ask.",
      "tts": "they ask.",
-     "start": 5.57,
-     "end": 6.129
+     "start": 5.691,
+     "end": 6.601
     }
    ]
   },
   {
    "id": "2.06",
    "chapter": 2,
-   "start": 218.543,
-   "dur": 9.798,
+   "start": 222.332,
+   "dur": 10.16,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The Quran tells us where Hūd preached in a single phrase.",
      "tts": "The Quran tells us where Hood preached in a single phrase.",
      "start": 0.0,
-     "end": 3.32
+     "end": 3.395
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "He warned his people, it says, \"among the wind-curved sandhills\": bil-Aḥqāf.",
      "tts": "He warned his people, it says, among the wind-curved sandhills: bil-Ahqaaf.",
-     "start": 3.77,
-     "end": 9.798
+     "start": 3.845,
+     "end": 10.16
     }
    ]
   },
   {
    "id": "2.07",
    "chapter": 2,
-   "start": 228.941,
-   "dur": 20.449,
+   "start": 233.092,
+   "dur": 21.48,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Classical scholars tried to find that landscape on the map.",
      "tts": "Classical scholars tried to find that landscape on the map.",
      "start": 0.0,
-     "end": 3.427
+     "end": 3.251
     },
     {
      "i": 1,
-     "tts": "The great exegete at-Tabari, who died in Baghdad in the year nine hundred and twenty-three, explained that ahqaaf means sand that curves and bends.",
-     "start": 3.877,
-     "end": 12.594
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The great exegete al-Ṭabarī, who died in Baghdad in the year nine hundred and twenty-three, explained that aḥqāf means sand that curves and bends.",
+     "tts": "The great exegete al-Tabari, who died in Baghdad in the year nine hundred and twenty-three, explained that ahqaaf means sand that curves and bends.",
+     "start": 3.701,
+     "end": 12.567
     },
     {
      "i": 2,
-     "tts": "He placed the land of Aad in the south: in ash-Shihr, in the region of Hadramawt, and the lands around it.",
-     "start": 13.044,
-     "end": 20.449
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "He placed the land of ʿĀd in the south: in al-Shiḥr, in the region of Ḥaḍramawt, and the lands around it.",
+     "tts": "He placed the land of Aa-d in the south: in ash-Shihr, in the region of Hadramawt, and the lands around it.",
+     "start": 13.017,
+     "end": 21.48
     }
    ]
   },
   {
    "id": "2.08",
    "chapter": 2,
-   "start": 249.99,
-   "dur": 11.346,
+   "start": 255.172,
+   "dur": 10.241,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In Ḥaḍramawt today, a tomb attributed to the Prophet Hūd is still visited by pilgrims.",
      "tts": "In Hadramawt today, a tomb attributed to the Prophet Hood is still visited by pilgrims.",
      "start": 0.0,
-     "end": 5.888
+     "end": 5.58
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It is a living tradition, though more than one place has claimed his resting place.",
      "tts": "It is a living tradition, though more than one place has claimed his resting place.",
-     "start": 6.338,
-     "end": 11.346
+     "start": 6.03,
+     "end": 10.241
     }
    ]
   },
   {
    "id": "2.09",
    "chapter": 2,
-   "start": 261.936,
-   "dur": 12.116,
+   "start": 266.013,
+   "dur": 12.094,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "What the Quran does not give us is a date, a map, or a description of a city.",
      "tts": "What the Quran does not give us is a date, a map, or a description of a city.",
      "start": 0.0,
-     "end": 5.587
+     "end": 6.158
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It gives a moral history: a people given strength and plenty; a warning; a refusal.",
      "tts": "It gives a moral history: a people given strength and plenty; a warning; a refusal.",
-     "start": 6.037,
-     "end": 12.116
+     "start": 6.608,
+     "end": 12.094
     }
    ]
   },
   {
    "id": "2.10",
    "chapter": 2,
-   "start": 274.652,
-   "dur": 9.616,
+   "start": 278.707,
+   "dur": 9.193,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In this film, the Prophet Hūd is never shown.",
      "tts": "In this film, the Prophet Hood is never shown.",
      "start": 0.0,
-     "end": 2.544
+     "end": 2.989
     },
     {
      "i": 1,
-     "tts": "And the people of Aad appear only as distant figures, because no one knows what they looked like.",
-     "start": 2.994,
-     "end": 9.616
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And the people of ʿĀd appear only as distant figures, because no one knows what they looked like.",
+     "tts": "And the people of Aa-d appear only as distant figures, because no one knows what they looked like.",
+     "start": 3.439,
+     "end": 9.193
     }
    ]
   },
   {
    "id": "3.01",
    "chapter": 3,
-   "start": 291.868,
-   "dur": 26.408,
+   "start": 295.5,
+   "dur": 27.459,
    "sentences": [
     {
      "i": 0,
-     "tts": "Iram dhaat, al-Imaad.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Iram dhāt al-ʿimād.",
+     "tts": "Ee-rahm dhaat, al-Ee-maad.",
      "start": 0.0,
-     "end": 1.984
+     "end": 2.661
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Translators still disagree on how to render it.",
      "tts": "Translators still disagree on how to render it.",
-     "start": 2.434,
-     "end": 5.184
+     "start": 3.111,
+     "end": 5.795
     },
     {
      "i": 2,
-     "tts": "Marmaduke Pickthall, in nineteen thirty, wrote many-columned Iram.",
-     "start": 5.634,
-     "end": 9.878
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Marmaduke Pickthall, in nineteen thirty, wrote \"many-columned Iram\".",
+     "tts": "Marmaduke Pickthall, in nineteen thirty, wrote many-columned Ee-rahm.",
+     "start": 6.245,
+     "end": 11.3
     },
     {
      "i": 3,
-     "tts": "A modern translation, Saheeh International, has Iram, who had lofty pillars.",
-     "start": 10.328,
-     "end": 16.19
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A modern translation, Saheeh International, has \"Iram, who had lofty pillars\".",
+     "tts": "A modern translation, Saheeh International, has Ee-rahm, who had lofty pillars.",
+     "start": 11.75,
+     "end": 17.387
     },
     {
      "i": 4,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Even the next verse divides them.",
      "tts": "Even the next verse divides them.",
-     "start": 16.64,
-     "end": 18.508
+     "start": 17.837,
+     "end": 19.876
     },
     {
      "i": 5,
-     "tts": "Was Iram a place, the like of which was never created?",
-     "start": 18.958,
-     "end": 23.059
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Was Iram a place, \"the like of which\" was never created?",
+     "tts": "Was Ee-rahm a place, the like of which was never created?",
+     "start": 20.326,
+     "end": 24.376
     },
     {
      "i": 6,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Or a people, \"the likes of whom\"?",
      "tts": "Or a people, the likes of whom?",
-     "start": 23.622,
-     "end": 26.408
+     "start": 24.938,
+     "end": 27.459
     }
    ]
   },
   {
    "id": "3.02",
    "chapter": 3,
-   "start": 318.876,
-   "dur": 4.237,
+   "start": 323.559,
+   "dur": 4.263,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Muslim scholars were asking the same questions more than a thousand years ago.",
      "tts": "Muslim scholars were asking the same questions more than a thousand years ago.",
      "start": 0.0,
-     "end": 4.237
+     "end": 4.263
     }
    ]
   },
   {
    "id": "3.03",
    "chapter": 3,
-   "start": 323.713,
-   "dur": 24.642,
+   "start": 328.422,
+   "dur": 22.758,
    "sentences": [
     {
      "i": 0,
-     "tts": "At-Tabari gathered the opinions of the generations before him.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Al-Ṭabarī gathered the opinions of the generations before him.",
+     "tts": "Al-Tabari gathered the opinions of the generations before him.",
      "start": 0.0,
-     "end": 3.51
+     "end": 3.355
     },
     {
      "i": 1,
-     "tts": "Some said Iram was a city: Alexandria, according to one early authority; Damascus, according to another.",
-     "start": 3.96,
-     "end": 12.217
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Some said Iram was a city: Alexandria, according to one early authority; Damascus, according to another.",
+     "tts": "Some said Ee-rahm was a city: Alexandria, according to one early authority; Damascus, according to another.",
+     "start": 3.805,
+     "end": 11.602
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Some said it was a nation.",
      "tts": "Some said it was a nation.",
-     "start": 12.667,
-     "end": 14.542
+     "start": 12.052,
+     "end": 13.673
     },
     {
      "i": 3,
-     "tts": "Others said it was a clan of Aad, the royal house of Aad, in the words of the early scholar Qataada, or the name of their ancestor.",
-     "start": 14.992,
-     "end": 24.642
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Others said it was a clan of ʿĀd, \"the royal house of ʿĀd\", in the words of the early scholar Qatāda, or the name of their ancestor.",
+     "tts": "Others said it was a clan of Aa-d, the royal house of Aa-d, in the words of the early scholar Qataada, or the name of their ancestor.",
+     "start": 14.123,
+     "end": 22.758
     }
    ]
   },
   {
    "id": "3.04",
    "chapter": 3,
-   "start": 348.955,
-   "dur": 8.708,
+   "start": 351.78,
+   "dur": 9.115,
    "sentences": [
     {
      "i": 0,
-     "tts": "At-Tabari weighed these views, and concluded that Iram was most likely the name of a tribe of Aad.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Al-Ṭabarī weighed these views, and concluded that Iram was most likely the name of a tribe of ʿĀd.",
+     "tts": "Al-Tabari weighed these views, and concluded that Ee-rahm was most likely the name of a tribe of Aa-d.",
      "start": 0.0,
-     "end": 6.556
+     "end": 6.514
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Then he turned to the pillars.",
      "tts": "Then he turned to the pillars.",
-     "start": 7.006,
-     "end": 8.708
+     "start": 6.964,
+     "end": 9.115
     }
    ]
   },
   {
    "id": "3.05",
    "chapter": 3,
-   "start": 358.263,
-   "dur": 23.106,
+   "start": 361.495,
+   "dur": 26.633,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Some early authorities said the word described the people themselves: their great height.",
      "tts": "Some early authorities said the word described the people themselves: their great height.",
      "start": 0.0,
-     "end": 5.525
+     "end": 6.822
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "One said it meant a building they had raised, on tall columns.",
      "tts": "One said it meant a building they had raised, on tall columns.",
-     "start": 5.975,
-     "end": 10.314
+     "start": 7.272,
+     "end": 11.912
     },
     {
      "i": 2,
-     "tts": "But the view at-Tabari preferred was simpler.",
-     "start": 10.764,
-     "end": 13.497
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But the view al-Ṭabarī preferred was simpler.",
+     "tts": "But the view al-Tabari preferred was simpler.",
+     "start": 12.362,
+     "end": 14.962
     },
     {
      "i": 3,
-     "tts": "The imaad, he argued, were the poles of tents.",
-     "start": 13.947,
-     "end": 17.378
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The ʿimād, he argued, were the poles of tents.",
+     "tts": "The ee-maad, he argued, were the poles of tents.",
+     "start": 15.412,
+     "end": 18.922
     },
     {
      "i": 4,
-     "tts": "Aad were people of poles: travellers, moving with the rains and the pasture.",
-     "start": 17.828,
-     "end": 23.106
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "ʿĀd were \"people of poles\": travellers, moving with the rains and the pasture.",
+     "tts": "Aa-d were people of poles: travellers, moving with the rains and the pasture.",
+     "start": 19.372,
+     "end": 26.633
     }
    ]
   },
   {
    "id": "3.06",
    "chapter": 3,
-   "start": 381.969,
-   "dur": 8.715,
+   "start": 388.728,
+   "dur": 15.124,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And he added a sentence that cuts to the heart of this mystery.",
      "tts": "And he added a sentence that cuts to the heart of this mystery.",
      "start": 0.0,
-     "end": 3.379
+     "end": 3.608
     },
     {
      "i": 1,
+     "lang": "ar",
+     "profile": "arabic",
+     "engine": "voxcpm",
+     "display": "ولا يعلم بناء كان لهم بالعماد بخبر صحيح",
+     "tts": "وَلَا يُعْلَمُ بِنَاءٌ كَانَ لَهُمْ بِالْعِمَادِ بِخَبَرٍ صَحِيحْ",
+     "start": 4.308,
+     "end": 9.588
+    },
+    {
+     "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "No building of theirs with columns, he wrote, is known through any authentic report.",
      "tts": "No building of theirs with columns, he wrote, is known through any authentic report.",
-     "start": 3.829,
-     "end": 8.715
+     "start": 10.288,
+     "end": 15.124
     }
    ]
   },
   {
    "id": "3.07",
    "chapter": 3,
-   "start": 392.784,
-   "dur": 15.963,
+   "start": 405.952,
+   "dur": 20.472,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Four centuries later, in Damascus, the scholar Ibn Kathīr agreed.",
      "tts": "Four centuries later, in Damascus, the scholar Ibn Katheer agreed.",
      "start": 0.0,
-     "end": 5.717
+     "end": 5.096
     },
     {
      "i": 1,
-     "tts": "Whether the imaad were buildings, or tent poles, or weapons, or the height of the people, he wrote, Aad were a tribe: a nation among the nations.",
-     "start": 6.167,
-     "end": 15.963
+     "lang": "ar",
+     "profile": "arabic",
+     "engine": "voxcpm",
+     "display": "فهم قبيلة وأمة من الأمم",
+     "tts": "فَهُمْ قَبِيلَةٌ وَأُمَّةٌ مِنَ الْأُمَمْ",
+     "start": 5.796,
+     "end": 8.356
+    },
+    {
+     "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Whether the ʿimād were buildings, or tent poles, or weapons, or the height of the people, he wrote, ʿĀd were a tribe: \"a nation among the nations\".",
+     "tts": "Whether the ee-maad were buildings, or tent poles, or weapons, or the height of the people, he wrote, Aa-d were a tribe: a nation among the nations.",
+     "start": 9.056,
+     "end": 20.472
     }
    ]
   },
   {
    "id": "3.08",
    "chapter": 3,
-   "start": 409.347,
-   "dur": 29.858,
+   "start": 427.024,
+   "dur": 27.949,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "So where did the golden city come from?",
      "tts": "So where did the golden city come from?",
      "start": 0.0,
-     "end": 2.073
+     "end": 2.204
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "By Ibn Kathīr's time, a rich legend had grown around the verse.",
      "tts": "By Ibn Katheer's time, a rich legend had grown around the verse.",
-     "start": 2.635,
-     "end": 7.011
+     "start": 2.767,
+     "end": 6.668
     },
     {
      "i": 2,
-     "tts": "In some versions, a king named Shaddaad, son of Aad, built it.",
-     "start": 7.461,
-     "end": 13.241
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In some versions, a king named Shaddād, son of ʿĀd, built it.",
+     "tts": "In some versions, a king named Shaddaad, son of Aa-d, built it.",
+     "start": 7.118,
+     "end": 12.307
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk.",
      "tts": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk.",
-     "start": 13.691,
-     "end": 21.812
+     "start": 12.757,
+     "end": 20.433
     },
     {
      "i": 4,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
      "tts": "A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
-     "start": 22.262,
-     "end": 29.858
+     "start": 20.883,
+     "end": 27.949
     }
    ]
   },
   {
    "id": "3.09",
    "chapter": 3,
-   "start": 439.805,
-   "dur": 15.261,
+   "start": 455.573,
+   "dur": 14.218,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "One story told of a Bedouin, ʿAbd Allāh ibn Qilāba, who, while searching for his lost camels in the time of the caliph Muʿāwiya, came upon a great city with walls and gates.",
      "tts": "One story told of a Bedouin, Abdullah ibn Qilaaba, who, while searching for his lost camels in the time of the caliph Mu-aawiya, came upon a great city with walls and gates.",
      "start": 0.0,
-     "end": 10.95
+     "end": 10.254
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "When others went back with him to the place, they found nothing.",
      "tts": "When others went back with him to the place, they found nothing.",
-     "start": 11.4,
-     "end": 15.26
+     "start": 10.704,
+     "end": 14.218
     }
    ]
   },
   {
    "id": "3.10",
    "chapter": 3,
-   "start": 455.666,
-   "dur": 13.164,
+   "start": 470.391,
+   "dur": 22.782,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Ibn Kathīr rejected all of it.",
      "tts": "Ibn Katheer rejected all of it.",
      "start": 0.0,
-     "end": 2.053
+     "end": 2.738
     },
     {
      "i": 1,
-     "tts": "These were, in his words, fables of the Israa-eeliyyaat.",
-     "start": 2.503,
-     "end": 6.173
+     "lang": "ar",
+     "profile": "arabic",
+     "engine": "voxcpm",
+     "display": "فإن هذا كله من خرافات الإسرائيليين. فهذه الحكاية ليس يصح إسنادها.",
+     "tts": "فَإِنَّ هَذَا كُلَّهُ مِنْ خُرَافَاتِ الْإِسْرَائِيلِيِّينْ. فَهَذِهِ الْحِكَايَةُ لَيْسَ يَصِحُّ إِسْنَادُهَا.",
+     "start": 3.438,
+     "end": 11.248
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "These were, in his words, fables of the Israʾīliyyāt.",
+     "tts": "These were, in his words, fables of the Israa-eeliyyaat.",
+     "start": 11.948,
+     "end": 15.439
+    },
+    {
+     "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The tale of Ibn Qilāba, he said, had no sound chain of transmission, and was certainly not authentic.",
      "tts": "The tale of Ibn Qilaaba, he said, had no sound chain of transmission, and was certainly not authentic.",
-     "start": 6.623,
-     "end": 13.164
+     "start": 15.889,
+     "end": 22.782
     }
    ]
   },
   {
    "id": "3.11",
    "chapter": 3,
-   "start": 469.43,
-   "dur": 7.711,
+   "start": 493.773,
+   "dur": 7.502,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The legend lived on regardless.",
      "tts": "The legend lived on regardless.",
      "start": 0.0,
-     "end": 2.109
+     "end": 2.19
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It entered the Thousand and One Nights, and later the poetry and fiction of Europe.",
      "tts": "It entered the Thousand and One Nights, and later the poetry and fiction of Europe.",
-     "start": 2.559,
-     "end": 7.711
+     "start": 2.64,
+     "end": 7.502
     }
    ]
   },
   {
    "id": "3.12",
    "chapter": 3,
-   "start": 477.741,
-   "dur": 16.919,
+   "start": 501.875,
+   "dur": 20.571,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "What you are seeing now is an artistic reconstruction.",
      "tts": "What you are seeing now is an artistic reconstruction.",
      "start": 0.0,
-     "end": 3.334
+     "end": 3.852
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "One imagined reading of the verse: a settlement raised on stone columns.",
      "tts": "One imagined reading of the verse: a settlement raised on stone columns.",
-     "start": 3.784,
-     "end": 8.721
+     "start": 4.302,
+     "end": 10.485
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It is not based on any excavated site.",
      "tts": "It is not based on any excavated site.",
-     "start": 9.171,
-     "end": 11.713
+     "start": 10.935,
+     "end": 13.55
     },
     {
      "i": 3,
-     "tts": "The Quran does not describe Iram's appearance, and no archaeologist has found it.",
-     "start": 12.163,
-     "end": 16.919
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The Quran does not describe Iram's appearance, and no archaeologist has found it.",
+     "tts": "The Quran does not describe Ee-rahm's appearance, and no archaeologist has found it.",
+     "start": 14.0,
+     "end": 20.571
     }
    ]
   },
   {
    "id": "3.13",
    "chapter": 3,
-   "start": 495.26,
-   "dur": 14.469,
+   "start": 523.046,
+   "dur": 15.591,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And this is the other reading, the one the classical scholars preferred: great tents of woven hair, raised on poles, moving across the land.",
      "tts": "And this is the other reading, the one the classical scholars preferred: great tents of woven hair, raised on poles, moving across the land.",
      "start": 0.0,
-     "end": 8.809
+     "end": 9.283
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It too is an interpretation.",
      "tts": "It too is an interpretation.",
-     "start": 9.259,
-     "end": 11.17
+     "start": 9.733,
+     "end": 11.91
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But it reminds us how much a single word can carry.",
      "tts": "But it reminds us how much a single word can carry.",
-     "start": 11.62,
-     "end": 14.469
+     "start": 12.36,
+     "end": 15.591
     }
    ]
   },
   {
    "id": "3.14",
    "chapter": 3,
-   "start": 510.329,
-   "dur": 9.979,
+   "start": 539.237,
+   "dur": 10.582,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The city of a thousand pillars is real, in its way.",
      "tts": "The city of a thousand pillars is real, in its way.",
      "start": 0.0,
-     "end": 3.885
+     "end": 3.935
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But it belongs to the history of storytelling.",
      "tts": "But it belongs to the history of storytelling.",
-     "start": 4.335,
-     "end": 6.971
+     "start": 4.385,
+     "end": 7.225
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The text itself is far more restrained.",
      "tts": "The text itself is far more restrained.",
-     "start": 7.421,
-     "end": 9.979
+     "start": 7.675,
+     "end": 10.582
     }
    ]
   },
   {
    "id": "4.01",
    "chapter": 4,
-   "start": 528.408,
-   "dur": 4.727,
+   "start": 557.919,
+   "dur": 4.685,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In the twentieth century, the search moved from the library into the desert.",
      "tts": "In the twentieth century, the search moved from the library into the desert.",
      "start": 0.0,
-     "end": 4.727
+     "end": 4.685
     }
    ]
   },
   {
    "id": "4.02",
    "chapter": 4,
-   "start": 533.735,
-   "dur": 20.771,
+   "start": 563.204,
+   "dur": 21.832,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In nineteen thirty, the British explorer Bertram Thomas set out to cross the Empty Quarter, guided by Bedouin of the Rashīd tribe.",
      "tts": "In nineteen thirty, the British explorer Bertram Thomas set out to cross the Empty Quarter, guided by Bedouin of the Rasheed tribe.",
      "start": 0.0,
-     "end": 8.924
+     "end": 8.752
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "He became the first Westerner on record to do so.",
      "tts": "He became the first Westerner on record to do so.",
-     "start": 9.374,
-     "end": 12.29
+     "start": 9.202,
+     "end": 12.358
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Along the way, his guides pointed to wide tracks between the dunes.",
      "tts": "Along the way, his guides pointed to wide tracks between the dunes.",
-     "start": 12.74,
-     "end": 16.983
+     "start": 12.808,
+     "end": 17.324
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "\"Look, Sahib,\" one said.",
      "tts": "Look, Sahib, one said.",
-     "start": 17.433,
-     "end": 18.855
+     "start": 17.774,
+     "end": 19.922
     },
     {
      "i": 4,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "\"There is the way to Ubar.\"",
      "tts": "There is the way to Ubar.",
-     "start": 19.305,
-     "end": 20.771
+     "start": 20.372,
+     "end": 21.832
     }
    ]
   },
   {
    "id": "4.03",
    "chapter": 4,
-   "start": 555.106,
-   "dur": 9.837,
+   "start": 585.636,
+   "dur": 9.069,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Thomas wrote of \"this Atlantis of the Sands\".",
      "tts": "Thomas wrote of this Atlantis of the Sands.",
      "start": 0.0,
-     "end": 2.585
+     "end": 2.623
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The phrase is often credited to Lawrence of Arabia, but it does not appear in Lawrence's published works.",
      "tts": "The phrase is often credited to Lawrence of Arabia, but it does not appear in Lawrence's published works.",
-     "start": 3.035,
-     "end": 9.837
+     "start": 3.073,
+     "end": 9.069
     }
    ]
   },
   {
    "id": "4.04",
    "chapter": 4,
-   "start": 565.543,
-   "dur": 13.054,
+   "start": 595.305,
+   "dur": 13.068,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Ubar, or Wabār, was a name from Arabian tradition: a fabled place of wealth and ruin somewhere in the sands.",
      "tts": "Ubar, or Wabaar, was a name from Arabian tradition: a fabled place of wealth and ruin somewhere in the sands.",
      "start": 0.0,
-     "end": 8.478
+     "end": 8.663
     },
     {
      "i": 1,
-     "tts": "Over time, some writers began to merge it with the Quranic Iram.",
-     "start": 8.928,
-     "end": 13.054
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Over time, some writers began to merge it with the Quranic Iram.",
+     "tts": "Over time, some writers began to merge it with the Quranic Ee-rahm.",
+     "start": 9.113,
+     "end": 13.068
     }
    ]
   },
   {
    "id": "4.05",
    "chapter": 4,
-   "start": 579.197,
-   "dur": 20.829,
+   "start": 608.973,
+   "dur": 21.055,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In nineteen thirty-two, Harry St John Philby went in search of Wabār, deep in the Rubʿ al-Khālī.",
      "tts": "In nineteen thirty-two, Harry Sinjun Philby went in search of Wabaar, deep in the Rub al Khaali.",
      "start": 0.0,
-     "end": 6.444
+     "end": 6.487
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Bedouin had told him of ruins, and of a block of iron the size of a camel.",
      "tts": "Bedouin had told him of ruins, and of a block of iron the size of a camel.",
-     "start": 6.894,
-     "end": 11.623
+     "start": 6.937,
+     "end": 12.56
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "After a month of hard travel, he reached a field of black glass and craters half choked with sand.",
      "tts": "After a month of hard travel, he reached a field of black glass and craters half choked with sand.",
-     "start": 12.073,
-     "end": 19.01
+     "start": 13.01,
+     "end": 18.785
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "He thought it was a volcano.",
      "tts": "He thought it was a volcano.",
-     "start": 19.46,
-     "end": 20.829
+     "start": 19.235,
+     "end": 21.055
     }
    ]
   },
   {
    "id": "4.06",
    "chapter": 4,
-   "start": 600.626,
-   "dur": 22.12,
+   "start": 630.628,
+   "dur": 20.614,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It was neither a city nor a volcano.",
      "tts": "It was neither a city nor a volcano.",
      "start": 0.0,
-     "end": 2.853
+     "end": 2.521
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Samples sent to the British Museum showed that it was the impact site of an iron meteorite.",
      "tts": "Samples sent to the British Museum showed that it was the impact site of an iron meteorite.",
-     "start": 3.303,
-     "end": 8.805
+     "start": 2.971,
+     "end": 8.275
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Later luminescence dating suggests the craters may be only a few centuries old, perhaps less than two hundred and fifty years.",
      "tts": "Later luminescence dating suggests the craters may be only a few centuries old, perhaps less than two hundred and fifty years.",
-     "start": 9.255,
-     "end": 17.035
+     "start": 8.725,
+     "end": 15.123
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A real place, and a real mystery.",
      "tts": "A real place, and a real mystery.",
-     "start": 17.485,
-     "end": 20.575
+     "start": 15.573,
+     "end": 18.498
     },
     {
      "i": 4,
-     "tts": "But not Iram.",
-     "start": 21.025,
-     "end": 22.12
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But not Iram.",
+     "tts": "But not Ee-rahm.",
+     "start": 18.948,
+     "end": 20.614
     }
    ]
   },
   {
    "id": "4.07",
    "chapter": 4,
-   "start": 624.846,
-   "dur": 19.42,
+   "start": 653.342,
+   "dur": 18.745,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "To understand why anyone would travel through this desert at all, follow the smoke of frankincense.",
      "tts": "To understand why anyone would travel through this desert at all, follow the smoke of frankincense.",
      "start": 0.0,
-     "end": 5.955
+     "end": 6.494
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Frankincense is the resin of Boswellia sacra, a tree that still grows in the dry valleys of Dhofar, in southern Oman.",
      "tts": "Frankincense is the resin of Boswellia sacra, a tree that still grows in the dry valleys of Dhofar, in southern Oman.",
-     "start": 6.405,
-     "end": 14.836
+     "start": 6.944,
+     "end": 14.908
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In the ancient world, it was prized from Arabia to Rome.",
      "tts": "In the ancient world, it was prized from Arabia to Rome.",
-     "start": 15.286,
-     "end": 19.42
+     "start": 15.358,
+     "end": 18.745
     }
    ]
   },
   {
    "id": "4.08",
    "chapter": 4,
-   "start": 644.866,
-   "dur": 19.457,
+   "start": 672.687,
+   "dur": 17.093,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A Greek sailing guide of the first century, the Periplus of the Erythraean Sea, describes this coast as \"the Frankincense Country, mountainous and forbidding, wrapped in thick clouds and fog.\"",
      "tts": "A Greek sailing guide of the first century, the Periplus of the Erythraean Sea, describes this coast as the Frankincense Country, mountainous and forbidding, wrapped in thick clouds and fog.",
      "start": 0.0,
-     "end": 12.294
+     "end": 10.464
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It names a harbour called Moscha, where ships took on the resin, under the control of the king's officers.",
      "tts": "It names a harbour called Moscha, where ships took on the resin, under the control of the king's officers.",
-     "start": 12.744,
-     "end": 19.457
+     "start": 10.914,
+     "end": 17.093
     }
    ]
   },
   {
    "id": "4.09",
    "chapter": 4,
-   "start": 664.923,
-   "dur": 17.75,
+   "start": 690.38,
+   "dur": 17.631,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Moscha is identified with Khor Rori, near modern Salalah, where the walls of a fortified port called Sumhuram still stand.",
      "tts": "Moscha is identified with Khor Rori, near modern Salalah, where the walls of a fortified port called Sumhuram still stand.",
      "start": 0.0,
-     "end": 8.312
+     "end": 8.279
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "From this coast and its hinterland, frankincense moved inland and north, along caravan routes that linked southern Arabia to the Mediterranean world.",
      "tts": "From this coast and its hinterland, frankincense moved inland and north, along caravan routes that linked southern Arabia to the Mediterranean world.",
-     "start": 8.762,
-     "end": 17.75
+     "start": 8.729,
+     "end": 17.631
     }
    ]
   },
   {
    "id": "4.10",
    "chapter": 4,
-   "start": 683.273,
-   "dur": 19.63,
+   "start": 708.611,
+   "dur": 19.634,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Decades after Thomas, an American filmmaker, Nicholas Clapp, read his account and set out to find Ubar.",
      "tts": "Decades after Thomas, an American filmmaker, Nicholas Clapp, read his account and set out to find Ubar.",
      "start": 0.0,
-     "end": 6.423
+     "end": 7.059
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "He brought together scientists from NASA's Jet Propulsion Laboratory, among them Ronald Blom and Charles Elachi, with the archaeologist Juris Zarins, the explorer Ranulph Fiennes, and George Hedges.",
      "tts": "He brought together scientists from NASA's Jet Propulsion Laboratory, among them Ronald Blom and Charles Elachi, with the archaeologist Juris Zarins, the explorer Ranulph Fiennes, and George Hedges.",
-     "start": 6.873,
-     "end": 19.63
+     "start": 7.509,
+     "end": 19.634
     }
    ]
   },
   {
    "id": "4.11",
    "chapter": 4,
-   "start": 703.503,
-   "dur": 23.628,
+   "start": 728.845,
+   "dur": 21.667,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Satellites could not see a buried city.",
      "tts": "Satellites could not see a buried city.",
      "start": 0.0,
-     "end": 2.243
+     "end": 2.274
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But Landsat images revealed something subtler: faint, ancient tracks crossing the desert floor.",
      "tts": "But Landsat images revealed something subtler: faint, ancient tracks crossing the desert floor.",
-     "start": 2.693,
-     "end": 9.947
+     "start": 2.724,
+     "end": 9.496
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And several of them led towards one place.",
      "tts": "And several of them led towards one place.",
-     "start": 10.397,
-     "end": 12.837
+     "start": 9.946,
+     "end": 12.371
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In nineteen ninety-four, radar aboard the Space Shuttle Endeavour imaged the same region, and the tracks appeared again, as soft red streaks.",
      "tts": "In nineteen ninety-four, radar aboard the Space Shuttle Endeavour imaged the same region, and the tracks appeared again, as soft red streaks.",
-     "start": 13.287,
-     "end": 23.628
+     "start": 12.821,
+     "end": 21.667
     }
    ]
   },
   {
    "id": "4.12",
    "chapter": 4,
-   "start": 727.731,
-   "dur": 12.491,
+   "start": 751.112,
+   "dur": 11.84,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "That place was Shisr, a small oasis in Dhofar, about one hundred and seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a few centuries old.",
      "tts": "That place was Shisr, a small oasis in Dhofar, about one hundred and seventy kilometres inland, with a Bedouin well and a ruined fort that earlier travellers had dismissed as only a few centuries old.",
      "start": 0.0,
-     "end": 12.491
+     "end": 11.84
     }
    ]
   },
   {
    "id": "4.13",
    "chapter": 4,
-   "start": 740.822,
-   "dur": 27.182,
+   "start": 763.552,
+   "dur": 26.645,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Excavation began under Juris Zarins.",
      "tts": "Excavation began under Juris Zarins.",
      "start": 0.0,
-     "end": 2.528
+     "end": 2.649
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Beneath the later fort, the team uncovered the walls and towers of a much older fortress, more than two thousand years old in its earliest phases, according to its excavators.",
      "tts": "Beneath the later fort, the team uncovered the walls and towers of a much older fortress, more than two thousand years old in its earliest phases, according to its excavators.",
-     "start": 2.978,
-     "end": 14.121
+     "start": 3.099,
+     "end": 14.463
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "They found objects from Persia, Greece and Rome: the traces of long-distance trade.",
      "tts": "They found objects from Persia, Greece and Rome: the traces of long-distance trade.",
-     "start": 14.571,
-     "end": 20.558
+     "start": 14.913,
+     "end": 20.225
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And they found that much of the fortress had collapsed into a sinkhole, the limestone cavern that held the well.",
      "tts": "And they found that much of the fortress had collapsed into a sinkhole, the limestone cavern that held the well.",
-     "start": 21.008,
-     "end": 27.182
+     "start": 20.675,
+     "end": 26.645
     }
    ]
   },
   {
    "id": "4.14",
    "chapter": 4,
-   "start": 768.604,
-   "dur": 6.689,
+   "start": 790.797,
+   "dur": 6.703,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In February nineteen ninety-two, newspapers around the world announced that the lost city of Ubar had been found.",
      "tts": "In February nineteen ninety-two, newspapers around the world announced that the lost city of Ubar had been found.",
      "start": 0.0,
-     "end": 6.689
+     "end": 6.703
     }
    ]
   },
   {
    "id": "4.15",
    "chapter": 4,
-   "start": 777.393,
-   "dur": 26.76,
+   "start": 799.6,
+   "dur": 23.437,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But the scientists themselves soon told a more careful story.",
      "tts": "But the scientists themselves soon told a more careful story.",
      "start": 0.0,
-     "end": 3.945
+     "end": 4.037
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Juris Zarins argued that, in the classical and Arabic sources, Ubar was not a single town at all, but a region and a people: the Iobaritae, marked on the second-century map of Ptolemy.",
      "tts": "Juris Zarins argued that, in the classical and Arabic sources, Ubar was not a single town at all, but a region and a people: the Yo-ba-ree-tie, marked on the second-century map of Ptolemy.",
-     "start": 4.395,
-     "end": 18.522
+     "start": 4.487,
+     "end": 16.147
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Shisr, in this view, was one fortified station in that land, a vital source of water on the frankincense routes.",
      "tts": "Shisr, in this view, was one fortified station in that land, a vital source of water on the frankincense routes.",
-     "start": 18.972,
-     "end": 26.76
+     "start": 16.597,
+     "end": 23.437
     }
    ]
   },
   {
    "id": "4.16",
    "chapter": 4,
-   "start": 804.753,
-   "dur": 14.638,
+   "start": 823.637,
+   "dur": 15.733,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Others went further.",
      "tts": "Others went further.",
      "start": 0.0,
-     "end": 1.069
+     "end": 1.41
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In two thousand and four, the geologist H.",
      "tts": "In two thousand and four, the geologist H.",
-     "start": 1.519,
-     "end": 4.27
+     "start": 1.86,
+     "end": 5.389
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Stewart Edgell published a critique titled \"The myth of the lost city of the Arabian Sands\", arguing that Shisr had been a small caravanserai, not a lost metropolis.",
      "tts": "Stewart Edgell published a critique titled The myth of the lost city of the Arabian Sands, arguing that Shisr had been a small caravanserai, not a lost metropolis.",
-     "start": 4.72,
-     "end": 14.638
+     "start": 5.839,
+     "end": 15.733
     }
    ]
   },
   {
    "id": "4.17",
    "chapter": 4,
-   "start": 819.991,
-   "dur": 16.314,
+   "start": 839.97,
+   "dur": 16.991,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Today, Shisr is part of a UNESCO World Heritage property, the Land of Frankincense.",
      "tts": "Today, Shisr is part of a UNESCO World Heritage property, the Land of Frankincense.",
      "start": 0.0,
-     "end": 5.74
+     "end": 5.179
     },
     {
      "i": 1,
-     "tts": "UNESCO describes it not as Iram, but as the remains of the caravan oasis of Shisr, or Wubar: a station for water on the routes of the incense trade.",
-     "start": 6.19,
-     "end": 16.314
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "UNESCO describes it not as Iram, but as \"the remains of the caravan oasis of Shisr, or Wubar\": a station for water on the routes of the incense trade.",
+     "tts": "UNESCO describes it not as Ee-rahm, but as the remains of the caravan oasis of Shisr, or Wubar: a station for water on the routes of the incense trade.",
+     "start": 5.629,
+     "end": 16.991
     }
    ]
   },
   {
    "id": "4.18",
    "chapter": 4,
-   "start": 836.905,
-   "dur": 15.376,
+   "start": 857.561,
+   "dur": 16.249,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "So what did Shisr prove?",
      "tts": "So what did Shisr prove?",
      "start": 0.0,
-     "end": 2.073
+     "end": 2.109
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It proved that ancient tracks can be traced from space.",
      "tts": "It proved that ancient tracks can be traced from space.",
-     "start": 2.635,
-     "end": 6.109
+     "start": 2.672,
+     "end": 6.315
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It proved that this desert edge was busy with trade.",
      "tts": "It proved that this desert edge was busy with trade.",
-     "start": 6.559,
-     "end": 9.507
+     "start": 6.765,
+     "end": 10.34
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It did not prove that Shisr was Ubar.",
      "tts": "It did not prove that Shisr was Ubar.",
-     "start": 9.957,
-     "end": 12.574
+     "start": 10.79,
+     "end": 12.904
     },
     {
      "i": 4,
-     "tts": "And it did not prove that Ubar was Iram.",
-     "start": 13.024,
-     "end": 15.376
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And it did not prove that Ubar was Iram.",
+     "tts": "And it did not prove that Ubar was Ee-rahm.",
+     "start": 13.354,
+     "end": 16.249
     }
    ]
   },
   {
    "id": "4.19",
    "chapter": 4,
-   "start": 852.881,
-   "dur": 18.541,
+   "start": 874.41,
+   "dur": 20.172,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The difference matters.",
      "tts": "The difference matters.",
      "start": 0.0,
-     "end": 1.155
+     "end": 1.795
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A popular identification is a story that people choose to tell.",
      "tts": "A popular identification is a story that people choose to tell.",
-     "start": 1.605,
-     "end": 5.545
+     "start": 2.245,
+     "end": 6.283
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "An archaeological interpretation is an argument from evidence.",
      "tts": "An archaeological interpretation is an argument from evidence.",
-     "start": 5.995,
-     "end": 9.791
+     "start": 6.733,
+     "end": 10.444
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "An established conclusion is what remains when the arguments have been tested.",
      "tts": "An established conclusion is what remains when the arguments have been tested.",
-     "start": 10.241,
-     "end": 14.045
+     "start": 10.894,
+     "end": 15.06
     },
     {
      "i": 4,
-     "tts": "The link between Shisr and Iram has never moved beyond the first.",
-     "start": 14.495,
-     "end": 18.541
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The link between Shisr and Iram has never moved beyond the first.",
+     "tts": "The link between Shisr and Ee-rahm has never moved beyond the first.",
+     "start": 15.51,
+     "end": 20.172
     }
    ]
   },
   {
    "id": "5.01",
    "chapter": 5,
-   "start": 879.522,
-   "dur": 10.46,
+   "start": 902.682,
+   "dur": 9.121,
    "sentences": [
     {
      "i": 0,
-     "tts": "The Quran's account of how Aad came to an end is brief, and vivid.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The Quran's account of how ʿĀd came to an end is brief, and vivid.",
+     "tts": "The Quran's account of how Aa-d came to an end is brief, and vivid.",
      "start": 0.0,
-     "end": 4.878
+     "end": 4.374
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "They demanded the punishment they had been warned of.",
      "tts": "They demanded the punishment they had been warned of.",
-     "start": 5.328,
-     "end": 7.801
+     "start": 4.824,
+     "end": 7.039
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And then, the text says,",
      "tts": "And then, the text says,",
-     "start": 8.251,
-     "end": 10.46
+     "start": 7.489,
+     "end": 9.121
     }
    ]
   },
   {
    "id": "5.02",
    "chapter": 5,
-   "start": 890.582,
-   "dur": 21.735,
+   "start": 912.403,
+   "dur": 22.544,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "\"when they beheld it as a dense cloud coming toward their valleys, they said: Here is a cloud bringing us rain.",
      "tts": "when they beheld it as a dense cloud coming toward their valleys, they said: Here is a cloud bringing us rain.",
      "start": 0.0,
-     "end": 6.923
+     "end": 7.424
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Nay, but it is that which ye did seek to hasten, a wind wherein is painful torment, destroying all things by commandment of its Lord.",
      "tts": "Nay, but it is that which ye did seek to hasten, a wind wherein is painful torment, destroying all things by commandment of its Lord.",
-     "start": 7.373,
-     "end": 17.32
+     "start": 7.874,
+     "end": 18.35
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And morning found them so that naught could be seen save their dwellings.\"",
      "tts": "And morning found them so that naught could be seen save their dwellings.",
-     "start": 17.77,
-     "end": 21.735
+     "start": 18.8,
+     "end": 22.544
     }
    ]
   },
   {
    "id": "5.03",
    "chapter": 5,
-   "start": 914.417,
-   "dur": 17.142,
+   "start": 937.047,
+   "dur": 16.388,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Elsewhere the wind is called ṣarṣar, raging, or roaring, and al-ʿaqīm, the barren wind.",
      "tts": "Elsewhere the wind is called sarsar, raging, or roaring, and al-aqeem, the barren wind.",
      "start": 0.0,
-     "end": 6.272
+     "end": 7.343
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It blew, the Quran says, \"for seven long nights and eight long days\".",
      "tts": "It blew, the Quran says, for seven long nights and eight long days.",
-     "start": 6.722,
-     "end": 12.817
+     "start": 7.793,
+     "end": 12.141
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Hūd, and those who believed with him, were saved.",
      "tts": "Hood, and those who believed with him, were saved.",
-     "start": 13.267,
-     "end": 17.142
+     "start": 12.591,
+     "end": 16.388
     }
    ]
   },
   {
    "id": "5.04",
    "chapter": 5,
-   "start": 932.159,
-   "dur": 20.041,
+   "start": 954.035,
+   "dur": 18.926,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The memory of that wind stayed with the Prophet Muhammad.",
      "tts": "The memory of that wind stayed with the Prophet Muhammad.",
      "start": 0.0,
-     "end": 3.645
+     "end": 3.12
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "His wife ʿĀʾisha reported that whenever he saw clouds or wind, concern showed on his face.",
      "tts": "His wife Aa-isha reported that whenever he saw clouds or wind, concern showed on his face.",
-     "start": 4.095,
-     "end": 10.684
+     "start": 3.57,
+     "end": 10.05
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "When she asked him why, he said that a people had been punished with wind, and that when they saw it coming, they had said, \"This cloud will give us rain.\"",
      "tts": "When she asked him why, he said that a people had been punished with wind, and that when they saw it coming, they had said, This cloud will give us rain.",
-     "start": 11.134,
-     "end": 20.041
+     "start": 10.5,
+     "end": 18.926
     }
    ]
   },
   {
    "id": "5.05",
    "chapter": 5,
-   "start": 952.8,
-   "dur": 7.834,
+   "start": 973.561,
+   "dur": 13.105,
    "sentences": [
     {
      "i": 0,
-     "tts": "In another authentic report, he said: I was granted victory with the east wind, and Aad were destroyed by the west wind.",
+     "lang": "ar",
+     "profile": "arabic",
+     "engine": "voxcpm",
+     "display": "نُصِرْتُ بِالصَّبَا، وَأُهْلِكَتْ عَادٌ بِالدَّبُورِ",
+     "tts": "نُصِرْتُ بِالصَّبَا، وَأُهْلِكَتْ عَادٌ بِالدَّبُورْ",
      "start": 0.0,
-     "end": 7.834
+     "end": 4.2
+    },
+    {
+     "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In another authentic report, he said: \"I was granted victory with the east wind, and ʿĀd were destroyed by the west wind.\"",
+     "tts": "In another authentic report, he said: I was granted victory with the east wind, and Aa-d were destroyed by the west wind.",
+     "start": 4.9,
+     "end": 13.105
     }
    ]
   },
   {
    "id": "5.06",
    "chapter": 5,
-   "start": 963.734,
-   "dur": 8.098,
+   "start": 989.766,
+   "dur": 8.197,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Science cannot test a religious account of divine judgement.",
      "tts": "Science cannot test a religious account of divine judgement.",
      "start": 0.0,
-     "end": 3.192
+     "end": 4.211
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But it can ask a different question: how has this land itself changed?",
      "tts": "But it can ask a different question: how has this land itself changed?",
-     "start": 3.642,
-     "end": 8.098
+     "start": 4.661,
+     "end": 8.197
     }
    ]
   },
   {
    "id": "5.07",
    "chapter": 5,
-   "start": 972.432,
-   "dur": 18.633,
+   "start": 998.563,
+   "dur": 18.451,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In a cave called Qunf, in the mountains of Dhofar, a stalagmite has recorded rainfall for thousands of years, layer by layer.",
      "tts": "In a cave called Qunf, in the mountains of Dhofar, a stalagmite has recorded rainfall for thousands of years, layer by layer.",
      "start": 0.0,
-     "end": 8.45
+     "end": 7.874
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A study published in two thousand and three found that monsoon rain here was stronger in the early Holocene, and that after about eight thousand years ago, it gradually declined.",
      "tts": "A study published in two thousand and three found that monsoon rain here was stronger in the early Holocene, and that after about eight thousand years ago, it gradually declined.",
-     "start": 8.9,
-     "end": 18.633
+     "start": 8.324,
+     "end": 18.451
     }
    ]
   },
   {
    "id": "5.08",
    "chapter": 5,
-   "start": 991.665,
-   "dur": 16.358,
+   "start": 1017.614,
+   "dur": 15.143,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Deep in the Rubʿ al-Khālī, researchers reported in two thousand and twenty-five that, during an ancient humid phase, heavy rains filled a lake of about eleven hundred square kilometres, which eventually broke its banks and carved a valley some one hundred and fifty kilometres long.",
      "tts": "Deep in the Rub al Khaali, researchers reported in two thousand and twenty-five that, during an ancient humid phase, heavy rains filled a lake of about eleven hundred square kilometres, which eventually broke its banks and carved a valley some one hundred and fifty kilometres long.",
      "start": 0.0,
-     "end": 16.358
+     "end": 15.143
     }
    ]
   },
   {
    "id": "5.09",
    "chapter": 5,
-   "start": 1008.623,
-   "dur": 9.549,
+   "start": 1033.357,
+   "dur": 9.687,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Arabia, in other words, was not always this dry.",
      "tts": "Arabia, in other words, was not always this dry.",
      "start": 0.0,
-     "end": 3.976
+     "end": 3.664
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Over many thousands of years, its landscapes have shifted between green and gold.",
      "tts": "Over many thousands of years, its landscapes have shifted between green and gold.",
-     "start": 4.426,
-     "end": 9.549
+     "start": 4.114,
+     "end": 9.687
     }
    ]
   },
   {
    "id": "5.10",
    "chapter": 5,
-   "start": 1018.772,
-   "dur": 25.815,
+   "start": 1043.644,
+   "dur": 26.377,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "But we should be clear.",
      "tts": "But we should be clear.",
      "start": 0.0,
-     "end": 1.39
+     "end": 1.332
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "These changes unfolded over centuries and millennia.",
      "tts": "These changes unfolded over centuries and millennia.",
-     "start": 1.84,
-     "end": 5.325
+     "start": 1.782,
+     "end": 5.407
     },
     {
      "i": 2,
-     "tts": "No study has dated the people of Aad, and no geological event has been shown to match the Quranic account.",
-     "start": 5.775,
-     "end": 12.011
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "No study has dated the people of ʿĀd, and no geological event has been shown to match the Quranic account.",
+     "tts": "No study has dated the people of Aa-d, and no geological event has been shown to match the Quranic account.",
+     "start": 5.857,
+     "end": 13.237
     },
     {
      "i": 3,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site.",
      "tts": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site.",
-     "start": 12.461,
-     "end": 17.958
+     "start": 13.687,
+     "end": 18.665
     },
     {
      "i": 4,
-     "tts": "The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to Aad.",
-     "start": 18.408,
-     "end": 25.815
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to ʿĀd.",
+     "tts": "The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to Aa-d.",
+     "start": 19.115,
+     "end": 26.377
     }
    ]
   },
   {
    "id": "5.11",
    "chapter": 5,
-   "start": 1045.187,
-   "dur": 7.119,
+   "start": 1070.621,
+   "dur": 8.355,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Religious memory and physical evidence are answering different questions.",
      "tts": "Religious memory and physical evidence are answering different questions.",
      "start": 0.0,
-     "end": 4.395
+     "end": 4.779
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Merging them would do justice to neither.",
      "tts": "Merging them would do justice to neither.",
-     "start": 4.845,
-     "end": 7.119
+     "start": 5.229,
+     "end": 8.355
     }
    ]
   },
   {
    "id": "6.01",
    "chapter": 6,
-   "start": 1060.406,
-   "dur": 6.662,
+   "start": 1087.076,
+   "dur": 6.608,
    "sentences": [
     {
      "i": 0,
-     "tts": "In recent years, the search for Iram has taken an unexpected turn, away from the southern sands altogether.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In recent years, the search for Iram has taken an unexpected turn, away from the southern sands altogether.",
+     "tts": "In recent years, the search for Ee-rahm has taken an unexpected turn, away from the southern sands altogether.",
      "start": 0.0,
-     "end": 6.662
+     "end": 6.608
     }
    ]
   },
   {
    "id": "6.02",
    "chapter": 6,
-   "start": 1067.668,
-   "dur": 20.915,
+   "start": 1094.284,
+   "dur": 21.4,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In the deserts of southern Jordan lies Wadi Ramm, the valley known today as Wadi Rum: red cliffs, and some twenty thousand recorded inscriptions.",
      "tts": "In the deserts of southern Jordan lies Wadi Ramm, the valley known today as Wadi Rum: red cliffs, and some twenty thousand recorded inscriptions.",
      "start": 0.0,
-     "end": 10.601
+     "end": 11.11
     },
     {
      "i": 1,
-     "tts": "A Nabataean temple to the goddess Allat stands at the foot of Jabal Ramm, and inscriptions from the site give the ancient name of the place as Iram.",
-     "start": 11.051,
-     "end": 20.915
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A Nabataean temple to the goddess Allat stands at the foot of Jabal Ramm, and inscriptions from the site give the ancient name of the place as Iram.",
+     "tts": "A Nabataean temple to the goddess Allat stands at the foot of Jabal Ramm, and inscriptions from the site give the ancient name of the place as Ee-rahm.",
+     "start": 11.56,
+     "end": 21.4
     }
    ]
   },
   {
    "id": "6.03",
    "chapter": 6,
-   "start": 1089.183,
-   "dur": 15.084,
+   "start": 1116.284,
+   "dur": 15.329,
    "sentences": [
     {
      "i": 0,
-     "tts": "In two thousand and twenty-five, the epigrapher Ahmad Al-Jallad published a study of pre-Islamic inscriptions written by members of a tribe called Aad, in the deserts of the north, and argued that the Quranic names may belong to this region.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "In two thousand and twenty-five, the epigrapher Ahmad Al-Jallad published a study of pre-Islamic inscriptions written by members of a tribe called ʿĀd, in the deserts of the north, and argued that the Quranic names may belong to this region.",
+     "tts": "In two thousand and twenty-five, the epigrapher Ahmad Al-Jallad published a study of pre-Islamic inscriptions written by members of a tribe called Aa-d, in the deserts of the north, and argued that the Quranic names may belong to this region.",
      "start": 0.0,
-     "end": 15.084
+     "end": 15.329
     }
    ]
   },
   {
    "id": "6.04",
    "chapter": 6,
-   "start": 1104.867,
-   "dur": 14.28,
+   "start": 1132.213,
+   "dur": 15.227,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It is a serious proposal, built on careful readings of ancient texts.",
      "tts": "It is a serious proposal, built on careful readings of ancient texts.",
      "start": 0.0,
-     "end": 4.706
+     "end": 5.071
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It is also new, and scholars are still weighing it.",
      "tts": "It is also new, and scholars are still weighing it.",
-     "start": 5.156,
-     "end": 8.645
+     "start": 5.521,
+     "end": 9.373
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Like Shisr before it, it shows how much depends on the evidence we choose to follow.",
      "tts": "Like Shisr before it, it shows how much depends on the evidence we choose to follow.",
-     "start": 9.095,
-     "end": 14.28
+     "start": 9.823,
+     "end": 15.227
     }
    ]
   },
   {
    "id": "6.05",
    "chapter": 6,
-   "start": 1121.747,
-   "dur": 3.044,
+   "start": 1150.04,
+   "dur": 2.524,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "So, what can we actually say?",
      "tts": "So, what can we actually say?",
      "start": 0.0,
-     "end": 3.044
+     "end": 2.524
     }
    ]
   },
   {
    "id": "6.06",
    "chapter": 6,
-   "start": 1125.391,
-   "dur": 14.537,
+   "start": 1153.164,
+   "dur": 15.112,
    "sentences": [
     {
      "i": 0,
-     "tts": "The Quran tells of a people named Aad; of their prophet, Hood; of their strength and their building; and of a wind that left only their dwellings.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The Quran tells of a people named ʿĀd; of their prophet, Hūd; of their strength and their building; and of a wind that left only their dwellings.",
+     "tts": "The Quran tells of a people named Aa-d; of their prophet, Hood; of their strength and their building; and of a wind that left only their dwellings.",
      "start": 0.0,
-     "end": 8.993
+     "end": 10.434
     },
     {
      "i": 1,
-     "tts": "It names Iram once, and calls it dhaat, al-Imaad.",
-     "start": 9.443,
-     "end": 14.537
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It names Iram once, and calls it dhāt al-ʿimād.",
+     "tts": "It names Ee-rahm once, and calls it dhaat, al-Ee-maad.",
+     "start": 10.884,
+     "end": 15.112
     }
    ]
   },
   {
    "id": "6.07",
    "chapter": 6,
-   "start": 1140.528,
-   "dur": 14.697,
+   "start": 1168.876,
+   "dur": 15.71,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The classical scholars recorded a debate.",
      "tts": "The classical scholars recorded a debate.",
      "start": 0.0,
-     "end": 2.221
+     "end": 2.591
     },
     {
      "i": 1,
-     "tts": "Two of the most influential, at-Tabari and Ibn Katheer, understood Iram as a tribe, and its imaad as the poles of tents.",
-     "start": 2.671,
-     "end": 11.52
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Two of the most influential, al-Ṭabarī and Ibn Kathīr, understood Iram as a tribe, and its ʿimād as the poles of tents.",
+     "tts": "Two of the most influential, al-Tabari and Ibn Katheer, understood Ee-rahm as a tribe, and its ee-maad as the poles of tents.",
+     "start": 3.041,
+     "end": 12.651
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And they rejected the legend of a golden city.",
      "tts": "And they rejected the legend of a golden city.",
-     "start": 11.97,
-     "end": 14.697
+     "start": 13.101,
+     "end": 15.71
     }
    ]
   },
   {
    "id": "6.08",
    "chapter": 6,
-   "start": 1155.825,
-   "dur": 14.508,
+   "start": 1185.186,
+   "dur": 16.443,
    "sentences": [
     {
      "i": 0,
-     "tts": "Archaeology has found real places: a caravan fortress at Shisr, frankincense ports on the coast, and, in the north, inscriptions that name both Iram and a tribe called Aad.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Archaeology has found real places: a caravan fortress at Shisr, frankincense ports on the coast, and, in the north, inscriptions that name both Iram and a tribe called ʿĀd.",
+     "tts": "Archaeology has found real places: a caravan fortress at Shisr, frankincense ports on the coast, and, in the north, inscriptions that name both Ee-rahm and a tribe called Aa-d.",
      "start": 0.0,
-     "end": 10.889
+     "end": 12.513
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "It has not found a city of a thousand pillars.",
      "tts": "It has not found a city of a thousand pillars.",
-     "start": 11.338,
-     "end": 14.508
+     "start": 12.963,
+     "end": 16.443
     }
    ]
   },
   {
    "id": "6.09",
    "chapter": 6,
-   "start": 1170.933,
-   "dur": 6.401,
+   "start": 1202.229,
+   "dur": 8.43,
    "sentences": [
     {
      "i": 0,
-     "tts": "And some things remain unknown: when Aad lived; exactly where; and what their pillars really were.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And some things remain unknown: when ʿĀd lived; exactly where; and what their pillars really were.",
+     "tts": "And some things remain unknown: when Aa-d lived; exactly where; and what their pillars really were.",
      "start": 0.0,
-     "end": 6.401
+     "end": 8.43
     }
    ]
   },
   {
    "id": "6.10",
    "chapter": 6,
-   "start": 1180.434,
-   "dur": 14.833,
+   "start": 1213.759,
+   "dur": 16.304,
    "sentences": [
     {
      "i": 0,
-     "tts": "Perhaps that is the real lesson of Iram.",
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "Perhaps that is the real lesson of Iram.",
+     "tts": "Perhaps that is the real lesson of Ee-rahm.",
      "start": 0.0,
-     "end": 2.138
+     "end": 3.284
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A people can survive in memory long after their stones are gone, or even if they never built in stone at all.",
      "tts": "A people can survive in memory long after their stones are gone, or even if they never built in stone at all.",
-     "start": 2.588,
-     "end": 8.818
+     "start": 3.734,
+     "end": 10.888
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "A few words in a sacred text have outlived empires, maps and explorers.",
      "tts": "A few words in a sacred text have outlived empires, maps and explorers.",
-     "start": 9.268,
-     "end": 14.833
+     "start": 11.338,
+     "end": 16.304
     }
    ]
   },
   {
    "id": "6.11",
    "chapter": 6,
-   "start": 1195.867,
-   "dur": 15.136,
+   "start": 1230.663,
+   "dur": 15.367,
    "sentences": [
     {
      "i": 0,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "The wind still moves across the sand, as it always has, erasing footprints by evening.",
      "tts": "The wind still moves across the sand, as it always has, erasing footprints by evening.",
      "start": 0.0,
-     "end": 6.237
+     "end": 6.0
     },
     {
      "i": 1,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "What remains is the question.",
      "tts": "What remains is the question.",
-     "start": 6.687,
-     "end": 8.637
+     "start": 6.45,
+     "end": 8.914
     },
     {
      "i": 2,
+     "lang": "en",
+     "profile": "english",
+     "engine": "voxcpm",
+     "display": "And the discipline to tell the difference between what we know, what we believe, and what we only imagine.",
      "tts": "And the discipline to tell the difference between what we know, what we believe, and what we only imagine.",
-     "start": 9.087,
-     "end": 15.136
+     "start": 9.364,
+     "end": 15.367
     }
    ]
   }
@@ -1860,7 +2736,7 @@
    "asset": "D01",
    "move": "par",
    "start": 0.0,
-   "end": 8.726,
+   "end": 8.863,
    "chapter": 0,
    "seg": "0.01",
    "opts": {
@@ -1872,8 +2748,8 @@
   {
    "asset": "D02",
    "move": "par",
-   "start": 8.726,
-   "end": 14.543,
+   "start": 8.863,
+   "end": 14.772,
    "chapter": 0,
    "seg": "0.01",
    "opts": {
@@ -1885,8 +2761,8 @@
   {
    "asset": "D10",
    "move": "parr",
-   "start": 14.543,
-   "end": 20.36,
+   "start": 14.772,
+   "end": 20.68,
    "chapter": 0,
    "seg": "0.01",
    "opts": {
@@ -1898,8 +2774,8 @@
   {
    "asset": "D09",
    "move": "in",
-   "start": 20.36,
-   "end": 25.596,
+   "start": 20.68,
+   "end": 25.998,
    "chapter": 0,
    "seg": "0.01",
    "opts": {
@@ -1911,8 +2787,8 @@
   {
    "asset": "D18",
    "move": "par",
-   "start": 25.596,
-   "end": 30.886,
+   "start": 25.998,
+   "end": 31.779,
    "chapter": 0,
    "seg": "0.02",
    "opts": {
@@ -1924,8 +2800,8 @@
   {
    "asset": "G_TITLE",
    "move": "gfx",
-   "start": 30.886,
-   "end": 36.705,
+   "start": 31.779,
+   "end": 38.138,
    "chapter": 0,
    "seg": "0.02",
    "opts": {
@@ -1937,8 +2813,8 @@
   {
    "asset": "G_CHAPTER",
    "move": "gfx",
-   "start": 36.705,
-   "end": 41.705,
+   "start": 38.138,
+   "end": 43.138,
    "chapter": 1,
    "opts": {
     "number": "ONE",
@@ -1952,8 +2828,8 @@
   {
    "asset": "PH_ASTER_RUB",
    "move": "down",
-   "start": 41.705,
-   "end": 47.898,
+   "start": 43.138,
+   "end": 48.817,
    "chapter": 1,
    "seg": "1.01",
    "opts": {
@@ -1965,8 +2841,8 @@
   {
    "asset": "M01",
    "move": "gfx",
-   "start": 47.898,
-   "end": 58.425,
+   "start": 48.817,
+   "end": 58.471,
    "chapter": 1,
    "seg": "1.01",
    "opts": {
@@ -1978,8 +2854,8 @@
   {
    "asset": "D04",
    "move": "par",
-   "start": 58.425,
-   "end": 64.618,
+   "start": 58.471,
+   "end": 64.15,
    "chapter": 1,
    "seg": "1.01",
    "opts": {
@@ -1991,8 +2867,8 @@
   {
    "asset": "E02",
    "move": "par",
-   "start": 64.618,
-   "end": 68.853,
+   "start": 64.15,
+   "end": 68.985,
    "chapter": 1,
    "seg": "1.02",
    "opts": {
@@ -2005,8 +2881,8 @@
   {
    "asset": "P06",
    "move": "parl",
-   "start": 68.853,
-   "end": 73.089,
+   "start": 68.985,
+   "end": 73.82,
    "chapter": 1,
    "seg": "1.02",
    "opts": {
@@ -2018,8 +2894,8 @@
   {
    "asset": "D11",
    "move": "par",
-   "start": 73.089,
-   "end": 82.754,
+   "start": 73.82,
+   "end": 83.488,
    "chapter": 1,
    "seg": "1.03",
    "opts": {
@@ -2031,8 +2907,8 @@
   {
    "asset": "G_Q89",
    "move": "gfx",
-   "start": 82.754,
-   "end": 91.993,
+   "start": 83.488,
+   "end": 92.926,
    "chapter": 1,
    "seg": "1.04",
    "opts": {
@@ -2044,8 +2920,8 @@
   {
    "asset": "G_IMAD",
    "move": "gfx",
-   "start": 91.993,
-   "end": 100.297,
+   "start": 92.926,
+   "end": 100.985,
    "chapter": 1,
    "seg": "1.05",
    "opts": {
@@ -2057,8 +2933,8 @@
   {
    "asset": "R02",
    "move": "par",
-   "start": 100.297,
-   "end": 105.142,
+   "start": 100.985,
+   "end": 105.687,
    "chapter": 1,
    "seg": "1.05",
    "opts": {
@@ -2070,8 +2946,8 @@
   {
    "asset": "R05",
    "move": "in",
-   "start": 105.142,
-   "end": 109.986,
+   "start": 105.687,
+   "end": 110.388,
    "chapter": 1,
    "seg": "1.05",
    "opts": {
@@ -2084,8 +2960,8 @@
   {
    "asset": "L01",
    "move": "in",
-   "start": 109.986,
-   "end": 114.723,
+   "start": 110.388,
+   "end": 115.54,
    "chapter": 1,
    "seg": "1.06",
    "opts": {
@@ -2097,8 +2973,8 @@
   {
    "asset": "R03",
    "move": "par",
-   "start": 114.723,
-   "end": 119.459,
+   "start": 115.54,
+   "end": 120.691,
    "chapter": 1,
    "seg": "1.06",
    "opts": {
@@ -2110,8 +2986,8 @@
   {
    "asset": "E01",
    "move": "left",
-   "start": 119.459,
-   "end": 124.196,
+   "start": 120.691,
+   "end": 125.843,
    "chapter": 1,
    "seg": "1.06",
    "opts": {
@@ -2123,8 +2999,8 @@
   {
    "asset": "NASA_PIA01302",
    "move": "in",
-   "start": 124.196,
-   "end": 128.933,
+   "start": 125.843,
+   "end": 130.995,
    "chapter": 1,
    "seg": "1.06",
    "opts": {
@@ -2136,8 +3012,8 @@
   {
    "asset": "G_QUESTIONS",
    "move": "gfx",
-   "start": 128.933,
-   "end": 141.29,
+   "start": 130.995,
+   "end": 144.369,
    "chapter": 1,
    "seg": "1.07",
    "opts": {
@@ -2149,8 +3025,8 @@
   {
    "asset": "G_EVIDENCE_KEY",
    "move": "gfx",
-   "start": 141.29,
-   "end": 158.393,
+   "start": 144.369,
+   "end": 159.761,
    "chapter": 1,
    "seg": "1.08",
    "opts": {
@@ -2162,8 +3038,8 @@
   {
    "asset": "G_CHAPTER",
    "move": "gfx",
-   "start": 158.393,
-   "end": 163.393,
+   "start": 159.761,
+   "end": 164.761,
    "chapter": 2,
    "opts": {
     "number": "TWO",
@@ -2177,8 +3053,8 @@
   {
    "asset": "G_COUNT",
    "move": "gfx",
-   "start": 163.393,
-   "end": 169.524,
+   "start": 164.761,
+   "end": 172.443,
    "chapter": 2,
    "seg": "2.01",
    "opts": {
@@ -2190,8 +3066,8 @@
   {
    "asset": "D12",
    "move": "par",
-   "start": 169.524,
-   "end": 180.678,
+   "start": 172.443,
+   "end": 183.584,
    "chapter": 2,
    "seg": "2.02",
    "opts": {
@@ -2203,8 +3079,8 @@
   {
    "asset": "P01",
    "move": "par",
-   "start": 180.678,
-   "end": 186.846,
+   "start": 183.584,
+   "end": 189.508,
    "chapter": 2,
    "seg": "2.03",
    "opts": {
@@ -2218,8 +3094,8 @@
   {
    "asset": "P02",
    "move": "parr",
-   "start": 186.846,
-   "end": 193.013,
+   "start": 189.508,
+   "end": 195.433,
    "chapter": 2,
    "seg": "2.03",
    "opts": {
@@ -2232,8 +3108,8 @@
   {
    "asset": "P03",
    "move": "in",
-   "start": 193.013,
-   "end": 199.181,
+   "start": 195.433,
+   "end": 201.357,
    "chapter": 2,
    "seg": "2.03",
    "opts": {
@@ -2247,8 +3123,8 @@
   {
    "asset": "P04",
    "move": "par",
-   "start": 199.181,
-   "end": 203.86,
+   "start": 201.357,
+   "end": 206.458,
    "chapter": 2,
    "seg": "2.04",
    "opts": {
@@ -2261,8 +3137,8 @@
   {
    "asset": "P05",
    "move": "parl",
-   "start": 203.86,
-   "end": 208.539,
+   "start": 206.458,
+   "end": 211.56,
    "chapter": 2,
    "seg": "2.04",
    "opts": {
@@ -2275,8 +3151,8 @@
   {
    "asset": "P07",
    "move": "in",
-   "start": 208.539,
-   "end": 211.814,
+   "start": 211.56,
+   "end": 215.131,
    "chapter": 2,
    "seg": "2.04",
    "opts": {
@@ -2288,8 +3164,8 @@
   {
    "asset": "P05",
    "move": "out",
-   "start": 211.814,
-   "end": 218.543,
+   "start": 215.131,
+   "end": 222.332,
    "chapter": 2,
    "seg": "2.05",
    "opts": {
@@ -2302,8 +3178,8 @@
   {
    "asset": "D09",
    "move": "par",
-   "start": 218.543,
-   "end": 223.742,
+   "start": 222.332,
+   "end": 227.712,
    "chapter": 2,
    "seg": "2.06",
    "opts": {
@@ -2316,8 +3192,8 @@
   {
    "asset": "NASA_EMPTYQ",
    "move": "in",
-   "start": 223.742,
-   "end": 228.941,
+   "start": 227.712,
+   "end": 233.092,
    "chapter": 2,
    "seg": "2.06",
    "opts": {
@@ -2329,8 +3205,8 @@
   {
    "asset": "K02",
    "move": "out",
-   "start": 228.941,
-   "end": 235.957,
+   "start": 233.092,
+   "end": 240.452,
    "chapter": 2,
    "seg": "2.07",
    "opts": {
@@ -2342,8 +3218,8 @@
   {
    "asset": "M03",
    "move": "gfx",
-   "start": 235.957,
-   "end": 249.99,
+   "start": 240.452,
+   "end": 255.172,
    "chapter": 2,
    "seg": "2.07",
    "opts": {
@@ -2355,8 +3231,8 @@
   {
    "asset": "P09",
    "move": "par",
-   "start": 249.99,
-   "end": 261.936,
+   "start": 255.172,
+   "end": 266.013,
    "chapter": 2,
    "seg": "2.08",
    "opts": {
@@ -2368,8 +3244,8 @@
   {
    "asset": "D16",
    "move": "par",
-   "start": 261.936,
-   "end": 268.294,
+   "start": 266.013,
+   "end": 272.36,
    "chapter": 2,
    "seg": "2.09",
    "opts": {
@@ -2381,8 +3257,8 @@
   {
    "asset": "D19",
    "move": "right",
-   "start": 268.294,
-   "end": 274.652,
+   "start": 272.36,
+   "end": 278.707,
    "chapter": 2,
    "seg": "2.09",
    "opts": {
@@ -2394,8 +3270,8 @@
   {
    "asset": "P06",
    "move": "out",
-   "start": 274.652,
-   "end": 286.868,
+   "start": 278.707,
+   "end": 290.5,
    "chapter": 2,
    "seg": "2.10",
    "opts": {
@@ -2407,8 +3283,8 @@
   {
    "asset": "G_CHAPTER",
    "move": "gfx",
-   "start": 286.86800000000005,
-   "end": 291.86800000000005,
+   "start": 290.5,
+   "end": 295.5,
    "chapter": 3,
    "opts": {
     "number": "THREE",
@@ -2422,8 +3298,8 @@
   {
    "asset": "G_TRANSLATIONS",
    "move": "gfx",
-   "start": 291.868,
-   "end": 318.876,
+   "start": 295.5,
+   "end": 323.559,
    "chapter": 3,
    "seg": "3.01",
    "opts": {
@@ -2435,8 +3311,8 @@
   {
    "asset": "K02",
    "move": "par",
-   "start": 318.876,
-   "end": 323.713,
+   "start": 323.559,
+   "end": 328.422,
    "chapter": 3,
    "seg": "3.02",
    "opts": {
@@ -2448,8 +3324,8 @@
   {
    "asset": "G_OPINIONS_IRAM",
    "move": "gfx",
-   "start": 323.713,
-   "end": 348.955,
+   "start": 328.422,
+   "end": 351.78,
    "chapter": 3,
    "seg": "3.03",
    "opts": {
@@ -2461,8 +3337,8 @@
   {
    "asset": "G_OPINIONS_IRAM",
    "move": "gfx",
-   "start": 348.955,
-   "end": 354.385,
+   "start": 351.78,
+   "end": 357.447,
    "chapter": 3,
    "seg": "3.04",
    "opts": {
@@ -2475,8 +3351,8 @@
   {
    "asset": "R02",
    "move": "par",
-   "start": 354.385,
-   "end": 358.263,
+   "start": 357.447,
+   "end": 361.495,
    "chapter": 3,
    "seg": "3.04",
    "opts": {
@@ -2488,8 +3364,8 @@
   {
    "asset": "G_OPINIONS_IMAD",
    "move": "gfx",
-   "start": 358.263,
-   "end": 370.68,
+   "start": 361.495,
+   "end": 375.76,
    "chapter": 3,
    "seg": "3.05",
    "opts": {
@@ -2501,8 +3377,8 @@
   {
    "asset": "R04",
    "move": "par",
-   "start": 370.68,
-   "end": 381.969,
+   "start": 375.76,
+   "end": 388.728,
    "chapter": 3,
    "seg": "3.05",
    "opts": {
@@ -2515,8 +3391,8 @@
   {
    "asset": "G_TABARI_QUOTE",
    "move": "gfx",
-   "start": 381.969,
-   "end": 392.784,
+   "start": 388.728,
+   "end": 405.952,
    "chapter": 3,
    "seg": "3.06",
    "opts": {
@@ -2528,8 +3404,8 @@
   {
    "asset": "G_IBNKATHIR_QUOTE",
    "move": "gfx",
-   "start": 392.784,
-   "end": 403.136,
+   "start": 405.952,
+   "end": 419.122,
    "chapter": 3,
    "seg": "3.07",
    "opts": {
@@ -2541,8 +3417,8 @@
   {
    "asset": "R06",
    "move": "left",
-   "start": 403.136,
-   "end": 409.347,
+   "start": 419.122,
+   "end": 427.024,
    "chapter": 3,
    "seg": "3.07",
    "opts": {
@@ -2555,8 +3431,8 @@
   {
    "asset": "L01",
    "move": "par",
-   "start": 409.347,
-   "end": 424.576,
+   "start": 427.024,
+   "end": 441.298,
    "chapter": 3,
    "seg": "3.08",
    "opts": {
@@ -2568,8 +3444,8 @@
   {
    "asset": "D13",
    "move": "in",
-   "start": 424.576,
-   "end": 439.805,
+   "start": 441.298,
+   "end": 455.573,
    "chapter": 3,
    "seg": "3.08",
    "opts": {
@@ -2581,8 +3457,8 @@
   {
    "asset": "L01",
    "move": "in",
-   "start": 439.805,
-   "end": 449.135,
+   "start": 455.573,
+   "end": 464.289,
    "chapter": 3,
    "seg": "3.09",
    "opts": {
@@ -2594,8 +3470,8 @@
   {
    "asset": "D05",
    "move": "drift",
-   "start": 449.135,
-   "end": 455.666,
+   "start": 464.289,
+   "end": 470.391,
    "chapter": 3,
    "seg": "3.09",
    "opts": {
@@ -2607,8 +3483,8 @@
   {
    "asset": "G_IBNKATHIR_REJECT",
    "move": "gfx",
-   "start": 455.666,
-   "end": 469.43,
+   "start": 470.391,
+   "end": 493.773,
    "chapter": 3,
    "seg": "3.10",
    "opts": {
@@ -2620,8 +3496,8 @@
   {
    "asset": "K02",
    "move": "in",
-   "start": 469.43,
-   "end": 477.741,
+   "start": 493.773,
+   "end": 501.875,
    "chapter": 3,
    "seg": "3.11",
    "opts": {
@@ -2633,8 +3509,8 @@
   {
    "asset": "R02",
    "move": "par",
-   "start": 477.741,
-   "end": 483.581,
+   "start": 501.875,
+   "end": 508.932,
    "chapter": 3,
    "seg": "3.12",
    "opts": {
@@ -2646,8 +3522,8 @@
   {
    "asset": "B02_V2",
    "move": "up",
-   "start": 483.581,
-   "end": 489.42,
+   "start": 508.932,
+   "end": 515.989,
    "chapter": 3,
    "seg": "3.12",
    "opts": {
@@ -2659,8 +3535,8 @@
   {
    "asset": "R03",
    "move": "in",
-   "start": 489.42,
-   "end": 495.26,
+   "start": 515.989,
+   "end": 523.046,
    "chapter": 3,
    "seg": "3.12",
    "opts": {
@@ -2672,8 +3548,8 @@
   {
    "asset": "R04",
    "move": "par",
-   "start": 495.26,
-   "end": 500.642,
+   "start": 523.046,
+   "end": 528.828,
    "chapter": 3,
    "seg": "3.13",
    "opts": {
@@ -2687,8 +3563,8 @@
   {
    "asset": "R05",
    "move": "in",
-   "start": 500.642,
-   "end": 504.947,
+   "start": 528.828,
+   "end": 533.454,
    "chapter": 3,
    "seg": "3.13",
    "opts": {
@@ -2700,8 +3576,8 @@
   {
    "asset": "R06",
    "move": "right",
-   "start": 504.947,
-   "end": 510.329,
+   "start": 533.454,
+   "end": 539.237,
    "chapter": 3,
    "seg": "3.13",
    "opts": {
@@ -2714,8 +3590,8 @@
   {
    "asset": "D16",
    "move": "par",
-   "start": 510.329,
-   "end": 523.408,
+   "start": 539.237,
+   "end": 552.919,
    "chapter": 3,
    "seg": "3.14",
    "opts": {
@@ -2727,8 +3603,8 @@
   {
    "asset": "G_CHAPTER",
    "move": "gfx",
-   "start": 523.408,
-   "end": 528.408,
+   "start": 552.919,
+   "end": 557.919,
    "chapter": 4,
    "opts": {
     "number": "FOUR",
@@ -2742,8 +3618,8 @@
   {
    "asset": "NASA_ISS_DUNES",
    "move": "in",
-   "start": 528.408,
-   "end": 533.735,
+   "start": 557.919,
+   "end": 563.204,
    "chapter": 4,
    "seg": "4.01",
    "opts": {
@@ -2755,8 +3631,8 @@
   {
    "asset": "PH_THOMAS_BEDU",
    "move": "in",
-   "start": 533.735,
-   "end": 541.749,
+   "start": 563.204,
+   "end": 571.616,
    "chapter": 4,
    "seg": "4.02",
    "opts": {
@@ -2768,8 +3644,8 @@
   {
    "asset": "E01",
    "move": "left",
-   "start": 541.749,
-   "end": 548.428,
+   "start": 571.616,
+   "end": 578.626,
    "chapter": 4,
    "seg": "4.02",
    "opts": {
@@ -2782,8 +3658,8 @@
   {
    "asset": "D13",
    "move": "par",
-   "start": 548.428,
-   "end": 555.106,
+   "start": 578.626,
+   "end": 585.636,
    "chapter": 4,
    "seg": "4.02",
    "opts": {
@@ -2795,8 +3671,8 @@
   {
    "asset": "G_THOMAS_QUOTE",
    "move": "gfx",
-   "start": 555.106,
-   "end": 565.543,
+   "start": 585.636,
+   "end": 595.305,
    "chapter": 4,
    "seg": "4.03",
    "opts": {
@@ -2808,8 +3684,8 @@
   {
    "asset": "D18",
    "move": "par",
-   "start": 565.543,
-   "end": 572.37,
+   "start": 595.305,
+   "end": 602.139,
    "chapter": 4,
    "seg": "4.04",
    "opts": {
@@ -2821,8 +3697,8 @@
   {
    "asset": "D04",
    "move": "right",
-   "start": 572.37,
-   "end": 579.197,
+   "start": 602.139,
+   "end": 608.973,
    "chapter": 4,
    "seg": "4.04",
    "opts": {
@@ -2834,8 +3710,8 @@
   {
    "asset": "M05",
    "move": "gfx",
-   "start": 579.197,
-   "end": 589.911,
+   "start": 608.973,
+   "end": 619.8,
    "chapter": 4,
    "seg": "4.05",
    "opts": {
@@ -2847,8 +3723,8 @@
   {
    "asset": "PH_ASTER_DUNES",
    "move": "in",
-   "start": 589.911,
-   "end": 600.626,
+   "start": 619.8,
+   "end": 630.628,
    "chapter": 4,
    "seg": "4.05",
    "opts": {
@@ -2860,8 +3736,8 @@
   {
    "asset": "PH_WABAR",
    "move": "in",
-   "start": 600.626,
-   "end": 609.276,
+   "start": 630.628,
+   "end": 638.74,
    "chapter": 4,
    "seg": "4.06",
    "opts": {
@@ -2873,8 +3749,8 @@
   {
    "asset": "PH_WABAR_IRON",
    "move": "drift",
-   "start": 609.276,
-   "end": 617.926,
+   "start": 638.74,
+   "end": 646.852,
    "chapter": 4,
    "seg": "4.06",
    "opts": {
@@ -2886,8 +3762,8 @@
   {
    "asset": "PH_WABAR2",
    "move": "in",
-   "start": 617.926,
-   "end": 624.846,
+   "start": 646.852,
+   "end": 653.342,
    "chapter": 4,
    "seg": "4.06",
    "opts": {
@@ -2899,8 +3775,8 @@
   {
    "asset": "E04",
    "move": "up",
-   "start": 624.846,
-   "end": 631.519,
+   "start": 653.342,
+   "end": 659.79,
    "chapter": 4,
    "seg": "4.07",
    "opts": {
@@ -2912,8 +3788,8 @@
   {
    "asset": "PH_BOSW1",
    "move": "in",
-   "start": 631.519,
-   "end": 638.193,
+   "start": 659.79,
+   "end": 666.239,
    "chapter": 4,
    "seg": "4.07",
    "opts": {
@@ -2925,8 +3801,8 @@
   {
    "asset": "PH_BARK",
    "move": "in",
-   "start": 638.193,
-   "end": 644.866,
+   "start": 666.239,
+   "end": 672.687,
    "chapter": 4,
    "seg": "4.07",
    "opts": {
@@ -2938,8 +3814,8 @@
   {
    "asset": "E06",
    "move": "par",
-   "start": 644.866,
-   "end": 654.894,
+   "start": 672.687,
+   "end": 681.534,
    "chapter": 4,
    "seg": "4.08",
    "opts": {
@@ -2952,8 +3828,8 @@
   {
    "asset": "E05",
    "move": "par",
-   "start": 654.894,
-   "end": 664.923,
+   "start": 681.534,
+   "end": 690.38,
    "chapter": 4,
    "seg": "4.08",
    "opts": {
@@ -2966,8 +3842,8 @@
   {
    "asset": "NASA_SALALAH",
    "move": "in",
-   "start": 664.923,
-   "end": 669.117,
+   "start": 690.38,
+   "end": 694.547,
    "chapter": 4,
    "seg": "4.09",
    "opts": {
@@ -2979,8 +3855,8 @@
   {
    "asset": "M06",
    "move": "gfx",
-   "start": 669.117,
-   "end": 675.409,
+   "start": 694.547,
+   "end": 700.798,
    "chapter": 4,
    "seg": "4.09",
    "opts": {
@@ -2992,8 +3868,8 @@
   {
    "asset": "M07",
    "move": "gfx",
-   "start": 675.409,
-   "end": 683.273,
+   "start": 700.798,
+   "end": 708.611,
    "chapter": 4,
    "seg": "4.09",
    "opts": {
@@ -3005,8 +3881,8 @@
   {
    "asset": "E10",
    "move": "drift",
-   "start": 683.273,
-   "end": 693.388,
+   "start": 708.611,
+   "end": 718.728,
    "chapter": 4,
    "seg": "4.10",
    "opts": {
@@ -3018,8 +3894,8 @@
   {
    "asset": "D08",
    "move": "par",
-   "start": 693.388,
-   "end": 703.503,
+   "start": 718.728,
+   "end": 728.845,
    "chapter": 4,
    "seg": "4.10",
    "opts": {
@@ -3031,8 +3907,8 @@
   {
    "asset": "NASA_PIA01302",
    "move": "right",
-   "start": 703.503,
-   "end": 710.845,
+   "start": 728.845,
+   "end": 735.593,
    "chapter": 4,
    "seg": "4.11",
    "opts": {
@@ -3044,8 +3920,8 @@
   {
    "asset": "NASA_STS59",
    "move": "up",
-   "start": 710.845,
-   "end": 716.718,
+   "start": 735.593,
+   "end": 740.991,
    "chapter": 4,
    "seg": "4.11",
    "opts": {
@@ -3057,8 +3933,8 @@
   {
    "asset": "NASA_PIA01721",
    "move": "down",
-   "start": 716.718,
-   "end": 727.731,
+   "start": 740.991,
+   "end": 751.112,
    "chapter": 4,
    "seg": "4.11",
    "opts": {
@@ -3070,8 +3946,8 @@
   {
    "asset": "PH_ROAD_UBAR",
    "move": "in",
-   "start": 727.731,
-   "end": 734.276,
+   "start": 751.112,
+   "end": 757.332,
    "chapter": 4,
    "seg": "4.12",
    "opts": {
@@ -3083,8 +3959,8 @@
   {
    "asset": "PH_SHISR1",
    "move": "par",
-   "start": 734.276,
-   "end": 740.822,
+   "start": 757.332,
+   "end": 763.552,
    "chapter": 4,
    "seg": "4.12",
    "opts": {
@@ -3096,8 +3972,8 @@
   {
    "asset": "E08",
    "move": "par",
-   "start": 740.822,
-   "end": 746.378,
+   "start": 763.552,
+   "end": 769.001,
    "chapter": 4,
    "seg": "4.13",
    "opts": {
@@ -3109,8 +3985,8 @@
   {
    "asset": "PH_SHISR2",
    "move": "in",
-   "start": 746.378,
-   "end": 753.324,
+   "start": 769.001,
+   "end": 775.812,
    "chapter": 4,
    "seg": "4.13",
    "opts": {
@@ -3123,8 +3999,8 @@
   {
    "asset": "PH_SHISR_WELL",
    "move": "up",
-   "start": 753.324,
-   "end": 760.269,
+   "start": 775.812,
+   "end": 782.624,
    "chapter": 4,
    "seg": "4.13",
    "opts": {
@@ -3137,8 +4013,8 @@
   {
    "asset": "B03",
    "move": "in",
-   "start": 760.269,
-   "end": 768.604,
+   "start": 782.624,
+   "end": 790.797,
    "chapter": 4,
    "seg": "4.13",
    "opts": {
@@ -3151,8 +4027,8 @@
   {
    "asset": "G_HEADLINE",
    "move": "gfx",
-   "start": 768.604,
-   "end": 777.393,
+   "start": 790.797,
+   "end": 799.6,
    "chapter": 4,
    "seg": "4.14",
    "opts": {
@@ -3164,8 +4040,8 @@
   {
    "asset": "G_ZARINS_QUOTE",
    "move": "gfx",
-   "start": 777.393,
-   "end": 791.073,
+   "start": 799.6,
+   "end": 811.619,
    "chapter": 4,
    "seg": "4.15",
    "opts": {
@@ -3177,8 +4053,8 @@
   {
    "asset": "E07",
    "move": "par",
-   "start": 791.073,
-   "end": 804.753,
+   "start": 811.619,
+   "end": 823.637,
    "chapter": 4,
    "seg": "4.15",
    "opts": {
@@ -3191,8 +4067,8 @@
   {
    "asset": "G_EDGELL",
    "move": "gfx",
-   "start": 804.753,
-   "end": 812.372,
+   "start": 823.637,
+   "end": 831.804,
    "chapter": 4,
    "seg": "4.16",
    "opts": {
@@ -3204,8 +4080,8 @@
   {
    "asset": "PH_SHISR_RUIN",
    "move": "par",
-   "start": 812.372,
-   "end": 819.991,
+   "start": 831.804,
+   "end": 839.97,
    "chapter": 4,
    "seg": "4.16",
    "opts": {
@@ -3217,8 +4093,8 @@
   {
    "asset": "PH_DAWKAH",
    "move": "par",
-   "start": 819.991,
-   "end": 828.448,
+   "start": 839.97,
+   "end": 848.766,
    "chapter": 4,
    "seg": "4.17",
    "opts": {
@@ -3231,8 +4107,8 @@
   {
    "asset": "PH_BALEED",
    "move": "right",
-   "start": 828.448,
-   "end": 836.905,
+   "start": 848.766,
+   "end": 857.561,
    "chapter": 4,
    "seg": "4.17",
    "opts": {
@@ -3245,8 +4121,8 @@
   {
    "asset": "NASA_PIA01721",
    "move": "in",
-   "start": 836.905,
-   "end": 844.893,
+   "start": 857.561,
+   "end": 865.986,
    "chapter": 4,
    "seg": "4.18",
    "opts": {
@@ -3258,8 +4134,8 @@
   {
    "asset": "PH_SHISR1",
    "move": "out",
-   "start": 844.893,
-   "end": 852.881,
+   "start": 865.986,
+   "end": 874.41,
    "chapter": 4,
    "seg": "4.18",
    "opts": {
@@ -3271,8 +4147,8 @@
   {
    "asset": "G_THREE_TIERS",
    "move": "gfx",
-   "start": 852.881,
-   "end": 874.522,
+   "start": 874.41,
+   "end": 897.682,
    "chapter": 4,
    "seg": "4.19",
    "opts": {
@@ -3284,8 +4160,8 @@
   {
    "asset": "G_CHAPTER",
    "move": "gfx",
-   "start": 874.5219999999999,
-   "end": 879.5219999999999,
+   "start": 897.6820000000002,
+   "end": 902.6820000000002,
    "chapter": 5,
    "opts": {
     "number": "FIVE",
@@ -3299,8 +4175,8 @@
   {
    "asset": "D14",
    "move": "par",
-   "start": 879.522,
-   "end": 890.582,
+   "start": 902.682,
+   "end": 912.403,
    "chapter": 5,
    "seg": "5.01",
    "opts": {
@@ -3313,8 +4189,8 @@
   {
    "asset": "G_Q46",
    "move": "gfx",
-   "start": 890.582,
-   "end": 903.583,
+   "start": 912.403,
+   "end": 925.845,
    "chapter": 5,
    "seg": "5.02",
    "opts": {
@@ -3326,8 +4202,8 @@
   {
    "asset": "D15",
    "move": "par",
-   "start": 903.583,
-   "end": 914.417,
+   "start": 925.845,
+   "end": 937.047,
    "chapter": 5,
    "seg": "5.02",
    "opts": {
@@ -3340,8 +4216,8 @@
   {
    "asset": "D06",
    "move": "in",
-   "start": 914.417,
-   "end": 923.288,
+   "start": 937.047,
+   "end": 945.541,
    "chapter": 5,
    "seg": "5.03",
    "opts": {
@@ -3355,8 +4231,8 @@
   {
    "asset": "D16",
    "move": "par",
-   "start": 923.288,
-   "end": 932.159,
+   "start": 945.541,
+   "end": 954.035,
    "chapter": 5,
    "seg": "5.03",
    "opts": {
@@ -3368,8 +4244,8 @@
   {
    "asset": "G_HADITH_AISHA",
    "move": "gfx",
-   "start": 932.159,
-   "end": 945.06,
+   "start": 954.035,
+   "end": 966.239,
    "chapter": 5,
    "seg": "5.04",
    "opts": {
@@ -3381,8 +4257,8 @@
   {
    "asset": "D14",
    "move": "drift",
-   "start": 945.06,
-   "end": 952.8,
+   "start": 966.239,
+   "end": 973.561,
    "chapter": 5,
    "seg": "5.04",
    "opts": {
@@ -3394,8 +4270,8 @@
   {
    "asset": "G_HADITH_SABA",
    "move": "gfx",
-   "start": 952.8,
-   "end": 963.734,
+   "start": 973.561,
+   "end": 989.766,
    "chapter": 5,
    "seg": "5.05",
    "opts": {
@@ -3407,8 +4283,8 @@
   {
    "asset": "G_SCIENCE_DIVIDER",
    "move": "gfx",
-   "start": 963.734,
-   "end": 972.432,
+   "start": 989.766,
+   "end": 998.563,
    "chapter": 5,
    "seg": "5.06",
    "opts": {
@@ -3420,8 +4296,8 @@
   {
    "asset": "S01",
    "move": "par",
-   "start": 972.432,
-   "end": 981.174,
+   "start": 998.563,
+   "end": 1007.223,
    "chapter": 5,
    "seg": "5.07",
    "opts": {
@@ -3434,8 +4310,8 @@
   {
    "asset": "G_HOLOCENE",
    "move": "gfx",
-   "start": 981.174,
-   "end": 991.665,
+   "start": 1007.223,
+   "end": 1017.614,
    "chapter": 5,
    "seg": "5.07",
    "opts": {
@@ -3447,8 +4323,8 @@
   {
    "asset": "S03",
    "move": "par",
-   "start": 991.665,
-   "end": 1000.144,
+   "start": 1017.614,
+   "end": 1025.486,
    "chapter": 5,
    "seg": "5.08",
    "opts": {
@@ -3462,8 +4338,8 @@
   {
    "asset": "S04",
    "move": "right",
-   "start": 1000.144,
-   "end": 1008.623,
+   "start": 1025.486,
+   "end": 1033.357,
    "chapter": 5,
    "seg": "5.08",
    "opts": {
@@ -3475,8 +4351,8 @@
   {
    "asset": "P08",
    "move": "par",
-   "start": 1008.623,
-   "end": 1013.697,
+   "start": 1033.357,
+   "end": 1038.501,
    "chapter": 5,
    "seg": "5.09",
    "opts": {
@@ -3489,8 +4365,8 @@
   {
    "asset": "D07",
    "move": "in",
-   "start": 1013.697,
-   "end": 1018.772,
+   "start": 1038.501,
+   "end": 1043.644,
    "chapter": 5,
    "seg": "5.09",
    "opts": {
@@ -3502,8 +4378,8 @@
   {
    "asset": "D16",
    "move": "drift",
-   "start": 1018.772,
-   "end": 1033.447,
+   "start": 1043.644,
+   "end": 1058.631,
    "chapter": 5,
    "seg": "5.10",
    "opts": {
@@ -3515,8 +4391,8 @@
   {
    "asset": "B03",
    "move": "out",
-   "start": 1033.447,
-   "end": 1045.187,
+   "start": 1058.631,
+   "end": 1070.621,
    "chapter": 5,
    "seg": "5.10",
    "opts": {
@@ -3528,8 +4404,8 @@
   {
    "asset": "D19",
    "move": "par",
-   "start": 1045.187,
-   "end": 1055.406,
+   "start": 1070.621,
+   "end": 1082.076,
    "chapter": 5,
    "seg": "5.11",
    "opts": {
@@ -3541,8 +4417,8 @@
   {
    "asset": "G_CHAPTER",
    "move": "gfx",
-   "start": 1055.4059999999997,
-   "end": 1060.4059999999997,
+   "start": 1082.0760000000005,
+   "end": 1087.0760000000005,
    "chapter": 6,
    "opts": {
     "number": "SIX",
@@ -3556,8 +4432,8 @@
   {
    "asset": "M09",
    "move": "gfx",
-   "start": 1060.406,
-   "end": 1064.44,
+   "start": 1087.076,
+   "end": 1091.08,
    "chapter": 6,
    "seg": "6.01",
    "opts": {
@@ -3570,8 +4446,8 @@
   {
    "asset": "NASA_WADIRUM",
    "move": "in",
-   "start": 1064.44,
-   "end": 1067.668,
+   "start": 1091.08,
+   "end": 1094.284,
    "chapter": 6,
    "seg": "6.01",
    "opts": {
@@ -3583,8 +4459,8 @@
   {
    "asset": "PH_RUM1",
    "move": "par",
-   "start": 1067.668,
-   "end": 1074.84,
+   "start": 1094.284,
+   "end": 1101.617,
    "chapter": 6,
    "seg": "6.02",
    "opts": {
@@ -3596,8 +4472,8 @@
   {
    "asset": "PH_RUM2",
    "move": "right",
-   "start": 1074.84,
-   "end": 1082.011,
+   "start": 1101.617,
+   "end": 1108.951,
    "chapter": 6,
    "seg": "6.02",
    "opts": {
@@ -3609,8 +4485,8 @@
   {
    "asset": "D20",
    "move": "par",
-   "start": 1082.011,
-   "end": 1089.183,
+   "start": 1108.951,
+   "end": 1116.284,
    "chapter": 6,
    "seg": "6.02",
    "opts": {
@@ -3622,8 +4498,8 @@
   {
    "asset": "G_ALJALLAD",
    "move": "gfx",
-   "start": 1089.183,
-   "end": 1097.025,
+   "start": 1116.284,
+   "end": 1124.249,
    "chapter": 6,
    "seg": "6.03",
    "opts": {
@@ -3635,8 +4511,8 @@
   {
    "asset": "PH_RUM3",
    "move": "in",
-   "start": 1097.025,
-   "end": 1104.867,
+   "start": 1124.249,
+   "end": 1132.213,
    "chapter": 6,
    "seg": "6.03",
    "opts": {
@@ -3648,8 +4524,8 @@
   {
    "asset": "PH_RUM4",
    "move": "par",
-   "start": 1104.867,
-   "end": 1113.307,
+   "start": 1132.213,
+   "end": 1141.127,
    "chapter": 6,
    "seg": "6.04",
    "opts": {
@@ -3661,8 +4537,8 @@
   {
    "asset": "M09",
    "move": "gfx",
-   "start": 1113.307,
-   "end": 1121.747,
+   "start": 1141.127,
+   "end": 1150.04,
    "chapter": 6,
    "seg": "6.04",
    "opts": {
@@ -3675,8 +4551,8 @@
   {
    "asset": "G_SUMMARY",
    "move": "gfx",
-   "start": 1121.747,
-   "end": 1125.391,
+   "start": 1150.04,
+   "end": 1153.164,
    "chapter": 6,
    "seg": "6.05",
    "opts": {
@@ -3689,8 +4565,8 @@
   {
    "asset": "G_SUMMARY",
    "move": "gfx",
-   "start": 1125.391,
-   "end": 1133.8,
+   "start": 1153.164,
+   "end": 1161.893,
    "chapter": 6,
    "seg": "6.06",
    "opts": {
@@ -3703,8 +4579,8 @@
   {
    "asset": "D11",
    "move": "par",
-   "start": 1133.8,
-   "end": 1140.528,
+   "start": 1161.893,
+   "end": 1168.876,
    "chapter": 6,
    "seg": "6.06",
    "opts": {
@@ -3716,8 +4592,8 @@
   {
    "asset": "G_SUMMARY",
    "move": "gfx",
-   "start": 1140.528,
-   "end": 1149.026,
+   "start": 1168.876,
+   "end": 1177.937,
    "chapter": 6,
    "seg": "6.07",
    "opts": {
@@ -3730,8 +4606,8 @@
   {
    "asset": "R04",
    "move": "par",
-   "start": 1149.026,
-   "end": 1155.825,
+   "start": 1177.937,
+   "end": 1185.186,
    "chapter": 6,
    "seg": "6.07",
    "opts": {
@@ -3743,8 +4619,8 @@
   {
    "asset": "G_SUMMARY",
    "move": "gfx",
-   "start": 1155.825,
-   "end": 1161.636,
+   "start": 1185.186,
+   "end": 1191.741,
    "chapter": 6,
    "seg": "6.08",
    "opts": {
@@ -3757,8 +4633,8 @@
   {
    "asset": "PH_SHISR1",
    "move": "in",
-   "start": 1161.636,
-   "end": 1166.284,
+   "start": 1191.741,
+   "end": 1196.985,
    "chapter": 6,
    "seg": "6.08",
    "opts": {
@@ -3770,8 +4646,8 @@
   {
    "asset": "PH_RUM1",
    "move": "out",
-   "start": 1166.284,
-   "end": 1170.933,
+   "start": 1196.985,
+   "end": 1202.229,
    "chapter": 6,
    "seg": "6.08",
    "opts": {
@@ -3783,8 +4659,8 @@
   {
    "asset": "G_SUMMARY",
    "move": "gfx",
-   "start": 1170.933,
-   "end": 1175.683,
+   "start": 1202.229,
+   "end": 1207.994,
    "chapter": 6,
    "seg": "6.09",
    "opts": {
@@ -3797,8 +4673,8 @@
   {
    "asset": "D05",
    "move": "drift",
-   "start": 1175.683,
-   "end": 1180.434,
+   "start": 1207.994,
+   "end": 1213.759,
    "chapter": 6,
    "seg": "6.09",
    "opts": {
@@ -3810,8 +4686,8 @@
   {
    "asset": "R04",
    "move": "par",
-   "start": 1180.434,
-   "end": 1188.15,
+   "start": 1213.759,
+   "end": 1222.211,
    "chapter": 6,
    "seg": "6.10",
    "opts": {
@@ -3823,8 +4699,8 @@
   {
    "asset": "B02_V3",
    "move": "out",
-   "start": 1188.15,
-   "end": 1195.867,
+   "start": 1222.211,
+   "end": 1230.663,
    "chapter": 6,
    "seg": "6.10",
    "opts": {
@@ -3836,8 +4712,8 @@
   {
    "asset": "D03",
    "move": "par",
-   "start": 1195.867,
-   "end": 1204.005,
+   "start": 1230.663,
+   "end": 1238.88,
    "chapter": 6,
    "seg": "6.11",
    "opts": {
@@ -3850,8 +4726,8 @@
   {
    "asset": "D10",
    "move": "par",
-   "start": 1204.005,
-   "end": 1210.787,
+   "start": 1238.88,
+   "end": 1245.728,
    "chapter": 6,
    "seg": "6.11",
    "opts": {
@@ -3863,8 +4739,8 @@
   {
    "asset": "D05",
    "move": "drift",
-   "start": 1210.787,
-   "end": 1219.603,
+   "start": 1245.728,
+   "end": 1254.63,
    "chapter": 6,
    "seg": "6.11",
    "opts": {
@@ -3876,8 +4752,8 @@
   {
    "asset": "G_CREDITS",
    "move": "gfx",
-   "start": 1219.6029999999998,
-   "end": 1261.6029999999998,
+   "start": 1254.6300000000006,
+   "end": 1296.6300000000006,
    "chapter": 7,
    "opts": {
     "sfx": [
@@ -3886,5 +4762,5 @@
    }
   }
  ],
- "duration": 1261.603
+ "duration": 1296.63
 }

@@ -1,0 +1,26 @@
+{
+ "id": "q46_24_uthmani",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 13.28,
+ "compute_s": 48.9,
+ "seed": 50624,
+ "attempts": [
+  {
+   "seed": 50624,
+   "dur": 13.28,
+   "expected": 14.55,
+   "ok": true
+  }
+ ],
+ "text": "فَلَمَّا رَأَوْهُ عَارِضًا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا۟ هَٰذَا عَارِضٌ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا ٱسْتَعْجَلْتُم بِهِۦ ۖ رِيحٌ فِيهَا عَذَابٌ أَلِيمٌ",
+ "lang": "ar",
+ "params": {
+  "mode": "reference",
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

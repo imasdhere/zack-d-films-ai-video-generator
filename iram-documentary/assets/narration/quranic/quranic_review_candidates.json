@@ -1,0 +1,101 @@
+[
+ {
+  "id": "q89_6_uthmani",
+  "text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+  "asr": "ألم تر كيف فعل ربك بعاد",
+  "cer_letters": 0.0,
+  "wer": 0.0,
+  "file": "assets/narration/quranic/quran_089_006_uthmani.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "q89_6_simple",
+  "text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+  "asr": "ألم تر كيف فعل ربك بعاد",
+  "cer_letters": 0.0,
+  "wer": 0.0,
+  "file": "assets/narration/quranic/quran_089_006_simple.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "q89_7_uthmani",
+  "text": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+  "asr": "يراماداتي يلايماد",
+  "cer_letters": 0.667,
+  "wer": 1.0,
+  "file": "assets/narration/quranic/quran_089_007_uthmani.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "q89_7_simple",
+  "text": "إِرَمَ ذَاتِ الْعِمَادِ",
+  "asr": "إيراما ذات العماد",
+  "cer_letters": 0.25,
+  "wer": 0.333,
+  "file": "assets/narration/quranic/quran_089_007_simple.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "q89_8_uthmani",
+  "text": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ",
+  "asr": "التي لم يخلق مثلها في البلاد",
+  "cer_letters": 0.045,
+  "wer": 0.167,
+  "file": "assets/narration/quranic/quran_089_008_uthmani.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "q89_8_simple",
+  "text": "الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ",
+  "asr": "التي لم يخلق مثلها في البلاد",
+  "cer_letters": 0.0,
+  "wer": 0.0,
+  "file": "assets/narration/quranic/quran_089_008_simple.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "q46_24_uthmani",
+  "text": "فَلَمَّا رَأَوْهُ عَارِضًا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا۟ هَٰذَا عَارِضٌ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا ٱسْتَعْجَلْتُم بِهِۦ ۖ رِيحٌ فِيهَا عَذَابٌ أَلِيمٌ",
+  "asr": "فلما رأوه عارضا مستقبل أوديتهم قالوا هذا عارض ممترنا بل هو ما استعجلتم به ريح فيها عذاب أليم",
+  "cer_letters": 0.013,
+  "wer": 0.056,
+  "file": "assets/narration/quranic/quran_046_024_uthmani.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "q46_24_simple",
+  "text": "فَلَمَّا رَأَوْهُ عَارِضًا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا هَـٰذَا عَارِضٌ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا اسْتَعْجَلْتُم بِهِ ۖ رِيحٌ فِيهَا عَذَابٌ أَلِيمٌ",
+  "asr": "فلما رأوه عارضا مستقبل أوديتهم قالوا هذا عارض ممطرنا بل هو ما استعجلتم به ريح فيها عذاب أليم",
+  "cer_letters": 0.0,
+  "wer": 0.0,
+  "file": "assets/narration/quranic/quran_046_024_simple.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ },
+ {
+  "id": "5.04_p03_c00",
+  "text": "عُذِّبَ قَوْمٌ بِالرِّيحِ، وَقَدْ رَأَى قَوْمٌ الْعَذَابَ فَقَالُوا هَذَا عَارِضٌ مُمْطِرُنَا",
+  "asr": "عذب قوم بالريح وقد رأى قوم عذاب فقالوا هذا عارض ممطرنا",
+  "cer_letters": 0.043,
+  "wer": 0.091,
+  "file": "assets/narration/quranic/5.04_p03_c00.wav",
+  "engine": "voxcpm",
+  "approved_for_publication": "no",
+  "review": "requires a qualified reciter or tajwid teacher"
+ }
+]

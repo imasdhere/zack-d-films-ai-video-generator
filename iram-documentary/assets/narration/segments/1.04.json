@@ -1,0 +1,17 @@
+{
+ "id": "1.04",
+ "sr": 48000,
+ "duration": 8.838,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "\"Dost thou not consider how thy Lord dealt with the tribe of ʿĀd, with many-columned Iram, the like of which was not created in the lands.\"",
+   "tts": "Dost thou not consider how thy Lord dealt with the tribe of Aa-d, with many-columned Ee-rahm, the like of which was not created in the lands.",
+   "start": 0.0,
+   "end": 8.838
+  }
+ ]
+}

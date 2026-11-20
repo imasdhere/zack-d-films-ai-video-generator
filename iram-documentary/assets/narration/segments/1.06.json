@@ -1,0 +1,57 @@
+{
+ "id": "1.06",
+ "sr": 48000,
+ "duration": 20.007,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "From these few words grew one of the most enduring mysteries of the Arabian desert.",
+   "tts": "From these few words grew one of the most enduring mysteries of the Arabian desert.",
+   "start": 0.0,
+   "end": 5.112
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Storytellers imagined palaces of gold.",
+   "tts": "Storytellers imagined palaces of gold.",
+   "start": 5.562,
+   "end": 8.275
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Popular retellings still speak of a city of a thousand pillars.",
+   "tts": "Popular retellings still speak of a city of a thousand pillars.",
+   "start": 8.725,
+   "end": 12.405
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Explorers went looking for it.",
+   "tts": "Explorers went looking for it.",
+   "start": 12.855,
+   "end": 14.767
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And satellites photographed the sand where it might lie.",
+   "tts": "And satellites photographed the sand where it might lie.",
+   "start": 15.217,
+   "end": 20.007
+  }
+ ]
+}

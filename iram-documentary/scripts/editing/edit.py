@@ -305,21 +305,23 @@ def render_video(chapter, preview=False, part=None):
     suffix = '' if not part else f"_part{part[0]}of{part[1]}"
     out = ROOT / ('renders/previews' if preview else 'renders/chapters') / f"chapter_{chapter}{suffix}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
-    # make-style skip (resume after an interruption): an output newer than every input is up to date
-    if not preview and os.environ.get('IRAM_FORCE_RENDER') != '1':
-        inputs = [TL, ROOT / 'storyboard/shots.yaml', ROOT / 'storyboard/assets.yaml', pathlib.Path(__file__), ROOT / 'scripts/animation/graphics.py']
-        newest = max(p.stat().st_mtime for p in inputs if p.exists())
-        whole = out.parent / f"chapter_{chapter}.mp4"
-        for done in ([out] + ([whole] if part else [])):
-            if done.exists() and done.stat().st_mtime > newest and done.stat().st_size > 1_000_000:
-                print('up to date, skipped:', done.name, flush=True); return
     w, h = int(W * scale), int(H * scale)
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{w}x{h}', '-r', str(fps), '-i', '-',
            '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'medium', '-crf', '23' if preview else '16', '-pix_fmt', 'yuv420p',
            '-x264-params', 'keyint=48', '-r', str(fps), str(out)]
-    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     live = {}; nfr = int(round((t1 - t0) * fps)); total_start = tl['shots'][0]['start']; film_end = tl['duration']
     f_lo, f_hi = (0, nfr) if not part else ((part[0] - 1) * nfr // part[1], part[0] * nfr // part[1])
+    # resume after an interruption: skip an output that is newer than every input AND has the full expected length
+    # (a file cut off mid-write has no index, so ffprobe reports no duration)
+    if not preview and os.environ.get('IRAM_FORCE_RENDER') != '1' and out.exists():
+        inputs = [TL, ROOT / 'storyboard/shots.yaml', ROOT / 'storyboard/assets.yaml', pathlib.Path(__file__), ROOT / 'scripts/animation/graphics.py']
+        newest = max(p.stat().st_mtime for p in inputs if p.exists())
+        r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', str(out)], capture_output=True, text=True)
+        try: got = float(r.stdout.strip())
+        except ValueError: got = -1.0
+        if out.stat().st_mtime > newest and abs(got - (f_hi - f_lo) / fps) < 0.1:
+            print('up to date, skipped:', out.name, flush=True); return
+    proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)   # started only now: ffmpeg -y truncates the output
     for fi in range(f_lo, f_hi):
         t = t0 + fi / fps
         act = [s for s in tl['shots'] if s['start'] - XF / 2 <= t < s['end'] + XF / 2]

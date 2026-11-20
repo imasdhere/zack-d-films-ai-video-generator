@@ -1,0 +1,27 @@
+{
+ "id": "5.11",
+ "sr": 48000,
+ "duration": 8.355,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Religious memory and physical evidence are answering different questions.",
+   "tts": "Religious memory and physical evidence are answering different questions.",
+   "start": 0.0,
+   "end": 4.779
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Merging them would do justice to neither.",
+   "tts": "Merging them would do justice to neither.",
+   "start": 5.229,
+   "end": 8.355
+  }
+ ]
+}

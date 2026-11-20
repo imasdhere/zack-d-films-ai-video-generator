@@ -1,0 +1,26 @@
+{
+ "id": "q46_24_simple",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 12.0,
+ "compute_s": 44.4,
+ "seed": 50624,
+ "attempts": [
+  {
+   "seed": 50624,
+   "dur": 12.0,
+   "expected": 14.45,
+   "ok": true
+  }
+ ],
+ "text": "فَلَمَّا رَأَوْهُ عَارِضًا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا هَـٰذَا عَارِضٌ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا اسْتَعْجَلْتُم بِهِ ۖ رِيحٌ فِيهَا عَذَابٌ أَلِيمٌ",
+ "lang": "ar",
+ "params": {
+  "mode": "reference",
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

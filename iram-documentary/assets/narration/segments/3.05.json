@@ -1,0 +1,57 @@
+{
+ "id": "3.05",
+ "sr": 48000,
+ "duration": 26.633,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Some early authorities said the word described the people themselves: their great height.",
+   "tts": "Some early authorities said the word described the people themselves: their great height.",
+   "start": 0.0,
+   "end": 6.822
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "One said it meant a building they had raised, on tall columns.",
+   "tts": "One said it meant a building they had raised, on tall columns.",
+   "start": 7.272,
+   "end": 11.912
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "But the view al-Ṭabarī preferred was simpler.",
+   "tts": "But the view al-Tabari preferred was simpler.",
+   "start": 12.362,
+   "end": 14.962
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The ʿimād, he argued, were the poles of tents.",
+   "tts": "The ee-maad, he argued, were the poles of tents.",
+   "start": 15.412,
+   "end": 18.922
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "ʿĀd were \"people of poles\": travellers, moving with the rains and the pasture.",
+   "tts": "Aa-d were people of poles: travellers, moving with the rains and the pasture.",
+   "start": 19.372,
+   "end": 26.633
+  }
+ ]
+}

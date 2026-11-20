@@ -1,0 +1,57 @@
+{
+ "id": "5.10",
+ "sr": 48000,
+ "duration": 26.377,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "But we should be clear.",
+   "tts": "But we should be clear.",
+   "start": 0.0,
+   "end": 1.332
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "These changes unfolded over centuries and millennia.",
+   "tts": "These changes unfolded over centuries and millennia.",
+   "start": 1.782,
+   "end": 5.407
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "No study has dated the people of ʿĀd, and no geological event has been shown to match the Quranic account.",
+   "tts": "No study has dated the people of Aa-d, and no geological event has been shown to match the Quranic account.",
+   "start": 5.857,
+   "end": 13.237
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site.",
+   "tts": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site.",
+   "start": 13.687,
+   "end": 18.665
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to ʿĀd.",
+   "tts": "The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to Aa-d.",
+   "start": 19.115,
+   "end": 26.377
+  }
+ ]
+}

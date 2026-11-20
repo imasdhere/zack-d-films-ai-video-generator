@@ -1,0 +1,17 @@
+{
+ "id": "4.01",
+ "sr": 48000,
+ "duration": 4.685,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In the twentieth century, the search moved from the library into the desert.",
+   "tts": "In the twentieth century, the search moved from the library into the desert.",
+   "start": 0.0,
+   "end": 4.685
+  }
+ ]
+}

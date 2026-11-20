@@ -1,0 +1,47 @@
+{
+ "id": "1.07",
+ "sr": 48000,
+ "duration": 12.774,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "This film asks three questions.",
+   "tts": "This film asks three questions.",
+   "start": 0.0,
+   "end": 2.284
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "What does the text actually say?",
+   "tts": "What does the text actually say?",
+   "start": 2.734,
+   "end": 5.247
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "What did the earliest scholars understand by it?",
+   "tts": "What did the earliest scholars understand by it?",
+   "start": 5.81,
+   "end": 8.73
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And what, if anything, has archaeology really found?",
+   "tts": "And what, if anything, has archaeology really found?",
+   "start": 9.292,
+   "end": 12.774
+  }
+ ]
+}

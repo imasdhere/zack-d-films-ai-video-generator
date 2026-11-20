@@ -1,0 +1,27 @@
+{
+ "id": "5.09",
+ "sr": 48000,
+ "duration": 9.687,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Arabia, in other words, was not always this dry.",
+   "tts": "Arabia, in other words, was not always this dry.",
+   "start": 0.0,
+   "end": 3.664
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Over many thousands of years, its landscapes have shifted between green and gold.",
+   "tts": "Over many thousands of years, its landscapes have shifted between green and gold.",
+   "start": 4.114,
+   "end": 9.687
+  }
+ ]
+}

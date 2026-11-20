@@ -1,0 +1,27 @@
+{
+ "id": "3.09",
+ "sr": 48000,
+ "duration": 14.218,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "One story told of a Bedouin, ʿAbd Allāh ibn Qilāba, who, while searching for his lost camels in the time of the caliph Muʿāwiya, came upon a great city with walls and gates.",
+   "tts": "One story told of a Bedouin, Abdullah ibn Qilaaba, who, while searching for his lost camels in the time of the caliph Mu-aawiya, came upon a great city with walls and gates.",
+   "start": 0.0,
+   "end": 10.254
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "When others went back with him to the place, they found nothing.",
+   "tts": "When others went back with him to the place, they found nothing.",
+   "start": 10.704,
+   "end": 14.218
+  }
+ ]
+}

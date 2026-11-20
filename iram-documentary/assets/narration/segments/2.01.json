@@ -1,0 +1,27 @@
+{
+ "id": "2.01",
+ "sr": 48000,
+ "duration": 7.082,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The Quran names ʿĀd twenty-four times.",
+   "tts": "The Quran names Aa-d twenty-four times.",
+   "start": 0.0,
+   "end": 3.401
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Iram, it names only once.",
+   "tts": "Ee-rahm, it names only once.",
+   "start": 3.851,
+   "end": 7.082
+  }
+ ]
+}

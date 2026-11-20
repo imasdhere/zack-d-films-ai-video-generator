@@ -1,0 +1,17 @@
+{
+ "id": "5.08",
+ "sr": 48000,
+ "duration": 15.143,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Deep in the Rubʿ al-Khālī, researchers reported in two thousand and twenty-five that, during an ancient humid phase, heavy rains filled a lake of about eleven hundred square kilometres, which eventually broke its banks and carved a valley some one hundred and fifty kilometres long.",
+   "tts": "Deep in the Rub al Khaali, researchers reported in two thousand and twenty-five that, during an ancient humid phase, heavy rains filled a lake of about eleven hundred square kilometres, which eventually broke its banks and carved a valley some one hundred and fifty kilometres long.",
+   "start": 0.0,
+   "end": 15.143
+  }
+ ]
+}

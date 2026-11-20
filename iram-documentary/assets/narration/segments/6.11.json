@@ -1,0 +1,37 @@
+{
+ "id": "6.11",
+ "sr": 48000,
+ "duration": 15.367,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The wind still moves across the sand, as it always has, erasing footprints by evening.",
+   "tts": "The wind still moves across the sand, as it always has, erasing footprints by evening.",
+   "start": 0.0,
+   "end": 6.0
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "What remains is the question.",
+   "tts": "What remains is the question.",
+   "start": 6.45,
+   "end": 8.914
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And the discipline to tell the difference between what we know, what we believe, and what we only imagine.",
+   "tts": "And the discipline to tell the difference between what we know, what we believe, and what we only imagine.",
+   "start": 9.364,
+   "end": 15.367
+  }
+ ]
+}

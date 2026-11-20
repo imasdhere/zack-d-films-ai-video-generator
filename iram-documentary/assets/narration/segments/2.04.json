@@ -1,0 +1,47 @@
+{
+ "id": "2.04",
+ "sr": 48000,
+ "duration": 13.174,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "They were builders.",
+   "tts": "They were builders.",
+   "start": 0.0,
+   "end": 2.226
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "\"Build ye on every high place a monument for vain delight?\"",
+   "tts": "Build ye on every high place a monument for vain delight?",
+   "start": 2.676,
+   "end": 6.659
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Hūd asks them.",
+   "tts": "Hood asks them.",
+   "start": 7.222,
+   "end": 8.439
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "\"And seek ye out strongholds, that haply ye may last for ever?\"",
+   "tts": "And seek ye out strongholds, that haply ye may last for ever?",
+   "start": 8.889,
+   "end": 13.174
+  }
+ ]
+}

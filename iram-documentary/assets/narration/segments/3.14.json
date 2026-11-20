@@ -1,0 +1,37 @@
+{
+ "id": "3.14",
+ "sr": 48000,
+ "duration": 10.582,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The city of a thousand pillars is real, in its way.",
+   "tts": "The city of a thousand pillars is real, in its way.",
+   "start": 0.0,
+   "end": 3.935
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "But it belongs to the history of storytelling.",
+   "tts": "But it belongs to the history of storytelling.",
+   "start": 4.385,
+   "end": 7.225
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The text itself is far more restrained.",
+   "tts": "The text itself is far more restrained.",
+   "start": 7.675,
+   "end": 10.582
+  }
+ ]
+}

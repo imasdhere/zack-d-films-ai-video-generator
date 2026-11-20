@@ -1,0 +1,47 @@
+{
+ "id": "3.10",
+ "sr": 48000,
+ "duration": 22.782,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Ibn Kathīr rejected all of it.",
+   "tts": "Ibn Katheer rejected all of it.",
+   "start": 0.0,
+   "end": 2.738
+  },
+  {
+   "i": 1,
+   "lang": "ar",
+   "profile": "arabic",
+   "engine": "voxcpm",
+   "display": "فإن هذا كله من خرافات الإسرائيليين. فهذه الحكاية ليس يصح إسنادها.",
+   "tts": "فَإِنَّ هَذَا كُلَّهُ مِنْ خُرَافَاتِ الْإِسْرَائِيلِيِّينْ. فَهَذِهِ الْحِكَايَةُ لَيْسَ يَصِحُّ إِسْنَادُهَا.",
+   "start": 3.438,
+   "end": 11.248
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "These were, in his words, fables of the Israʾīliyyāt.",
+   "tts": "These were, in his words, fables of the Israa-eeliyyaat.",
+   "start": 11.948,
+   "end": 15.439
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "The tale of Ibn Qilāba, he said, had no sound chain of transmission, and was certainly not authentic.",
+   "tts": "The tale of Ibn Qilaaba, he said, had no sound chain of transmission, and was certainly not authentic.",
+   "start": 15.889,
+   "end": 22.782
+  }
+ ]
+}

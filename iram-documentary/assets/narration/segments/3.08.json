@@ -1,0 +1,57 @@
+{
+ "id": "3.08",
+ "sr": 48000,
+ "duration": 27.949,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "So where did the golden city come from?",
+   "tts": "So where did the golden city come from?",
+   "start": 0.0,
+   "end": 2.204
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "By Ibn Kathīr's time, a rich legend had grown around the verse.",
+   "tts": "By Ibn Katheer's time, a rich legend had grown around the verse.",
+   "start": 2.767,
+   "end": 6.668
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "In some versions, a king named Shaddād, son of ʿĀd, built it.",
+   "tts": "In some versions, a king named Shaddaad, son of Aa-d, built it.",
+   "start": 7.118,
+   "end": 12.307
+  },
+  {
+   "i": 3,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk.",
+   "tts": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk.",
+   "start": 12.757,
+   "end": 20.433
+  },
+  {
+   "i": 4,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "tts": "A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "start": 20.883,
+   "end": 27.949
+  }
+ ]
+}

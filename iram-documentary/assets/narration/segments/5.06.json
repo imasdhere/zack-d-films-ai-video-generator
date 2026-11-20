@@ -1,0 +1,27 @@
+{
+ "id": "5.06",
+ "sr": 48000,
+ "duration": 8.197,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "Science cannot test a religious account of divine judgement.",
+   "tts": "Science cannot test a religious account of divine judgement.",
+   "start": 0.0,
+   "end": 4.211
+  },
+  {
+   "i": 1,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "But it can ask a different question: how has this land itself changed?",
+   "tts": "But it can ask a different question: how has this land itself changed?",
+   "start": 4.661,
+   "end": 8.197
+  }
+ ]
+}

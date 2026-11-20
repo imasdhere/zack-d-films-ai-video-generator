@@ -1,0 +1,26 @@
+{
+ "id": "q89_6_simple",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 2.56,
+ "compute_s": 11.8,
+ "seed": 93606,
+ "attempts": [
+  {
+   "seed": 93606,
+   "dur": 2.56,
+   "expected": 3.73,
+   "ok": true
+  }
+ ],
+ "text": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+ "lang": "ar",
+ "params": {
+  "mode": "reference",
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

@@ -1,0 +1,26 @@
+{
+ "id": "5.04_p03_c00",
+ "engine": "voxcpm2",
+ "sr": 48000,
+ "duration": 6.56,
+ "compute_s": 26.3,
+ "seed": 20360493,
+ "attempts": [
+  {
+   "seed": 20360493,
+   "dur": 6.56,
+   "expected": 8.45,
+   "ok": true
+  }
+ ],
+ "text": "عُذِّبَ قَوْمٌ بِالرِّيحِ، وَقَدْ رَأَى قَوْمٌ الْعَذَابَ فَقَالُوا هَذَا عَارِضٌ مُمْطِرُنَا",
+ "lang": "ar",
+ "params": {
+  "mode": "reference",
+  "cfg_value": 2.0,
+  "inference_timesteps": 10,
+  "normalize": false,
+  "denoise": false
+ },
+ "status": "ok"
+}

@@ -1,0 +1,37 @@
+{
+ "id": "3.06",
+ "sr": 48000,
+ "duration": 15.124,
+ "sentences": [
+  {
+   "i": 0,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "And he added a sentence that cuts to the heart of this mystery.",
+   "tts": "And he added a sentence that cuts to the heart of this mystery.",
+   "start": 0.0,
+   "end": 3.608
+  },
+  {
+   "i": 1,
+   "lang": "ar",
+   "profile": "arabic",
+   "engine": "voxcpm",
+   "display": "ولا يعلم بناء كان لهم بالعماد بخبر صحيح",
+   "tts": "وَلَا يُعْلَمُ بِنَاءٌ كَانَ لَهُمْ بِالْعِمَادِ بِخَبَرٍ صَحِيحْ",
+   "start": 4.308,
+   "end": 9.588
+  },
+  {
+   "i": 2,
+   "lang": "en",
+   "profile": "english",
+   "engine": "voxcpm",
+   "display": "No building of theirs with columns, he wrote, is known through any authentic report.",
+   "tts": "No building of theirs with columns, he wrote, is known through any authentic report.",
+   "start": 10.288,
+   "end": 15.124
+  }
+ ]
+}
