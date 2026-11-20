@@ -1,11 +1,11 @@
 {
  "container": {
-  "duration_s": 1296.583333,
-  "size_mb": 3809.1,
+  "duration_s": 1212.583333,
+  "size_mb": 4597.2,
   "video_codec": "h264",
   "profile": "High",
-  "width": 1920,
-  "height": 1080,
+  "width": 2560,
+  "height": 1440,
   "fps": "24/1",
   "pix_fmt": "yuv420p",
   "dar": null,
@@ -21,28 +21,28 @@
  "decode_errors": [],
  "black_segments": [
   [
-   1296.04,
-   1296.54
+   1212.04,
+   1212.54
   ]
  ],
  "frozen_segments": [],
  "loudness": {
   "integrated_lufs": -16.0,
-  "lra_lu": 3.6,
-  "true_peak_dbfs": -4.0
+  "lra_lu": 2.9,
+  "true_peak_dbfs": -4.8
  },
  "silences_over_2s_below_-55dB": [],
  "music_check": {
   "sustained_tonal_components_>=0.5s": 0,
   "chroma_peak_ratio_median": 0.12,
-  "max_rhythmic_autocorrelation_lag_0.6-12s": 0.084,
-  "stem_duration_min": 21.6,
+  "max_rhythmic_autocorrelation_lag_0.6-12s": 0.094,
+  "stem_duration_min": 20.2,
   "reference_values": "tonal music typically shows many sustained tonal components, chroma peak ratio > 0.3, rhythmic autocorrelation > 0.3"
  },
  "narration_wer_sampled": [
   {
    "seg": "0.01",
-   "wer": 0.023
+   "wer": 0.0
   },
   {
    "seg": "1.05",
@@ -58,11 +58,11 @@
   },
   {
    "seg": "3.05",
-   "wer": 0.125
+   "wer": 0.107
   },
   {
    "seg": "3.11",
-   "wer": 0.15
+   "wer": 0.0
   },
   {
    "seg": "4.03",
@@ -70,15 +70,15 @@
   },
   {
    "seg": "4.09",
-   "wer": 0.071
+   "wer": 0.143
   },
   {
    "seg": "4.15",
-   "wer": 0.078
+   "wer": 0.094
   },
   {
    "seg": "5.02",
-   "wer": 0.017
+   "wer": 0.0
   },
   {
    "seg": "5.08",
@@ -86,14 +86,14 @@
   },
   {
    "seg": "6.03",
-   "wer": 0.186
+   "wer": 0.163
   },
   {
    "seg": "6.09",
    "wer": 0.062
   }
  ],
- "narration_wer_mean": 0.113,
+ "narration_wer_mean": 0.102,
  "shots": {
   "count": 152,
   "unique_assets": 107,
@@ -119,6 +119,6 @@
     3
    ]
   ],
-  "mean_shot_s": 8.53
+  "mean_shot_s": 7.98
  }
 }

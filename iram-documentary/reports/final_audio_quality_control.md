@@ -1,6 +1,6 @@
-# Final audio quality-control report (version 2: cloned narrators)
+# Final audio quality-control report (cloned narrators)
 
-Date: 2026-11-20. Master: `renders/final/iram_lost_city_documentary.mp4`.
+Date: 2026-11-20. Master: `renders/final/iram_lost_city_documentary_1440p.mp4`.
 
 Automatic checks are listed with their measured values. Items that need a human (listening, Arabic language review, Quranic review) are marked **open** until a person signs them off.
 
@@ -8,22 +8,22 @@ Automatic checks are listed with their measured values. Items that need a human 
 
 | Check | Result | Status |
 |---|---|---|
-| Chunks generated / passed automatic QA | 210 / 209 | see failures below |
-| Intelligibility (Whisper WER without names, median / max) | 0.0 / 0.333 | check |
-| Speaker similarity to Video 1 reference (median / min) | 0.945 / 0.852 | supporting evidence only |
+| Chunks generated / passed automatic QA | 103 / 103 | pass |
+| Intelligibility (Whisper WER without names, median / max) | 0.0 / 0.111 | pass |
+| Speaker similarity to Video 1 reference (median / min) | 0.981 / 0.949 | supporting evidence only |
 | Sounds like Video 1; accent consistent; names pronounced correctly; natural delivery; no robotic artefacts | needs listening | **open** |
 
 Consistency between chapters (English narration):
 
 | Chapter | Median speaker similarity | Median F0 (Hz) | Shift vs reference (semitones) |
 |---|---|---|---|
-| 0 | 0.931 | 86.1 | -2.29 |
-| 1 | 0.943 | 97.2 | -0.19 |
-| 2 | 0.945 | 90.6 | -1.41 |
-| 3 | 0.942 | 89.6 | -1.6 |
-| 4 | 0.944 | 91.2 | -1.3 |
-| 5 | 0.957 | 92.2 | -1.11 |
-| 6 | 0.95 | 96.3 | -0.36 |
+| 0 | 0.983 | 94.4 | -0.7 |
+| 1 | 0.98 | 95.5 | -0.5 |
+| 2 | 0.979 | 99.4 | 0.19 |
+| 3 | 0.98 | 96.6 | -0.3 |
+| 4 | 0.981 | 98.9 | 0.11 |
+| 5 | 0.98 | 97.7 | -0.11 |
+| 6 | 0.984 | 96.0 | -0.41 |
 
 ## Arabic narration (Video 2 voice)
 
@@ -49,19 +49,13 @@ Consistency between chapters (English narration):
 | Check | Result | Status |
 |---|---|---|
 | Every sentence of the script is covered exactly once by the chunk plan | 214 parts, 0 mismatches | pass |
-| Missing or repeated words in the audio (ASR) | chunk QA flags 1 chunk(s) | see below |
-| Segment loudness spread (before mix) | -19.1 to -18.9 LUFS | pass |
-| Final mix loudness / true peak | -16.0 LUFS / -4.0 dBTP | pass |
+| Missing or repeated words in the audio (ASR) | chunk QA flags 0 chunk(s) | pass |
+| Segment loudness spread (before mix) | -19.1 to -19.0 LUFS | pass |
+| Final mix loudness / true peak | -16.0 LUFS / -4.8 dBTP | pass |
 | Silences over 2 s below −55 dB | 0 | pass |
 | Audio-video sync (narration onset vs timeline) | max 4.0 ms over 75 segments | pass |
-| No background music (ambience stem: tonal components / chroma / rhythm) | 0 / 0.12 / 0.084 | pass |
-| Decoder errors / clipped audio | 0 / true peak -4.0 dBTP | pass |
-
-## Chunks that did not pass automatic QA
-
-| Chunk | Notes | ASR |
-|---|---|---|
-| 0.01_p06_c00 | ASR error 0.333 > 0.15; best of 6 takes (0.01_p06_c00_take4) | Hold Dune's Walk. |
+| No background music (ambience stem: tonal components / chroma / rhythm) | 0 / 0.12 / 0.094 | pass |
+| Decoder errors / clipped audio | 0 / true peak -4.8 dBTP | pass |
 
 ## Sign-off needed
 
