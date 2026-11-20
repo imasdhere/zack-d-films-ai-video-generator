@@ -28,6 +28,11 @@ voice_profiles:
     reference: voice_profiles/english_narrator/cleaned_reference.wav
     transcript: voice_profiles/english_narrator/reference_transcript.txt
     preferred_engine: voxcpm
+    # Version 3 (voice-stability test, workflows/tts/eval/voice_stability_test.json): continuation ("ultimate") cloning
+    # from the same clip with 0.6 s of silence added at its end, and paragraph chunks. Similarity 0.982 (min 0.973),
+    # median pitch 98.6 Hz (Video 1: 98.3 Hz), pitch spread 0.4 semitones between chunks.
+    synthesis_reference: voice_profiles/english_narrator/cleaned_reference_padded.wav
+    engine_params: {mode: ultimate}
     # Names spoken the Arabic way inside English narration (owner request 2026-11-20): the engine reads them in Arabic
     # script, in the same voice. Display text and subtitles keep the transliteration.
     names_in_arabic_script:
@@ -50,6 +55,7 @@ voice_profiles:
     reference: voice_profiles/arabic_narrator/cleaned_reference.wav
     transcript: voice_profiles/arabic_narrator/reference_transcript.txt
     preferred_engine: voxcpm
+    engine_params: {mode: reference}   # the Arabic quotations passed QA in this mode (CER 0)
   quranic:
     reference_profile: arabic
     engine: requires_qualified_review
@@ -121,5 +127,8 @@ qa:
   max_wer_en: 0.15
   max_cer_ar: 0.15
   min_speaker_similarity: 0.80   # WavLM-base-plus-sv cosine; supporting evidence only, not proof of identity
+  min_speaker_similarity_en: 0.93   # version 3: another man scores about 0.84; the stable set-up scored 0.97-0.99
+  max_pitch_shift_semitones: 3.0    # chunk median pitch vs the reference voice
+  max_high_pitch_fraction: 0.08     # share of voiced frames more than 7 semitones above the chunk median (cracks)
   max_f0_drift_semitones: 1.5    # chapter median F0 vs reference median F0
   max_lufs_spread: 1.0

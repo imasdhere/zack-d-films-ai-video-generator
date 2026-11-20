@@ -1,0 +1,848 @@
+{
+ "summary": {
+  "ref_short": {
+   "chunks": 8,
+   "sim_mean": 0.941,
+   "sim_min": 0.91,
+   "f0_median": 95.8,
+   "f0_sd_semitones": 1.44,
+   "chunks_with_cracks": 1,
+   "wer_mean": 0.004,
+   "first_word_ok": "8/8"
+  },
+  "ref_long": {
+   "chunks": 8,
+   "sim_mean": 0.956,
+   "sim_min": 0.926,
+   "f0_median": 88.1,
+   "f0_sd_semitones": 2.87,
+   "chunks_with_cracks": 0,
+   "wer_mean": 0.004,
+   "first_word_ok": "8/8"
+  },
+  "ult_short_pad": {
+   "chunks": 8,
+   "sim_mean": 0.982,
+   "sim_min": 0.973,
+   "f0_median": 98.6,
+   "f0_sd_semitones": 0.42,
+   "chunks_with_cracks": 2,
+   "wer_mean": 0.008,
+   "first_word_ok": "7/8"
+  },
+  "ult_long_pad": {
+   "chunks": 8,
+   "sim_mean": 0.976,
+   "sim_min": 0.971,
+   "f0_median": 91.9,
+   "f0_sd_semitones": 0.83,
+   "chunks_with_cracks": 1,
+   "wer_mean": 0.009,
+   "first_word_ok": "7/8"
+  }
+ },
+ "results": {
+  "ref_short|0.01|0": {
+   "sim": 0.967,
+   "f0": 94.4,
+   "high": 0.058,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "There are places on earth where the land itself seems to forget. Here, in the south of Arabia, the wind has been moving sand for thousands of years, lifting it, folding it, laying it down again. Footprints vanish by evening, whole dunes walk.",
+   "dur": 16.49
+  },
+  "ref_short|1.04|0": {
+   "sim": 0.936,
+   "f0": 104.1,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Dost thou not consider how thy lord dealt with the tribe of Aad, with many-columned Eram, the like of which was not created in the lands?",
+   "dur": 8.5
+  },
+  "ref_short|2.04|0": {
+   "sim": 0.929,
+   "f0": 102.9,
+   "high": 0.034,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "They were builders. Build ye on every high place a monument for vain delight? Hood asks them, and seek ye out strongholds, that happily ye may last forever?",
+   "dur": 9.87
+  },
+  "ref_short|3.04|0": {
+   "sim": 0.971,
+   "f0": 84.1,
+   "high": 0.045,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Al-Tabari weighed these views and concluded that Iram was most likely the name of a tribe of Ad. Then he turned to the pillars.",
+   "dur": 7.6
+  },
+  "ref_short|3.08|0": {
+   "sim": 0.938,
+   "f0": 97.2,
+   "high": 0.0,
+   "wer": 0.031,
+   "first_ok": true,
+   "asr": "So where did the Golden City come from? By Ibn Qatir's time, a rich legend had grown around the verse. In some versions, a king named Sheddad, son of Ad, built it.",
+   "dur": 10.79
+  },
+  "ref_short|3.08|1": {
+   "sim": 0.935,
+   "f0": 100.0,
+   "high": 0.001,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Commentators described a city of bricks of gold and silver, its pebbles, pearls, and jewels, its soil made of musk, a city that moved from land to land, sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "dur": 13.97
+  },
+  "ref_short|5.10|0": {
+   "sim": 0.944,
+   "f0": 94.4,
+   "high": 0.014,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "But we should be clear, these changes unfolded over centuries and millennia. No study has dated the people of Aad, and no geological event has been shown to match the Quranic account.",
+   "dur": 13.73
+  },
+  "ref_short|5.10|1": {
+   "sim": 0.91,
+   "f0": 81.7,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "At Shisir, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation and no known connection to Wad.",
+   "dur": 11.16
+  },
+  "ref_long|0.01|0": {
+   "sim": 0.97,
+   "f0": 77.1,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "There are places on earth where the land itself seems to forget. Here, in the south of Arabia, the wind has been moving sand for thousands of years. Lifting it. Folding it. Laying it down again. Footprints vanish by evening. Whole dunes walk.",
+   "dur": 16.92
+  },
+  "ref_long|1.04|0": {
+   "sim": 0.926,
+   "f0": 135.0,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Dost thou not consider how thy lord dealt with the tribe of Ad, with many-columned Iram, the like of which was not created in the lands?",
+   "dur": 8.43
+  },
+  "ref_long|2.04|0": {
+   "sim": 0.945,
+   "f0": 81.7,
+   "high": 0.034,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "they were builders build ye on every high place a monument for vain delight hood asks them and seek ye out strongholds that haply ye may last for ever",
+   "dur": 13.75
+  },
+  "ref_long|3.04|0": {
+   "sim": 0.964,
+   "f0": 79.8,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Al-Tabari weighed these views and concluded that Iram was most likely the name of a tribe of Ad. Then he turned to the pillars.",
+   "dur": 7.27
+  },
+  "ref_long|3.08|0": {
+   "sim": 0.97,
+   "f0": 90.1,
+   "high": 0.022,
+   "wer": 0.031,
+   "first_ok": true,
+   "asr": "So where did the Golden City come from? By Ibn Kathir's time, a rich legend had grown around the verse. In some versions, a king named Shadad, son of Ad, built it.",
+   "dur": 11.81
+  },
+  "ref_long|3.08|1": {
+   "sim": 0.972,
+   "f0": 97.2,
+   "high": 0.012,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Commentators described a city of bricks of gold and silver, its pebbles, pearls, and jewels, its soil made of musk, a city that moved from land to land, sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "dur": 13.93
+  },
+  "ref_long|5.10|0": {
+   "sim": 0.959,
+   "f0": 91.2,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "But we should be clear, these changes unfolded over centuries and millennia. No study has dated the people of Ad, and no geological event has been shown to match the Quranic account.",
+   "dur": 12.32
+  },
+  "ref_long|5.10|1": {
+   "sim": 0.944,
+   "f0": 86.1,
+   "high": 0.014,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to Aad.",
+   "dur": 11.36
+  },
+  "ult_short_pad|0.01|0": {
+   "sim": 0.985,
+   "f0": 94.9,
+   "high": 0.007,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "There are places on earth where the land itself seems to forget. Here, in the south of Arabia, the wind has been moving sand for thousands of years, lifting it, folding it, laying it down again. Footprints vanish by evening. Whole dunes walk.",
+   "dur": 14.95
+  },
+  "ult_short_pad|1.04|0": {
+   "sim": 0.981,
+   "f0": 101.7,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Dost thou not consider how thy lord dealt with the tribe of Ad with many columned Eram, the like of which was not created in the lands?",
+   "dur": 9.41
+  },
+  "ult_short_pad|2.04|0": {
+   "sim": 0.988,
+   "f0": 100.6,
+   "high": 0.0,
+   "wer": 0.036,
+   "first_ok": true,
+   "asr": "They were builders. Build ye on every high place a monument for vain delight, Hood asked them, and seek ye out strongholds, that happily ye may last forever.",
+   "dur": 9.45
+  },
+  "ult_short_pad|3.04|0": {
+   "sim": 0.99,
+   "f0": 98.3,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": false,
+   "asr": "Ez-Altabari weighed these views and concluded that Iram was most likely the name of a tribe of Ad. Then he turned to the pillars.",
+   "dur": 10.04
+  },
+  "ult_short_pad|3.08|0": {
+   "sim": 0.973,
+   "f0": 98.9,
+   "high": 0.052,
+   "wer": 0.031,
+   "first_ok": true,
+   "asr": "So where did the golden city come from? By Ibn Qatir's time, a rich legend had grown around the verse. In some versions, a king named Shadad, son of Ad, built it.",
+   "dur": 11.22
+  },
+  "ult_short_pad|3.08|1": {
+   "sim": 0.982,
+   "f0": 96.0,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Commentators described a city of bricks of gold and silver, its pebbles, pearls, and jewels, its soil made of musk, a city that moved from land to land, sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "dur": 14.82
+  },
+  "ult_short_pad|5.10|0": {
+   "sim": 0.974,
+   "f0": 101.7,
+   "high": 0.058,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "But we should be clear. These changes unfolded over centuries and millennia. No study has dated the people of Ad, and no geological event has been shown to match the Quranic account.",
+   "dur": 12.42
+  },
+  "ult_short_pad|5.10|1": {
+   "sim": 0.98,
+   "f0": 97.2,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "At Shisir, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation and no known connection to Ad.",
+   "dur": 11.67
+  },
+  "ult_long_pad|0.01|0": {
+   "sim": 0.971,
+   "f0": 97.2,
+   "high": 0.029,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "There are places on earth where the land itself seems to forget here. In the south of Arabia, the wind has been moving sand for thousands of years. Lifting it. Folding it. Laying it down again. Footprints vanish by evening. Whole dunes walk.",
+   "dur": 16.08
+  },
+  "ult_long_pad|1.04|0": {
+   "sim": 0.98,
+   "f0": 86.1,
+   "high": 0.063,
+   "wer": 0.037,
+   "first_ok": true,
+   "asr": "Dost thou not consider how thy Lord dealt with the tribe of Ad, with many-columned Iram, like of which was not created in the lands?",
+   "dur": 9.4
+  },
+  "ult_long_pad|2.04|0": {
+   "sim": 0.979,
+   "f0": 90.6,
+   "high": 0.0,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "They were builders. Build ye on every high place a monument for vain delight. Hood asks them, and seek ye out strongholds, that happily ye may last forever.",
+   "dur": 11.5
+  },
+  "ult_long_pad|3.04|0": {
+   "sim": 0.977,
+   "f0": 86.6,
+   "high": 0.033,
+   "wer": 0.0,
+   "first_ok": false,
+   "asr": "Alta Bari weighed these views and concluded that Irim was most likely the name of a tribe of Ad, and then he turned to the pillars.",
+   "dur": 10.08
+  },
+  "ult_long_pad|3.08|0": {
+   "sim": 0.978,
+   "f0": 93.3,
+   "high": 0.008,
+   "wer": 0.031,
+   "first_ok": true,
+   "asr": "So where did the golden city come from? By Ibn Kathir's time, a rich legend had grown around the verse. In some versions, a king named Shadad, son of Ad, built it.",
+   "dur": 13.26
+  },
+  "ult_long_pad|3.08|1": {
+   "sim": 0.973,
+   "f0": 89.1,
+   "high": 0.03,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "Commentators described a city of bricks of gold and silver, its pebbles, pearls, and jewels, its soil made of musk, a city that moved from land to land, sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "dur": 15.62
+  },
+  "ult_long_pad|5.10|0": {
+   "sim": 0.977,
+   "f0": 97.2,
+   "high": 0.049,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "But we should be clear. These changes unfolded over centuries and millennia. No study has dated the people of Ad, and no geological event has been shown to match the Quranic account.",
+   "dur": 12.73
+  },
+  "ult_long_pad|5.10|1": {
+   "sim": 0.976,
+   "f0": 97.2,
+   "high": 0.001,
+   "wer": 0.0,
+   "first_ok": true,
+   "asr": "At Shisir, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation and no known connection to Aad.",
+   "dur": 11.69
+  }
+ },
+ "jobs": [
+  {
+   "id": "ref_short|0.01|0",
+   "text": "There are places on Earth where the land itself seems to forget. Here, in the south of Arabia, the wind has been moving sand for thousands of years. Lifting it. Folding it. Laying it down again. Footprints vanish by evening. Whole dunes walk.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_0.01_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_short|1.04|0",
+   "text": "Dost thou not consider how thy Lord dealt with the tribe of عَاد, with many-columned إِرَم, the like of which was not created in the lands.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_1.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_short|2.04|0",
+   "text": "They were builders. Build ye on every high place a monument for vain delight? Hood asks them. And seek ye out strongholds, that haply ye may last for ever?",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_2.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_short|3.04|0",
+   "text": "Al-Tabari weighed these views, and concluded that إِرَم was most likely the name of a tribe of عَاد. Then he turned to the pillars.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_3.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_short|3.08|0",
+   "text": "So where did the golden city come from? By Ibn Katheer's time, a rich legend had grown around the verse. In some versions, a king named Shaddaad, son of عَاد, built it.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_3.08_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_short|3.08|1",
+   "text": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk. A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_3.08_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 32,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_short|5.10|0",
+   "text": "But we should be clear. These changes unfolded over centuries and millennia. No study has dated the people of عَاد, and no geological event has been shown to match the Quranic account.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_5.10_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_short|5.10|1",
+   "text": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to عَاد.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_short_5.10_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/cleaned_reference.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 32,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|0.01|0",
+   "text": "There are places on Earth where the land itself seems to forget. Here, in the south of Arabia, the wind has been moving sand for thousands of years. Lifting it. Folding it. Laying it down again. Footprints vanish by evening. Whole dunes walk.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_0.01_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|1.04|0",
+   "text": "Dost thou not consider how thy Lord dealt with the tribe of عَاد, with many-columned إِرَم, the like of which was not created in the lands.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_1.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|2.04|0",
+   "text": "They were builders. Build ye on every high place a monument for vain delight? Hood asks them. And seek ye out strongholds, that haply ye may last for ever?",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_2.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|3.04|0",
+   "text": "Al-Tabari weighed these views, and concluded that إِرَم was most likely the name of a tribe of عَاد. Then he turned to the pillars.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_3.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|3.08|0",
+   "text": "So where did the golden city come from? By Ibn Katheer's time, a rich legend had grown around the verse. In some versions, a king named Shaddaad, son of عَاد, built it.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_3.08_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|3.08|1",
+   "text": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk. A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_3.08_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 32,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|5.10|0",
+   "text": "But we should be clear. These changes unfolded over centuries and millennia. No study has dated the people of عَاد, and no geological event has been shown to match the Quranic account.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_5.10_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ref_long|5.10|1",
+   "text": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to عَاد.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ref_long_5.10_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 32,
+   "params": {
+    "mode": "reference",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|0.01|0",
+   "text": "There are places on Earth where the land itself seems to forget. Here, in the south of Arabia, the wind has been moving sand for thousands of years. Lifting it. Folding it. Laying it down again. Footprints vanish by evening. Whole dunes walk.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_0.01_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|1.04|0",
+   "text": "Dost thou not consider how thy Lord dealt with the tribe of عَاد, with many-columned إِرَم, the like of which was not created in the lands.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_1.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|2.04|0",
+   "text": "They were builders. Build ye on every high place a monument for vain delight? Hood asks them. And seek ye out strongholds, that haply ye may last for ever?",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_2.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|3.04|0",
+   "text": "Al-Tabari weighed these views, and concluded that إِرَم was most likely the name of a tribe of عَاد. Then he turned to the pillars.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_3.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|3.08|0",
+   "text": "So where did the golden city come from? By Ibn Katheer's time, a rich legend had grown around the verse. In some versions, a king named Shaddaad, son of عَاد, built it.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_3.08_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|3.08|1",
+   "text": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk. A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_3.08_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 32,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|5.10|0",
+   "text": "But we should be clear. These changes unfolded over centuries and millennia. No study has dated the people of عَاد, and no geological event has been shown to match the Quranic account.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_5.10_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_short_pad|5.10|1",
+   "text": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to عَاد.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_short_pad_5.10_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_short_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this.",
+   "seed": 32,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|0.01|0",
+   "text": "There are places on Earth where the land itself seems to forget. Here, in the south of Arabia, the wind has been moving sand for thousands of years. Lifting it. Folding it. Laying it down again. Footprints vanish by evening. Whole dunes walk.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_0.01_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|1.04|0",
+   "text": "Dost thou not consider how thy Lord dealt with the tribe of عَاد, with many-columned إِرَم, the like of which was not created in the lands.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_1.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|2.04|0",
+   "text": "They were builders. Build ye on every high place a monument for vain delight? Hood asks them. And seek ye out strongholds, that haply ye may last for ever?",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_2.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|3.04|0",
+   "text": "Al-Tabari weighed these views, and concluded that إِرَم was most likely the name of a tribe of عَاد. Then he turned to the pillars.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_3.04_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|3.08|0",
+   "text": "So where did the golden city come from? By Ibn Katheer's time, a rich legend had grown around the verse. In some versions, a king named Shaddaad, son of عَاد, built it.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_3.08_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|3.08|1",
+   "text": "Commentators described a city of bricks of gold and silver, its pebbles pearls and jewels, its soil made of musk. A city that moved from land to land: sometimes in Syria, sometimes in Yemen, sometimes in Iraq.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_3.08_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 32,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|5.10|0",
+   "text": "But we should be clear. These changes unfolded over centuries and millennia. No study has dated the people of عَاد, and no geological event has been shown to match the Quranic account.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_5.10_0.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 31,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  },
+  {
+   "id": "ult_long_pad|5.10|1",
+   "text": "At Shisr, the excavators found no evidence that a sandstorm destroyed the site. The collapse of its fortress into a sinkhole has a geological explanation, and no known connection to عَاد.",
+   "lang": "en",
+   "out": "/home/user/iram-work/stability/ult_long_pad_5.10_1.wav",
+   "ref_wav": "/home/user/zack-d-films-ai-video-generator/iram-documentary/voice_profiles/english_narrator/extracted_audio/reference_long_pad.wav",
+   "ref_text": "If you breathe with your belly, then your voice starts to drop a couple of frequencies. When you breathe with your diaphragm, it would sound something like this. It wouldn't be very, very low. You need to drop your voice and breathe through the belly. That's how you make that Hollywood sound.",
+   "seed": 32,
+   "params": {
+    "mode": "ultimate",
+    "cfg_value": 2.0,
+    "inference_timesteps": 10,
+    "normalize": false,
+    "denoise": false
+   }
+  }
+ ]
+}

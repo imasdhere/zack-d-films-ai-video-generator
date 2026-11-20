@@ -68,7 +68,11 @@ def plan():
 
 def _ref(profile, cfg):
     p = cfg['voice_profiles']['arabic' if profile == 'quranic' else profile]
-    return str(ROOT / p['reference']), (ROOT / p['transcript']).read_text(encoding='utf-8').strip()
+    return str(ROOT / p.get('synthesis_reference', p['reference'])), (ROOT / p['transcript']).read_text(encoding='utf-8').strip()
+
+
+def _params(profile, cfg):
+    return dict(cfg['voice_profiles']['arabic' if profile == 'quranic' else profile].get('engine_params', {}))
 
 
 def generate(only=None, lang=None, force=False, seed_offset=0, ids=None):
@@ -81,7 +85,7 @@ def generate(only=None, lang=None, force=False, seed_offset=0, ids=None):
     for (eng, prof), its in by.items():
         rw, rt = _ref(prof, cfg)
         jobs = [{'id': i['id'], 'text': i['text'], 'lang': i['lang'], 'out': i['wav'], 'ref_wav': rw, 'ref_text': rt,
-                 'seed': i['seed'] + seed_offset} for i in its]
+                 'seed': i['seed'] + seed_offset, 'params': _params(prof, cfg)} for i in its]
         todo = [j for j in jobs if force or not pathlib.Path(j['out']).exists()]
         print(json.dumps({'engine': eng, 'profile': prof, 'chunks': len(jobs), 'to_generate': len(todo)}), flush=True)
         if todo: engines.get(eng).run(todo, log_path=WORK / 'logs' / f'narr_{eng}_{prof}.log', force=force)
@@ -130,7 +134,7 @@ def best_of(cid, n=6):
     w = pathlib.Path(it['wav']); jobs = []
     for k in range(n):
         jobs.append({'id': f'{cid}_take{k}', 'text': it['text'], 'lang': it['lang'], 'out': str(w.with_suffix(f'.take{k}.wav')),
-                     'ref_wav': rw, 'ref_text': rt, 'seed': it['seed'] + 104729 * (k + 1)})
+                     'ref_wav': rw, 'ref_text': rt, 'seed': it['seed'] + 104729 * (k + 1), 'params': _params(it['profile'], cfg)})
     engines.get(it['engine']).run(jobs, log_path=WORK / 'logs' / f'bestof_{cid}.log', force=True)
     from .audio_quality_control import chunk_qa
     scored = []

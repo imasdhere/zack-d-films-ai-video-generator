@@ -9,7 +9,7 @@ import numpy as np
 from .common import WORK, strip_diacritics
 from .audio_quality_control import load16, SR, transcribe
 
-ANCHORS = {'ʿĀd': [('tribe', 'of'), ('people', 'of'), ('son', 'of')], 'Iram': [('columned',), ('that',), ('is',)]}
+ANCHORS = {'ʿĀd': [('tribe', 'of'), ('people', 'of'), ('son', 'of'), ('story', 'of')], 'Iram': [('columned',), ('called',), ('found',), ('name',), ('that',), ('is',)]}
 
 
 def words_en(x):
@@ -37,8 +37,10 @@ def check(path):
             if len(seg) < 0.15 * SR: continue
             seg = np.concatenate([np.zeros(int(0.3 * SR), np.float32), seg, np.zeros(int(0.3 * SR), np.float32)])
             ar = transcribe(seg, 'ar').strip()
-            ok = {'ʿĀd': 'عاد', 'Iram': 'ارم'}[name] in strip_diacritics(ar).replace(' ', '')
-            out.append({'file': str(path).split('/')[-1], 'name': name, 'after': ' '.join(a), 'english_asr': w['w'], 'arabic_asr': ar, 'arabic_match': ok})
+            a_ = strip_diacritics(ar).replace(' ', '')
+            ok = {'ʿĀd': 'عاد', 'Iram': 'ارم'}[name] in a_
+            near = bool(re.search({'ʿĀd': '[عا]ا?د', 'Iram': 'ا?را?م'}[name], a_))
+            out.append({'file': str(path).split('/')[-1], 'name': name, 'after': ' '.join(a), 'english_asr': w['w'], 'arabic_asr': ar, 'arabic_match': ok, 'near': near})
             break
     return out
 

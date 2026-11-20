@@ -100,5 +100,21 @@ def score(jobs=None):
     print(json.dumps(summ, indent=1))
 
 
+
+
+def names():
+    """Spelling variants of the two names, in three carrier sentences, with the production set-up (ultimate, padded clip)."""
+    from . import engines
+    mode, ref, rt = setups()['ult_short_pad']; out = WORK / 'names'; out.mkdir(exist_ok=True); jobs = []
+    variants = {'v1': ('عَاد', 'إِرَم'), 'v2': ('عَادْ', 'إِرَمْ'), 'v3': ('عاد', 'إرم')}
+    carriers = ['They were the tribe of {A}, and their city was called {I}.', 'No one has dated the people of {A}, and no one has found {I}.',
+                'The story of {A} begins with a single name: {I}.']
+    for v, (a, i) in variants.items():
+        for k, c in enumerate(carriers):
+            jobs.append({'id': f'{v}|{k}', 'text': c.format(A=a, I=i), 'lang': 'en', 'out': str(out / f'{v}_{k}.wav'), 'ref_wav': str(ref),
+                         'ref_text': rt, 'seed': 71 + k, 'params': {'mode': mode}})
+    engines.get('voxcpm').run(jobs, log_path=WORK / 'logs' / 'name_variants.log', force=True)
+    print('NAMES_GENERATED')
+
 if __name__ == '__main__':
-    {'refs': refs, 'run': run, 'score': score}[sys.argv[1]]()
+    {'refs': refs, 'run': run, 'score': score, 'names': names}[sys.argv[1]]()

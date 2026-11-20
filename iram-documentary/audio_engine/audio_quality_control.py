@@ -165,6 +165,12 @@ def _ref_emb(profile):
 
 
 @functools.lru_cache(None)
+def _ref_f0(profile):
+    p = config()['voice_profiles']['arabic' if profile == 'quranic' else profile]
+    return pitch(load16(ROOT / p['reference']))['f0_median_hz']
+
+
+@functools.lru_cache(None)
 def _names():
     import yaml
     lx = yaml.safe_load(open(ROOT / 'configuration/pronunciation_lexicon.yaml', encoding='utf-8'))
@@ -221,15 +227,26 @@ def chunk_qa(item, cfg):
     else:
         raw, err = error_rates(item['text'], hyp, 'ar'); lim = q['max_cer_ar']
     sim = round(cos(embed(x), _ref_emb(item['profile'])), 3) if d >= 1.5 else None
+    # voice drift and cracks: chunk pitch vs the reference voice, and frames far above the chunk's own median pitch
+    import librosa
+    f0, vf, _ = librosa.pyin(x, fmin=50, fmax=500, sr=SR, frame_length=1024, hop_length=160); v = f0[vf]
+    shift = high = None
+    if len(v) > 30:
+        med = float(np.median(v)); shift = round(float(12 * np.log2(med / _ref_f0(item['profile']))), 2)
+        high = round(float((12 * np.log2(v / med) > 7).mean()), 3)
     exp = len(item['text']) / (14.0 if item['lang'] == 'en' else 11.0)
     if err > lim: notes.append(f'ASR error {err} > {lim}')
-    if sim is not None and sim < q['min_speaker_similarity']: notes.append(f'speaker similarity {sim} < {q["min_speaker_similarity"]}')
+    lim_sim = q.get(f"min_speaker_similarity_{item['lang']}", q['min_speaker_similarity'])
+    if sim is not None and sim < lim_sim: notes.append(f'speaker similarity {sim} < {lim_sim} (voice drift)')
+    if shift is not None and abs(shift) > q.get('max_pitch_shift_semitones', 99): notes.append(f'pitch {shift:+} semitones from the reference voice')
+    if high is not None and high > q.get('max_high_pitch_fraction', 1): notes.append(f'{high:.0%} of voiced frames far above the median (crack)')
     if not 0.45 * exp < d < 2.3 * exp + 1.0: notes.append(f'duration {d:.1f}s vs expected {exp:.1f}s')
     full, _ = read_audio(item['wav'])
     if (abs(full) >= 0.999).sum(): notes.append('clipped samples')
     sil, longest = internal_silences(x)
     if sil: notes.append(f'internal silence {longest}s')
-    return {'status': 'fail' if notes else 'pass', 'err': err, 'raw_wer': raw, 'similarity': sim, 'asr': hyp, 'duration': round(d, 2), 'notes': notes}
+    return {'status': 'fail' if notes else 'pass', 'err': err, 'raw_wer': raw, 'similarity': sim, 'pitch_shift_st': shift, 'high_pitch_fraction': high,
+            'asr': hyp, 'duration': round(d, 2), 'notes': notes}
 
 
 # ------------------------------------------------------------------ evaluation scoring
