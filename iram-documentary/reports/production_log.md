@@ -56,3 +56,16 @@ All times are the container's local time on 2026-11-19.
 | 18:35 | References | Both transcripts verified: Video 1 by two Whisper models in exact agreement (and the burned-in captions); Video 2 against the on-screen text of the supplication in the video. Clips chosen by measurement: English 3.09–12.96 s (steady register, median 98 Hz; the "belly" demonstration and a raised aside excluded); Arabic 37.24–47.02 s (least chanted passage, median 68 Hz). WPE dereverberation made the Arabic tail worse (−22 → −17 dB), so it is not used. Fixed a downmix bug (ffmpeg `-ac 1` sums channels and clipped). |
 | 18:50 | Engines | VoxCPM2 runs on this CPU in bf16: about 4.3× slower than real time, 11.5 GB peak RAM. |
 | 18:55 | Quran | Registry of 22 verses built from Tanzil; all 22 match quran.com letter for letter. The router's Quranic scan flags the ʿĀʾisha hadith card, because it contains the words of 46:24 ("هذا عارض ممطرنا"), so that quotation goes to the review workflow, not the mix. |
+| 19:28 | Probe | Pronunciation probe (24 respellings × 2 carrier sentences, ranked by Whisper): Iram → "Ee-rahm", ʿĀd → "Aa-d", al-Ṭabarī → "al-Tabari", ʿimād → "ee-maad". A first writer bug replaced "aad" inside other names; fixed to whole words. |
+| 19:35 | Decision | VoxCPM2 "ultimate" (continuation) cloning garbled or dropped the first word of most sentences. A/B on 8 sentences: first word correct 1/8 (ultimate) vs 6/8 (reference); CER 0.141 vs 0.077. **Production switched to reference mode.** |
+| 19:50 | Narration | Standard tests repeated in reference mode, then the full narration started: 210 English chunks and 5 Arabic chunks (VoxCPM2, about 3.7× slower than real time). |
+| 20:24 | Incident | Container restart. Narration resumed from the 110 finished chunks (resumable by design). |
+| 21:07 | QA | Whisper large-v3-turbo + WavLM on every chunk: 6 of 215 failed, mostly spelling false alarms. QA now ignores name spellings and British/American variants. |
+| 21:28 | Incident | Regeneration was killed for lack of memory (VoxCPM2 loaded while QA models were still in memory). Regeneration now runs as its own process. |
+| 21:34 | QA | "Whole dunes walk." failed 3 times (Whisper: "Hold Doom's walk"). Best of 6 takes kept and flagged "review" for listening. All other chunks pass. |
+| 21:47 | Render | Narration assembled: 75 segments, 18.9 min, segment loudness −19.1 to −18.9 LUFS. Timeline 21:36.6. Render started. |
+| 22:09 | Incident | Container restart during the render. Three chapter files were cut off mid-write (no index). The render was made resumable in 40–130 s parts with a duration check. |
+| 07:48 | Render | Render resumed (day 2). Chapter 3 part 1 skipped as complete; 14 parts rendered in 40 minutes, 4 in parallel. |
+| 08:29 | Export | **Version 2 master: 21:36.6**, 1920×1080, 24 fps, H.264, AAC 48 kHz, soft English subtitles; 3.8 GB. 540p review copy. |
+| 08:48 | QC | 17/17 automated checks pass: −16.0 LUFS, −4.0 dBTP, no music, no freezes, sync within 4 ms, narration WER 0.113 (sampled). Final audio QA report written. |
+| 08:55 | Report | Evaluation re-scored. Finding: reference mode is less steady in pitch in English (chunk spread 3.4 vs 0.7 semitones) and the Qwen3 baseline scores best on the English proxies. Reported as an open choice for a listening decision. |

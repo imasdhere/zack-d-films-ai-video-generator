@@ -25,20 +25,28 @@ LIMITS = [
 ]
 
 SELECTION = [
-    '| Language | Selected engine | Configuration | Basis |',
+    '| Language | Selected engine (used in the exported film) | Configuration | Basis |',
     '|---|---|---|---|',
-    '| English | **VoxCPM2** | reference-mode cloning from Video 1 (9.9 s clip), cfg 2.0, 10 steps, bf16 CPU, VoxCPM pronunciation lexicon | Only candidate engine from the brief that could run (Audar blocked). Clear speaker margin over the other voice; best pitch match in reference mode. The version-1 engine (Qwen3-TTS) cloned the same voice with slightly lower ASR error and is kept as a documented fallback. |',
-    '| Arabic | **VoxCPM2** | reference-mode cloning from Video 2 (9.8 s clip), same settings | Only engine tested that speaks Arabic (Qwen3-TTS has no Arabic; Audar blocked). |',
+    '| English | **VoxCPM2** | reference-mode cloning from Video 1 (9.9 s clip), cfg 2.0, 10 steps, bf16 CPU, VoxCPM pronunciation lexicon | The only engine from the brief that could run (Audar blocked). Clear speaker margin over the other voice (0.97 vs 0.85). Reference mode removes the first-word errors of ultimate mode (A/B test below). |',
+    '| Arabic | **VoxCPM2** | reference-mode cloning from Video 2 (9.8 s clip), same settings | The only engine tested that speaks Arabic (Qwen3-TTS has no Arabic; Audar blocked). Best Arabic result of the tests: CER 0.041, similarity 0.979, steady pitch. |',
     '| Quranic | none approved | review candidates only (`assets/narration/quranic/`) | No synthetic recitation is approved without qualified review. |',
     '',
     '**Cloning mode.** VoxCPM2 offers "ultimate" cloning (the reference clip as a continuation prompt plus its transcript) and '
     '"reference" cloning (the clip as an isolated voice reference). In the first tests, ultimate mode garbled or dropped the first word of '
-    'most sentences: Whisper heard "Banta-e-Rom was a city" for "Some said Iram was a city", and the first word of almost every Arabic sentence was missing. '
+    'many sentences: Whisper heard "Banta-e-Rom was a city" for "Some said Iram was a city", and the first word of almost every Arabic sentence was missing. '
     'An A/B test on 8 sentences (`workflows/tts/eval/voxcpm_mode_ab.json`) gave: first word correct 1/8 (ultimate) vs 6/8 (reference); '
-    'mean CER 0.141 vs 0.077; speaker similarity English 0.976 vs 0.947, Arabic 0.983 vs 0.981 (other speaker: 0.83–0.84); '
-    'SQUIM PESQ 2.92 vs 3.26; English median pitch 91 Hz vs 102 Hz (Video 1: 98 Hz). Wrong or missing words are not acceptable in a documentary, '
-    'so production uses **reference mode**, at the cost of a small loss of similarity in English.',
+    'mean CER 0.141 vs 0.077; speaker similarity English 0.976 vs 0.947, Arabic 0.983 vs 0.981 (other speaker: 0.83–0.84). '
+    'Wrong or missing words are not acceptable in a documentary, so production uses **reference mode**.',
     '',
-    '**This choice is provisional.** It rests on automatic measurements, because no human has listened yet, and on two engines out of three. '
-    'Re-run tests 1 and 3 when Audar can be downloaded.',
+    '**The cost of reference mode in English.** On the full 69-second English test, reference mode is less steady in pitch than ultimate mode: '
+    'chunk-to-chunk pitch spread 3.4 semitones vs 0.7, median pitch 86 Hz vs 93 Hz (Video 1: 98 Hz). In the finished narration, the chapter medians '
+    'run from 86 to 97 Hz (see `reports/final_audio_quality_control.md`). In Arabic, reference mode is steadier than ultimate mode (0.5 vs 0.9 semitones).',
+    '',
+    '**The version-1 engine is a strong alternative for English.** Qwen3-TTS 1.7B Base, cloning the same Video 1 clip, scored best of all English tests on the '
+    'automatic measures: WER 0.043, similarity 0.986, pitch spread 0.8 semitones, PESQ estimate 3.93. It was not chosen because the brief asked for the new engines, and because '
+    'no one has listened to either. Its adapter is ready: set `voice_profiles.english.preferred_engine: qwen3` in `configuration/voice_config.yaml`, then run '
+    '`synthesis_manager generate --lang en --force` and the pipeline. Only the English chunks are generated again; the Arabic narration is kept.',
+    '',
+    '**This choice is provisional.** It rests on automatic measurements and on two engines out of three. Listen to the English tests side by side '
+    '(`voxcpm-reference`, `voxcpm-ultimate`, `qwen3`) before publishing, and re-run tests 1 and 3 when Audar can be downloaded.',
 ]

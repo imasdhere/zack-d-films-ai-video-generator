@@ -1,7 +1,7 @@
 # THE LOST CITY OF IRAM
 ### In Search of the People of the Pillars
 
-A **21:01** historical investigation documentary (1920×1080, 24 fps, H.264 High, AAC stereo, −16 LUFS, **no music**; 17/17 automated QC checks pass). It covers Iram Dhāt al-ʿImād (Quran 89:6–8), the people of ʿĀd, the classical exegetical debate, the search for "Ubar" at Shisr in Oman, and a recent epigraphic proposal that points to Wadi Ramm in Jordan. The film keeps seven evidence levels visibly apart: Quranic text, authentic hadith, classical scholarship, later legend, archaeology, scientific hypothesis and artistic reconstruction.
+A **21:37** (version 2; version 1: 21:01) historical investigation documentary (1920×1080, 24 fps, H.264 High, AAC stereo, −16 LUFS, **no music**; 17/17 automated QC checks pass). It covers Iram Dhāt al-ʿImād (Quran 89:6–8), the people of ʿĀd, the classical exegetical debate, the search for "Ubar" at Shisr in Oman, and a recent epigraphic proposal that points to Wadi Ramm in Jordan. The film keeps seven evidence levels visibly apart: Quranic text, authentic hadith, classical scholarship, later legend, archaeology, scientific hypothesis and artistic reconstruction.
 
 ## Deliverables
 
@@ -27,7 +27,7 @@ A **21:01** historical investigation documentary (1920×1080, 24 fps, H.264 High
 
 ## Version 2: cloned English and Arabic narrators
 
-Version 2 replaces the designed synthetic voice with two cloned narrators, used with the speakers' permission:
+Version 2 (exported 2026-11-20, 21:36.6, 17/17 QC checks pass) replaces the designed synthetic voice with two cloned narrators (VoxCPM2), used with the speakers' permission:
 the English narrator from Video 1 and the Arabic narrator from Video 2. The Arabic narrator reads the original
 Arabic of the classical and hadith quotations, and the English narrator then reads the translation. Quranic
 verses are not voiced in the film: the Arabic is shown on screen and the English translation is narrated.

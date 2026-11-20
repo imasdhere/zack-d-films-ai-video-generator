@@ -19,8 +19,8 @@
    "file": "voice_profiles/english_narrator/test_samples/qwen3_en_test.wav",
    "duration_s": 61.47,
    "asr_transcript": "Tabari gathered the opinions of the generations before him. Some said Iram was a city, Alexandria, according to one early authority, Damascus, according to another. But the view at Tabari preferred was simpler. The Imad, he argued, were the poles of tents. A-Aid-Eid were people of poles, travelers moving with the rains and the pasture. And he added a sentence that cuts to the heart of this mystery. No building of theirs with columns, he wrote, is known through any authentic report. The search later led to Shisr, a small oasis in Dofar, about 170 kilometers inland, with a Bedouin well and a ruined fort that earlier travelers had dismissed as only a few centuries old. Perhaps that is the real lesson of Irem. A people can survive in memory long after their stones are gone, or even if they never built in stone at all. A few words in a sacred text have outlived empires, maps, and explorers.",
-   "wer": 0.061,
-   "cer": 0.018,
+   "wer": 0.043,
+   "cer": 0.012,
    "speaker_similarity": 0.986,
    "similarity_to_other_reference": 0.829,
    "chunk_similarity_mean": 0.977,
@@ -68,13 +68,73 @@
    }
   },
   {
-   "engine": "voxcpm",
+   "engine": "voxcpm-reference",
    "lang": "en",
-   "file": "voice_profiles/english_narrator/test_samples/voxcpm_en_test.wav",
+   "file": "voice_profiles/english_narrator/test_samples/voxcpm-reference_en_test.wav",
+   "duration_s": 68.97,
+   "asr_transcript": "Al-Tabari gathered the opinions of the generations before him. Some said Eram was a city, Alexandria according to one early authority, Damascus according to another. But the view Al-Tabari preferred was simpler. The Imad, he argued, were the poles of tents. Dey-hadi were people of poles, travelers moving with the rains and the pasture. And he added a sentence that cuts to the heart of this mystery. No building of theirs with columns, he wrote, is known through any authentic report. The search later led to Shishr, a small oasis in Dofar, about 170 kilometers inland, with a Bedouin well and a ruined fort that earlier travelers had dismissed as only a few centuries old. Perhaps that is the real lesson of Iram, a people can survive in memory long after their stones are gone, or even if they never built in stone at all. A few words in a sacred text have outlived empires, maps, and explorers.",
+   "wer": 0.06,
+   "cer": 0.02,
+   "speaker_similarity": 0.97,
+   "similarity_to_other_reference": 0.845,
+   "chunk_similarity_mean": 0.947,
+   "chunk_similarity_sd": 0.017,
+   "chunk_f0_median_sd_semitones": 3.41,
+   "f0_median_hz": 86.1,
+   "f0_sd_semitones": 5.05,
+   "words_per_minute": 137.4,
+   "squim": {
+    "stoi_est": 0.987,
+    "pesq_est": 3.09,
+    "si_sdr_est_db": 17.5
+   },
+   "clipped_samples": 0,
+   "internal_silences_over_1s": 1,
+   "longest_internal_silence_s": 1.07,
+   "peak_dbfs": -1.01,
+   "generation": {
+    "chunks": 11,
+    "audio_s": 68.97,
+    "wall_s": 276.4,
+    "compute_s_sum_chunks": 259.9,
+    "model_load_and_overhead_s": 16.5,
+    "real_time_factor": 3.77,
+    "peak_rss_gb": 11.32,
+    "cpu_percent_avg": 370,
+    "retries": 0,
+    "implausible_chunks": [],
+    "params": {
+     "mode": "reference",
+     "cfg_value": 2.0,
+     "inference_timesteps": 10,
+     "normalize": false,
+     "denoise": false
+    },
+    "seed_base": 20261119
+   },
+   "implausible_chunks": [],
+   "f0_shift_vs_reference_semitones": -2.29,
+   "scores": {
+    "similarity": 10,
+    "naturalness": null,
+    "pronunciation": 8,
+    "accent_preservation": null,
+    "rhythm_pacing": 7,
+    "prosody": 5,
+    "emotional_suitability": null,
+    "consistency": 4,
+    "artefacts": 7,
+    "overall_provisional": 6.8
+   }
+  },
+  {
+   "engine": "voxcpm-ultimate",
+   "lang": "en",
+   "file": "voice_profiles/english_narrator/test_samples/voxcpm-ultimate_en_test.wav",
    "duration_s": 63.4,
    "asr_transcript": "But Tabari gathered the opinions of the generations before him. Banta-e-Rom was a city, Alexandria according to one early authority, Damascus according to another. But the view at Tabari preferred was simpler. The Imad, he argued, were the poles of tents. It were people of poles, travelers, moving with the rains and the pasture. He added a sentence that cuts to the heart of this mystery. no building of theirs with columns, he wrote, is known through any authentic report. The search later led to Shishir, a small oasis in Dofar, about 170 kilometers inland, with a Bedouin well and a ruined fort that earlier travelers had dismissed as only a few centuries old. Perhaps that is the real lesson of Iram. People can survive in memory long after their stones are gone, or even if they never built in stone at all. In few words in the sacred text have outlived empires, maps, and explorers.",
-   "wer": 0.092,
-   "cer": 0.042,
+   "wer": 0.074,
+   "cer": 0.037,
    "speaker_similarity": 0.989,
    "similarity_to_other_reference": 0.843,
    "chunk_similarity_mean": 0.973,
@@ -107,7 +167,8 @@
      "cfg_value": 2.0,
      "inference_timesteps": 10,
      "normalize": false,
-     "denoise": false
+     "denoise": false,
+     "mode": "ultimate"
     },
     "seed_base": 20261119
    },
@@ -116,20 +177,80 @@
    "scores": {
     "similarity": 10,
     "naturalness": null,
-    "pronunciation": 6,
+    "pronunciation": 7,
     "accent_preservation": null,
     "rhythm_pacing": 9,
     "prosody": 9,
     "emotional_suitability": null,
     "consistency": 8,
     "artefacts": 8,
-    "overall_provisional": 8.3
+    "overall_provisional": 8.5
    }
   },
   {
-   "engine": "voxcpm",
+   "engine": "voxcpm-reference",
    "lang": "ar",
-   "file": "voice_profiles/arabic_narrator/test_samples/voxcpm_ar_test.wav",
+   "file": "voice_profiles/arabic_narrator/test_samples/voxcpm-reference_ar_test.wav",
+   "duration_s": 86.09,
+   "asr_transcript": "في جنوب الجزيرة العربية حيث تمتد رمال الربع الخالي بلا نهاية يتردد منذ قرون اسم قديم إرام ذات العماد ذكرها القرآن الكريم مرة واحدة مقرونة بقوم عاد الذين أرسل إليهم النبي هود فما أرم أهي مدينة ذات أعمدة شاهقة أم قبيلة من الرحل تتنقل بخيرها وراء المطر والمرعى جمع الإمام الطبري أقوال من سبقه ورجح أن العمادة هي أعمدة الخيام وقال إنه لا يعلم لهم بناء بالعماد بخبر صحيح وبعد أربعة قرون وافقه ابن كثير وعد حكايات المدينة الذهبية من خرافات الإسرائيليات وفي عام 1992 كشفت بعثة أثرية في شصر بمحافظة ظفار في سلطنة عمان عن حصن قديم على طرق تجارة اللبان أعلنت الصحف أن مدينة أوبار قد وجدت غير أن المنقبين أنفسهم رأوا أن أوبار اسم إقليم وقوم لا مدينة واحدة ربما لا تكون إرم مدينة ضائعة تنتظر من يكتشفها ربما كانت درسا محفوظا في الذاكرة أطول عمرا من الحجارة والأعمدة",
+   "wer": 0.048,
+   "cer": 0.041,
+   "speaker_similarity": 0.979,
+   "similarity_to_other_reference": 0.811,
+   "chunk_similarity_mean": 0.973,
+   "chunk_similarity_sd": 0.008,
+   "chunk_f0_median_sd_semitones": 0.49,
+   "f0_median_hz": 65.6,
+   "f0_sd_semitones": 1.95,
+   "words_per_minute": 99.0,
+   "squim": {
+    "stoi_est": 0.993,
+    "pesq_est": 3.27,
+    "si_sdr_est_db": 20.0
+   },
+   "clipped_samples": 0,
+   "internal_silences_over_1s": 0,
+   "longest_internal_silence_s": 0.84,
+   "peak_dbfs": -0.97,
+   "generation": {
+    "chunks": 9,
+    "audio_s": 86.09,
+    "wall_s": 322.9,
+    "compute_s_sum_chunks": 306.0,
+    "model_load_and_overhead_s": 16.9,
+    "real_time_factor": 3.55,
+    "peak_rss_gb": 10.72,
+    "cpu_percent_avg": 373,
+    "retries": 0,
+    "implausible_chunks": [],
+    "params": {
+     "mode": "reference",
+     "cfg_value": 2.0,
+     "inference_timesteps": 10,
+     "normalize": false,
+     "denoise": false
+    },
+    "seed_base": 20261119
+   },
+   "implausible_chunks": [],
+   "f0_shift_vs_reference_semitones": -0.39,
+   "scores": {
+    "similarity": 10,
+    "naturalness": null,
+    "pronunciation": 8,
+    "accent_preservation": null,
+    "rhythm_pacing": null,
+    "prosody": 8,
+    "emotional_suitability": null,
+    "consistency": 9,
+    "artefacts": 8,
+    "overall_provisional": 8.6
+   }
+  },
+  {
+   "engine": "voxcpm-ultimate",
+   "lang": "ar",
+   "file": "voice_profiles/arabic_narrator/test_samples/voxcpm-ultimate_ar_test.wav",
    "duration_s": 105.11,
    "asr_transcript": "جنوب الجزيرة العربية حيث تمتد رمال الربع الخالي بلا نهاية يتردد منذ قرون اسم قديم إرم ذات العماد القرآن الكريم مرة واحدة مقرونة بقوم عاد الذين أرسل إليهم النبي هود أرم أهي مدينة ذات أعمدة شاهقة أم قبيلة من الرحل تتنقل بخيامها وراء المطر والمرعى الإمام الطبري أقوى لمن سبقه ورجح أن العمادة هي أعمدة الخيام وقال إنه لا يعلم لهم بناء بالعماد بخبر صحيح أربعة قرون وافقه ابن كثير وعد حكامه حكايات المدينة الذهبية من خرافات الإسرائيليات في عام 1992 كشفت بعثة أثرية في شصر بمحافظة ظفار في سلطنة عمان عن حصن قديم على طرق تجارة اللبان أعلنت الصحف أن مدينة أوبار قد وجدت غير أن المنقبين أنفسهم رأوا أن أوبار اسم إقليم وقوم لا مدينة واحدة لا تكون إرم مدينة ضائعة تنتظر من يكتشفها يما كانت درسا محفوظا في الذاكرة أطول عمرا من الحجارة والأعمدة",
    "wer": 0.11,
@@ -166,7 +287,8 @@
      "cfg_value": 2.0,
      "inference_timesteps": 10,
      "normalize": false,
-     "denoise": false
+     "denoise": false,
+     "mode": "ultimate"
     },
     "seed_base": 20261119
    },
