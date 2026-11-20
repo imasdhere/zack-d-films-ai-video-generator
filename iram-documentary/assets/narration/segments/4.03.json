@@ -1,7 +1,7 @@
 {
  "id": "4.03",
  "sr": 48000,
- "duration": 9.069,
+ "duration": 9.192,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "Thomas wrote of \"this Atlantis of the Sands\".",
    "tts": "Thomas wrote of this Atlantis of the Sands.",
    "start": 0.0,
-   "end": 2.623
+   "end": 2.85
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "The phrase is often credited to Lawrence of Arabia, but it does not appear in Lawrence's published works.",
    "tts": "The phrase is often credited to Lawrence of Arabia, but it does not appear in Lawrence's published works.",
-   "start": 3.073,
-   "end": 9.069
+   "start": 3.0,
+   "end": 9.192
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "6.09",
  "sr": 48000,
- "duration": 8.43,
+ "duration": 6.03,
  "sentences": [
   {
    "i": 0,
@@ -9,9 +9,9 @@
    "profile": "english",
    "engine": "voxcpm",
    "display": "And some things remain unknown: when ʿĀd lived; exactly where; and what their pillars really were.",
-   "tts": "And some things remain unknown: when Aa-d lived; exactly where; and what their pillars really were.",
+   "tts": "And some things remain unknown: when عَاد lived; exactly where; and what their pillars really were.",
    "start": 0.0,
-   "end": 8.43
+   "end": 6.03
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "4.15",
  "sr": 48000,
- "duration": 23.437,
+ "duration": 23.866,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "But the scientists themselves soon told a more careful story.",
    "tts": "But the scientists themselves soon told a more careful story.",
    "start": 0.0,
-   "end": 4.037
+   "end": 3.62
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "Juris Zarins argued that, in the classical and Arabic sources, Ubar was not a single town at all, but a region and a people: the Iobaritae, marked on the second-century map of Ptolemy.",
    "tts": "Juris Zarins argued that, in the classical and Arabic sources, Ubar was not a single town at all, but a region and a people: the Yo-ba-ree-tie, marked on the second-century map of Ptolemy.",
-   "start": 4.487,
-   "end": 16.147
+   "start": 3.86,
+   "end": 16.545
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "Shisr, in this view, was one fortified station in that land, a vital source of water on the frankincense routes.",
    "tts": "Shisr, in this view, was one fortified station in that land, a vital source of water on the frankincense routes.",
-   "start": 16.597,
-   "end": 23.437
+   "start": 16.995,
+   "end": 23.866
   }
  ]
 }

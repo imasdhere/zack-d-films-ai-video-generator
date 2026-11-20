@@ -1,7 +1,7 @@
 {
  "id": "3.12",
  "sr": 48000,
- "duration": 20.571,
+ "duration": 16.352,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "What you are seeing now is an artistic reconstruction.",
    "tts": "What you are seeing now is an artistic reconstruction.",
    "start": 0.0,
-   "end": 3.852
+   "end": 3.11
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "One imagined reading of the verse: a settlement raised on stone columns.",
    "tts": "One imagined reading of the verse: a settlement raised on stone columns.",
-   "start": 4.302,
-   "end": 10.485
+   "start": 3.39,
+   "end": 7.92
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "It is not based on any excavated site.",
    "tts": "It is not based on any excavated site.",
-   "start": 10.935,
-   "end": 13.55
+   "start": 8.17,
+   "end": 10.9
   },
   {
    "i": 3,
@@ -39,9 +39,9 @@
    "profile": "english",
    "engine": "voxcpm",
    "display": "The Quran does not describe Iram's appearance, and no archaeologist has found it.",
-   "tts": "The Quran does not describe Ee-rahm's appearance, and no archaeologist has found it.",
-   "start": 14.0,
-   "end": 20.571
+   "tts": "The Quran does not describe إِرَم's appearance, and no archaeologist has found it.",
+   "start": 11.17,
+   "end": 16.352
   }
  ]
 }

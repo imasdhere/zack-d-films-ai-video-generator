@@ -1,7 +1,7 @@
 {
  "id": "0.01",
  "sr": 48000,
- "duration": 18.398,
+ "duration": 16.169,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "There are places on Earth where the land itself seems to forget.",
    "tts": "There are places on Earth where the land itself seems to forget.",
    "start": 0.0,
-   "end": 3.516
+   "end": 4.62
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "Here, in the south of Arabia, the wind has been moving sand for thousands of years.",
    "tts": "Here, in the south of Arabia, the wind has been moving sand for thousands of years.",
-   "start": 3.966,
-   "end": 9.262
+   "start": 4.83,
+   "end": 10.06
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "Lifting it.",
    "tts": "Lifting it.",
-   "start": 9.712,
-   "end": 10.652
+   "start": 10.43,
+   "end": 11.0
   },
   {
    "i": 3,
@@ -40,8 +40,8 @@
    "engine": "voxcpm",
    "display": "Folding it.",
    "tts": "Folding it.",
-   "start": 11.102,
-   "end": 11.979
+   "start": 11.38,
+   "end": 11.579
   },
   {
    "i": 4,
@@ -50,8 +50,8 @@
    "engine": "voxcpm",
    "display": "Laying it down again.",
    "tts": "Laying it down again.",
-   "start": 12.429,
-   "end": 13.9
+   "start": 11.579,
+   "end": 12.4
   },
   {
    "i": 5,
@@ -60,8 +60,8 @@
    "engine": "voxcpm",
    "display": "Footprints vanish by evening.",
    "tts": "Footprints vanish by evening.",
-   "start": 14.35,
-   "end": 16.182
+   "start": 12.85,
+   "end": 14.5
   },
   {
    "i": 6,
@@ -70,8 +70,8 @@
    "engine": "voxcpm",
    "display": "Whole dunes walk.",
    "tts": "Whole dunes walk.",
-   "start": 16.632,
-   "end": 18.398
+   "start": 15.13,
+   "end": 16.169
   }
  ]
 }

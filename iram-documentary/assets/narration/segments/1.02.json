@@ -1,7 +1,7 @@
 {
  "id": "1.02",
  "sr": 48000,
- "duration": 9.07,
+ "duration": 7.918,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "For centuries, those who lived along its edges told stories of a people of great strength, of towering buildings, and of a city that was lost.",
    "tts": "For centuries, those who lived along its edges told stories of a people of great strength, of towering buildings, and of a city that was lost.",
    "start": 0.0,
-   "end": 9.07
+   "end": 7.918
   }
  ]
 }

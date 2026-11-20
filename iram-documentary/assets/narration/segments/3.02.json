@@ -1,7 +1,7 @@
 {
  "id": "3.02",
  "sr": 48000,
- "duration": 4.263,
+ "duration": 4.136,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "Muslim scholars were asking the same questions more than a thousand years ago.",
    "tts": "Muslim scholars were asking the same questions more than a thousand years ago.",
    "start": 0.0,
-   "end": 4.263
+   "end": 4.136
   }
  ]
 }

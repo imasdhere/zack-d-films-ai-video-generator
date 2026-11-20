@@ -1,7 +1,7 @@
 {
  "id": "4.01",
  "sr": 48000,
- "duration": 4.685,
+ "duration": 4.814,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "In the twentieth century, the search moved from the library into the desert.",
    "tts": "In the twentieth century, the search moved from the library into the desert.",
    "start": 0.0,
-   "end": 4.685
+   "end": 4.814
   }
  ]
 }

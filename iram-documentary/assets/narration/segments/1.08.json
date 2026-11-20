@@ -1,7 +1,7 @@
 {
  "id": "1.08",
  "sr": 48000,
- "duration": 12.792,
+ "duration": 11.154,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "To answer them, we must keep different kinds of evidence apart: scripture, scholarship, legend, excavation and hypothesis.",
    "tts": "To answer them, we must keep different kinds of evidence apart: scripture, scholarship, legend, excavation and hypothesis.",
    "start": 0.0,
-   "end": 8.634
+   "end": 7.86
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "Throughout this film, each will be marked as it appears.",
    "tts": "Throughout this film, each will be marked as it appears.",
-   "start": 9.084,
-   "end": 12.792
+   "start": 8.11,
+   "end": 11.154
   }
  ]
 }

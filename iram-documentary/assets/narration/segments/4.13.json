@@ -1,7 +1,7 @@
 {
  "id": "4.13",
  "sr": 48000,
- "duration": 26.645,
+ "duration": 26.762,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "Excavation began under Juris Zarins.",
    "tts": "Excavation began under Juris Zarins.",
    "start": 0.0,
-   "end": 2.649
+   "end": 2.84
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "Beneath the later fort, the team uncovered the walls and towers of a much older fortress, more than two thousand years old in its earliest phases, according to its excavators.",
    "tts": "Beneath the later fort, the team uncovered the walls and towers of a much older fortress, more than two thousand years old in its earliest phases, according to its excavators.",
-   "start": 3.099,
-   "end": 14.463
+   "start": 3.24,
+   "end": 13.992
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "They found objects from Persia, Greece and Rome: the traces of long-distance trade.",
    "tts": "They found objects from Persia, Greece and Rome: the traces of long-distance trade.",
-   "start": 14.913,
-   "end": 20.225
+   "start": 14.442,
+   "end": 20.042
   },
   {
    "i": 3,
@@ -40,8 +40,8 @@
    "engine": "voxcpm",
    "display": "And they found that much of the fortress had collapsed into a sinkhole, the limestone cavern that held the well.",
    "tts": "And they found that much of the fortress had collapsed into a sinkhole, the limestone cavern that held the well.",
-   "start": 20.675,
-   "end": 26.645
+   "start": 20.242,
+   "end": 26.762
   }
  ]
 }

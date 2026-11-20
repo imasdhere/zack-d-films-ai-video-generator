@@ -1,7 +1,7 @@
 {
  "id": "5.03",
  "sr": 48000,
- "duration": 16.388,
+ "duration": 14.895,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "Elsewhere the wind is called ṣarṣar, raging, or roaring, and al-ʿaqīm, the barren wind.",
    "tts": "Elsewhere the wind is called sarsar, raging, or roaring, and al-aqeem, the barren wind.",
    "start": 0.0,
-   "end": 7.343
+   "end": 6.42
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "It blew, the Quran says, \"for seven long nights and eight long days\".",
    "tts": "It blew, the Quran says, for seven long nights and eight long days.",
-   "start": 7.793,
-   "end": 12.141
+   "start": 6.59,
+   "end": 10.66
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "Hūd, and those who believed with him, were saved.",
    "tts": "Hood, and those who believed with him, were saved.",
-   "start": 12.591,
-   "end": 16.388
+   "start": 10.86,
+   "end": 14.895
   }
  ]
 }

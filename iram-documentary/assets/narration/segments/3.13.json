@@ -1,7 +1,7 @@
 {
  "id": "3.13",
  "sr": 48000,
- "duration": 15.591,
+ "duration": 15.802,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "And this is the other reading, the one the classical scholars preferred: great tents of woven hair, raised on poles, moving across the land.",
    "tts": "And this is the other reading, the one the classical scholars preferred: great tents of woven hair, raised on poles, moving across the land.",
    "start": 0.0,
-   "end": 9.283
+   "end": 10.02
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "It too is an interpretation.",
    "tts": "It too is an interpretation.",
-   "start": 9.733,
-   "end": 11.91
+   "start": 10.23,
+   "end": 12.13
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "But it reminds us how much a single word can carry.",
    "tts": "But it reminds us how much a single word can carry.",
-   "start": 12.36,
-   "end": 15.591
+   "start": 12.58,
+   "end": 15.802
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "2.09",
  "sr": 48000,
- "duration": 12.094,
+ "duration": 10.554,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "What the Quran does not give us is a date, a map, or a description of a city.",
    "tts": "What the Quran does not give us is a date, a map, or a description of a city.",
    "start": 0.0,
-   "end": 6.158
+   "end": 4.49
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "It gives a moral history: a people given strength and plenty; a warning; a refusal.",
    "tts": "It gives a moral history: a people given strength and plenty; a warning; a refusal.",
-   "start": 6.608,
-   "end": 12.094
+   "start": 4.81,
+   "end": 10.554
   }
  ]
 }

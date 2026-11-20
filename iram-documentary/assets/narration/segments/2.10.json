@@ -1,7 +1,7 @@
 {
  "id": "2.10",
  "sr": 48000,
- "duration": 9.193,
+ "duration": 7.879,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "In this film, the Prophet Hūd is never shown.",
    "tts": "In this film, the Prophet Hood is never shown.",
    "start": 0.0,
-   "end": 2.989
+   "end": 2.8
   },
   {
    "i": 1,
@@ -19,9 +19,9 @@
    "profile": "english",
    "engine": "voxcpm",
    "display": "And the people of ʿĀd appear only as distant figures, because no one knows what they looked like.",
-   "tts": "And the people of Aa-d appear only as distant figures, because no one knows what they looked like.",
-   "start": 3.439,
-   "end": 9.193
+   "tts": "And the people of عَاد appear only as distant figures, because no one knows what they looked like.",
+   "start": 2.95,
+   "end": 7.879
   }
  ]
 }

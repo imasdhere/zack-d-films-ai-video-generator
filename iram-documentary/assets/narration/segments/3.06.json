@@ -1,7 +1,7 @@
 {
  "id": "3.06",
  "sr": 48000,
- "duration": 15.124,
+ "duration": 16.213,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "And he added a sentence that cuts to the heart of this mystery.",
    "tts": "And he added a sentence that cuts to the heart of this mystery.",
    "start": 0.0,
-   "end": 3.608
+   "end": 3.808
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "ولا يعلم بناء كان لهم بالعماد بخبر صحيح",
    "tts": "وَلَا يُعْلَمُ بِنَاءٌ كَانَ لَهُمْ بِالْعِمَادِ بِخَبَرٍ صَحِيحْ",
-   "start": 4.308,
-   "end": 9.588
+   "start": 4.508,
+   "end": 9.788
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "No building of theirs with columns, he wrote, is known through any authentic report.",
    "tts": "No building of theirs with columns, he wrote, is known through any authentic report.",
-   "start": 10.288,
-   "end": 15.124
+   "start": 10.488,
+   "end": 16.213
   }
  ]
 }

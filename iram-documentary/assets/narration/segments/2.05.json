@@ -1,7 +1,7 @@
 {
  "id": "2.05",
  "sr": 48000,
- "duration": 6.601,
+ "duration": 6.588,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "And they were certain of their own power.",
    "tts": "And they were certain of their own power.",
    "start": 0.0,
-   "end": 2.225
+   "end": 2.64
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "\"Who is mightier than us in power?\"",
    "tts": "Who is mightier than us in power?",
-   "start": 2.675,
-   "end": 5.129
+   "start": 3.57,
+   "end": 5.65
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "they ask.",
    "tts": "they ask.",
-   "start": 5.691,
-   "end": 6.601
+   "start": 6.03,
+   "end": 6.588
   }
  ]
 }

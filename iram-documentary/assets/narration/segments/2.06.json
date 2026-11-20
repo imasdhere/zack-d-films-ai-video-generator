@@ -1,7 +1,7 @@
 {
  "id": "2.06",
  "sr": 48000,
- "duration": 10.16,
+ "duration": 8.274,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "The Quran tells us where Hūd preached in a single phrase.",
    "tts": "The Quran tells us where Hood preached in a single phrase.",
    "start": 0.0,
-   "end": 3.395
+   "end": 3.36
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "He warned his people, it says, \"among the wind-curved sandhills\": bil-Aḥqāf.",
    "tts": "He warned his people, it says, among the wind-curved sandhills: bil-Ahqaaf.",
-   "start": 3.845,
-   "end": 10.16
+   "start": 3.52,
+   "end": 8.274
   }
  ]
 }

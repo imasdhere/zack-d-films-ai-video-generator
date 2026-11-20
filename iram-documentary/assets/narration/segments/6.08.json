@@ -1,7 +1,7 @@
 {
  "id": "6.08",
  "sr": 48000,
- "duration": 16.443,
+ "duration": 14.181,
  "sentences": [
   {
    "i": 0,
@@ -9,9 +9,9 @@
    "profile": "english",
    "engine": "voxcpm",
    "display": "Archaeology has found real places: a caravan fortress at Shisr, frankincense ports on the coast, and, in the north, inscriptions that name both Iram and a tribe called ʿĀd.",
-   "tts": "Archaeology has found real places: a caravan fortress at Shisr, frankincense ports on the coast, and, in the north, inscriptions that name both Ee-rahm and a tribe called Aa-d.",
+   "tts": "Archaeology has found real places: a caravan fortress at Shisr, frankincense ports on the coast, and, in the north, inscriptions that name both إِرَم and a tribe called عَاد.",
    "start": 0.0,
-   "end": 12.513
+   "end": 11.16
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "It has not found a city of a thousand pillars.",
    "tts": "It has not found a city of a thousand pillars.",
-   "start": 12.963,
-   "end": 16.443
+   "start": 11.25,
+   "end": 14.181
   }
  ]
 }

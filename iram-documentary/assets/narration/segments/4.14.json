@@ -1,7 +1,7 @@
 {
  "id": "4.14",
  "sr": 48000,
- "duration": 6.703,
+ "duration": 6.937,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "In February nineteen ninety-two, newspapers around the world announced that the lost city of Ubar had been found.",
    "tts": "In February nineteen ninety-two, newspapers around the world announced that the lost city of Ubar had been found.",
    "start": 0.0,
-   "end": 6.703
+   "end": 6.937
   }
  ]
 }

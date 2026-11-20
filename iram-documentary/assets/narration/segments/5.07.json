@@ -1,7 +1,7 @@
 {
  "id": "5.07",
  "sr": 48000,
- "duration": 18.451,
+ "duration": 18.832,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "In a cave called Qunf, in the mountains of Dhofar, a stalagmite has recorded rainfall for thousands of years, layer by layer.",
    "tts": "In a cave called Qunf, in the mountains of Dhofar, a stalagmite has recorded rainfall for thousands of years, layer by layer.",
    "start": 0.0,
-   "end": 7.874
+   "end": 8.573
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "A study published in two thousand and three found that monsoon rain here was stronger in the early Holocene, and that after about eight thousand years ago, it gradually declined.",
    "tts": "A study published in two thousand and three found that monsoon rain here was stronger in the early Holocene, and that after about eight thousand years ago, it gradually declined.",
-   "start": 8.324,
-   "end": 18.451
+   "start": 9.023,
+   "end": 18.832
   }
  ]
 }

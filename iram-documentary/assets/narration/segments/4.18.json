@@ -1,7 +1,7 @@
 {
  "id": "4.18",
  "sr": 48000,
- "duration": 16.249,
+ "duration": 12.865,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "So what did Shisr prove?",
    "tts": "So what did Shisr prove?",
    "start": 0.0,
-   "end": 2.109
+   "end": 1.5
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "It proved that ancient tracks can be traced from space.",
    "tts": "It proved that ancient tracks can be traced from space.",
-   "start": 2.672,
-   "end": 6.315
+   "start": 1.89,
+   "end": 4.75
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "It proved that this desert edge was busy with trade.",
    "tts": "It proved that this desert edge was busy with trade.",
-   "start": 6.765,
-   "end": 10.34
+   "start": 5.08,
+   "end": 7.76
   },
   {
    "i": 3,
@@ -40,8 +40,8 @@
    "engine": "voxcpm",
    "display": "It did not prove that Shisr was Ubar.",
    "tts": "It did not prove that Shisr was Ubar.",
-   "start": 10.79,
-   "end": 12.904
+   "start": 7.89,
+   "end": 10.33
   },
   {
    "i": 4,
@@ -49,9 +49,9 @@
    "profile": "english",
    "engine": "voxcpm",
    "display": "And it did not prove that Ubar was Iram.",
-   "tts": "And it did not prove that Ubar was Ee-rahm.",
-   "start": 13.354,
-   "end": 16.249
+   "tts": "And it did not prove that Ubar was إِرَم.",
+   "start": 10.55,
+   "end": 12.865
   }
  ]
 }

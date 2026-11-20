@@ -1,7 +1,7 @@
 {
  "id": "4.16",
  "sr": 48000,
- "duration": 15.733,
+ "duration": 13.645,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "Others went further.",
    "tts": "Others went further.",
    "start": 0.0,
-   "end": 1.41
+   "end": 0.99
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "In two thousand and four, the geologist H.",
    "tts": "In two thousand and four, the geologist H.",
-   "start": 1.86,
-   "end": 5.389
+   "start": 1.14,
+   "end": 3.14
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "Stewart Edgell published a critique titled \"The myth of the lost city of the Arabian Sands\", arguing that Shisr had been a small caravanserai, not a lost metropolis.",
    "tts": "Stewart Edgell published a critique titled The myth of the lost city of the Arabian Sands, arguing that Shisr had been a small caravanserai, not a lost metropolis.",
-   "start": 5.839,
-   "end": 15.733
+   "start": 3.28,
+   "end": 13.645
   }
  ]
 }

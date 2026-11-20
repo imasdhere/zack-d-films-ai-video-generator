@@ -1,7 +1,7 @@
 {
  "id": "1.01",
  "sr": 48000,
- "duration": 20.412,
+ "duration": 22.163,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "The Rubʿ al-Khālī, the Empty Quarter, covers some six hundred and fifty thousand square kilometres of the Arabian Peninsula, across parts of Saudi Arabia, Oman, the United Arab Emirates and Yemen.",
    "tts": "The Rub al Khaali, the Empty Quarter, covers some six hundred and fifty thousand square kilometres of the Arabian Peninsula, across parts of Saudi Arabia, Oman, the United Arab Emirates and Yemen.",
    "start": 0.0,
-   "end": 11.609
+   "end": 13.437
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "It is often described as the largest continuous sand desert on Earth.",
    "tts": "It is often described as the largest continuous sand desert on Earth.",
-   "start": 12.059,
-   "end": 16.271
+   "start": 13.887,
+   "end": 18.157
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "In places, its dunes rise more than two hundred metres.",
    "tts": "In places, its dunes rise more than two hundred metres.",
-   "start": 16.721,
-   "end": 20.412
+   "start": 18.667,
+   "end": 22.163
   }
  ]
 }

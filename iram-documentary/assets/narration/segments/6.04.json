@@ -1,7 +1,7 @@
 {
  "id": "6.04",
  "sr": 48000,
- "duration": 15.227,
+ "duration": 11.804,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "It is a serious proposal, built on careful readings of ancient texts.",
    "tts": "It is a serious proposal, built on careful readings of ancient texts.",
    "start": 0.0,
-   "end": 5.071
+   "end": 4.01
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "It is also new, and scholars are still weighing it.",
    "tts": "It is also new, and scholars are still weighing it.",
-   "start": 5.521,
-   "end": 9.373
+   "start": 4.12,
+   "end": 6.93
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "Like Shisr before it, it shows how much depends on the evidence we choose to follow.",
    "tts": "Like Shisr before it, it shows how much depends on the evidence we choose to follow.",
-   "start": 9.823,
-   "end": 15.227
+   "start": 7.11,
+   "end": 11.804
   }
  ]
 }

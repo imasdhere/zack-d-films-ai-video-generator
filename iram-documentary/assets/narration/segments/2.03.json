@@ -1,7 +1,7 @@
 {
  "id": "2.03",
  "sr": 48000,
- "duration": 17.173,
+ "duration": 16.47,
  "sentences": [
   {
    "i": 0,
@@ -11,7 +11,7 @@
    "display": "It describes a people blessed with plenty.",
    "tts": "It describes a people blessed with plenty.",
    "start": 0.0,
-   "end": 3.314
+   "end": 2.52
   },
   {
    "i": 1,
@@ -20,8 +20,8 @@
    "engine": "voxcpm",
    "display": "Hūd reminds them that God has aided them \"with cattle and sons, and gardens and watersprings.\"",
    "tts": "Hood reminds them that God has aided them with cattle and sons, and gardens and watersprings.",
-   "start": 3.764,
-   "end": 8.98
+   "start": 2.63,
+   "end": 8.315
   },
   {
    "i": 2,
@@ -30,8 +30,8 @@
    "engine": "voxcpm",
    "display": "He reminds them that they were given \"growth of stature\": in Arabic, basṭa, a word the commentators read as size, or strength, or reach.",
    "tts": "He reminds them that they were given growth of stature: in Arabic, basta, a word the commentators read as size, or strength, or reach.",
-   "start": 9.43,
-   "end": 17.173
+   "start": 8.765,
+   "end": 16.47
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "id": "6.03",
  "sr": 48000,
- "duration": 15.329,
+ "duration": 13.013,
  "sentences": [
   {
    "i": 0,
@@ -9,9 +9,9 @@
    "profile": "english",
    "engine": "voxcpm",
    "display": "In two thousand and twenty-five, the epigrapher Ahmad Al-Jallad published a study of pre-Islamic inscriptions written by members of a tribe called ʿĀd, in the deserts of the north, and argued that the Quranic names may belong to this region.",
-   "tts": "In two thousand and twenty-five, the epigrapher Ahmad Al-Jallad published a study of pre-Islamic inscriptions written by members of a tribe called Aa-d, in the deserts of the north, and argued that the Quranic names may belong to this region.",
+   "tts": "In two thousand and twenty-five, the epigrapher Ahmad Al-Jallad published a study of pre-Islamic inscriptions written by members of a tribe called عَاد, in the deserts of the north, and argued that the Quranic names may belong to this region.",
    "start": 0.0,
-   "end": 15.329
+   "end": 13.013
   }
  ]
 }

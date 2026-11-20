@@ -1,7 +1,7 @@
 {
  "id": "5.05",
  "sr": 48000,
- "duration": 13.105,
+ "duration": 12.418,
  "sentences": [
   {
    "i": 0,
@@ -19,9 +19,9 @@
    "profile": "english",
    "engine": "voxcpm",
    "display": "In another authentic report, he said: \"I was granted victory with the east wind, and ʿĀd were destroyed by the west wind.\"",
-   "tts": "In another authentic report, he said: I was granted victory with the east wind, and Aa-d were destroyed by the west wind.",
+   "tts": "In another authentic report, he said: I was granted victory with the east wind, and عَاد were destroyed by the west wind.",
    "start": 4.9,
-   "end": 13.105
+   "end": 12.418
   }
  ]
 }
