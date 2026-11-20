@@ -82,7 +82,7 @@ def final():
         L += [f"| {k} | {'; '.join(q[k]['notes'])} | {q[k]['asr'][:120]} |" for k in en_fail + ar_fail if k in q]
         L.append('')
     L += ['## Sign-off needed', '', '1. Listen to the whole film. Confirm that the English voice sounds like Video 1 and stays the same across chapters.',
-          '2. An Arabic speaker checks the five Arabic quotations (pronunciation, case endings, pauses).',
+          '2. An Arabic speaker checks the four Arabic quotations (five chunks): pronunciation, case endings, pauses.',
           '3. A qualified reciter or tajwid teacher reviews `assets/narration/quranic/` before any synthetic Quranic audio is used. Until then, none is used.',
           '4. Record the results in `assets/narration/narration_manifest.csv` (approval_status) and `research/quranic_verse_registry.csv`.']
     (ROOT / 'reports/final_audio_quality_control.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
