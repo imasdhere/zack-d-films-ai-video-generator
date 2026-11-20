@@ -71,6 +71,7 @@ def evaluation():
     S = M['samples']; sel = {lang: cfg['voice_profiles'][PROF].get('preferred_engine') for lang, PROF in (('en', 'english'), ('ar', 'arabic'))}
     L = ['# Voice-cloning evaluation', '', f"Date: {datetime.date.today().isoformat()}. Hardware: 4-vCPU Intel Xeon (AVX-512, AMX-BF16), 15 GiB RAM, no GPU, Linux cloud container (not a Mac; see `reports/system_hardware_audit.md`).", '',
          '## Result', '']
+    L += getattr(__import__('audio_engine.report_text', fromlist=['x']), 'SELECTION_V3', [])
     L += SELECTION_TEXT
     L += ['', '## Consent', '', cfg['consent']['statement'] + f" Confirmed by the {cfg['consent']['confirmed_by']} on {cfg['consent']['date']}.", '',
           '## References', '', '| Profile | Source | Clip | Duration | Median F0 | Notes |', '|---|---|---|---|---|---|']

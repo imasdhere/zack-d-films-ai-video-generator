@@ -69,3 +69,13 @@ All times are the container's local time on 2026-11-19.
 | 08:29 | Export | **Version 2 master: 21:36.6**, 1920×1080, 24 fps, H.264, AAC 48 kHz, soft English subtitles; 3.8 GB. 540p review copy. |
 | 08:48 | QC | 17/17 automated checks pass: −16.0 LUFS, −4.0 dBTP, no music, no freezes, sync within 4 ms, narration WER 0.113 (sampled). Final audio QA report written. |
 | 08:55 | Report | Evaluation re-scored. Finding: reference mode is less steady in pitch in English (chunk spread 3.4 vs 0.7 semitones) and the Qwen3 baseline scores best on the English proxies. Reported as an open choice for a listening decision. |
+
+## Version 3: steadier English voice, Arabic names, 1440p (2026-11-20)
+
+| Time | Stage | Event / decision |
+|---|---|---|
+| 09:30 | Feedback | Owner: the voice often cracks or changes into another person's voice; Iram and (qawm) ʿĀd are said the English way. Wanted: Arabic pronunciation, then a 1440p render. |
+| 09:40 | Diagnosis | Version 2 narration measured: 25 of 201 English chunks below 0.90 speaker similarity (another man scores about 0.84); chunk median pitch 70–113 Hz (spread 2.7 semitones); 48 chunks with frames far above their median pitch. The weakest chunks were short sentences (reference-mode cloning with little text context). |
+| 10:20 | Test | Voice-stability test, 4 set-ups × 8 paragraph chunks (`workflows/tts/eval/voice_stability_test.json`). Winner: continuation ("ultimate") cloning from the 9.9 s clip with 0.6 s of silence added, paragraph chunks: similarity 0.982 (min 0.973), median pitch 98.6 Hz (Video 1: 98.3 Hz), spread 0.4 semitones, first word 7/8 (the padding fixed most of the version-2 first-word problem). |
+| 10:22 | Names | Iram and ʿĀd are written in Arabic script (إِرَم, عَاد) inside the English TTS text. Whisper (English) now hears "Iram"/"Ad", not "Ee-rahm"/"Aa-d"; an Arabic recogniser hears ʿĀd with its ʿayn (عد) and Iram as إرم/إرام. Three Arabic spellings were compared; the differences were within the measurement noise, so the fully vowelled form is used. |
+| 10:25 | Narration | English re-voiced in 103 paragraph chunks (was 210 sentence chunks). Arabic quotations kept (they passed QA). Chunk QA now also fails voice drift (similarity < 0.93), pitch shifts over 3 semitones and pitch breaks. |

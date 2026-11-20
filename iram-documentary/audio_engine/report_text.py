@@ -24,8 +24,30 @@ LIMITS = [
     '- **Hardware.** Linux CPU container, not a Mac. No GPU.',
 ]
 
+SELECTION_V3 = [
+    '## Version 3 update (2026-11-20): what the film now uses',
+    '',
+    'After listening, the owner reported that the version-2 English voice cracked and sometimes turned into another person\'s voice, '
+    'and that Iram and ʿĀd were said the English way. Measurements confirmed it: 25 of 201 chunks scored below 0.90 similarity, '
+    'and chunk pitch ranged from 70 to 113 Hz. A voice-stability test (`workflows/tts/eval/voice_stability_test.json`) compared four set-ups on whole paragraphs:',
+    '',
+    '| Set-up | Similarity mean / min | Median pitch (Video 1: 98.3 Hz) | Pitch spread between chunks | Chunks with pitch breaks | First word |',
+    '|---|---|---|---|---|---|',
+    '| reference mode, 9.9 s clip | 0.941 / 0.910 | 95.8 Hz | 1.44 st | 1/8 | 8/8 |',
+    '| reference mode, 18 s clip | 0.956 / 0.926 | 88.1 Hz | 2.87 st | 0/8 | 8/8 |',
+    '| **ultimate mode, 9.9 s clip + 0.6 s silence** | **0.982 / 0.973** | **98.6 Hz** | **0.42 st** | 2/8 | 7/8 |',
+    '| ultimate mode, 18 s clip + 0.6 s silence | 0.976 / 0.971 | 91.9 Hz | 0.83 st | 1/8 | 7/8 |',
+    '',
+    '**Version 3 English settings:** VoxCPM2, ultimate (continuation) cloning from the Video 1 clip with 0.6 s of silence added, '
+    'paragraph chunks of up to 260 characters (103 chunks instead of 210), and Iram and ʿĀd written in Arabic script (إِرَم, عَاد) so that '
+    'they are said the Arabic way in the same voice. Chunk QA fails and regenerates any chunk with similarity below 0.93, a pitch shift over 3 semitones or pitch breaks. '
+    'The Arabic quotations are unchanged (reference mode; they passed QA).',
+    '',
+]
+
 SELECTION = [
-    '| Language | Selected engine (used in the exported film) | Configuration | Basis |',
+    '### Version 2 selection (superseded for English by the version 3 settings above)', '',
+    '| Language | Selected engine | Configuration | Basis |',
     '|---|---|---|---|',
     '| English | **VoxCPM2** | reference-mode cloning from Video 1 (9.9 s clip), cfg 2.0, 10 steps, bf16 CPU, VoxCPM pronunciation lexicon | The only engine from the brief that could run (Audar blocked). Clear speaker margin over the other voice (0.97 vs 0.85). Reference mode removes the first-word errors of ultimate mode (A/B test below). |',
     '| Arabic | **VoxCPM2** | reference-mode cloning from Video 2 (9.8 s clip), same settings | The only engine tested that speaks Arabic (Qwen3-TTS has no Arabic; Audar blocked). Best Arabic result of the tests: CER 0.041, similarity 0.979, steady pitch. |',
