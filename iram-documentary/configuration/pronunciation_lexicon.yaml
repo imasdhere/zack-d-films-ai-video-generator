@@ -36,8 +36,8 @@ qwen3:
 voxcpm:   # chosen by audio_engine/pronunciation_probe.py (see workflows/tts/eval/pronunciation_probe_voxcpm.json)
   "Iram": "Ee-rahm"
   "Rubʿ al-Khālī": "Rub al Khaali"
-  "dhāt al-ʿimād": "dhaat, al-Ee-maad"
-  "Dhāt al-ʿImād": "Dhaat, al-Ee-maad"
+  "dhāt al-ʿimād": "dhaat al-ee-maad"
+  "Dhāt al-ʿImād": "Dhaat al-ee-maad"
   "ʿimād": "ee-maad"
   "Sūrat al-Fajr": "Soorat al-Fajr"
   "al-Ṭabarī": "al-Tabari"

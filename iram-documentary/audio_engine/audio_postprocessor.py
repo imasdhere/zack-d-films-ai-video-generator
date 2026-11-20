@@ -32,6 +32,29 @@ def pause_after(item, nxt, cfg):
     return c['sentence_pause_s'] * (c['question_pause_factor'] if item['text'].rstrip().endswith(('?', '؟')) else 1.0)
 
 
+def sentence_bounds(w, sr, texts):
+    """Start and end (s) of each sentence inside one chunk: the expected split points (by text length) move to the
+    middle of the nearest pause (at least 90 ms quiet) within 0.9 s. One sentence -> the whole chunk."""
+    d = len(w) / sr
+    if len(texts) == 1: return [(0.0, d)]
+    hop = int(0.01 * sr); e = np.array([np.sqrt(np.mean(w[i:i + 2 * hop] ** 2)) for i in range(0, max(1, len(w) - 2 * hop), hop)])
+    quiet = 20 * np.log10(e + 1e-9) < 20 * np.log10(np.percentile(e, 95) + 1e-9) - 30
+    runs, s0 = [], None
+    for i, q in enumerate(np.append(quiet, False)):
+        if q and s0 is None: s0 = i
+        if not q and s0 is not None:
+            if i - s0 >= 9: runs.append(((s0 + i) / 2 * 0.01, s0 * 0.01, i * 0.01))
+            s0 = None
+    L = np.cumsum([len(x) for x in texts]); cuts = []
+    for k in range(len(texts) - 1):
+        exp = d * L[k] / L[-1]; near = [r for r in runs if abs(r[0] - exp) < 0.9 and (not cuts or r[0] > cuts[-1][0] + 0.3)]
+        cuts.append(min(near, key=lambda r: abs(r[0] - exp)) if near else (exp, exp, exp))
+    out, a = [], 0.0
+    for c in cuts: out.append((a, c[1])); a = c[2]
+    out.append((a, d))
+    return out
+
+
 def assemble_segment(items, sr=None):
     """items: ordered chunk dicts with 'wav', 'lang', 'pause_after', 'text', 'display', 'sentence_key'.
     Returns (audio, sentence timings)."""
@@ -50,12 +73,14 @@ def assemble_segment(items, sr=None):
     parts, timings, t = [], [], 0.0
     for k, (it, w) in enumerate(zip(items, ws)):
         nxt = items[k + 1] if k + 1 < len(items) else None
-        key = it['sentence_key']
-        if timings and timings[-1]['key'] == key:
-            timings[-1]['end'] = round(t + len(w) / sr, 3)
-        else:
-            timings.append({'key': key, 'i': len(timings), 'lang': it['lang'], 'profile': it['profile'], 'engine': it['engine'],
-                            'display': it['display'], 'tts': it['sentence_tts'], 'start': round(t, 3), 'end': round(t + len(w) / sr, 3)})
+        sents = it.get('sentences') or [{'key': it['sentence_key'], 'display': it['display'], 'tts': it['sentence_tts']}]
+        bounds = sentence_bounds(w, sr, [s_['tts'] for s_ in sents])
+        for s_, (a_, b_) in zip(sents, bounds):
+            if timings and timings[-1]['key'] == s_['key']:
+                timings[-1]['end'] = round(t + b_, 3)
+            else:
+                timings.append({'key': s_['key'], 'i': len(timings), 'lang': it['lang'], 'profile': it['profile'], 'engine': it['engine'],
+                                'display': s_['display'], 'tts': s_['tts'], 'start': round(t + a_, 3), 'end': round(t + b_, 3)})
         parts.append(w); t += len(w) / sr
         gap = pause_after(it, nxt, cfg)
         if gap: parts.append(np.zeros(int(sr * gap), np.float32)); t += gap

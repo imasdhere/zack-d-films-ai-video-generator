@@ -28,6 +28,12 @@ voice_profiles:
     reference: voice_profiles/english_narrator/cleaned_reference.wav
     transcript: voice_profiles/english_narrator/reference_transcript.txt
     preferred_engine: voxcpm
+    # Names spoken the Arabic way inside English narration (owner request 2026-11-20): the engine reads them in Arabic
+    # script, in the same voice. Display text and subtitles keep the transliteration.
+    names_in_arabic_script:
+      Iram: "إِرَم"
+      ʿĀd: "عَاد"
+      ʾrm: "إِرَم"
   arabic:
     id: arabic_narrator
     language: ar
@@ -88,6 +94,7 @@ routing:
 
 chunking:
   en_max_chars: 260
+  en_group_chars: 260           # consecutive English sentences share one chunk up to this length (voice stability)
   ar_max_chars: 200
   sentence_pause_s: 0.45
   question_pause_factor: 1.25

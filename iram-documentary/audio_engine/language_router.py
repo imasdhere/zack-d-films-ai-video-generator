@@ -13,6 +13,7 @@ Routing rules (configuration/voice_config.yaml: routing):
   * any Arabic part with >= n consecutive words found in the Quran goes to the Quranic workflow, is kept out of the
     mix and is never approved automatically.
 """
+import re
 import yaml
 from .common import ROOT, config, script_ratio, strip_diacritics
 from . import quranic_validator as QV
@@ -24,8 +25,18 @@ def lexicon(engine):
     return lx.get(engine) or lx['qwen3']
 
 
+def arabic_names(text, mapping):
+    """Write the listed names in Arabic script, so a multilingual engine says them the Arabic way in the same voice.
+    Whole words only: ʿĀd does not match ʿĀdite or ʿĀʾisha."""
+    for latin, arabic in sorted(mapping.items(), key=lambda kv: -len(kv[0])):
+        text = re.sub(rf'(?<![\w\u02BF\u02BE]){re.escape(latin)}(?![\w\u02BF\u02BE])', arabic, text)
+    return text
+
+
 def tts_text_en(display, engine):
     t = display.replace('“', '"').replace('”', '"').replace('’', "'").replace('‘', "'")
+    names = config()['voice_profiles']['english'].get('names_in_arabic_script', {}) if engine == 'voxcpm' else {}
+    if names: t = arabic_names(t, names)
     lx = lexicon(engine)
     for k in sorted(lx, key=len, reverse=True): t = t.replace(k, lx[k])
     return ' '.join(t.replace('"', '').split())

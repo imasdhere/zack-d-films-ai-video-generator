@@ -1,7 +1,7 @@
 """Automated quality control of the final master. Writes reports/qc_metrics.json (the report is written from it)."""
-import json, re, subprocess, sys, pathlib, numpy as np, soundfile as sf
+import json, os, re, subprocess, sys, pathlib, numpy as np, soundfile as sf
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-F = ROOT / 'renders/final/iram_lost_city_documentary.mp4'
+F = ROOT / 'renders/final' / (os.environ.get('IRAM_MASTER_NAME', 'iram_lost_city_documentary') + '.mp4')
 res = {}
 def run(cmd): return subprocess.run(cmd, capture_output=True, text=True)
 # 1. container / streams

@@ -32,20 +32,37 @@ def seed_for(cid, base=20261119):
 
 
 def plan():
-    cfg = config(); script = load_yaml('screenplay/script.yaml'); items = []
+    """Chunk plan. English: consecutive sentences of a segment are grouped into one chunk of at most
+    chunking.en_group_chars characters (more context keeps the cloned voice steady); a sentence that is longer than
+    en_max_chars is split at clauses. Arabic quotations are separate chunks. Every chunk lists its sentences."""
+    cfg = config(); script = load_yaml('screenplay/script.yaml'); items = []; ck = cfg['chunking']
+    group = ck.get('en_group_chars', 0)
     for ch in script['chapters']:
         for seg in ch['segments']:
-            for pi, p in enumerate(route_segment(seg, ch['id'])):
-                eng = engine_for(p['profile'], cfg); lang = p['lang']
-                tts = tts_text_en(p['display'], eng) if lang == 'en' else p['tts']
-                cs = chunk(tts, lang, cfg['chunking'][f'{lang}_max_chars'], merge_short=cfg['chunking'].get(f'merge_short_{lang}', False))
+            parts = route_segment(seg, ch['id'])
+            units = []                       # (part indices, lang, profile) in order
+            for pi, p in enumerate(parts):
+                tts = tts_text_en(p['display'], engine_for(p['profile'], cfg)) if p['lang'] == 'en' else p['tts']
+                p['_tts'] = tts
+                if (group and p['lang'] == 'en' and units and units[-1][1] == 'en' and len(tts) <= ck['en_max_chars']
+                        and sum(len(parts[i]['_tts']) + 1 for i in units[-1][0]) + len(tts) <= group):
+                    units[-1][0].append(pi)
+                else: units.append(([pi], p['lang'], p['profile']))
+            for gi, (pis, lang, prof) in enumerate(units):
+                p0 = parts[pis[0]]; eng = engine_for(prof, cfg)
+                if len(pis) > 1:
+                    cs = [{'text': ' '.join(parts[i]['_tts'] for i in pis), 'pause_after': 'sentence'}]
+                else:
+                    cs = chunk(p0['_tts'], lang, ck[f'{lang}_max_chars'], merge_short=ck.get(f'merge_short_{lang}', False))
                 for ci, c in enumerate(cs):
-                    cid = f"{seg['id']}_p{pi:02d}_c{ci:02d}"
-                    items.append({'id': cid, 'segment_id': seg['id'], 'chapter': ch['id'], 'part': pi, 'chunk': ci, 'lang': lang,
-                                  'profile': p['profile'], 'category': p['category'], 'engine': eng, 'text': c['text'], 'pause_after': c['pause_after'],
-                                  'display': p['display'], 'sentence_tts': tts, 'sentence_key': f"{seg['id']}:{pi}",
-                                  'include_in_mix': p['include_in_mix'], 'approval': p['approval'], 'flags': p['flags'],
-                                  'wav': str(NARR / LANGDIR[p['profile']] / 'chunks' / f'{cid}.wav'), 'seed': seed_for(cid)})
+                    cid = f"{seg['id']}_g{gi:02d}_c{ci:02d}"
+                    items.append({'id': cid, 'segment_id': seg['id'], 'chapter': ch['id'], 'part': pis[0], 'chunk': ci, 'lang': lang,
+                                  'profile': prof, 'category': p0['category'], 'engine': eng, 'text': c['text'], 'pause_after': c['pause_after'],
+                                  'display': ' '.join(parts[i]['display'] for i in pis), 'sentence_tts': p0['_tts'],
+                                  'sentence_key': f"{seg['id']}:{pis[0]}",
+                                  'sentences': [{'key': f"{seg['id']}:{i}", 'display': parts[i]['display'], 'tts': parts[i]['_tts']} for i in pis],
+                                  'include_in_mix': p0['include_in_mix'], 'approval': p0['approval'], 'flags': sum((parts[i]['flags'] for i in pis), []),
+                                  'wav': str(NARR / LANGDIR[prof] / 'chunks' / f'{cid}.wav'), 'seed': seed_for(cid)})
     return items
 
 

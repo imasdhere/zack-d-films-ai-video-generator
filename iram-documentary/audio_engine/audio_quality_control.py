@@ -216,7 +216,8 @@ def chunk_qa(item, cfg):
     q = cfg['qa']; x = load16(item['wav']); d = len(x) / SR; notes = []
     hyp = transcribe(x, item['lang'])
     if item['lang'] == 'en':
-        err = wer_without_names(item['text'], hyp); raw, _ = error_rates(item['text'], hyp, 'en'); lim = q['max_wer_en']
+        ref_t = re.sub(r'[\u0600-\u06FF]+', 'Iram', item['text'])   # Arabic-script names = name tokens
+        err = wer_without_names(ref_t, hyp); item = {**item, 'text': ref_t}; raw, _ = error_rates(item['text'], hyp, 'en'); lim = q['max_wer_en']
     else:
         raw, err = error_rates(item['text'], hyp, 'ar'); lim = q['max_cer_ar']
     sim = round(cos(embed(x), _ref_emb(item['profile'])), 3) if d >= 1.5 else None

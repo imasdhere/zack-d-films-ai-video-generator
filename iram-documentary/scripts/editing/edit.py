@@ -247,7 +247,8 @@ class GfxShot:
         else:
             im = G.render(a, tl, self.dur, o.get('step', 0), bg=self.bg)
         f = np.array(im)
-        return f if self.sc == 1 else cv2.resize(f, (int(W * self.sc), int(H * self.sc)), interpolation=cv2.INTER_AREA)
+        if self.sc == 1: return f
+        return cv2.resize(f, (int(W * self.sc), int(H * self.sc)), interpolation=cv2.INTER_LANCZOS4 if self.sc > 1 else cv2.INTER_AREA)
 
 def make_shot(shot, scale):
     if shot['move'] == 'gfx': return GfxShot(shot, scale)
@@ -296,18 +297,19 @@ def finish(frame, fi, scale):
 
 # ------------------------------------------------------------------ video render
 def render_video(chapter, preview=False, part=None):
-    tl = json.load(open(TL)); scale = 0.5 if preview else 1.0; fps = 12 if preview else FPS
+    # IRAM_SCALE=1.3333333 renders 2560x1440 (stills are resampled from the source; graphics and overlays drawn at 1080p are upscaled)
+    tl = json.load(open(TL)); scale = 0.5 if preview else float(os.environ.get('IRAM_SCALE', '1.0')); fps = 12 if preview else FPS
     shots = [s for s in tl['shots'] if chapter == 'all' or s['chapter'] == int(chapter)]
     t0 = shots[0]['start']; t1 = shots[-1]['end']
     if chapter != 'all' and int(chapter) < 7:
         nxt = [s for s in tl['shots'] if s['chapter'] == int(chapter) + 1]
         t1 = nxt[0]['start'] if nxt else t1
     suffix = '' if not part else f"_part{part[0]}of{part[1]}"
-    out = ROOT / ('renders/previews' if preview else 'renders/chapters') / f"chapter_{chapter}{suffix}.mp4"
+    out = ROOT / ('renders/previews' if preview else os.environ.get('IRAM_CHAPTER_DIR', 'renders/chapters')) / f"chapter_{chapter}{suffix}.mp4"
     out.parent.mkdir(parents=True, exist_ok=True)
     w, h = int(W * scale), int(H * scale)
     cmd = ['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{w}x{h}', '-r', str(fps), '-i', '-',
-           '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'medium', '-crf', '23' if preview else '16', '-pix_fmt', 'yuv420p',
+           '-c:v', 'libx264', '-preset', 'veryfast' if preview else 'medium', '-crf', '23' if preview else os.environ.get('IRAM_CRF', '16'), '-pix_fmt', 'yuv420p',
            '-x264-params', 'keyint=48', '-r', str(fps), str(out)]
     live = {}; nfr = int(round((t1 - t0) * fps)); total_start = tl['shots'][0]['start']; film_end = tl['duration']
     f_lo, f_hi = (0, nfr) if not part else ((part[0] - 1) * nfr // part[1], part[0] * nfr // part[1])

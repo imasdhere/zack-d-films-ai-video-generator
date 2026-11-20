@@ -36,7 +36,7 @@ rows = [
     ('Every reconstruction / legend / illustration labelled on screen', f"{len(unlabelled)} unlabelled", len(unlabelled) == 0),
     ('Visual variety', f"{m['shots']['count']} shots, {m['shots']['unique_assets']} unique assets, mean {m['shots']['mean_shot_s']} s; most reused: {m['shots']['max_reuse'][:3]}", m['shots']['unique_assets'] >= 80),
 ]
-md = ['# Quality-control report', '', f"Master: `renders/final/iram_lost_city_documentary.mp4` ({c['size_mb']} MB). Automated checks: `scripts/quality_control/qc.py` → `reports/qc_metrics.json`.", '',
+md = ['# Quality-control report', '', f"Master: `renders/final/{__import__('os').environ.get('IRAM_MASTER_NAME', 'iram_lost_city_documentary')}.mp4` ({c['width']}×{c['height']}, {c['size_mb']} MB). Automated checks: `scripts/quality_control/qc.py` → `reports/qc_metrics.json`.", '',
       '## Technical and audio checks', '', '| Check | Result | Pass |', '|---|---|---|']
 md += [f'| {a} | {b} | {ok(p)} |' for a, b, p in rows]
 md += ['', '## Narration WER by sampled segment', '', '| Segment | WER |', '|---|---|'] + [f"| {x['seg']} | {x['wer']} |" for x in m['narration_wer_sampled']]

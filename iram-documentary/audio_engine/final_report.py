@@ -12,12 +12,12 @@ def coverage():
     """Text-level check: the chunks of every part reproduce its text exactly once (no missing or repeated sentences)."""
     items = SM.plan(); probs = []
     by = {}
-    for i in items: by.setdefault(i['sentence_key'], []).append(i)
+    for i in items: by.setdefault(i['id'].rsplit('_c', 1)[0], []).append(i)       # one group = one or more sentences
     for k, its in by.items():
-        got = ' '.join(i['text'] for i in sorted(its, key=lambda i: i['chunk'])); want = its[0]['sentence_tts']
+        got = ' '.join(i['text'] for i in sorted(its, key=lambda i: i['chunk'])); want = ' '.join(s['tts'] for s in its[0]['sentences'])
         n = norm_ar if its[0]['lang'] == 'ar' else norm_en
         if n(got) != n(want): probs.append(k)
-    return len(by), probs
+    return sum(len(v[0]['sentences']) for v in by.values()), probs
 
 
 def final():
@@ -28,7 +28,7 @@ def final():
     def stat(lang, key):
         v = [q[i['id']][key] for i in mix if i['lang'] == lang and i['id'] in q and q[i['id']].get(key) is not None]
         return v
-    L = ['# Final audio quality-control report (version 2: cloned narrators)', '', f"Date: {datetime.date.today().isoformat()}. Master: `renders/final/iram_lost_city_documentary.mp4`.", '',
+    L = ['# Final audio quality-control report (cloned narrators)', '', f"Date: {datetime.date.today().isoformat()}. Master: `renders/final/{__import__('os').environ.get('IRAM_MASTER_NAME', 'iram_lost_city_documentary')}.mp4`.", '',
          'Automatic checks are listed with their measured values. Items that need a human (listening, Arabic language review, Quranic review) are marked **open** until a person signs them off.', '']
     # English
     en_err = stat('en', 'err'); en_sim = stat('en', 'similarity'); ar_err = stat('ar', 'err'); ar_sim = stat('ar', 'similarity')
